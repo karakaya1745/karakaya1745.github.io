@@ -1,1 +1,118 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KASA — Gizlilik Politikası / Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      line-height: 1.6;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      color: #1a1a1a;
+      background: #fafafa;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { color: #e8e8e8; background: #121212; }
+      a { color: #8ab4f8; }
+    }
+    h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
+    h2 { font-size: 1.15rem; margin-top: 1.75rem; }
+    .meta { color: #666; font-size: 0.9rem; }
+    table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.95rem; }
+    th, td { border: 1px solid #ccc; padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; }
+    th { background: #eee; }
+    @media (prefers-color-scheme: dark) {
+      th, td { border-color: #444; }
+      th { background: #222; }
+      .meta { color: #aaa; }
+    }
+    hr { margin: 2rem 0; border: none; border-top: 1px solid #ccc; }
+  </style>
+</head>
+<body>
+  <h1>KASA — Gizlilik Politikası</h1>
+  <p class="meta">Uygulama: KASA (com.kalanparam.app) · Son güncelleme: 19 Haziran 2026</p>
 
+  <p><strong>KASA</strong>, kişisel bütçe ve harcama takibi için tasarlanmış bir mobil uygulamadır.
+  Gelir, gider ve hatırlatıcı kayıtlarınız <strong>öncelikle cihazınızda</strong>, çevrimdışı uyumlu
+  bir SQLite veritabanında (<code>kalan_param.db</code>) saklanır. Tercihler yerel
+  <code>SharedPreferences</code> içindedir.</p>
+
+  <h2>Topladığımız veri</h2>
+  <ul>
+    <li><strong>Hesap veya profil toplamıyoruz;</strong> geliştirici tarafında bütçe verisi sunucusu yoktur.</li>
+    <li>Bütçe kayıtlarınız yalnızca sizin oluşturduğunuz işlem ve hatırlatıcı verilerinden oluşur;
+        bunlar <strong>bizim sunucularımıza gönderilmez</strong>.</li>
+  </ul>
+
+  <h2>SMS okuma (Android, isteğe bağlı — Pro)</h2>
+  <p>Banka ve fatura SMS'lerinden gider önerisi sunmak için <code>READ_SMS</code> izni istenebilir.
+  Bu özellik tamamen isteğe bağlıdır; açmadan uygulamayı kullanabilirsiniz.</p>
+  <ul>
+    <li>SMS metinleri <strong>yalnızca cihazınızda</strong> okunur ve işlenir; sunucuya gönderilmez.</li>
+    <li>Yalnızca <strong>siz onayladığınız</strong> öneriler gider olarak kaydedilir.</li>
+    <li>İzin vermeden önce uygulama içinde açıklayıcı bir bilgilendirme ekranı gösterilir.</li>
+  </ul>
+
+  <h2>Reklam — Google AdMob</h2>
+  <p>Uygulama <strong>Google Mobile Ads (AdMob)</strong> SDK'sını içerir. Reklamlar etkinleştirildiğinde
+  Google sunucularıyla ağ üzerinden iletişim kurulabilir. Bu kapsamda Google; reklam kimliği, IP adresi
+  ve cihaz/uygulama bağlamı gibi bilgileri
+  <a href="https://policies.google.com/technologies/ads">Google reklam politikalarına</a> uygun işleyebilir.
+  Bütçe verileriniz reklam amacıyla sunucumuza gönderilmez.</p>
+
+  <h2>İzinler</h2>
+  <table>
+    <thead><tr><th>İzin</th><th>Amaç</th></tr></thead>
+    <tbody>
+      <tr><td><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code></td><td>AdMob reklam yükleme; isteğe bağlı Google Drive yedekleme.</td></tr>
+      <tr><td><code>POST_NOTIFICATIONS</code></td><td>Android 13+ hatırlatıcı bildirimleri.</td></tr>
+      <tr><td><code>RECEIVE_BOOT_COMPLETED</code></td><td>Cihaz yeniden başladığında hatırlatıcıları yeniden zamanlama.</td></tr>
+      <tr><td><code>VIBRATE</code></td><td>Bildirim titreşimi.</td></tr>
+      <tr><td><code>CAMERA</code></td><td>Fiş fotoğrafından metin okuma (OCR); yalnızca siz fiş taramayı başlattığınızda.</td></tr>
+      <tr><td><code>READ_SMS</code></td><td>İsteğe bağlı banka/fatura SMS'lerinden gider önerisi (Android, Pro).</td></tr>
+      <tr><td><code>USE_BIOMETRIC</code></td><td>İsteğe bağlı uygulama kilidi (parmak izi / yüz tanıma).</td></tr>
+    </tbody>
+  </table>
+  <p>Galeri erişimi için geniş medya izni kullanılmaz; Android Photo Picker tercih edilir.</p>
+
+  <h2>Yedekleme ve dışa aktarma</h2>
+  <p>JSON yedek alma, geri yükleme ve dışa aktarma yalnızca <strong>sizin başlattığınız</strong>
+  işlemlerle yapılır. Dosya seçtiğiniz konuma veya paylaşım hedefine iletilir.</p>
+
+  <h2>Çocuklar</h2>
+  <p>Uygulama 13 yaş altına yönelik değildir.</p>
+
+  <h2>İletişim</h2>
+  <p>Sorular: <a href="mailto:karakaya1745@gmail.com">karakaya1745@gmail.com</a></p>
+
+  <hr>
+
+  <h1>KASA — Privacy Policy (English)</h1>
+  <p class="meta">App: KASA (com.kalanparam.app) · Last updated: June 19, 2026</p>
+
+  <p><strong>KASA</strong> is a personal budget and expense tracking app. Your income, expense, and
+  reminder records are stored <strong>primarily on your device</strong> in a local SQLite database
+  (<code>kalan_param.db</code>). We do not operate a backend that stores your budget data.</p>
+
+  <h2>SMS (Android, optional — Pro)</h2>
+  <p>With your consent, KASA may read bank and bill SMS on-device to suggest expenses
+  (<code>READ_SMS</code>). SMS text is never sent to our servers; only suggestions you approve are saved.</p>
+
+  <h2>Ads — Google AdMob</h2>
+  <p>The app includes Google Mobile Ads. When ads are enabled, Google may process advertising-related
+  data under <a href="https://policies.google.com/technologies/ads">Google's policies</a>.
+  Your budget entries are not uploaded to us for advertising.</p>
+
+  <h2>Permissions</h2>
+  <p>Notifications (reminders), camera (receipt OCR), optional SMS suggestions, and optional biometric
+  app lock. Gallery access uses the system photo picker without broad media permissions.</p>
+
+  <h2>Contact</h2>
+  <p>Questions: <a href="mailto:karakaya1745@gmail.com">karakaya1745@gmail.com</a></p>
+</body>
+</html>
