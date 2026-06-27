@@ -1,5 +1,5 @@
 {
-  "_revision": 91,
+  "_revision": 92,
   "trt1": [
     "https://tv-trt1.medya.trt.com.tr/master.m3u8",
     "https://tv-trt1.medya.trt.com.tr/master_720.m3u8",
@@ -352,7 +352,8 @@
     "https://streams.uzunmuhalefet.com/stream/35b6fa6f-7915-4303-8198-30c2d7b82929.m3u8",
     "https://sahsahbazz.testworker0y.workers.dev/channel/S2FuYWwgMjQ=",
     "https://metvvavmetv.64fetih.workers.dev/?ID=38229012391e140a7f75ba",
-    "http://cdn.vizitv.workers.dev/37.m3u8"
+    "http://cdn.vizitv.workers.dev/37.m3u8",
+    "https://vavo.sayezec.workers.dev/ID=38229012391e140a7f75ba"
   ],
   "turkhaber": [
     "https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8"
@@ -961,7 +962,8 @@
     "https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8",
     "https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/chunks.m3u8",
     "https://streams.uzunmuhalefet.com/stream/ec7f985d-0867-4ddc-8e52-d0c9ed25f819.m3u8",
-    "https://metvvavmetv.64fetih.workers.dev/?ID=1917558455120761543969"
+    "https://metvvavmetv.64fetih.workers.dev/?ID=1917558455120761543969",
+    "https://vavo.sayezec.workers.dev/ID=1917558455120761543969"
   ],
   "caytv": [
     "https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8",
@@ -1513,5 +1515,104 @@
   ],
   "kraltv": [
     "https://dogus-live.daioncdn.net/kraltv/kraltv.m3u8"
+  ],
+  "fx": [
+    "https://vavo.sayezec.workers.dev/ID=382143364970784d990878"
+  ],
+  "eurostar": [
+    "https://vavo.sayezec.workers.dev/ID=1827094680ef16ad2f8b38"
+  ],
+  "krt": [
+    "https://vavo.sayezec.workers.dev/ID=331685130407411552595"
+  ],
+  "vatantv": [
+    "https://vavo.sayezec.workers.dev/ID=32821815116af88acacbb6"
+  ],
+  "kanalz": [
+    "https://vavo.sayezec.workers.dev/ID=336832863925e92ac188c1"
+  ],
+  "kanal24": [
+    "https://vavo.sayezec.workers.dev/ID=4179564147cef11bb1db33"
+  ],
+  "kanal34": [
+    "https://vavo.sayezec.workers.dev/ID=18693393220cb8b1cc1d42"
+  ],
+  "adatv": [
+    "https://vavo.sayezec.workers.dev/ID=21347352852305a53dccfa"
+  ],
+  "kozatv": [
+    "https://vavo.sayezec.workers.dev/ID=1047804470f83375a3863a"
+  ],
+  "tv42": [
+    "https://vavo.sayezec.workers.dev/ID=9760498644cca0d67323e"
+  ],
+  "koytv": [
+    "https://vavo.sayezec.workers.dev/ID=870320507489feac51e9a"
+  ],
+  "tiviturk": [
+    "https://vavo.sayezec.workers.dev/ID=7021579547bba092a6b21"
+  ],
+  "finesttv": [
+    "https://vavo.sayezec.workers.dev/ID=2663765748ad351c6aadb3"
+  ],
+  "brt1": [
+    "https://vavo.sayezec.workers.dev/ID=2793254316da8e310eaaf8"
+  ],
+  "brt2": [
+    "https://vavo.sayezec.workers.dev/ID=37894122206a5d105c20d3"
+  ],
+  "kibrisgenctv": [
+    "https://vavo.sayezec.workers.dev/ID=311547741928e82131a818"
+  ],
+  "kibriskanalt": [
+    "https://vavo.sayezec.workers.dev/ID=506213824a8ea2f79b5e0"
+  ],
+  "kibristv": [
+    "https://vavo.sayezec.workers.dev/ID=6319306667939f9fe7402"
+  ],
+  "viyanatv": [
+    "https://vavo.sayezec.workers.dev/ID=344251480556f9e5db0f41"
+  ],
+  "gurbet24tv": [
+    "https://vavo.sayezec.workers.dev/ID=55116964941a7acb8360"
+  ],
+  "medyahaber": [
+    "https://vavo.sayezec.workers.dev/ID=22309682628a9ba731b044"
+  ],
+  "globalhaber": [
+    "https://vavo.sayezec.workers.dev/ID=1224377838995614ed0843"
+  ],
+  "apara": [
+    "https://vavo.sayezec.workers.dev/ID=389201701482a8da622d92"
+  ],
+  "ekolspor": [
+    "https://vavo.sayezec.workers.dev/ID=814969642ed05792517e0"
+  ],
+  "diyartv": [
+    "https://vavo.sayezec.workers.dev/ID=4252763849da396737d0fb"
+  ],
+  "rehbertv": [
+    "https://vavo.sayezec.workers.dev/ID=4239242367fb52ed133368"
+  ],
+  "kudustv": [
+    "https://vavo.sayezec.workers.dev/ID=3035951797e8a56cf0ef58"
+  ],
+  "vuslattv": [
+    "https://vavo.sayezec.workers.dev/ID=94903312294e3da09f3b7"
+  ],
+  "yoltv": [
+    "https://vavo.sayezec.workers.dev/ID=1377055653aae1eccd061c"
+  ],
+  "mesajtv": [
+    "https://vavo.sayezec.workers.dev/ID=1751593588ad9f10b37811"
+  ],
+  "kardelentv": [
+    "https://vavo.sayezec.workers.dev/ID=127011060769330a43e05e"
+  ],
+  "trt3": [
+    "https://vavo.sayezec.workers.dev/ID=418740351278f04c94b243"
+  ],
+  "trt4k": [
+    "https://vavo.sayezec.workers.dev/ID=3317656516b0224418b6a8"
   ]
 }
