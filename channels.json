@@ -1336,5 +1336,11 @@
     "url": "https://www.kralmuzik.com.tr/",
     "category": "Muzik",
     "streamUrl": "https://dogus-live.daioncdn.net/kraltv/kraltv.m3u8"
-  }
+  },
+  {
+  "name": "TRT GENÇ",
+  "url": "https://www.tabii.com/tr/watch/live/trtgenc?trackId=606324",
+  "category": "Kamu",
+  "streamUrl": "https://tv-trtgenc.medya.trt.com.tr/master.m3u8"
+}
 ]
