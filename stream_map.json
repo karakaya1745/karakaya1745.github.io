@@ -867,6 +867,9 @@
     "https://metvvavmetv.64fetih.workers.dev/?ID=38843190334c7e81c1c6fc",
     "http://cdn.vizitv.workers.dev/34.m3u8"
   ],
+  "TRT GENÇ": [
+    "https://tv-trtgenc.medya.trt.com.tr/master.m3u8"
+  ],
   "trtturk": [
     "https://tv-trtturk.medya.trt.com.tr/master.m3u8",
     "https://vavoo.biz-az.workers.dev/play/3508477481da6e398ed11e",
@@ -1611,8 +1614,4 @@
   ],
   "trt4k": [
     "https://vavo.sayezec.workers.dev/ID=3317656516b0224418b6a8"
-  ],
-  "TRT GENÇ": [
-    "https://tv-trtgenc.medya.trt.com.tr/master.m3u8"
-  ],
 }
