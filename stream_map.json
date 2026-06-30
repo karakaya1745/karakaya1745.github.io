@@ -295,7 +295,7 @@
     "http://cdn.vizitv.workers.dev/17.m3u8"
   ],
   "cnnturk": [
-    "http://v2.iptvspor.de:8080/live/hasando1/izmir251/10c96b93-304a-4ff4-bfbf-dc98bd519d76.ts"
+    http://v2.iptvspor.de:8080/live/hasando1/izmir251/10c96b93-304a-4ff4-bfbf-dc98bd519d76.ts
     "https://live.duhnet.tv/S2/HLS_LIVE/cnnturknp/playlist.m3u8",
     "https://live.duhnet.tv/S2/HLS_LIVE/cnnturknp/track_4_1000/playlist.m3u8",
     "https://demiroren-live.daioncdn.net/cnnturk/cnnturk.m3u8"
