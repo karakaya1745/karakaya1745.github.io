@@ -84,18 +84,6 @@
     "streamUrl": "http://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax.m3u8"
   },
   {
-    "name": "TV100",
-    "url": "https://www.tv100.com/canli-yayin",
-    "category": "Ulusal",
-    "streamUrl": "https://tv100-live.daioncdn.net/tv100/tv100.m3u8"
-  },
-  {
-    "name": "TYT Türk",
-    "url": "https://tytturk.com/",
-    "category": "Ulusal",
-    "streamUrl": "https://tytturk-live.ercdn.net/tytturk/tytturk.m3u8"
-  },
-    {
     "name": "TRT Haber",
     "url": "https://www.trtizle.com/canli/tv/trt-haber",
     "category": "Kamu",
@@ -118,6 +106,18 @@
     "url": "https://www.haberturk.com/canliyayin",
     "category": "Haber",
     "streamUrl": "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv_1080p.m3u8"
+  },
+  {
+    "name": "Sözcü TV",
+    "url": "https://www.szctv.com.tr/canli-yayin-izle",
+    "category": "Haber",
+    "streamUrl": "https://ythls.armelin.one/channel/UCOulx_rep5O4i9y6AyDqVvw.m3u8"
+  },
+   {
+    "name": "Halk TV",
+    "url": "https://halktv.com.tr/canli-yayin",
+    "category": "Haber",
+    "streamUrl": "https://halktv.daioncdn.net/halktv/halktv_1080p.m3u8?app=c86957d3-74a7-44da-9ad2-dc358c769609"
   },
   {
     "name": "A Haber",
@@ -144,22 +144,22 @@
     "streamUrl": "https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8"
   },
   {
-    "name": "Sözcü TV",
-    "url": "https://www.szctv.com.tr/canli-yayin-izle",
-    "category": "Haber",
-    "streamUrl": "https://ythls.armelin.one/channel/UCOulx_rep5O4i9y6AyDqVvw.m3u8"
-  },
-  {
     "name": "TVNET",
     "url": "https://www.tvnet.com.tr/canli-yayin",
     "category": "Haber",
     "streamUrl": "https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8"
   },
+   {
+    "name": "TV100",
+    "url": "https://www.tv100.com/canli-yayin",
+    "category": "Ulusal",
+    "streamUrl": "https://tv100-live.daioncdn.net/tv100/tv100.m3u8"
+  },
   {
-    "name": "Halk TV",
-    "url": "https://halktv.com.tr/canli-yayin",
-    "category": "Haber",
-    "streamUrl": "https://halktv.daioncdn.net/halktv/halktv_1080p.m3u8?app=c86957d3-74a7-44da-9ad2-dc358c769609"
+    "name": "TYT Türk",
+    "url": "https://tytturk.com/",
+    "category": "Ulusal",
+    "streamUrl": "https://tytturk-live.ercdn.net/tytturk/tytturk.m3u8"
   },
   {
     "name": "A News",
