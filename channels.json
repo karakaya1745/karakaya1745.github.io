@@ -1193,6 +1193,12 @@
     "streamUrl": "https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8"
   },
   {
+    "name": "DAMAR TÜRK TV",
+    "url": "https://stream.yayintescil.com:3183/stream/play.m3u8",
+    "category": "Muzik",
+    "streamUrl": "https://stream.yayintescil.com:3183/stream/play.m3u8"
+  },
+  {
     "name": "Dream Turk",
     "url": "https://www.dreamturk.com.tr/canli-yayin",
     "category": "Muzik",
