@@ -1229,12 +1229,6 @@
     "streamUrl": "https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8"
   },
   {
-    "name": "Med Muzik",
-    "url": "http://54.36.110.140/live3/live3.m3u8",
-    "category": "Muzik",
-    "streamUrl": "http://54.36.110.140/live3/live3.m3u8"
-  },
-  {
     "name": "Number 1 Ask",
     "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8",
     "category": "Muzik",
