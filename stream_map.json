@@ -1,8 +1,8 @@
 {
-  "_revision": 114,
+   "_revision": 114,
   
-  "DUYURU": [
-  "https://karakaya1745.github.io/guncelleme_duyuru.m3u8"
+  "duyuru": [
+    "https://karakaya1745.github.io/guncelleme_duyuru.m3u8"
   ],
   "trt1": [
     "https://vavoo.biz-az.workers.dev/play/1221669131f90e763b2bbf",
