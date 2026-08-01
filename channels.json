@@ -401,7 +401,7 @@
   "url": "https://www.tgrtbelgesel.com.tr/",
   "category": "Belgesel",
   "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197424&extension=ts&play_token=MaPd3gxY7X"
-  }
+  },
   {
     "name": "Satranç TV",
     "url": "http://139.162.182.79/live/test/index.m3u8",
@@ -725,7 +725,8 @@
   "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197193&extension=ts&play_token=VrCvWFnQOv",
   "category": "Ulusal",
   "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197193&extension=ts&play_token=VrCvWFnQOv"
-  },{
+  },
+  {
   "name": "TMB TV",
   "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197344&extension=ts&play_token=XeQODwvtKm",
   "category": "Ulusal",
