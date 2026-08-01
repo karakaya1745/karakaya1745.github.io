@@ -91,6 +91,12 @@
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/1495761327668bcd5072dc"
   },
   {
+  "name": "Show Türk",
+  "url": "https://www.showturk.com.tr/",
+  "category": "Ulusal",
+  "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=196664&extension=ts&play_token=qoGE4lge5n"
+  },
+  {
     "name": "FX",
     "url": "https://vavo.sayezec.workers.dev/ID=382143364970784d990878",
     "category": "Ulusal",
@@ -271,6 +277,12 @@
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/3302625312acf4f83dd0ca"
   },
   {
+  "name": "Global Haber",
+  "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197268&extension=ts&play_token=tGkC8erhpz",
+  "category": "Haber",
+  "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197268&extension=ts&play_token=tGkC8erhpz"
+  },
+  {
     "name": "Life TV",
     "url": "https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8",
     "category": "Haber",
@@ -301,10 +313,22 @@
     "streamUrl": "https://live.euromediacenter.com/yenicagtv/tracks-v1a1/mono.m3u8"
   },
   {
+  "name": "Akit TV",
+  "url": "https://www.akittv.com.tr/",
+  "category": "Haber",
+  "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197233&extension=ts&play_token=5x13V8PrEV"
+  },
+  {
     "name": "TRT Spor",
     "url": "https://www.trtizle.com/canli/tv/trt-spor",
     "category": "Spor",
     "streamUrl": "https://tv-trtspor1.medya.trt.com.tr/master_1440.m3u8"
+  },
+  {
+  "name": "Sports TV",
+  "url": "https://www.sportstv.com.tr/",
+  "category": "Spor",
+  "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=694&extension=ts&play_token=QAMcKCUvkf"
   },
   {
     "name": "A Spor",
@@ -355,17 +379,29 @@
     "streamUrl": "https://dogus.daioncdn.net/tlc/tlc.m3u8?ce=3&app=1aca0aa1-06e3-41ff-a8e5-38d7df475469&token=V1JHMUZBdGFOV0k2d2szUm5hVzA4RFdmejliTEVnQkZEQWNEN29qNzJ6Yz0=.m3u8"
   },
   {
+  "name": "Tarih TV",
+  "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197450&extension=ts&play_token=PwfkIVPsct",
+  "category": "Belgesel",
+  "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197450&extension=ts&play_token=PwfkIVPsct"
+  },
+  {
+  "name": "Yaban TV",
+  "url": "https://www.yabantv.com/canli-yayin",
+  "category": "Belgesel",
+  "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197439&extension=ts&play_token=TfLVZnUFoE"
+  },
+  {
     "name": "Hunat TV",
     "url": "https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8",
     "category": "Ulusal",
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/1602719314ed9049107b07"
   },
   {
-    "name": "TGRT Belgesel",
-    "url": "https://www.tgrtbelgesel.com.tr/canli-yayin",
-    "category": "Belgesel",
-    "streamUrl": "https://tgrtbelgesel.daioncdn.net/tgrtbelgesel/tgrtbelgesel_1080p.m3u8"
-  },
+  "name": "TGRT Belgesel",
+  "url": "https://www.tgrtbelgesel.com.tr/",
+  "category": "Belgesel",
+  "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197424&extension=ts&play_token=MaPd3gxY7X"
+  }
   {
     "name": "Satranç TV",
     "url": "http://139.162.182.79/live/test/index.m3u8",
@@ -415,6 +451,114 @@
     "streamUrl": "https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8"
   },
   {
+    "name": "TRT Muzik",
+    "url": "https://www.trtizle.com/canli/tv/trt-muzik",
+    "category": "Kamu",
+    "streamUrl": "https://vavoo.biz-az.workers.dev/play/3063329534c891d2af3f0f"
+  },
+  {
+  "name": "Kral TV",
+  "url": "https://www.kralmuzik.com.tr/",
+  "category": "Muzik",
+  "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197360&extension=ts&play_token=06puQPiAQ5"
+  },
+  {
+    "name": "Kral Pop TV",
+    "url": "https://www.kralmuzik.com.tr/tv/canli-yayin",
+    "category": "Muzik",
+    "streamUrl": "https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8"
+  },
+  {
+    "name": "DAMAR TÜRK TV",
+    "url": "https://stream.yayintescil.com:3183/stream/play.m3u8",
+    "category": "Muzik",
+    "streamUrl": "https://stream.yayintescil.com:3183/stream/play.m3u8"
+  },
+  {
+    "name": "Dream Turk",
+    "url": "https://www.dreamturk.com.tr/canli-yayin",
+    "category": "Muzik",
+    "streamUrl": "https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8"
+  },
+  {
+    "name": "Number1 Turk",
+    "url": "https://www.numberone.com.tr/number1turk-tv-canli-yayin",
+    "category": "Muzik",
+    "streamUrl": "https://n10101m.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e187770143.smil/playlist.m3u8"
+  },
+  {
+    "name": "Number1 TV",
+    "url": "https://www.numberone.com.tr/number1-tv-canli-yayin",
+    "category": "Muzik",
+    "streamUrl": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8"
+  },
+  {
+    "name": "Power Turk TV",
+    "url": "https://www.powerturk.com.tr/tv/canli",
+    "category": "Muzik",
+    "streamUrl": "https://livetv.powerapp.com.tr/powerturktv/powerturkhd.smil/playlist.m3u8"
+  },
+  {
+    "name": "Power TV",
+    "url": "https://www.powerapp.com.tr/powertv",
+    "category": "Muzik",
+    "streamUrl": "https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8"
+  },
+  {
+    "name": "Number 1 Ask",
+    "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8",
+    "category": "Muzik",
+    "streamUrl": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8"
+  },
+  {
+    "name": "Number 1 Damar",
+    "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8",
+    "category": "Muzik",
+    "streamUrl": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8"
+  },
+  {
+    "name": "Number 1 Dance",
+    "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8",
+    "category": "Muzik",
+    "streamUrl": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8"
+  },
+  {
+    "name": "Power Dance",
+    "url": "https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8",
+    "category": "Muzik",
+    "streamUrl": "https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8"
+  },
+  {
+    "name": "Power Love",
+    "url": "https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8",
+    "category": "Muzik",
+    "streamUrl": "https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8"
+  },
+  {
+    "name": "Power Türk Akustik",
+    "url": "https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8",
+    "category": "Muzik",
+    "streamUrl": "https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/chunks.m3u8"
+  },
+  {
+    "name": "Power Türk Slow",
+    "url": "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
+    "category": "Muzik",
+    "streamUrl": "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8"
+  },
+  {
+    "name": "Power Türk Taptaze",
+    "url": "https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8",
+    "category": "Muzik",
+    "streamUrl": "https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8"
+  },
+  {
+    "name": "Tempo TV",
+    "url": "https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8",
+    "category": "Muzik",
+    "streamUrl": "https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8"
+  },
+  {
     "name": "Lalegul TV",
     "url": "https://www.lalegultv.com.tr/canli-yayin",
     "category": "Dini",
@@ -433,6 +577,12 @@
     "streamUrl": "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist/1.m3u8"
   },
   {
+  "name": "Kudüs TV",
+  "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=210468&extension=ts&play_token=LANcD0vQE5",
+  "category": "Dini",
+  "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=210468&extension=ts&play_token=LANcD0vQE5"
+  },
+  {
     "name": "KAY TV",
     "url": "https://tv5.com.tr/canli-yayin",
     "category": "Dini",
@@ -449,6 +599,18 @@
     "url": "https://dost.stream.emsal.im/tv/live.m3u8",
     "category": "Dini",
     "streamUrl": "https://dost.stream.emsal.im/tv/live.m3u8"
+  },
+  {
+  "name": "Yol TV",
+  "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197164&extension=ts&play_token=nDvHZaixWT",
+  "category": "Dini",
+  "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197164&extension=ts&play_token=nDvHZaixWT"
+  },
+  {
+  "name": "TV5",
+  "url": "https://tv5.com.tr/canli-yayin",
+  "category": "Dini",
+  "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197160&extension=ts&play_token=dg0fqY7VUH"
   },
   {
     "name": "Sat7 Türk",
@@ -505,6 +667,30 @@
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/691149597dd82bfd95545"
   },
   {
+  "name": "TRT 3",
+  "url": "https://www.trtizle.com/",
+  "category": "Kamu",
+  "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=615829&extension=ts&play_token=s24XJvprQX"
+  },
+  {
+  "name": "TRT EBA Ilkokul",
+  "url": "https://www.trtizle.com/canli/tv/trt-eba-ilkokul",
+  "category": "Kamu",
+  "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197369&extension=ts&play_token=5VQRpCGIsh"
+  },
+  {
+  "name": "TRT EBA Lise",
+  "url": "https://www.trtizle.com/canli/tv/trt-eba-lise",
+  "category": "Kamu",
+  "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197367&extension=ts&play_token=AUiSYh94k2"
+  },
+  {
+  "name": "TRT EBA Ortaokul",
+  "url": "https://www.trtizle.com/canli/tv/trt-eba-ortaokul",
+  "category": "Kamu",
+  "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197368&extension=ts&play_token=7EfJTwAhHg"
+  },
+  {
     "name": "Diyanet TV",
     "url": "https://www.diyanet.tv/canli-yayin",
     "category": "Kamu",
@@ -515,6 +701,47 @@
     "url": "https://www.tbmm.gov.tr/tv",
     "category": "Kamu",
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/17706996443661c5809131"
+  },
+  {
+  "name": "Cem TV",
+  "url": "https://cemtv.com.tr/canli-yayin",
+  "category": "Haber",
+  "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197223&extension=ts&play_token=fqcWcqBS9Q"
+  },
+  {
+  "name": "Flash TV",
+  "url": "https://www.flashtv.com.tr/",
+  "category": "Ulusal",
+  "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197265&extension=ts&play_token=QkFNXps4SM"
+  },
+  {
+  "name": "Kanal 24",
+  "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197270&extension=ts&play_token=kbSCfqIRQ7",
+  "category": "Ulusal",
+  "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197270&extension=ts&play_token=kbSCfqIRQ7"
+  },
+  {
+  "name": "Köy TV",
+  "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197193&extension=ts&play_token=VrCvWFnQOv",
+  "category": "Ulusal",
+  "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197193&extension=ts&play_token=VrCvWFnQOv"
+  },{
+  "name": "TMB TV",
+  "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197344&extension=ts&play_token=XeQODwvtKm",
+  "category": "Ulusal",
+  "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197344&extension=ts&play_token=XeQODwvtKm"
+  },
+  {
+  "name": "Vatan TV",
+  "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197349&extension=ts&play_token=M2Apl16HZ9",
+  "category": "Ulusal",
+  "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197349&extension=ts&play_token=M2Apl16HZ9"
+  },
+  {
+  "name": "KRT",
+  "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197276&extension=ts&play_token=cqRGvvpTWt",
+  "category": "Ulusal",
+  "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=197276&extension=ts&play_token=cqRGvvpTWt"
   },
   {
     "name": "Trabzon Buyuksehir Belediyesi TV",
@@ -539,6 +766,18 @@
     "url": "https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8",
     "category": "Ulusal",
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/1917558455120761543969"
+  },
+  {
+  "name": "BRT 1",
+  "url": "https://www.brtk.net/",
+  "category": "Ulusal",
+  "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=196657&extension=ts&play_token=NNkEernreQ"
+  },
+  {
+  "name": "BRT 2",
+  "url": "https://www.brtk.net/",
+  "category": "Ulusal",
+  "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:F5:CC:DD&stream=196656&extension=ts&play_token=BfqwEL1Ga7"
   },
   {
     "name": "Cay TV",
@@ -881,108 +1120,6 @@
     "url": "https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8",
     "category": "Ekonomi",
     "streamUrl": "https://ekoltv-live.ercdn.net/ekoltv/ekoltv_1080p.m3u8"
-  },
-  {
-    "name": "TRT Muzik",
-    "url": "https://www.trtizle.com/canli/tv/trt-muzik",
-    "category": "Kamu",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/3063329534c891d2af3f0f"
-  },
-  {
-    "name": "Kral Pop TV",
-    "url": "https://www.kralmuzik.com.tr/tv/canli-yayin",
-    "category": "Muzik",
-    "streamUrl": "https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8"
-  },
-  {
-    "name": "DAMAR TÜRK TV",
-    "url": "https://stream.yayintescil.com:3183/stream/play.m3u8",
-    "category": "Muzik",
-    "streamUrl": "https://stream.yayintescil.com:3183/stream/play.m3u8"
-  },
-  {
-    "name": "Dream Turk",
-    "url": "https://www.dreamturk.com.tr/canli-yayin",
-    "category": "Muzik",
-    "streamUrl": "https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8"
-  },
-  {
-    "name": "Number1 Turk",
-    "url": "https://www.numberone.com.tr/number1turk-tv-canli-yayin",
-    "category": "Muzik",
-    "streamUrl": "https://n10101m.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e187770143.smil/playlist.m3u8"
-  },
-  {
-    "name": "Number1 TV",
-    "url": "https://www.numberone.com.tr/number1-tv-canli-yayin",
-    "category": "Muzik",
-    "streamUrl": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8"
-  },
-  {
-    "name": "Power Turk TV",
-    "url": "https://www.powerturk.com.tr/tv/canli",
-    "category": "Muzik",
-    "streamUrl": "https://livetv.powerapp.com.tr/powerturktv/powerturkhd.smil/playlist.m3u8"
-  },
-  {
-    "name": "Power TV",
-    "url": "https://www.powerapp.com.tr/powertv",
-    "category": "Muzik",
-    "streamUrl": "https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8"
-  },
-  {
-    "name": "Number 1 Ask",
-    "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8",
-    "category": "Muzik",
-    "streamUrl": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8"
-  },
-  {
-    "name": "Number 1 Damar",
-    "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8",
-    "category": "Muzik",
-    "streamUrl": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8"
-  },
-  {
-    "name": "Number 1 Dance",
-    "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8",
-    "category": "Muzik",
-    "streamUrl": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8"
-  },
-  {
-    "name": "Power Dance",
-    "url": "https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8",
-    "category": "Muzik",
-    "streamUrl": "https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8"
-  },
-  {
-    "name": "Power Love",
-    "url": "https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8",
-    "category": "Muzik",
-    "streamUrl": "https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8"
-  },
-  {
-    "name": "Power Türk Akustik",
-    "url": "https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8",
-    "category": "Muzik",
-    "streamUrl": "https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/chunks.m3u8"
-  },
-  {
-    "name": "Power Türk Slow",
-    "url": "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
-    "category": "Muzik",
-    "streamUrl": "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8"
-  },
-  {
-    "name": "Power Türk Taptaze",
-    "url": "https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8",
-    "category": "Muzik",
-    "streamUrl": "https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8"
-  },
-  {
-    "name": "Tempo TV",
-    "url": "https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8",
-    "category": "Muzik",
-    "streamUrl": "https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8"
   },
   {
     "name": "Ciftci TV",
