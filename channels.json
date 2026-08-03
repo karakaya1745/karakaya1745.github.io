@@ -643,6 +643,12 @@
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/409809325606dced407ba1"
   },
   {
+  "name": "TRT Genç",
+  "url": "https://www.trtizle.com/canli/tv/trt-genc",
+  "category": "Kamu",
+  "streamUrl": "https://tv-trtgenc.medya.trt.com.tr/master.m3u8"
+  },
+  {
     "name": "TRT World",
     "url": "https://www.trtworld.com/live",
     "category": "Kamu",
