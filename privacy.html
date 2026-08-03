@@ -1,163 +1,222 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Poliçe Takip — Gizlilik Politikası</title>
-  <meta name="description" content="Poliçe Takip (Microsoft Store / Windows) uygulaması gizlilik politikası.">
-  <meta name="robots" content="index,follow">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudoku — Gizlilik Politikası</title>
   <style>
-    :root { color-scheme: light dark; }
-    body {
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      line-height: 1.65;
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 1.5rem 1rem 3.5rem;
-      background: #fafafa;
-      color: #1a1a1a;
+    :root {
+      color-scheme: light dark;
+      --text: #1a1a1a;
+      --muted: #555;
+      --bg: #fff;
+      --border: #e0e0e0;
+      --link: #1565c0;
     }
-    h1 { font-size: 1.5rem; margin: 0 0 0.35rem; }
-    h2 { font-size: 1.15rem; margin-top: 1.75rem; }
-    p, li { font-size: 1rem; }
-    .meta { color: #666; font-size: 0.9rem; margin-bottom: 1.25rem; }
-    .box {
-      border: 1px solid #d0d7de;
-      border-radius: 10px;
-      padding: 12px 14px;
-      background: #fff;
-      margin: 1rem 0;
-    }
-    table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.95rem; }
-    th, td { border: 1px solid #ccc; padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; }
-    th { background: #eee; }
-    a { color: #0b57d0; }
-    hr { margin: 2rem 0; border: none; border-top: 1px solid #ccc; }
     @media (prefers-color-scheme: dark) {
-      body { background: #121212; color: #e8e8e8; }
-      .meta { color: #aaa; }
-      .box { background: #1d1d1d; border-color: #3a3a3a; }
-      th, td { border-color: #444; }
-      th { background: #222; }
-      a { color: #8ab4f8; }
-      hr { border-top-color: #444; }
+      :root {
+        --text: #f0f0f0;
+        --muted: #b0b0b0;
+        --bg: #121212;
+        --border: #333;
+        --link: #90caf9;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.65;
+      color: var(--text);
+      background: var(--bg);
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem 3rem;
+    }
+    h1 { font-size: 1.75rem; margin-bottom: 0.25rem; }
+    h2 {
+      font-size: 1.15rem;
+      margin-top: 2rem;
+      padding-bottom: 0.35rem;
+      border-bottom: 1px solid var(--border);
+    }
+    p, li { margin: 0.75rem 0; }
+    ul { padding-left: 1.25rem; }
+    .meta { color: var(--muted); font-size: 0.95rem; }
+    a { color: var(--link); }
+    footer {
+      margin-top: 2.5rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.9rem;
+      color: var(--muted);
     }
   </style>
 </head>
 <body>
-  <h1>Poliçe Takip — Gizlilik Politikası</h1>
-  <p class="meta">Uygulama: Poliçe Takip (PoliceTakip.Desktop) · Microsoft Store / Windows · Son güncelleme: Temmuz 2026</p>
+  <h1>Gizlilik Politikası</h1>
+  <p class="meta"><strong>Uygulama:</strong> Sudoku &nbsp;|&nbsp; <strong>Paket:</strong> com.sudokuu.app</p>
+  <p class="meta"><strong>Son güncelleme:</strong> 3 Ağustos 2026</p>
 
   <p>
-    Bu gizlilik politikası, Microsoft Store üzerinden sunulan <strong>Poliçe Takip</strong>
-    Windows masaüstü uygulaması için geçerlidir. Uygulama; sigorta acenteleri ve benzeri
-    kullanıcılar için poliçe, müşteri ve yenileme takibini cihaz üzerinde (yerel / çevrimdışı
-    öncelikli) sağlar. Verileriniz tipik olarak bir bulut sunucusuna gönderilmez.
+    Bu Gizlilik Politikası, <strong>Sudoku</strong> Android uygulamasını (“Uygulama”) kullandığınızda
+    kişisel verilerinizin nasıl işlendiğini açıklar. Uygulamayı indirip kullanarak bu politikayı
+    kabul etmiş sayılırsınız.
   </p>
 
-  <h2>1) Geliştirici / iletişim</h2>
-  <div class="box">
-    <p><strong>Geliştirici:</strong> karakaya1745</p>
-    <p><strong>İletişim:</strong>
-      <a href="https://github.com/karakaya1745">https://github.com/karakaya1745</a>
-      · e-posta:
-      <a href="mailto:karakaya1745@gmail.com">karakaya1745@gmail.com</a>
-    </p>
-    <p><strong>Paket / kimlik:</strong> <code>PoliceTakip.Desktop</code> (Microsoft Store MSIX)</p>
-  </div>
-
-  <h2>2) Toplanan / saklanan veriler</h2>
-  <p>Uygulama, sizin girdiğiniz iş verilerini cihazınızda tutar. Bunlar örneğin şunları içerebilir:</p>
+  <h2>1. Özet</h2>
   <ul>
-    <li><strong>Poliçe ve müşteri kayıtları:</strong> müşteri adları, plaka bilgileri, tutarlar, vade / yenileme tarihleri, notlar ve benzeri poliçe alanları.</li>
-    <li><strong>Yerel veritabanı:</strong> kayıtlar SQLite ile cihazınızda saklanır.</li>
-    <li><strong>PDF arşivi:</strong> eklediğiniz poliçe PDF’leri genellikle
-      <code>Belgelerim\PoliceTakip</code> (Documents/PoliceTakip) altında yerel olarak arşivlenir.</li>
-    <li><strong>Yıl arşivi ve tercihler:</strong> yıl bazlı arşivleme ve uygulama ayarları cihazınızda tutulur.</li>
-    <li><strong>Hesap:</strong> temel kullanımda zorunlu bir bulut hesabı oluşturulmaz; geliştirici tarafında merkezi bir kullanıcı profili tutulmaz.</li>
+    <li>Uygulama <strong>hesap oluşturmayı veya giriş yapmayı gerektirmez</strong>.</li>
+    <li>Oyun ilerlemesi ve ayarlarınız <strong>yalnızca cihazınızda</strong> (SharedPreferences) saklanır.</li>
+    <li>Uygulama <strong>Google AdMob</strong> reklamları gösterir; reklam hizmeti sağlayıcısı belirli veriler toplayabilir.</li>
+    <li>Uygulama içi satın almalar <strong>Google Play Faturalandırma</strong> üzerinden işlenir.</li>
+    <li>Geliştirici, oyun verilerinizi kendi sunucularına aktarmaz veya saklamaz.</li>
+  </ul>
+
+  <h2>2. Topladığımız ve sakladığımız veriler</h2>
+
+  <h3>2.1 Cihazda yerel olarak saklanan veriler</h3>
+  <p>
+    Uygulama, oyun deneyiminizi sürdürmek için aşağıdaki bilgileri yalnızca cihazınızda
+    <em>SharedPreferences</em> ile saklar. Bu veriler geliştiricinin sunucularına gönderilmez:
+  </p>
+  <ul>
+    <li>Tamamlanan seviyeler, yıldız puanları, kilit/açık durumu ve en iyi süreler</li>
+    <li>Oyun puanları, ipucu jetonları ve devam jetonları</li>
+    <li>Günlük bulmaca durumu ve oyun serisi (streak) bilgisi</li>
+    <li>Başarım (achievement) kayıtları</li>
+    <li>Yarıda kalan oyun kaydı (tahta durumu, notlar, süre vb.)</li>
+    <li>Kullanıcı tercihleri: ses, titreşim, yardımlı mod, tema ve kozmetik seçimleri</li>
+    <li>Satın alınan kalıcı içerik bayrakları (ör. reklamsız sürüm, görsel efekt paketleri)</li>
+    <li>Reklam gösterim sıklığı için yerel sayaçlar (<code>ads_gate</code>)</li>
   </ul>
   <p>
-    Geliştiricinin bu poliçe / müşteri / PDF verilerini toplayan bir sunucu hesabı veya bulut
-    veritabanı yoktur. Veriler cihazınızda kalır (local-first).
+    Bu veriler uygulama kaldırıldığında veya uygulama verileri silindiğinde cihazınızdan kaldırılır.
+    Android yedekleme ayarlarınıza bağlı olarak Google hesabınıza yedeklenebilir; bu, cihazınızın
+    yedekleme tercihlerine tabidir.
   </p>
 
-  <h2>3) Verilerin kullanımı</h2>
-  <ul>
-    <li>Veriler yalnızca uygulama özelliklerini çalıştırmak (listeleme, arama, arşiv, hatırlatma / takip, PDF erişimi) amacıyla kullanılır.</li>
-    <li>Kişisel veya ticari verileriniz satılmaz, kiralanmaz veya reklam / pazarlama amacıyla üçüncü taraflara verilmez.</li>
-    <li>Veriler, siz dışa aktarma, paylaşma veya yedekleme yapmadıkça cihazınızda kalır.</li>
-    <li>Yasal yükümlülük halinde ilgili mevzuata uygun işlem yapılabilir.</li>
-  </ul>
-
-  <h2>4) Microsoft Store ve isteğe bağlı Pro / uygulama içi satın alma</h2>
-  <ul>
-    <li><strong>Dağıtım:</strong> Uygulama Microsoft Store üzerinden dağıtılır ve güncellenir.</li>
-    <li>
-      <strong>İsteğe bağlı Pro / IAP:</strong> Pro özellikler sunuluyorsa ödeme işlemi Microsoft Store
-      faturalandırması üzerinden yürür. Kart veya ödeme bilgilerinize geliştirici doğrudan erişemez;
-      faturalandırma Microsoft’un platform kurallarına tabidir.
-    </li>
-    <li>Satın alma durumu, lisans doğrulama için Microsoft Store altyapısıyla ilişkilendirilebilir; bu, poliçe içeriğinizin buluta yüklenmesi anlamına gelmez.</li>
-  </ul>
-
-  <h2>5) Üçüncü taraf hizmetler</h2>
-  <ul>
-    <li><strong>Microsoft Store:</strong> dağıtım, güncelleme ve (varsa) faturalandırma için kullanılır.</li>
-    <li>Mevcut tasarımda zorunlu üçüncü taraf analitik veya reklam SDK’sı hedeflenmemektedir. Değişiklik olursa bu sayfa güncellenir.</li>
-  </ul>
-
-  <h2>6) İzinler ve dosya erişimi</h2>
-  <table>
-    <thead>
-      <tr><th>Özellik</th><th>Amaç</th></tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Yerel depolama / Belgeler klasörü</td>
-        <td>SQLite veritabanı ve Documents/PoliceTakip altındaki PDF arşivi.</td>
-      </tr>
-      <tr>
-        <td>Dosya seçici / dışa aktarma</td>
-        <td>PDF ekleme, yedekleme veya dışa aktarma — yalnızca sizin başlattığınız işlemlerde.</td>
-      </tr>
-      <tr>
-        <td>Ağ (gerekirse)</td>
-        <td>Store güncelleme / lisans veya platform iletişimi; poliçe verileriniz bu amaçla geliştirici sunucusuna yüklenmez.</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <h2>7) Veri güvenliği</h2>
-  <ul>
-    <li>Verilerinizin büyük bölümü cihazınızın yerel depolamasında tutulur.</li>
-    <li>Güvenlik; Windows oturumu, cihaz kilidi, işletim sistemi güncellemeleri ve sizin yedek / paylaşım tercihlerinizle desteklenir.</li>
-    <li>Uygulamayı kaldırdığınızda uygulama verileri kısmen silinebilir; Documents/PoliceTakip altındaki dosyalar siz silene kadar kalabilir.</li>
-  </ul>
-
-  <h2>8) Kullanıcı hakları ve silme</h2>
-  <ul>
-    <li>Uygulama içindeki kayıtları düzenleyebilir veya silebilirsiniz.</li>
-    <li>PDF arşivi ve dışa aktarım dosyalarını cihazınızdan kaldırabilirsiniz.</li>
-    <li>
-      Geliştirici sunucusunda tutulan poliçe / müşteri verisi olmadığı için “hesap silme”
-      talebi genelde cihazdaki uygulama ve arşiv verisini silmekle karşılanır. Sorularınız için:
-      <a href="mailto:karakaya1745@gmail.com">karakaya1745@gmail.com</a>
-    </li>
-  </ul>
-
-  <h2>9) Çocukların gizliliği</h2>
+  <h3>2.2 Hesap bilgisi</h3>
   <p>
-    Uygulama doğrudan çocuklara yönelik değildir. 13 yaş altındaki kullanıcıların
-    ebeveyn / gözetmen denetimi olmadan kullanmaması önerilir.
+    Uygulama <strong>kullanıcı adı, e-posta, telefon numarası veya şifre toplamaz</strong>.
+    Kayıt veya oturum açma özelliği yoktur.
   </p>
 
-  <h2>10) Politika güncellemeleri</h2>
+  <h2>3. Reklamlar (Google AdMob)</h2>
   <p>
-    Bu gizlilik politikası zaman zaman güncellenebilir. Önemli değişiklikler bu sayfada
-    yayımlanır ve “Son güncelleme” tarihi yenilenir.
+    Ücretsiz sürümde Uygulama, Google AdMob aracılığıyla reklam gösterir. Reklam biçimleri şunları
+    içerebilir: banner, geçiş (interstitial), ödüllü (rewarded) ve uygulama açılış (app open) reklamları.
+    “Reklamsız” satın alma yapıldığında reklam gösterimi devre dışı bırakılır.
+  </p>
+  <p>
+    AdMob ve iş ortakları, reklamları kişiselleştirmek ve ölçmek amacıyla aşağıdakiler dahil
+    belirli verileri toplayabilir ve işleyebilir:
+  </p>
+  <ul>
+    <li>Reklam tanımlayıcısı (Advertising ID / AAID)</li>
+    <li>IP adresi, cihaz modeli, işletim sistemi sürümü, uygulama sürümü</li>
+    <li>Reklam etkileşimleri (gösterim, tıklama vb.)</li>
+    <li>Yaklaşık konum (IP tabanlı)</li>
+  </ul>
+  <p>
+    Bu verilerin işlenmesi Google’ın gizlilik politikasına tabidir:
+    <a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank">Google Gizlilik Politikası</a>.
+    Reklam kişiselleştirmesini Android cihaz ayarlarından yönetebilirsiniz:
+    <em>Ayarlar → Google → Reklamlar</em>.
+  </p>
+  <p>
+    AdMob hakkında ek bilgi:
+    <a href="https://support.google.com/admob/answer/6128543" rel="noopener noreferrer" target="_blank">AdMob ve veri toplama</a>.
   </p>
 
-  <h2>11) Son güncelleme</h2>
-  <p><strong>Temmuz 2026</strong></p>
+  <h2>4. Uygulama içi satın almalar (Google Play)</h2>
+  <p>
+    Uygulama içi satın almalar Google Play Faturalandırma sistemi üzerinden gerçekleştirilir.
+    Örnek ürünler: reklamsız sürüm, ipucu/devam paketleri, görsel efekt paketleri ve paket teklifleri.
+  </p>
+  <p>
+    Ödeme bilgileriniz (kredi kartı vb.) doğrudan Uygulama tarafından toplanmaz; işlem Google Play
+    tarafından işlenir. Google, satın alma doğrulaması için işlem kimliği ve satın alma durumu gibi
+    bilgileri sağlar. Uygulama, satın alınan kalıcı içerikleri cihazınızda yerel olarak işaretler.
+  </p>
+  <p>
+    Google Play gizlilik bilgileri:
+    <a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank">Google Gizlilik Politikası</a>
+    ve
+    <a href="https://support.google.com/googleplay/android-developer/answer/10144311" rel="noopener noreferrer" target="_blank">Play Faturalandırma</a>.
+  </p>
+
+  <h2>5. İnternet erişimi ve izinler</h2>
+  <p>Uygulama aşağıdaki izinleri kullanır:</p>
+  <ul>
+    <li><strong>INTERNET</strong> — reklam yükleme ve uygulama içi satın alma doğrulaması</li>
+    <li><strong>ACCESS_NETWORK_STATE</strong> — ağ bağlantısı kontrolü</li>
+    <li><strong>VIBRATE</strong> — dokunsal geri bildirim (isteğe bağlı, ayarlardan kapatılabilir)</li>
+  </ul>
+  <p>
+    Uygulama konum, kişiler, kamera, mikrofon veya takvim gibi hassas izinler talep etmez.
+  </p>
+
+  <h2>6. Verilerin paylaşımı</h2>
+  <p>Geliştirici, oyun verilerinizi üçüncü taraflarla satmaz veya kiralamaz. Veriler yalnızca şu durumlarda üçüncü taraflarla ilişkilidir:</p>
+  <ul>
+    <li><strong>Google AdMob</strong> — reklam hizmeti (Bölüm 3)</li>
+    <li><strong>Google Play</strong> — uygulama içi satın alma işlemleri (Bölüm 4)</li>
+  </ul>
+
+  <h2>7. Veri güvenliği</h2>
+  <p>
+    Yerel veriler cihazınızın uygulama özel depolama alanında tutulur. İnternet üzerinden geliştiriciye
+    aktarılan kişisel oyun verisi bulunmamaktadır. Yine de hiçbir iletim veya depolama yöntemi
+    %100 güvenli değildir.
+  </p>
+
+  <h2>8. Veri saklama süresi</h2>
+  <ul>
+    <li>Yerel oyun verileri, siz silene veya uygulamayı kaldırana kadar cihazda kalır.</li>
+    <li>AdMob ve Google Play tarafından toplanan verilerin saklama süresi ilgili hizmet sağlayıcılarının politikalarına tabidir.</li>
+  </ul>
+
+  <h2>9. Haklarınız</h2>
+  <p>
+    Yerel verilerinizi silmek için cihazınızda <em>Ayarlar → Uygulamalar → Sudoku → Depolama → Verileri temizle</em>
+    yolunu kullanabilir veya uygulamayı kaldırabilirsiniz. Reklam tanımlayıcısı tercihlerinizi Android
+    sistem ayarlarından yönetebilirsiniz.
+  </p>
+  <p>
+    Avrupa Ekonomik Alanı (AEA), Birleşik Krallık veya diğer yargı bölgelerindeki veri koruma haklarınız
+    (erişim, düzeltme, silme vb.) için aşağıdaki iletişim adresinden bize ulaşabilirsiniz.
+  </p>
+
+  <h2>10. Çocukların gizliliği</h2>
+  <p>
+    Sudoku genel kitleye yönelik bir bulmaca oyunudur; özellikle 13 yaşın altındaki çocuklara
+    yönelik tasarlanmamıştır. Bilerek 13 yaşın altındaki çocuklardan kişisel bilgi toplamıyoruz.
+    Bir ebeveyn veya veli, çocuğunun bize kişisel bilgi verdiğini düşünüyorsa lütfen bizimle iletişime geçsin;
+    ilgili verileri silmek için makul adımlar atarız.
+  </p>
+  <p>
+    Reklam kişiselleştirmesi Google AdMob tarafından yönetilir. Çocuklara yönelik içerik gereksinimleri
+    için Google Play ve AdMob politikalarına uygun hareket edilir.
+  </p>
+
+  <h2>11. Politika değişiklikleri</h2>
+  <p>
+    Bu politikayı zaman zaman güncelleyebiliriz. Güncel sürüm bu sayfada yayımlanır; “Son güncelleme”
+    tarihi değiştirilir. Önemli değişikliklerde uygulama içi bildirim veya mağaza açıklaması yoluyla
+    bilgilendirme yapılabilir.
+  </p>
+
+  <h2>12. İletişim</h2>
+  <p>
+    Gizlilik ile ilgili sorularınız için:
+    <a href="mailto:sudoku.app.dev@gmail.com">sudoku.app.dev@gmail.com</a>
+  </p>
+  <p class="meta">
+    <em>Not: Geliştirici, yukarıdaki e-posta adresini kendi iletişim adresiyle değiştirmelidir.</em>
+  </p>
+
+  <footer>
+    Sudoku &copy; 2026 · com.sudokuu.app
+  </footer>
 </body>
 </html>
