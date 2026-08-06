@@ -201,7 +201,7 @@
     "name": "CNN Turk",
     "url": "https://www.cnnturk.com/canli-yayin",
     "category": "Haber",
-    "streamUrl": "https://live.duhnet.tv/S2/HLS_LIVE/cnnturknp/playlist.m3u8"
+    "streamUrl": "https://live.duhnet.tv/S2/HLS_LIVE/cnnturknp/track_4_1000/playlist.m3u8"
   },
   {
     "name": "Haberturk",
