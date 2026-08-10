@@ -1290,12 +1290,6 @@
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/1072972009ade9e4b4a779"
   },
   {
-    "name": "Mutlu Spor",
-    "url": "https://mutlu.mutlumedya30.workers.dev/stream/mutlu/kanal_1781709516135.m3u8",
-    "category": "Spor",
-    "streamUrl": "https://mutlu.mutlumedya30.workers.dev/stream/mutlu/kanal_1781709516135.m3u8"
-  },
-  {
     "name": "Ekol Spor",
     "url": "https://vavo.sayezec.workers.dev/ID=814969642ed05792517e0",
     "category": "Spor",
@@ -1318,55 +1312,7 @@
     "url": "https://vavo.sayezec.workers.dev/ID=94903312294e3da09f3b7",
     "category": "Dini",
     "streamUrl": "https://vavo.sayezec.workers.dev/ID=94903312294e3da09f3b7"
-  },
-  {
-    "name": "Mesaj TV",
-    "url": "https://vavo.sayezec.workers.dev/ID=1751593588ad9f10b37811",
-    "category": "Dini",
-    "streamUrl": "https://vavo.sayezec.workers.dev/ID=1751593588ad9f10b37811"
-  },
-  {
-    "name": "Kardelen TV",
-    "url": "https://vavo.sayezec.workers.dev/ID=127011060769330a43e05e",
-    "category": "Dini",
-    "streamUrl": "https://vavo.sayezec.workers.dev/ID=127011060769330a43e05e"
-  },
-  {
-    "name": "Isvicre TV",
-    "url": "https://tivi44.ozelip.com:3269/stream/play.m3u8",
-    "category": "Ulusal",
-    "streamUrl": "https://tivi44.ozelip.com:3269/stream/play.m3u8"
-  },
-  {
-    "name": "Kıbrıs Genç TV",
-    "url": "https://vavo.sayezec.workers.dev/ID=311547741928e82131a818",
-    "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/311547741928e82131a818"
-  },
-  {
-    "name": "Kıbrıs Kanal T",
-    "url": "https://vavo.sayezec.workers.dev/ID=506213824a8ea2f79b5e0",
-    "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/506213824a8ea2f79b5e0"
-  },
-  {
-    "name": "Kıbrıs TV",
-    "url": "https://vavo.sayezec.workers.dev/ID=6319306667939f9fe7402",
-    "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/6319306667939f9fe7402"
-  },
-  {
-    "name": "Viyana TV",
-    "url": "https://vavo.sayezec.workers.dev/ID=344251480556f9e5db0f41",
-    "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/344251480556f9e5db0f41"
-  },
-  {
-    "name": "Gurbet24 TV",
-    "url": "https://vavo.sayezec.workers.dev/ID=55116964941a7acb8360",
-    "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/55116964941a7acb8360"
-  },
+  }
   {
     "name": "MTürk TV",
     "url": "https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8",
@@ -1386,12 +1332,6 @@
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/9314064096e814315889b"
   },
   {
-    "name": "Med Muzik",
-    "url": "http://54.36.110.140/live3/live3.m3u8",
-    "category": "Muzik",
-    "streamUrl": "http://54.36.110.140/live3/live3.m3u8"
-  },
-  {
     "name": "Tarim TV",
     "url": "https://content.tvkur.com/l/c7e1da7mm25p552d9u9g/master.m3u8",
     "category": "Yasam",
@@ -1403,16 +1343,4 @@
     "category": "Diger",
     "streamUrl": "http://31.148.48.15/RTG_HD/index.m3u8"
   },
-  {
-    "name": "Cine 1",
-    "url": "https://www.cine1.com.tr/",
-    "category": "Yasam",
-    "streamUrl": "https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8"
-  },
-  {
-    "name": "Kanal D Drama",
-    "url": "https://www.kanald.com.tr/kanal-d-drama",
-    "category": "Yasam",
-    "streamUrl": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8"
-  }
 ]
