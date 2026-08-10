@@ -1104,12 +1104,6 @@
     "streamUrl": "https://edge1.socialsmart.tv/oncurtv/bant1/playlist.m3u8"
   },
   {
-    "name": "Tay TV",
-    "url": "https://www.taytv.com.tr/canli-yayin",
-    "category": "Spor",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/1534287048d3b84ea2e278"
-  },
-  {
     "name": "TV Den",
     "url": "http://canli.tvden.com.tr/hls/live.m3u8",
     "category": "Ulusal",
