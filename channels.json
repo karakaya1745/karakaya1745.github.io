@@ -102,18 +102,6 @@
     "streamUrl": "https://saran-live.ercdn.net/fx/index.m3u8"
   },
   {
-    "name": "TV100",
-    "url": "https://www.tv100.com/canli-yayin",
-    "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/16852994727259ba10c029"
-  },
-  {
-    "name": "TYT Türk",
-    "url": "https://tytturk.com/",
-    "category": "Ulusal",
-    "streamUrl": "https://tytturk-live.ercdn.net/tytturk/tytturk_1080p.m3u8"
-  },
-  {
     "name": "TRT Haber",
     "url": "https://www.trtizle.com/canli/tv/trt-haber",
     "category": "Kamu",
@@ -131,6 +119,18 @@
     "category": "Haber",
     "streamUrl": "https://live.duhnet.tv/S2/HLS_LIVE/cnnturknp/track_4_1000/playlist.m3u8"
   },
+  {
+    "name": "Halk TV",
+    "url": "https://halktv.com.tr/canli-yayin",
+    "category": "Haber",
+    "streamUrl": "https://vavoo.biz-az.workers.dev/play/17719991006aa1a0ebf68a"
+  }, 
+  {
+    "name": "Sözcü TV",
+    "url": "https://www.szctv.com.tr/canli-yayin-izle",
+    "category": "Haber",
+    "streamUrl": "https://vavoo.biz-az.workers.dev/play/960578312ee36cc17c5d2"
+  }, 
   {
     "name": "Haberturk",
     "url": "https://www.haberturk.com/canliyayin",
@@ -150,11 +150,29 @@
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/40697740688fd0b8c6b747"
   },
   {
+    "name": "Flash Haber",
+    "url": "https://flashhabertv.com.tr/canli-yayin.html",
+    "category": "Haber",
+    "streamUrl": "https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/playlist.m3u8"
+  },
+  {
     "name": "T24",
     "url": "https://t24.com.tr/video/canli-yayin",
     "category": "Haber",
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/38229012391e140a7f75ba"
   },
+  {
+    "name": "TV100",
+    "url": "https://www.tv100.com/canli-yayin",
+    "category": "Ulusal",
+    "streamUrl": "https://vavoo.biz-az.workers.dev/play/16852994727259ba10c029"
+  },
+  {
+    "name": "TYT Türk",
+    "url": "https://tytturk.com/",
+    "category": "Ulusal",
+    "streamUrl": "https://tytturk-live.ercdn.net/tytturk/tytturk_1080p.m3u8"
+  }, 
   {
     "name": "TH Türkhaber",
     "url": "https://edge1.taksimbilisim.com/turkhaber/bant1/chunks.m3u8",
@@ -162,22 +180,10 @@
     "streamUrl": "https://edge1.taksimbilisim.com/turkhaber/bant1/chunks.m3u8"
   },
   {
-    "name": "Sözcü TV",
-    "url": "https://www.szctv.com.tr/canli-yayin-izle",
-    "category": "Haber",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/960578312ee36cc17c5d2"
-  },
-  {
     "name": "TVNET",
     "url": "https://www.tvnet.com.tr/canli-yayin",
     "category": "Haber",
     "streamUrl": "https://mn-nl.mncdn.com/tvnet/tvnet/chunklist.m3u8"
-  },
-  {
-    "name": "Halk TV",
-    "url": "https://halktv.com.tr/canli-yayin",
-    "category": "Haber",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/17719991006aa1a0ebf68a"
   },
   {
     "name": "TELE 1",
@@ -238,12 +244,6 @@
     "url": "https://live01.iha.tv/webabone/live2/chunks.m3u8",
     "category": "Haber",
     "streamUrl": "https://live01.iha.tv/webabone/live2/chunks.m3u8"
-  },
-  {
-    "name": "Flash Haber",
-    "url": "https://flashhabertv.com.tr/canli-yayin.html",
-    "category": "Haber",
-    "streamUrl": "https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/playlist.m3u8"
   },
   {
     "name": "Alanya Posta",
@@ -720,12 +720,6 @@
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/145648263137480837677c"
   },
   {
-    "name": "Flash TV",
-    "url": "https://flashhaber-live.ercdn.net/flashhaber/flashhaber_720p.m3u8",
-    "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/20273310967517aba18b29"
-  },
-  {
     "name": "Kanal 24",
     "url": "https://vavo.sayezec.workers.dev/ID=4179564147cef11bb1db33",
     "category": "Ulusal",
@@ -778,18 +772,6 @@
     "url": "https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8",
     "category": "Ulusal",
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/1917558455120761543969"
-  },
-  {
-    "name": "BRT 1",
-    "url": "https://vavo.sayezec.workers.dev/ID=2793254316da8e310eaaf8",
-    "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/2793254316da8e310eaaf8"
-  },
-  {
-    "name": "BRT 2",
-    "url": "https://vavo.sayezec.workers.dev/ID=37894122206a5d105c20d3",
-    "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/37894122206a5d105c20d3"
   },
   {
     "name": "Cay TV",
