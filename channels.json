@@ -222,6 +222,12 @@
     "streamUrl": "https://livetv.radyotvonline.net/kanal7live/ulketv/chunklist.m3u8"
   },
   {
+    "name": "Turk Haber",
+    "url": "https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8",
+    "category": "Haber",
+    "streamUrl": "https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8"
+  },
+  {
     "name": "Haber61 TV",
     "url": "https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8",
     "category": "Haber",
@@ -270,34 +276,16 @@
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/382635550866de8297148"
   },
   {
-    "name": "Almahriah TV",
-    "url": "https://starmenajo.com/hls/almahriah/index.m3u8",
-    "category": "Haber",
-    "streamUrl": "https://starmenajo.com/hls/almahriah/index.m3u8"
-  },
-  {
     "name": "Guneydogu TV",
     "url": "https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8",
     "category": "Haber",
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/3302625312acf4f83dd0ca"
   },
   {
-    "name": "Global Haber",
-    "url": "https://vavo.sayezec.workers.dev/ID=1224377838995614ed0843",
-    "category": "Haber",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/1224377838995614ed0843"
-  },
-  {
     "name": "Life TV",
     "url": "https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8",
     "category": "Haber",
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/3572490349f5368e3d7944"
-  },
-  {
-    "name": "Mekameleen TV",
-    "url": "https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8",
-    "category": "Haber",
-    "streamUrl": "https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8"
   },
   {
     "name": "Neo TV",
@@ -310,12 +298,6 @@
     "url": "https://cdn-telenews.yayin.com.tr/telenews/index.m3u8",
     "category": "Haber",
     "streamUrl": "https://cdn-telenews.yayin.com.tr/telenews/index.m3u8"
-  },
-  {
-    "name": "Yeni Cag TV",
-    "url": "https://live.euromediacenter.com/yenicagtv/tracks-v1a1/mono.m3u8",
-    "category": "Haber",
-    "streamUrl": "https://live.euromediacenter.com/yenicagtv/tracks-v1a1/mono.m3u8"
   },
   {
     "name": "Akit TV",
@@ -588,16 +570,10 @@
     "streamUrl": "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist/1.m3u8"
   },
   {
-    "name": "Kudüs TV",
-    "url": "https://vavo.sayezec.workers.dev/ID=3035951797e8a56cf0ef58",
-    "category": "Dini",
-    "streamUrl": "https://vavo.sayezec.workers.dev/ID=3035951797e8a56cf0ef58"
-  },
-  {
     "name": "Kay TV",
     "url": "https://live.artidijitalmedya.com/artidijital_kaytv/kaytv1/playlist.m3u8",
     "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/23796466374e2ee05f0779"
+    "streamUrl": "https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8"
   },
   {
     "name": "Al-Zahra TV Turkic",
@@ -612,16 +588,10 @@
     "streamUrl": "https://dost.stream.emsal.im/tv/live.m3u8"
   },
   {
-    "name": "Yol TV",
-    "url": "https://vavo.sayezec.workers.dev/ID=1377055653aae1eccd061c",
-    "category": "Dini",
-    "streamUrl": "https://vavo.sayezec.workers.dev/ID=1377055653aae1eccd061c"
-  },
-  {
     "name": "TV5",
     "url": "https://tv5.com.tr/canli-yayin",
     "category": "Dini",
-    "streamUrl": "https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8"
+    "streamUrl": ""
   },
   {
     "name": "Sat7 Türk",
@@ -714,46 +684,10 @@
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/17706996443661c5809131"
   },
   {
-    "name": "Cem TV",
-    "url": "https://cemtv.com.tr/canli-yayin",
-    "category": "Haber",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/145648263137480837677c"
-  },
-  {
-    "name": "Kanal 24",
-    "url": "https://vavo.sayezec.workers.dev/ID=4179564147cef11bb1db33",
-    "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/4179564147cef11bb1db33"
-  },
-  {
-    "name": "Köy TV",
-    "url": "https://vavo.sayezec.workers.dev/ID=870320507489feac51e9a",
-    "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/870320507489feac51e9a"
-  },
-  {
     "name": "TMB TV",
     "url": "https://raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/myvideo-az/tmb-azerbaycan.m3u8",
     "category": "Ulusal",
     "streamUrl": "https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/tmb-tv.m3u8"
-  },
-  {
-    "name": "Vatan TV",
-    "url": "https://vavo.sayezec.workers.dev/ID=32821815116af88acacbb6",
-    "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/2730047464284a34ade8a0"
-  },
-  {
-    "name": "KRT",
-    "url": "https://vavo.sayezec.workers.dev/ID=331685130407411552595",
-    "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/535260022435d62839cf5"
-  },
-  {
-    "name": "Trabzon Buyuksehir Belediyesi TV",
-    "url": "https://tv191.radyotelekom.com.tr:3612/stream/play.m3u8",
-    "category": "Kamu",
-    "streamUrl": "https://tv191.radyotelekom.com.tr:3612/stream/play.m3u8"
   },
   {
     "name": "TRT EBA TV",
@@ -894,12 +828,6 @@
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/6396593594335b4483732"
   },
   {
-    "name": "4U TV",
-    "url": "https://hls.4utv.live/hls/stream.m3u8",
-    "category": "Ulusal",
-    "streamUrl": "https://hls.4utv.live/hls/stream.m3u8"
-  },
-  {
     "name": "Aksu TV",
     "url": "https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8",
     "category": "Ulusal",
@@ -940,12 +868,6 @@
     "url": "https://canli.edessatv.com/hls/stream.m3u8",
     "category": "Ulusal",
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/215449252887e52acd6803"
-  },
-  {
-    "name": "Elsharq TV",
-    "url": "https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8",
-    "category": "Ulusal",
-    "streamUrl": "https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8"
   },
   {
     "name": "Er TV",
@@ -1098,12 +1020,6 @@
     "streamUrl": "https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8"
   },
   {
-    "name": "Ekoturk",
-    "url": "https://www.ekoturk.com/canli-yayin",
-    "category": "Ekonomi",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/71194427284d165c9835e"
-  },
-  {
     "name": "Finans Turk",
     "url": "https://yayin30.haber100.com/live/finansturk/playlist.m3u8",
     "category": "Ekonomi",
@@ -1188,154 +1104,16 @@
     "streamUrl": "https://edge1.socialsmart.tv/oncurtv/bant1/playlist.m3u8"
   },
   {
-    "name": "ATV Avrupa",
-    "url": "https://www.atvavrupa.tv/",
-    "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/31959103511474b82d3792"
-  },
-  {
-    "name": "Euro Star",
-    "url": "https://vavo.sayezec.workers.dev/ID=1827094680ef16ad2f8b38",
-    "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/21476140819198063bb491"
-  },
-  {
-    "name": "Kanal Z",
-    "url": "https://vavo.sayezec.workers.dev/ID=336832863925e92ac188c1",
-    "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/336832863925e92ac188c1"
-  },
-  {
-    "name": "Kanal 34",
-    "url": "https://vavo.sayezec.workers.dev/ID=18693393220cb8b1cc1d42",
-    "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/18693393220cb8b1cc1d42"
-  },
-  {
-    "name": "Ada TV",
-    "url": "https://vavo.sayezec.workers.dev/ID=21347352852305a53dccfa",
-    "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/21347352852305a53dccfa"
-  },
-  {
-    "name": "Koza TV",
-    "url": "https://vavo.sayezec.workers.dev/ID=1047804470f83375a3863a",
-    "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/1047804470f83375a3863a"
-  },
-  {
-    "name": "TV 42",
-    "url": "https://vavo.sayezec.workers.dev/ID=9760498644cca0d67323e",
-    "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/9760498644cca0d67323e"
-  },
-  {
-    "name": "Tivi Türk",
-    "url": "https://vavo.sayezec.workers.dev/ID=7021579547bba092a6b21",
-    "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/7021579547bba092a6b21"
-  },
-  {
-    "name": "Finest TV",
-    "url": "https://vavo.sayezec.workers.dev/ID=2663765748ad351c6aadb3",
-    "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/2663765748ad351c6aadb3"
-  },
-  {
-    "name": "Turk Haber",
-    "url": "https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8",
-    "category": "Haber",
-    "streamUrl": "https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8"
-  },
-  {
-    "name": "A News",
-    "url": "https://www.anews.com.tr/webtv/live-broadcast",
-    "category": "Haber",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/387890889759c06a2c4da1"
-  },
-  {
-    "name": "Medya Haber",
-    "url": "https://vavo.sayezec.workers.dev/ID=22309682628a9ba731b044",
-    "category": "Haber",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/22309682628a9ba731b044"
-  },
-  {
-    "name": "Can TV",
-    "url": "https://livetv.canbroadcast.com:7443/canlican/tv.m3u8",
-    "category": "Haber",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/3900702315d5891138ec1d"
-  },
-  {
-    "name": "DHA",
-    "url": "https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8",
-    "category": "Haber",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/40223592760f0af9f37d41"
-  },
-  {
-    "name": "DHA 1",
-    "url": "https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/chunklist_w630024058.m3u8",
-    "category": "Haber",
-    "streamUrl": "https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/chunklist_w630024058.m3u8"
-  },
-  {
-    "name": "DHA 2",
-    "url": "https://603c568fccdf5.streamlock.net/live2/dhaweb2/chunklist_w156766599.m3u8",
-    "category": "Haber",
-    "streamUrl": "https://603c568fccdf5.streamlock.net/live2/dhaweb2/chunklist_w156766599.m3u8"
-  },
-  {
-    "name": "DİM TV",
-    "url": "https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8",
-    "category": "Haber",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/1072972009ade9e4b4a779"
-  },
-  {
-    "name": "Ekol Spor",
-    "url": "https://vavo.sayezec.workers.dev/ID=814969642ed05792517e0",
-    "category": "Spor",
-    "streamUrl": "https://vavo.sayezec.workers.dev/ID=814969642ed05792517e0"
-  },
-  {
     "name": "Tay TV",
     "url": "https://www.taytv.com.tr/canli-yayin",
     "category": "Spor",
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/1534287048d3b84ea2e278"
   },
   {
-    "name": "Diyar TV",
-    "url": "https://vavo.sayezec.workers.dev/ID=4252763849da396737d0fb",
-    "category": "Dini",
-    "streamUrl": "https://vavo.sayezec.workers.dev/ID=4252763849da396737d0fb"
-  },
-  {
-    "name": "Vuslat TV",
-    "url": "https://vavo.sayezec.workers.dev/ID=94903312294e3da09f3b7",
-    "category": "Dini",
-    "streamUrl": "https://vavo.sayezec.workers.dev/ID=94903312294e3da09f3b7"
-  },
-  {
-    "name": "MTürk TV",
-    "url": "https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8",
-    "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/375599442073736b876622"
-  },
-  {
     "name": "TV Den",
     "url": "http://canli.tvden.com.tr/hls/live.m3u8",
     "category": "Ulusal",
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/33417206402eccd63d5a50"
-  },
-  {
-    "name": "A Para",
-    "url": "https://vavo.sayezec.workers.dev/ID=389201701482a8da622d92",
-    "category": "Ekonomi",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/9314064096e814315889b"
-  },
-  {
-    "name": "Tarim TV",
-    "url": "https://content.tvkur.com/l/c7e1da7mm25p552d9u9g/master.m3u8",
-    "category": "Yasam",
-    "streamUrl": "https://content.tvkur.com/l/c7e1da7mm25p552d9u9g/master.m3u8"
   },
   {
     "name": "RTG TV",
