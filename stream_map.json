@@ -298,7 +298,15 @@
     "http://cdn.vizitv.workers.dev/30.m3u8"
   ],
   "tv100": [
-    "https://vavoo.biz-az.workers.dev/play/1685299472998443240851",
+  "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:FB:3B:23&stream=197273&extension=ts",
+  "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:6F:3F:A6&stream=197273&extension=ts",
+  "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:19:37:66&stream=197273&extension=ts",
+  "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:0E:16:B7&stream=197273&extension=ts",
+  "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:75:66:2B&stream=197273&extension=ts",
+  "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:A6:68:5B&stream=197273&extension=ts",
+  "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:1C:0D:B5&stream=197273&extension=ts",
+  "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:AC:D9:2A&stream=197273&extension=ts",
+  "https://vavoo.biz-az.workers.dev/play/1685299472998443240851",
     "https://vavoo.biz-az.workers.dev/play/16852994727259ba10c029",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197273&extension=ts&play_token=fIy9sX6ocp",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197237&extension=ts&play_token=8yRJqHBWje",
