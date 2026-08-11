@@ -165,7 +165,7 @@
     "name": "TV100",
     "url": "https://www.tv100.com/canli-yayin",
     "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/16852994727259ba10c029"
+    "streamUrl":   "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:FB:3B:23&stream=197273&extension=ts"
   },
   {
     "name": "TYT Türk",
