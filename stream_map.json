@@ -1,5 +1,5 @@
 {
-  "_revision": 120,
+  "_revision": 121,
   "duyuru": [
     "https://karakaya1745.github.io/guncelleme_duyuru.m3u8"
   ],
@@ -31,26 +31,26 @@
     "http://cdn.vizitv.workers.dev/1.m3u8"
   ],
   "atv": [
-    "https://vavoo.biz-az.workers.dev/play/1332310706d6138ade7950",
-    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196698&extension=ts&play_token=6k77AngOgl",
-    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196682&extension=ts&play_token=bdFA2u0of1",
-    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196714&extension=ts&play_token=DWNCFJZrjl",
     "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8",
+    "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8",
+    "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_480p.m3u8",
+    "http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8",
+    "http://116.202.238.88/ATV_TR/tracks-v1a1/index.m3u8",
+    "https://streams.uzunmuhalefet.com/stream/c8758555-8581-4dec-9a46-ebcfaf9ace0a.m3u8",
+    "https://notyet.denek1544.workers.dev/izle/atv-110.m3u8",
+    "http://cdn.vizitv.workers.dev/2.m3u8",
+    "https://vavoo.biz-az.workers.dev/play/1332310706d6138ade7950",
     "https://vavoo.biz-az.workers.dev/play/2325261286da82934849d6",
     "https://vavoo.biz-az.workers.dev/play/28610106417464cee3333d",
     "https://vavoo.biz-az.workers.dev/play/1332310706fc46b2298b36",
     "https://vavoo.biz-az.workers.dev/play/455930425ae47a61530c5",
     "https://vavoo.biz-az.workers.dev/play/12555943375da7df57f8b3",
-    "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8",
-    "http://116.202.238.88/ATV_TR/tracks-v1a1/index.m3u8",
-    "https://streams.uzunmuhalefet.com/stream/c8758555-8581-4dec-9a46-ebcfaf9ace0a.m3u8",
-    "https://notyet.denek1544.workers.dev/izle/atv-110.m3u8",
     "https://sktrgit.testworker0y.workers.dev/channel/QXR2IHwgQg==",
     "https://kzx.testworkery0.workers.dev/atv?key=patr0n",
     "https://metvvavmetv.64fetih.workers.dev/?ID=2325261286cc81b01cf95d",
-    "http://cdn.vizitv.workers.dev/2.m3u8",
-    "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_480p.m3u8",
-    "http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8"
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196698&extension=ts&play_token=6k77AngOgl",
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196682&extension=ts&play_token=bdFA2u0of1",
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196714&extension=ts&play_token=DWNCFJZrjl"
   ],
   "kanald": [
     "https://vavoo.biz-az.workers.dev/play/113044193323e36b85a648",
@@ -298,15 +298,6 @@
     "http://cdn.vizitv.workers.dev/30.m3u8"
   ],
   "tv100": [
-  "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:FB:3B:23&stream=197273&extension=ts",
-  "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:6F:3F:A6&stream=197273&extension=ts",
-  "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:19:37:66&stream=197273&extension=ts",
-  "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:0E:16:B7&stream=197273&extension=ts",
-  "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:75:66:2B&stream=197273&extension=ts",
-  "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:A6:68:5B&stream=197273&extension=ts",
-  "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:1C:0D:B5&stream=197273&extension=ts",
-  "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:AC:D9:2A&stream=197273&extension=ts",
-  "https://vavoo.biz-az.workers.dev/play/1685299472998443240851",
     "https://vavoo.biz-az.workers.dev/play/16852994727259ba10c029",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197273&extension=ts&play_token=fIy9sX6ocp",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197237&extension=ts&play_token=8yRJqHBWje",
@@ -2022,5 +2013,140 @@
   ],
   "trtebailkokul": [
     "https://tv-e-okul00.medya.trt.com.tr/master.m3u8"
+  ],
+  "trtradyo1": [
+    "https://rd-trtradyo1.medya.trt.com.tr/master.m3u8"
+  ],
+  "trtfm": [
+    "https://rd-trtfm.medya.trt.com.tr/master.m3u8"
+  ],
+  "trtradyo3": [
+    "https://rd-trtradyo3.medya.trt.com.tr/master.m3u8"
+  ],
+  "trtnagme": [
+    "https://rd-trtnagme.medya.trt.com.tr/master.m3u8"
+  ],
+  "trtturku": [
+    "https://rd-trtturku.medya.trt.com.tr/master.m3u8"
+  ],
+  "trtradyohaber": [
+    "https://rd-trtradyohaber.medya.trt.com.tr/master.m3u8"
+  ],
+  "trtantalyaradyo": [
+    "https://radio-trtantalya.live.trt.com.tr/master.m3u8"
+  ],
+  "trtcukurovaradyo": [
+    "https://radio-trtcukurova.live.trt.com.tr/master.m3u8"
+  ],
+  "trtgapradyo": [
+    "https://radio-trtgap.live.trt.com.tr/master.m3u8"
+  ],
+  "trterzurumradyo": [
+    "https://radio-trterzurum.live.trt.com.tr/master.m3u8"
+  ],
+  "trttrabzonradyo": [
+    "https://radio-trttrabzon.live.trt.com.tr/master.m3u8"
+  ],
+  "trtmemleketimfm": [
+    "https://radio-trtmemleketimfm.live.trt.com.tr/master.m3u8"
+  ],
+  "trtradyo6": [
+    "https://radio-trtradyo6.live.trt.com.tr/master.m3u8"
+  ],
+  "trttsrradyo": [
+    "https://radio-trttsr.live.trt.com.tr/master.m3u8"
+  ],
+  "trtarabiradyo": [
+    "https://radio-trtarabi.live.trt.com.tr/master.m3u8"
+  ],
+  "trtworldradyo": [
+    "https://radio-trtworld.live.trt.com.tr/master.m3u8"
+  ],
+  "powerfm": [
+    "https://listen.powerapp.com.tr/powerfm/abr/playlist.m3u8"
+  ],
+  "powerturkradyo": [
+    "https://live.powerapp.com.tr/powerturk/abr/playlist.m3u8"
+  ],
+  "powerturkslowradyo": [
+    "https://listen.powerapp.com.tr/powerturkslow/abr/playlist.m3u8"
+  ],
+  "powerdanceradyo": [
+    "https://live.powerapp.com.tr/powerdance/abr/playlist.m3u8"
+  ],
+  "powerloveradyo": [
+    "https://listen.powerapp.com.tr/plove/love.smil/playlist.m3u8"
+  ],
+  "powerpop": [
+    "https://live.powerapp.com.tr/powerpop/abr/playlist.m3u8"
+  ],
+  "powerplus": [
+    "https://live.powerapp.com.tr/powerplus/abr/playlist.m3u8"
+  ],
+  "powersmooth": [
+    "https://live.powerapp.com.tr/powersmooth/abr/playlist.m3u8"
+  ],
+  "powergold": [
+    "https://live.powerapp.com.tr/powergold/abr/playlist.m3u8"
+  ],
+  "powerturkrap": [
+    "https://live.powerapp.com.tr/powerturkrap/abr/playlist.m3u8"
+  ],
+  "powerturkakustikradyo": [
+    "https://live.powerapp.com.tr/powerturkakustik/abr/playlist.m3u8"
+  ],
+  "radyofenomen": [
+    "https://live.radyofenomen.com/fenomen/abr/playlist.m3u8"
+  ],
+  "fenomenturk": [
+    "https://live.radyofenomen.com/fenomenturk/abr/playlist.m3u8"
+  ],
+  "fenomenclubbin": [
+    "https://live.radyofenomen.com/fenomenclubbin/abr/playlist.m3u8"
+  ],
+  "fenomenpop": [
+    "https://live.radyofenomen.com/fenomenpop/abr/playlist.m3u8"
+  ],
+  "fenomenakustik": [
+    "https://live.radyofenomen.com/fenomenakustik/abr/playlist.m3u8"
+  ],
+  "fenomendans": [
+    "https://live.radyofenomen.com/fenomendans/abr/playlist.m3u8"
+  ],
+  "fenomenkarisik": [
+    "https://live.radyofenomen.com/fenomenkarisik/abr/playlist.m3u8"
+  ],
+  "radyoturkuvaz": [
+    "https://trkvz-radyolar.ercdn.net/radyoturkuvaz/playlist.m3u8"
+  ],
+  "ahaberradyo": [
+    "https://trkvz-radyolar.ercdn.net/ahaberradyo/playlist.m3u8"
+  ],
+  "asporradyo": [
+    "https://trkvz-radyolar.ercdn.net/asporradyo/playlist.m3u8"
+  ],
+  "apararadyo": [
+    "https://trkvz-radyolar.ercdn.net/apararadyo/playlist.m3u8"
+  ],
+  "vavradyo": [
+    "https://trkvz-radyolar.ercdn.net/radyovav/playlist.m3u8"
+  ],
+  "akrafm": [
+    "https://cdn3.akradyo.net/akracanli2/_definst_/livestream_aac/playlist.m3u8"
+  ],
+  "diyanetradyo": [
+    "https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3c1171d7d2a.smil/playlist.m3u8"
+  ],
+  "kralfm": [
+    "https://dygedge2.radyotvonline.net/kralfm/playlist.m3u8"
+  ],
+  "kralpop": [
+    "https://dygedge2.radyotvonline.net/kralpop/playlist.m3u8"
+  ],
+  "ntvradyo": [
+    "https://dygedge.radyotvonline.net/ntvradyo/playlist.m3u8"
+  ],
+  "radyoeksen": [
+    "https://dygedge.radyotvonline.net/radyoeksen/playlist.m3u8"
   ]
 }

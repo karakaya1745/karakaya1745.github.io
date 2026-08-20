@@ -1,7 +1,7 @@
 {
-  "_revision": 9,
-  "min_version_code": 114,
-  "latest_version_code": 114,
+  "_revision": 16,
+  "min_version_code": 122,
+  "latest_version_code": 122,
   "force_update": true,
   "update_message_tr": "Uygulamanın yeni bir sürümü zorunludur. Kesintisiz ve sorunsuz kullanım için lütfen güncelleyin."
 }
