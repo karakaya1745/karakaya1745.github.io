@@ -1380,12 +1380,6 @@
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/9314064096e814315889b"
   },
   {
-    "name": "Med Muzik",
-    "url": "http://54.36.110.140/live3/live3.m3u8",
-    "category": "Muzik",
-    "streamUrl": "http://54.36.110.140/live3/live3.m3u8"
-  },
-  {
     "name": "Tarim TV",
     "url": "https://content.tvkur.com/l/c7e1da7mm25p552d9u9g/master.m3u8",
     "category": "Yasam",
