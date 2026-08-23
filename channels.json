@@ -1,5 +1,11 @@
 [
   {
+    "name": "DUYURU",
+    "url": "https://play.google.com/store/apps/details?id=com.canlitvtr.app",
+    "category": "Ulusal",
+    "streamUrl": "https://karakaya1745.github.io/guncelleme_duyuru.m3u8"
+  },
+  {
     "name": "TRT 1",
     "url": "https://www.trtizle.com/canli/tv/trt-1",
     "category": "Ulusal",
@@ -298,6 +304,12 @@
     "url": "https://cdn-telenews.yayin.com.tr/telenews/index.m3u8",
     "category": "Haber",
     "streamUrl": "https://cdn-telenews.yayin.com.tr/telenews/index.m3u8"
+  },
+  {
+    "name": "Yeni Cag TV",
+    "url": "https://live.euromediacenter.com/yenicagtv/tracks-v1a1/mono.m3u8",
+    "category": "Haber",
+    "streamUrl": "https://live.euromediacenter.com/yenicagtv/tracks-v1a1/mono.m3u8"
   },
   {
     "name": "Akit TV",
@@ -616,12 +628,6 @@
     "url": "https://vavo.sayezec.workers.dev/ID=3317656516b0224418b6a8",
     "category": "Kamu",
     "streamUrl": "https://vavo.sayezec.workers.dev/ID=3317656516b0224418b6a8"
-  },
-  {
-    "name": "TRT GENÇ",
-    "url": "  https://tv-trtgenc.medya.trt.com.tr/master.m3u8",
-    "category": "Kamu",
-    "streamUrl": "  https://tv-trtgenc.medya.trt.com.tr/master.m3u8"
   },
   {
     "name": "TRT Turk",
@@ -6776,5 +6782,5 @@
     "url": "https://www.canlitvtr.app/radyo/diyanetradyo",
     "category": "Radyo Dini",
     "streamUrl": "https://eustr76.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3c1171d7d2a.smil/playlist.m3u8"
-  },
+  }
 ]
