@@ -1,5 +1,11 @@
 [
   {
+    "name": "DUYURU",
+    "url": "https://play.google.com/store/apps/details?id=com.canlitvtr.app",
+    "category": "Ulusal",
+    "streamUrl": "https://karakaya1745.github.io/guncelleme_duyuru.m3u8"
+  },
+  {
     "name": "TRT 1",
     "url": "https://www.trtizle.com/canli/tv/trt-1",
     "category": "Ulusal",
@@ -1284,6 +1290,12 @@
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/1072972009ade9e4b4a779"
   },
   {
+    "name": "Mutlu Spor",
+    "url": "https://mutlu.mutlumedya30.workers.dev/stream/mutlu/kanal_1781709516135.m3u8",
+    "category": "Spor",
+    "streamUrl": "https://mutlu.mutlumedya30.workers.dev/stream/mutlu/kanal_1781709516135.m3u8"
+  },
+  {
     "name": "Ekol Spor",
     "url": "https://vavo.sayezec.workers.dev/ID=814969642ed05792517e0",
     "category": "Spor",
@@ -1374,6 +1386,12 @@
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/9314064096e814315889b"
   },
   {
+    "name": "Med Muzik",
+    "url": "http://54.36.110.140/live3/live3.m3u8",
+    "category": "Muzik",
+    "streamUrl": "http://54.36.110.140/live3/live3.m3u8"
+  },
+  {
     "name": "Tarim TV",
     "url": "https://content.tvkur.com/l/c7e1da7mm25p552d9u9g/master.m3u8",
     "category": "Yasam",
@@ -1398,273 +1416,5377 @@
     "streamUrl": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8"
   },
   {
-    "name": "TRT Radyo 1",
-    "url": "https://radyo.trt.net.tr/#trtradyo1",
-    "category": "Radyo",
-    "streamUrl": "https://rd-trtradyo1.medya.trt.com.tr/master.m3u8"
-  },
-  {
-    "name": "TRT FM",
-    "url": "https://radyo.trt.net.tr/#trtfm",
-    "category": "Radyo",
-    "streamUrl": "https://rd-trtfm.medya.trt.com.tr/master.m3u8"
-  },
-  {
-    "name": "TRT Radyo 3",
-    "url": "https://radyo.trt.net.tr/#trtradyo3",
-    "category": "Radyo",
-    "streamUrl": "https://rd-trtradyo3.medya.trt.com.tr/master.m3u8"
-  },
-  {
-    "name": "TRT Nagme",
-    "url": "https://radyo.trt.net.tr/#trtnagme",
-    "category": "Radyo",
-    "streamUrl": "https://rd-trtnagme.medya.trt.com.tr/master.m3u8"
-  },
-  {
-    "name": "TRT Turku",
-    "url": "https://radyo.trt.net.tr/#trtturku",
-    "category": "Radyo",
-    "streamUrl": "https://rd-trtturku.medya.trt.com.tr/master.m3u8"
-  },
-  {
-    "name": "TRT Radyo Haber",
-    "url": "https://radyo.trt.net.tr/#trtradyohaber",
-    "category": "Radyo",
-    "streamUrl": "https://rd-trtradyohaber.medya.trt.com.tr/master.m3u8"
-  },
-  {
-    "name": "TRT Antalya Radyo",
-    "url": "https://radyo.trt.net.tr/#trtantalyaradyo",
-    "category": "Radyo",
-    "streamUrl": "https://radio-trtantalya.live.trt.com.tr/master.m3u8"
-  },
-  {
-    "name": "TRT Cukurova Radyo",
-    "url": "https://radyo.trt.net.tr/#trtcukurovaradyo",
-    "category": "Radyo",
-    "streamUrl": "https://radio-trtcukurova.live.trt.com.tr/master.m3u8"
-  },
-  {
-    "name": "TRT GAP Radyo",
-    "url": "https://radyo.trt.net.tr/#trtgapradyo",
-    "category": "Radyo",
-    "streamUrl": "https://radio-trtgap.live.trt.com.tr/master.m3u8"
-  },
-  {
-    "name": "TRT Erzurum Radyo",
-    "url": "https://radyo.trt.net.tr/#trterzurumradyo",
-    "category": "Radyo",
-    "streamUrl": "https://radio-trterzurum.live.trt.com.tr/master.m3u8"
-  },
-  {
-    "name": "TRT Trabzon Radyo",
-    "url": "https://radyo.trt.net.tr/#trttrabzonradyo",
-    "category": "Radyo",
-    "streamUrl": "https://radio-trttrabzon.live.trt.com.tr/master.m3u8"
-  },
-  {
-    "name": "TRT Memleketim FM",
-    "url": "https://radyo.trt.net.tr/#trtmemleketimfm",
-    "category": "Radyo",
-    "streamUrl": "https://radio-trtmemleketimfm.live.trt.com.tr/master.m3u8"
-  },
-  {
-    "name": "TRT Radyo 6",
-    "url": "https://radyo.trt.net.tr/#trtradyo6",
-    "category": "Radyo",
-    "streamUrl": "https://radio-trtradyo6.live.trt.com.tr/master.m3u8"
-  },
-  {
-    "name": "TRT TSR Radyo",
-    "url": "https://radyo.trt.net.tr/#trttsrradyo",
-    "category": "Radyo",
-    "streamUrl": "https://radio-trttsr.live.trt.com.tr/master.m3u8"
-  },
-  {
-    "name": "TRT Arabi Radyo",
-    "url": "https://radyo.trt.net.tr/#trtarabiradyo",
-    "category": "Radyo",
-    "streamUrl": "https://radio-trtarabi.live.trt.com.tr/master.m3u8"
-  },
-  {
-    "name": "TRT World Radyo",
-    "url": "https://radyo.trt.net.tr/#trtworldradyo",
-    "category": "Radyo",
-    "streamUrl": "https://radio-trtworld.live.trt.com.tr/master.m3u8"
-  },
-  {
-    "name": "Power FM",
-    "url": "https://www.powerapp.com.tr/#powerfm",
-    "category": "Radyo",
-    "streamUrl": "https://listen.powerapp.com.tr/powerfm/abr/playlist.m3u8"
-  },
-  {
-    "name": "PowerTurk Radyo",
-    "url": "https://www.powerapp.com.tr/#powerturkradyo",
-    "category": "Radyo",
-    "streamUrl": "https://live.powerapp.com.tr/powerturk/abr/playlist.m3u8"
-  },
-  {
-    "name": "PowerTurk Slow Radyo",
-    "url": "https://www.powerapp.com.tr/#powerturkslowradyo",
-    "category": "Radyo",
-    "streamUrl": "https://listen.powerapp.com.tr/powerturkslow/abr/playlist.m3u8"
-  },
-  {
-    "name": "Power Dance Radyo",
-    "url": "https://www.powerapp.com.tr/#powerdanceradyo",
-    "category": "Radyo",
-    "streamUrl": "https://live.powerapp.com.tr/powerdance/abr/playlist.m3u8"
-  },
-  {
-    "name": "Power Love Radyo",
-    "url": "https://www.powerapp.com.tr/#powerloveradyo",
-    "category": "Radyo",
-    "streamUrl": "https://listen.powerapp.com.tr/plove/love.smil/playlist.m3u8"
-  },
-  {
-    "name": "Power Pop",
-    "url": "https://www.powerapp.com.tr/#powerpop",
-    "category": "Radyo",
-    "streamUrl": "https://live.powerapp.com.tr/powerpop/abr/playlist.m3u8"
-  },
-  {
-    "name": "Power Plus",
-    "url": "https://www.powerapp.com.tr/#powerplus",
-    "category": "Radyo",
-    "streamUrl": "https://live.powerapp.com.tr/powerplus/abr/playlist.m3u8"
-  },
-  {
-    "name": "Power Smooth",
-    "url": "https://www.powerapp.com.tr/#powersmooth",
-    "category": "Radyo",
-    "streamUrl": "https://live.powerapp.com.tr/powersmooth/abr/playlist.m3u8"
-  },
-  {
-    "name": "Power Gold",
-    "url": "https://www.powerapp.com.tr/#powergold",
-    "category": "Radyo",
-    "streamUrl": "https://live.powerapp.com.tr/powergold/abr/playlist.m3u8"
-  },
-  {
-    "name": "PowerTurk Rap",
-    "url": "https://www.powerapp.com.tr/#powerturkrap",
-    "category": "Radyo",
-    "streamUrl": "https://live.powerapp.com.tr/powerturkrap/abr/playlist.m3u8"
-  },
-  {
-    "name": "PowerTurk Akustik Radyo",
-    "url": "https://www.powerapp.com.tr/#powerturkakustikradyo",
-    "category": "Radyo",
-    "streamUrl": "https://live.powerapp.com.tr/powerturkakustik/abr/playlist.m3u8"
-  },
-  {
-    "name": "Radyo Fenomen",
-    "url": "https://www.radyofenomen.com/#radyofenomen",
-    "category": "Radyo",
-    "streamUrl": "https://live.radyofenomen.com/fenomen/abr/playlist.m3u8"
-  },
-  {
-    "name": "Fenomen Turk",
-    "url": "https://www.radyofenomen.com/#fenomenturk",
-    "category": "Radyo",
-    "streamUrl": "https://live.radyofenomen.com/fenomenturk/abr/playlist.m3u8"
+    "name": "Alem FM",
+    "url": "https://www.canlitvtr.app/radyo/alemfm",
+    "category": "Radyo Pop",
+    "streamUrl": "https://turkmedya.radyotvonline.net/alemfmaac"
   },
   {
     "name": "Fenomen Clubbin",
-    "url": "https://www.radyofenomen.com/#fenomenclubbin",
-    "category": "Radyo",
+    "url": "https://www.canlitvtr.app/radyo/fenomenclubbin",
+    "category": "Radyo Pop",
     "streamUrl": "https://live.radyofenomen.com/fenomenclubbin/abr/playlist.m3u8"
   },
   {
-    "name": "Fenomen Pop",
-    "url": "https://www.radyofenomen.com/#fenomenpop",
-    "category": "Radyo",
-    "streamUrl": "https://live.radyofenomen.com/fenomenpop/abr/playlist.m3u8"
-  },
-  {
-    "name": "Fenomen Akustik",
-    "url": "https://www.radyofenomen.com/#fenomenakustik",
-    "category": "Radyo",
-    "streamUrl": "https://live.radyofenomen.com/fenomenakustik/abr/playlist.m3u8"
-  },
-  {
-    "name": "Fenomen Dans",
-    "url": "https://www.radyofenomen.com/#fenomendans",
-    "category": "Radyo",
-    "streamUrl": "https://live.radyofenomen.com/fenomendans/abr/playlist.m3u8"
-  },
-  {
-    "name": "Fenomen Karisik",
-    "url": "https://www.radyofenomen.com/#fenomenkarisik",
-    "category": "Radyo",
+    "name": "Fenomen Karışık",
+    "url": "https://www.canlitvtr.app/radyo/fenomenkarisik",
+    "category": "Radyo Pop",
     "streamUrl": "https://live.radyofenomen.com/fenomenkarisik/abr/playlist.m3u8"
   },
   {
-    "name": "Radyo Turkuvaz",
-    "url": "https://www.radyoturkuvaz.com.tr/#radyoturkuvaz",
-    "category": "Radyo",
-    "streamUrl": "https://trkvz-radyolar.ercdn.net/radyoturkuvaz/playlist.m3u8"
+    "name": "Fenomen Türk",
+    "url": "https://www.canlitvtr.app/radyo/fenomenturk",
+    "category": "Radyo Pop",
+    "streamUrl": "https://live.radyofenomen.com/fenomenturk/abr/playlist.m3u8"
   },
   {
-    "name": "A Haber Radyo",
-    "url": "https://www.ahaber.com.tr/#ahaberradyo",
-    "category": "Radyo",
-    "streamUrl": "https://trkvz-radyolar.ercdn.net/ahaberradyo/playlist.m3u8"
+    "name": "Joy FM",
+    "url": "https://www.canlitvtr.app/radyo/joyfm",
+    "category": "Radyo Pop",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/JOY_FM.mp3"
   },
   {
-    "name": "A Spor Radyo",
-    "url": "https://www.aspor.com.tr/#asporradyo",
-    "category": "Radyo",
-    "streamUrl": "https://trkvz-radyolar.ercdn.net/asporradyo/playlist.m3u8"
+    "name": "Joy Türk",
+    "url": "https://www.canlitvtr.app/radyo/joyturk",
+    "category": "Radyo Pop",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/JOY_TURK128AAC.aac"
   },
   {
-    "name": "A Para Radyo",
-    "url": "https://www.apara.com.tr/#apararadyo",
-    "category": "Radyo",
-    "streamUrl": "https://trkvz-radyolar.ercdn.net/apararadyo/playlist.m3u8"
-  },
-  {
-    "name": "Vav Radyo",
-    "url": "https://www.vavradyo.com.tr/#vavradyo",
-    "category": "Radyo",
-    "streamUrl": "https://trkvz-radyolar.ercdn.net/radyovav/playlist.m3u8"
-  },
-  {
-    "name": "Akra FM",
-    "url": "https://www.akradyo.net/#akrafm",
-    "category": "Radyo",
-    "streamUrl": "https://cdn3.akradyo.net/akracanli2/_definst_/livestream_aac/playlist.m3u8"
-  },
-  {
-    "name": "Diyanet Radyo",
-    "url": "https://radyodinle.diyanet.gov.tr/#diyanetradyo",
-    "category": "Radyo",
-    "streamUrl": "https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3c1171d7d2a.smil/playlist.m3u8"
+    "name": "Kafa Radyo",
+    "url": "https://www.canlitvtr.app/radyo/kafaradyo",
+    "category": "Radyo Pop",
+    "streamUrl": "https://moondigitalmaster.radyotvonline.net/kafaradyo/playlist.m3u8"
   },
   {
     "name": "Kral FM",
-    "url": "https://www.kralmuzik.com.tr/#kralfm",
-    "category": "Radyo",
+    "url": "https://www.canlitvtr.app/radyo/kralfm",
+    "category": "Radyo Pop",
     "streamUrl": "https://dygedge2.radyotvonline.net/kralfm/playlist.m3u8"
   },
   {
     "name": "Kral Pop",
-    "url": "https://www.kralmuzik.com.tr/#kralpop",
-    "category": "Radyo",
+    "url": "https://www.canlitvtr.app/radyo/kralpop",
+    "category": "Radyo Pop",
     "streamUrl": "https://dygedge2.radyotvonline.net/kralpop/playlist.m3u8"
   },
   {
+    "name": "Metro FM",
+    "url": "https://www.canlitvtr.app/radyo/metrofm",
+    "category": "Radyo Pop",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/METRO_FM.mp3"
+  },
+  {
+    "name": "Number 1 Petrol Ofisi",
+    "url": "https://www.canlitvtr.app/radyo/number1petrolofisi",
+    "category": "Radyo Pop",
+    "streamUrl": "https://eustr75.mediatriple.net/Number1Media/32_Number1_Petrolofisi.stream/playlist.m3u8"
+  },
+  {
+    "name": "Power FM",
+    "url": "https://www.canlitvtr.app/radyo/powerfm",
+    "category": "Radyo Pop",
+    "streamUrl": "https://listen.powerapp.com.tr/powerfm/abr/playlist.m3u8"
+  },
+  {
+    "name": "Power Greece",
+    "url": "https://www.canlitvtr.app/radyo/powergreece",
+    "category": "Radyo Pop",
+    "streamUrl": "https://listen.powerapp.com.tr/powergreece/abr/playlist.m3u8"
+  },
+  {
+    "name": "Power Pop",
+    "url": "https://www.canlitvtr.app/radyo/powerpop",
+    "category": "Radyo Pop",
+    "streamUrl": "https://listen.powerapp.com.tr/powerpop/abr/playlist.m3u8"
+  },
+  {
+    "name": "Power Türk",
+    "url": "https://www.canlitvtr.app/radyo/powerturk",
+    "category": "Radyo Pop",
+    "streamUrl": "https://listen.powerapp.com.tr/powerturk/abr/playlist.m3u8"
+  },
+  {
+    "name": "Power Türk Dance",
+    "url": "https://www.canlitvtr.app/radyo/powerturkdance",
+    "category": "Radyo Pop",
+    "streamUrl": "https://listen.powerapp.com.tr/powerturkdans/abr/playlist.m3u8"
+  },
+  {
+    "name": "Power Türk FM",
+    "url": "https://www.canlitvtr.app/radyo/powerturkfm",
+    "category": "Radyo Pop",
+    "streamUrl": "https://live.powerapp.com.tr/powerturk/abr/playlist.m3u8"
+  },
+  {
+    "name": "Power+",
+    "url": "https://www.canlitvtr.app/radyo/power",
+    "category": "Radyo Pop",
+    "streamUrl": "https://listen.powerapp.com.tr/powerplus/abr/playlist.m3u8"
+  },
+  {
+    "name": "Powertürk Taptaze",
+    "url": "https://www.canlitvtr.app/radyo/powerturktaptaze",
+    "category": "Radyo Pop",
+    "streamUrl": "https://listen.powerapp.com.tr/powerturktaptaze/abr/playlist.m3u8"
+  },
+  {
+    "name": "Radyo Fenomen",
+    "url": "https://www.canlitvtr.app/radyo/radyofenomen",
+    "category": "Radyo Pop",
+    "streamUrl": "https://live.radyofenomen.com/fenomen/abr/playlist.m3u8"
+  },
+  {
+    "name": "Radyo Mydonose",
+    "url": "https://www.canlitvtr.app/radyo/radyomydonose",
+    "category": "Radyo Pop",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/MYDONOSE_TURK128AAC.aac"
+  },
+  {
+    "name": "Radyo Viva",
+    "url": "https://www.canlitvtr.app/radyo/radyoviva",
+    "category": "Radyo Pop",
+    "streamUrl": "https://radyoviva.radyotvonline.net/radyovivaaac"
+  },
+  {
+    "name": "Show Radyo",
+    "url": "https://www.canlitvtr.app/radyo/showradyo",
+    "category": "Radyo Pop",
+    "streamUrl": "https://showradyo.radyotvonline.net/showradyoaac"
+  },
+  {
+    "name": "Süper FM",
+    "url": "https://www.canlitvtr.app/radyo/superfm",
+    "category": "Radyo Pop",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/SUPER_FM_ITUNES.mp3"
+  },
+  {
+    "name": "Virgin Radio",
+    "url": "https://www.canlitvtr.app/radyo/virginradio",
+    "category": "Radyo Pop",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/VIRGIN_RADIO.mp3"
+  },
+  {
+    "name": "Power Love",
+    "url": "https://www.canlitvtr.app/radyo/powerlove",
+    "category": "Radyo Slow",
+    "streamUrl": "https://listen.powerapp.com.tr/powerlove/abr/playlist.m3u8"
+  },
+  {
+    "name": "Power Türk Slow",
+    "url": "https://www.canlitvtr.app/radyo/powerturkslow",
+    "category": "Radyo Slow",
+    "streamUrl": "https://listen.powerapp.com.tr/powerturkslow/abr/playlist.m3u8"
+  },
+  {
+    "name": "PowerTürk Akustik",
+    "url": "https://www.canlitvtr.app/radyo/powerturkakustik",
+    "category": "Radyo Slow",
+    "streamUrl": "https://listen.powerapp.com.tr/powerturkakustik/abr/playlist.m3u8"
+  },
+  {
+    "name": "Radyo 7 | Slow",
+    "url": "https://www.canlitvtr.app/radyo/radyo7slow",
+    "category": "Radyo Slow",
+    "streamUrl": "http://37.247.98.8/stream/27/"
+  },
+  {
+    "name": "Show Akustik",
+    "url": "https://www.canlitvtr.app/radyo/showakustik",
+    "category": "Radyo Slow",
+    "streamUrl": "https://listen.radyotvonline.net/hls/play/show_akustik.m3u8"
+  },
+  {
+    "name": "Slow Türk",
+    "url": "https://www.canlitvtr.app/radyo/slowturk",
+    "category": "Radyo Slow",
+    "streamUrl": "https://radyo.duhnet.tv/ak_dtvh_slowturk"
+  },
+  {
+    "name": "Turkuvaz Efsane",
+    "url": "https://www.canlitvtr.app/radyo/turkuvazefsane",
+    "category": "Radyo Slow",
+    "streamUrl": "https://trkvz-radyolar.ercdn.net/turkuvazefsane/playlist.m3u8"
+  },
+  {
+    "name": "A Haber Radyo",
+    "url": "https://www.canlitvtr.app/radyo/ahaberradyo",
+    "category": "Radyo Haber",
+    "streamUrl": "https://trkvz-radyolar.ercdn.net/ahaberradyo/playlist.m3u8"
+  },
+  {
+    "name": "A Spor Radyo",
+    "url": "https://www.canlitvtr.app/radyo/asporradyo",
+    "category": "Radyo Haber",
+    "streamUrl": "https://trkvz-radyolar.ercdn.net/asporradyo/playlist.m3u8"
+  },
+  {
+    "name": "CNN Türk Radyo",
+    "url": "https://www.canlitvtr.app/radyo/cnnturkradyo",
+    "category": "Radyo Haber",
+    "streamUrl": "https://moondigitaledge2.radyotvonline.net/cnnturk/playlist.m3u8"
+  },
+  {
+    "name": "Meteorolojinin Sesi Radyosu",
+    "url": "https://www.canlitvtr.app/radyo/meteorolojininsesiradyosu",
+    "category": "Radyo Haber",
+    "streamUrl": "https://radyomgm.canliyayinda.com/;"
+  },
+  {
+    "name": "NTV HD (Tokenli)",
+    "url": "https://www.canlitvtr.app/radyo/ntvhdtokenli",
+    "category": "Radyo Haber",
+    "streamUrl": "https://dogus.daioncdn.net/ntv/ntv_1080p.m3u8?token=e8c0dec16bf84c8cc187224d13811c0e705fd2c58b25d7ee&sid=8jjv7i9jp3dk&app=c68bddbe-3dbf-49f7-892a-93de5ae37f1f&ce=3"
+  },
+  {
     "name": "NTV Radyo",
-    "url": "https://www.ntv.com.tr/#ntvradyo",
-    "category": "Radyo",
+    "url": "https://www.canlitvtr.app/radyo/ntvradyo",
+    "category": "Radyo Haber",
     "streamUrl": "https://dygedge.radyotvonline.net/ntvradyo/playlist.m3u8"
   },
   {
+    "name": "Radyo Spor",
+    "url": "https://www.canlitvtr.app/radyo/radyospor",
+    "category": "Radyo Haber",
+    "streamUrl": "https://moondigitaledge.radyotvonline.net/radyospor/playlist.m3u8"
+  },
+  {
+    "name": "Radyo Trafik",
+    "url": "https://www.canlitvtr.app/radyo/radyotrafik",
+    "category": "Radyo Haber",
+    "streamUrl": "https://wowza1.radyotvonline.com/saran/trafik.stream/playlist.m3u8"
+  },
+  {
+    "name": "Radyo Trafik Türkiye",
+    "url": "https://www.canlitvtr.app/radyo/radyotrafikturkiye",
+    "category": "Radyo Haber",
+    "streamUrl": "https://moondigitaledge.radyotvonline.net/radyotrafikmarmara/playlist.m3u8"
+  },
+  {
+    "name": "TRT Radyo Haber",
+    "url": "https://www.canlitvtr.app/radyo/trtradyohaber",
+    "category": "Radyo Haber",
+    "streamUrl": "https://rd-trtradyohaber.medya.trt.com.tr/master.m3u8"
+  },
+  {
+    "name": "Arabesk FM",
+    "url": "https://www.canlitvtr.app/radyo/arabeskfm",
+    "category": "Radyo Arabesk",
+    "streamUrl": "http://yayin.arabeskfm.biz:8042/;?type=mp3"
+  },
+  {
+    "name": "Damar FM",
+    "url": "https://www.canlitvtr.app/radyo/damarfm",
+    "category": "Radyo Arabesk",
+    "streamUrl": "http://yayin.damarfm.com:8080/;?type=mp3"
+  },
+  {
+    "name": "Kalp FM",
+    "url": "https://www.canlitvtr.app/radyo/kalpfm",
+    "category": "Radyo Arabesk",
+    "streamUrl": "https://yayin.kalpfm.com:8080/stream"
+  },
+  {
+    "name": "Lokum FM",
+    "url": "https://www.canlitvtr.app/radyo/lokumfm",
+    "category": "Radyo Arabesk",
+    "streamUrl": "http://37.247.98.9/stream/493/?/;"
+  },
+  {
+    "name": "Radyo 7 | Arabesk",
+    "url": "https://www.canlitvtr.app/radyo/radyo7arabesk",
+    "category": "Radyo Arabesk",
+    "streamUrl": "http://37.247.98.8/stream/19/"
+  },
+  {
+    "name": "Radyo Alaturka",
+    "url": "https://www.canlitvtr.app/radyo/radyoalaturka",
+    "category": "Radyo Arabesk",
+    "streamUrl": "https://yayin.jumboserver.net:9100/stream"
+  },
+  {
+    "name": "Pal Nostalji",
+    "url": "https://www.canlitvtr.app/radyo/palnostalji",
+    "category": "Radyo Nostalji",
+    "streamUrl": "https://moondigitaledge.radyotvonline.net/palnostalji/playlist.m3u8"
+  },
+  {
+    "name": "Radyo 45lik",
+    "url": "https://www.canlitvtr.app/radyo/radyo45lik",
+    "category": "Radyo Nostalji",
+    "streamUrl": "https://stream.radyo45lik.com:4545/stream"
+  },
+  {
+    "name": "Radyo Armoni",
+    "url": "https://www.canlitvtr.app/radyo/radyoarmoni",
+    "category": "Radyo Nostalji",
+    "streamUrl": "https://radyo.yayindakiler.com:4084/stream"
+  },
+  {
+    "name": "Radyo Hisar",
+    "url": "https://www.canlitvtr.app/radyo/radyohisar",
+    "category": "Radyo Nostalji",
+    "streamUrl": "https://radyo.yayindakiler.com:4006/;"
+  },
+  {
+    "name": "Radyo Seymen",
+    "url": "https://www.canlitvtr.app/radyo/radyoseymen",
+    "category": "Radyo Türkü",
+    "streamUrl": "https://yayin.radyoseymen.com.tr:1070/stream",
+    "province": "Ankara"
+  },
+  {
+    "name": "Karadeniz FM",
+    "url": "https://www.canlitvtr.app/radyo/karadenizfm",
+    "category": "Radyo Türkü",
+    "streamUrl": "https://moondigitaledge.radyotvonline.net/karadenizfm/playlist.m3u8",
+    "province": "Trabzon"
+  },
+  {
+    "name": "Radyo 7 | Türkü",
+    "url": "https://www.canlitvtr.app/radyo/radyo7turku",
+    "category": "Radyo Türkü",
+    "streamUrl": "https://moondigitaledge2.radyotvonline.net/radyo7turku/playlist.m3u8"
+  },
+  {
+    "name": "Radyo Kolaylı",
+    "url": "https://www.canlitvtr.app/radyo/radyokolayli",
+    "category": "Radyo Türkü",
+    "streamUrl": "http://stream2.rtvtakip.com:8004/;"
+  },
+  {
+    "name": "Radyo Viva Türkü",
+    "url": "https://www.canlitvtr.app/radyo/radyovivaturku",
+    "category": "Radyo Türkü",
+    "streamUrl": "https://listen.radyotvonline.net/hls/play/viva_turku.m3u8"
+  },
+  {
+    "name": "TRT Türkü",
+    "url": "https://www.canlitvtr.app/radyo/trtturku",
+    "category": "Radyo Türkü",
+    "streamUrl": "https://rd-trtturku.medya.trt.com.tr/master.m3u8"
+  },
+  {
+    "name": "Radyo Turkuvaz",
+    "url": "https://www.canlitvtr.app/radyo/radyoturkuvaz",
+    "category": "Radyo Resmi",
+    "streamUrl": "https://trkvz-radyolar.ercdn.net/radyoturkuvaz/playlist.m3u8"
+  },
+  {
+    "name": "TRT FM",
+    "url": "https://www.canlitvtr.app/radyo/trtfm",
+    "category": "Radyo Resmi",
+    "streamUrl": "https://rd-trtfm.medya.trt.com.tr/master.m3u8"
+  },
+  {
+    "name": "TRT Nağme",
+    "url": "https://www.canlitvtr.app/radyo/trtnagme",
+    "category": "Radyo Resmi",
+    "streamUrl": "https://rd-trtnagme.medya.trt.com.tr/master.m3u8"
+  },
+  {
+    "name": "TRT Radyo 1",
+    "url": "https://www.canlitvtr.app/radyo/trtradyo1",
+    "category": "Radyo Resmi",
+    "streamUrl": "https://rd-trtradyo1.medya.trt.com.tr/master.m3u8"
+  },
+  {
+    "name": "TRT Radyo 3",
+    "url": "https://www.canlitvtr.app/radyo/trtradyo3",
+    "category": "Radyo Resmi",
+    "streamUrl": "https://rd-trtradyo3.medya.trt.com.tr/master.m3u8"
+  },
+  {
+    "name": "Adana Efsane Radyo",
+    "url": "https://www.canlitvtr.app/radyo/adanaefsaneradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://host10.onlineradyotv.net/9602/stream?/;stream.mp3",
+    "province": "Adana"
+  },
+  {
+    "name": "Adana FM",
+    "url": "https://www.canlitvtr.app/radyo/adanafm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://host10.onlineradyotv.net/8004/stream?/;stream.mp3",
+    "province": "Adana"
+  },
+  {
+    "name": "Adana Kozan Fm",
+    "url": "https://www.canlitvtr.app/radyo/adanakozanfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/3401/stream/;stream.mp3",
+    "province": "Adana"
+  },
+  {
+    "name": "Adana Lokum Fm",
+    "url": "https://www.canlitvtr.app/radyo/adanalokumfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://www.radyoplay.net/proxy.php",
+    "province": "Adana"
+  },
+  {
+    "name": "Adana Mavi Radyo",
+    "url": "https://www.canlitvtr.app/radyo/adanamaviradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.radyolarburada.com/listen/maviradyo/maviradyo?",
+    "province": "Adana"
+  },
+  {
+    "name": "Adana Radyo Başkent",
+    "url": "https://www.canlitvtr.app/radyo/adanaradyobaskent",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.kanalb.tr/adana?/;stream.mp3",
+    "province": "Adana"
+  },
+  {
+    "name": "Adana Radyo Çukurova",
+    "url": "https://www.canlitvtr.app/radyo/adanaradyocukurova",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://host10.onlineradyotv.net/8010/stream?/;stream.mp3",
+    "province": "Adana"
+  },
+  {
+    "name": "Adana Radyo Erkan",
+    "url": "https://www.canlitvtr.app/radyo/adanaradyoerkan",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.radyolarburada.com:8095/stream?/;stream.mp3",
+    "province": "Adana"
+  },
+  {
+    "name": "Adana Radyo Güney",
+    "url": "https://www.canlitvtr.app/radyo/adanaradyoguney",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.radyolarburada.com:8250/stream?/;stream.mp3",
+    "province": "Adana"
+  },
+  {
+    "name": "Adana Radyo One",
+    "url": "https://www.canlitvtr.app/radyo/adanaradyoone",
+    "category": "Radyo Yerel",
+    "streamUrl": "http://radioone.ozelip.com/8162/stream",
+    "province": "Adana"
+  },
+  {
+    "name": "Adana Süper FM",
+    "url": "https://www.canlitvtr.app/radyo/adanasuperfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:4002/;",
+    "province": "Adana"
+  },
+  {
+    "name": "Akdeniz FM Adana 105.7",
+    "url": "https://www.canlitvtr.app/radyo/akdenizfmadana1057",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://host10.onlineradyotv.net/8012/stream?/;stream.mp3",
+    "province": "Adana"
+  },
+  {
+    "name": "Aşk FM Türkiye",
+    "url": "https://www.canlitvtr.app/radyo/askfmturkiye",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://askfmturkiye.com/uploads/mp3/track_698467692df5a.mp3",
+    "province": "Adana"
+  },
+  {
+    "name": "Barış Radyo",
+    "url": "https://www.canlitvtr.app/radyo/barisradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin2.canliyayin.org:9350/stream?/;stream.mp3",
+    "province": "Adana"
+  },
+  {
+    "name": "Crt FM",
+    "url": "https://www.canlitvtr.app/radyo/crtfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:9420/stream",
+    "province": "Adana"
+  },
+  {
+    "name": "Jest FM",
+    "url": "https://www.canlitvtr.app/radyo/jestfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8098/stream",
+    "province": "Adana"
+  },
+  {
+    "name": "Kozan FM",
+    "url": "https://www.canlitvtr.app/radyo/kozanfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/kozanfm/stream",
+    "province": "Adana"
+  },
+  {
+    "name": "Mavi FM Türkiye",
+    "url": "https://www.canlitvtr.app/radyo/mavifmturkiye",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:9372/stream",
+    "province": "Adana"
+  },
+  {
+    "name": "Meşk FM",
+    "url": "https://www.canlitvtr.app/radyo/meskfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/meskfm",
+    "province": "Adana"
+  },
+  {
+    "name": "Meşk Fm 95.5",
+    "url": "https://www.canlitvtr.app/radyo/meskfm955",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.radyolarburada.com:8130/stream?/;stream.mp3",
+    "province": "Adana"
+  },
+  {
+    "name": "Nurs FM",
+    "url": "https://www.canlitvtr.app/radyo/nursfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8136/stream",
+    "province": "Adana"
+  },
+  {
+    "name": "Radio One FM",
+    "url": "https://www.canlitvtr.app/radyo/radioonefm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8224/stream",
+    "province": "Adana"
+  },
+  {
+    "name": "Radyo Çukurova",
+    "url": "https://www.canlitvtr.app/radyo/radyocukurova",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8138/stream",
+    "province": "Adana"
+  },
+  {
+    "name": "Radyo Deva",
+    "url": "https://www.canlitvtr.app/radyo/radyodeva",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:3040/;",
+    "province": "Adana"
+  },
+  {
+    "name": "Radyo Efebey",
+    "url": "https://www.canlitvtr.app/radyo/radyoefebey",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.radyoimza.com:8016/stream/;stream.mp3",
+    "province": "Adana"
+  },
+  {
+    "name": "Radyo Erkan",
+    "url": "https://www.canlitvtr.app/radyo/radyoerkan",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.radyolarburada.com:8095/stream",
+    "province": "Adana"
+  },
+  {
+    "name": "Radyo Güney",
+    "url": "https://www.canlitvtr.app/radyo/radyoguney",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.radyolarburada.com/listen/guneyfm/stream",
+    "province": "Adana"
+  },
+  {
+    "name": "Radyo Sefa",
+    "url": "https://www.canlitvtr.app/radyo/radyosefa",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://host10.onlineradyotv.net/8500/stream?/;stream.mp3",
+    "province": "Adana"
+  },
+  {
+    "name": "Radyo Seyhan",
+    "url": "https://www.canlitvtr.app/radyo/radyoseyhan",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://host10.onlineradyotv.net/8092/stream?/;stream.mp3",
+    "province": "Adana"
+  },
+  {
+    "name": "Radyo Sis",
+    "url": "https://www.canlitvtr.app/radyo/radyosis",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://live.radyositesihazir.com:8082/stream?/;stream.mp3",
+    "province": "Adana"
+  },
+  {
+    "name": "Adıyaman Güney Radyo",
+    "url": "https://www.canlitvtr.app/radyo/adiyamanguneyradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:8022/stream",
+    "province": "Adıyaman"
+  },
+  {
+    "name": "Adıyaman Kahta FM",
+    "url": "https://www.canlitvtr.app/radyo/adiyamankahtafm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.kahtafm967.com.tr/live",
+    "province": "Adıyaman"
+  },
+  {
+    "name": "Adıyaman Radyo Tek",
+    "url": "https://www.canlitvtr.app/radyo/adiyamanradyotek",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:3102/;",
+    "province": "Adıyaman"
+  },
+  {
+    "name": "Adıyaman Şahin FM",
+    "url": "https://www.canlitvtr.app/radyo/adiyamansahinfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.rcast.net/67503",
+    "province": "Adıyaman"
+  },
+  {
+    "name": "ADYÜ FM – Adıyaman Üniversitesi Radyosu",
+    "url": "https://www.canlitvtr.app/radyo/adyufmadiyamanuniversitesiradyosu",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://adyufm.adiyaman.edu.tr/yayin.ogg?",
+    "province": "Adıyaman"
+  },
+  {
+    "name": "Mert FM",
+    "url": "https://www.canlitvtr.app/radyo/mertfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:5028/;",
+    "province": "Adıyaman"
+  },
+  {
+    "name": "Afyon Armoni Fm",
+    "url": "https://www.canlitvtr.app/radyo/afyonarmonifm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:4084/;",
+    "province": "Afyonkarahisar"
+  },
+  {
+    "name": "Afyon Radyo Tek",
+    "url": "https://www.canlitvtr.app/radyo/afyonradyotek",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:8004/stream?/;stream.mp3",
+    "province": "Afyonkarahisar"
+  },
+  {
+    "name": "Dinar Dost Radyo",
+    "url": "https://www.canlitvtr.app/radyo/dinardostradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo1.radyo-dinle.tc/8062/stream/;stream.mp3",
+    "province": "Afyonkarahisar"
+  },
+  {
+    "name": "Gün FM Afyon",
+    "url": "https://www.canlitvtr.app/radyo/gunfmafyon",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ssl120.radyotelekom.com.tr/8130/;",
+    "province": "Afyonkarahisar"
+  },
+  {
+    "name": "Radyo Kocatepe",
+    "url": "https://www.canlitvtr.app/radyo/radyokocatepe",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.aku.edu.tr/radyo?/;stream.mp3",
+    "province": "Afyonkarahisar"
+  },
+  {
+    "name": "Solmaz FM",
+    "url": "https://www.canlitvtr.app/radyo/solmazfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8330/stream",
+    "province": "Afyonkarahisar"
+  },
+  {
+    "name": "Tutak FM",
+    "url": "https://www.canlitvtr.app/radyo/tutakfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo1.radyo-dinle.tc/8004/stream?",
+    "province": "Ağrı"
+  },
+  {
+    "name": "Akgül FM",
+    "url": "https://www.canlitvtr.app/radyo/akgulfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/akgulfm/stream?/;stream.mp3",
+    "province": "Aksaray"
+  },
+  {
+    "name": "Aksaray Ar Radyo",
+    "url": "https://www.canlitvtr.app/radyo/aksarayarradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:4036/;",
+    "province": "Aksaray"
+  },
+  {
+    "name": "Aksaray FM",
+    "url": "https://www.canlitvtr.app/radyo/aksarayfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:9332/stream",
+    "province": "Aksaray"
+  },
+  {
+    "name": "Aksarayın Sesi",
+    "url": "https://www.canlitvtr.app/radyo/aksarayinsesi",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8100/stream",
+    "province": "Aksaray"
+  },
+  {
+    "name": "Kent FM Aksaray",
+    "url": "https://www.canlitvtr.app/radyo/kentfmaksaray",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://uk20freenew.listen2myradio.com/live.mp3?typeportmount=s1_5035_stream_22613738",
+    "province": "Aksaray"
+  },
+  {
+    "name": "Radyo 68",
+    "url": "https://www.canlitvtr.app/radyo/radyo68",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:4022/;",
+    "province": "Aksaray"
+  },
+  {
+    "name": "Radyo Mavi Aksaray",
+    "url": "https://www.canlitvtr.app/radyo/radyomaviaksaray",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:4026/;",
+    "province": "Aksaray"
+  },
+  {
+    "name": "Amasya Art FM",
+    "url": "https://www.canlitvtr.app/radyo/amasyaartfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin1.canlitv.fun:8014/stream?/;stream.mp3",
+    "province": "Amasya"
+  },
+  {
+    "name": "Amasya Esinti FM",
+    "url": "https://www.canlitvtr.app/radyo/amasyaesintifm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.zeno.fm/yzg9n0sma8zuv?/;stream.mp3",
+    "province": "Amasya"
+  },
+  {
+    "name": "Amasya FM",
+    "url": "https://www.canlitvtr.app/radyo/amasyafm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://amasyafm.ozelip.com:8022/stream?/;stream.mp3",
+    "province": "Amasya"
+  },
+  {
+    "name": "Radyo Hayat",
+    "url": "https://www.canlitvtr.app/radyo/radyohayat",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.radyoyayini.com:7059/stream",
+    "province": "Amasya"
+  },
+  {
+    "name": "Radyo Hayat Amasya",
+    "url": "https://www.canlitvtr.app/radyo/radyohayatamasya",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.radyoyayini.com:7059/stream?",
+    "province": "Amasya"
+  },
+  {
+    "name": "Sıla FM",
+    "url": "https://www.canlitvtr.app/radyo/silafm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:4164/;",
+    "province": "Amasya"
+  },
+  {
+    "name": "Ankara Radyo Banko",
+    "url": "https://www.canlitvtr.app/radyo/ankararadyobanko",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.netradyom.com/listen/radyobanko/radio.mp3/;stream.mp3",
+    "province": "Ankara"
+  },
+  {
+    "name": "Ankara Radyo Beyaz",
+    "url": "https://www.canlitvtr.app/radyo/ankararadyobeyaz",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.normyazilim.com:8030/radio.mp3/;stream.mp3",
+    "province": "Ankara"
+  },
+  {
+    "name": "Ankara Radyo Özgür",
+    "url": "https://www.canlitvtr.app/radyo/ankararadyoozgur",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyoozgur.kesintisizyayin.com:9898/;",
+    "province": "Ankara"
+  },
+  {
+    "name": "Aşk Fm",
+    "url": "https://www.canlitvtr.app/radyo/askfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.netradyom.com/radio/8000/radio.mp3?/;stream.mp3",
+    "province": "Ankara"
+  },
+  {
+    "name": "Avrasya Türk 107.1 Ankara",
+    "url": "https://www.canlitvtr.app/radyo/avrasyaturk1071ankara",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net:10909/;/;stream.mp3",
+    "province": "Ankara"
+  },
+  {
+    "name": "Heart FM",
+    "url": "https://www.canlitvtr.app/radyo/heartfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://live.heartfm.com.tr/listen/heart_fm/128.aac?/;stream.mp3",
+    "province": "Ankara"
+  },
+  {
+    "name": "İmaj Pop",
+    "url": "https://www.canlitvtr.app/radyo/imajpop",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.netradyom.com/listen/imajpop/radio.mp3",
+    "province": "Ankara"
+  },
+  {
+    "name": "Karadeniz Radyo",
+    "url": "https://www.canlitvtr.app/radyo/karadenizradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/KARADENIZ128AAC.aac?/;stream.mp3",
+    "province": "Ankara"
+  },
+  {
+    "name": "Max Fm",
+    "url": "https://www.canlitvtr.app/radyo/maxfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://maxfm.radyotvonline.net/stream/164/;stream.mp3",
+    "province": "Ankara"
+  },
+  {
+    "name": "Özgür Radyo",
+    "url": "https://www.canlitvtr.app/radyo/ozgurradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyoozgur.kesintisizyayin.com:9898/;*.nsv",
+    "province": "Ankara"
+  },
+  {
+    "name": "Radio Atılım",
+    "url": "https://www.canlitvtr.app/radyo/radioatilim",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://listen.powerapp.com.tr/radyoatilim/mpeg/icecast.audio?",
+    "province": "Ankara"
+  },
+  {
+    "name": "Radyo 7 Ankara Havaları",
+    "url": "https://www.canlitvtr.app/radyo/radyo7ankarahavalari",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge2.radyotvonline.net/radyo7ankara/playlist.m3u8",
+    "province": "Ankara"
+  },
+  {
+    "name": "Radyo Ankara Havaları",
+    "url": "https://www.canlitvtr.app/radyo/radyoankarahavalari",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge.radyotvonline.net/ankarahavalari/playlist.m3u8",
+    "province": "Ankara"
+  },
+  {
+    "name": "Radyo Başkent",
+    "url": "https://www.canlitvtr.app/radyo/radyobaskent",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.radyoimza.com/8066/stream",
+    "province": "Ankara"
+  },
+  {
+    "name": "Radyo Harman FM",
+    "url": "https://www.canlitvtr.app/radyo/radyoharmanfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://free.rcast.net/200259?/;stream.mp3",
+    "province": "Ankara"
+  },
+  {
+    "name": "Radyo Hedef",
+    "url": "https://www.canlitvtr.app/radyo/radyohedef",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.rcast.net/200299",
+    "province": "Ankara"
+  },
+  {
+    "name": "Radyo İlef",
+    "url": "https://www.canlitvtr.app/radyo/radyoilef",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyoilef.ankara.edu.tr/stream?/;stream.mp3",
+    "province": "Ankara"
+  },
+  {
+    "name": "Radyo Kent FM",
+    "url": "https://www.canlitvtr.app/radyo/radyokentfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://live.sinirsizhost.com/8024/stream?",
+    "province": "Ankara"
+  },
+  {
+    "name": "Radyo Megasite",
+    "url": "https://www.canlitvtr.app/radyo/radyomegasite",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.netradyom.com:7120/stream",
+    "province": "Ankara"
+  },
+  {
+    "name": "Radyo ODTÜ",
+    "url": "https://www.canlitvtr.app/radyo/radyoodtu",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.radyoodtu.com.tr/canli;/;stream.mp3",
+    "province": "Ankara"
+  },
+  {
+    "name": "Radyo Ostim",
+    "url": "https://www.canlitvtr.app/radyo/radyoostim",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.netradyom.com/radio/8010/radio.mp3",
+    "province": "Ankara"
+  },
+  {
+    "name": "Radyo Ses Ankara",
+    "url": "https://www.canlitvtr.app/radyo/radyosesankara",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.normyazilim.com:8020/radio.mp3/;stream.mp3",
+    "province": "Ankara"
+  },
+  {
+    "name": "Radyo Trafik Ankara",
+    "url": "https://www.canlitvtr.app/radyo/radyotrafikankara",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://wowza1.radyotvonline.com/saran/radyotrafikankara.stream/playlist.m3u8",
+    "province": "Ankara"
+  },
+  {
+    "name": "Radyo Tuzgölü",
+    "url": "https://www.canlitvtr.app/radyo/radyotuzgolu",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:5870/;",
+    "province": "Ankara"
+  },
+  {
+    "name": "Alanya FM",
+    "url": "https://www.canlitvtr.app/radyo/alanyafm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://alanyafm.80.yayin.com.tr",
+    "province": "Antalya"
+  },
+  {
+    "name": "Alanya GO FM",
+    "url": "https://www.canlitvtr.app/radyo/alanyagofm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://listen3.myradio24.com/95703?/;stream.mp3",
+    "province": "Antalya"
+  },
+  {
+    "name": "Antalya Radyo Akdeniz",
+    "url": "https://www.canlitvtr.app/radyo/antalyaradyoakdeniz",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.radyoakdeniz.com/9470/stream?",
+    "province": "Antalya"
+  },
+  {
+    "name": "Antalya Side FM",
+    "url": "https://www.canlitvtr.app/radyo/antalyasidefm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/8155/stream/;stream.mp3",
+    "province": "Antalya"
+  },
+  {
+    "name": "Art FM Antalya",
+    "url": "https://www.canlitvtr.app/radyo/artfmantalya",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://anadolu.liderhost.com.tr/9338/stream/;stream.mp3",
+    "province": "Antalya"
+  },
+  {
+    "name": "Neşter Radyo",
+    "url": "https://www.canlitvtr.app/radyo/nesterradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net:10929/stream",
+    "province": "Antalya"
+  },
+  {
+    "name": "Olay FM",
+    "url": "https://www.canlitvtr.app/radyo/olayfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://netyayin.jsproduksiyon.com:9010/olayfm",
+    "province": "Antalya"
+  },
+  {
+    "name": "Olay FM Antalya",
+    "url": "https://www.canlitvtr.app/radyo/olayfmantalya",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://netyayin.jsproduksiyon.com:9010/olayfm?type=http&nocache=1706",
+    "province": "Antalya"
+  },
+  {
+    "name": "Radyo Akdeniz",
+    "url": "https://www.canlitvtr.app/radyo/radyoakdeniz",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.radyoakdeniz.com/9470/stream",
+    "province": "Antalya"
+  },
+  {
+    "name": "Radyo Antalya",
+    "url": "https://www.canlitvtr.app/radyo/radyoantalya",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net:8036/stream/;stream.mp3",
+    "province": "Antalya"
+  },
+  {
+    "name": "Radyo Manavgat",
+    "url": "https://www.canlitvtr.app/radyo/radyomanavgat",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/8355/stream/;stream.mp3",
+    "province": "Antalya"
+  },
+  {
+    "name": "Radyo Neşter",
+    "url": "https://www.canlitvtr.app/radyo/radyonester",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://live.sinirsizhost.com/8026/stream?/;stream.mp3",
+    "province": "Antalya"
+  },
+  {
+    "name": "Radyo Time Alanya",
+    "url": "https://www.canlitvtr.app/radyo/radyotimealanya",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/alanyaradyotime/stream?/;stream.mp3",
+    "province": "Antalya"
+  },
+  {
+    "name": "Radyo V",
+    "url": "https://www.canlitvtr.app/radyo/radyov",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://edge1.socialsmart.tv/vtvradyo/bant1/icecast.audio?/;stream.mp3",
+    "province": "Antalya"
+  },
+  {
+    "name": "Üniversite FM",
+    "url": "https://www.canlitvtr.app/radyo/universitefm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://listen.powerapp.com.tr/unifm/mpeg/icecast.audio?",
+    "province": "Antalya"
+  },
+  {
+    "name": "Radyo 08",
+    "url": "https://www.canlitvtr.app/radyo/radyo08",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/radyo08/stream",
+    "province": "Artvin"
+  },
+  {
+    "name": "Aydın Radyo Flaş",
+    "url": "https://www.canlitvtr.app/radyo/aydinradyoflas",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:4096/;",
+    "province": "Aydın"
+  },
+  {
+    "name": "Aydın Radyo Mega",
+    "url": "https://www.canlitvtr.app/radyo/aydinradyomega",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/radyomegafm105/stream?/;stream.mp3",
+    "province": "Aydın"
+  },
+  {
+    "name": "Kuşadası 105 FM",
+    "url": "https://www.canlitvtr.app/radyo/kusadasi105fm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://kusadasi105fm.com/uploads/mp3/track_698467692df5a.mp3",
+    "province": "Aydın"
+  },
+  {
+    "name": "Maraton FM",
+    "url": "https://www.canlitvtr.app/radyo/maratonfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:5178/;",
+    "province": "Aydın"
+  },
+  {
+    "name": "Radyo 9",
+    "url": "https://www.canlitvtr.app/radyo/radyo9",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:4010/;",
+    "province": "Aydın"
+  },
+  {
+    "name": "Radyo Ada",
+    "url": "https://www.canlitvtr.app/radyo/radyoada",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:4038",
+    "province": "Aydın"
+  },
+  {
+    "name": "Radyo Güven",
+    "url": "https://www.canlitvtr.app/radyo/radyoguven",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:4098/;",
+    "province": "Aydın"
+  },
+  {
+    "name": "Radyo Mega FM 105",
+    "url": "https://www.canlitvtr.app/radyo/radyomegafm105",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/9464/stream",
+    "province": "Aydın"
+  },
+  {
+    "name": "Radyo Özden",
+    "url": "https://www.canlitvtr.app/radyo/radyoozden",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://wowza1.radyotvonline.com/shoutcast/radyoozden.stream/chunklist_w994216138.m3u8",
+    "province": "Aydın"
+  },
+  {
+    "name": "Söke Radyo Tempo",
+    "url": "https://www.canlitvtr.app/radyo/sokeradyotempo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/radyotempo/stream?/;stream.mp3",
+    "province": "Aydın"
+  },
+  {
+    "name": "Balıkesir Radyo 10",
+    "url": "https://www.canlitvtr.app/radyo/balikesirradyo10",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/9362/stream",
+    "province": "Balıkesir"
+  },
+  {
+    "name": "Balıkesir Ses Radyo",
+    "url": "https://www.canlitvtr.app/radyo/balikesirsesradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "http://sesradyo.ozelip.com/9350/stream.mp3",
+    "province": "Balıkesir"
+  },
+  {
+    "name": "Karesi Radyo",
+    "url": "https://www.canlitvtr.app/radyo/karesiradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/karesiradyo/stream/;stream.mp3",
+    "province": "Balıkesir"
+  },
+  {
+    "name": "Körfez FM",
+    "url": "https://www.canlitvtr.app/radyo/korfezfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://dinle.korfezfm.com/9954/stream?",
+    "province": "Balıkesir"
+  },
+  {
+    "name": "Radyo Venüs",
+    "url": "https://www.canlitvtr.app/radyo/radyovenus",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream2.rtvtakip.com:7005/;stream.mp3",
+    "province": "Balıkesir"
+  },
+  {
+    "name": "Sev Radyo",
+    "url": "https://www.canlitvtr.app/radyo/sevradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sevradyo.com/uploads/mp3/track_698467692df5a.mp3",
+    "province": "Balıkesir"
+  },
+  {
+    "name": "Radyo 74 Bartın FM",
+    "url": "https://www.canlitvtr.app/radyo/radyo74bartinfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:5918/;",
+    "province": "Bartın"
+  },
+  {
+    "name": "Batman Süper FM",
+    "url": "https://www.canlitvtr.app/radyo/batmansuperfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:4090/;",
+    "province": "Batman"
+  },
+  {
+    "name": "Karma Türk",
+    "url": "https://www.canlitvtr.app/radyo/karmaturk",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.radyomadyo.com:8006/stream",
+    "province": "Bayburt"
+  },
+  {
+    "name": "Üni FM",
+    "url": "https://www.canlitvtr.app/radyo/unifm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://unifmcom.80.yayin.com.tr/;type=mp3",
+    "province": "Bayburt"
+  },
+  {
+    "name": "Bilecik FM",
+    "url": "https://www.canlitvtr.app/radyo/bilecikfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://bilecikfm.kesintisizyayin.com:9980/;",
+    "province": "Bilecik"
+  },
+  {
+    "name": "Bingöl FM",
+    "url": "https://www.canlitvtr.app/radyo/bingolfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:8012/stream?",
+    "province": "Bingöl"
+  },
+  {
+    "name": "Göl Radyo",
+    "url": "https://www.canlitvtr.app/radyo/golradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/8290/stream",
+    "province": "Bingöl"
+  },
+  {
+    "name": "Radyo Azelya",
+    "url": "https://www.canlitvtr.app/radyo/radyoazelya",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/8010/stream",
+    "province": "Bingöl"
+  },
+  {
+    "name": "Radyo 13 Tatvan",
+    "url": "https://www.canlitvtr.app/radyo/radyo13tatvan",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:3050/;",
+    "province": "Bitlis"
+  },
+  {
+    "name": "RADYO 14 (Gerede Fm)",
+    "url": "https://www.canlitvtr.app/radyo/radyo14geredefm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:4104/;",
+    "province": "Bolu"
+  },
+  {
+    "name": "Radyo Yankı",
+    "url": "https://www.canlitvtr.app/radyo/radyoyanki",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyoyanki.ozelip.com/9918/stream?/;stream.mp3",
+    "province": "Bolu"
+  },
+  {
+    "name": "1001 Fm Bursa",
+    "url": "https://www.canlitvtr.app/radyo/1001fmbursa",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:1055/;type=mp3",
+    "province": "Bursa"
+  },
+  {
+    "name": "Bursa FM",
+    "url": "https://www.canlitvtr.app/radyo/bursafm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:1055/;",
+    "province": "Bursa"
+  },
+  {
+    "name": "Bursa Karadeniz FM",
+    "url": "https://www.canlitvtr.app/radyo/bursakaradenizfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8168/stream",
+    "province": "Bursa"
+  },
+  {
+    "name": "Bursa Radyo Deniz",
+    "url": "https://www.canlitvtr.app/radyo/bursaradyodeniz",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/denizfm/stream?/;stream.mp3",
+    "province": "Bursa"
+  },
+  {
+    "name": "Bursa Radyo Güneş",
+    "url": "https://www.canlitvtr.app/radyo/bursaradyogunes",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/9390/stream?/;stream.mp3",
+    "province": "Bursa"
+  },
+  {
+    "name": "Bursa Radyo Şampiyon",
+    "url": "https://www.canlitvtr.app/radyo/bursaradyosampiyon",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:4106/;",
+    "province": "Bursa"
+  },
+  {
+    "name": "Bursa Radyo Venüs",
+    "url": "https://www.canlitvtr.app/radyo/bursaradyovenus",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.radyovenus.com.tr:3416/;",
+    "province": "Bursa"
+  },
+  {
+    "name": "Bursada Bugün Radyo",
+    "url": "https://www.canlitvtr.app/radyo/bursadabugunradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.bursadabugun.com/stream?/;stream.mp3",
+    "province": "Bursa"
+  },
+  {
+    "name": "Dost Fm Bursa",
+    "url": "https://www.canlitvtr.app/radyo/dostfmbursa",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/dostfmbursa/stream?/;stream.mp3",
+    "province": "Bursa"
+  },
+  {
+    "name": "Genç Ses FM",
+    "url": "https://www.canlitvtr.app/radyo/gencsesfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8008/stream",
+    "province": "Bursa"
+  },
+  {
+    "name": "Radyo 16",
+    "url": "https://www.canlitvtr.app/radyo/radyo16",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:6038/;",
+    "province": "Bursa"
+  },
+  {
+    "name": "Radyo Aktif",
+    "url": "https://www.canlitvtr.app/radyo/radyoaktif",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://hearthis.at/radyoaktif/mehmet-ali-doenmez-stuedyo-konuk-15.05.2025/stream.mp3?referer=&s=eDo&t=1782631805",
+    "province": "Bursa"
+  },
+  {
+    "name": "Radyo Aktif Bursa",
+    "url": "https://www.canlitvtr.app/radyo/radyoaktifbursa",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/radyoaktif/stream?/;stream.mp3",
+    "province": "Bursa"
+  },
+  {
+    "name": "Radyo Bu",
+    "url": "https://www.canlitvtr.app/radyo/radyobu",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:8006/stream",
+    "province": "Bursa"
+  },
+  {
+    "name": "Radyo Genç Ses",
+    "url": "https://www.canlitvtr.app/radyo/radyogencses",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/gencsesfm/stream?/;stream.mp3",
+    "province": "Bursa"
+  },
+  {
+    "name": "Radyo Güneş",
+    "url": "https://www.canlitvtr.app/radyo/radyogunes",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:9390/stream",
+    "province": "Bursa"
+  },
+  {
+    "name": "Radyo Line",
+    "url": "https://www.canlitvtr.app/radyo/radyoline",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://online.radioline.fm:8443/stream",
+    "province": "Bursa"
+  },
+  {
+    "name": "Radyo Nida",
+    "url": "https://www.canlitvtr.app/radyo/radyonida",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://anadolu.liderhost.com.tr/8106/stream?/;stream.mp3",
+    "province": "Bursa"
+  },
+  {
+    "name": "Radyo S Bursa",
+    "url": "https://www.canlitvtr.app/radyo/radyosbursa",
+    "category": "Radyo Yerel",
+    "streamUrl": "http://icecast.netmedya.net:80/kupefm",
+    "province": "Bursa"
+  },
+  {
+    "name": "Uludağ FM",
+    "url": "https://www.canlitvtr.app/radyo/uludagfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://hearthis.at/uludagfm/live/stream.mp3?referer=&s=CPq&t=1786998941",
+    "province": "Bursa"
+  },
+  {
+    "name": "Uludağ Fm 91.7",
+    "url": "https://www.canlitvtr.app/radyo/uludagfm917",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://hearthis.at/uludagfm/live/stream.mp3?referer=&s=CPq&t=1786944136",
+    "province": "Bursa"
+  },
+  {
+    "name": "Biga FM",
+    "url": "https://www.canlitvtr.app/radyo/bigafm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:5896/;",
+    "province": "Çanakkale"
+  },
+  {
+    "name": "Boğaz FM",
+    "url": "https://www.canlitvtr.app/radyo/bogazfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:5938/;",
+    "province": "Çanakkale"
+  },
+  {
+    "name": "Çanakkale Çan Fm",
+    "url": "https://www.canlitvtr.app/radyo/canakkalecanfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/canfm/stream?/;stream.mp3",
+    "province": "Çanakkale"
+  },
+  {
+    "name": "Çanakkale Radyo Pegai",
+    "url": "https://www.canlitvtr.app/radyo/canakkaleradyopegai",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo2.fkbs.com.tr:8016/stream?/;stream.mp3",
+    "province": "Çanakkale"
+  },
+  {
+    "name": "Kampüs FM",
+    "url": "https://www.canlitvtr.app/radyo/kampusfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://listen.powerapp.com.tr/kampusfm/mpeg/icecast.audio?",
+    "province": "Çanakkale"
+  },
+  {
+    "name": "Radyo Pegai Biga",
+    "url": "https://www.canlitvtr.app/radyo/radyopegaibiga",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo2.fkbs.com.tr:8016/stream",
+    "province": "Çanakkale"
+  },
+  {
+    "name": "Çorum Çağrı FM",
+    "url": "https://www.canlitvtr.app/radyo/corumcagrifm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/cagrifm/stream?/;stream.mp3",
+    "province": "Çorum"
+  },
+  {
+    "name": "Çorum Radyo Melodi",
+    "url": "https://www.canlitvtr.app/radyo/corumradyomelodi",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo1.radyo-dinle.tc:8196/stream?",
+    "province": "Çorum"
+  },
+  {
+    "name": "Denizli Art FM",
+    "url": "https://www.canlitvtr.app/radyo/denizliartfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/denizliartfm/stream/;stream.mp3",
+    "province": "Denizli"
+  },
+  {
+    "name": "Denizli Dostlar FM",
+    "url": "https://www.canlitvtr.app/radyo/denizlidostlarfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:5114/;",
+    "province": "Denizli"
+  },
+  {
+    "name": "Denizli Radyo Ses",
+    "url": "https://www.canlitvtr.app/radyo/denizliradyoses",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyoses.ozelip.com/9300/stream?",
+    "province": "Denizli"
+  },
+  {
+    "name": "Gurbetçi FM",
+    "url": "https://www.canlitvtr.app/radyo/gurbetcifm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://live.radyositesihazir.com/8062/stream?/;stream.mp3",
+    "province": "Denizli"
+  },
+  {
+    "name": "Kent Deha Radyo",
+    "url": "https://www.canlitvtr.app/radyo/kentdeharadyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ip1.ozelip.com/8026/stream?",
+    "province": "Denizli"
+  },
+  {
+    "name": "Diyarbakır Can Radyo",
+    "url": "https://www.canlitvtr.app/radyo/diyarbakircanradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:2028/;",
+    "province": "Diyarbakır"
+  },
+  {
+    "name": "Doğan 21 FM",
+    "url": "https://www.canlitvtr.app/radyo/dogan21fm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:3024/;",
+    "province": "Diyarbakır"
+  },
+  {
+    "name": "Nur Radyo",
+    "url": "https://www.canlitvtr.app/radyo/nurradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:9442/stream",
+    "province": "Diyarbakır"
+  },
+  {
+    "name": "Veng Radyo",
+    "url": "https://www.canlitvtr.app/radyo/vengradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://live.radyo.in/8012/stream?",
+    "province": "Diyarbakır"
+  },
+  {
+    "name": "Edirne Keşan FM",
+    "url": "https://www.canlitvtr.app/radyo/edirnekesanfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/kesanfm/;stream.mp3",
+    "province": "Edirne"
+  },
+  {
+    "name": "Edirne Radyo Su",
+    "url": "https://www.canlitvtr.app/radyo/edirneradyosu",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo1.radyo-dinle.tc/8022/stream?",
+    "province": "Edirne"
+  },
+  {
+    "name": "Radyo Ak 92.7",
+    "url": "https://www.canlitvtr.app/radyo/radyoak927",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:8026/stream?",
+    "province": "Edirne"
+  },
+  {
+    "name": "Radyo Mola",
+    "url": "https://www.canlitvtr.app/radyo/radyomola",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:2018/;",
+    "province": "Edirne"
+  },
+  {
+    "name": "Elazığ Ezgi Radyo",
+    "url": "https://www.canlitvtr.app/radyo/elazigezgiradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "http://sslyayin.netyayin.net:1782/stream",
+    "province": "Elazığ"
+  },
+  {
+    "name": "Elazığ Radyo Hazar",
+    "url": "https://www.canlitvtr.app/radyo/elazigradyohazar",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:8286/stream?",
+    "province": "Elazığ"
+  },
+  {
+    "name": "Ezgi Radyo",
+    "url": "https://www.canlitvtr.app/radyo/ezgiradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.netyayin.net:1782/stream",
+    "province": "Elazığ"
+  },
+  {
+    "name": "Fırat FM",
+    "url": "https://www.canlitvtr.app/radyo/firatfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.firatfm.com/firatfm/stream?ver=272328",
+    "province": "Elazığ"
+  },
+  {
+    "name": "FM 23 Elazığ",
+    "url": "https://www.canlitvtr.app/radyo/fm23elazig",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:8280/stream/1/?icy=http/;stream.mp3",
+    "province": "Elazığ"
+  },
+  {
+    "name": "Radyo Fırat",
+    "url": "https://www.canlitvtr.app/radyo/radyofirat",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.firatfm.com/firatfm/stream?ver=220613",
+    "province": "Elazığ"
+  },
+  {
+    "name": "Radyo Kulüp Elazığ",
+    "url": "https://www.canlitvtr.app/radyo/radyokulupelazig",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:8282/stream?/;stream.mp3",
+    "province": "Elazığ"
+  },
+  {
+    "name": "Cem Radyo",
+    "url": "https://www.canlitvtr.app/radyo/cemradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://erzincan.80.yayin.com.tr/;*.mp3",
+    "province": "Erzincan"
+  },
+  {
+    "name": "Erzincan Dost Radyo",
+    "url": "https://www.canlitvtr.app/radyo/erzincandostradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:3156/;",
+    "province": "Erzincan"
+  },
+  {
+    "name": "Erzincan Radyo 2000",
+    "url": "https://www.canlitvtr.app/radyo/erzincanradyo2000",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:3030/;",
+    "province": "Erzincan"
+  },
+  {
+    "name": "Erzincan Radyo Cem",
+    "url": "https://www.canlitvtr.app/radyo/erzincanradyocem",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://erzincan.80.yayin.com.tr/stream/1/?icy=http/;stream.mp3",
+    "province": "Erzincan"
+  },
+  {
+    "name": "Erzincan Radyo Tek",
+    "url": "https://www.canlitvtr.app/radyo/erzincanradyotek",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:4202/;",
+    "province": "Erzincan"
+  },
+  {
+    "name": "İnci Tek FM",
+    "url": "https://www.canlitvtr.app/radyo/incitekfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8250/stream",
+    "province": "Erzincan"
+  },
+  {
+    "name": "Radyo Tek",
+    "url": "https://www.canlitvtr.app/radyo/radyotek",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://streamtr.turkiyeradyolari.com/15094/;",
+    "province": "Erzincan"
+  },
+  {
+    "name": "Radyo Timetürk",
+    "url": "https://www.canlitvtr.app/radyo/radyotimeturk",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:9426/stream",
+    "province": "Erzincan"
+  },
+  {
+    "name": "Time Türk Erzincan",
+    "url": "https://www.canlitvtr.app/radyo/timeturkerzincan",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:4195/;",
+    "province": "Erzincan"
+  },
+  {
+    "name": "Erzurum İmaj Fm",
+    "url": "https://www.canlitvtr.app/radyo/erzurumimajfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/imajfm/stream/;stream.mp3",
+    "province": "Erzurum"
+  },
+  {
+    "name": "Biber FM",
+    "url": "https://www.canlitvtr.app/radyo/biberfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "http://radyo.yayindakiler.com:3925/;stream",
+    "province": "Eskişehir"
+  },
+  {
+    "name": "Eskişehir Tempo Radyo",
+    "url": "https://www.canlitvtr.app/radyo/eskisehirtemporadyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.zeno.fm/3xufd3htcejuv?",
+    "province": "Eskişehir"
+  },
+  {
+    "name": "Eskişehir Yunus FM",
+    "url": "https://www.canlitvtr.app/radyo/eskisehiryunusfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyoplayer.net/listen/fd21667a7c51c250be770210c921676f?/;stream.mp3",
+    "province": "Eskişehir"
+  },
+  {
+    "name": "Radyo ESTÜ",
+    "url": "https://www.canlitvtr.app/radyo/radyoestu",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ssl120.radyotelekom.com.tr/8024/stream?/;stream.mp3",
+    "province": "Eskişehir"
+  },
+  {
+    "name": "Radyo Net 97.8",
+    "url": "https://www.canlitvtr.app/radyo/radyonet978",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:3925/;",
+    "province": "Eskişehir"
+  },
+  {
+    "name": "Radyo Ses",
+    "url": "https://www.canlitvtr.app/radyo/radyoses",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyoses.radyotvonline.net:8096/stream",
+    "province": "Eskişehir"
+  },
+  {
+    "name": "Radyo Ses Eskişehir",
+    "url": "https://www.canlitvtr.app/radyo/radyoseseskisehir",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyoses.radyotvonline.net:8095/stream?/;stream.mp3",
+    "province": "Eskişehir"
+  },
+  {
+    "name": "Yunus FM",
+    "url": "https://www.canlitvtr.app/radyo/yunusfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yunusfm.kesintisizyayin.com:7350/stream",
+    "province": "Eskişehir"
+  },
+  {
+    "name": "Davet Radyo",
+    "url": "https://www.canlitvtr.app/radyo/davetradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.radiojar.com/ggu0fd6qu2wtv?",
+    "province": "Gaziantep"
+  },
+  {
+    "name": "FISTIK RADYO (Ve Radyo)",
+    "url": "https://www.canlitvtr.app/radyo/fistikradyoveradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net:8072/stream",
+    "province": "Gaziantep"
+  },
+  {
+    "name": "Gaziantep Nizip Radyo",
+    "url": "https://www.canlitvtr.app/radyo/gaziantepnizipradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://streamtr.turkiyeradyolari.com/8034/;",
+    "province": "Gaziantep"
+  },
+  {
+    "name": "İhya FM Gaziantep",
+    "url": "https://www.canlitvtr.app/radyo/ihyafmgaziantep",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:2727/;",
+    "province": "Gaziantep"
+  },
+  {
+    "name": "Kilim Radyo",
+    "url": "https://www.canlitvtr.app/radyo/kilimradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net:10946/stream",
+    "province": "Gaziantep"
+  },
+  {
+    "name": "Radyo Fıstık (Ve Radyo)",
+    "url": "https://www.canlitvtr.app/radyo/radyofistikveradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/fistikradyo/stream?/;stream.mp3",
+    "province": "Gaziantep"
+  },
+  {
+    "name": "Radyo Kilim",
+    "url": "https://www.canlitvtr.app/radyo/radyokilim",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/2727/stream/;stream.mp3",
+    "province": "Gaziantep"
+  },
+  {
+    "name": "Radyo Şirinnar",
+    "url": "https://www.canlitvtr.app/radyo/radyosirinnar",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8120/stream",
+    "province": "Gaziantep"
+  },
+  {
+    "name": "Radyo Zeugma",
+    "url": "https://www.canlitvtr.app/radyo/radyozeugma",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8182/stream",
+    "province": "Gaziantep"
+  },
+  {
+    "name": "Şafak FM",
+    "url": "https://www.canlitvtr.app/radyo/safakfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin2.canliyayin.org:10970/;",
+    "province": "Gaziantep"
+  },
+  {
+    "name": "Şirinnar FM",
+    "url": "https://www.canlitvtr.app/radyo/sirinnarfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/sirinnarfm/stream?/;stream.mp3",
+    "province": "Gaziantep"
+  },
+  {
+    "name": "Flash FM",
+    "url": "https://www.canlitvtr.app/radyo/flashfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/9430/stream",
+    "province": "Giresun"
+  },
+  {
+    "name": "Giresun FM 102.5",
+    "url": "https://www.canlitvtr.app/radyo/giresunfm1025",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/2828/stream/;stream.mp3",
+    "province": "Giresun"
+  },
+  {
+    "name": "Giresun Radyo Flash",
+    "url": "https://www.canlitvtr.app/radyo/giresunradyoflash",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/flashfm/stream?/;stream.mp3",
+    "province": "Giresun"
+  },
+  {
+    "name": "Mercan FM",
+    "url": "https://www.canlitvtr.app/radyo/mercanfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://mercanfm.ozelip.com.tr:10975/stream?",
+    "province": "Giresun"
+  },
+  {
+    "name": "Hatay Asya Radyo",
+    "url": "https://www.canlitvtr.app/radyo/hatayasyaradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/9850/stream?/;stream.mp3",
+    "province": "Hatay"
+  },
+  {
+    "name": "Hatay Mavi Radyo",
+    "url": "https://www.canlitvtr.app/radyo/hataymaviradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net:10901/stream",
+    "province": "Hatay"
+  },
+  {
+    "name": "Hatay Melodi FM",
+    "url": "https://www.canlitvtr.app/radyo/hataymelodifm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyomelodi.80.yayin.com.tr/;/;stream.mp3",
+    "province": "Hatay"
+  },
+  {
+    "name": "Hatay Tempo FM",
+    "url": "https://www.canlitvtr.app/radyo/hataytempofm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/tempo/stream?/;stream.mp3",
+    "province": "Hatay"
+  },
+  {
+    "name": "Mega Radyo İskenderun",
+    "url": "https://www.canlitvtr.app/radyo/megaradyoiskenderun",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://megaradyoiskenderun.ozelip.com/8024/stream",
+    "province": "Hatay"
+  },
+  {
+    "name": "Mega Rd",
+    "url": "https://www.canlitvtr.app/radyo/megard",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://dinle.megaradyoiskenderun.com/8024/stream",
+    "province": "Hatay"
+  },
+  {
+    "name": "Radyo Akdeniz FM Hatay",
+    "url": "https://www.canlitvtr.app/radyo/radyoakdenizfmhatay",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/hatayakdenizfm/stream?/;stream.mp3",
+    "province": "Hatay"
+  },
+  {
+    "name": "Vivaldi FM",
+    "url": "https://www.canlitvtr.app/radyo/vivaldifm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/3133/stream/;stream.mp3",
+    "province": "Hatay"
+  },
+  {
+    "name": "Iğdır FM",
+    "url": "https://www.canlitvtr.app/radyo/igdirfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:4158/;",
+    "province": "Iğdır"
+  },
+  {
+    "name": "Arkadaş FM",
+    "url": "https://www.canlitvtr.app/radyo/arkadasfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:4134/;",
+    "province": "Isparta"
+  },
+  {
+    "name": "Radyo Dilara Isparta",
+    "url": "https://www.canlitvtr.app/radyo/radyodilaraisparta",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/radyodilara/stream?/;stream.mp3",
+    "province": "Isparta"
+  },
+  {
+    "name": "Radyo SDÜ",
+    "url": "https://www.canlitvtr.app/radyo/radyosdu",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/radyosdu/stream?/;stream.mp3",
+    "province": "Isparta"
+  },
+  {
+    "name": "Romantik Ses Isparta",
+    "url": "https://www.canlitvtr.app/radyo/romantiksesisparta",
+    "category": "Radyo Yerel",
+    "streamUrl": "http://radyo1.radyo-dinle.tc:8062/;",
+    "province": "Isparta"
+  },
+  {
+    "name": "01 FM",
+    "url": "https://www.canlitvtr.app/radyo/01fm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/01fm/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "24 Radyo",
+    "url": "https://www.canlitvtr.app/radyo/24radyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo24.radyotvonline.net/radyo24?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "89.4 Bizim Radyo",
+    "url": "https://www.canlitvtr.app/radyo/894bizimradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/8162/stream/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "ABC Classic 2 FM",
+    "url": "https://www.canlitvtr.app/radyo/abcclassic2fm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://mediaserviceslive.akamaized.net/hls/live/2038317/classic2/index.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Açık Radyo",
+    "url": "https://www.canlitvtr.app/radyo/acikradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.34bit.net/ar.aac",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Akra Radyo",
+    "url": "https://www.canlitvtr.app/radyo/akraradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://cdn3.akradyo.net/akracanli2/_definst_/livestream_aac/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Alev’in Sesi Radyosu",
+    "url": "https://www.canlitvtr.app/radyo/alevinsesiradyosu",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ssl120.radyotelekom.com.tr/8160/stream?",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Amed Radyo",
+    "url": "https://www.canlitvtr.app/radyo/amedradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.radyoyayini.com:7060/stream?",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Arabesk Radyo",
+    "url": "https://www.canlitvtr.app/radyo/arabeskradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.radyoarabesk.com.tr:8000/stream?",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Asr FM",
+    "url": "https://www.canlitvtr.app/radyo/asrfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:4072/;",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Atlantis FM",
+    "url": "https://www.canlitvtr.app/radyo/atlantisfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.netradyom.com/listen/imajpop/radio.mp3/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Baba Radyo 105.6",
+    "url": "https://www.canlitvtr.app/radyo/babaradyo1056",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://officialbabaradyo.radyotvonline.net/babaofficial?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Baby Joy",
+    "url": "https://www.canlitvtr.app/radyo/babyjoy",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/SC009_SO1AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Bafra Barış FM",
+    "url": "https://www.canlitvtr.app/radyo/bafrabarisfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://barisfm.ozelip.com:9588/;",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Başka Radyo",
+    "url": "https://www.canlitvtr.app/radyo/baskaradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/BASKA128AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "BAU Radyo",
+    "url": "https://www.canlitvtr.app/radyo/bauradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ssl120.radyotelekom.com.tr/8106/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Bayram FM",
+    "url": "https://www.canlitvtr.app/radyo/bayramfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/3442/strem",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Berat FM",
+    "url": "https://www.canlitvtr.app/radyo/beratfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://beratfm.80.yayin.com.tr/;",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Best of Number 1",
+    "url": "https://www.canlitvtr.app/radyo/bestofnumber1",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://eustr75.mediatriple.net/Number1Media/29_Number1_BEST_OF.stream/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Bizim FM Şile",
+    "url": "https://www.canlitvtr.app/radyo/bizimfmsile",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/9300/stream",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Bizim İller Radyo",
+    "url": "https://www.canlitvtr.app/radyo/bizimillerradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:4078/;",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Bizim Radyo",
+    "url": "https://www.canlitvtr.app/radyo/bizimradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ip132.ozelip.com:7017/stream?",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Bloomberg HT Radyo",
+    "url": "https://www.canlitvtr.app/radyo/bloomberghtradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://bloomberghtradyo.radyotvonline.net/bloomberghtradyo?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Blue Karadeniz Radyo",
+    "url": "https://www.canlitvtr.app/radyo/bluekaradenizradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/bluekaradeniz/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "CGTN Türk",
+    "url": "https://www.canlitvtr.app/radyo/cgtnturk",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://criturk.radyotvonline.net/criturk?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Dalkas FM",
+    "url": "https://www.canlitvtr.app/radyo/dalkasfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.radiojar.com/pr9r38w802hvv?rand=867135/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Damar Türk FM",
+    "url": "https://www.canlitvtr.app/radyo/damarturkfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://live.radyositesihazir.com/7000/stream/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Dance FM – KKTC",
+    "url": "https://www.canlitvtr.app/radyo/dancefmkktc",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://live.enerjiplay.com/stream/dancefm?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Divriği FM",
+    "url": "https://www.canlitvtr.app/radyo/divrigifm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:7070//stream",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Diyanet Kur’an Radyosu",
+    "url": "https://www.canlitvtr.app/radyo/diyanetkuranradyosu",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://eustr76.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3c14192aa92.smil/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Dolunay FM",
+    "url": "https://www.canlitvtr.app/radyo/dolunayfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin2.canliyayin.org:10955/;stream/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Dream Türk",
+    "url": "https://www.canlitvtr.app/radyo/dreamturk",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.duhnet.tv/dreamturk?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Efkar FM",
+    "url": "https://www.canlitvtr.app/radyo/efkarfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/EFKAR128AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "EGO Radyo",
+    "url": "https://www.canlitvtr.app/radyo/egoradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radio.guventechnology.com/9372/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Elbistan Radyo Umut",
+    "url": "https://www.canlitvtr.app/radyo/elbistanradyoumut",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin2.canliyayin.org:10953/;/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Erciş FM",
+    "url": "https://www.canlitvtr.app/radyo/ercisfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://anadolu.liderhost.com.tr:10970/stream?",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Ereğli FM",
+    "url": "https://www.canlitvtr.app/radyo/ereglifm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:3000/;",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Ereğli Genç FM",
+    "url": "https://www.canlitvtr.app/radyo/eregligencfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ip232.radyotelekom.com.tr:8368/stream?",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Erkam Radyo",
+    "url": "https://www.canlitvtr.app/radyo/erkamradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://api-tv5.yayin.com.tr:8002/mp3?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Evrensel FM",
+    "url": "https://www.canlitvtr.app/radyo/evrenselfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://evrenselfm.ozelip.com.tr/9996/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Fenomen Afro",
+    "url": "https://www.canlitvtr.app/radyo/fenomenafro",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://rdfenlive.mediatriple.net/fenomen/fenomenafro/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Fenomen Akustik",
+    "url": "https://www.canlitvtr.app/radyo/fenomenakustik",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://live.radyofenomen.com/fenomenakustik/abr/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Fenomen Dans",
+    "url": "https://www.canlitvtr.app/radyo/fenomendans",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://rdfenlive.mediatriple.net/fenomen/fenomendans/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Fenomen K-Pop",
+    "url": "https://www.canlitvtr.app/radyo/fenomenkpop",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://live.radyofenomen.com/fenomenkpop/abr/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Fenomen Pop",
+    "url": "https://www.canlitvtr.app/radyo/fenomenpop",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://live.radyofenomen.com/fenomenpop/abr/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "FG Slow",
+    "url": "https://www.canlitvtr.app/radyo/fgslow",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://edge1.radyotvonline.net/shoutcast/play/fgslow?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "FG Türk Radyo",
+    "url": "https://www.canlitvtr.app/radyo/fgturkradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://edge1.radyotvonline.net/shoutcast/play/fgturk?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Gebze FM",
+    "url": "https://www.canlitvtr.app/radyo/gebzefm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://eminmisin.radyodinle.stream/9530/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Gençliğin Sesi Radyosu",
+    "url": "https://www.canlitvtr.app/radyo/gencliginsesiradyosu",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ssl120.radyotelekom.com.tr/8204/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Gençlik Radyosu",
+    "url": "https://www.canlitvtr.app/radyo/genclikradyosu",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://gsbradyo.ercdn.net/gsbradyo/gsbradyo.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Gerçek Radyo",
+    "url": "https://www.canlitvtr.app/radyo/gercekradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.radyomadyo.com:9590/stream",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Greatest Hits of All Time",
+    "url": "https://www.canlitvtr.app/radyo/greatesthitsofalltime",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/GHOAT_EN128AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Habertürk Radyo",
+    "url": "https://www.canlitvtr.app/radyo/haberturkradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://haberturkradyo.radyotvonline.net/haberturkradyo?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Halk Radyo",
+    "url": "https://www.canlitvtr.app/radyo/halkradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyoplayer.net/listen/9cab511b4928be14413852bd0d8e8c23?",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Hit Radyo",
+    "url": "https://www.canlitvtr.app/radyo/hitradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://hitradio-maroc.ice.infomaniak.ch/hitradio-maroc-128.mp3?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "İstanbul FM",
+    "url": "https://www.canlitvtr.app/radyo/istanbulfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.istanbulfm.com.tr/istanbulfm/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "İstanbul FM Akustik",
+    "url": "https://www.canlitvtr.app/radyo/istanbulfmakustik",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.istanbulfm.com.tr/istanbulfm/akustik/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "İstanbul FM Alaturka",
+    "url": "https://www.canlitvtr.app/radyo/istanbulfmalaturka",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.istanbulfm.com.tr/istanbulfm/alaturka/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "İstanbul FM Fantezi",
+    "url": "https://www.canlitvtr.app/radyo/istanbulfmfantezi",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.istanbulfm.com.tr/istanbulfm/fantezi/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "İstanbul FM Nostalji",
+    "url": "https://www.canlitvtr.app/radyo/istanbulfmnostalji",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.istanbulfm.com.tr/istanbulfm/nostalji/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "İstanbul FM Slow",
+    "url": "https://www.canlitvtr.app/radyo/istanbulfmslow",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.istanbulfm.com.tr/istanbulfm/slow/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "İstanbul Küpe FM",
+    "url": "https://www.canlitvtr.app/radyo/istanbulkupefm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://icecast.netmedya.net/kupefm?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "İstanbulun Sesi Radyosu",
+    "url": "https://www.canlitvtr.app/radyo/istanbulunsesiradyosu",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.radyomadyo.com:9180/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Joy Jazz",
+    "url": "https://www.canlitvtr.app/radyo/joyjazz",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/JOY_JAZZ128AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Joy Türk Akustik",
+    "url": "https://www.canlitvtr.app/radyo/joyturkakustik",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/JOYTURK_AKUSTIK128AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Joy Türk Rock",
+    "url": "https://www.canlitvtr.app/radyo/joyturkrock",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/JOYTURK_ROCK128AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "K-Pop",
+    "url": "https://www.canlitvtr.app/radyo/kpop",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/KPOP128AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Karadeniz Akustik FM",
+    "url": "https://www.canlitvtr.app/radyo/karadenizakustikfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://karadenizakustik.radyotvonline.net/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Karma Türk Slow",
+    "url": "https://www.canlitvtr.app/radyo/karmaturkslow",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.radyomadyo.com:8004/stream",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Kent Radyo Mersin",
+    "url": "https://www.canlitvtr.app/radyo/kentradyomersin",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://anadolu.liderhost.com.tr:10906/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Kgrt FM",
+    "url": "https://www.canlitvtr.app/radyo/kgrtfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/7042/stream/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Kiss FM",
+    "url": "https://www.canlitvtr.app/radyo/kissfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://kiss.radyotvonline.net/kissfm?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Kiss Türk",
+    "url": "https://www.canlitvtr.app/radyo/kissturk",
+    "category": "Radyo Yerel",
+    "streamUrl": "http://kiss.radyotvonline.net/kissturk",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Klasik Home",
+    "url": "https://www.canlitvtr.app/radyo/klasikhome",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge.radyotvonline.net/klasikhome/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Kral Pop Radyo",
+    "url": "https://www.canlitvtr.app/radyo/kralpopradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://dygedge.radyotvonline.net/kralpop/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "KURadyo",
+    "url": "https://www.canlitvtr.app/radyo/kuradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://s3.radio.co/sdbea8450c/listen?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Lig Radyo",
+    "url": "https://www.canlitvtr.app/radyo/ligradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ligradyo.radyotvonline.net",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Literal Radio",
+    "url": "https://www.canlitvtr.app/radyo/literalradio",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/LITERAL128AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Lounge FM",
+    "url": "https://www.canlitvtr.app/radyo/loungefm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://edge1.radyotvonline.net/shoutcast/play/loungefm?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Makam Radyo",
+    "url": "https://www.canlitvtr.app/radyo/makamradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/MAKAM128AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Maziden Bir Demet",
+    "url": "https://www.canlitvtr.app/radyo/mazidenbirdemet",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge.radyotvonline.net/mazidenbirdemet/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Medya FM",
+    "url": "https://www.canlitvtr.app/radyo/medyafm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://live.radyositesihazir.com/live",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Melankolik Home",
+    "url": "https://www.canlitvtr.app/radyo/melankolikhome",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge.radyotvonline.net/melankolikhome/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Melodi Fm Ünye",
+    "url": "https://www.canlitvtr.app/radyo/melodifmunye",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/unyemelodifm/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Meteorolojinin Sesi",
+    "url": "https://www.canlitvtr.app/radyo/meteorolojininsesi",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:6227/;",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Metropol FM",
+    "url": "https://www.canlitvtr.app/radyo/metropolfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream2.rtvtakip.com:7034/;",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Misk FM",
+    "url": "https://www.canlitvtr.app/radyo/miskfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://streamtr.turkiyeradyolari.com/8032/;stream",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Moral Fm",
+    "url": "https://www.canlitvtr.app/radyo/moralfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream-51.zeno.fm/0cfiqwdkobavv?zs=RptTdDEHQ2Wej62cArILjQ/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Muhteşem Dörtlü Radyosu",
+    "url": "https://www.canlitvtr.app/radyo/muhtesemdortluradyosu",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge2.radyotvonline.net/radyo7muhtesem4lu/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Mydonose Türk",
+    "url": "https://www.canlitvtr.app/radyo/mydonoseturk",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/MYDONOSE_TURK128AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "NRK Jazz",
+    "url": "https://www.canlitvtr.app/radyo/nrkjazz",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://nrk-live-radio-world.akamaized.net/jazz/muxed.m3u8?adap=audio&aco=aac",
+    "province": "İstanbul"
+  },
+  {
+    "name": "NRK Klasik",
+    "url": "https://www.canlitvtr.app/radyo/nrkklasik",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://nrk-live-radio-world.akamaized.net/klassisk/muxed.m3u8?adap=audio&aco=aac",
+    "province": "İstanbul"
+  },
+  {
+    "name": "NTV Spor Radyo",
+    "url": "https://www.canlitvtr.app/radyo/ntvsporradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ssldyg.radyotvonline.com/smil/smil:ntvspor.smil/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Number 1 Classic",
+    "url": "https://www.canlitvtr.app/radyo/number1classic",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://eustr75.mediatriple.net/Number1Media/08_Number1_Classic.stream/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Number 1 Dance",
+    "url": "https://www.canlitvtr.app/radyo/number1dance",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://eustr75.mediatriple.net/Number1Media/06_Number1_Dance.stream/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Number 1 Deep House",
+    "url": "https://www.canlitvtr.app/radyo/number1deephouse",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://eustr75.mediatriple.net/Number1Media/09_Number1_Deephouse.stream/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Number 1 Disco",
+    "url": "https://www.canlitvtr.app/radyo/number1disco",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://eustr75.mediatriple.net/Number1Media/28_Number1_Disco.stream/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Number 1 Eller Havaya",
+    "url": "https://www.canlitvtr.app/radyo/number1ellerhavaya",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://eustr75.mediatriple.net/Number1Media/05_Number1_Turk_Eller_Havaya.stream/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Number 1 Ertuğrul Özkök",
+    "url": "https://www.canlitvtr.app/radyo/number1ertugrulozkok",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://eustr75.mediatriple.net/Number1Media/21_Number1_DJ_OZKOK.stream/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Number 1 Fm",
+    "url": "https://www.canlitvtr.app/radyo/number1fm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://eustr75.mediatriple.net//Number1Media/01_Number1Fm.stream/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Number 1 Greek",
+    "url": "https://www.canlitvtr.app/radyo/number1greek",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://eustr75.mediatriple.net/Number1Media/13_Number1_Greek.stream/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Number 1 Heart",
+    "url": "https://www.canlitvtr.app/radyo/number1heart",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://eustr75.mediatriple.net/Number1Media/10_Number1_Heart.stream/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Number 1 Jazz",
+    "url": "https://www.canlitvtr.app/radyo/number1jazz",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://eustr75.mediatriple.net/Number1Media/22_Number1_Jazz.stream/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Number 1 Lounge",
+    "url": "https://www.canlitvtr.app/radyo/number1lounge",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://eustr75.mediatriple.net/Number1Media/12_Number1_Lounge.stream/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Number 1 R&B",
+    "url": "https://www.canlitvtr.app/radyo/number1rb",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://eustr75.mediatriple.net/Number1Media/17_Number1_RnB.stream/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Number 1 Rock",
+    "url": "https://www.canlitvtr.app/radyo/number1rock",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://eustr75.mediatriple.net/Number1Media/15_Number1_Rock.stream/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Number One Türk",
+    "url": "https://www.canlitvtr.app/radyo/numberoneturk",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://eustr75.mediatriple.net/Number1Media/00_Number1_Turk_FM.stream/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Number One Türk Damar",
+    "url": "https://www.canlitvtr.app/radyo/numberoneturkdamar",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://eustr75.mediatriple.net/Number1Media/20_Number1_Turk_Damar.stream/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Number One Türk Doksanlar",
+    "url": "https://www.canlitvtr.app/radyo/numberoneturkdoksanlar",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://eustr75.mediatriple.net/Number1Media/04_Number1_Turk_90.stream/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Number One Türk Rap",
+    "url": "https://www.canlitvtr.app/radyo/numberoneturkrap",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://eustr75.mediatriple.net/Number1Media/30_Number1_Turk_Rap.stream/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Number One Türk Slow",
+    "url": "https://www.canlitvtr.app/radyo/numberoneturkslow",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://eustr75.mediatriple.net/Number1Media/03_Number1_Turk_Slow.stream/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Odea Radyo",
+    "url": "https://www.canlitvtr.app/radyo/odearadyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/ODEA128AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "OMÜ Radyo",
+    "url": "https://www.canlitvtr.app/radyo/omuradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://omuradyo.ozelip.com/8042/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Özel Fm",
+    "url": "https://www.canlitvtr.app/radyo/ozelfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ozelfm.80.yayin.com.tr/;stream/1",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Pal Doğa",
+    "url": "https://www.canlitvtr.app/radyo/paldoga",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.rcast.net/200259?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Pal FM",
+    "url": "https://www.canlitvtr.app/radyo/palfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge.radyotvonline.net/palfm/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Pal Orient",
+    "url": "https://www.canlitvtr.app/radyo/palorient",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge.radyotvonline.net/palorient/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Pal Slow",
+    "url": "https://www.canlitvtr.app/radyo/palslow",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ssldyg.radyotvonline.com/live/pallegend.stream/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Pal Station",
+    "url": "https://www.canlitvtr.app/radyo/palstation",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge.radyotvonline.net/palstation/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Park FM",
+    "url": "https://www.canlitvtr.app/radyo/parkfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.netradyom.com/listen/parkfm/radio.mp3/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Polis Radyosu",
+    "url": "https://www.canlitvtr.app/radyo/polisradyosu",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://m.egm.gov.tr:8093/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Polis Radyosu TSM",
+    "url": "https://www.canlitvtr.app/radyo/polisradyosutsm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://m.egm.gov.tr:8093/;",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Pop Hits",
+    "url": "https://www.canlitvtr.app/radyo/pophits",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/SC002_SO1AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Pop Home",
+    "url": "https://www.canlitvtr.app/radyo/pophome",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge.radyotvonline.net/pophome/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Popbesk",
+    "url": "https://www.canlitvtr.app/radyo/popbesk",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/POPBESK128AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Power Dance",
+    "url": "https://www.canlitvtr.app/radyo/powerdance",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://listen.powerapp.com.tr/powerdance/abr/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Power Deep",
+    "url": "https://www.canlitvtr.app/radyo/powerdeep",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://listen.powerapp.com.tr/powerdeep/abr/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Power Earth",
+    "url": "https://www.canlitvtr.app/radyo/powerearth",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://listen.powerapp.com.tr/powerearth/abr/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Power Gold",
+    "url": "https://www.canlitvtr.app/radyo/powergold",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://live.powerapp.com.tr/powergold/abr/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Power HipHop R&B",
+    "url": "https://www.canlitvtr.app/radyo/powerhiphoprb",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://listen.powerapp.com.tr/powerrbhiphop/abr/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Power Jazz",
+    "url": "https://www.canlitvtr.app/radyo/powerjazz",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://listen.powerapp.com.tr/powersmoothjazz/abr/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Power Smooth",
+    "url": "https://www.canlitvtr.app/radyo/powersmooth",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://listen.powerapp.com.tr/powersmooth/abr/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Power XL Fm",
+    "url": "https://www.canlitvtr.app/radyo/powerxlfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://listen.powerapp.com.tr/powerextralounge/abr/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "PowerTürk En İyiler",
+    "url": "https://www.canlitvtr.app/radyo/powerturkeniyiler",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://listen.powerapp.com.tr/powerpop/mpeg/icecast.audio?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "PowerTürk Rap",
+    "url": "https://www.canlitvtr.app/radyo/powerturkrap",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://listen.powerapp.com.tr/powerturkrap/abr/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radıo Lıght",
+    "url": "https://www.canlitvtr.app/radyo/radiolight",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.radiolight.net:8005/live",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radio Life",
+    "url": "https://www.canlitvtr.app/radyo/radiolife",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin2.canliyayin.org:8698/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radio Mix",
+    "url": "https://www.canlitvtr.app/radyo/radiomix",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.radyomadyo.com:8002/stream",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radio Mydonose",
+    "url": "https://www.canlitvtr.app/radyo/radiomydonose",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_MYDONOSE128AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radio Veronika",
+    "url": "https://www.canlitvtr.app/radyo/radioveronika",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_VERONIKAAAC_L.aac?dist=DESKTOP",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo 10",
+    "url": "https://www.canlitvtr.app/radyo/radyo10",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/radyoon/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo 2000 Fm",
+    "url": "https://www.canlitvtr.app/radyo/radyo2000fm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://edge1.socialsmart.tv/radyo2000/bant1/icecast.audio?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo 7",
+    "url": "https://www.canlitvtr.app/radyo/radyo7",
+    "category": "Radyo Yerel",
+    "streamUrl": "http://46.20.3.250/;?type=mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo 7 – Kur’an Arapça & Meal",
+    "url": "https://www.canlitvtr.app/radyo/radyo7kuranarapcameal",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ssl4.radyotvonline.com/radyohome/kuranarapca.stream_aac/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo 7 – Müslüm, Ferdi, Orhan",
+    "url": "https://www.canlitvtr.app/radyo/radyo7muslumferdiorhan",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge2.radyotvonline.net/radyo7fmo/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo 7 | Home",
+    "url": "https://www.canlitvtr.app/radyo/radyo7home",
+    "category": "Radyo Yerel",
+    "streamUrl": "http://37.247.98.8/stream/20/",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo 7 | Karışık",
+    "url": "https://www.canlitvtr.app/radyo/radyo7karisik",
+    "category": "Radyo Yerel",
+    "streamUrl": "http://46.20.3.250/;?type=mp3stream",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo 7 Kuran Meali",
+    "url": "https://www.canlitvtr.app/radyo/radyo7kuranmeali",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ssl4.radyotvonline.com/radyohome/kuranmeal.stream_aac/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo 7 Nostalji",
+    "url": "https://www.canlitvtr.app/radyo/radyo7nostalji",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge2.radyotvonline.net/radyo7nostalji/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo 7 Pop Hit",
+    "url": "https://www.canlitvtr.app/radyo/radyo7pophit",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge2.radyotvonline.net/radyo7pophit/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo 7 Tasavvuf",
+    "url": "https://www.canlitvtr.app/radyo/radyo7tasavvuf",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge2.radyotvonline.net/radyo7tasavvuf/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo 7 Tsm",
+    "url": "https://www.canlitvtr.app/radyo/radyo7tsm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge.radyotvonline.net/altinsarkilar/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo 72",
+    "url": "https://www.canlitvtr.app/radyo/radyo72",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.radyoyayini.com:7052/stream?",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Altınbaş",
+    "url": "https://www.canlitvtr.app/radyo/radyoaltinbas",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://listen.powerapp.com.tr/powerpop/128/chunks.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Arnavutköy",
+    "url": "https://www.canlitvtr.app/radyo/radyoarnavutkoy",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:4206/;",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Assos",
+    "url": "https://www.canlitvtr.app/radyo/radyoassos",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.radio.co/sb2e24edf5/low?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo B",
+    "url": "https://www.canlitvtr.app/radyo/radyob",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://abamedya.80.yayin.com.tr/stream",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Bade",
+    "url": "https://www.canlitvtr.app/radyo/radyobade",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream-159.zeno.fm/3xufd3htcejuv?zs=-oDE4wZxTY2cMc7fqD6TZA",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Başakşehir",
+    "url": "https://www.canlitvtr.app/radyo/radyobasaksehir",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://icecast.netmedya.net/rbasaksehir?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Bilim",
+    "url": "https://www.canlitvtr.app/radyo/radyobilim",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.radyomadyo.com:8750/stream?",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Bilkent",
+    "url": "https://www.canlitvtr.app/radyo/radyobilkent",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.netradyom.com/listen/radyobilkent/radio.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo BoomBox",
+    "url": "https://www.canlitvtr.app/radyo/radyoboombox",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.radyoboombox.com.tr/boombox/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Çamlıca FM",
+    "url": "https://www.canlitvtr.app/radyo/radyocamlicafm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://camlicafm.ozelip.com:9314/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Çınar",
+    "url": "https://www.canlitvtr.app/radyo/radyocinar",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net:10992/;/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo D",
+    "url": "https://www.canlitvtr.app/radyo/radyod",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge2.radyotvonline.net/radyod/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Desibel",
+    "url": "https://www.canlitvtr.app/radyo/radyodesibel",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://www.radyodesibel.com/stream.php/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Doğubayazıt",
+    "url": "https://www.canlitvtr.app/radyo/radyodogubayazit",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo1.radyo-dinle.tc/8156/stream",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Durak",
+    "url": "https://www.canlitvtr.app/radyo/radyodurak",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:8018/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Düet",
+    "url": "https://www.canlitvtr.app/radyo/radyoduet",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyoduet.80.yayin.com.tr/stream?",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Efsane 4 lu",
+    "url": "https://www.canlitvtr.app/radyo/radyoefsane4lu",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge.radyotvonline.net/efsane4lu/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Ege Havaları",
+    "url": "https://www.canlitvtr.app/radyo/radyoegehavalari",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge.radyotvonline.net/egehavalari/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
     "name": "Radyo Eksen",
-    "url": "https://www.radyoeksen.com/#radyoeksen",
-    "category": "Radyo",
-    "streamUrl": "https://dygedge.radyotvonline.net/radyoeksen/playlist.m3u8"
+    "url": "https://www.canlitvtr.app/radyo/radyoeksen",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ssldyg.radyotvonline.com/pozitif/smil:eksen.smil/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Feza",
+    "url": "https://www.canlitvtr.app/radyo/radyofeza",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.radyofeza.com/8002/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo FG",
+    "url": "https://www.canlitvtr.app/radyo/radyofg",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://edge1.radyotvonline.net/shoutcast/play/fg",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Fıtrat",
+    "url": "https://www.canlitvtr.app/radyo/radyofitrat",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyofitrat.radyotvonline.net/radyofitrat?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Gimsa",
+    "url": "https://www.canlitvtr.app/radyo/radyogimsa",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin2.canliyayin.org:9482/stream/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Gol",
+    "url": "https://www.canlitvtr.app/radyo/radyogol",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://edge1.radyotvonline.net/shoutcast/play/radyogol?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Gönül FM",
+    "url": "https://www.canlitvtr.app/radyo/radyogonulfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/GONUL_TURKULERI128AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Haber 61",
+    "url": "https://www.canlitvtr.app/radyo/radyohaber61",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.netradyom.com/listen/radyohaber/radio.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Klasik",
+    "url": "https://www.canlitvtr.app/radyo/radyoklasik",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/BORUSAN_KLASIK128AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Mars",
+    "url": "https://www.canlitvtr.app/radyo/radyomars",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.radyomadyo.com:9400/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Mega",
+    "url": "https://www.canlitvtr.app/radyo/radyomega",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:4052/;",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Mer",
+    "url": "https://www.canlitvtr.app/radyo/radyomer",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://tr2.socialsmart.tv/tepemedya/radyomer/icecast.audio?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Moda",
+    "url": "https://www.canlitvtr.app/radyo/radyomoda",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://m.radyomoda.com.tr/stream",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Moni",
+    "url": "https://www.canlitvtr.app/radyo/radyomoni",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:4262/;",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Munzur",
+    "url": "https://www.canlitvtr.app/radyo/radyomunzur",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:3002/;",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Öğüt",
+    "url": "https://www.canlitvtr.app/radyo/radyoogut",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:6004/;",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Özü",
+    "url": "https://www.canlitvtr.app/radyo/radyoozu",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://s5.radio.co/s3ab6bdcb9/listen?",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Piramit FM",
+    "url": "https://www.canlitvtr.app/radyo/radyopiramitfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/2637/stream/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Pop 90",
+    "url": "https://www.canlitvtr.app/radyo/radyopop90",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/POP90128AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Pötürgeli",
+    "url": "https://www.canlitvtr.app/radyo/radyopoturgeli",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.radyopoturgeli.com/4444/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Remix",
+    "url": "https://www.canlitvtr.app/radyo/radyoremix",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:5250/;",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Rota",
+    "url": "https://www.canlitvtr.app/radyo/radyorota",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.radyoyayini.com:7082/;/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Sevtek FM",
+    "url": "https://www.canlitvtr.app/radyo/radyosevtekfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sevtekfm.ozelip.com/8020/stream?",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Sole",
+    "url": "https://www.canlitvtr.app/radyo/radyosole",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/SOLE128AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Süper Net",
+    "url": "https://www.canlitvtr.app/radyo/radyosupernet",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://anadolu.liderhost.com.tr:10861/stream?",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Talya",
+    "url": "https://www.canlitvtr.app/radyo/radyotalya",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://tr29.com/live?url=http://yayin.radyotalya.com:9424/;&tkn=92FwgrsnjUOTZihZFQ-nag&expires=1782601608&radyo-talya",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Tezene",
+    "url": "https://www.canlitvtr.app/radyo/radyotezene",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge.radyotvonline.net/tezene/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Ton",
+    "url": "https://www.canlitvtr.app/radyo/radyoton",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo1.radyo-dinle.tc/8198/;",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Trafik İstanbul",
+    "url": "https://www.canlitvtr.app/radyo/radyotrafikistanbul",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge.radyotvonline.net/radyotrafik/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Trend",
+    "url": "https://www.canlitvtr.app/radyo/radyotrend",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.radyoyayini.com:7032/stream?type=http&nocache=1/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Trio",
+    "url": "https://www.canlitvtr.app/radyo/radyotrio",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyotrio.radyotvonline.net/radyotrio?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Turan",
+    "url": "https://www.canlitvtr.app/radyo/radyoturan",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net:10897/stream",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Türkiyem",
+    "url": "https://www.canlitvtr.app/radyo/radyoturkiyem",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com/5254/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Türkü",
+    "url": "https://www.canlitvtr.app/radyo/radyoturku",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.radyomadyo.com:8008/stream",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Türkülerle Türkiye",
+    "url": "https://www.canlitvtr.app/radyo/radyoturkulerleturkiye",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge.radyotvonline.net/turkulerleturkiye/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Umut",
+    "url": "https://www.canlitvtr.app/radyo/radyoumut",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyoserver1.okeylisans.com:8966/;",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Vatan",
+    "url": "https://www.canlitvtr.app/radyo/radyovatan",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.radyoyayini.com:7026/stream",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Vatan – Azerbaycan",
+    "url": "https://www.canlitvtr.app/radyo/radyovatanazerbaycan",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://node-16.zeno.fm/0kgkkzanmueuv?",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Venüs Gönen",
+    "url": "https://www.canlitvtr.app/radyo/radyovenusgonen",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/gonenradyovenus/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Viva Club",
+    "url": "https://www.canlitvtr.app/radyo/radyovivaclub",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://listen.radyotvonline.net/hls/play/viva_club.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Viva Efkar",
+    "url": "https://www.canlitvtr.app/radyo/radyovivaefkar",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://listen.radyotvonline.net/hls/play/viva_efkar.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Viva Trend Pop",
+    "url": "https://www.canlitvtr.app/radyo/radyovivatrendpop",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://listen.radyotvonline.net/hls/play/viva_pop.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Viva Turka",
+    "url": "https://www.canlitvtr.app/radyo/radyovivaturka",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://listen.radyotvonline.net/hls/play/viva_turca.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Voyage",
+    "url": "https://www.canlitvtr.app/radyo/radyovoyage",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://voyagewmp.radyotvonline.com:80/stream",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyo Yüksel",
+    "url": "https://www.canlitvtr.app/radyo/radyoyuksel",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin2.canliyayin.org:8232/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "RadyoBir",
+    "url": "https://www.canlitvtr.app/radyo/radyobir",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://canli.radyobir.com.tr:7002/;",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Radyovizyon",
+    "url": "https://www.canlitvtr.app/radyo/radyovizyon",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.netradyom.com/radio/9300/radio.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Rap Home",
+    "url": "https://www.canlitvtr.app/radyo/raphome",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge.radyotvonline.net/raphome/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Relax Home",
+    "url": "https://www.canlitvtr.app/radyo/relaxhome",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge.radyotvonline.net/relaxhome/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Retro Türk",
+    "url": "https://www.canlitvtr.app/radyo/retroturk",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/RETROTURK128AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Risalet Radyo",
+    "url": "https://www.canlitvtr.app/radyo/risaletradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3c1520b2626.smil/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Rock FM",
+    "url": "https://www.canlitvtr.app/radyo/rockfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://rockfm.rockfm.com.tr:9450/stream",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Rock Hits",
+    "url": "https://www.canlitvtr.app/radyo/rockhits",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/SC017_SO1AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Rock Station",
+    "url": "https://www.canlitvtr.app/radyo/rockstation",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/ROCK_STATION128AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "RS FM – Radio Sputnik",
+    "url": "https://www.canlitvtr.app/radyo/rsfmradiosputnik",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://nfw.ria.ru/flv/audio.aspx?ID=98318704&type=mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Sarı Tramvay",
+    "url": "https://www.canlitvtr.app/radyo/saritramvay",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge.radyotvonline.net/saritramvay/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Seyr FM",
+    "url": "https://www.canlitvtr.app/radyo/seyrfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/8024/stream",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Show 90’lar",
+    "url": "https://www.canlitvtr.app/radyo/show90lar",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://listen.radyotvonline.net/hls/play/show_90lar.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Show Eller Havaya",
+    "url": "https://www.canlitvtr.app/radyo/showellerhavaya",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://listen.radyotvonline.net/hls/play/show_ellerhavaya.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Show Slow",
+    "url": "https://www.canlitvtr.app/radyo/showslow",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://listen.radyotvonline.net/hls/play/show_slow.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Show Trend",
+    "url": "https://www.canlitvtr.app/radyo/showtrend",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://listen.radyotvonline.net/hls/play/show_trend.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Silivri Metropol FM",
+    "url": "https://www.canlitvtr.app/radyo/silivrimetropolfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream2.rtvtakip.com:7034/stream/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Slow 7",
+    "url": "https://www.canlitvtr.app/radyo/slow7",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge2.radyotvonline.net/radyo7slow/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Slow Hits",
+    "url": "https://www.canlitvtr.app/radyo/slowhits",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/SC030_SO1AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Slow Home",
+    "url": "https://www.canlitvtr.app/radyo/slowhome",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge.radyotvonline.net/slowhome/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Slow Time",
+    "url": "https://www.canlitvtr.app/radyo/slowtime",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.radyomadyo.com:8004/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Soma FM",
+    "url": "https://www.canlitvtr.app/radyo/somafm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo1.radyo-dinle.tc/8010/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Sout Al Khaleej",
+    "url": "https://www.canlitvtr.app/radyo/soutalkhaleej",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://live.kwikmotion.com/qmcslkrradiolive/slkrradio/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Srt FM",
+    "url": "https://www.canlitvtr.app/radyo/srtfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://srtfm.ozelip.com/9902/stream",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Star Artı FM",
+    "url": "https://www.canlitvtr.app/radyo/starartifm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ritim.80.yayin.com.tr/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Sun Radyo",
+    "url": "https://www.canlitvtr.app/radyo/sunradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://tr2.socialsmart.tv/tepemedya/sunradyo/icecast.audio?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Süper2 FM",
+    "url": "https://www.canlitvtr.app/radyo/super2fm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/SUPER2128AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Süpersov Radyo",
+    "url": "https://www.canlitvtr.app/radyo/supersovradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net:6065/;",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Tgrt FM",
+    "url": "https://www.canlitvtr.app/radyo/tgrtfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://icecasttgrt.ihlasdigitalassets.com/tgrtfm?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "The Rock Radio",
+    "url": "https://www.canlitvtr.app/radyo/therockradio",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge.radyotvonline.net/rockland/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Tüm Zamanların En İyileri",
+    "url": "https://www.canlitvtr.app/radyo/tumzamanlarineniyileri",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/GHOAT_TR128AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "TV100 Haber",
+    "url": "https://www.canlitvtr.app/radyo/tv100haber",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ssldyg2.radyotvonline.com/live/tv100radyo.stream/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Ulusal Radyo",
+    "url": "https://www.canlitvtr.app/radyo/ulusalradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radio.guventechnology.com/9302/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Ulusal Radyo – Sanat",
+    "url": "https://www.canlitvtr.app/radyo/ulusalradyosanat",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radio.guventechnology.com/9312/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Ulusal Radyo – Türkü",
+    "url": "https://www.canlitvtr.app/radyo/ulusalradyoturku",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radio.guventechnology.com/9308/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Ülke Radyo",
+    "url": "https://www.canlitvtr.app/radyo/ulkeradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ssl4.radyotvonline.com/radyohome/ulkeradyo.stream_aac/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Ülkü FM",
+    "url": "https://www.canlitvtr.app/radyo/ulkufm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:4112/;",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Üsküdar Musiki Cemiyeti Radyosu",
+    "url": "https://www.canlitvtr.app/radyo/uskudarmusikicemiyetiradyosu",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://eustr75.mediatriple.net/Number1Media/14_Uskudar_Musiki_Cemiyeti.stream/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Virgin Radio Türkiye",
+    "url": "https://www.canlitvtr.app/radyo/virginradioturkiye",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/VIRGIN_RADIO128AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Viyana FM",
+    "url": "https://www.canlitvtr.app/radyo/viyanafm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.viyanafm.at/viyanafm/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "World Hits",
+    "url": "https://www.canlitvtr.app/radyo/worldhits",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge.radyotvonline.net/worldhits/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "X Radıo",
+    "url": "https://www.canlitvtr.app/radyo/xradio",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.xradio.com.tr:8770",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Yeni Pop",
+    "url": "https://www.canlitvtr.app/radyo/yenipop",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/SC006_SO1AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Yeni Rap",
+    "url": "https://www.canlitvtr.app/radyo/yenirap",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/SC018_SO1AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Yeni Slow",
+    "url": "https://www.canlitvtr.app/radyo/yenislow",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/SC021_SO1AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Yıldız FM",
+    "url": "https://www.canlitvtr.app/radyo/yildizfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://wowza1.radyotvonline.com/shoutcast/yildizfm.stream/playlist.m3u8",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Yol Arkadaşım Radyo",
+    "url": "https://www.canlitvtr.app/radyo/yolarkadasimradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/YOL_ARKADASIM128AAC.aac?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Yön Radyo",
+    "url": "https://www.canlitvtr.app/radyo/yonradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.radyolarburada.com:8020/;?type=http&nocache=107036",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Yöre FM",
+    "url": "https://www.canlitvtr.app/radyo/yorefm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:4082/;",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Yörük FM",
+    "url": "https://www.canlitvtr.app/radyo/yorukfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://tr2.socialsmart.tv/tepemedya/yorukfm/icecast.audio?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Zara FM",
+    "url": "https://www.canlitvtr.app/radyo/zarafm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net:8150/stream?/;stream.mp3",
+    "province": "İstanbul"
+  },
+  {
+    "name": "Aktif FM",
+    "url": "https://www.canlitvtr.app/radyo/aktiffm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://herkesmobil.com:8443/stream",
+    "province": "İzmir"
+  },
+  {
+    "name": "Batı Radyo",
+    "url": "https://www.canlitvtr.app/radyo/batiradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net:10902/;",
+    "province": "İzmir"
+  },
+  {
+    "name": "Bergama Best FM",
+    "url": "https://www.canlitvtr.app/radyo/bergamabestfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://bergamab.80.yayin.com.tr/stream",
+    "province": "İzmir"
+  },
+  {
+    "name": "Buca FM",
+    "url": "https://www.canlitvtr.app/radyo/bucafm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:4444/;",
+    "province": "İzmir"
+  },
+  {
+    "name": "Can Radyo",
+    "url": "https://www.canlitvtr.app/radyo/canradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:3124/;",
+    "province": "İzmir"
+  },
+  {
+    "name": "Dada Radyo",
+    "url": "https://www.canlitvtr.app/radyo/dadaradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:5088/;",
+    "province": "İzmir"
+  },
+  {
+    "name": "Doksanlar FM",
+    "url": "https://www.canlitvtr.app/radyo/doksanlarfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://moondigitaledge.radyotvonline.net/90lar/playlist.m3u8",
+    "province": "İzmir"
+  },
+  {
+    "name": "İmbat FM",
+    "url": "https://www.canlitvtr.app/radyo/imbatfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.medyahost.com.tr/8034/stream",
+    "province": "İzmir"
+  },
+  {
+    "name": "İzmir İmbat Fm",
+    "url": "https://www.canlitvtr.app/radyo/izmirimbatfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.medyahost.com.tr/8034/stream?/;stream.mp3",
+    "province": "İzmir"
+  },
+  {
+    "name": "İzmir Kordon FM",
+    "url": "https://www.canlitvtr.app/radyo/izmirkordonfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.medyahost.com.tr/8050/stream?/;stream.mp3",
+    "province": "İzmir"
+  },
+  {
+    "name": "İzmir Radyo Çağrı",
+    "url": "https://www.canlitvtr.app/radyo/izmirradyocagri",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.wlsrv.com:8604/stream?/;stream.mp3",
+    "province": "İzmir"
+  },
+  {
+    "name": "Lider FM",
+    "url": "https://www.canlitvtr.app/radyo/liderfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo1.radyo-dinle.tc/8108/stream?/;stream.mp3",
+    "province": "İzmir"
+  },
+  {
+    "name": "Radyo Ege",
+    "url": "https://www.canlitvtr.app/radyo/radyoege",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://istek.ozelip.com/radyoege",
+    "province": "İzmir"
+  },
+  {
+    "name": "Radyo Kordelya",
+    "url": "https://www.canlitvtr.app/radyo/radyokordelya",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.medyahost.com.tr/8048/stream?/;stream.mp3",
+    "province": "İzmir"
+  },
+  {
+    "name": "Radyo Lider FM",
+    "url": "https://www.canlitvtr.app/radyo/radyoliderfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://wowza1.radyotvonline.com/shoutcast/liderfm.stream/playlist.m3u8",
+    "province": "İzmir"
+  },
+  {
+    "name": "Radyo Pause",
+    "url": "https://www.canlitvtr.app/radyo/radyopause",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyopause.ozelip.com.tr:8040/stream?/;stream.mp3",
+    "province": "İzmir"
+  },
+  {
+    "name": "Radyo Romantik Türk",
+    "url": "https://www.canlitvtr.app/radyo/radyoromantikturk",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:6042/;",
+    "province": "İzmir"
+  },
+  {
+    "name": "Radyo Sahil",
+    "url": "https://www.canlitvtr.app/radyo/radyosahil",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo1.radyo-dinle.tc/8056/stream",
+    "province": "İzmir"
+  },
+  {
+    "name": "Radyo Trafik İzmir",
+    "url": "https://www.canlitvtr.app/radyo/radyotrafikizmir",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://wowza1.radyotvonline.com/saran/radyotrafikizmir.stream/playlist.m3u8",
+    "province": "İzmir"
+  },
+  {
+    "name": "Afşin Fm",
+    "url": "https://www.canlitvtr.app/radyo/afsinfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.arkacadde.org/4646/afsinradyo.mp3?/;stream.mp3",
+    "province": "Kahramanmaraş"
+  },
+  {
+    "name": "Elbistan Kent FM",
+    "url": "https://www.canlitvtr.app/radyo/elbistankentfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.arkacadde.org/4648/elbistankentfm.mp3",
+    "province": "Kahramanmaraş"
+  },
+  {
+    "name": "Elbistan Yöre FM",
+    "url": "https://www.canlitvtr.app/radyo/elbistanyorefm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ip.elbistanyorefm.com.tr:8022/stream?/;stream.mp3",
+    "province": "Kahramanmaraş"
+  },
+  {
+    "name": "Göksun FM",
+    "url": "https://www.canlitvtr.app/radyo/goksunfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net:10970/stream?/;stream.mp3",
+    "province": "Kahramanmaraş"
+  },
+  {
+    "name": "Kahramanmaraş Fresh FM",
+    "url": "https://www.canlitvtr.app/radyo/kahramanmarasfreshfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://canli.radyofresh.com/stream?/;stream.mp3",
+    "province": "Kahramanmaraş"
+  },
+  {
+    "name": "Radyo Fresh",
+    "url": "https://www.canlitvtr.app/radyo/radyofresh",
+    "category": "Radyo Yerel",
+    "streamUrl": "http://canli.radyofresh.com:8000/stream",
+    "province": "Kahramanmaraş"
+  },
+  {
+    "name": "Çağdaş Radyo Karaman",
+    "url": "https://www.canlitvtr.app/radyo/cagdasradyokaraman",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:4366/;",
+    "province": "Karaman"
+  },
+  {
+    "name": "Kralım FM",
+    "url": "https://www.canlitvtr.app/radyo/kralimfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://dinle.kralimfm.com/7890/stream",
+    "province": "Kars"
+  },
+  {
+    "name": "Kralım FM 99.3",
+    "url": "https://www.canlitvtr.app/radyo/kralimfm993",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://dinle.kralimfm.com/7890/stream?/;stream.mp3",
+    "province": "Kars"
+  },
+  {
+    "name": "Kastamonu FM",
+    "url": "https://www.canlitvtr.app/radyo/kastamonufm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:4264/;",
+    "province": "Kastamonu"
+  },
+  {
+    "name": "Radyo 37",
+    "url": "https://www.canlitvtr.app/radyo/radyo37",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:3192/;",
+    "province": "Kastamonu"
+  },
+  {
+    "name": "Enderun FM",
+    "url": "https://www.canlitvtr.app/radyo/enderunfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin2.canliyayin.org:7052/stream",
+    "province": "Kayseri"
+  },
+  {
+    "name": "Erciyes Fm Kayseri",
+    "url": "https://www.canlitvtr.app/radyo/erciyesfmkayseri",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://streamtr.turkiyeradyolari.com/15238/stream?/;stream.mp3",
+    "province": "Kayseri"
+  },
+  {
+    "name": "Furkan Radyo Kayseri",
+    "url": "https://www.canlitvtr.app/radyo/furkanradyokayseri",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:6191/;",
+    "province": "Kayseri"
+  },
+  {
+    "name": "Kayseri Birlik FM",
+    "url": "https://www.canlitvtr.app/radyo/kayseribirlikfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin2.canliyayin.org:7082/stream",
+    "province": "Kayseri"
+  },
+  {
+    "name": "Kayseri Gözde Fm",
+    "url": "https://www.canlitvtr.app/radyo/kayserigozdefm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.radyoyayini.com:7067/stream?/;stream.mp3",
+    "province": "Kayseri"
+  },
+  {
+    "name": "Kayseri Kay Radyo",
+    "url": "https://www.canlitvtr.app/radyo/kayserikayradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:3054/;",
+    "province": "Kayseri"
+  },
+  {
+    "name": "Kayseri Kent FM",
+    "url": "https://www.canlitvtr.app/radyo/kayserikentfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:4056/;",
+    "province": "Kayseri"
+  },
+  {
+    "name": "Kayseri Kolej FM",
+    "url": "https://www.canlitvtr.app/radyo/kayserikolejfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/8096/stream/;stream.mp3",
+    "province": "Kayseri"
+  },
+  {
+    "name": "Kolej FM",
+    "url": "https://www.canlitvtr.app/radyo/kolejfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net:8096/;",
+    "province": "Kayseri"
+  },
+  {
+    "name": "Radyo Han Kayseri",
+    "url": "https://www.canlitvtr.app/radyo/radyohankayseri",
+    "category": "Radyo Yerel",
+    "streamUrl": "http://sslyayin.netyayin.net/8094/stream",
+    "province": "Kayseri"
+  },
+  {
+    "name": "Radyo Radar",
+    "url": "https://www.canlitvtr.app/radyo/radyoradar",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://live.radyoradar.com/default",
+    "province": "Kayseri"
+  },
+  {
+    "name": "Radyo Türk",
+    "url": "https://www.canlitvtr.app/radyo/radyoturk",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:4028/;",
+    "province": "Kayseri"
+  },
+  {
+    "name": "Keskin FM",
+    "url": "https://www.canlitvtr.app/radyo/keskinfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8142/stream",
+    "province": "Kırıkkale"
+  },
+  {
+    "name": "Öz Fm",
+    "url": "https://www.canlitvtr.app/radyo/ozfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ip231.ozelip.com/9914/stream/;stream.mp3",
+    "province": "Kırıkkale"
+  },
+  {
+    "name": "Radyo 71",
+    "url": "https://www.canlitvtr.app/radyo/radyo71",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:5924/;",
+    "province": "Kırıkkale"
+  },
+  {
+    "name": "Serhat FM",
+    "url": "https://www.canlitvtr.app/radyo/serhatfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.serhatfm.com:9150",
+    "province": "Kırklareli"
+  },
+  {
+    "name": "Kırşehir Radyo Kent",
+    "url": "https://www.canlitvtr.app/radyo/kirsehirradyokent",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo1.radyo-dinle.tc/8122/stream?",
+    "province": "Kırşehir"
+  },
+  {
+    "name": "Kilis FM",
+    "url": "https://www.canlitvtr.app/radyo/kilisfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:7979/;",
+    "province": "Kilis"
+  },
+  {
+    "name": "Kilis Radyo",
+    "url": "https://www.canlitvtr.app/radyo/kilisradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://host10.onlineradyotv.net/8012/stream",
+    "province": "Kilis"
+  },
+  {
+    "name": "Kilis Sultan Radyo",
+    "url": "https://www.canlitvtr.app/radyo/kilissultanradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:1060/;",
+    "province": "Kilis"
+  },
+  {
+    "name": "Enerji 93.1 – KKTC",
+    "url": "https://www.canlitvtr.app/radyo/enerji931kktc",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://live.enerjiplay.com/stream/enerji?/;stream.mp3",
+    "province": "KKTC"
+  },
+  {
+    "name": "Enerji Slow 106.2 – KKTC",
+    "url": "https://www.canlitvtr.app/radyo/enerjislow1062kktc",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://live.enerjiplay.com/stream/enerjislow?/;stream.mp3",
+    "province": "KKTC"
+  },
+  {
+    "name": "Gonca FM",
+    "url": "https://www.canlitvtr.app/radyo/goncafm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/8912/stream/;stream.mp3",
+    "province": "Kocaeli"
+  },
+  {
+    "name": "Kocaeli Mega FM",
+    "url": "https://www.canlitvtr.app/radyo/kocaelimegafm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/megafm/stream?/;stream.mp3",
+    "province": "Kocaeli"
+  },
+  {
+    "name": "Kocaeli Radyo Gül",
+    "url": "https://www.canlitvtr.app/radyo/kocaeliradyogul",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin2.canliyayin.org:10989/;stream.mp3",
+    "province": "Kocaeli"
+  },
+  {
+    "name": "Radyo Karamürsel",
+    "url": "https://www.canlitvtr.app/radyo/radyokaramursel",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin1.yayindakiler.com:3052",
+    "province": "Kocaeli"
+  },
+  {
+    "name": "Radyo Ki",
+    "url": "https://www.canlitvtr.app/radyo/radyoki",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://listen.powerapp.com.tr/radyoki/mpeg/icecast.audio?/;stream.mp3",
+    "province": "Kocaeli"
+  },
+  {
+    "name": "Radyo Mavi",
+    "url": "https://www.canlitvtr.app/radyo/radyomavi",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net:10974/stream",
+    "province": "Kocaeli"
+  },
+  {
+    "name": "Radyo Mavi Kocaeli",
+    "url": "https://www.canlitvtr.app/radyo/radyomavikocaeli",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/8070/stream/;stream.mp3",
+    "province": "Kocaeli"
+  },
+  {
+    "name": "Radyo Nikomedya",
+    "url": "https://www.canlitvtr.app/radyo/radyonikomedya",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.radyoyayini.com:7091/stream",
+    "province": "Kocaeli"
+  },
+  {
+    "name": "Raks FM",
+    "url": "https://www.canlitvtr.app/radyo/raksfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.radyoyayini.com:7092/stream",
+    "province": "Kocaeli"
+  },
+  {
+    "name": "Gözyaşı FM",
+    "url": "https://www.canlitvtr.app/radyo/gozyasifm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin2.canliyayin.org:8700/stream",
+    "province": "Konya"
+  },
+  {
+    "name": "Ilgın FM",
+    "url": "https://www.canlitvtr.app/radyo/ilginfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ilginfm.ozelip.com:9942/;",
+    "province": "Konya"
+  },
+  {
+    "name": "Kent FM Ereğli",
+    "url": "https://www.canlitvtr.app/radyo/kentfmeregli",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://kentfm955.ozelip.com/9306/stream?/;stream.mp3",
+    "province": "Konya"
+  },
+  {
+    "name": "Konya FM",
+    "url": "https://www.canlitvtr.app/radyo/konyafm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8022/stream",
+    "province": "Konya"
+  },
+  {
+    "name": "Konya Gözyaşı Fm",
+    "url": "https://www.canlitvtr.app/radyo/konyagozyasifm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin2.canliyayin.org:8700/stream?/;stream.mp3",
+    "province": "Konya"
+  },
+  {
+    "name": "Konya İsra FM",
+    "url": "https://www.canlitvtr.app/radyo/konyaisrafm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin2.canliyayin.org:8210/stream?/;stream.mp3",
+    "province": "Konya"
+  },
+  {
+    "name": "Konya Radyo En",
+    "url": "https://www.canlitvtr.app/radyo/konyaradyoen",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin2.canliyayin.org:7222/stream?/;stream.mp3",
+    "province": "Konya"
+  },
+  {
+    "name": "Konya Seydişehir Fm",
+    "url": "https://www.canlitvtr.app/radyo/konyaseydisehirfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/seydisehirfm/stream?/;stream.mp3",
+    "province": "Konya"
+  },
+  {
+    "name": "Radyo En",
+    "url": "https://www.canlitvtr.app/radyo/radyoen",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin2.canliyayin.org:7222/stream",
+    "province": "Konya"
+  },
+  {
+    "name": "Radyo Gençlik",
+    "url": "https://www.canlitvtr.app/radyo/radyogenclik",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://canli.radyogenclik.com:9000/stream",
+    "province": "Konya"
+  },
+  {
+    "name": "Radyo Net FM",
+    "url": "https://www.canlitvtr.app/radyo/radyonetfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/8068/stream",
+    "province": "Konya"
+  },
+  {
+    "name": "Radyo Net Konya",
+    "url": "https://www.canlitvtr.app/radyo/radyonetkonya",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net:8068/stream?/;stream.mp3",
+    "province": "Konya"
+  },
+  {
+    "name": "Ribat FM",
+    "url": "https://www.canlitvtr.app/radyo/ribatfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin2.canliyayin.org:7010/stream",
+    "province": "Konya"
+  },
+  {
+    "name": "Selam Radyo",
+    "url": "https://www.canlitvtr.app/radyo/selamradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "http://yayin1.canliyayin.org:7066/stream/;stream.mp3",
+    "province": "Konya"
+  },
+  {
+    "name": "Seydişehir FM",
+    "url": "https://www.canlitvtr.app/radyo/seydisehirfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8070/stream",
+    "province": "Konya"
+  },
+  {
+    "name": "Kütahya Aktif FM",
+    "url": "https://www.canlitvtr.app/radyo/kutahyaaktiffm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:3164/;",
+    "province": "Kütahya"
+  },
+  {
+    "name": "Radıo Actıve",
+    "url": "https://www.canlitvtr.app/radyo/radioactive",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin1.yayindakiler.com:3164/stream",
+    "province": "Kütahya"
+  },
+  {
+    "name": "Radyo Dumlupınar",
+    "url": "https://www.canlitvtr.app/radyo/radyodumlupinar",
+    "category": "Radyo Yerel",
+    "streamUrl": "http://radyo.yayin.com.tr:6090/stream?type=http&nocache=20",
+    "province": "Kütahya"
+  },
+  {
+    "name": "Dost FM Malatya",
+    "url": "https://www.canlitvtr.app/radyo/dostfmmalatya",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/dostfm/stream?/;stream.mp3",
+    "province": "Malatya"
+  },
+  {
+    "name": "Er FM Malatya",
+    "url": "https://www.canlitvtr.app/radyo/erfmmalatya",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://edge1.socialsmart.tv/erfm/bant1/icecast.audio",
+    "province": "Malatya"
+  },
+  {
+    "name": "Fon Radyo",
+    "url": "https://www.canlitvtr.app/radyo/fonradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/radyofon/stream?/;stream.mp3",
+    "province": "Malatya"
+  },
+  {
+    "name": "Malatya Çağlar Fm",
+    "url": "https://www.canlitvtr.app/radyo/malatyacaglarfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/radyocaglar/stream?/;stream.mp3",
+    "province": "Malatya"
+  },
+  {
+    "name": "Malatya Radyo İmparator",
+    "url": "https://www.canlitvtr.app/radyo/malatyaradyoimparator",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:4042/;",
+    "province": "Malatya"
+  },
+  {
+    "name": "Nur FM",
+    "url": "https://www.canlitvtr.app/radyo/nurfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8136/;",
+    "province": "Malatya"
+  },
+  {
+    "name": "Radyo 44",
+    "url": "https://www.canlitvtr.app/radyo/radyo44",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo44.80.yayin.com.tr/stream?",
+    "province": "Malatya"
+  },
+  {
+    "name": "Radyo Ahenk",
+    "url": "https://www.canlitvtr.app/radyo/radyoahenk",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.radyomadyo.com:8014/stream",
+    "province": "Malatya"
+  },
+  {
+    "name": "Radyo Çağlar",
+    "url": "https://www.canlitvtr.app/radyo/radyocaglar",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8128/stream",
+    "province": "Malatya"
+  },
+  {
+    "name": "Radyo Fon",
+    "url": "https://www.canlitvtr.app/radyo/radyofon",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:9416/stream",
+    "province": "Malatya"
+  },
+  {
+    "name": "Radyo Huzur Malatya",
+    "url": "https://www.canlitvtr.app/radyo/radyohuzurmalatya",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/malatyaradyohuzur/stream?/;stream.mp3",
+    "province": "Malatya"
+  },
+  {
+    "name": "Radyo Kampüs",
+    "url": "https://www.canlitvtr.app/radyo/radyokampus",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net:8048/stream/;stream.mp3",
+    "province": "Malatya"
+  },
+  {
+    "name": "Radyo Zafer",
+    "url": "https://www.canlitvtr.app/radyo/radyozafer",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyozafer.ozelip.com:8034/stream",
+    "province": "Malatya"
+  },
+  {
+    "name": "Manisa Radyo Hiraş",
+    "url": "https://www.canlitvtr.app/radyo/manisaradyohiras",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.wlsrv.com:9082/;/;stream.mp3",
+    "province": "Manisa"
+  },
+  {
+    "name": "Radyo Gökkuşağı",
+    "url": "https://www.canlitvtr.app/radyo/radyogokkusagi",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://live.radyo.in/9700/stream/;stream.mp3",
+    "province": "Manisa"
+  },
+  {
+    "name": "Radyo Seçil FM",
+    "url": "https://www.canlitvtr.app/radyo/radyosecilfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://canli.radyosecil.com.tr/live",
+    "province": "Manisa"
+  },
+  {
+    "name": "Tempo FM",
+    "url": "https://www.canlitvtr.app/radyo/tempofm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8170/stream",
+    "province": "Manisa"
+  },
+  {
+    "name": "Alef FM",
+    "url": "https://www.canlitvtr.app/radyo/aleffm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://netyayin.jsproduksiyon.com:9010/alef",
+    "province": "Mardin"
+  },
+  {
+    "name": "Emek Radyo",
+    "url": "https://www.canlitvtr.app/radyo/emekradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin5.radyohizmeti.com:10992/stream/;stream.mp3",
+    "province": "Mardin"
+  },
+  {
+    "name": "Mardin Radyo Zergan",
+    "url": "https://www.canlitvtr.app/radyo/mardinradyozergan",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/radyozergan/stream?/;stream.mp3",
+    "province": "Mardin"
+  },
+  {
+    "name": "Radyo Zergan",
+    "url": "https://www.canlitvtr.app/radyo/radyozergan",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/radyozergan/stream",
+    "province": "Mardin"
+  },
+  {
+    "name": "Gözde FM",
+    "url": "https://www.canlitvtr.app/radyo/gozdefm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8190/stream",
+    "province": "Mersin"
+  },
+  {
+    "name": "Hilal FM Mut",
+    "url": "https://www.canlitvtr.app/radyo/hilalfmmut",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/9314/stream?/;stream.mp3",
+    "province": "Mersin"
+  },
+  {
+    "name": "İçel FM",
+    "url": "https://www.canlitvtr.app/radyo/icelfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://tr2.socialsmart.tv/tepemedya/icelfm/icecast.audio?/;stream.mp3",
+    "province": "Mersin"
+  },
+  {
+    "name": "Mersin Fm",
+    "url": "https://www.canlitvtr.app/radyo/mersinfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://tr2.socialsmart.tv/tepemedya/mersinfm/icecast.audio?/;stream.mp3",
+    "province": "Mersin"
+  },
+  {
+    "name": "Mersin Radyo Metropol",
+    "url": "https://www.canlitvtr.app/radyo/mersinradyometropol",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/radyometropol/stream?/;stream.mp3",
+    "province": "Mersin"
+  },
+  {
+    "name": "Mersin Tarsus FM",
+    "url": "https://www.canlitvtr.app/radyo/mersintarsusfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://tarsusfm.80.yayin.com.tr/stream/;stream.mp3",
+    "province": "Mersin"
+  },
+  {
+    "name": "Mix FM",
+    "url": "https://www.canlitvtr.app/radyo/mixfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://mixfm.ozelip.com:9598/stream",
+    "province": "Mersin"
+  },
+  {
+    "name": "Mix Fm Mersin",
+    "url": "https://www.canlitvtr.app/radyo/mixfmmersin",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ssl16.ozelip.com/asistan/stream/8aa9fd0f13881c98afb2ca549c9037f6?/;stream.mp3",
+    "province": "Mersin"
+  },
+  {
+    "name": "Radyo Akdeniz Mersin",
+    "url": "https://www.canlitvtr.app/radyo/radyoakdenizmersin",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyoplayer.net/listen/f3e1546c9cb98c512a5349db38707db1?",
+    "province": "Mersin"
+  },
+  {
+    "name": "Radyo Kent 98.5",
+    "url": "https://www.canlitvtr.app/radyo/radyokent985",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://anadolu.liderhost.com.tr:10906/stream",
+    "province": "Mersin"
+  },
+  {
+    "name": "Radyo Merkoç",
+    "url": "https://www.canlitvtr.app/radyo/radyomerkoc",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://host10.onlineradyotv.net/1",
+    "province": "Mersin"
+  },
+  {
+    "name": "Radyo Metropol",
+    "url": "https://www.canlitvtr.app/radyo/radyometropol",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:9312/stream",
+    "province": "Mersin"
+  },
+  {
+    "name": "Radyo Ülkü",
+    "url": "https://www.canlitvtr.app/radyo/radyoulku",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:4006/;",
+    "province": "Mersin"
+  },
+  {
+    "name": "Tarsus Yaren FM",
+    "url": "https://www.canlitvtr.app/radyo/tarsusyarenfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yarenfmn.80.yayin.com.tr/stream",
+    "province": "Mersin"
+  },
+  {
+    "name": "Yaren FM",
+    "url": "https://www.canlitvtr.app/radyo/yarenfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:9830/;",
+    "province": "Mersin"
+  },
+  {
+    "name": "Bodrum FM",
+    "url": "https://www.canlitvtr.app/radyo/bodrumfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://live.bodrumfm.org/stream/;stream.mp3",
+    "province": "Muğla"
+  },
+  {
+    "name": "Likya Class FM",
+    "url": "https://www.canlitvtr.app/radyo/likyaclassfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin1.canlitv.fun:8026/stream?/;stream.mp3",
+    "province": "Muğla"
+  },
+  {
+    "name": "Radyo Likya",
+    "url": "https://www.canlitvtr.app/radyo/radyolikya",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:4260/;",
+    "province": "Muğla"
+  },
+  {
+    "name": "Radyo Muğla",
+    "url": "https://www.canlitvtr.app/radyo/radyomugla",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:3006/;",
+    "province": "Muğla"
+  },
+  {
+    "name": "Tur FM",
+    "url": "https://www.canlitvtr.app/radyo/turfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/4848/stream/;stream.mp3",
+    "province": "Muğla"
+  },
+  {
+    "name": "Radyo 49",
+    "url": "https://www.canlitvtr.app/radyo/radyo49",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/radyo49/stream?/;stream.mp3",
+    "province": "Muş"
+  },
+  {
+    "name": "Kapadokya FM",
+    "url": "https://www.canlitvtr.app/radyo/kapadokyafm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/9348/stream",
+    "province": "Nevşehir"
+  },
+  {
+    "name": "Kapadokya FM 94.5",
+    "url": "https://www.canlitvtr.app/radyo/kapadokyafm945",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/kapadokyafm/stream?/;stream.mp3",
+    "province": "Nevşehir"
+  },
+  {
+    "name": "Keyf Fm Nevşehir",
+    "url": "https://www.canlitvtr.app/radyo/keyffmnevsehir",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://streamtr.turkiyeradyolari.com/15188/stream?/;stream.mp3",
+    "province": "Nevşehir"
+  },
+  {
+    "name": "Nevşehir Radyo Mega",
+    "url": "https://www.canlitvtr.app/radyo/nevsehirradyomega",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.nevsehirmegaradyo.com/stream?/;stream.mp3",
+    "province": "Nevşehir"
+  },
+  {
+    "name": "Radyo 50",
+    "url": "https://www.canlitvtr.app/radyo/radyo50",
+    "category": "Radyo Yerel",
+    "streamUrl": "http://streamtr.turkiyeradyolari.com:15098/;stream",
+    "province": "Nevşehir"
+  },
+  {
+    "name": "Radyo Keyf",
+    "url": "https://www.canlitvtr.app/radyo/radyokeyf",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://streamtr.turkiyeradyolari.com/15188/;",
+    "province": "Nevşehir"
+  },
+  {
+    "name": "Radyo Nevşehir",
+    "url": "https://www.canlitvtr.app/radyo/radyonevsehir",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream2.rtvtakip.com:7025/;",
+    "province": "Nevşehir"
+  },
+  {
+    "name": "Bor FM",
+    "url": "https://www.canlitvtr.app/radyo/borfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://a7.asurahosting.com:8350/radio.mp3",
+    "province": "Niğde"
+  },
+  {
+    "name": "Niğde Can Radyo",
+    "url": "https://www.canlitvtr.app/radyo/nigdecanradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://dinle.canradyonigde.com/8048/stream?/;stream.mp3",
+    "province": "Niğde"
+  },
+  {
+    "name": "Niğde FM",
+    "url": "https://www.canlitvtr.app/radyo/nigdefm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyoserver3.okeylisans.com:8644/stream",
+    "province": "Niğde"
+  },
+  {
+    "name": "Niğde Fm 91.3",
+    "url": "https://www.canlitvtr.app/radyo/nigdefm913",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyoserver3.okeylisans.com:8644/stream?",
+    "province": "Niğde"
+  },
+  {
+    "name": "Ordu FM",
+    "url": "https://www.canlitvtr.app/radyo/ordufm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:8012/stream?/;stream.mp3",
+    "province": "Ordu"
+  },
+  {
+    "name": "Ordu Moda FM",
+    "url": "https://www.canlitvtr.app/radyo/ordumodafm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://modafm.ozelip.com.tr:8016/stream?/;stream.mp3",
+    "province": "Ordu"
+  },
+  {
+    "name": "Şahane Radyo",
+    "url": "https://www.canlitvtr.app/radyo/sahaneradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8058/stream",
+    "province": "Ordu"
+  },
+  {
+    "name": "Ünye Melodi FM",
+    "url": "https://www.canlitvtr.app/radyo/unyemelodifm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:9366/stream",
+    "province": "Ordu"
+  },
+  {
+    "name": "2000 FM",
+    "url": "https://www.canlitvtr.app/radyo/2000fm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/8006/stream",
+    "province": "Osmaniye"
+  },
+  {
+    "name": "Osmaniye Radyo Gönül",
+    "url": "https://www.canlitvtr.app/radyo/osmaniyeradyogonul",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/gonulfm/stream?/;stream.mp3",
+    "province": "Osmaniye"
+  },
+  {
+    "name": "Radyo 2000 Osmaniye",
+    "url": "https://www.canlitvtr.app/radyo/radyo2000osmaniye",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net:10915/;",
+    "province": "Osmaniye"
+  },
+  {
+    "name": "Radyo 80",
+    "url": "https://www.canlitvtr.app/radyo/radyo80",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://www.radyo80.com/stream.php/;stream.mp3",
+    "province": "Osmaniye"
+  },
+  {
+    "name": "Radyo Yakamoz",
+    "url": "https://www.canlitvtr.app/radyo/radyoyakamoz",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8152/stream",
+    "province": "Osmaniye"
+  },
+  {
+    "name": "Radyo Karadeniz",
+    "url": "https://www.canlitvtr.app/radyo/radyokaradeniz",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyomar.80.yayin.com.tr/stream",
+    "province": "Rize"
+  },
+  {
+    "name": "Rize Gelişim Radyo",
+    "url": "https://www.canlitvtr.app/radyo/rizegelisimradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:4008/;",
+    "province": "Rize"
+  },
+  {
+    "name": "Ada FM",
+    "url": "https://www.canlitvtr.app/radyo/adafm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.webfirmam.com/adafm.mp3",
+    "province": "Sakarya"
+  },
+  {
+    "name": "Akyazı FM",
+    "url": "https://www.canlitvtr.app/radyo/akyazifm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/8078/stream",
+    "province": "Sakarya"
+  },
+  {
+    "name": "Dolu Radyo",
+    "url": "https://www.canlitvtr.app/radyo/doluradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.radyoyayini.com:7070/stream",
+    "province": "Sakarya"
+  },
+  {
+    "name": "İmparator FM",
+    "url": "https://www.canlitvtr.app/radyo/imparatorfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://still-haze-4e9d.ilk-er.workers.dev/",
+    "province": "Sakarya"
+  },
+  {
+    "name": "İmparator FM Sakarya",
+    "url": "https://www.canlitvtr.app/radyo/imparatorfmsakarya",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/imparatorfm/stream?/;stream.mp3",
+    "province": "Sakarya"
+  },
+  {
+    "name": "Kadırga FM",
+    "url": "https://www.canlitvtr.app/radyo/kadirgafm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.radyoyayini.com/8144/stream?/;stream.mp3",
+    "province": "Sakarya"
+  },
+  {
+    "name": "Kemençe FM",
+    "url": "https://www.canlitvtr.app/radyo/kemencefm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:4140/;",
+    "province": "Sakarya"
+  },
+  {
+    "name": "Radyo Net 89.3",
+    "url": "https://www.canlitvtr.app/radyo/radyonet893",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://streaming.radionomy.com/;",
+    "province": "Sakarya"
+  },
+  {
+    "name": "Romantik Ses Sakarya",
+    "url": "https://www.canlitvtr.app/radyo/romantiksessakarya",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.romantikses.com/romantiksessakary/stream",
+    "province": "Sakarya"
+  },
+  {
+    "name": "Sakarya Radyo Mega",
+    "url": "https://www.canlitvtr.app/radyo/sakaryaradyomega",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/radyomega102/stream?/;stream.mp3",
+    "province": "Sakarya"
+  },
+  {
+    "name": "Merkez FM",
+    "url": "https://www.canlitvtr.app/radyo/merkezfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.radyoyayini.com:7007/stream?",
+    "province": "Samsun"
+  },
+  {
+    "name": "Radyo Gerçek",
+    "url": "https://www.canlitvtr.app/radyo/radyogercek",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ssl120.radyotelekom.com.tr/8198/stream?/;stream.mp3",
+    "province": "Samsun"
+  },
+  {
+    "name": "Radyo Kulüp 104",
+    "url": "https://www.canlitvtr.app/radyo/radyokulup104",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.radyoyayini.com/8012/stream",
+    "province": "Samsun"
+  },
+  {
+    "name": "Samsun Fıstık Fm",
+    "url": "https://www.canlitvtr.app/radyo/samsunfistikfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.radyoyayini.com:7029/stream?/;stream.mp3",
+    "province": "Samsun"
+  },
+  {
+    "name": "Samsun Haber Radyo",
+    "url": "https://www.canlitvtr.app/radyo/samsunhaberradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.radyoyayini.com/8014/stream",
+    "province": "Samsun"
+  },
+  {
+    "name": "Samsun Tutku FM",
+    "url": "https://www.canlitvtr.app/radyo/samsuntutkufm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.radyoyayini.com/8012/stream?/;stream.mp3",
+    "province": "Samsun"
+  },
+  {
+    "name": "Terme Tempo FM",
+    "url": "https://www.canlitvtr.app/radyo/termetempofm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://live.radyo.in/8062/stream?",
+    "province": "Samsun"
+  },
+  {
+    "name": "Boyabat Ezgi FM",
+    "url": "https://www.canlitvtr.app/radyo/boyabatezgifm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:3044/;",
+    "province": "Sinop"
+  },
+  {
+    "name": "CU Radyo – Cumhuriyet Üniversitesi",
+    "url": "https://www.canlitvtr.app/radyo/curadyocumhuriyetuniversitesi",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ip1.ozelip.com/8046/stream/;stream.mp3",
+    "province": "Sivas"
+  },
+  {
+    "name": "Vitamin FM",
+    "url": "https://www.canlitvtr.app/radyo/vitaminfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ssl22.radyotelekom.com/8190/stream?",
+    "province": "Sivas"
+  },
+  {
+    "name": "Edessa FM",
+    "url": "https://www.canlitvtr.app/radyo/edessafm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8162/stream",
+    "province": "Şanlıurfa"
+  },
+  {
+    "name": "Harran FM",
+    "url": "https://www.canlitvtr.app/radyo/harranfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://dinle.harranfm.com/8026/stream?",
+    "province": "Şanlıurfa"
+  },
+  {
+    "name": "Radyo Liva",
+    "url": "https://www.canlitvtr.app/radyo/radyoliva",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8166/stream",
+    "province": "Şanlıurfa"
+  },
+  {
+    "name": "Radyo Urfa",
+    "url": "https://www.canlitvtr.app/radyo/radyourfa",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyourfa.ozelip.com/8038/stream/;stream.mp3",
+    "province": "Şanlıurfa"
+  },
+  {
+    "name": "Urfa Gap FM",
+    "url": "https://www.canlitvtr.app/radyo/urfagapfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8164/stream",
+    "province": "Şanlıurfa"
+  },
+  {
+    "name": "Armoni FM",
+    "url": "https://www.canlitvtr.app/radyo/armonifm",
+    "category": "Radyo Yerel",
+    "streamUrl": "http://armonifm.tr/proxy.php",
+    "province": "Tekirdağ"
+  },
+  {
+    "name": "Çorlu FM",
+    "url": "https://www.canlitvtr.app/radyo/corlufm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8054/stream",
+    "province": "Tekirdağ"
+  },
+  {
+    "name": "Çorlu Tempo FM",
+    "url": "https://www.canlitvtr.app/radyo/corlutempofm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream2.rtvtakip.com:7016/stream",
+    "province": "Tekirdağ"
+  },
+  {
+    "name": "Genç FM Çerkezköy",
+    "url": "https://www.canlitvtr.app/radyo/gencfmcerkezkoy",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.yayindakiler.com:4052/;",
+    "province": "Tekirdağ"
+  },
+  {
+    "name": "Radyo Can",
+    "url": "https://www.canlitvtr.app/radyo/radyocan",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:4174/stream?/;stream.mp3",
+    "province": "Tekirdağ"
+  },
+  {
+    "name": "Radyo Free",
+    "url": "https://www.canlitvtr.app/radyo/radyofree",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://icecast.netmedya.net/radyofree?",
+    "province": "Tekirdağ"
+  },
+  {
+    "name": "Radyo Şeker",
+    "url": "https://www.canlitvtr.app/radyo/radyoseker",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:4046/steam?/;stream.mp3",
+    "province": "Tekirdağ"
+  },
+  {
+    "name": "Tekirdağ Armoni FM",
+    "url": "https://www.canlitvtr.app/radyo/tekirdagarmonifm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://armonifm.tr/proxy.php?/;stream.mp3",
+    "province": "Tekirdağ"
+  },
+  {
+    "name": "Tekirdağ Genç Fm",
+    "url": "https://www.canlitvtr.app/radyo/tekirdaggencfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:4052/;",
+    "province": "Tekirdağ"
+  },
+  {
+    "name": "Tekirdağ Radyo Can",
+    "url": "https://www.canlitvtr.app/radyo/tekirdagradyocan",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:4174/;",
+    "province": "Tekirdağ"
+  },
+  {
+    "name": "Tekirdağ Radyo Şeker",
+    "url": "https://www.canlitvtr.app/radyo/tekirdagradyoseker",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:4046/;",
+    "province": "Tekirdağ"
+  },
+  {
+    "name": "Tempo FM Çorlu",
+    "url": "https://www.canlitvtr.app/radyo/tempofmcorlu",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream2.rtvtakip.com:7016/;",
+    "province": "Tekirdağ"
+  },
+  {
+    "name": "101 Turhal FM",
+    "url": "https://www.canlitvtr.app/radyo/101turhalfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:9466/stream",
+    "province": "Tokat"
+  },
+  {
+    "name": "Özlem FM Tokat",
+    "url": "https://www.canlitvtr.app/radyo/ozlemfmtokat",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:4100/;",
+    "province": "Tokat"
+  },
+  {
+    "name": "Radyo Extra Tokat",
+    "url": "https://www.canlitvtr.app/radyo/radyoextratokat",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyoext.80.yayin.com.tr/stream?",
+    "province": "Tokat"
+  },
+  {
+    "name": "Radyo Sinerji",
+    "url": "https://www.canlitvtr.app/radyo/radyosinerji",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radio.guventechnology.com/9994/stream?",
+    "province": "Tokat"
+  },
+  {
+    "name": "Radyo Tokat",
+    "url": "https://www.canlitvtr.app/radyo/radyotokat",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyoto2.80.yayin.com.tr/stream?",
+    "province": "Tokat"
+  },
+  {
+    "name": "Sinerji FM",
+    "url": "https://www.canlitvtr.app/radyo/sinerjifm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8158/stream",
+    "province": "Tokat"
+  },
+  {
+    "name": "Gün FM",
+    "url": "https://www.canlitvtr.app/radyo/gunfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ssl120.radyotelekom.com.tr/8130/stream",
+    "province": "Trabzon"
+  },
+  {
+    "name": "Karadeniz Dalga FM",
+    "url": "https://www.canlitvtr.app/radyo/karadenizdalgafm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://dinle.radyokaradeniz.com/stream?",
+    "province": "Trabzon"
+  },
+  {
+    "name": "Kuzey FM",
+    "url": "https://www.canlitvtr.app/radyo/kuzeyfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin1.yayindakiler.com:3028/stream",
+    "province": "Trabzon"
+  },
+  {
+    "name": "Radyo Bordo Mavi FM",
+    "url": "https://www.canlitvtr.app/radyo/radyobordomavifm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ip169.ozelip.com:10975/;",
+    "province": "Trabzon"
+  },
+  {
+    "name": "Radyo Kadirga",
+    "url": "https://www.canlitvtr.app/radyo/radyokadirga",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:5108/;",
+    "province": "Trabzon"
+  },
+  {
+    "name": "Radyo KTÜ",
+    "url": "https://www.canlitvtr.app/radyo/radyoktu",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/radyoktu/stream?/;stream.mp3",
+    "province": "Trabzon"
+  },
+  {
+    "name": "Trabzon Radyo",
+    "url": "https://www.canlitvtr.app/radyo/trabzonradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8038/stream",
+    "province": "Trabzon"
+  },
+  {
+    "name": "Trabzon Radyo 91.0",
+    "url": "https://www.canlitvtr.app/radyo/trabzonradyo910",
+    "category": "Radyo Yerel",
+    "streamUrl": "http://stream.turkiyeradyolari.com/8038/stream",
+    "province": "Trabzon"
+  },
+  {
+    "name": "Yıldız FM Trabzon",
+    "url": "https://www.canlitvtr.app/radyo/yildizfmtrabzon",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yildizfm.80.yayin.com.tr/;stream.mp3",
+    "province": "Trabzon"
+  },
+  {
+    "name": "Tunceli Radyo Barış",
+    "url": "https://www.canlitvtr.app/radyo/tunceliradyobaris",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net/8510/stream/;stream.mp3",
+    "province": "Tunceli"
+  },
+  {
+    "name": "Keyf Radyo",
+    "url": "https://www.canlitvtr.app/radyo/keyfradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyokeyf.com.tr/uploads/mp3/track_698467692df5a.mp3",
+    "province": "Uşak"
+  },
+  {
+    "name": "Özlem FM",
+    "url": "https://www.canlitvtr.app/radyo/ozlemfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "http://streamtr.turkiyeradyolari.com:15124/stream",
+    "province": "Uşak"
+  },
+  {
+    "name": "Özlem Fm Uşak",
+    "url": "https://www.canlitvtr.app/radyo/ozlemfmusak",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/ozlemfm/stream?/;stream.mp3",
+    "province": "Uşak"
+  },
+  {
+    "name": "Radyo Sevtek",
+    "url": "https://www.canlitvtr.app/radyo/radyosevtek",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sevtekfm.ozelip.com:8020/stream",
+    "province": "Uşak"
+  },
+  {
+    "name": "Uğur FM",
+    "url": "https://www.canlitvtr.app/radyo/ugurfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:4256/;",
+    "province": "Uşak"
+  },
+  {
+    "name": "Uşak Ses FM",
+    "url": "https://www.canlitvtr.app/radyo/usaksesfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://yayin.sesfm.com.tr/sesfm/stream?icy=http/;stream.mp3",
+    "province": "Uşak"
+  },
+  {
+    "name": "İlaç FM",
+    "url": "https://www.canlitvtr.app/radyo/ilacfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8160/stream",
+    "province": "Van"
+  },
+  {
+    "name": "İlaç Radyo",
+    "url": "https://www.canlitvtr.app/radyo/ilacradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://ilacgibiradyo.ozelip.com/9798/stream?/;stream.mp3",
+    "province": "Van"
+  },
+  {
+    "name": "Radyo Tamara",
+    "url": "https://www.canlitvtr.app/radyo/radyotamara",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8080/stream",
+    "province": "Van"
+  },
+  {
+    "name": "Radyo Van",
+    "url": "https://www.canlitvtr.app/radyo/radyovan",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/8036/stream",
+    "province": "Van"
+  },
+  {
+    "name": "Tutku Radyo",
+    "url": "https://www.canlitvtr.app/radyo/tutkuradyo",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:9460/stream",
+    "province": "Van"
+  },
+  {
+    "name": "Yalova Gözde Fm",
+    "url": "https://www.canlitvtr.app/radyo/yalovagozdefm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://gozdefm.80.yayin.com.tr/;stream.mp3",
+    "province": "Yalova"
+  },
+  {
+    "name": "Eray FM",
+    "url": "https://www.canlitvtr.app/radyo/erayfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://erayfm.ozelip.com/8072/stream?/;stream.mp3",
+    "province": "Yozgat"
+  },
+  {
+    "name": "Radyo Mastika",
+    "url": "https://www.canlitvtr.app/radyo/radyomastika",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://mastika1.80.yayin.com.tr/stream?/;stream.mp3",
+    "province": "Yozgat"
+  },
+  {
+    "name": "Yozgat FM",
+    "url": "https://www.canlitvtr.app/radyo/yozgatfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sslyayin.netyayin.net:10921/stream",
+    "province": "Yozgat"
+  },
+  {
+    "name": "Devrek FM",
+    "url": "https://www.canlitvtr.app/radyo/devrekfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com:8116/stream",
+    "province": "Zonguldak"
+  },
+  {
+    "name": "Devrek Fm 93.0",
+    "url": "https://www.canlitvtr.app/radyo/devrekfm930",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://live.sinirsizhost.com.tr/8008/stream?/;stream.mp3",
+    "province": "Zonguldak"
+  },
+  {
+    "name": "Enerji FM",
+    "url": "https://www.canlitvtr.app/radyo/enerjifm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://enerjifm.80.yayin.com.tr/stream?/;stream.mp3",
+    "province": "Zonguldak"
+  },
+  {
+    "name": "Magic FM",
+    "url": "https://www.canlitvtr.app/radyo/magicfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayindakiler.com:3032/;",
+    "province": "Zonguldak"
+  },
+  {
+    "name": "Radyo Ereğli",
+    "url": "https://www.canlitvtr.app/radyo/radyoeregli",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://stream.turkiyeradyolari.com/sonixfm/stream?/;stream.mp3",
+    "province": "Zonguldak"
+  },
+  {
+    "name": "Radyo General",
+    "url": "https://www.canlitvtr.app/radyo/radyogeneral",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://anadolu.liderhost.com.tr/9342/stream?",
+    "province": "Zonguldak"
+  },
+  {
+    "name": "Radyo Kulüp Zonguldak",
+    "url": "https://www.canlitvtr.app/radyo/radyokulupzonguldak",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://radyo.yayin.com.tr:5894/;",
+    "province": "Zonguldak"
+  },
+  {
+    "name": "Zonguldak Demokrat Fm",
+    "url": "https://www.canlitvtr.app/radyo/zonguldakdemokratfm",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://sonic.dcnet.com.tr/8078/stream?",
+    "province": "Zonguldak"
+  },
+  {
+    "name": "360 Tv",
+    "url": "https://www.canlitvtr.app/radyo/360tv",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://turkmedya-live.ercdn.net/tv360/tv360.m3u8"
+  },
+  {
+    "name": "Beyaz TV HD",
+    "url": "https://www.canlitvtr.app/radyo/beyaztvhd",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8"
+  },
+  {
+    "name": "CGTN Documentary",
+    "url": "https://www.canlitvtr.app/radyo/cgtndocumentary",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://live-stream.cgtn.com/event-live/CGTN_1_1NAzByztAaY/index.m3u8"
+  },
+  {
+    "name": "Disney Jr. HD",
+    "url": "https://www.canlitvtr.app/radyo/disneyjrhd",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://saran-live.ercdn.net/disneyjunior/index.m3u8"
+  },
+  {
+    "name": "DMAX HD  (Tokenli)",
+    "url": "https://www.canlitvtr.app/radyo/dmaxhdtokenli",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://dogus.daioncdn.net/dmax/dmax_720p.m3u8?token=dnRaM0l5SC9ZOVFQRXhrbU1uazNmRDlXcFRxWDZtcFk1emNGS2EwVVU2RT0=&sid=8jlcixu8evne&app=5a02c599-d17e-4982-9b04-090934d51af7&ce=3"
+  },
+  {
+    "name": "Es Tv Sd",
+    "url": "https://www.canlitvtr.app/radyo/estvsd",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://live.artidijitalmedya.com/artidijital_estv/estv/chunks.m3u8?hash=bb54a2f4e9342864cc1346c11f20b2e9"
+  },
+  {
+    "name": "Euro D HD",
+    "url": "https://www.canlitvtr.app/radyo/eurodhd",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8"
+  },
+  {
+    "name": "Film Screen İnternational",
+    "url": "https://www.canlitvtr.app/radyo/filmscreeninternational",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://edge-e3.evrideo.tv/f2dcbecf-5af0-47db-a82e-032112050a23_1000027346_HLS/manifest.m3u8"
+  },
+  {
+    "name": "Sağlık Channel",
+    "url": "https://www.canlitvtr.app/radyo/saglikchannel",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://live.euromediacenter.com/saglikchannel/tracks-v1a1/mono.m3u8"
+  },
+  {
+    "name": "Tbmm Tv Hd",
+    "url": "https://www.canlitvtr.app/radyo/tbmmtvhd",
+    "category": "Radyo Yerel",
+    "streamUrl": "https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8"
+  },
+  {
+    "name": "Diyanet Radyo",
+    "url": "https://www.canlitvtr.app/radyo/diyanetradyo",
+    "category": "Radyo Dini",
+    "streamUrl": "https://eustr76.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3c1171d7d2a.smil/playlist.m3u8"
   }
 ]
