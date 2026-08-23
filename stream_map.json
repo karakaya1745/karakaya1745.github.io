@@ -1,5 +1,5 @@
 {
-  "_revision": 128,
+  "_revision": 129,
   "360tv": [
     "https://turkmedya-live.ercdn.net/tv360/tv360.m3u8"
   ],
@@ -399,9 +399,6 @@
     "https://streams.uzunmuhalefet.com/stream/99d052f1-9bdc-4fc2-ba48-2db6d9c99b8c.m3u8",
     "https://metvvavmetv.64fetih.workers.dev/?ID=42666830256873dd1e7fac",
     "http://cdn.vizitv.workers.dev/48.m3u8"
-  ],
-  "duyuru": [
-    "https://karakaya1745.github.io/guncelleme_duyuru.m3u8"
   ],
   "edessatv": [
     "https://vavoo.biz-az.workers.dev/play/215449252887e52acd6803",
