@@ -300,12 +300,6 @@
     "streamUrl": "https://cdn-telenews.yayin.com.tr/telenews/index.m3u8"
   },
   {
-    "name": "Yeni Cag TV",
-    "url": "https://live.euromediacenter.com/yenicagtv/tracks-v1a1/mono.m3u8",
-    "category": "Haber",
-    "streamUrl": "https://live.euromediacenter.com/yenicagtv/tracks-v1a1/mono.m3u8"
-  },
-  {
     "name": "Akit TV",
     "url": "https://www.akittv.com.tr/",
     "category": "Haber",
@@ -617,6 +611,12 @@
     "category": "Kamu",
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/10407066957b9356f79511"
   },
+   {
+    "name": "TRT Genç",
+    "url": "https://www.trtizle.com/canli/tv/trt-genc",
+    "category": "Kamu",
+    "streamUrl": "https://tv-trtgenc.medya.trt.com.tr/master.m3u8"
+  },
   {
     "name": "TRT 4K",
     "url": "https://vavo.sayezec.workers.dev/ID=3317656516b0224418b6a8",
@@ -694,18 +694,24 @@
     "url": "https://cemtv.com.tr/canli-yayin",
     "category": "Haber",
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/145648263137480837677c"
-  },
+  },  
   {
-    "name": "Flash TV",
-    "url": "https://flashhaber-live.ercdn.net/flashhaber/flashhaber_720p.m3u8",
+    "name": "KANALURFA",
+    "url": "https://www.fmtv.com.tr/",
     "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/20273310967517aba18b29"
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/5fd4b2d6-0201-4036-9c3b-8682271444f5.ts"
   },
   {
     "name": "Kanal 24",
     "url": "https://vavo.sayezec.workers.dev/ID=4179564147cef11bb1db33",
     "category": "Ulusal",
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/4179564147cef11bb1db33"
+  },
+  {
+    "name": "Türkmeneli TV",
+    "url": "https://www.turkmenelitv.com/",
+    "category": "Ulusal",
+    "streamUrl": "http://line.moja-teve9.me:80/play/live.php?mac=00:1A:79:0E:4F:73&stream=912441&extension=ts&play_token=DJ6bncmjsD"
   },
   {
     "name": "Köy TV",
