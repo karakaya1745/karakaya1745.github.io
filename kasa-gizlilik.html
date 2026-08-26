@@ -35,46 +35,56 @@
 </head>
 <body>
   <h1>KASA — Gizlilik Politikası</h1>
-  <p class="meta">Uygulama: KASA (com.kalanparam.app) · Son güncelleme: 19 Haziran 2026</p>
+  <p class="meta">Uygulama: KASA (com.kalanparam.app) · Son güncelleme: 26 Ağustos 2026</p>
 
-  <p><strong>KASA</strong>, kişisel bütçe ve harcama takibi için tasarlanmış bir mobil uygulamadır.
-  Gelir, gider ve hatırlatıcı kayıtlarınız <strong>öncelikle cihazınızda</strong>, çevrimdışı uyumlu
-  bir SQLite veritabanında (<code>kalan_param.db</code>) saklanır. Tercihler yerel
-  <code>SharedPreferences</code> içindedir.</p>
+  <p><strong>KASA</strong>, kişisel bütçe ve harcama takibi için tasarlanmış bir uygulamadır
+  (Android ve Windows). Misafir (girişsiz) kullanım yoktur; uygulama hesabı zorunludur.</p>
 
-  <h2>Topladığımız veri</h2>
+  <h2>Hesap</h2>
   <ul>
-    <li><strong>Hesap veya profil toplamıyoruz;</strong> geliştirici tarafında bütçe verisi sunucusu yoktur.</li>
-    <li>Bütçe kayıtlarınız yalnızca sizin oluşturduğunuz işlem ve hatırlatıcı verilerinden oluşur;
-        bunlar <strong>bizim sunucularımıza gönderilmez</strong>.</li>
+    <li>E-posta ve parola ile hesap oluşturmanız ve giriş yapmanız gerekir.</li>
+    <li>Parola sıfırlama: e-posta adresinize gönderilen <strong>6 haneli kod</strong> ile yapılır
+        (e-posta gönderimi <a href="https://resend.com/legal/privacy-policy">Resend</a> üzerinden).</li>
   </ul>
+
+  <h2>Finansal veriler</h2>
+  <p>Gelir, gider ve hatırlatıcı kayıtlarınız <strong>cihazınızda</strong> (yerel SQLite /
+  uygulama depolaması) saklanır. Bulut senkronizasyonu planlanmaktadır; etkinleştirildiğinde
+  veriler <code>api.policetakibi.com.tr/kasa</code> API'si üzerinden hesabınıza bağlanarak
+  işlenebilir. Şu an için bütçe kayıtlarınız reklam veya üçüncü taraf pazarlama amacıyla
+  gönderilmez.</p>
+
+  <h2>Pro abonelik ve cihazlar arası yetki</h2>
+  <p>Pro (aylık / yıllık / ömür boyu) satın alma hakkı, Android ve Windows arasında
+  hesabınız üzerinden senkronize edilebilir. Bu amaçla
+  <code>api.policetakibi.com.tr/kasa</code> API'sine hesap ve yetkilendirme bilgileri
+  iletilebilir. Ödemeler Google Play Billing veya Microsoft Store IAP üzerinden yapılır;
+  kart bilgileriniz KASA tarafından saklanmaz.</p>
 
   <h2>SMS okuma (Android, isteğe bağlı — Pro)</h2>
   <p>Banka ve fatura SMS'lerinden gider önerisi sunmak için <code>READ_SMS</code> izni istenebilir.
-  Bu özellik tamamen isteğe bağlıdır; açmadan uygulamayı kullanabilirsiniz.</p>
+  Bu özellik tamamen isteğe bağlıdır.</p>
   <ul>
     <li>SMS metinleri <strong>yalnızca cihazınızda</strong> okunur ve işlenir; sunucuya gönderilmez.</li>
     <li>Yalnızca <strong>siz onayladığınız</strong> öneriler gider olarak kaydedilir.</li>
-    <li>İzin vermeden önce uygulama içinde açıklayıcı bir bilgilendirme ekranı gösterilir.</li>
   </ul>
 
-  <h2>Reklam — Google AdMob</h2>
-  <p>Uygulama <strong>Google Mobile Ads (AdMob)</strong> SDK'sını içerir. Reklamlar etkinleştirildiğinde
-  Google sunucularıyla ağ üzerinden iletişim kurulabilir. Bu kapsamda Google; reklam kimliği, IP adresi
-  ve cihaz/uygulama bağlamı gibi bilgileri
-  <a href="https://policies.google.com/technologies/ads">Google reklam politikalarına</a> uygun işleyebilir.
-  Bütçe verileriniz reklam amacıyla sunucumuza gönderilmez.</p>
+  <h2>Reklam — Google AdMob (Android)</h2>
+  <p>Android sürümü <strong>Google Mobile Ads (AdMob)</strong> SDK'sını içerebilir. Reklamlar
+  etkinleştirildiğinde Google; reklam kimliği, IP adresi ve cihaz/uygulama bağlamı gibi bilgileri
+  <a href="https://policies.google.com/technologies/ads">Google reklam politikalarına</a> uygun
+  işleyebilir. Bütçe verileriniz reklam amacıyla gönderilmez.</p>
 
-  <h2>İzinler</h2>
+  <h2>İzinler (Android)</h2>
   <table>
     <thead><tr><th>İzin</th><th>Amaç</th></tr></thead>
     <tbody>
-      <tr><td><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code></td><td>AdMob reklam yükleme; isteğe bağlı Google Drive yedekleme.</td></tr>
+      <tr><td><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code></td><td>Hesap / Pro senkronizasyonu, AdMob, isteğe bağlı yedekleme.</td></tr>
       <tr><td><code>POST_NOTIFICATIONS</code></td><td>Android 13+ hatırlatıcı bildirimleri.</td></tr>
       <tr><td><code>RECEIVE_BOOT_COMPLETED</code></td><td>Cihaz yeniden başladığında hatırlatıcıları yeniden zamanlama.</td></tr>
       <tr><td><code>VIBRATE</code></td><td>Bildirim titreşimi.</td></tr>
-      <tr><td><code>CAMERA</code></td><td>Fiş fotoğrafından metin okuma (OCR); yalnızca siz fiş taramayı başlattığınızda.</td></tr>
-      <tr><td><code>READ_SMS</code></td><td>İsteğe bağlı banka/fatura SMS'lerinden gider önerisi (Android, Pro).</td></tr>
+      <tr><td><code>CAMERA</code></td><td>Fiş fotoğrafından metin okuma (OCR); yalnızca siz başlattığınızda.</td></tr>
+      <tr><td><code>READ_SMS</code></td><td>İsteğe bağlı banka/fatura SMS'lerinden gider önerisi (Pro).</td></tr>
       <tr><td><code>USE_BIOMETRIC</code></td><td>İsteğe bağlı uygulama kilidi (parmak izi / yüz tanıma).</td></tr>
     </tbody>
   </table>
@@ -82,7 +92,7 @@
 
   <h2>Yedekleme ve dışa aktarma</h2>
   <p>JSON yedek alma, geri yükleme ve dışa aktarma yalnızca <strong>sizin başlattığınız</strong>
-  işlemlerle yapılır. Dosya seçtiğiniz konuma veya paylaşım hedefine iletilir.</p>
+  işlemlerle yapılır.</p>
 
   <h2>Çocuklar</h2>
   <p>Uygulama 13 yaş altına yönelik değildir.</p>
@@ -93,24 +103,37 @@
   <hr>
 
   <h1>KASA — Privacy Policy (English)</h1>
-  <p class="meta">App: KASA (com.kalanparam.app) · Last updated: June 19, 2026</p>
+  <p class="meta">App: KASA (com.kalanparam.app) · Last updated: August 26, 2026</p>
 
-  <p><strong>KASA</strong> is a personal budget and expense tracking app. Your income, expense, and
-  reminder records are stored <strong>primarily on your device</strong> in a local SQLite database
-  (<code>kalan_param.db</code>). We do not operate a backend that stores your budget data.</p>
+  <p><strong>KASA</strong> is a personal budget and expense tracking app (Android and Windows).
+  There is no guest mode; an account is required.</p>
+
+  <h2>Account</h2>
+  <ul>
+    <li>You must sign up and sign in with email and password.</li>
+    <li>Password reset uses a <strong>6-digit code</strong> emailed via
+        <a href="https://resend.com/legal/privacy-policy">Resend</a>.</li>
+  </ul>
+
+  <h2>Financial data</h2>
+  <p>Income, expense, and reminder records are stored <strong>on your device</strong>.
+  Cloud sync is planned; when enabled, data may be processed via the
+  <code>api.policetakibi.com.tr/kasa</code> API linked to your account. Budget entries are not
+  sent for advertising.</p>
+
+  <h2>Pro entitlement</h2>
+  <p>Pro purchases (monthly / yearly / lifetime) can sync between Android and Windows via your
+  account and the <code>api.policetakibi.com.tr/kasa</code> API. Payments go through Google Play
+  Billing or Microsoft Store IAP; KASA does not store your card details.</p>
 
   <h2>SMS (Android, optional — Pro)</h2>
-  <p>With your consent, KASA may read bank and bill SMS on-device to suggest expenses
-  (<code>READ_SMS</code>). SMS text is never sent to our servers; only suggestions you approve are saved.</p>
+  <p>With consent, KASA may read bank/bill SMS on-device to suggest expenses. SMS text is not
+  sent to our servers; only suggestions you approve are saved.</p>
 
-  <h2>Ads — Google AdMob</h2>
-  <p>The app includes Google Mobile Ads. When ads are enabled, Google may process advertising-related
-  data under <a href="https://policies.google.com/technologies/ads">Google's policies</a>.
-  Your budget entries are not uploaded to us for advertising.</p>
-
-  <h2>Permissions</h2>
-  <p>Notifications (reminders), camera (receipt OCR), optional SMS suggestions, and optional biometric
-  app lock. Gallery access uses the system photo picker without broad media permissions.</p>
+  <h2>Ads — Google AdMob (Android)</h2>
+  <p>The Android app may include Google Mobile Ads. When ads are enabled, Google may process
+  advertising-related data under
+  <a href="https://policies.google.com/technologies/ads">Google's policies</a>.</p>
 
   <h2>Contact</h2>
   <p>Questions: <a href="mailto:karakaya1745@gmail.com">karakaya1745@gmail.com</a></p>
