@@ -136,6 +136,11 @@
     "https://trkvz-radyolar.ercdn.net/asporradyo/playlist.m3u8"
   ],
   "atv": [
+    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/c71b4e75-87a1-4048-a388-2f7fc5e5c07b.ts",
+    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/8f46cd5d-e996-4ba3-a71c-198480f5e288.ts",
+    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/eb8806ac-ebbf-43c3-a874-afd02b6a814e.ts",
+    "http://line.moja-teve9.me:80/play/live.php?mac=00:1A:79:0E:4F:73&stream=912479&extension=ts&play_token=e3cQ9hAIcv",
+    "http://line.moja-teve9.me:80/play/live.php?mac=00:1A:79:0E:4F:73&stream=912455&extension=ts&play_token=xWS0mOGk20",
     "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8",
     "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8",
     "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_480p.m3u8",
