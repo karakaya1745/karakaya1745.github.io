@@ -97,9 +97,9 @@
   },
   {
     "name": "TV100",
-    "url": "https://www.tv100.com/canli-yayin",
+    "url": "https://trn03.tulix.tv/gt-tv100/index.m3u8?token=05b1b410ee3298d97024d804e45515ea",
     "category": "Ulusal",
-    "streamUrl": "http://line.moja-teve9.me:80/play/live.php?mac=00:1A:79:0E:4F:73&stream=912912&extension=ts&play_token=QFbNJMocQs"
+    "streamUrl": "https://trn03.tulix.tv/gt-tv100/index.m3u8?token=05b1b410ee3298d97024d804e45515ea"
   },
   {
     "name": "TYT Türk",
