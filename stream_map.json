@@ -2571,6 +2571,7 @@
     "https://vavoo.biz-az.workers.dev/play/49546714e7d5a6308f93"
   ],
   "tv42": [
+    "https://canli.tv42.com.tr/memfs/d936e417-c4bd-4d42-89a2-02f289892d1d.m3u8",
     "https://vavo.sayezec.workers.dev/ID=9760498644cca0d67323e",
     "https://vavoo.biz-az.workers.dev/play/9760498644cca0d67323e"
   ],
@@ -4968,5 +4969,23 @@
     "http://me.mdmfista.com/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
     "http://line.tivi-one.net/play/live.php?mac=00:1A:79:5D:91:44&stream=197411&extension=ts&play_token=6Vh9e7AwnI"
   ],
-  "_revision": 148
+  "_revision": 149,
+  "luystv": [
+    "https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8"
+  ],
+  "metropoltv": [
+    "https://edge1.socialsmart.tv/metropoltv/smil/metropoltv/bant1/chunks.m3u8?app=supersatforum"
+  ],
+  "mekketvcanli": [
+    "https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8"
+  ],
+  "medinetv": [
+    "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/saudi_sunnah-avc1_600000=2-mp4a_145600_ara=3.m3u8"
+  ],
+  "semarkandtv": [
+    "https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8"
+  ],
+  "mukabeletv": [
+    "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/mukabele-tv/playlist.m3u8"
+  ]
 }

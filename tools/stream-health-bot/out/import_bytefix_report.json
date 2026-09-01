@@ -1,0 +1,190 @@
+{
+  "generatedAt": "2026-09-01T21:37:51.907Z",
+  "dryRun": false,
+  "m3uPath": "D:\\PROJELER\\karakaya1745.github.io\\tools\\stream-health-bot\\local-sources\\ByteFixRepairs2026.m3u",
+  "m3uEntryCount": 172,
+  "acceptedCount": 150,
+  "skipped": [
+    {
+      "title": "Tabii TV",
+      "group": "Film",
+      "reason": "sifreli/gecersiz URL"
+    },
+    {
+      "title": "Film Screen HD",
+      "group": "Film",
+      "reason": "Film Screen hariç"
+    },
+    {
+      "title": "Cinex TV",
+      "group": "Film",
+      "reason": "Cinex hariç"
+    },
+    {
+      "title": "Dizi TV",
+      "group": "Film",
+      "reason": "Dizi TV hariç"
+    },
+    {
+      "title": "SDM Sinema",
+      "group": "Film",
+      "reason": "SDM Sinema hariç"
+    },
+    {
+      "title": "S Sport",
+      "group": "Spor",
+      "reason": "S Sport hariç"
+    },
+    {
+      "title": "S Sport 2",
+      "group": "Spor",
+      "reason": "S Sport hariç"
+    },
+    {
+      "title": "Zarok TV",
+      "group": "Cocuk - Yurt Disi",
+      "reason": "Yurt Disi grubu"
+    },
+    {
+      "title": "Baby TV",
+      "group": "Cocuk - Yurt Disi",
+      "reason": "Yurt Disi grubu"
+    },
+    {
+      "title": "Persiana Turkiye",
+      "group": "Yurt Disi",
+      "reason": "Yurt Disi grubu"
+    },
+    {
+      "title": "Kanal 7 Avrupa",
+      "group": "Ulusal - Yurt Disi",
+      "reason": "Yurt Disi grubu"
+    },
+    {
+      "title": "Euro D",
+      "group": "Ulusal - Yurt Disi",
+      "reason": "Yurt Disi grubu"
+    },
+    {
+      "title": "NDR TV",
+      "group": "Yurt Disi",
+      "reason": "Yurt Disi grubu"
+    },
+    {
+      "title": "MC TV",
+      "group": "Yurt Disi",
+      "reason": "Yurt Disi grubu"
+    },
+    {
+      "title": "Tagesschau TV",
+      "group": "Yurt Disi",
+      "reason": "Yurt Disi grubu"
+    },
+    {
+      "title": "Almahriah TV",
+      "group": "Yurt Disi",
+      "reason": "Yurt Disi grubu"
+    },
+    {
+      "title": "Mekameleen TV",
+      "group": "Yurt Disi",
+      "reason": "Yurt Disi grubu"
+    },
+    {
+      "title": "Elsharq TV",
+      "group": "Yurt Disi",
+      "reason": "Yurt Disi grubu"
+    },
+    {
+      "title": "Syria TV",
+      "group": "Yurt Disi",
+      "reason": "Yurt Disi grubu"
+    },
+    {
+      "title": "TRT Arabi",
+      "group": "Yurt Disi",
+      "reason": "Yurt Disi grubu"
+    },
+    {
+      "title": "TRT World",
+      "group": "Yurt Disi",
+      "reason": "Yurt Disi grubu"
+    },
+    {
+      "title": "4U TV",
+      "group": "Yurt Disi",
+      "reason": "Yurt Disi grubu"
+    }
+  ],
+  "newChannels": [
+    {
+      "name": "Luys TV",
+      "key": "luystv",
+      "category": "Kultur",
+      "urlCount": 1,
+      "urls": [
+        "https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8"
+      ]
+    },
+    {
+      "name": "Metropol TV",
+      "key": "metropoltv",
+      "category": "Kultur",
+      "urlCount": 1,
+      "urls": [
+        "https://edge1.socialsmart.tv/metropoltv/smil/metropoltv/bant1/chunks.m3u8?app=supersatforum"
+      ]
+    },
+    {
+      "name": "Mekke TV Canli",
+      "key": "mekketvcanli",
+      "category": "Dini",
+      "urlCount": 1,
+      "urls": [
+        "https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8"
+      ]
+    },
+    {
+      "name": "Medine TV",
+      "key": "medinetv",
+      "category": "Dini",
+      "urlCount": 1,
+      "urls": [
+        "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/saudi_sunnah-avc1_600000=2-mp4a_145600_ara=3.m3u8"
+      ]
+    },
+    {
+      "name": "Semarkand TV",
+      "key": "semarkandtv",
+      "category": "Dini",
+      "urlCount": 1,
+      "urls": [
+        "https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8"
+      ]
+    },
+    {
+      "name": "Mukabele TV",
+      "key": "mukabeletv",
+      "category": "Dini",
+      "urlCount": 1,
+      "urls": [
+        "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/mukabele-tv/playlist.m3u8"
+      ]
+    }
+  ],
+  "enrichedChannels": [
+    {
+      "key": "tv42",
+      "name": "TV 42",
+      "added": 1,
+      "urls": [
+        "https://canli.tv42.com.tr/memfs/d936e417-c4bd-4d42-89a2-02f289892d1d.m3u8"
+      ],
+      "total": 3
+    }
+  ],
+  "totalNewUrls": 7,
+  "streamMapRevision": 149,
+  "newChannelCount": 6,
+  "enrichedChannelCount": 1
+}

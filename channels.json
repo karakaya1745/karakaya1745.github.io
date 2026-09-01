@@ -6824,5 +6824,41 @@
     "url": "https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8",
     "category": "Ulusal",
     "streamUrl": "https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8"
+  },
+  {
+    "name": "Luys TV",
+    "url": "",
+    "category": "Kultur",
+    "streamUrl": "https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8"
+  },
+  {
+    "name": "Metropol TV",
+    "url": "",
+    "category": "Kultur",
+    "streamUrl": "https://edge1.socialsmart.tv/metropoltv/smil/metropoltv/bant1/chunks.m3u8?app=supersatforum"
+  },
+  {
+    "name": "Mekke TV Canli",
+    "url": "",
+    "category": "Dini",
+    "streamUrl": "https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8"
+  },
+  {
+    "name": "Medine TV",
+    "url": "",
+    "category": "Dini",
+    "streamUrl": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/saudi_sunnah-avc1_600000=2-mp4a_145600_ara=3.m3u8"
+  },
+  {
+    "name": "Semarkand TV",
+    "url": "",
+    "category": "Dini",
+    "streamUrl": "https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8"
+  },
+  {
+    "name": "Mukabele TV",
+    "url": "",
+    "category": "Dini",
+    "streamUrl": "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/mukabele-tv/playlist.m3u8"
   }
 ]

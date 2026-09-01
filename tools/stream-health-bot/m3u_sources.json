@@ -114,6 +114,11 @@
       "priority": 4
     },
     {
+      "id": "local-bytefix-2026",
+      "localFallback": "tools/stream-health-bot/local-sources/ByteFixRepairs2026.m3u",
+      "priority": 2
+    },
+    {
       "id": "local-270506",
       "localFallback": "tools/stream-health-bot/local-sources/tr-tv1-270506.m3u",
       "priority": 2
