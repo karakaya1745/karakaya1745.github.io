@@ -61,7 +61,7 @@
       "name": "Tek Rumeli TV",
       "category": "Ulusal",
       "url": "https://www.tekrumelitv.com/",
-      "aliases": ["tekrumelitv", "rumelitv"]
+      "aliases": ["tekrumelitv"]
     },
     {
       "name": "HRT Akdeniz TV",
@@ -84,8 +84,8 @@
     {
       "name": "TV 2020",
       "category": "Ulusal",
-      "url": "http://kuzeykibris.tv/",
-      "aliases": ["tv2020", "kuzeykibris"]
+      "url": "https://www.tv2020.com.tr/",
+      "aliases": ["tv2020"]
     },
     {
       "name": "Kanal B",

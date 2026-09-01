@@ -6784,33 +6784,9 @@
     "streamUrl": "https://eustr76.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3c1171d7d2a.smil/playlist.m3u8"
   },
   {
-    "name": "Tek Rumeli TV",
-    "url": "https://www.tekrumelitv.com/",
-    "category": "Ulusal",
-    "streamUrl": "https://rumelitv-live.ercdn.net/rumelitv/rumelitv.m3u8"
-  },
-  {
-    "name": "Rumeli TV",
-    "url": "https://www.rumelitv.com.tr/",
-    "category": "Ulusal",
-    "streamUrl": "https://rumelitv-live.ercdn.net/rumelitv/rumelitv.m3u8"
-  },
-  {
     "name": "Kocaeli TV",
     "url": "https://www.kocaelitv.com.tr/",
     "category": "Ulusal",
     "streamUrl": "https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8"
-  },
-  {
-    "name": "Space Toon",
-    "url": "https://www.spacetoon.com/",
-    "category": "Cocuk",
-    "streamUrl": "https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8"
-  },
-  {
-    "name": "TV 2020",
-    "url": "http://kuzeykibris.tv/",
-    "category": "Ulusal",
-    "streamUrl": "https://sc-kuzeykibrissmarttv.ercdn.net/tv2020/bantp1/playlist.m3u8"
   }
 ]

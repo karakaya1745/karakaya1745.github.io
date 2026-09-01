@@ -1,5 +1,5 @@
 {
-  "_revision": 134,
+  "_revision": 135,
   "360tv": [
     "https://turkmedya-live.ercdn.net/tv360/tv360.m3u8"
   ],
@@ -4364,20 +4364,7 @@
   "enerjislow1062kktc": [
     "https://live.enerjiplay.com/stream/enerjislow?/;stream.mp3"
   ],
-  "tekrumelitv": [
-    "https://rumelitv-live.ercdn.net/rumelitv/rumelitv.m3u8"
-  ],
-  "rumelitv": [
-    "https://rumelitv-live.ercdn.net/rumelitv/rumelitv.m3u8"
-  ],
   "kocaelitv": [
     "https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8"
-  ],
-  "spacetoon": [
-    "https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8",
-    "https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8"
-  ],
-  "tv2020": [
-    "https://sc-kuzeykibrissmarttv.ercdn.net/tv2020/bantp1/playlist.m3u8"
   ]
 }

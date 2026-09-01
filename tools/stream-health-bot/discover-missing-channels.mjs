@@ -24,7 +24,6 @@ import {
   PROBE_CONCURRENCY,
   atomicWriteJson,
   backupFiles,
-  checkUrlLive,
   fetchText,
   loadM3uSourceText,
   isRiskyStreamUrl,
@@ -34,9 +33,11 @@ import {
   normalizeChannelKey,
   parseM3U,
   pooledMap,
+  probeChannelPlayback,
   resolveM3uKey,
   shouldSkipM3uUrl,
   sortUrlsByQuality,
+  titleFuzzyMatchesChannelName,
   toUrlArray,
   uniqueUrls,
 } from "./lib.mjs";
@@ -172,8 +173,9 @@ function buildM3uIndex(m3uEntries) {
 const FALSE_POSITIVE_TITLE = /\(romania\)|\(azerbaijan\)|\(az\)|\(de\)|\(uk\)|\(us\)/i;
 
 function isRelevantCandidate(entry, candidate) {
-  const title = candidate.title || "";
+  const title = candidate.rawTitle || candidate.title || "";
   if (FALSE_POSITIVE_TITLE.test(title)) return false;
+  if (!titleFuzzyMatchesChannelName(entry.name, title)) return false;
   const nameKey = normalizeChannelKey(entry.name);
   const titleKey = normalizeChannelKey(title);
   if (titleKey === nameKey) return true;
@@ -235,40 +237,33 @@ function pickCandidateUrls(candidates) {
 }
 
 async function probeUrls(urls) {
-  if (skipProbe) return urls.map((url) => ({ url, live: true }));
+  if (skipProbe) return urls.map((url) => ({ url, live: true, reason: "skipped" }));
   return pooledMap(urls, PROBE_CONCURRENCY, async (url) => {
-    if (isTrustedCdnUrl(url)) return { url, live: true };
-    const live = await checkUrlLive(url);
-    return { url, live };
+    const result = await probeChannelPlayback(url);
+    return { url, live: result.live, reason: result.reason, status: result.status };
   });
 }
 
 async function discoverWorkingUrls(entry, m3uIndex, m3uEntries) {
   const candidates = findM3uCandidates(entry, m3uIndex, m3uEntries);
-  if (!candidates.length) return { urls: [], candidates: 0, resolvedKey: null };
+  if (!candidates.length) return { urls: [], candidates: 0, resolvedKey: null, probeResults: [] };
 
   const toProbe = pickCandidateUrls(candidates);
-  const results = await probeUrls(toProbe);
-  const live = sortUrlsByQuality(results.filter((r) => r.live).map((r) => r.url));
+  const probeResults = await probeUrls(toProbe);
+  const live = sortUrlsByQuality(probeResults.filter((r) => r.live).map((r) => r.url));
 
   const trustedLive = live.filter(isTrustedCdnUrl);
   const safeLive = live.filter((u) => !isRiskyStreamUrl(u));
   const riskyLive = live.filter(isRiskyStreamUrl);
 
-  let urls = uniqueUrls([...trustedLive, ...safeLive, ...riskyLive]).slice(0, MAX_URLS_PER_NEW_CHANNEL);
-
-  if (!urls.length && candidates.some((c) => isTrustedCdnUrl(c.url))) {
-    urls = sortUrlsByQuality(
-      candidates.filter((c) => isTrustedCdnUrl(c.url)).map((c) => c.url),
-    ).slice(0, MAX_URLS_PER_NEW_CHANNEL);
-  }
+  const urls = uniqueUrls([...trustedLive, ...safeLive, ...riskyLive]).slice(0, MAX_URLS_PER_NEW_CHANNEL);
 
   const resolvedKey =
     entry.key ||
     candidates.find((c) => resolveSearchKeys(entry).includes(c.key))?.key ||
     normalizeChannelKey(entry.name);
 
-  return { urls, candidates: candidates.length, resolvedKey };
+  return { urls, candidates: candidates.length, resolvedKey, probeResults };
 }
 
 function validateBeforeWrite(streamMapObj, channelsArr, prevChannelCount, prevMapKeys) {
@@ -323,11 +318,15 @@ async function main() {
   const addedNames = [];
 
   for (const entry of pending) {
-    const { urls, candidates, resolvedKey } = await discoverWorkingUrls(entry, m3uIndex, m3uEntries);
+    const { urls, candidates, resolvedKey, probeResults } = await discoverWorkingUrls(
+      entry,
+      m3uIndex,
+      m3uEntries,
+    );
 
     if (!urls.length) {
-      report.notFound.push({ name: entry.name, candidates });
-      log(`YOK   ${entry.name} (M3U aday: ${candidates})`);
+      report.notFound.push({ name: entry.name, candidates, probeResults });
+      log(`YOK   ${entry.name} (M3U aday: ${candidates}, probe: ${probeResults.length})`);
       continue;
     }
 
@@ -356,6 +355,7 @@ async function main() {
       key: mapKey,
       urls,
       m3uCandidates: candidates,
+      probeResults,
     });
     log(`+EKLE ${entry.name} key=${mapKey} urls=${urls.length}`);
   }

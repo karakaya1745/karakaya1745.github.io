@@ -14,7 +14,7 @@ export const MAX_M3U_CANDIDATES_PROBE = 6;
 export const MIN_STREAM_MAP_KEYS = 50;
 export const MIN_CHANNELS_COUNT = 100;
 
-/** Probe gerektirmeden M3U'dan eklenebilir güvenilir yayın hostları */
+/** M3U aday sıralaması için güvenilir CDN hostları (probe atlanmaz) */
 export const TRUSTED_STREAM_HOSTS = [
   "ercdn.net",
   "daioncdn.net",
@@ -165,8 +165,57 @@ export function isPlayableUrl(url) {
   );
 }
 
-export async function checkUrlLive(url, timeoutMs = PROBE_TIMEOUT_MS) {
-  if (!isPlayableUrl(url)) return false;
+const TITLE_STOP_WORDS = new Set(["tv", "kanal", "hd", "fhd", "tr", "ulusal"]);
+
+function significantTitleTokens(text) {
+  return cleanM3uTitle(text)
+    .toLowerCase()
+    .split(/\s+/)
+    .map((part) => normalizeChannelKey(part))
+    .filter((token) => token.length >= 2 && !TITLE_STOP_WORDS.has(token));
+}
+
+/** M3U başlığı kanal adıyla anlamlı eşleşiyor mu (yanlış alias eşleşmesini engeller) */
+export function titleFuzzyMatchesChannelName(channelName, m3uTitle) {
+  const nameKey = normalizeChannelKey(channelName);
+  const titleKey = normalizeChannelKey(cleanM3uTitle(m3uTitle));
+  if (!nameKey || !titleKey) return false;
+  if (titleKey === nameKey) return true;
+
+  const nameTokens = significantTitleTokens(channelName);
+  const titleTokens = significantTitleTokens(m3uTitle);
+  if (!nameTokens.length || !titleTokens.length) return false;
+
+  const matched = nameTokens.filter((token) =>
+    titleTokens.some(
+      (other) =>
+        other === token ||
+        (token.length >= 4 && (other.includes(token) || token.includes(other))),
+    ),
+  );
+  return matched.length === nameTokens.length;
+}
+
+export function isValidHlsManifestSample(sample, contentType = "") {
+  const ct = (contentType || "").toLowerCase();
+  const low = sample.toString("utf8").toLowerCase();
+  if (low.includes("<!doctype html") || low.includes("<html")) return false;
+  if (low.includes("<smil")) return true;
+  if (low.includes("#extm3u") || low.includes("#ext-x-stream-inf") || low.includes("#ext-x-")) {
+    return true;
+  }
+  if (ct.includes("mpegurl") || ct.includes("m3u8")) {
+    return low.includes("#extm3u") || low.includes("#ext-x-");
+  }
+  return false;
+}
+
+/**
+ * Katı HLS probe — yanıtta #EXTM3U veya #EXT-X-STREAM-INF olmalı.
+ * @returns {Promise<{ live: boolean, reason: string, status?: number }>}
+ */
+export async function probeChannelPlayback(url, timeoutMs = PROBE_TIMEOUT_MS) {
+  if (!isPlayableUrl(url)) return { live: false, reason: "not-playable" };
   const ac = new AbortController();
   const tm = setTimeout(() => ac.abort(), timeoutMs);
   try {
@@ -176,20 +225,25 @@ export async function checkUrlLive(url, timeoutMs = PROBE_TIMEOUT_MS) {
       signal: ac.signal,
     });
     clearTimeout(tm);
-    if (!r.ok && r.status !== 206) return false;
+    if (!r.ok && r.status !== 206) {
+      return { live: false, reason: `http-${r.status}`, status: r.status };
+    }
     const buf = Buffer.from(await r.arrayBuffer());
     const sample = buf.subarray(0, Math.min(4096, buf.length));
-    const ct = (r.headers.get("content-type") || "").toLowerCase();
-    const low = sample.toString("utf8").toLowerCase();
-    if (ct.includes("mpegurl") || ct.includes("m3u8")) return true;
-    if (low.includes("#extm3u") || low.includes("#ext-x-")) return true;
-    if (low.includes("<smil")) return true;
-    if (low.includes("<!doctype html")) return false;
-    return sample.length > 8;
-  } catch {
+    const ct = r.headers.get("content-type") || "";
+    if (isValidHlsManifestSample(sample, ct)) {
+      return { live: true, reason: "hls-manifest", status: r.status };
+    }
+    return { live: false, reason: "not-hls-manifest", status: r.status };
+  } catch (e) {
     clearTimeout(tm);
-    return false;
+    return { live: false, reason: e?.name === "AbortError" ? "timeout" : "network-error" };
   }
+}
+
+export async function checkUrlLive(url, timeoutMs = PROBE_TIMEOUT_MS) {
+  const result = await probeChannelPlayback(url, timeoutMs);
+  return result.live;
 }
 
 export async function pooledMap(items, concurrency, worker) {

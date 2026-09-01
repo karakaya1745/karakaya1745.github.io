@@ -40,6 +40,7 @@ import {
   normalizeChannelKey,
   parseM3U,
   pooledMap,
+  probeChannelPlayback,
   resolveM3uKey,
   shouldSkipM3uUrl,
   sortUrlsByQuality,
@@ -220,16 +221,17 @@ function buildM3uIndex(m3uEntries) {
 async function probeMap(urls, state, now, networkHealthy) {
   const results = await pooledMap(urls, PROBE_CONCURRENCY, async (url) => {
     if (skipProbe) return { url, live: true };
-    const live = await checkUrlLive(url);
+    const probe = await probeChannelPlayback(url);
+    const live = probe.live;
     const prev = Number(state.urlFails[url]?.failStreak) || 0;
     if (live) {
       state.urlFails[url] = { failStreak: 0, lastOk: now };
     } else if (networkHealthy) {
-      state.urlFails[url] = { failStreak: prev + 1, lastFail: now };
+      state.urlFails[url] = { failStreak: prev + 1, lastFail: now, reason: probe.reason };
     } else {
       state.urlFails[url] = { failStreak: prev, lastFail: now, skippedIncrement: true };
     }
-    return { url, live, failStreak: state.urlFails[url].failStreak };
+    return { url, live, failStreak: state.urlFails[url].failStreak, reason: probe.reason };
   });
   return results;
 }
@@ -257,35 +259,17 @@ async function mergeChannelUrls({ key, currentUrls, m3uCandidates, probeResults,
   }
 
   let added = [];
-  const trustedFromM3u = [];
-  for (const c of m3uCandidates) {
-    if (existingSet.has(c.url)) continue;
-    if (isTrustedCdnUrl(c.url)) trustedFromM3u.push(c.url);
-  }
-  const trustedSorted = sortUrlsByQuality(uniqueUrls(trustedFromM3u)).slice(0, 4);
 
   if (newFromM3u.length && !skipProbeRun) {
     for (const url of newFromM3u.slice(0, MAX_M3U_CANDIDATES_PROBE)) {
-      if (isTrustedCdnUrl(url)) continue;
-      const ok = await checkUrlLive(url);
+      const probe = await probeChannelPlayback(url);
       const ts = new Date().toISOString();
-      if (ok) {
+      if (probe.live) {
         state.urlFails[url] = { failStreak: 0, lastOk: ts, source: "m3u" };
         added.push(url);
       } else {
-        state.urlFails[url] = { failStreak: 1, lastFail: ts, source: "m3u" };
+        state.urlFails[url] = { failStreak: 1, lastFail: ts, source: "m3u", reason: probe.reason };
       }
-    }
-  }
-
-  for (const url of trustedSorted) {
-    if (!currentUrls.includes(url) && !added.includes(url)) {
-      added.push(url);
-      state.urlFails[url] = {
-        failStreak: 0,
-        lastOk: new Date().toISOString(),
-        source: "m3u-trusted",
-      };
     }
   }
 
