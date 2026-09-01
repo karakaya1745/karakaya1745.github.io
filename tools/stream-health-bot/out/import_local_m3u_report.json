@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T12:06:05.056Z",
+  "generatedAt": "2026-09-01T14:55:45.995Z",
   "dryRun": false,
   "m3uSourceCount": 26,
   "newChannels": [],
@@ -343,7 +343,7 @@
     },
     {
       "name": "TV 8 INT",
-      "key": "trtv8int",
+      "key": "tv8international",
       "reason": "probe-failed",
       "probed": 8,
       "probeResults": [
@@ -439,7 +439,7 @@
     },
     {
       "name": "KANAL 68",
-      "key": "trkanal68",
+      "key": "kanal68",
       "reason": "probe-failed",
       "probed": 8,
       "probeResults": [
@@ -486,56 +486,8 @@
       ]
     },
     {
-      "name": "KANAL B",
-      "key": "trkanalb",
-      "reason": "probe-failed",
-      "probed": 8,
-      "probeResults": [
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197198&extension=ts&play_token=6NxyOt8ARr",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197198&extension=ts&play_token=6NxyOt8ARr",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197198&extension=ts&play_token=6NxyOt8ARr",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197198&extension=ts&play_token=6NxyOt8ARr",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197198&extension=ts&play_token=6NxyOt8ARr",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197198&extension=ts&play_token=6NxyOt8ARr",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197198&extension=ts&play_token=6NxyOt8ARr",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197198&extension=ts&play_token=6NxyOt8ARr",
-          "live": false,
-          "reason": "network-error"
-        }
-      ]
-    },
-    {
       "name": "KON TV",
-      "key": "trkontv",
+      "key": "kontv",
       "reason": "probe-failed",
       "probed": 8,
       "probeResults": [
@@ -583,7 +535,7 @@
     },
     {
       "name": "RUMELI TV",
-      "key": "trrumelitv",
+      "key": "rumelitv",
       "reason": "probe-failed",
       "probed": 8,
       "probeResults": [
@@ -950,7 +902,7 @@
     },
     {
       "name": "GRT Gaziantep",
-      "key": "grtgaziantep",
+      "key": "grt",
       "reason": "probe-failed",
       "probed": 1,
       "probeResults": [
@@ -1028,19 +980,6 @@
       ]
     },
     {
-      "name": "KANAL 68",
-      "key": "kanal68",
-      "reason": "probe-failed",
-      "probed": 1,
-      "probeResults": [
-        {
-          "url": "https://waw2.artiyerelmedya.net/kanal68/bant1/playlist.m3u8",
-          "live": false,
-          "reason": "timeout"
-        }
-      ]
-    },
-    {
       "name": "KANAL 101",
       "key": "kanal101",
       "reason": "probe-failed",
@@ -1076,19 +1015,6 @@
           "url": "https://5be5d840359c6.streamlock.net/kanalartvin/kanalartvin/chunklist.m3u8",
           "live": false,
           "reason": "network-error"
-        }
-      ]
-    },
-    {
-      "name": "KANAL B",
-      "key": "kanalb",
-      "reason": "probe-failed",
-      "probed": 1,
-      "probeResults": [
-        {
-          "url": "http://212.174.58.161/hls-live/livepkgr/_definst_/liveevent/kanalb.m3u8",
-          "live": false,
-          "reason": "timeout"
         }
       ]
     },
@@ -1172,7 +1098,7 @@
     }
   ],
   "totalNewUrls": 0,
-  "streamMapRevision": 141,
+  "streamMapRevision": 143,
   "newChannelCount": 0,
   "enrichedChannelCount": 0
 }

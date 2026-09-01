@@ -1,14 +1,88 @@
 {
-  "generatedAt": "2026-09-01T12:02:09.258Z",
+  "generatedAt": "2026-09-01T14:51:51.431Z",
   "dryRun": false,
   "sourceCount": 26,
-  "catalogChannelCount": 1014,
-  "streamMapRevisionBefore": 141,
-  "candidatesTotal": 79,
+  "catalogChannelCount": 1016,
+  "streamMapRevisionBefore": 143,
+  "candidatesTotal": 76,
   "added": [],
-  "alreadyInCatalog": 4747,
-  "skippedNotLegal": 6648,
+  "alreadyInCatalog": 4758,
+  "skippedNotLegal": 6647,
   "probeFailed": [
+    {
+      "name": "┃TR┃ KANAL 68",
+      "key": "kanal68",
+      "probed": 6,
+      "probeResults": [
+        {
+          "url": "https://waw2.artiyerelmedya.net/kanal68/bant1/playlist.m3u8",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197200&extension=ts&play_token=4eItwPJoyj",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197200&extension=ts&play_token=4eItwPJoyj",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197200&extension=ts&play_token=4eItwPJoyj",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197200&extension=ts&play_token=4eItwPJoyj",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197200&extension=ts&play_token=4eItwPJoyj",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "name": "┃TR┃ KON TV",
+      "key": "kontv",
+      "probed": 6,
+      "probeResults": [
+        {
+          "url": "https://59cba4d34b678.streamlock.net/live/kontv/chunklist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197191&extension=ts&play_token=PM2eb119cV",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197191&extension=ts&play_token=PM2eb119cV",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197191&extension=ts&play_token=PM2eb119cV",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197191&extension=ts&play_token=PM2eb119cV",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197191&extension=ts&play_token=PM2eb119cV",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
     {
       "name": "Aktif TV",
       "key": "aktiftv",
@@ -326,18 +400,6 @@
       ]
     },
     {
-      "name": "KANAL 68",
-      "key": "kanal68",
-      "probed": 1,
-      "probeResults": [
-        {
-          "url": "https://waw2.artiyerelmedya.net/kanal68/bant1/playlist.m3u8",
-          "live": false,
-          "reason": "timeout"
-        }
-      ]
-    },
-    {
       "name": "KANAL A ALANYA",
       "key": "kanalaalanya",
       "probed": 1,
@@ -392,18 +454,6 @@
       "probeResults": [
         {
           "url": "https://59cba4d34b678.streamlock.net/canlitv/kapadokyatv/chunklist.m3u8",
-          "live": false,
-          "reason": "network-error"
-        }
-      ]
-    },
-    {
-      "name": "KON TV",
-      "key": "kontv",
-      "probed": 1,
-      "probeResults": [
-        {
-          "url": "https://59cba4d34b678.streamlock.net/live/kontv/chunklist.m3u8",
           "live": false,
           "reason": "network-error"
         }
@@ -532,7 +582,7 @@
     },
     {
       "name": "Süper TV Tokat",
-      "key": "supertvtokat",
+      "key": "supertv",
       "probed": 1,
       "probeResults": [
         {
@@ -798,43 +848,6 @@
       ]
     },
     {
-      "name": "┃TR┃ KANAL 68",
-      "key": "trkanal68",
-      "probed": 6,
-      "probeResults": [
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197200&extension=ts&play_token=4eItwPJoyj",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197200&extension=ts&play_token=4eItwPJoyj",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197200&extension=ts&play_token=4eItwPJoyj",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197200&extension=ts&play_token=4eItwPJoyj",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197200&extension=ts&play_token=4eItwPJoyj",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197200&extension=ts&play_token=4eItwPJoyj",
-          "live": false,
-          "reason": "network-error"
-        }
-      ]
-    },
-    {
       "name": "┃TR┃ KANAL 7",
       "key": "trkanal7",
       "probed": 6,
@@ -903,43 +916,6 @@
         },
         {
           "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=196690&extension=ts&play_token=PndCKJQB2u",
-          "live": false,
-          "reason": "network-error"
-        }
-      ]
-    },
-    {
-      "name": "┃TR┃ KANAL B",
-      "key": "trkanalb",
-      "probed": 6,
-      "probeResults": [
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197198&extension=ts&play_token=6NxyOt8ARr",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197198&extension=ts&play_token=6NxyOt8ARr",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197198&extension=ts&play_token=6NxyOt8ARr",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197198&extension=ts&play_token=6NxyOt8ARr",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197198&extension=ts&play_token=6NxyOt8ARr",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197198&extension=ts&play_token=6NxyOt8ARr",
           "live": false,
           "reason": "network-error"
         }
@@ -1020,43 +996,6 @@
       ]
     },
     {
-      "name": "┃TR┃ KON TV",
-      "key": "trkontv",
-      "probed": 6,
-      "probeResults": [
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197191&extension=ts&play_token=PM2eb119cV",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197191&extension=ts&play_token=PM2eb119cV",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197191&extension=ts&play_token=PM2eb119cV",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197191&extension=ts&play_token=PM2eb119cV",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197191&extension=ts&play_token=PM2eb119cV",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197191&extension=ts&play_token=PM2eb119cV",
-          "live": false,
-          "reason": "network-error"
-        }
-      ]
-    },
-    {
       "name": "┃TR┃ PAMUKKALE TV",
       "key": "trpamukkaletv",
       "probed": 6,
@@ -1095,7 +1034,7 @@
     },
     {
       "name": "┃TR┃ RUMELI TV",
-      "key": "trrumelitv",
+      "key": "rumelitv",
       "probed": 6,
       "probeResults": [
         {
@@ -1243,7 +1182,7 @@
     },
     {
       "name": "┃TR┃ TV 8 INT",
-      "key": "trtv8int",
+      "key": "tv8international",
       "probed": 6,
       "probeResults": [
         {
@@ -1390,6 +1329,6 @@
   ],
   "riskySkipped": [],
   "warnings": [],
-  "streamMapRevisionAfter": 141,
+  "streamMapRevisionAfter": 143,
   "addedCount": 0
 }
