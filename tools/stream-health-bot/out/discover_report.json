@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-01T10:19:52.830Z",
+  "generatedAt": "2026-09-01T10:23:54.076Z",
   "dryRun": false,
-  "pending": 26,
+  "pending": 24,
   "skippedExists": [
     "TRT Spor 2",
+    "Space Toon",
     "Tek Rumeli TV",
+    "TV 2020",
     "Rumeli TV",
     "Kocaeli TV",
     "BRT 3"
@@ -12,25 +14,7 @@
   "skippedPaid": [
     "beIN Sports Haber"
   ],
-  "discovered": [
-    {
-      "name": "Space Toon",
-      "key": "spacetoon",
-      "urls": [
-        "https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8",
-        "https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8"
-      ],
-      "m3uCandidates": 2
-    },
-    {
-      "name": "TV 2020",
-      "key": "tv2020",
-      "urls": [
-        "https://sc-kuzeykibrissmarttv.ercdn.net/tv2020/bantp1/playlist.m3u8"
-      ],
-      "m3uCandidates": 2
-    }
-  ],
+  "discovered": [],
   "notFound": [
     {
       "name": "TV8 International",
@@ -130,10 +114,7 @@
     }
   ],
   "warnings": [],
-  "addedCount": 2,
-  "addedNames": [
-    "Space Toon",
-    "TV 2020"
-  ],
+  "addedCount": 0,
+  "addedNames": [],
   "streamMapRevision": 134
 }
