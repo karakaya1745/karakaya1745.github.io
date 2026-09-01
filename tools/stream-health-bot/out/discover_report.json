@@ -1,15 +1,14 @@
 {
-  "generatedAt": "2026-09-01T10:23:54.076Z",
+  "generatedAt": "2026-09-01T14:50:39.088Z",
   "dryRun": false,
-  "pending": 24,
+  "pending": 27,
   "skippedExists": [
     "TRT Spor 2",
+    "TRT Genç",
     "Space Toon",
-    "Tek Rumeli TV",
-    "TV 2020",
-    "Rumeli TV",
+    "Kanal B",
     "Kocaeli TV",
-    "BRT 3"
+    "Türkmeneli TV"
   ],
   "skippedPaid": [
     "beIN Sports Haber"
@@ -18,103 +17,409 @@
   "notFound": [
     {
       "name": "TV8 International",
-      "candidates": 1
+      "candidates": 2,
+      "probeResults": [
+        {
+          "url": "http://162.212.179.33/dvrfl05/gin-tv8int/index.m3u8",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "http://nimplus3.bozztv.com/tv8int/tv8int/playlist.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404
+        }
+      ]
     },
     {
       "name": "Cartoon Network",
-      "candidates": 3
+      "candidates": 14,
+      "probeResults": [
+        {
+          "url": "http://ch.canlitvlive.io/cartoonnetwork/live.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "https://tv.arectv31.sbs/live/cartoonnetwork.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "https://tv.arectv34.sbs/live/cartoonnetwork.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "https://cartoonnetwork.blutv.com/blutv_cartoonnetwork/live.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
     },
     {
       "name": "GRT",
-      "candidates": 0
+      "candidates": 1,
+      "probeResults": [
+        {
+          "url": "http://yerelmedya.tv:1935/grt/_definst_/bant1/chunklist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
     },
     {
       "name": "Kon TV",
-      "candidates": 0
+      "candidates": 11,
+      "probeResults": [
+        {
+          "url": "https://59cba4d34b678.streamlock.net/live/kontv/chunklist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197191&extension=ts&play_token=PM2eb119cV",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197191&extension=ts&play_token=PM2eb119cV",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197191&extension=ts&play_token=PM2eb119cV",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197191&extension=ts&play_token=PM2eb119cV",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197191&extension=ts&play_token=PM2eb119cV",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
     },
     {
       "name": "Ekin Türk",
-      "candidates": 0
+      "candidates": 0,
+      "probeResults": []
     },
     {
       "name": "Agro TV",
-      "candidates": 2
+      "candidates": 3,
+      "probeResults": [
+        {
+          "url": "https://yayin30.haber100.com/live/agrotv/playlist.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404
+        },
+        {
+          "url": "https://agrotv.blutv.com/blutv_agrotv/live.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "https://yayin.haber100.com/P650841340/agrotv/chuclink.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "name": "Tek Rumeli TV",
+      "candidates": 1,
+      "probeResults": [
+        {
+          "url": "https://edge1.socialsmart.tv/tekrumelitv/bant1/playlist.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404
+        }
+      ]
     },
     {
       "name": "HRT Akdeniz TV",
-      "candidates": 0
+      "candidates": 0,
+      "probeResults": []
     },
     {
       "name": "FM TV",
-      "candidates": 0
+      "candidates": 0,
+      "probeResults": []
     },
     {
       "name": "Kadirga TV",
-      "candidates": 0
+      "candidates": 0,
+      "probeResults": []
     },
     {
-      "name": "Kanal B",
-      "candidates": 2
+      "name": "TV 2020",
+      "candidates": 3,
+      "probeResults": [
+        {
+          "url": "https://sc-kuzeykibrissmarttv.ercdn.net/tv2020/bantp1/playlist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "https://spor.kuzeykibris.tv/m3u8/tv_2020.m3u8",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "http://kuzeykibris.tv/m3u8/tv_dialog.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404
+        }
+      ]
     },
     {
       "name": "Gonca TV",
-      "candidates": 0
+      "candidates": 1,
+      "probeResults": [
+        {
+          "url": "http://stream.taksimbilisim.com:1935/tuncerciftci/smil:tuncerciftci.smil/iptvdelisi.m3u8",
+          "live": false,
+          "reason": "timeout"
+        }
+      ]
+    },
+    {
+      "name": "Rumeli TV",
+      "candidates": 12,
+      "probeResults": [
+        {
+          "url": "https://rumelitv-live.ercdn.net/rumelitv/rumelitv.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://yayin3.canlitv.com:1935/live/rumelitv/iptvdelisi.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197188&extension=ts&play_token=PaNAKhTAov",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197188&extension=ts&play_token=PaNAKhTAov",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197188&extension=ts&play_token=PaNAKhTAov",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197188&extension=ts&play_token=PaNAKhTAov",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
     },
     {
       "name": "Yeni Kocaeli TV",
-      "candidates": 0
+      "candidates": 0,
+      "probeResults": []
     },
     {
       "name": "Uçankuş TV",
-      "candidates": 0
+      "candidates": 1,
+      "probeResults": [
+        {
+          "url": "https://ucankus-live.cdnnew.com/ucankus/ucankus.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
     },
     {
       "name": "Kanal 68",
-      "candidates": 1
+      "candidates": 12,
+      "probeResults": [
+        {
+          "url": "https://waw2.artiyerelmedya.net/kanal68/bant1/playlist.m3u8",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "https://live.artidijitalmedya.com/artidijital_kanal68/kanal68/playlist.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197200&extension=ts&play_token=4eItwPJoyj",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197200&extension=ts&play_token=4eItwPJoyj",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197200&extension=ts&play_token=4eItwPJoyj",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197200&extension=ts&play_token=4eItwPJoyj",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
     },
     {
       "name": "Vizyon 58",
-      "candidates": 0
+      "candidates": 0,
+      "probeResults": []
     },
     {
       "name": "Ege TV",
-      "candidates": 0
+      "candidates": 1,
+      "probeResults": [
+        {
+          "url": "https://waw1.artiyerelmedya.net/egetv/bant1/playlist.m3u8",
+          "live": false,
+          "reason": "timeout"
+        }
+      ]
     },
     {
       "name": "Deha TV",
-      "candidates": 0
+      "candidates": 1,
+      "probeResults": [
+        {
+          "url": "http://waw1.artiyerelmedya.net:1935/dehatv/bant1/playlist.m3u8",
+          "live": false,
+          "reason": "timeout"
+        }
+      ]
     },
     {
       "name": "Tatlıses TV",
-      "candidates": 1
+      "candidates": 1,
+      "probeResults": [
+        {
+          "url": "https://live.artidijitalmedya.com/artidijital_tatlisestv/tatlisestv/chunks.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404
+        }
+      ]
     },
     {
       "name": "Anadolu Dernek TV",
-      "candidates": 0
+      "candidates": 1,
+      "probeResults": [
+        {
+          "url": "http://ch.canlitvlive.io/anadolu-dernek-tv/live.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
     },
     {
       "name": "Bitlis TV",
-      "candidates": 0
+      "candidates": 1,
+      "probeResults": [
+        {
+          "url": "https://waw1.artiyerelmedya.net/bitlistv/bant1/playlist.m3u8",
+          "live": false,
+          "reason": "timeout"
+        }
+      ]
     },
     {
       "name": "Pamukkale TV",
-      "candidates": 1
+      "candidates": 2,
+      "probeResults": [
+        {
+          "url": "http://stream.tvcdn.net/yerel/pamukkale-tv.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://ch.canlitvlive.io/pamukkale-tv/live.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
     },
     {
       "name": "Süper TV",
-      "candidates": 0
+      "candidates": 1,
+      "probeResults": [
+        {
+          "url": "https://5be5d840359c6.streamlock.net/supertv/supertv/chunklist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
     },
     {
       "name": "DRT Denizli",
-      "candidates": 2
+      "candidates": 3,
+      "probeResults": [
+        {
+          "url": "https://edge1.socialsmart.tv/drttv/bant1/playlist.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404
+        },
+        {
+          "url": "http://stream2.taksimbilisim.com:1935/drt/smil:drt.smil/playlist.m3u8",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "http://stream2.taksimbilisim.com:1935/drt/smil:drt.smil/iptvdelisi.m3u8",
+          "live": false,
+          "reason": "timeout"
+        }
+      ]
     },
     {
       "name": "Inter AZ",
-      "candidates": 0
+      "candidates": 0,
+      "probeResults": []
+    },
+    {
+      "name": "BRT 3",
+      "candidates": 1,
+      "probeResults": [
+        {
+          "url": "http://wms.brtk.net:1935/live/brt2/playlist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
     }
   ],
   "warnings": [],
   "addedCount": 0,
   "addedNames": [],
-  "streamMapRevision": 134
+  "streamMapRevision": 143
 }
