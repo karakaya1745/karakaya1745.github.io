@@ -1,0 +1,5331 @@
+{
+  "generatedAt": "2026-09-01T11:42:18.657Z",
+  "m3uSourceCount": 38,
+  "catalogChannelCount": 1014,
+  "missingCount": 24,
+  "missingAllCount": 736,
+  "missingUnencrypted": [
+    {
+      "key": "belediyegundemtv",
+      "name": "Belediye Gündem TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c08"
+    },
+    {
+      "key": "belediyetv",
+      "name": "Belediye TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c08"
+    },
+    {
+      "key": "cartoonnetwork",
+      "name": "Cartoon Network",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c05"
+    },
+    {
+      "key": "gaziantepolaytv",
+      "name": "Gaziantep Olay TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c11"
+    },
+    {
+      "key": "grtgaziantep",
+      "name": "GRT Gaziantep",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c11"
+    },
+    {
+      "key": "istanbultv",
+      "name": "Istanbul TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c11"
+    },
+    {
+      "key": "kanal101",
+      "name": "KANAL 101",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "kanal38",
+      "name": "KANAL 38",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "kanal56",
+      "name": "KANAL 56",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "kanal57tokat",
+      "name": "Kanal 57 Tokat",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "kanal60tv",
+      "name": "Kanal 60 TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "kanal68",
+      "name": "KANAL 68",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "kanalaalanya",
+      "name": "KANAL A ALANYA",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "kanalartvin",
+      "name": "Kanal Artvin",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "kanalb",
+      "name": "KANAL B",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "kanalege",
+      "name": "Kanal Ege",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "kanalordu",
+      "name": "KANAL ORDU",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c05"
+    },
+    {
+      "key": "kanalordutv",
+      "name": "Kanal Ordu TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "kanalt",
+      "name": "Kanal T",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c07"
+    },
+    {
+      "key": "kanalvvipantalya",
+      "name": "KANAL V VIP Antalya",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "msbckanal2000",
+      "name": "MSBC Kanal 2000",
+      "group": "Diğer",
+      "urlCount": 2,
+      "sourceId": "playlist-c05"
+    },
+    {
+      "key": "suntvkonya",
+      "name": "SUN TV Konya",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest2"
+    },
+    {
+      "key": "superkanalbursa",
+      "name": "Süper Kanal Bursa",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest3"
+    },
+    {
+      "key": "tv9izmir",
+      "name": "TV 9 Izmir",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest3"
+    }
+  ],
+  "missingAll": [
+    {
+      "key": "tr13cuma",
+      "name": "┃TR┃ 13. CUMA",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tr24kitchen",
+      "name": "┃TR┃ 24KITCHEN",
+      "group": "┃TR┃ BELGESEL",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tr300spartali",
+      "name": "┃TR┃ 300 SPARTALI",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "traclikoyunlari",
+      "name": "┃TR┃ AÇLIK OYUNLARI",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tradalet",
+      "name": "┃TR┃ ADALET",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tradanali",
+      "name": "┃TR┃ ADANALI",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "traile",
+      "name": "┃TR┃ AILE",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "traile1",
+      "name": "┃TR┃ AILE 1",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "traile2",
+      "name": "┃TR┃ AILE 2",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trakasyaduragi",
+      "name": "┃TR┃ AKASYA DURAĞI",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trakillitv",
+      "name": "┃TR┃ AKILLI TV",
+      "group": "┃TR┃ YEREL",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trakinci",
+      "name": "┃TR┃ AKINCI",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trakrep",
+      "name": "┃TR┃ AKREP",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "traksiyon1",
+      "name": "┃TR┃ AKSIYON 1",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "traksiyon2",
+      "name": "┃TR┃ AKSIYON 2",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "traksiyon3",
+      "name": "┃TR┃ AKSIYON 3",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tralacakaranlik",
+      "name": "┃TR┃ ALACAKARANLIK",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 30,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "traldatmak",
+      "name": "┃TR┃ ALDATMAK",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tralevkapani",
+      "name": "┃TR┃ ALEV KAPANI",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tralikundilli",
+      "name": "┃TR┃ ALI KUNDILLI",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tralmankuzusu",
+      "name": "┃TR┃ ALMAN KUZUSU",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "traltinkafes",
+      "name": "┃TR┃ ALTIN KAFES",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tramerikanpastasi",
+      "name": "┃TR┃ AMERIKAN PASTASI",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trangelinajolie",
+      "name": "┃TR┃ ANGELINA JOLIE",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tranimaux",
+      "name": "┃TR┃ ANIMAUX",
+      "group": "┃TR┃ BELGESEL",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trantman",
+      "name": "┃TR┃ ANT-MAN",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "traraf",
+      "name": "┃TR┃ ARAF",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trarinmagecesi",
+      "name": "┃TR┃ ARINMA GECESI",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trariza",
+      "name": "┃TR┃ ARIZA",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "traskmantikintikam",
+      "name": "┃TR┃ AŞK MANTIK İNTIKAM",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trasktesaduflerisever",
+      "name": "┃TR┃ AŞK TESADÜFLERI SEVER",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "traskimemnu",
+      "name": "┃TR┃ AŞK-I MEMNU",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "traskintarifi",
+      "name": "┃TR┃ AŞKIN TARIFI",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trateskuslari",
+      "name": "┃TR┃ ATEŞ KUŞLARI",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "travlu",
+      "name": "┃TR┃ AVLU",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "traykuteniste",
+      "name": "┃TR┃ AYKUT ENIŞTE",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trazazil",
+      "name": "┃TR┃ AZAZIL",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trazem",
+      "name": "┃TR┃ AZEM",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "traziz",
+      "name": "┃TR┃ AZIZ",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbaba",
+      "name": "┃TR┃ BABA",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbabalarsavasiyor",
+      "name": "┃TR┃ BABALAR SAVAŞIYOR",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbabil",
+      "name": "┃TR┃ BABIL",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbabytv",
+      "name": "┃TR┃ BABY TV",
+      "group": "┃TR┃ COCUK",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbanualkan1",
+      "name": "┃TR┃ BANU ALKAN 1",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbaraj",
+      "name": "┃TR┃ BARAJ",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbarbarconan",
+      "name": "┃TR┃ BARBAR CONAN",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbarbie",
+      "name": "┃TR┃ BARBIE",
+      "group": "┃TR┃ COCUK",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbarbietv",
+      "name": "┃TR┃ BARBIE TV",
+      "group": "┃TR┃ COCUK",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbaskin",
+      "name": "┃TR┃ BASKIN",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbatman",
+      "name": "┃TR┃ BATMAN",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbatmanserisi",
+      "name": "┃TR┃ BATMAN SERISI",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbbcearth",
+      "name": "┃TR┃ BBC EARTH",
+      "group": "┃TR┃ BELGESEL",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbehzatc",
+      "name": "┃TR┃ BEHZAT Ç.",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbenbucihanasigmazam",
+      "name": "┃TR┃ BEN BU CIHANA SIĞMAZAM",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbicaginikiyuzu",
+      "name": "┃TR┃ BIÇAĞIN İKI YÜZÜ",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbicaksirti",
+      "name": "┃TR┃ BIÇAK SIRTI",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbilimkurgu1",
+      "name": "┃TR┃ BILIM KURGU 1",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbilimkurgu2",
+      "name": "┃TR┃ BILIM KURGU 2",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbilimkurgu3",
+      "name": "┃TR┃ BILIM KURGU 3",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbitirimikili",
+      "name": "┃TR┃ BITIRIM İKILI",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbiyografi1",
+      "name": "┃TR┃ BIYOGRAFI 1",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbiyografi2",
+      "name": "┃TR┃ BIYOGRAFI 2",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbiyografi3",
+      "name": "┃TR┃ BIYOGRAFI 3",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trblade",
+      "name": "┃TR┃ BLADE",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbloomberg",
+      "name": "┃TR┃ BLOOMBERG",
+      "group": "┃TR┃ HABER",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbloomberg8k",
+      "name": "┃TR┃ BLOOMBERG 8K",
+      "group": "┃TR┃ HABER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbollywoodmovies1",
+      "name": "┃TR┃ BOLLYWOOD MOVIES 1",
+      "group": "┃TR┃ BOLLYWOOD SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbollywoodmovies11",
+      "name": "┃TR┃ BOLLYWOOD MOVIES 11",
+      "group": "┃TR┃ BOLLYWOOD SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbollywoodmovies13",
+      "name": "┃TR┃ BOLLYWOOD MOVIES 13",
+      "group": "┃TR┃ BOLLYWOOD SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbollywoodmovies14",
+      "name": "┃TR┃ BOLLYWOOD MOVIES 14",
+      "group": "┃TR┃ BOLLYWOOD SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbollywoodmovies2",
+      "name": "┃TR┃ BOLLYWOOD MOVIES 2",
+      "group": "┃TR┃ BOLLYWOOD SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbollywoodmovies3",
+      "name": "┃TR┃ BOLLYWOOD MOVIES 3",
+      "group": "┃TR┃ BOLLYWOOD SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbollywoodmovies4",
+      "name": "┃TR┃ BOLLYWOOD MOVIES 4",
+      "group": "┃TR┃ BOLLYWOOD SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbollywoodmovies5",
+      "name": "┃TR┃ BOLLYWOOD MOVIES 5",
+      "group": "┃TR┃ BOLLYWOOD SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbollywoodmovies6",
+      "name": "┃TR┃ BOLLYWOOD MOVIES 6",
+      "group": "┃TR┃ BOLLYWOOD SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbollywoodmovies7",
+      "name": "┃TR┃ BOLLYWOOD MOVIES 7",
+      "group": "┃TR┃ BOLLYWOOD SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbollywoodmovies8",
+      "name": "┃TR┃ BOLLYWOOD MOVIES 8",
+      "group": "┃TR┃ BOLLYWOOD SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbollywoodmovies9",
+      "name": "┃TR┃ BOLLYWOOD MOVIES 9",
+      "group": "┃TR┃ BOLLYWOOD SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trboyunegmez",
+      "name": "┃TR┃ BOYUN EĞMEZ",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbuzdevri",
+      "name": "┃TR┃ BUZ DEVRI",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trbuyukselcuklu",
+      "name": "┃TR┃ BÜYÜK SELÇUKLU",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcadilarbayrami",
+      "name": "┃TR┃ CADILAR BAYRAMI",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcaillou",
+      "name": "┃TR┃ CAILLOU",
+      "group": "┃TR┃ COCUK",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcamtavanlar",
+      "name": "┃TR┃ CAM TAVANLAR",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcamdakikiz",
+      "name": "┃TR┃ CAMDAKI KIZ",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcartoonnetwork",
+      "name": "┃TR┃ CARTOON NETWORK",
+      "group": "┃TR┃ COCUK",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcbeebies",
+      "name": "┃TR┃ CBEEBIES",
+      "group": "┃TR┃ COCUK",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcehennemmelekler",
+      "name": "┃TR┃ CEHENNEM MELEKLER",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcehennemmelekleri",
+      "name": "┃TR┃ CEHENNEM MELEKLERI",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcehennemsilahi",
+      "name": "┃TR┃ CEHENNEM SILAHI",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcennetmahallesi",
+      "name": "┃TR┃ CENNET MAHALLESI",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcharlieninmelekleri",
+      "name": "┃TR┃ CHARLIE'NIN MELEKLERI",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcocuksmart",
+      "name": "┃TR┃ COCUKSMART",
+      "group": "┃TR┃ COCUK",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcube",
+      "name": "┃TR┃ CUBE",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcumaliceber",
+      "name": "┃TR┃ CUMALI CEBER",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcuneytarkin1",
+      "name": "┃TR┃ CÜNEYT ARKIN 1",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcuneytarkin2",
+      "name": "┃TR┃ CÜNEYT ARKIN 2",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcuneytarkin3",
+      "name": "┃TR┃ CÜNEYT ARKIN 3",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcuneytarkin4",
+      "name": "┃TR┃ CÜNEYT ARKIN 4",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcuneytarkin5",
+      "name": "┃TR┃ CÜNEYT ARKIN 5",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcakallarladans",
+      "name": "┃TR┃ ÇAKALLARLA DANS",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcalgicengi",
+      "name": "┃TR┃ ÇALGI ÇENGI",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcatlakprofesor",
+      "name": "┃TR┃ ÇATLAK PROFESÖR",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcetinceviz",
+      "name": "┃TR┃ ÇETIN CEVIZ",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcicektaksi",
+      "name": "┃TR┃ ÇIÇEK TAKSI",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trciglik",
+      "name": "┃TR┃ ÇIĞLIK",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcilginbedis",
+      "name": "┃TR┃ ÇILGIN BEDIŞ",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcilgindersane",
+      "name": "┃TR┃ ÇILGIN DERSANE",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trcopadam",
+      "name": "┃TR┃ ÇÖP ADAM",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trdavincikids",
+      "name": "┃TR┃ DA VINCI KIDS",
+      "group": "┃TR┃ COCUK",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trdabbe",
+      "name": "┃TR┃ DABBE",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trdag",
+      "name": "┃TR┃ DAĞ",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trdarduman",
+      "name": "┃TR┃ DARDUMAN",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trdeadpool",
+      "name": "┃TR┃ DEADPOOL",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trdeccal",
+      "name": "┃TR┃ DECCAL",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trdelidumrul",
+      "name": "┃TR┃ DELI DUMRUL",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trdeliha",
+      "name": "┃TR┃ DELIHA",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trdilektasi",
+      "name": "┃TR┃ DILEK TAŞI",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trdiscoverychannel",
+      "name": "┃TR┃ DISCOVERY CHANNEL",
+      "group": "┃TR┃ BELGESEL",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trdiscoveryscience",
+      "name": "┃TR┃ DISCOVERY SCIENCE",
+      "group": "┃TR┃ BELGESEL",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trdizismartpremium",
+      "name": "┃TR┃ DIZISMART PREMIUM",
+      "group": "┃TR┃ SINEMA PLATFORM",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trdoru",
+      "name": "┃TR┃ DORU",
+      "group": "┃TR┃ COCUK",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trdugundernek",
+      "name": "┃TR┃ DÜĞÜN DERNEK",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trejderhadovmelikiz",
+      "name": "┃TR┃ EJDERHA DÖVMELI KIZ",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trelmsokagindakabus",
+      "name": "┃TR┃ ELM SOKAĞINDA KÂBUS",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tremelsayin1",
+      "name": "┃TR┃ EMEL SAYIN 1",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trenesbatur",
+      "name": "┃TR┃ ENES BATUR",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trevdetekbasina",
+      "name": "┃TR┃ EVDE TEK BAŞINA",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "treyvahannemdagitti",
+      "name": "┃TR┃ EYVAH ANNEM DAĞITTI!",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "treyyvaheyvah",
+      "name": "┃TR┃ EYYVAH EYVAH",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trfantastik1",
+      "name": "┃TR┃ FANTASTIK 1",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trfantastik2",
+      "name": "┃TR┃ FANTASTIK 2",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trfantastik3",
+      "name": "┃TR┃ FANTASTIK 3",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trfantastikdortlu",
+      "name": "┃TR┃ FANTASTIK DÖRTLÜ",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trfatmagirik1",
+      "name": "┃TR┃ FATMA GIRIK 1",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trfatmagirik2",
+      "name": "┃TR┃ FATMA GIRIK 2",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trfenerbachetv",
+      "name": "┃TR┃ FENERBACHE TV",
+      "group": "┃TR┃ SPOR",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trfightbox",
+      "name": "┃TR┃ FIGHTBOX",
+      "group": "┃TR┃ S SPORTS",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trfilizakin1",
+      "name": "┃TR┃ FILIZ AKIN 1",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trfilmbox",
+      "name": "┃TR┃ FILMBOX",
+      "group": "┃TR┃ SINEMA YABANCI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trgijoe",
+      "name": "┃TR┃ G.I. JOE",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trgaddar",
+      "name": "┃TR┃ GADDAR",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trgalaksininkoruyuculari",
+      "name": "┃TR┃ GALAKSININ KORUYUCULARI",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trgalatasaraytv",
+      "name": "┃TR┃ GALATASARAY TV",
+      "group": "┃TR┃ SPOR",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trgarfield",
+      "name": "┃TR┃ GARFIELD",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trgecmisiolmayanadam",
+      "name": "┃TR┃ GEÇMIŞI OLMAYAN ADAM",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trgelecegedonus",
+      "name": "┃TR┃ GELECEĞE DÖNÜŞ",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trgenisaile",
+      "name": "┃TR┃ GENIŞ AILE",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 30,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trgizlisakli",
+      "name": "┃TR┃ GIZLI SAKLI",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trgolserisi",
+      "name": "┃TR┃ GOL SERISI",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trgoosebumps",
+      "name": "┃TR┃ GOOSEBUMPS",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trgorevimiztehlike",
+      "name": "┃TR┃ GÖREVIMIZ TEHLIKE",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trgostergununu",
+      "name": "┃TR┃ GÖSTER GÜNÜNÜ",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trguzeldedektif",
+      "name": "┃TR┃ GÜZEL DEDEKTIF",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trhannibal",
+      "name": "┃TR┃ HANNIBAL",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trharrypotter",
+      "name": "┃TR┃ HARRY POTTER",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trhayaletavcilari",
+      "name": "┃TR┃ HAYALET AVCILARI",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trhayaletsurucu",
+      "name": "┃TR┃ HAYALET SÜRÜCÜ",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trhekimoglu",
+      "name": "┃TR┃ HEKIMOĞLU",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trhellboy",
+      "name": "┃TR┃ HELLBOY",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trhepyek",
+      "name": "┃TR┃ HEP YEK",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trhistorychannel",
+      "name": "┃TR┃ HISTORY CHANNEL",
+      "group": "┃TR┃ BELGESEL",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trhobbit",
+      "name": "┃TR┃ HOBBIT",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trhulk",
+      "name": "┃TR┃ HULK",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trhukumetkadin",
+      "name": "┃TR┃ HÜKÜMET KADIN",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trhulyakocyigit1",
+      "name": "┃TR┃ HÜLYA KOÇYIĞIT 1",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trhulyakocyigit2",
+      "name": "┃TR┃ HÜLYA KOÇYIĞIT 2",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trid",
+      "name": "┃TR┃ ID",
+      "group": "┃TR┃ BELGESEL",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trindianajones",
+      "name": "┃TR┃ INDIANA JONES",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trinsighttv",
+      "name": "┃TR┃ INSIGHT TV",
+      "group": "┃TR┃ BELGESEL",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trilyassalman1",
+      "name": "┃TR┃ İLYAS SALMAN 1",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trilyassalman2",
+      "name": "┃TR┃ İLYAS SALMAN 2",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trilyassalman3",
+      "name": "┃TR┃ İLYAS SALMAN 3",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trilyassalman4",
+      "name": "┃TR┃ İLYAS SALMAN 4",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trisimsizler",
+      "name": "┃TR┃ İSIMSIZLER",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "triskocyali",
+      "name": "┃TR┃ İSKOÇYALI",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trislergucler",
+      "name": "┃TR┃ İŞLER GÜÇLER",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trjackreacher",
+      "name": "┃TR┃ JACK REACHER",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trjackiechan",
+      "name": "┃TR┃ JACKIE CHAN",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trjamesbon",
+      "name": "┃TR┃ JAMES BON",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trjamesbond",
+      "name": "┃TR┃ JAMES BOND",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trjasonstatham",
+      "name": "┃TR┃ JASON STATHAM",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trjohnwick",
+      "name": "┃TR┃ JOHN WICK",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trjohnnyenglish",
+      "name": "┃TR┃ JOHNNY ENGLISH",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trjumanji",
+      "name": "┃TR┃ JUMANJI",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trjurassicpark",
+      "name": "┃TR┃ JURASSIC PARK",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkabetv",
+      "name": "┃TR┃ KABE TV",
+      "group": "┃TR┃ DINI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkadirinanir1",
+      "name": "┃TR┃ KADIR İNANIR 1",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkadirinanir2",
+      "name": "┃TR┃ KADIR İNANIR 2",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkadirinanir3",
+      "name": "┃TR┃ KADIR İNANIR 3",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkahramanbabam",
+      "name": "┃TR┃ KAHRAMAN BABAM",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkalkgidelim",
+      "name": "┃TR┃ KALK GIDELIM",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkanal68",
+      "name": "┃TR┃ KANAL 68",
+      "group": "┃TR┃ YEREL",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkanal7",
+      "name": "┃TR┃ KANAL 7",
+      "group": "┃TR┃ ULUSAL",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkanal78k",
+      "name": "┃TR┃ KANAL 7 8K",
+      "group": "┃TR┃ ULUSAL",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkanalb",
+      "name": "┃TR┃ KANAL B",
+      "group": "┃TR┃ YEREL",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkanald",
+      "name": "┃TR┃ KANAL D",
+      "group": "┃TR┃ ULUSAL",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkanald8k",
+      "name": "┃TR┃ KANAL D 8K",
+      "group": "┃TR┃ ULUSAL",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkaptanamerika",
+      "name": "┃TR┃ KAPTAN AMERIKA",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkara",
+      "name": "┃TR┃ KARA",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkarakomikfilmler",
+      "name": "┃TR┃ KARAKOMIK FILMLER",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkarayipkorsanlari",
+      "name": "┃TR┃ KARAYIP KORSANLARI",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkardespayi",
+      "name": "┃TR┃ KARDEŞ PAYI",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkardesimbenim",
+      "name": "┃TR┃ KARDEŞIM BENIM",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkardeslerim",
+      "name": "┃TR┃ KARDEŞLERIM",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkare",
+      "name": "┃TR┃ KARE",
+      "group": "┃TR┃ COCUK",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkaybedenlerkulubu",
+      "name": "┃TR┃ KAYBEDENLER KULÜBÜ",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkelebeketkisi",
+      "name": "┃TR┃ KELEBEK ETKISI",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkeloglan1",
+      "name": "┃TR┃ KELOĞLAN 1",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkeloglan2",
+      "name": "┃TR┃ KELOĞLAN 2",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkemalsunal1",
+      "name": "┃TR┃ KEMAL SUNAL 1",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkemalsunal2",
+      "name": "┃TR┃ KEMAL SUNAL 2",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkemalsunal3",
+      "name": "┃TR┃ KEMAL SUNAL 3",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkemalsunal4",
+      "name": "┃TR┃ KEMAL SUNAL 4",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkillbill",
+      "name": "┃TR┃ KILL BILL",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkingsman",
+      "name": "┃TR┃ KINGSMAN",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkirliisler",
+      "name": "┃TR┃ KIRLI İŞLER",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkocankadarkonus",
+      "name": "┃TR┃ KOCAN KADAR KONUŞ",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkolpacino",
+      "name": "┃TR┃ KOLPAÇINO",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkontv",
+      "name": "┃TR┃ KON TV",
+      "group": "┃TR┃ YEREL",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkonusantom",
+      "name": "┃TR┃ KONUSAN TOM",
+      "group": "┃TR┃ COCUK",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkorku1",
+      "name": "┃TR┃ KORKU 1",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkorku2",
+      "name": "┃TR┃ KORKU 2",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkorku3",
+      "name": "┃TR┃ KORKU 3",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkorkukapani",
+      "name": "┃TR┃ KORKU KAPANI",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkorkuseansi",
+      "name": "┃TR┃ KORKU SEANSI",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkukuli",
+      "name": "┃TR┃ KUKULI",
+      "group": "┃TR┃ COCUK",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkurtlarvadisi",
+      "name": "┃TR┃ KURTLAR VADISI",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkurtulusgunu",
+      "name": "┃TR┃ KURTULUŞ GÜNÜ",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkutsaldamacana",
+      "name": "┃TR┃ KUTSAL DAMACANA",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trkuzucuk",
+      "name": "┃TR┃ KUZUCUK",
+      "group": "┃TR┃ COCUK",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trliselipolisler",
+      "name": "┃TR┃ LISELI POLISLER",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trloca",
+      "name": "┃TR┃ LOCA",
+      "group": "┃TR┃ SINEMA SALON",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trlovenature",
+      "name": "┃TR┃ LOVE NATURE",
+      "group": "┃TR┃ BELGESEL",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trmalefiz",
+      "name": "┃TR┃ MALEFIZ",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trmarvel1",
+      "name": "┃TR┃ MARVEL 1",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trmarvel2",
+      "name": "┃TR┃ MARVEL 2",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trmarvelstudios1",
+      "name": "┃TR┃ MARVEL STUDIOS 1",
+      "group": "┃TR┃ SINEMA MARVEL STUDIOS",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trmarvelstudios2",
+      "name": "┃TR┃ MARVEL STUDIOS 2",
+      "group": "┃TR┃ SINEMA MARVEL STUDIOS",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trmarvelstudios3",
+      "name": "┃TR┃ MARVEL STUDIOS 3",
+      "group": "┃TR┃ SINEMA MARVEL STUDIOS",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trmarvelstudios4",
+      "name": "┃TR┃ MARVEL STUDIOS 4",
+      "group": "┃TR┃ SINEMA MARVEL STUDIOS",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trmarvelstudios5",
+      "name": "┃TR┃ MARVEL STUDIOS 5",
+      "group": "┃TR┃ SINEMA MARVEL STUDIOS",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trmarvelstudios6",
+      "name": "┃TR┃ MARVEL STUDIOS 6",
+      "group": "┃TR┃ SINEMA MARVEL STUDIOS",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trmarvelstudios7",
+      "name": "┃TR┃ MARVEL STUDIOS 7",
+      "group": "┃TR┃ SINEMA MARVEL STUDIOS",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trmaskelibesler",
+      "name": "┃TR┃ MASKELI BEŞLER",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trmatrix",
+      "name": "┃TR┃ MATRIX",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trmavikorku",
+      "name": "┃TR┃ MAVI KORKU",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trmaymunlarcehennemi",
+      "name": "┃TR┃ MAYMUNLAR CEHENNEMI",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trmedcezir",
+      "name": "┃TR┃ MEDCEZIR",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trmedinetv",
+      "name": "┃TR┃ MEDINE TV",
+      "group": "┃TR┃ DINI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trminurozkul1",
+      "name": "┃TR┃ MINUR OZKUL 1",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trminurozkul2",
+      "name": "┃TR┃ MINUR ÖZKUL 2",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trmoviesmartclassic",
+      "name": "┃TR┃ MOVIESMART CLASSIC",
+      "group": "┃TR┃ SINEMA PLATFORM",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trmucize",
+      "name": "┃TR┃ MUCIZE",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trmumya",
+      "name": "┃TR┃ MUMYA",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trmusallat",
+      "name": "┃TR┃ MUSALLAT",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trmukemmeluyum",
+      "name": "┃TR┃ MÜKEMMEL UYUM",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trnbatv",
+      "name": "┃TR┃ NBA TV",
+      "group": "┃TR┃ S SPORTS",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trnickjr",
+      "name": "┃TR┃ NICK JR",
+      "group": "┃TR┃ COCUK",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trnickelodeon",
+      "name": "┃TR┃ NICKELODEON",
+      "group": "┃TR┃ COCUK",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trniloya",
+      "name": "┃TR┃ NILOYA",
+      "group": "┃TR┃ COCUK",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trnr1",
+      "name": "┃TR┃ NR1",
+      "group": "┃TR┃ MÜZIK",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trnuribilgeceylan",
+      "name": "┃TR┃ NURI BILGE CEYLAN",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trofluhoca",
+      "name": "┃TR┃ OFLU HOCA",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trorganizeisler",
+      "name": "┃TR┃ ORGANIZE İŞLER",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trorhangencebay1",
+      "name": "┃TR┃ ORHAN GENCEBAY 1",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trorhangencebay2",
+      "name": "┃TR┃ ORHAN GENCEBAY 2",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "troyuncakhikayesi",
+      "name": "┃TR┃ OYUNCAK HIKAYESI",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trolumyarisi",
+      "name": "┃TR┃ ÖLÜM YARIŞI",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trorumcekadam",
+      "name": "┃TR┃ ÖRÜMCEK ADAM",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpamukkaletv",
+      "name": "┃TR┃ PAMUKKALE TV",
+      "group": "┃TR┃ YEREL",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpeppapig",
+      "name": "┃TR┃ PEPPA PIG",
+      "group": "┃TR┃ COCUK",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpeppe",
+      "name": "┃TR┃ PEPPE",
+      "group": "┃TR┃ COCUK",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpijamaskeliler",
+      "name": "┃TR┃ PIJAMASKELILER",
+      "group": "┃TR┃ COCUK",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpolisakademisi",
+      "name": "┃TR┃ POLIS AKADEMISI",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trppremiumkorkugerilim1",
+      "name": "┃TR┃ PPREMIUM KORKU GERILIM 1",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trppremiumkorkugerilim2",
+      "name": "┃TR┃ PPREMIUM KORKU GERILIM 2",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trppremiumkorkugerilim3",
+      "name": "┃TR┃ PPREMIUM KORKU GERILIM 3",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trppremiumkorkugerilim4",
+      "name": "┃TR┃ PPREMIUM KORKU GERILIM 4",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trppremiumkorkugerilim5",
+      "name": "┃TR┃ PPREMIUM KORKU GERILIM 5",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trppremiumkorkugerilim6",
+      "name": "┃TR┃ PPREMIUM KORKU GERILIM 6",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trppremiumkorkugerilim7",
+      "name": "┃TR┃ PPREMIUM KORKU GERILIM 7",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trppremiumkorkugerilim8",
+      "name": "┃TR┃ PPREMIUM KORKU GERILIM 8",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumamazon1",
+      "name": "┃TR┃ PREMIUM Amazon 1",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumamazon2",
+      "name": "┃TR┃ PREMIUM Amazon 2",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumamazon3",
+      "name": "┃TR┃ PREMIUM Amazon 3",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumamazon4",
+      "name": "┃TR┃ PREMIUM Amazon 4",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumamazon5",
+      "name": "┃TR┃ PREMIUM Amazon 5",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumanimasyon1",
+      "name": "┃TR┃ PREMIUM ANIMASYON 1",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumanimasyon2",
+      "name": "┃TR┃ PREMIUM ANIMASYON 2",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumanimasyon3",
+      "name": "┃TR┃ PREMIUM ANIMASYON 3",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumanimasyon4",
+      "name": "┃TR┃ PREMIUM ANIMASYON 4",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumanimasyon5",
+      "name": "┃TR┃ PREMIUM ANIMASYON 5",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumbilimkurgu1",
+      "name": "┃TR┃ PREMIUM BILIM KURGU 1",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumbilimkurgu2",
+      "name": "┃TR┃ PREMIUM BILIM KURGU 2",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumbilimkurgu3",
+      "name": "┃TR┃ PREMIUM BILIM KURGU 3",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumbilimkurgu4",
+      "name": "┃TR┃ PREMIUM BILIM KURGU 4",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumbilimkurgu5",
+      "name": "┃TR┃ PREMIUM BILIM KURGU 5",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumbilimkurgu6",
+      "name": "┃TR┃ PREMIUM BILIM KURGU 6",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumbilimkurgu7",
+      "name": "┃TR┃ PREMIUM BILIM KURGU 7",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumbilimkurgu8",
+      "name": "┃TR┃ PREMIUM BILIM KURGU 8",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumbilimkurgu9",
+      "name": "┃TR┃ PREMIUM BILIM KURGU 9",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumbkmsalon1",
+      "name": "┃TR┃ PREMIUM BKM SALON 1",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumbkmsalon2",
+      "name": "┃TR┃ PREMIUM BKM SALON 2",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumbkmsalon3",
+      "name": "┃TR┃ PREMIUM BKM SALON 3",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumbkmsalon4",
+      "name": "┃TR┃ PREMIUM BKM SALON 4",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumblutv1",
+      "name": "┃TR┃ PREMIUM BLUTV 1",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumblutv2",
+      "name": "┃TR┃ PREMIUM BLUTV 2",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumblutv3",
+      "name": "┃TR┃ PREMIUM BLUTV 3",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumbollywood1",
+      "name": "┃TR┃ PREMIUM BOLLYWOOD 1",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumbollywood2",
+      "name": "┃TR┃ PREMIUM BOLLYWOOD 2",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumbollywood3",
+      "name": "┃TR┃ PREMIUM BOLLYWOOD 3",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumbollywood4",
+      "name": "┃TR┃ PREMIUM BOLLYWOOD 4",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumbollywood5",
+      "name": "┃TR┃ PREMIUM BOLLYWOOD 5",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumdisney1",
+      "name": "┃TR┃ PREMIUM DISNEY 1",
+      "group": "┃TR┃ PREMIUM DISNEY",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumdisney11",
+      "name": "┃TR┃ PREMIUM DISNEY 11",
+      "group": "┃TR┃ PREMIUM DISNEY",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumdisney13",
+      "name": "┃TR┃ PREMIUM DISNEY 13",
+      "group": "┃TR┃ PREMIUM DISNEY",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumdisney14",
+      "name": "┃TR┃ PREMIUM DISNEY 14",
+      "group": "┃TR┃ PREMIUM DISNEY",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumdisney2",
+      "name": "┃TR┃ PREMIUM DISNEY 2",
+      "group": "┃TR┃ PREMIUM DISNEY",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumdisney3",
+      "name": "┃TR┃ PREMIUM DISNEY 3",
+      "group": "┃TR┃ PREMIUM DISNEY",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumdisney4",
+      "name": "┃TR┃ PREMIUM DISNEY 4",
+      "group": "┃TR┃ PREMIUM DISNEY",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumdisney5",
+      "name": "┃TR┃ PREMIUM DISNEY 5",
+      "group": "┃TR┃ PREMIUM DISNEY",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumdisney6",
+      "name": "┃TR┃ PREMIUM DISNEY 6",
+      "group": "┃TR┃ PREMIUM DISNEY",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumdisney7",
+      "name": "┃TR┃ PREMIUM DISNEY 7",
+      "group": "┃TR┃ PREMIUM DISNEY",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumdisney8",
+      "name": "┃TR┃ PREMIUM DISNEY 8",
+      "group": "┃TR┃ PREMIUM DISNEY",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumdisney9",
+      "name": "┃TR┃ PREMIUM DISNEY 9",
+      "group": "┃TR┃ PREMIUM DISNEY",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumexxen1",
+      "name": "┃TR┃ PREMIUM EXXEN 1",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumexxen2",
+      "name": "┃TR┃ PREMIUM EXXEN 2",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumimbd1",
+      "name": "┃TR┃ PREMIUM IMBD 1",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumimbd2",
+      "name": "┃TR┃ PREMIUM IMBD 2",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumimbd3",
+      "name": "┃TR┃ PREMIUM IMBD 3",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumimbd4",
+      "name": "┃TR┃ PREMIUM IMBD 4",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumimbd5",
+      "name": "┃TR┃ PREMIUM IMBD 5",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumimbd6",
+      "name": "┃TR┃ PREMIUM IMBD 6",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumimbd7",
+      "name": "┃TR┃ PREMIUM IMBD 7",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumimbd8",
+      "name": "┃TR┃ PREMIUM IMBD 8",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumimbd9",
+      "name": "┃TR┃ PREMIUM IMBD 9",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumkemedi1",
+      "name": "┃TR┃ PREMIUM KEMEDI 1",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumkemedi2",
+      "name": "┃TR┃ PREMIUM KEMEDI 2",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumkemedi3",
+      "name": "┃TR┃ PREMIUM KEMEDI 3",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumkemedi4",
+      "name": "┃TR┃ PREMIUM KEMEDI 4",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumkemedi5",
+      "name": "┃TR┃ PREMIUM KEMEDI 5",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumkemedi6",
+      "name": "┃TR┃ PREMIUM KEMEDI 6",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumkemedi7",
+      "name": "┃TR┃ PREMIUM KEMEDI 7",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiummarvel1",
+      "name": "┃TR┃ PREMIUM MARVEL 1",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiummarvel2",
+      "name": "┃TR┃ PREMIUM MARVEL 2",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiummarvel3",
+      "name": "┃TR┃ PREMIUM MARVEL 3",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiummarvel4",
+      "name": "┃TR┃ PREMIUM MARVEL 4",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiummubi1",
+      "name": "┃TR┃ PREMIUM MUBI 1",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiummubi2",
+      "name": "┃TR┃ PREMIUM MUBI 2",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiummubi3",
+      "name": "┃TR┃ PREMIUM MUBI 3",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiummubi4",
+      "name": "┃TR┃ PREMIUM MUBI 4",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumnetflix1",
+      "name": "┃TR┃ PREMIUM NETFLIX 1",
+      "group": "┃TR┃ PREMIUM NETFLIX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumnetflix11",
+      "name": "┃TR┃ PREMIUM NETFLIX 11",
+      "group": "┃TR┃ PREMIUM NETFLIX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumnetflix13",
+      "name": "┃TR┃ PREMIUM NETFLIX 13",
+      "group": "┃TR┃ PREMIUM NETFLIX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumnetflix14",
+      "name": "┃TR┃ PREMIUM NETFLIX 14",
+      "group": "┃TR┃ PREMIUM NETFLIX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumnetflix16",
+      "name": "┃TR┃ PREMIUM NETFLIX 16",
+      "group": "┃TR┃ PREMIUM NETFLIX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumnetflix17",
+      "name": "┃TR┃ PREMIUM NETFLIX 17",
+      "group": "┃TR┃ PREMIUM NETFLIX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumnetflix18",
+      "name": "┃TR┃ PREMIUM NETFLIX 18",
+      "group": "┃TR┃ PREMIUM NETFLIX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumnetflix2",
+      "name": "┃TR┃ PREMIUM NETFLIX 2",
+      "group": "┃TR┃ PREMIUM NETFLIX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumnetflix20",
+      "name": "┃TR┃ PREMIUM NETFLIX 20",
+      "group": "┃TR┃ PREMIUM NETFLIX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumnetflix21",
+      "name": "┃TR┃ PREMIUM NETFLIX 21",
+      "group": "┃TR┃ PREMIUM NETFLIX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumnetflix22",
+      "name": "┃TR┃ PREMIUM NETFLIX 22",
+      "group": "┃TR┃ PREMIUM NETFLIX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumnetflix25",
+      "name": "┃TR┃ PREMIUM NETFLIX 25",
+      "group": "┃TR┃ PREMIUM NETFLIX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumnetflix27",
+      "name": "┃TR┃ PREMIUM NETFLIX 27",
+      "group": "┃TR┃ PREMIUM NETFLIX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumnetflix28",
+      "name": "┃TR┃ PREMIUM NETFLIX 28",
+      "group": "┃TR┃ PREMIUM NETFLIX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumnetflix29",
+      "name": "┃TR┃ PREMIUM NETFLIX 29",
+      "group": "┃TR┃ PREMIUM NETFLIX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumnetflix3",
+      "name": "┃TR┃ PREMIUM NETFLIX 3",
+      "group": "┃TR┃ PREMIUM NETFLIX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumnetflix30",
+      "name": "┃TR┃ PREMIUM NETFLIX 30",
+      "group": "┃TR┃ PREMIUM NETFLIX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumnetflix4",
+      "name": "┃TR┃ PREMIUM NETFLIX 4",
+      "group": "┃TR┃ PREMIUM NETFLIX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumnetflix5",
+      "name": "┃TR┃ PREMIUM NETFLIX 5",
+      "group": "┃TR┃ PREMIUM NETFLIX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumnetflix6",
+      "name": "┃TR┃ PREMIUM NETFLIX 6",
+      "group": "┃TR┃ PREMIUM NETFLIX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumnetflix7",
+      "name": "┃TR┃ PREMIUM NETFLIX 7",
+      "group": "┃TR┃ PREMIUM NETFLIX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumnetflix8",
+      "name": "┃TR┃ PREMIUM NETFLIX 8",
+      "group": "┃TR┃ PREMIUM NETFLIX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumnetflix9",
+      "name": "┃TR┃ PREMIUM NETFLIX 9",
+      "group": "┃TR┃ PREMIUM NETFLIX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumromantik1",
+      "name": "┃TR┃ PREMIUM ROMANTIK 1",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumromantik2",
+      "name": "┃TR┃ PREMIUM ROMANTIK 2",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumromantik3",
+      "name": "┃TR┃ PREMIUM ROMANTIK 3",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumromantik4",
+      "name": "┃TR┃ PREMIUM ROMANTIK 4",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumromantik5",
+      "name": "┃TR┃ PREMIUM ROMANTIK 5",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumromantik6",
+      "name": "┃TR┃ PREMIUM ROMANTIK 6",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumromantik7",
+      "name": "┃TR┃ PREMIUM ROMANTIK 7",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumromantik8",
+      "name": "┃TR┃ PREMIUM ROMANTIK 8",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumromantik9",
+      "name": "┃TR┃ PREMIUM ROMANTIK 9",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumsavas1",
+      "name": "┃TR┃ PREMIUM SAVAS 1",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumsavas2",
+      "name": "┃TR┃ PREMIUM SAVAS 2",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumsavas3",
+      "name": "┃TR┃ PREMIUM SAVAS 3",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumsavas4",
+      "name": "┃TR┃ PREMIUM SAVAS 4",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumsavas5",
+      "name": "┃TR┃ PREMIUM SAVAS 5",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumturkcelltv1",
+      "name": "┃TR┃ PREMIUM TURKCELL TV 1",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumturkcelltv2",
+      "name": "┃TR┃ PREMIUM TURKCELL TV 2",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumturkcelltv3",
+      "name": "┃TR┃ PREMIUM TURKCELL TV 3",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumturkcelltv4",
+      "name": "┃TR┃ PREMIUM TURKCELL TV 4",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumturkcelltv5",
+      "name": "┃TR┃ PREMIUM TURKCELL TV 5",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumwestern1",
+      "name": "┃TR┃ PREMIUM WESTERN 1",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumwestern2",
+      "name": "┃TR┃ PREMIUM WESTERN 2",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumwestern3",
+      "name": "┃TR┃ PREMIUM WESTERN 3",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumwestern4",
+      "name": "┃TR┃ PREMIUM WESTERN 4",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumwestern5",
+      "name": "┃TR┃ PREMIUM WESTERN 5",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumyerli1",
+      "name": "┃TR┃ PREMIUM YERLI 1",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumyerli11",
+      "name": "┃TR┃ PREMIUM YERLI 11",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumyerli13",
+      "name": "┃TR┃ PREMIUM YERLI 13",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumyerli14",
+      "name": "┃TR┃ PREMIUM YERLI 14",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumyerli16",
+      "name": "┃TR┃ PREMIUM YERLI 16",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumyerli17",
+      "name": "┃TR┃ PREMIUM YERLI 17",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumyerli18",
+      "name": "┃TR┃ PREMIUM YERLI 18",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumyerli2",
+      "name": "┃TR┃ PREMIUM YERLI 2",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumyerli20",
+      "name": "┃TR┃ PREMIUM YERLI 20",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumyerli21",
+      "name": "┃TR┃ PREMIUM YERLI 21",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumyerli22",
+      "name": "┃TR┃ PREMIUM YERLI 22",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumyerli25",
+      "name": "┃TR┃ PREMIUM YERLI 25",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumyerli3",
+      "name": "┃TR┃ PREMIUM YERLI 3",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumyerli4",
+      "name": "┃TR┃ PREMIUM YERLI 4",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumyerli5",
+      "name": "┃TR┃ PREMIUM YERLI 5",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumyerli6",
+      "name": "┃TR┃ PREMIUM YERLI 6",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumyerli7",
+      "name": "┃TR┃ PREMIUM YERLI 7",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumyerli8",
+      "name": "┃TR┃ PREMIUM YERLI 8",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trpremiumyerli9",
+      "name": "┃TR┃ PREMIUM YERLI 9",
+      "group": "┃TR┃ PREMIUM SINEMA",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trrafadantayfa",
+      "name": "┃TR┃ RAFADAN TAYFA",
+      "group": "┃TR┃ COCUK",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trrambo",
+      "name": "┃TR┃ RAMBO",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trramo",
+      "name": "┃TR┃ RAMO",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trrecepivedik",
+      "name": "┃TR┃ RECEP İVEDIK",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trredboxactie1",
+      "name": "┃TR┃ REDBOX ACTIE 1",
+      "group": "┃TR┃ SINEMA SALON",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trredboxbilimkurgu1",
+      "name": "┃TR┃ REDBOX BILIMKURGU 1",
+      "group": "┃TR┃ SINEMA SALON",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trredboxhorror1",
+      "name": "┃TR┃ REDBOX HORROR 1",
+      "group": "┃TR┃ SINEMA SALON",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trredboxmix1",
+      "name": "┃TR┃ REDBOX MIX 1",
+      "group": "┃TR┃ SINEMA SALON",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trredboxpremiere",
+      "name": "┃TR┃ REDBOX PREMIERE",
+      "group": "┃TR┃ SINEMA SALON",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trresidentevil",
+      "name": "┃TR┃ RESIDENT EVIL",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trrexsinema1",
+      "name": "┃TR┃ REX SINEMA 1",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trrexsinema2",
+      "name": "┃TR┃ REX SINEMA 2",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trrexsinema3",
+      "name": "┃TR┃ REX SINEMA 3",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trrexsinema4",
+      "name": "┃TR┃ REX SINEMA 4",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trrexsinema5",
+      "name": "┃TR┃ REX SINEMA 5",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trrexsinema6",
+      "name": "┃TR┃ REX SINEMA 6",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trrexsinema7",
+      "name": "┃TR┃ REX SINEMA 7",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trrexsinema8",
+      "name": "┃TR┃ REX SINEMA 8",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trrexsinema9",
+      "name": "┃TR┃ REX SINEMA 9",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trrocky",
+      "name": "┃TR┃ ROCKY",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trromantik1",
+      "name": "┃TR┃ ROMANTIK 1",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trromantik2",
+      "name": "┃TR┃ ROMANTIK 2",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trromantik3",
+      "name": "┃TR┃ ROMANTIK 3",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trrumelitv",
+      "name": "┃TR┃ RUMELI TV",
+      "group": "┃TR┃ YEREL",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsabitkanca",
+      "name": "┃TR┃ SABIT KANCA",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsadrialisik1",
+      "name": "┃TR┃ SADRI ALIŞIK 1",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsadrialisik2",
+      "name": "┃TR┃ SADRI ALIŞIK 2",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsadrialisik3",
+      "name": "┃TR┃ SADRI ALIŞIK 3",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsafir",
+      "name": "┃TR┃ SAFIR",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsavas1",
+      "name": "┃TR┃ SAVAŞ 1",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsavas2",
+      "name": "┃TR┃ SAVAŞ 2",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsavas3",
+      "name": "┃TR┃ SAVAŞ 3",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trscoobydoo",
+      "name": "┃TR┃ SCOOBY DOO",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsherlockholmes",
+      "name": "┃TR┃ SHERLOCK HOLMES",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trshrek",
+      "name": "┃TR┃ SHREK",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinematv1",
+      "name": "┃TR┃ SINEMA TV 1",
+      "group": "┃TR┃ SINEMA YABANCI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinematv1001",
+      "name": "┃TR┃ SINEMA TV 1001",
+      "group": "┃TR┃ SINEMA PLATFORM",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinematv1002",
+      "name": "┃TR┃ SINEMA TV 1002",
+      "group": "┃TR┃ SINEMA PLATFORM",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinematv2",
+      "name": "┃TR┃ SINEMA TV 2",
+      "group": "┃TR┃ SINEMA PLATFORM",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinematvaile",
+      "name": "┃TR┃ SINEMA TV AILE",
+      "group": "┃TR┃ SINEMA PLATFORM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinematvaile1",
+      "name": "┃TR┃ SINEMA TV AILE 1",
+      "group": "┃TR┃ SINEMA YABANCI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinematvaile2",
+      "name": "┃TR┃ SINEMA TV AILE 2",
+      "group": "┃TR┃ SINEMA PLATFORM",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinematvaksiyon",
+      "name": "┃TR┃ SINEMA TV AKSIYON",
+      "group": "┃TR┃ SINEMA PLATFORM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinematvaksiyon1",
+      "name": "┃TR┃ SINEMA TV AKSIYON 1",
+      "group": "┃TR┃ SINEMA YABANCI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinematvaksiyon2",
+      "name": "┃TR┃ SINEMA TV AKSIYON 2",
+      "group": "┃TR┃ SINEMA PLATFORM",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinematvkomedi",
+      "name": "┃TR┃ SINEMA TV KOMEDI",
+      "group": "┃TR┃ SINEMA PLATFORM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinematvkomedi1",
+      "name": "┃TR┃ SINEMA TV KOMEDI 1",
+      "group": "┃TR┃ SINEMA YABANCI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinematvkomedi2",
+      "name": "┃TR┃ SINEMA TV KOMEDI 2",
+      "group": "┃TR┃ SINEMA YABANCI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinematvyerli",
+      "name": "┃TR┃ SINEMA TV YERLI",
+      "group": "┃TR┃ SINEMA PLATFORM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinematvyerli1",
+      "name": "┃TR┃ SINEMA TV YERLI 1",
+      "group": "┃TR┃ SINEMA YABANCI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinematvyerli2",
+      "name": "┃TR┃ SINEMA TV YERLI 2",
+      "group": "┃TR┃ SINEMA PLATFORM",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinematvsinematv",
+      "name": "┃TR┃ SINEMA TVSINEMA TV",
+      "group": "┃TR┃ SINEMA PLATFORM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli1",
+      "name": "┃TR┃ SINEMA YERLI 1",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli11",
+      "name": "┃TR┃ SINEMA YERLI 11",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli13",
+      "name": "┃TR┃ SINEMA YERLI 13",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli14",
+      "name": "┃TR┃ SINEMA YERLI 14",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli16",
+      "name": "┃TR┃ SINEMA YERLI 16",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli17",
+      "name": "┃TR┃ SINEMA YERLI 17",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli18",
+      "name": "┃TR┃ SINEMA YERLI 18",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli2",
+      "name": "┃TR┃ SINEMA YERLI 2",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli20",
+      "name": "┃TR┃ SINEMA YERLI 20",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli21",
+      "name": "┃TR┃ SINEMA YERLI 21",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli22",
+      "name": "┃TR┃ SINEMA YERLI 22",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli25",
+      "name": "┃TR┃ SINEMA YERLI 25",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli27",
+      "name": "┃TR┃ SINEMA YERLI 27",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli28",
+      "name": "┃TR┃ SINEMA YERLI 28",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli29",
+      "name": "┃TR┃ SINEMA YERLI 29",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli3",
+      "name": "┃TR┃ SINEMA YERLI 3",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli30",
+      "name": "┃TR┃ SINEMA YERLI 30",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli31",
+      "name": "┃TR┃ SINEMA YERLI 31",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli35",
+      "name": "┃TR┃ SINEMA YERLI 35",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli36",
+      "name": "┃TR┃ SINEMA YERLI 36",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli37",
+      "name": "┃TR┃ SINEMA YERLI 37",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli38",
+      "name": "┃TR┃ SINEMA YERLI 38",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli39",
+      "name": "┃TR┃ SINEMA YERLI 39",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli4",
+      "name": "┃TR┃ SINEMA YERLI 4",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli40",
+      "name": "┃TR┃ SINEMA YERLI 40",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli43",
+      "name": "┃TR┃ SINEMA YERLI 43",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli44",
+      "name": "┃TR┃ SINEMA YERLI 44",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli45",
+      "name": "┃TR┃ SINEMA YERLI 45",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli46",
+      "name": "┃TR┃ SINEMA YERLI 46",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli47",
+      "name": "┃TR┃ SINEMA YERLI 47",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli48",
+      "name": "┃TR┃ SINEMA YERLI 48",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli49",
+      "name": "┃TR┃ SINEMA YERLI 49",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli5",
+      "name": "┃TR┃ SINEMA YERLI 5",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli50",
+      "name": "┃TR┃ SINEMA YERLI 50",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli6",
+      "name": "┃TR┃ SINEMA YERLI 6",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli7",
+      "name": "┃TR┃ SINEMA YERLI 7",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli8",
+      "name": "┃TR┃ SINEMA YERLI 8",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsinemayerli9",
+      "name": "┃TR┃ SINEMA YERLI 9",
+      "group": "┃TR┃ SINEMA YERLI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsipahi",
+      "name": "┃TR┃ SIPAHI",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsirinler",
+      "name": "┃TR┃ SIRINLER",
+      "group": "┃TR┃ COCUK",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsltvaction",
+      "name": "┃TR┃ SLTV ACTION",
+      "group": "┃TR┃ SINEMA SALON",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsltvgold",
+      "name": "┃TR┃ SLTV GOLD",
+      "group": "┃TR┃ SINEMA SALON",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsltvkemalsunal",
+      "name": "┃TR┃ SLTV KEMAL SUNAL",
+      "group": "┃TR┃ SINEMA SALON",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsltvkemalsunal1",
+      "name": "┃TR┃ SLTV KEMAL SUNAL 1",
+      "group": "┃TR┃ SINEMA SALON",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsltvkemalsunal2",
+      "name": "┃TR┃ SLTV KEMAL SUNAL 2",
+      "group": "┃TR┃ SINEMA SALON",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsltvkomedi",
+      "name": "┃TR┃ SLTV KOMEDI",
+      "group": "┃TR┃ SINEMA SALON",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsltvpremium",
+      "name": "┃TR┃ SLTV PREMIUM",
+      "group": "┃TR┃ SINEMA SALON",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsltvwestern",
+      "name": "┃TR┃ SLTV WESTERN",
+      "group": "┃TR┃ SINEMA SALON",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsltvyesilcam1",
+      "name": "┃TR┃ SLTV YESILCAM 1",
+      "group": "┃TR┃ SINEMA SALON",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsltvyesilcam2",
+      "name": "┃TR┃ SLTV YESILCAM 2",
+      "group": "┃TR┃ SINEMA SALON",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsltvyesilcam3",
+      "name": "┃TR┃ SLTV YESILCAM 3",
+      "group": "┃TR┃ SINEMA SALON",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsondurak",
+      "name": "┃TR┃ SON DURAK",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trspiderman",
+      "name": "┃TR┃ SPIDER-MAN",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsuc1",
+      "name": "┃TR┃ SUÇ 1",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsuc2",
+      "name": "┃TR┃ SUÇ 2",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsuc3",
+      "name": "┃TR┃ SUÇ 3",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsuperman",
+      "name": "┃TR┃ SUPERMAN",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsuperbaba",
+      "name": "┃TR┃ SÜPER BABA",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsylvesterstallone",
+      "name": "┃TR┃ SYLVESTER STALLONE",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsenersen1",
+      "name": "┃TR┃ ŞENER ŞEN 1",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsenersen2",
+      "name": "┃TR┃ ŞENER ŞEN 2",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsenersen3",
+      "name": "┃TR┃ ŞENER ŞEN 3",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsenersen4",
+      "name": "┃TR┃ ŞENER ŞEN 4",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trsenersen5",
+      "name": "┃TR┃ ŞENER ŞEN 5",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trserefsozu",
+      "name": "┃TR┃ ŞEREF SÖZÜ",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtarikakan1",
+      "name": "┃TR┃ TARIK AKAN 1",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtarikakan2",
+      "name": "┃TR┃ TARIK AKAN 2",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtasiyici",
+      "name": "┃TR┃ TAŞIYICI",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtatarramazan",
+      "name": "┃TR┃ TATAR RAMAZAN",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtatliintikam",
+      "name": "┃TR┃ TATLI İNTIKAM",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtaxi",
+      "name": "┃TR┃ TAXI",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtemelicgudu",
+      "name": "┃TR┃ TEMEL İÇGÜDÜ",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trterminator",
+      "name": "┃TR┃ TERMINATÖR",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtestere",
+      "name": "┃TR┃ TESTERE",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtetikcininoglu",
+      "name": "┃TR┃ TETIKÇININ OĞLU",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trthekaratekid",
+      "name": "┃TR┃ THE KARATE KID",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trthor",
+      "name": "┃TR┃ THOR",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtopimdb1",
+      "name": "┃TR┃ TOP IMDB 1",
+      "group": "┃TR┃ TOP IMDB",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtopimdb11",
+      "name": "┃TR┃ TOP IMDB 11",
+      "group": "┃TR┃ TOP IMDB",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtopimdb13",
+      "name": "┃TR┃ TOP IMDB 13",
+      "group": "┃TR┃ TOP IMDB",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtopimdb14",
+      "name": "┃TR┃ TOP IMDB 14",
+      "group": "┃TR┃ TOP IMDB",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtopimdb16",
+      "name": "┃TR┃ TOP IMDB 16",
+      "group": "┃TR┃ TOP IMDB",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtopimdb17",
+      "name": "┃TR┃ TOP IMDB 17",
+      "group": "┃TR┃ TOP IMDB",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtopimdb18",
+      "name": "┃TR┃ TOP IMDB 18",
+      "group": "┃TR┃ TOP IMDB",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtopimdb2",
+      "name": "┃TR┃ TOP IMDB 2",
+      "group": "┃TR┃ TOP IMDB",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtopimdb20",
+      "name": "┃TR┃ TOP IMDB 20",
+      "group": "┃TR┃ TOP IMDB",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtopimdb3",
+      "name": "┃TR┃ TOP IMDB 3",
+      "group": "┃TR┃ TOP IMDB",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtopimdb4",
+      "name": "┃TR┃ TOP IMDB 4",
+      "group": "┃TR┃ TOP IMDB",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtopimdb5",
+      "name": "┃TR┃ TOP IMDB 5",
+      "group": "┃TR┃ TOP IMDB",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtopimdb6",
+      "name": "┃TR┃ TOP IMDB 6",
+      "group": "┃TR┃ TOP IMDB",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtopimdb7",
+      "name": "┃TR┃ TOP IMDB 7",
+      "group": "┃TR┃ TOP IMDB",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtopimdb8",
+      "name": "┃TR┃ TOP IMDB 8",
+      "group": "┃TR┃ TOP IMDB",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtopimdb9",
+      "name": "┃TR┃ TOP IMDB 9",
+      "group": "┃TR┃ TOP IMDB",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtozluyaka",
+      "name": "┃TR┃ TOZLUYAKA",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtransformers",
+      "name": "┃TR┃ TRANSFORMERS",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trturkansoray1",
+      "name": "┃TR┃ TÜRKAN ŞORAY 1",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trturkansoray2",
+      "name": "┃TR┃ TÜRKAN ŞORAY 2",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trturkansoray3",
+      "name": "┃TR┃ TÜRKAN ŞORAY 3",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trturkansoray4",
+      "name": "┃TR┃ TÜRKAN ŞORAY 4",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trturkansoray5",
+      "name": "┃TR┃ TÜRKAN ŞORAY 5",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trturkansoray6",
+      "name": "┃TR┃ TÜRKAN ŞORAY 6",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtv5",
+      "name": "┃TR┃ TV 5",
+      "group": "┃TR┃ YEREL",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtv8",
+      "name": "┃TR┃ TV 8",
+      "group": "┃TR┃ ULUSAL",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtv88k",
+      "name": "┃TR┃ TV 8 8K",
+      "group": "┃TR┃ ULUSAL",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trtv8int",
+      "name": "┃TR┃ TV 8 INT",
+      "group": "┃TR┃ ULUSAL",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trulusalkanal",
+      "name": "┃TR┃ ULUSAL KANAL",
+      "group": "┃TR┃ YEREL",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "truckurus",
+      "name": "┃TR┃ ÜÇ KURUŞ",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trucrenk",
+      "name": "┃TR┃ ÜÇ RENK",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trvandamme",
+      "name": "┃TR┃ VAN DAMME",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trviasatexplore",
+      "name": "┃TR┃ VIASAT EXPLORE",
+      "group": "┃TR┃ BELGESEL",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trviasathistory",
+      "name": "┃TR┃ VIASAT HISTORY",
+      "group": "┃TR┃ BELGESEL",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trwestern1",
+      "name": "┃TR┃ WESTERN 1",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trwestern2",
+      "name": "┃TR┃ WESTERN 2",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trwestern3",
+      "name": "┃TR┃ WESTERN 3",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trxmen",
+      "name": "┃TR┃ X-MEN",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tryaratik",
+      "name": "┃TR┃ YARATIK",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tryargi",
+      "name": "┃TR┃ YARGI",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tryasakelma",
+      "name": "┃TR┃ YASAK ELMA",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tryenilmezler",
+      "name": "┃TR┃ YENILMEZLER",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tryeralticanavari",
+      "name": "┃TR┃ YERALTI CANAVARI",
+      "group": "┃TR┃ SINEMA SERILERI",
+      "urlCount": 20,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tryerli1",
+      "name": "┃TR┃ YERLI 1",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tryerli2",
+      "name": "┃TR┃ YERLI 2",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tryerli3",
+      "name": "┃TR┃ YERLI 3",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tryerlibox1",
+      "name": "┃TR┃ YERLI BOX 1",
+      "group": "┃TR┃ SINEMA SALON",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tryerlibox2",
+      "name": "┃TR┃ YERLI BOX 2",
+      "group": "┃TR┃ SINEMA SALON",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tryerlibox3",
+      "name": "┃TR┃ YERLI BOX 3",
+      "group": "┃TR┃ SINEMA SALON",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tryerlibox4",
+      "name": "┃TR┃ YERLI BOX 4",
+      "group": "┃TR┃ SINEMA SALON",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tryerlibox5",
+      "name": "┃TR┃ YERLI BOX 5",
+      "group": "┃TR┃ SINEMA SALON",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tryesilcamsinema",
+      "name": "┃TR┃ YESILCAM SINEMA",
+      "group": "┃TR┃ SINEMA SALON",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tryesilcam1",
+      "name": "┃TR┃ YEŞILÇAM 1",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tryesilcam2",
+      "name": "┃TR┃ YEŞILÇAM 2",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tryesilcam3",
+      "name": "┃TR┃ YEŞILÇAM 3",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tryesilcam4",
+      "name": "┃TR┃ YEŞILÇAM 4",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tryesilcam5",
+      "name": "┃TR┃ YEŞILÇAM 5",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tryesilcam6",
+      "name": "┃TR┃ YEŞILÇAM 6",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tryilanhikayesi",
+      "name": "┃TR┃ YILAN HIKAYESI",
+      "group": "┃TR┃ PREMIUM DIZILER",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tryildizsavaslari",
+      "name": "┃TR┃ YILDIZ SAVAŞLARI",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "tryuzuklerinefendisi",
+      "name": "┃TR┃ YÜZÜKLERIN EFENDISI",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trzekimetinakpinar1",
+      "name": "┃TR┃ ZEKI & METIN AKPINAR 1",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trzekimetinakpinar2",
+      "name": "┃TR┃ ZEKI & METIN AKPINAR 2",
+      "group": "┃TR┃ SINEMA YEŞILÇAM",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "trzorolum",
+      "name": "┃TR┃ ZOR ÖLÜM",
+      "group": "┃TR┃ SINEMA REX",
+      "urlCount": 10,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "m3uindexstbemualintidir",
+      "name": "⚠️ M3U Index Stbemu Alıntıdır ‼️",
+      "group": "┃TR┃ ULUSAL",
+      "urlCount": 90,
+      "sourceId": "local-270506"
+    },
+    {
+      "key": "aalive",
+      "name": "AA Live",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c03"
+    },
+    {
+      "key": "agrotv",
+      "name": "Agro TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c05"
+    },
+    {
+      "key": "akillitv",
+      "name": "Akilli TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c08"
+    },
+    {
+      "key": "aktiftv",
+      "name": "Aktif TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c06"
+    },
+    {
+      "key": "anadoludernektv",
+      "name": "Anadolu Dernek TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c08"
+    },
+    {
+      "key": "apatv",
+      "name": "Apa TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest4"
+    },
+    {
+      "key": "arabesktv",
+      "name": "Arabesk TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c04"
+    },
+    {
+      "key": "arb",
+      "name": "ARB",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest4"
+    },
+    {
+      "key": "arbkpz",
+      "name": "ARB Kəpəz",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest4"
+    },
+    {
+      "key": "azadtv",
+      "name": "Azad TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest4"
+    },
+    {
+      "key": "azgeotv",
+      "name": "AZGEO TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest4"
+    },
+    {
+      "key": "bartintv",
+      "name": "Bartin TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c08"
+    },
+    {
+      "key": "belediyegundemtv",
+      "name": "Belediye Gündem TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c08"
+    },
+    {
+      "key": "belediyetv",
+      "name": "Belediye TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c08"
+    },
+    {
+      "key": "berattv",
+      "name": "Berat TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c08"
+    },
+    {
+      "key": "besiktasbelediyesiwebtv",
+      "name": "Beşiktaş Belediyesi Web TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c08"
+    },
+    {
+      "key": "biattv",
+      "name": "Biat TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c04"
+    },
+    {
+      "key": "bitlistv",
+      "name": "Bitlis TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c08"
+    },
+    {
+      "key": "bizimaturktv",
+      "name": "Bizim Atürk TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c08"
+    },
+    {
+      "key": "blutvaksiyon",
+      "name": "BLUTV Aksiyon",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c06"
+    },
+    {
+      "key": "blutvkomedi",
+      "name": "BLUTV KOMEDI",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c06"
+    },
+    {
+      "key": "bodrumbelediyesiwebtv",
+      "name": "Bodrum Belediyesi Web TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c08"
+    },
+    {
+      "key": "boztepetv",
+      "name": "Boztepe TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c08"
+    },
+    {
+      "key": "buyukalanyatv",
+      "name": "Büyük Alanya TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c09"
+    },
+    {
+      "key": "cartoonnetwork",
+      "name": "Cartoon Network",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c05"
+    },
+    {
+      "key": "cbc",
+      "name": "CBC",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest4"
+    },
+    {
+      "key": "canakkalewebtv",
+      "name": "ÇANAKKALE WEB TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c09"
+    },
+    {
+      "key": "cekmekoywebtv",
+      "name": "ÇEKMEKÖY WEB TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c09"
+    },
+    {
+      "key": "damartv",
+      "name": "Damar TV",
+      "group": "Diğer",
+      "urlCount": 2,
+      "sourceId": "playlist-c04"
+    },
+    {
+      "key": "dehatv",
+      "name": "DEHA TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c09"
+    },
+    {
+      "key": "dersim62tv",
+      "name": "Dersim 62 TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c09"
+    },
+    {
+      "key": "diyalogtv",
+      "name": "DIYALOG TV",
+      "group": "Diğer",
+      "urlCount": 2,
+      "sourceId": "playlist-c02"
+    },
+    {
+      "key": "disneychannel",
+      "name": "Disney Channel",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c05"
+    },
+    {
+      "key": "dogustv",
+      "name": "Doğuş TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c10"
+    },
+    {
+      "key": "drtdenizli",
+      "name": "DRT DENIZLI",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c10"
+    },
+    {
+      "key": "egeaturktv",
+      "name": "Ege Atürk TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c10"
+    },
+    {
+      "key": "egetv",
+      "name": "Ege TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c10"
+    },
+    {
+      "key": "elmastv",
+      "name": "Elmas TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c10"
+    },
+    {
+      "key": "ezotv",
+      "name": "Ezo TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c04"
+    },
+    {
+      "key": "falastinitv",
+      "name": "Falastini TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest4"
+    },
+    {
+      "key": "frttv",
+      "name": "FRT TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c11"
+    },
+    {
+      "key": "fuartv",
+      "name": "Fuar TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c11"
+    },
+    {
+      "key": "gaziantepolaytv",
+      "name": "Gaziantep Olay TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c11"
+    },
+    {
+      "key": "genctv",
+      "name": "Genç TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c07"
+    },
+    {
+      "key": "genctvsmstv",
+      "name": "Genç TV Sms TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c04"
+    },
+    {
+      "key": "goncatv",
+      "name": "Gonca TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c11"
+    },
+    {
+      "key": "grtgaziantep",
+      "name": "GRT Gaziantep",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c11"
+    },
+    {
+      "key": "gstvgalatasaray",
+      "name": "GS TV Galatasaray",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c03"
+    },
+    {
+      "key": "gunaztv",
+      "name": "Günaz TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest4"
+    },
+    {
+      "key": "ibbtv",
+      "name": "IBB TV",
+      "group": "Diğer",
+      "urlCount": 2,
+      "sourceId": "playlist-c06"
+    },
+    {
+      "key": "ibbtv2",
+      "name": "IBB TV 2",
+      "group": "Diğer",
+      "urlCount": 2,
+      "sourceId": "playlist-c06"
+    },
+    {
+      "key": "ictimai",
+      "name": "Ictimai",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest4"
+    },
+    {
+      "key": "interaztv",
+      "name": "InterAz TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest4"
+    },
+    {
+      "key": "istanbultv",
+      "name": "Istanbul TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c11"
+    },
+    {
+      "key": "kanal101",
+      "name": "KANAL 101",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "kanal38",
+      "name": "KANAL 38",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "kanal56",
+      "name": "KANAL 56",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "kanal57tokat",
+      "name": "Kanal 57 Tokat",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "kanal60tv",
+      "name": "Kanal 60 TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "kanal68",
+      "name": "KANAL 68",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "kanalaalanya",
+      "name": "KANAL A ALANYA",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "kanalartvin",
+      "name": "Kanal Artvin",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "kanalb",
+      "name": "KANAL B",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "kanalege",
+      "name": "Kanal Ege",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "kanalordu",
+      "name": "KANAL ORDU",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c05"
+    },
+    {
+      "key": "kanalordutv",
+      "name": "Kanal Ordu TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "kanalt",
+      "name": "Kanal T",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c07"
+    },
+    {
+      "key": "kanalvvipantalya",
+      "name": "KANAL V VIP Antalya",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "kapadokyatv",
+      "name": "Kapadokya TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "kontv",
+      "name": "KON TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "koroglutv",
+      "name": "KÖROGLU TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "leblebitv",
+      "name": "Leblebi TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c04"
+    },
+    {
+      "key": "libyaalahrartv",
+      "name": "Libya Al-Ahrar TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest4"
+    },
+    {
+      "key": "manisawebtv",
+      "name": "Manisa Web TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "marmaratv",
+      "name": "Marmara TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest"
+    },
+    {
+      "key": "merkeztv",
+      "name": "Merkez TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest2"
+    },
+    {
+      "key": "meterolojitv",
+      "name": "Meteroloji TV",
+      "group": "Diğer",
+      "urlCount": 2,
+      "sourceId": "playlist-c07"
+    },
+    {
+      "key": "mihraptv",
+      "name": "Mihrap TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c05"
+    },
+    {
+      "key": "mortv",
+      "name": "MOR TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest2"
+    },
+    {
+      "key": "msbckanal2000",
+      "name": "MSBC Kanal 2000",
+      "group": "Diğer",
+      "urlCount": 2,
+      "sourceId": "playlist-c05"
+    },
+    {
+      "key": "muztv",
+      "name": "Muz TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest4"
+    },
+    {
+      "key": "naxcivantv",
+      "name": "Naxçıvan TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest4"
+    },
+    {
+      "key": "nhttv",
+      "name": "NHT TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c07"
+    },
+    {
+      "key": "oguntv",
+      "name": "OGÜN TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest2"
+    },
+    {
+      "key": "otagtv",
+      "name": "Otağ TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest2"
+    },
+    {
+      "key": "pamukkaletv",
+      "name": "PAMUKKALE TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest2"
+    },
+    {
+      "key": "qafqaztv",
+      "name": "Qafqaz TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest4"
+    },
+    {
+      "key": "qbltv",
+      "name": "Qəbələ TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest4"
+    },
+    {
+      "key": "royaltv",
+      "name": "Royal TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest2"
+    },
+    {
+      "key": "rumelitv",
+      "name": "RUMELI TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest2"
+    },
+    {
+      "key": "sakaryatv",
+      "name": "Sakarya TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest2"
+    },
+    {
+      "key": "sariyertv",
+      "name": "Sariyer TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest2"
+    },
+    {
+      "key": "silatv",
+      "name": "Sıla TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c04"
+    },
+    {
+      "key": "simtv",
+      "name": "Sim TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c07"
+    },
+    {
+      "key": "sinopyildiztv",
+      "name": "Sinop Yildiz TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest2"
+    },
+    {
+      "key": "sivasbelediyesitv",
+      "name": "Sivas Belediyesi TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest2"
+    },
+    {
+      "key": "sivassrt",
+      "name": "Sivas SRT",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest2"
+    },
+    {
+      "key": "stktv",
+      "name": "STK TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest2"
+    },
+    {
+      "key": "suntvkonya",
+      "name": "SUN TV Konya",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest2"
+    },
+    {
+      "key": "superkanalbursa",
+      "name": "Süper Kanal Bursa",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest3"
+    },
+    {
+      "key": "supertvtokat",
+      "name": "Süper TV Tokat",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest3"
+    },
+    {
+      "key": "surmelitvyozgat",
+      "name": "Sürmeli TV Yozgat",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c06"
+    },
+    {
+      "key": "syriatv",
+      "name": "Syria TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest4"
+    },
+    {
+      "key": "tatlisestv",
+      "name": "Tatlises TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c04"
+    },
+    {
+      "key": "te60tvtokat",
+      "name": "TE60 TV Tokat",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest3"
+    },
+    {
+      "key": "thaqalayntv",
+      "name": "Thaqalayn TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest4"
+    },
+    {
+      "key": "torbatv",
+      "name": "Torba TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c06"
+    },
+    {
+      "key": "tr6tv",
+      "name": "TR6 TV",
+      "group": "Diğer",
+      "urlCount": 2,
+      "sourceId": "playlist-yerel-rest3"
+    },
+    {
+      "key": "trakyaturktv",
+      "name": "Trakyatürk TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest3"
+    },
+    {
+      "key": "turantv",
+      "name": "Turan TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest4"
+    },
+    {
+      "key": "tuzlawebtv",
+      "name": "Tuzla Web TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest3"
+    },
+    {
+      "key": "tv2020",
+      "name": "TV 2020",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c07"
+    },
+    {
+      "key": "tv35",
+      "name": "TV 35",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest3"
+    },
+    {
+      "key": "tv38",
+      "name": "TV 38",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest3"
+    },
+    {
+      "key": "tv9izmir",
+      "name": "TV 9 Izmir",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest3"
+    },
+    {
+      "key": "tva",
+      "name": "TV A",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest3"
+    },
+    {
+      "key": "ucankustv",
+      "name": "Uçankuş TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest3"
+    },
+    {
+      "key": "universitetv",
+      "name": "Üniversite TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest3"
+    },
+    {
+      "key": "uutvuskudaruniversitesitv",
+      "name": "ÜÜ TV Üsküdar Üniversitesi TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest3"
+    },
+    {
+      "key": "womantv",
+      "name": "Woman TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest4"
+    },
+    {
+      "key": "xezer",
+      "name": "Xezer",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest4"
+    },
+    {
+      "key": "yarentv",
+      "name": "Yaren TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest4"
+    },
+    {
+      "key": "yesilyurttv",
+      "name": "Yeşilyurt TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-yerel-rest4"
+    },
+    {
+      "key": "zeynotv",
+      "name": "Zeyno TV",
+      "group": "Diğer",
+      "urlCount": 1,
+      "sourceId": "playlist-c04"
+    }
+  ]
+}

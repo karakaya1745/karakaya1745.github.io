@@ -1,0 +1,138 @@
+# M3U vs Katalog Karşılaştırması
+
+Oluşturulma: 2026-09-01T11:42:18.657Z
+M3U kaynak sayısı: 38
+Katalog kanal sayısı: 1014
+Toplam eksik (şifresiz): **24**
+Toplam eksik (tüm): **736**
+
+## Eksik şifresiz kanallar
+
+- **Belediye Gündem TV** (Diğer) — kaynak: `playlist-c08`, URL: 1
+- **Belediye TV** (Diğer) — kaynak: `playlist-c08`, URL: 1
+- **Cartoon Network** (Diğer) — kaynak: `playlist-c05`, URL: 1
+- **Gaziantep Olay TV** (Diğer) — kaynak: `playlist-c11`, URL: 1
+- **GRT Gaziantep** (Diğer) — kaynak: `playlist-c11`, URL: 1
+- **Istanbul TV** (Diğer) — kaynak: `playlist-c11`, URL: 1
+- **KANAL 101** (Diğer) — kaynak: `playlist-yerel-rest`, URL: 1
+- **KANAL 38** (Diğer) — kaynak: `playlist-yerel-rest`, URL: 1
+- **KANAL 56** (Diğer) — kaynak: `playlist-yerel-rest`, URL: 1
+- **Kanal 57 Tokat** (Diğer) — kaynak: `playlist-yerel-rest`, URL: 1
+- **Kanal 60 TV** (Diğer) — kaynak: `playlist-yerel-rest`, URL: 1
+- **KANAL 68** (Diğer) — kaynak: `playlist-yerel-rest`, URL: 1
+- **KANAL A ALANYA** (Diğer) — kaynak: `playlist-yerel-rest`, URL: 1
+- **Kanal Artvin** (Diğer) — kaynak: `playlist-yerel-rest`, URL: 1
+- **KANAL B** (Diğer) — kaynak: `playlist-yerel-rest`, URL: 1
+- **Kanal Ege** (Diğer) — kaynak: `playlist-yerel-rest`, URL: 1
+- **KANAL ORDU** (Diğer) — kaynak: `playlist-c05`, URL: 1
+- **Kanal Ordu TV** (Diğer) — kaynak: `playlist-yerel-rest`, URL: 1
+- **Kanal T** (Diğer) — kaynak: `playlist-c07`, URL: 1
+- **KANAL V VIP Antalya** (Diğer) — kaynak: `playlist-yerel-rest`, URL: 1
+- **MSBC Kanal 2000** (Diğer) — kaynak: `playlist-c05`, URL: 2
+- **SUN TV Konya** (Diğer) — kaynak: `playlist-yerel-rest2`, URL: 1
+- **Süper Kanal Bursa** (Diğer) — kaynak: `playlist-yerel-rest3`, URL: 1
+- **TV 9 Izmir** (Diğer) — kaynak: `playlist-yerel-rest3`, URL: 1
+
+## Eksik (şifreli dahil, katalogda yok)
+
+- **┃TR┃ 13. CUMA** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ 24KITCHEN** (┃TR┃ BELGESEL)
+- **┃TR┃ 300 SPARTALI** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ AÇLIK OYUNLARI** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ ADALET** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ ADANALI** (┃TR┃ PREMIUM DIZILER)
+- **┃TR┃ AILE** (┃TR┃ PREMIUM DIZILER)
+- **┃TR┃ AILE 1** (┃TR┃ SINEMA REX)
+- **┃TR┃ AILE 2** (┃TR┃ SINEMA REX)
+- **┃TR┃ AKASYA DURAĞI** (┃TR┃ PREMIUM DIZILER)
+- **┃TR┃ AKILLI TV** (┃TR┃ YEREL)
+- **┃TR┃ AKINCI** (┃TR┃ PREMIUM DIZILER)
+- **┃TR┃ AKREP** (┃TR┃ PREMIUM DIZILER)
+- **┃TR┃ AKSIYON 1** (┃TR┃ SINEMA REX)
+- **┃TR┃ AKSIYON 2** (┃TR┃ SINEMA REX)
+- **┃TR┃ AKSIYON 3** (┃TR┃ SINEMA REX)
+- **┃TR┃ ALACAKARANLIK** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ ALDATMAK** (┃TR┃ PREMIUM DIZILER)
+- **┃TR┃ ALEV KAPANI** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ ALI KUNDILLI** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ ALMAN KUZUSU** (┃TR┃ PREMIUM DIZILER)
+- **┃TR┃ ALTIN KAFES** (┃TR┃ PREMIUM DIZILER)
+- **┃TR┃ AMERIKAN PASTASI** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ ANGELINA JOLIE** (┃TR┃ SINEMA REX)
+- **┃TR┃ ANIMAUX** (┃TR┃ BELGESEL)
+- **┃TR┃ ANT-MAN** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ ARAF** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ ARINMA GECESI** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ ARIZA** (┃TR┃ PREMIUM DIZILER)
+- **┃TR┃ AŞK MANTIK İNTIKAM** (┃TR┃ PREMIUM DIZILER)
+- **┃TR┃ AŞK TESADÜFLERI SEVER** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ AŞK-I MEMNU** (┃TR┃ PREMIUM DIZILER)
+- **┃TR┃ AŞKIN TARIFI** (┃TR┃ PREMIUM DIZILER)
+- **┃TR┃ ATEŞ KUŞLARI** (┃TR┃ PREMIUM DIZILER)
+- **┃TR┃ AVLU** (┃TR┃ PREMIUM DIZILER)
+- **┃TR┃ AYKUT ENIŞTE** (┃TR┃ SINEMA REX)
+- **┃TR┃ AZAZIL** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ AZEM** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ AZIZ** (┃TR┃ PREMIUM DIZILER)
+- **┃TR┃ BABA** (┃TR┃ SINEMA REX)
+- **┃TR┃ BABALAR SAVAŞIYOR** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ BABIL** (┃TR┃ PREMIUM DIZILER)
+- **┃TR┃ BABY TV** (┃TR┃ COCUK)
+- **┃TR┃ BANU ALKAN 1** (┃TR┃ SINEMA YEŞILÇAM)
+- **┃TR┃ BARAJ** (┃TR┃ PREMIUM DIZILER)
+- **┃TR┃ BARBAR CONAN** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ BARBIE** (┃TR┃ COCUK)
+- **┃TR┃ BARBIE TV** (┃TR┃ COCUK)
+- **┃TR┃ BASKIN** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ BATMAN** (┃TR┃ SINEMA REX)
+- **┃TR┃ BATMAN SERISI** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ BBC EARTH** (┃TR┃ BELGESEL)
+- **┃TR┃ BEHZAT Ç.** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ BEN BU CIHANA SIĞMAZAM** (┃TR┃ PREMIUM DIZILER)
+- **┃TR┃ BIÇAĞIN İKI YÜZÜ** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ BIÇAK SIRTI** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ BILIM KURGU 1** (┃TR┃ SINEMA REX)
+- **┃TR┃ BILIM KURGU 2** (┃TR┃ SINEMA REX)
+- **┃TR┃ BILIM KURGU 3** (┃TR┃ SINEMA REX)
+- **┃TR┃ BITIRIM İKILI** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ BIYOGRAFI 1** (┃TR┃ SINEMA REX)
+- **┃TR┃ BIYOGRAFI 2** (┃TR┃ SINEMA REX)
+- **┃TR┃ BIYOGRAFI 3** (┃TR┃ SINEMA REX)
+- **┃TR┃ BLADE** (┃TR┃ SINEMA REX)
+- **┃TR┃ BLOOMBERG** (┃TR┃ HABER)
+- **┃TR┃ BLOOMBERG 8K** (┃TR┃ HABER)
+- **┃TR┃ BOLLYWOOD MOVIES 1** (┃TR┃ BOLLYWOOD SINEMA)
+- **┃TR┃ BOLLYWOOD MOVIES 11** (┃TR┃ BOLLYWOOD SINEMA)
+- **┃TR┃ BOLLYWOOD MOVIES 13** (┃TR┃ BOLLYWOOD SINEMA)
+- **┃TR┃ BOLLYWOOD MOVIES 14** (┃TR┃ BOLLYWOOD SINEMA)
+- **┃TR┃ BOLLYWOOD MOVIES 2** (┃TR┃ BOLLYWOOD SINEMA)
+- **┃TR┃ BOLLYWOOD MOVIES 3** (┃TR┃ BOLLYWOOD SINEMA)
+- **┃TR┃ BOLLYWOOD MOVIES 4** (┃TR┃ BOLLYWOOD SINEMA)
+- **┃TR┃ BOLLYWOOD MOVIES 5** (┃TR┃ BOLLYWOOD SINEMA)
+- **┃TR┃ BOLLYWOOD MOVIES 6** (┃TR┃ BOLLYWOOD SINEMA)
+- **┃TR┃ BOLLYWOOD MOVIES 7** (┃TR┃ BOLLYWOOD SINEMA)
+- **┃TR┃ BOLLYWOOD MOVIES 8** (┃TR┃ BOLLYWOOD SINEMA)
+- **┃TR┃ BOLLYWOOD MOVIES 9** (┃TR┃ BOLLYWOOD SINEMA)
+- **┃TR┃ BOYUN EĞMEZ** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ BUZ DEVRI** (┃TR┃ SINEMA REX)
+- **┃TR┃ BÜYÜK SELÇUKLU** (┃TR┃ PREMIUM DIZILER)
+- **┃TR┃ CADILAR BAYRAMI** (┃TR┃ SINEMA REX)
+- **┃TR┃ CAILLOU** (┃TR┃ COCUK)
+- **┃TR┃ CAM TAVANLAR** (┃TR┃ PREMIUM DIZILER)
+- **┃TR┃ CAMDAKI KIZ** (┃TR┃ PREMIUM DIZILER)
+- **┃TR┃ CARTOON NETWORK** (┃TR┃ COCUK)
+- **┃TR┃ CBEEBIES** (┃TR┃ COCUK)
+- **┃TR┃ CEHENNEM MELEKLER** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ CEHENNEM MELEKLERI** (┃TR┃ SINEMA REX)
+- **┃TR┃ CEHENNEM SILAHI** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ CENNET MAHALLESI** (┃TR┃ PREMIUM DIZILER)
+- **┃TR┃ CHARLIE'NIN MELEKLERI** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ COCUKSMART** (┃TR┃ COCUK)
+- **┃TR┃ CUBE** (┃TR┃ SINEMA REX)
+- **┃TR┃ CUMALI CEBER** (┃TR┃ SINEMA SERILERI)
+- **┃TR┃ CÜNEYT ARKIN 1** (┃TR┃ SINEMA YEŞILÇAM)
+- **┃TR┃ CÜNEYT ARKIN 2** (┃TR┃ SINEMA YEŞILÇAM)
+- **┃TR┃ CÜNEYT ARKIN 3** (┃TR┃ SINEMA YEŞILÇAM)
+- **┃TR┃ CÜNEYT ARKIN 4** (┃TR┃ SINEMA YEŞILÇAM)
+- **┃TR┃ CÜNEYT ARKIN 5** (┃TR┃ SINEMA YEŞILÇAM)
+- _... ve 636 kanal daha_

@@ -6788,5 +6788,11 @@
     "url": "https://www.kocaelitv.com.tr/",
     "category": "Ulusal",
     "streamUrl": "https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8"
+  },
+  {
+    "name": "Space Toon",
+    "url": "https://www.spacetoon.com/",
+    "category": "Cocuk",
+    "streamUrl": "https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8"
   }
 ]

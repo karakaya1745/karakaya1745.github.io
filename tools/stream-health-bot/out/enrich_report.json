@@ -1,19 +1,50 @@
 {
-  "generatedAt": "2026-09-01T11:44:07.461Z",
+  "generatedAt": "2026-09-01T11:57:33.211Z",
   "dryRun": false,
   "skipProbe": false,
-  "targetCount": 1028,
+  "targetCount": 1029,
   "enriched": [
     {
-      "key": "finesttv",
+      "key": "a2",
       "added": 1,
       "urls": [
-        "http://media.finest.tv/hls/live.m3u8"
+        "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_720p.m3u8"
+      ],
+      "total": 19,
+      "probeResults": [
+        {
+          "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_720p.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        },
+        {
+          "url": "https://c.fulltvizle.com/a2/tracks-v1a1/mono.m3u8",
+          "live": false,
+          "reason": "timeout"
+        }
+      ]
+    },
+    {
+      "key": "adatv",
+      "added": 1,
+      "urls": [
+        "https://yayin1.canlitv.fun/live/kibrisadatv.stream/playlist.m3u8"
       ],
       "total": 3,
       "probeResults": [
         {
-          "url": "http://media.finest.tv/hls/live.m3u8",
+          "url": "https://sc-kuzeykibrissmarttv.ercdn.net/adatv/bant1/playlist.m3u8",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "https://spor.kuzeykibris.tv/m3u8/tv_ada.m3u8",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "https://yayin1.canlitv.fun/live/kibrisadatv.stream/playlist.m3u8",
           "live": true,
           "reason": "hls-manifest",
           "status": 206
@@ -21,15 +52,1517 @@
       ]
     },
     {
-      "key": "viyanatv",
+      "key": "ahaber",
       "added": 1,
       "urls": [
-        "http://nrttn172.kesintisizyayin.com:29010/nrttn/nrttn/playlist.m3u8"
+        "https://trkvz-live.ercdn.net/ahaberhd/ahaberhd.m3u8"
+      ],
+      "total": 19,
+      "probeResults": [
+        {
+          "url": "https://trkvz-live.ercdn.net/ahaberhd/ahaberhd.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        },
+        {
+          "url": "https://b.fulltvizle.com/ahaber/playlist.m3u8",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "https://c.fulltvizle.com/ahaber/index.m3u8",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197252&extension=ts&play_token=VNVj1xnbYU",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197288&extension=ts&play_token=5Ikrg2T6or",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197252&extension=ts&play_token=VNVj1xnbYU",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "key": "arastv",
+      "added": 1,
+      "urls": [
+        "https://2.rtmp.org/tv217/yayin.stream/chunklist.m3u8"
+      ],
+      "total": 2,
+      "probeResults": [
+        {
+          "url": "https://2.rtmp.org/tv217/yayin.stream/chunklist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "atvavrupa",
+      "added": 1,
+      "urls": [
+        "https://flask-api-hls-atvavrupahdtrkvz-live.onrender.com/hls_stream/master.m3u8"
+      ],
+      "total": 16,
+      "probeResults": [
+        {
+          "url": "https://flask-api-hls-atvavrupahdtrkvz-live.onrender.com/hls_stream/master.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "birtv",
+      "added": 1,
+      "urls": [
+        "https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8"
+      ],
+      "total": 6,
+      "probeResults": [
+        {
+          "url": "https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "brukselturk",
+      "added": 1,
+      "urls": [
+        "https://live.euromediacenter.com/brukselturk/tracks-v1a1/mono.m3u8"
+      ],
+      "total": 2,
+      "probeResults": [
+        {
+          "url": "https://live.euromediacenter.com/brukselturk/tracks-v1a1/mono.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "ciftcitv",
+      "added": 1,
+      "urls": [
+        "https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8"
+      ],
+      "total": 11,
+      "probeResults": [
+        {
+          "url": "https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "cnnturk",
+      "added": 1,
+      "urls": [
+        "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6926/index.m3u8"
+      ],
+      "total": 19,
+      "probeResults": [
+        {
+          "url": "https://tgn.bozztv.com/dvrfl05/gin-cnnturk/tracks-v1a1/mono.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6926/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "denizpostasi",
+      "added": 1,
+      "urls": [
+        "https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/chunks.m3u8"
+      ],
+      "total": 4,
+      "probeResults": [
+        {
+          "url": "https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/chunks.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "dimtv",
+      "added": 1,
+      "urls": [
+        "https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/chunks.m3u8"
+      ],
+      "total": 5,
+      "probeResults": [
+        {
+          "url": "https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/chunks.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "diyartv",
+      "added": 1,
+      "urls": [
+        "https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8"
       ],
       "total": 3,
       "probeResults": [
         {
-          "url": "http://nrttn172.kesintisizyayin.com:29010/nrttn/nrttn/playlist.m3u8",
+          "url": "https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "dmax",
+      "added": 1,
+      "urls": [
+        "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/2290/index.m3u8"
+      ],
+      "total": 19,
+      "probeResults": [
+        {
+          "url": "https://dogus-live.daioncdn.net/dmax/dmax_720p.m3u8",
+          "live": false,
+          "reason": "http-403",
+          "status": 403
+        },
+        {
+          "url": "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/2290/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "dreamturk",
+      "added": 1,
+      "urls": [
+        "https://live.duhnet.tv//S2/HLS_LIVE/dreamturknp/playlist.m3u8"
+      ],
+      "total": 19,
+      "probeResults": [
+        {
+          "url": "https://live.duhnet.tv//S2/HLS_LIVE/dreamturknp/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=724290&extension=ts&play_token=H8tbzRrnAq",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=724290&extension=ts&play_token=H8tbzRrnAq",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=724290&extension=ts&play_token=H8tbzRrnAq",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "key": "erciyestv",
+      "added": 1,
+      "urls": [
+        "https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/playlist.m3u8"
+      ],
+      "total": 2,
+      "probeResults": [
+        {
+          "url": "https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        },
+        {
+          "url": "https://59cba4d34b678.streamlock.net/canlitv/erciyestv/chunklist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "key": "eurod",
+      "added": 1,
+      "urls": [
+        "https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8"
+      ],
+      "total": 19,
+      "probeResults": [
+        {
+          "url": "https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "fbtv",
+      "added": 1,
+      "urls": [
+        "https://fbtv.fenerbahce.org/fenerbahcetv.stream/chunklist.m3u8"
+      ],
+      "total": 9,
+      "probeResults": [
+        {
+          "url": "https://fbtv.fenerbahce.org/fenerbahcetv.stream/chunklist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "fortunatv",
+      "added": 1,
+      "urls": [
+        "https://edge.taksimbilisim.com/ftvturk/bant1/playlist.m3u8"
+      ],
+      "total": 2,
+      "probeResults": [
+        {
+          "url": "https://edge.taksimbilisim.com/ftvturk/bant1/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "gurbet24tv",
+      "added": 1,
+      "urls": [
+        "http://cdn-gurbet24.yayin.com.tr/gurbet24/gurbet24/playlist.m3u8"
+      ],
+      "total": 3,
+      "probeResults": [
+        {
+          "url": "http://cdn1-gurbet24.yayin.com.tr/gurbet24/ngrp:gurbet24/playlist.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404
+        },
+        {
+          "url": "http://cdn-gurbet24.yayin.com.tr/gurbet24/gurbet24/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "haber61tv",
+      "added": 1,
+      "urls": [
+        "https://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/playlist.m3u8"
+      ],
+      "total": 6,
+      "probeResults": [
+        {
+          "url": "https://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "halktv",
+      "added": 1,
+      "urls": [
+        "https://halktv-live.daioncdn.net/halktv/halktv_1080p.m3u8"
+      ],
+      "total": 19,
+      "probeResults": [
+        {
+          "url": "https://halktv-live.daioncdn.net/halktv/halktv_1080p.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        },
+        {
+          "url": "https://halktvdvr.blutv.com/blutv_halktv2_dvr/live.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197301&extension=ts&play_token=h3FZ99syXZ",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197235&extension=ts&play_token=OG8Ro26N9C",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197301&extension=ts&play_token=h3FZ99syXZ",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "key": "isvicretv",
+      "added": 1,
+      "urls": [
+        "https://i41.ozelip.com:3269/hybrid/play.m3u8"
+      ],
+      "total": 2,
+      "probeResults": [
+        {
+          "url": "https://i41.ozelip.com:3269/hybrid/play.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "kanal19",
+      "added": 1,
+      "urls": [
+        "https://live.euromediacenter.com/kanal19/tracks-v1a1/mono.m3u8"
+      ],
+      "total": 2,
+      "probeResults": [
+        {
+          "url": "https://5be5d840359c6.streamlock.net/kanal19tv/kanal19tv/chunklist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "https://live.euromediacenter.com/kanal19/tracks-v1a1/mono.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "kanal23",
+      "added": 1,
+      "urls": [
+        "https://cdn-kanal23.yayin.com.tr/kanal23/index.m3u8"
+      ],
+      "total": 6,
+      "probeResults": [
+        {
+          "url": "https://cdn-kanal23.yayin.com.tr/kanal23/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "kanal32",
+      "added": 1,
+      "urls": [
+        "https://edge1.socialsmart.tv/kanal32/bant1/chunks.m3u8"
+      ],
+      "total": 6,
+      "probeResults": [
+        {
+          "url": "http://ch.canlitvlive.io/kanal-32/live.m3u8",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "https://edge1.socialsmart.tv/kanal32/bant1/chunks.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "kanal58",
+      "added": 1,
+      "urls": [
+        "https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/chunks.m3u8"
+      ],
+      "total": 8,
+      "probeResults": [
+        {
+          "url": "https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/chunks.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "kanal7avrupa",
+      "added": 1,
+      "urls": [
+        "https://raw.githubusercontent.com/rideordie16/YouTube/main/ch/kanal7eu.m3u8"
+      ],
+      "total": 19,
+      "probeResults": [
+        {
+          "url": "https://raw.githubusercontent.com/UzunMuhalefet/yayinlar/main/streams/kanal7avrupa.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404
+        },
+        {
+          "url": "https://live.kanal7.com/live/kanal7AvrupaLive/index.m3u8",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/rideordie16/YouTube/main/ch/kanal7eu.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "kanalavrupa",
+      "added": 1,
+      "urls": [
+        "https://api-tv27.yayin.com.tr/kanalavrupa/index.m3u8"
+      ],
+      "total": 19,
+      "probeResults": [
+        {
+          "url": "https://api-tv27.yayin.com.tr/kanalavrupa/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "kanalfirat",
+      "added": 1,
+      "urls": [
+        "https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/chunks.m3u8"
+      ],
+      "total": 17,
+      "probeResults": [
+        {
+          "url": "https://waw2.artiyerelmedya.net/kanalfirat/bant1/playlist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/chunks.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "kanalplus",
+      "added": 1,
+      "urls": [
+        "https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/playlist.m3u8"
+      ],
+      "total": 2,
+      "probeResults": [
+        {
+          "url": "https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "kardelentv",
+      "added": 1,
+      "urls": [
+        "https://edge1.socialsmart.tv/kardelentv/bant1/playlist.m3u8"
+      ],
+      "total": 3,
+      "probeResults": [
+        {
+          "url": "http://cdn1.streamencoding.com:1935/kardelen_live/HD/playlist.m3u8",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "https://edge1.socialsmart.tv/kardelentv/bant1/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "kaytv",
+      "added": 1,
+      "urls": [
+        "https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8"
+      ],
+      "total": 5,
+      "probeResults": [
+        {
+          "url": "https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "kentturk",
+      "added": 1,
+      "urls": [
+        "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/chunks.m3u8"
+      ],
+      "total": 7,
+      "probeResults": [
+        {
+          "url": "http://yerelmedya.tv:1935/38kenttv/bant1/chunklist.m3u8",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/chunks.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "kralpop",
+      "added": 1,
+      "urls": [
+        "http://dygvideo.dygdigital.com/live/hls/kralpop"
+      ],
+      "total": 12,
+      "probeResults": [
+        {
+          "url": "http://dygvideo.dygdigital.com/live/hls/kralpop",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "kralpoptv",
+      "added": 1,
+      "urls": [
+        "http://dygvideo.dygdigital.com/live/hls/kralpop"
+      ],
+      "total": 8,
+      "probeResults": [
+        {
+          "url": "http://dygvideo.dygdigital.com/live/hls/kralpop",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "lifetv",
+      "added": 1,
+      "urls": [
+        "https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/chunks.m3u8"
+      ],
+      "total": 6,
+      "probeResults": [
+        {
+          "url": "http://waw1.artiyerelmedya.net:1935/lifetv/bant1/playlist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/chunks.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "mavikaradeniz",
+      "added": 1,
+      "urls": [
+        "https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/chunks.m3u8"
+      ],
+      "total": 16,
+      "probeResults": [
+        {
+          "url": "https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/chunks.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "meltemtv",
+      "added": 2,
+      "urls": [
+        "http://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8",
+        "http://vhxyrsly.rocketcdn.com/meltemtv/chunklist.m3u8"
+      ],
+      "total": 20,
+      "probeResults": [
+        {
+          "url": "http://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        },
+        {
+          "url": "http://vhxyrsly.rocketcdn.com/meltemtv/chunklist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197182&extension=ts&play_token=GckvrhtdF2",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=210463&extension=ts&play_token=H63cTrLCxx",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197182&extension=ts&play_token=GckvrhtdF2",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "key": "mercantv",
+      "added": 1,
+      "urls": [
+        "https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/chunks.m3u8"
+      ],
+      "total": 5,
+      "probeResults": [
+        {
+          "url": "http://yerelmedya.tv:1935/mercantv/bant1/chunklist.m3u8",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/chunks.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "minikacocuk",
+      "added": 1,
+      "urls": [
+        "http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8"
+      ],
+      "total": 19,
+      "probeResults": [
+        {
+          "url": "http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "minikago",
+      "added": 2,
+      "urls": [
+        "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_720p.m3u8",
+        "http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8"
+      ],
+      "total": 20,
+      "probeResults": [
+        {
+          "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_720p.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        },
+        {
+          "url": "http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "ntv",
+      "added": 1,
+      "urls": [
+        "https://dogus.daioncdn.net/ntv/ntv_1080p.m3u8"
+      ],
+      "total": 19,
+      "probeResults": [
+        {
+          "url": "https://dogus.daioncdn.net/ntv/ntv_1080p.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        },
+        {
+          "url": "https://emmazbvkkf.turknet.ercdn.net/cnifuowzza/ntv/ntv_720p.m3u8",
+          "live": false,
+          "reason": "http-403",
+          "status": 403
+        }
+      ]
+    },
+    {
+      "key": "powerlove",
+      "added": 1,
+      "urls": [
+        "https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8"
+      ],
+      "total": 2,
+      "probeResults": [
+        {
+          "url": "https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "powerturk",
+      "added": 1,
+      "urls": [
+        "https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8"
+      ],
+      "total": 12,
+      "probeResults": [
+        {
+          "url": "https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        },
+        {
+          "url": "https://mn-nl.mncdn.com/blutv_powerturk/smil:powerturk_sd.smil/playlist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/chunklist_b5250000_sltur.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404
+        }
+      ]
+    },
+    {
+      "key": "powerturkakustik",
+      "added": 1,
+      "urls": [
+        "https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8"
+      ],
+      "total": 2,
+      "probeResults": [
+        {
+          "url": "https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "powerturkslow",
+      "added": 2,
+      "urls": [
+        "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
+        "https://listen.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8"
+      ],
+      "total": 3,
+      "probeResults": [
+        {
+          "url": "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        },
+        {
+          "url": "https://listen.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "powerturktaptaze",
+      "added": 1,
+      "urls": [
+        "https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8"
+      ],
+      "total": 2,
+      "probeResults": [
+        {
+          "url": "https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "powerturktv",
+      "added": 1,
+      "urls": [
+        "https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlists.m3u8"
+      ],
+      "total": 14,
+      "probeResults": [
+        {
+          "url": "https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlists.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "sat7turk",
+      "added": 1,
+      "urls": [
+        "https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/chunks.m3u8"
+      ],
+      "total": 19,
+      "probeResults": [
+        {
+          "url": "http://unirtmp.tulix.tv:1935/sat7turk/satturklive-web.smil/playlist.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404
+        },
+        {
+          "url": "https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/chunks.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "semerkandtv",
+      "added": 1,
+      "urls": [
+        "http://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8"
+      ],
+      "total": 19,
+      "probeResults": [
+        {
+          "url": "http://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=210473&extension=ts&play_token=kw7nx0fWGJ",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "key": "showturk",
+      "added": 1,
+      "urls": [
+        "https://raw.githubusercontent.com/bnyusuf67-crypto/streams/refs/heads/main/streams/shturk.m3u8"
+      ],
+      "total": 17,
+      "probeResults": [
+        {
+          "url": "https://raw.githubusercontent.com/bnyusuf67-crypto/streams/refs/heads/main/streams/shturk.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        },
+        {
+          "url": "https://raw.githubusercontent.com/rideordie16/YouTube/main/ch/showturk.m3u8",
+          "live": false,
+          "reason": "not-stream",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "startv",
+      "added": 1,
+      "urls": [
+        "http://dygvideo.dygdigital.com/live/hls/puhustardai?m3u8"
+      ],
+      "total": 19,
+      "probeResults": [
+        {
+          "url": "https://dogus-live.daioncdn.net/startv/startv_720p.m3u8",
+          "live": false,
+          "reason": "http-403",
+          "status": 403
+        },
+        {
+          "url": "http://dygvideo.dygdigital.com/live/hls/puhustardai?m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "tarihtv",
+      "added": 1,
+      "urls": [
+        "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/tarih-tv/playlist.m3u8"
+      ],
+      "total": 17,
+      "probeResults": [
+        {
+          "url": "https://bstelevision.com/proxy_stream.php?u=http://65.108.239.207:80/tarihtv/index.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "https://dsmartgo-live.ercdn.net/tarihtv/tarihtv.m3u8",
+          "live": false,
+          "reason": "http-403",
+          "status": 403
+        },
+        {
+          "url": "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/tarih-tv/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "taytv",
+      "added": 1,
+      "urls": [
+        "https://duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8"
+      ],
+      "total": 19,
+      "probeResults": [
+        {
+          "url": "https://duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        },
+        {
+          "url": "https://ythlsgo.onrender.com/channel/UCjkRA7KEdp7PDKDUs396XHg.m3u8",
+          "live": false,
+          "reason": "http-503",
+          "status": 503
+        },
+        {
+          "url": "https://dsmartgo-live.ercdn.net/taytv/taytv.m3u8",
+          "live": false,
+          "reason": "http-403",
+          "status": 403
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=18647&extension=ts&play_token=0mS3sQtpPM",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=18647&extension=ts&play_token=0mS3sQtpPM",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=18647&extension=ts&play_token=0mS3sQtpPM",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "key": "tempotv",
+      "added": 1,
+      "urls": [
+        "https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/chunks.m3u8"
+      ],
+      "total": 5,
+      "probeResults": [
+        {
+          "url": "http://waw1.artiyerelmedya.net:1935/tempotv/bant1/playlist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/chunks.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "teve2",
+      "added": 2,
+      "urls": [
+        "https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/teve2/teve2.m3u8",
+        "https://live.duhnet.tv/S2/HLS_LIVE/teve2np/track_4_1000/playlist.m3u8"
+      ],
+      "total": 20,
+      "probeResults": [
+        {
+          "url": "https://live.duhnet.tv/S2/HLS_LIVE/teve2np/track_4_1000/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        },
+        {
+          "url": "https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/teve2/teve2.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "tgrthaber",
+      "added": 1,
+      "urls": [
+        "https://tgrthaber-live.daioncdn.net/tgrthaber/tgrthaber_1080p.m3u8"
+      ],
+      "total": 19,
+      "probeResults": [
+        {
+          "url": "https://tgrthaber-live.daioncdn.net/tgrthaber/tgrthaber_1080p.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "tjktv",
+      "added": 1,
+      "urls": [
+        "https://tjktv-live.tjk.org/tjktv_1080p.m3u8"
+      ],
+      "total": 11,
+      "probeResults": [
+        {
+          "url": "https://tjktv-live.tjk.org/tjktv_1080p.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        },
+        {
+          "url": "https://streams.uzunmuhalefet.com/stream/87525bc2-91d5-46e9-8aa0-45bc8ed34823.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "key": "tjktv2",
+      "added": 1,
+      "urls": [
+        "https://tjktv-live.tjk.org/tjktv2/tjktv2_1080p.m3u8"
+      ],
+      "total": 2,
+      "probeResults": [
+        {
+          "url": "https://tjktv-live.tjk.org/tjktv2/tjktv2_1080p.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "tlc",
+      "added": 1,
+      "urls": [
+        "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6915/index.m3u8"
+      ],
+      "total": 19,
+      "probeResults": [
+        {
+          "url": "https://dogus-live.daioncdn.net/tlc/tlc_720p.m3u8",
+          "live": false,
+          "reason": "http-403",
+          "status": 403
+        },
+        {
+          "url": "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6915/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "trt3",
+      "added": 1,
+      "urls": [
+        "https://tv-trt3.live.trt.com.tr/master.m3u8"
+      ],
+      "total": 3,
+      "probeResults": [
+        {
+          "url": "https://tv-trt3.live.trt.com.tr/master.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "trtcocuk",
+      "added": 1,
+      "urls": [
+        "https://tv-trtcocuk.medya.trt.com.tr/master_1080.m3u8"
+      ],
+      "total": 15,
+      "probeResults": [
+        {
+          "url": "https://tv-trtcocuk.medya.trt.com.tr/master_1080.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        },
+        {
+          "url": "https://trn03.tulix.tv/gt-trtcocuk/index.m3u8",
+          "live": false,
+          "reason": "http-403",
+          "status": 403
+        }
+      ]
+    },
+    {
+      "key": "trtmuzik",
+      "added": 1,
+      "urls": [
+        "https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8"
+      ],
+      "total": 12,
+      "probeResults": [
+        {
+          "url": "https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "trtsporyildiz",
+      "added": 2,
+      "urls": [
+        "https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor",
+        "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/2145/index.m3u8"
+      ],
+      "total": 22,
+      "probeResults": [
+        {
+          "url": "https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        },
+        {
+          "url": "http://162.212.179.33:80/dvrfl05/gin-trtSPOR2/playlist.m3u8",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/2145/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "tv264",
+      "added": 1,
+      "urls": [
+        "https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8?md5=qb_9l3erQIDqZMjbKfALzA&expires=1651666386"
+      ],
+      "total": 6,
+      "probeResults": [
+        {
+          "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8?md5=qb_9l3erQIDqZMjbKfALzA&expires=1651666386",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "tv4",
+      "added": 1,
+      "urls": [
+        "https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8"
+      ],
+      "total": 9,
+      "probeResults": [
+        {
+          "url": "https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        },
+        {
+          "url": "https://streams.uzunmuhalefet.com/stream/39e2ff02-8468-4c67-8388-ab83d792071b.m3u8",
+          "live": false,
+          "reason": "timeout"
+        }
+      ]
+    },
+    {
+      "key": "tv8",
+      "added": 1,
+      "urls": [
+        "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8"
+      ],
+      "total": 19,
+      "probeResults": [
+        {
+          "url": "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "tv85",
+      "added": 1,
+      "urls": [
+        "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk_1080p.m3u8"
+      ],
+      "total": 19,
+      "probeResults": [
+        {
+          "url": "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk_1080p.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "vuslattv",
+      "added": 1,
+      "urls": [
+        "https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/playlist.m3u8"
+      ],
+      "total": 3,
+      "probeResults": [
+        {
+          "url": "https://59cba4d34b678.streamlock.net/live/vuslattv/chunklist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "yoltv",
+      "added": 1,
+      "urls": [
+        "https://live.yoltv.com/hls/stream.m3u8"
+      ],
+      "total": 14,
+      "probeResults": [
+        {
+          "url": "https://live.yoltv.com/hls/stream.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        },
+        {
+          "url": "https://iptv.amgsmart2home.de/YOLTVMAIN/index.m3u8",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "http://stream.yol.tv:9485/medialive/yol.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "key": "saglikchannel",
+      "added": 1,
+      "urls": [
+        "https://live.euromediacenter.com/saglikchannel/index.m3u8"
+      ],
+      "total": 2,
+      "probeResults": [
+        {
+          "url": "https://live.euromediacenter.com/saglikchannel/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "numberoneturkdamar",
+      "added": 2,
+      "urls": [
+        "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8",
+        "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e19877b340.smil/playlist.m3u8"
+      ],
+      "total": 3,
+      "probeResults": [
+        {
+          "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        },
+        {
+          "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e19877b340.smil/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "numberoneturk",
+      "added": 1,
+      "urls": [
+        "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e187770143.smil/playlist.m3u8"
+      ],
+      "total": 2,
+      "probeResults": [
+        {
+          "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e187770143.smil/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        },
+        {
+          "url": "https://nr1turk.blutv.com/blutv_n1turk/blutv_n1turk/index.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "key": "powerdance",
+      "added": 1,
+      "urls": [
+        "https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8"
+      ],
+      "total": 2,
+      "probeResults": [
+        {
+          "url": "https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "kocaelitv",
+      "added": 2,
+      "urls": [
+        "https://edge1.socialsmart.tv/kocaelitv/bant1/chunks.m3u8",
+        "https://edge1.socialsmart.tv/kocaelitv/bant1/playlist.m3u8"
+      ],
+      "total": 3,
+      "probeResults": [
+        {
+          "url": "http://stream.castr.com/64c0d0ebaaa212486ecf0238/live_4faaaa102b8a11ee80f12783ea1667a8/index.m3u8",
+          "live": false,
+          "reason": "http-403",
+          "status": 403
+        },
+        {
+          "url": "https://edge1.socialsmart.tv/kocaelitv/bant1/chunks.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        },
+        {
+          "url": "https://edge1.socialsmart.tv/kocaelitv/bant1/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "spacetoon",
+      "added": 1,
+      "urls": [
+        "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-spacetoon/d8382fb9ab4b2307058f12c7ea90db54/index.m3u8"
+      ],
+      "total": 3,
+      "probeResults": [
+        {
+          "url": "https://streams.spacetoon.com/live/stchannel/smil:livesmil.smil/playlist.m3u8",
+          "live": false,
+          "reason": "not-stream",
+          "status": 200
+        },
+        {
+          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-spacetoon/d8382fb9ab4b2307058f12c7ea90db54/index.m3u8",
           "live": true,
           "reason": "hls-manifest",
           "status": 206
@@ -38,8 +1571,8 @@
     }
   ],
   "skippedFull": [],
-  "totalNewUrls": 2,
-  "enrichedCount": 2,
-  "streamMapRevision": 138,
+  "totalNewUrls": 83,
+  "enrichedCount": 76,
+  "streamMapRevision": 141,
   "mapChanged": true
 }
