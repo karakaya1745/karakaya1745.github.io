@@ -1,0 +1,152 @@
+{
+  "generatedAt": "2026-09-01T09:04:15.352Z",
+  "dryRun": false,
+  "pending": 29,
+  "skippedExists": [
+    "TRT Spor 2",
+    "BRT 3"
+  ],
+  "skippedPaid": [
+    "beIN Sports Haber"
+  ],
+  "discovered": [
+    {
+      "name": "Tek Rumeli TV",
+      "key": "tekrumelitv",
+      "urls": [
+        "https://rumelitv-live.ercdn.net/rumelitv/rumelitv.m3u8"
+      ],
+      "m3uCandidates": 2
+    },
+    {
+      "name": "Rumeli TV",
+      "key": "rumelitv",
+      "urls": [
+        "https://rumelitv-live.ercdn.net/rumelitv/rumelitv.m3u8"
+      ],
+      "m3uCandidates": 1
+    },
+    {
+      "name": "Kocaeli TV",
+      "key": "kocaelitv",
+      "urls": [
+        "https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8"
+      ],
+      "m3uCandidates": 1
+    }
+  ],
+  "notFound": [
+    {
+      "name": "TV8 International",
+      "candidates": 1
+    },
+    {
+      "name": "Space Toon",
+      "candidates": 0
+    },
+    {
+      "name": "Cartoon Network",
+      "candidates": 0
+    },
+    {
+      "name": "GRT",
+      "candidates": 0
+    },
+    {
+      "name": "Kon TV",
+      "candidates": 0
+    },
+    {
+      "name": "Ekin Türk",
+      "candidates": 0
+    },
+    {
+      "name": "Agro TV",
+      "candidates": 0
+    },
+    {
+      "name": "HRT Akdeniz TV",
+      "candidates": 0
+    },
+    {
+      "name": "FM TV",
+      "candidates": 0
+    },
+    {
+      "name": "Kadirga TV",
+      "candidates": 0
+    },
+    {
+      "name": "TV 2020",
+      "candidates": 0
+    },
+    {
+      "name": "Kanal B",
+      "candidates": 0
+    },
+    {
+      "name": "Gonca TV",
+      "candidates": 0
+    },
+    {
+      "name": "Yeni Kocaeli TV",
+      "candidates": 0
+    },
+    {
+      "name": "Uçankuş TV",
+      "candidates": 0
+    },
+    {
+      "name": "Kanal 68",
+      "candidates": 0
+    },
+    {
+      "name": "Vizyon 58",
+      "candidates": 0
+    },
+    {
+      "name": "Ege TV",
+      "candidates": 0
+    },
+    {
+      "name": "Deha TV",
+      "candidates": 0
+    },
+    {
+      "name": "Tatlıses TV",
+      "candidates": 1
+    },
+    {
+      "name": "Anadolu Dernek TV",
+      "candidates": 0
+    },
+    {
+      "name": "Bitlis TV",
+      "candidates": 0
+    },
+    {
+      "name": "Pamukkale TV",
+      "candidates": 1
+    },
+    {
+      "name": "Süper TV",
+      "candidates": 0
+    },
+    {
+      "name": "DRT Denizli",
+      "candidates": 2
+    },
+    {
+      "name": "Inter AZ",
+      "candidates": 0
+    }
+  ],
+  "warnings": [],
+  "addedCount": 3,
+  "addedNames": [
+    "Tek Rumeli TV",
+    "Rumeli TV",
+    "Kocaeli TV"
+  ],
+  "streamMapRevision": 133
+}

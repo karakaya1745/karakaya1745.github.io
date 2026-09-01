@@ -611,7 +611,7 @@
     "category": "Kamu",
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/10407066957b9356f79511"
   },
-   {
+  {
     "name": "TRT Genç",
     "url": "https://www.trtizle.com/canli/tv/trt-genc",
     "category": "Kamu",
@@ -694,7 +694,7 @@
     "url": "https://cemtv.com.tr/canli-yayin",
     "category": "Haber",
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/145648263137480837677c"
-  },  
+  },
   {
     "name": "KANALURFA",
     "url": "https://www.fmtv.com.tr/",
@@ -6782,5 +6782,23 @@
     "url": "https://www.canlitvtr.app/radyo/diyanetradyo",
     "category": "Radyo Dini",
     "streamUrl": "https://eustr76.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3c1171d7d2a.smil/playlist.m3u8"
+  },
+  {
+    "name": "Tek Rumeli TV",
+    "url": "https://www.tekrumelitv.com/",
+    "category": "Ulusal",
+    "streamUrl": "https://rumelitv-live.ercdn.net/rumelitv/rumelitv.m3u8"
+  },
+  {
+    "name": "Rumeli TV",
+    "url": "https://www.rumelitv.com.tr/",
+    "category": "Ulusal",
+    "streamUrl": "https://rumelitv-live.ercdn.net/rumelitv/rumelitv.m3u8"
+  },
+  {
+    "name": "Kocaeli TV",
+    "url": "https://www.kocaelitv.com.tr/",
+    "category": "Ulusal",
+    "streamUrl": "https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8"
   }
 ]

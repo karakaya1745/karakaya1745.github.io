@@ -1,5 +1,5 @@
 {
-  "_revision": 132,
+  "_revision": 133,
   "360tv": [
     "https://turkmedya-live.ercdn.net/tv360/tv360.m3u8"
   ],
@@ -4363,5 +4363,14 @@
   ],
   "enerjislow1062kktc": [
     "https://live.enerjiplay.com/stream/enerjislow?/;stream.mp3"
+  ],
+  "tekrumelitv": [
+    "https://rumelitv-live.ercdn.net/rumelitv/rumelitv.m3u8"
+  ],
+  "rumelitv": [
+    "https://rumelitv-live.ercdn.net/rumelitv/rumelitv.m3u8"
+  ],
+  "kocaelitv": [
+    "https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8"
   ]
 }

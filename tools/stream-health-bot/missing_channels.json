@@ -1,0 +1,199 @@
+{
+  "_comment": "TKGS listesinden; bot M3U kaynaklarında arar. skip=true olanlar atlanır.",
+  "channels": [
+    {
+      "name": "TRT Spor 2",
+      "category": "Spor",
+      "url": "https://www.trtizle.com/canli/tv/trt-spor-2",
+      "aliases": ["trtspor2", "trtsporyildiz"],
+      "skipIfKeysExist": ["trtsporyildiz"]
+    },
+    {
+      "name": "TV8 International",
+      "category": "Ulusal",
+      "url": "https://www.tv8int.com/",
+      "aliases": ["tv8int", "tv8international"]
+    },
+    {
+      "name": "beIN Sports Haber",
+      "category": "Spor",
+      "url": "https://beinsports.com.tr/",
+      "skip": true,
+      "skipReason": "paid-subscription"
+    },
+    {
+      "name": "Space Toon",
+      "category": "Cocuk",
+      "url": "https://www.spacetoon.com/",
+      "aliases": ["spacetoon"]
+    },
+    {
+      "name": "Cartoon Network",
+      "category": "Cocuk",
+      "url": "https://www.cartoonnetwork.com.tr/",
+      "aliases": ["cartoonnetwork", "cartoonnetworktr"]
+    },
+    {
+      "name": "GRT",
+      "category": "Ulusal",
+      "url": "https://www.grttv.com.tr/",
+      "aliases": ["grt", "grttv"]
+    },
+    {
+      "name": "Kon TV",
+      "category": "Ulusal",
+      "url": "https://www.kontv.com.tr/",
+      "aliases": ["kontv"]
+    },
+    {
+      "name": "Ekin Türk",
+      "category": "Muzik",
+      "url": "https://www.ekinturk.com/",
+      "aliases": ["ekinturk"]
+    },
+    {
+      "name": "Agro TV",
+      "category": "Yasam",
+      "url": "https://www.agrotv.com.tr/",
+      "aliases": ["agrotv"]
+    },
+    {
+      "name": "Tek Rumeli TV",
+      "category": "Ulusal",
+      "url": "https://www.tekrumelitv.com/",
+      "aliases": ["tekrumelitv", "rumelitv"]
+    },
+    {
+      "name": "HRT Akdeniz TV",
+      "category": "Ulusal",
+      "url": "https://www.hrtakdeniztv.com/",
+      "aliases": ["hrtakdeniztv", "hrtakdeniz"]
+    },
+    {
+      "name": "FM TV",
+      "category": "Ulusal",
+      "url": "https://www.fmtv.com.tr/",
+      "aliases": ["fmtv"]
+    },
+    {
+      "name": "Kadirga TV",
+      "category": "Ulusal",
+      "url": "https://www.kadrigatv.com/",
+      "aliases": ["kadirgatv"]
+    },
+    {
+      "name": "TV 2020",
+      "category": "Ulusal",
+      "url": "http://kuzeykibris.tv/",
+      "aliases": ["tv2020", "kuzeykibris"]
+    },
+    {
+      "name": "Kanal B",
+      "category": "Ulusal",
+      "url": "https://www.kanalb.com.tr/",
+      "aliases": ["kanalb"]
+    },
+    {
+      "name": "Gonca TV",
+      "category": "Ulusal",
+      "url": "https://www.goncatv.com.tr/",
+      "aliases": ["goncatv"]
+    },
+    {
+      "name": "Rumeli TV",
+      "category": "Ulusal",
+      "url": "https://www.rumelitv.com.tr/",
+      "aliases": ["rumelitv"]
+    },
+    {
+      "name": "Kocaeli TV",
+      "category": "Ulusal",
+      "url": "https://www.kocaelitv.com.tr/",
+      "aliases": ["kocaelitv"]
+    },
+    {
+      "name": "Yeni Kocaeli TV",
+      "category": "Ulusal",
+      "url": "https://www.yenikocaelitv.com/",
+      "aliases": ["yenikocaelitv"]
+    },
+    {
+      "name": "Uçankuş TV",
+      "category": "Haber",
+      "url": "https://www.ucankus.com/",
+      "aliases": ["ucankustv", "ucankus"]
+    },
+    {
+      "name": "Kanal 68",
+      "category": "Ulusal",
+      "url": "https://www.kanal68.com/",
+      "aliases": ["kanal68"]
+    },
+    {
+      "name": "Vizyon 58",
+      "category": "Ulusal",
+      "url": "https://www.vizyon58.com/",
+      "aliases": ["vizyon58"]
+    },
+    {
+      "name": "Ege TV",
+      "category": "Ulusal",
+      "url": "https://www.egetv.com.tr/",
+      "aliases": ["egetv"]
+    },
+    {
+      "name": "Deha TV",
+      "category": "Ulusal",
+      "url": "https://www.dehatv.com.tr/",
+      "aliases": ["dehatv"]
+    },
+    {
+      "name": "Tatlıses TV",
+      "category": "Muzik",
+      "url": "https://www.tatlisestv.com/",
+      "aliases": ["tatlisestv"]
+    },
+    {
+      "name": "Anadolu Dernek TV",
+      "category": "Ulusal",
+      "url": "https://www.anadoludernektv.com/",
+      "aliases": ["anadoludernektv", "anadoludernek"]
+    },
+    {
+      "name": "Bitlis TV",
+      "category": "Ulusal",
+      "url": "https://www.bitlistv.com/",
+      "aliases": ["bitlistv"]
+    },
+    {
+      "name": "Pamukkale TV",
+      "category": "Ulusal",
+      "url": "https://www.pamukkaletv.com.tr/",
+      "aliases": ["pamukkaletv"]
+    },
+    {
+      "name": "Süper TV",
+      "category": "Ulusal",
+      "url": "https://www.supertv.com.tr/",
+      "aliases": ["supertv"]
+    },
+    {
+      "name": "DRT Denizli",
+      "category": "Ulusal",
+      "url": "https://www.drt.com.tr/",
+      "aliases": ["drtdenizli", "drt"]
+    },
+    {
+      "name": "Inter AZ",
+      "category": "Ulusal",
+      "url": "https://interaz.tv/",
+      "aliases": ["interaz"]
+    },
+    {
+      "name": "BRT 3",
+      "category": "Ulusal",
+      "url": "https://www.brtk.net/",
+      "aliases": ["brt3", "brt2"]
+    }
+  ]
+}
