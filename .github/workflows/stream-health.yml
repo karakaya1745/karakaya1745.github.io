@@ -18,6 +18,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: stream-bot-writes
+  cancel-in-progress: false
+
 jobs:
   maintain-streams:
     runs-on: ubuntu-latest
@@ -48,4 +52,5 @@ jobs:
             exit 0
           fi
           git commit -m "stream-health: otomatik stream_map guncelleme [bot]"
-          git push
+          git pull --rebase origin main
+          git push origin main
