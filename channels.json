@@ -6806,5 +6806,11 @@
     "url": "https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8",
     "category": "Dini",
     "streamUrl": "https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8"
+  },
+  {
+    "name": "Van 65 TV",
+    "url": "https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8",
+    "category": "Ulusal",
+    "streamUrl": "https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8"
   }
 ]

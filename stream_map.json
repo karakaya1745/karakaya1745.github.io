@@ -4952,5 +4952,8 @@
   "ikratv": [
     "https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8"
   ],
-  "_revision": 144
+  "van65tv": [
+    "https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8"
+  ],
+  "_revision": 145
 }
