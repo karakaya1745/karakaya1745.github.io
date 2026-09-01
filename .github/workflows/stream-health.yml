@@ -1,0 +1,51 @@
+name: Stream Health Bot
+
+on:
+  schedule:
+    # Her 6 saatte bir (UTC)
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      all_tv:
+        description: "Tum TV kanallari (pilot yerine)"
+        type: boolean
+        default: false
+      pilot:
+        description: "Pilot 40 kanal modu"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+jobs:
+  maintain-streams:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run stream health bot
+        run: |
+          ARGS="--stream-map stream_map.json --channels channels.json --apply"
+          if [ "${{ github.event.inputs.all_tv }}" = "true" ]; then
+            ARGS="$ARGS --all-tv"
+          fi
+          node tools/stream-health-bot/stream-health-bot.mjs $ARGS
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "stream-health-bot"
+          git config user.email "bot@canlitvtr.local"
+          git add stream_map.json tools/stream-health-bot/out/url_health_state.json
+          if git diff --staged --quiet; then
+            echo "Degisiklik yok."
+            exit 0
+          fi
+          git commit -m "stream-health: otomatik stream_map guncelleme [bot]"
+          git push

@@ -1,0 +1,36 @@
+{
+  "_comment": "Bot bu URL'leri periyodik indirir. channels.json / stream_map.json'a YAZMAZ.",
+  "sources": [
+    {
+      "id": "iptv-org-tr",
+      "url": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/tr.m3u",
+      "priority": 1
+    },
+    {
+      "id": "zek-gist",
+      "url": "https://gist.githubusercontent.com/zek/209bcd5888473014d4cc5d82390e7d56/raw",
+      "priority": 2
+    },
+    {
+      "id": "legal-iptv-tr",
+      "url": "https://streams.uzunmuhalefet.com/lists/tr.m3u",
+      "priority": 2
+    },
+    {
+      "id": "rideordie-tv2",
+      "url": "https://raw.githubusercontent.com/rideordie16/tv/main/tv2.m3u",
+      "priority": 3
+    },
+    {
+      "id": "free-tv-playlist",
+      "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
+      "priority": 3,
+      "filterTurkey": true
+    },
+    {
+      "id": "ukusgul-gist",
+      "url": "https://gist.githubusercontent.com/ukusgul-a11y/56ce0695a07e1c4ddf1ff60427f97658/raw",
+      "priority": 4
+    }
+  ]
+}
