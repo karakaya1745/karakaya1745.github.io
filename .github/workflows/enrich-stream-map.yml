@@ -1,0 +1,41 @@
+name: Enrich Stream Map
+
+on:
+  schedule:
+    # Her gun 04:00 UTC (discover-missing 03:00 sonrasi)
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  enrich-stream-map:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run enrich stream map
+        run: |
+          node tools/stream-health-bot/enrich-stream-map.mjs \
+            --stream-map stream_map.json \
+            --channels channels.json \
+            --apply
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "stream-health-bot"
+          git config user.email "bot@canlitvtr.local"
+          git add stream_map.json tools/stream-health-bot/out/enrich_report.json
+          if git diff --staged --quiet; then
+            echo "Degisiklik yok."
+            exit 0
+          fi
+          git commit -m "enrich-stream-map: M3U alternatif URL ekleme [bot]"
+          git push

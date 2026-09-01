@@ -35,7 +35,6 @@ import {
   normalizeChannelKey,
   parseM3U,
   pooledMap,
-  probeChannelPlayback,
   resolveM3uKey,
   shouldSkipM3uUrl,
   sortUrlsByQuality,
@@ -224,8 +223,9 @@ async function probeNewUrls(urls) {
   if (skipProbe) return { live: [], results: [] };
   const toProbe = urls.slice(0, MAX_NEW_PROBE_PER_CHANNEL);
   const results = await pooledMap(toProbe, PROBE_CONCURRENCY, async (url) => {
-    const probe = await probeChannelPlayback(url);
-    return { url, live: probe.live, reason: probe.reason, status: probe.status };
+    if (isTrustedCdnUrl(url)) return { url, live: true, reason: "trusted" };
+    const live = await checkUrlLive(url);
+    return { url, live, reason: live ? "live" : "dead" };
   });
   return {
     live: results.filter((r) => r.live).map((r) => r.url),
@@ -270,44 +270,55 @@ async function enrichChannel(key, existingUrls, byKey, skippedByKey) {
     return { key, urls: existingUrls, added: [], skippedFull: false };
   }
 
-  const trustedNew = candidates.filter((c) => isTrustedCdnUrl(c.url)).map((c) => c.url);
+  const trustedNew = candidates
+    .filter((c) => isTrustedCdnUrl(c.url))
+    .map((c) => c.url)
+    .filter((u) => !existingSet.has(u));
   const nonTrusted = candidates.filter((c) => !isTrustedCdnUrl(c.url));
   const riskyCandidates = nonTrusted.filter((c) => isRiskyStreamUrl(c.url)).map((c) => c.url);
-  const probeCandidates = uniqueUrls([
-    ...sortUrlsByQuality(trustedNew),
-    ...sortUrlsByQuality(nonTrusted.filter((c) => !isRiskyStreamUrl(c.url)).map((c) => c.url)),
-  ]);
+  const probeCandidates = sortUrlsByQuality(
+    nonTrusted.filter((c) => !isRiskyStreamUrl(c.url)).map((c) => c.url),
+  ).filter((u) => !existingSet.has(u));
 
-  const trustedProbe = await probeNewUrls(probeCandidates);
-  const probedLive = trustedProbe.live;
-  const probeResults = trustedProbe.results;
+  const probeResults = [];
+  let addedTrusted = uniqueUrls(trustedNew);
+  let addedProbed = [];
 
-  let addedTrusted = [];
-  let addedProbed = uniqueUrls(probedLive);
-  let addedRisky = [];
-
-  if (skipProbe) {
-    addedProbed = [];
+  if (!skipProbe && probeCandidates.length) {
+    const safeProbe = await probeNewUrls(probeCandidates);
+    addedProbed = uniqueUrls(safeProbe.live);
+    probeResults.push(...safeProbe.results);
   }
 
-  const tentative = mergeEnrichedUrls(existingUrls, addedTrusted, addedProbed, addedRisky);
-  let merged = capWithoutRemovingExisting(existingUrls, tentative);
+  let addedRisky = [];
+  const fallbackOnly = candidates.every((c) => c.skipped);
 
-  const addedSet = new Set(merged.filter((u) => !existingSet.has(u)));
-  let added = [...addedSet];
+  let merged = capWithoutRemovingExisting(
+    existingUrls,
+    mergeEnrichedUrls(existingUrls, addedTrusted, addedProbed, addedRisky),
+  );
+  let added = merged.filter((u) => !existingSet.has(u));
 
   if (added.length < slots) {
     const room = slots - added.length;
+    const addedSet = new Set(added);
     const riskyToTry = sortUrlsByQuality(
       riskyCandidates.filter((u) => !existingSet.has(u) && !addedSet.has(u)),
     ).slice(0, room);
 
     if (riskyToTry.length && !skipProbe) {
-      const riskyProbe = await probeNewUrls(riskyToTry.slice(0, Math.min(MAX_NEW_PROBE_PER_CHANNEL, room)));
-      addedRisky = riskyProbe.live;
+      const riskyProbe = await probeNewUrls(
+        riskyToTry.slice(0, Math.min(MAX_NEW_PROBE_PER_CHANNEL, room)),
+      );
+      addedRisky = uniqueUrls(riskyProbe.live);
       probeResults.push(...riskyProbe.results);
-    } else if (riskyToTry.length && skipProbe) {
-      addedRisky = [];
+    }
+
+    if (added.length + addedRisky.length < slots && fallbackOnly) {
+      const fallbackUrls = sortUrlsByQuality(
+        candidates.map((c) => c.url).filter((u) => !existingSet.has(u) && !addedSet.has(u)),
+      ).slice(0, slots - added.length - addedRisky.length);
+      addedRisky = uniqueUrls([...addedRisky, ...fallbackUrls]);
     }
 
     merged = capWithoutRemovingExisting(
