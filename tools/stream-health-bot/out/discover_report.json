@@ -1,9 +1,12 @@
 {
-  "generatedAt": "2026-09-01T09:04:15.352Z",
+  "generatedAt": "2026-09-01T10:19:52.830Z",
   "dryRun": false,
-  "pending": 29,
+  "pending": 26,
   "skippedExists": [
     "TRT Spor 2",
+    "Tek Rumeli TV",
+    "Rumeli TV",
+    "Kocaeli TV",
     "BRT 3"
   ],
   "skippedPaid": [
@@ -11,28 +14,21 @@
   ],
   "discovered": [
     {
-      "name": "Tek Rumeli TV",
-      "key": "tekrumelitv",
+      "name": "Space Toon",
+      "key": "spacetoon",
       "urls": [
-        "https://rumelitv-live.ercdn.net/rumelitv/rumelitv.m3u8"
+        "https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8",
+        "https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8"
       ],
       "m3uCandidates": 2
     },
     {
-      "name": "Rumeli TV",
-      "key": "rumelitv",
+      "name": "TV 2020",
+      "key": "tv2020",
       "urls": [
-        "https://rumelitv-live.ercdn.net/rumelitv/rumelitv.m3u8"
+        "https://sc-kuzeykibrissmarttv.ercdn.net/tv2020/bantp1/playlist.m3u8"
       ],
-      "m3uCandidates": 1
-    },
-    {
-      "name": "Kocaeli TV",
-      "key": "kocaelitv",
-      "urls": [
-        "https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8"
-      ],
-      "m3uCandidates": 1
+      "m3uCandidates": 2
     }
   ],
   "notFound": [
@@ -41,12 +37,8 @@
       "candidates": 1
     },
     {
-      "name": "Space Toon",
-      "candidates": 0
-    },
-    {
       "name": "Cartoon Network",
-      "candidates": 0
+      "candidates": 3
     },
     {
       "name": "GRT",
@@ -62,7 +54,7 @@
     },
     {
       "name": "Agro TV",
-      "candidates": 0
+      "candidates": 2
     },
     {
       "name": "HRT Akdeniz TV",
@@ -77,12 +69,8 @@
       "candidates": 0
     },
     {
-      "name": "TV 2020",
-      "candidates": 0
-    },
-    {
       "name": "Kanal B",
-      "candidates": 0
+      "candidates": 2
     },
     {
       "name": "Gonca TV",
@@ -98,7 +86,7 @@
     },
     {
       "name": "Kanal 68",
-      "candidates": 0
+      "candidates": 1
     },
     {
       "name": "Vizyon 58",
@@ -142,11 +130,10 @@
     }
   ],
   "warnings": [],
-  "addedCount": 3,
+  "addedCount": 2,
   "addedNames": [
-    "Tek Rumeli TV",
-    "Rumeli TV",
-    "Kocaeli TV"
+    "Space Toon",
+    "TV 2020"
   ],
-  "streamMapRevision": 133
+  "streamMapRevision": 134
 }
