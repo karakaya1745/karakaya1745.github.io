@@ -4955,5 +4955,11 @@
   "van65tv": [
     "https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8"
   ],
-  "_revision": 145
+  "kontv": [
+    "http://me.mdmfista.com/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197191&extension=ts&play_token=PM2eb119cV",
+    "http://line.tivi-one.net/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197191&extension=ts&play_token=PM2eb119cV",
+    "http://line.tivi-one.net/play/live.php?mac=00:1A:79:5D:91:44&stream=197191&extension=ts&play_token=PM2eb119cV",
+    "http://line.tivi-one.net/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197191&extension=ts&play_token=PM2eb119cV"
+  ],
+  "_revision": 146
 }
