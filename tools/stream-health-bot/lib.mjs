@@ -1,8 +1,16 @@
 /**
  * Stream health bot — paylaşılan yardımcılar.
  * ChannelKeys.kt / merge-m3u-tur.mjs ile uyumlu normalize.
+ *
+ * Windows Node 24: TLS probe için `node --use-system-ca` gerekli olabilir.
  */
 import fs from "fs";
+
+if (process.platform === "win32" && !process.execArgv.some((a) => a.includes("use-system-ca"))) {
+  console.warn(
+    "[lib] UYARI: Windows'ta probe icin NODE_OPTIONS=--use-system-ca veya node --use-system-ca kullanin",
+  );
+}
 import path from "path";
 
 export const UA = "Mozilla/5.0 (Linux; Android 14) CanliTVTR-healthbot/1.0";
@@ -158,11 +166,34 @@ export function isPlayableUrl(url) {
   if (u.includes("youtube.com") || u.includes("youtu.be/")) return false;
   return (
     u.includes(".m3u8") ||
+    u.includes(".m3u") ||
+    u.includes(".ts") ||
+    u.includes(".mp4") ||
+    u.includes(".mpg") ||
+    u.includes(".mpeg") ||
     u.includes("/playlist") ||
     u.includes("/chunklist") ||
     u.includes(".smil") ||
-    u.includes("prog_index.m3u8")
+    u.includes("prog_index.m3u8") ||
+    u.includes("/live/") ||
+    u.includes("/hls/")
   );
+}
+
+function isValidTsSample(sample) {
+  if (!sample || sample.length < 188) return false;
+  for (let i = 0; i < Math.min(sample.length - 188, 1024); i++) {
+    if (sample[i] === 0x47 && i + 188 < sample.length && sample[i + 188] === 0x47) {
+      return true;
+    }
+  }
+  return sample[0] === 0x47;
+}
+
+function isValidMp4Sample(sample) {
+  if (!sample || sample.length < 12) return false;
+  const box = sample.subarray(4, 8).toString("ascii");
+  return box === "ftyp" || box === "moof" || box === "mdat";
 }
 
 const TITLE_STOP_WORDS = new Set(["tv", "kanal", "hd", "fhd", "tr", "ulusal"]);
@@ -211,7 +242,7 @@ export function isValidHlsManifestSample(sample, contentType = "") {
 }
 
 /**
- * Katı HLS probe — yanıtta #EXTM3U veya #EXT-X-STREAM-INF olmalı.
+ * Oynatma probe — HLS manifest, MPEG-TS (.ts) veya MP4.
  * @returns {Promise<{ live: boolean, reason: string, status?: number }>}
  */
 export async function probeChannelPlayback(url, timeoutMs = PROBE_TIMEOUT_MS) {
@@ -230,11 +261,22 @@ export async function probeChannelPlayback(url, timeoutMs = PROBE_TIMEOUT_MS) {
     }
     const buf = Buffer.from(await r.arrayBuffer());
     const sample = buf.subarray(0, Math.min(4096, buf.length));
-    const ct = r.headers.get("content-type") || "";
+    const ct = (r.headers.get("content-type") || "").toLowerCase();
     if (isValidHlsManifestSample(sample, ct)) {
       return { live: true, reason: "hls-manifest", status: r.status };
     }
-    return { live: false, reason: "not-hls-manifest", status: r.status };
+    if (
+      ct.includes("mp2t") ||
+      ct.includes("mpegts") ||
+      url.toLowerCase().includes(".ts") ||
+      isValidTsSample(sample)
+    ) {
+      return { live: true, reason: "mpeg-ts", status: r.status };
+    }
+    if (ct.includes("mp4") || url.toLowerCase().includes(".mp4") || isValidMp4Sample(sample)) {
+      return { live: true, reason: "mp4", status: r.status };
+    }
+    return { live: false, reason: "not-stream", status: r.status };
   } catch (e) {
     clearTimeout(tm);
     return { live: false, reason: e?.name === "AbortError" ? "timeout" : "network-error" };
