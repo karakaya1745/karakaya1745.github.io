@@ -25,7 +25,6 @@ import {
   PROBE_CONCURRENCY,
   atomicWriteJson,
   backupFiles,
-  checkUrlLive,
   cleanM3uTitle,
   isRiskyStreamUrl,
   isTrustedCdnUrl,
@@ -35,6 +34,7 @@ import {
   normalizeChannelKey,
   parseM3U,
   pooledMap,
+  probeChannelPlayback,
   resolveM3uKey,
   shouldSkipM3uUrl,
   sortUrlsByQuality,
@@ -223,9 +223,8 @@ async function probeNewUrls(urls) {
   if (skipProbe) return { live: [], results: [] };
   const toProbe = urls.slice(0, MAX_NEW_PROBE_PER_CHANNEL);
   const results = await pooledMap(toProbe, PROBE_CONCURRENCY, async (url) => {
-    if (isTrustedCdnUrl(url)) return { url, live: true, reason: "trusted" };
-    const live = await checkUrlLive(url);
-    return { url, live, reason: live ? "live" : "dead" };
+    const result = await probeChannelPlayback(url);
+    return { url, live: result.live, reason: result.reason, status: result.status };
   });
   return {
     live: results.filter((r) => r.live).map((r) => r.url),
@@ -270,28 +269,24 @@ async function enrichChannel(key, existingUrls, byKey, skippedByKey) {
     return { key, urls: existingUrls, added: [], skippedFull: false };
   }
 
-  const trustedNew = candidates
-    .filter((c) => isTrustedCdnUrl(c.url))
-    .map((c) => c.url)
-    .filter((u) => !existingSet.has(u));
-  const nonTrusted = candidates.filter((c) => !isTrustedCdnUrl(c.url));
-  const riskyCandidates = nonTrusted.filter((c) => isRiskyStreamUrl(c.url)).map((c) => c.url);
-  const probeCandidates = sortUrlsByQuality(
-    nonTrusted.filter((c) => !isRiskyStreamUrl(c.url)).map((c) => c.url),
-  ).filter((u) => !existingSet.has(u));
+  const newCandidates = sortUrlsByQuality(
+    candidates.map((c) => c.url).filter((u) => !existingSet.has(u)),
+  );
+  const safeCandidates = newCandidates.filter((u) => !isRiskyStreamUrl(u));
+  const riskyCandidates = newCandidates.filter((u) => isRiskyStreamUrl(u));
 
   const probeResults = [];
-  let addedTrusted = uniqueUrls(trustedNew);
+  let addedTrusted = [];
   let addedProbed = [];
+  let addedRisky = [];
 
-  if (!skipProbe && probeCandidates.length) {
-    const safeProbe = await probeNewUrls(probeCandidates);
-    addedProbed = uniqueUrls(safeProbe.live);
+  if (!skipProbe && safeCandidates.length) {
+    const safeProbe = await probeNewUrls(safeCandidates);
+    const liveSafe = uniqueUrls(safeProbe.live);
+    addedTrusted = liveSafe.filter(isTrustedCdnUrl);
+    addedProbed = liveSafe.filter((u) => !isTrustedCdnUrl(u));
     probeResults.push(...safeProbe.results);
   }
-
-  let addedRisky = [];
-  const fallbackOnly = candidates.every((c) => c.skipped);
 
   let merged = capWithoutRemovingExisting(
     existingUrls,
@@ -299,27 +294,15 @@ async function enrichChannel(key, existingUrls, byKey, skippedByKey) {
   );
   let added = merged.filter((u) => !existingSet.has(u));
 
-  if (added.length < slots) {
+  if (added.length < slots && riskyCandidates.length && !skipProbe) {
     const room = slots - added.length;
     const addedSet = new Set(added);
-    const riskyToTry = sortUrlsByQuality(
-      riskyCandidates.filter((u) => !existingSet.has(u) && !addedSet.has(u)),
-    ).slice(0, room);
-
-    if (riskyToTry.length && !skipProbe) {
-      const riskyProbe = await probeNewUrls(
-        riskyToTry.slice(0, Math.min(MAX_NEW_PROBE_PER_CHANNEL, room)),
-      );
-      addedRisky = uniqueUrls(riskyProbe.live);
-      probeResults.push(...riskyProbe.results);
-    }
-
-    if (added.length + addedRisky.length < slots && fallbackOnly) {
-      const fallbackUrls = sortUrlsByQuality(
-        candidates.map((c) => c.url).filter((u) => !existingSet.has(u) && !addedSet.has(u)),
-      ).slice(0, slots - added.length - addedRisky.length);
-      addedRisky = uniqueUrls([...addedRisky, ...fallbackUrls]);
-    }
+    const riskyToTry = riskyCandidates.filter((u) => !addedSet.has(u)).slice(0, room);
+    const riskyProbe = await probeNewUrls(
+      riskyToTry.slice(0, Math.min(MAX_NEW_PROBE_PER_CHANNEL, room)),
+    );
+    addedRisky = uniqueUrls(riskyProbe.live);
+    probeResults.push(...riskyProbe.results);
 
     merged = capWithoutRemovingExisting(
       existingUrls,
