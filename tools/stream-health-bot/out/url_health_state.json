@@ -1,5 +1,4130 @@
 {
-  "urlFails": {},
+  "urlFails": {
+    "https://vavoo.biz-az.workers.dev/play/1221669131f90e763b2bbf": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196699&extension=ts&play_token=vmAan78Qyz": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196683&extension=ts&play_token=YUIm1DgYqE": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196715&extension=ts&play_token=aTmHKjHujY": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1762199258bc99baf9f471": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/3059837792736a008887e6": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/4066666828dc878f18e91": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1221669131537ab85f5399": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/2041026135be1c016f37d4": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/11526133371c4eb0995f0": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=1762199258e25181300f62": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trt1.medya.trt.com.tr/master.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://tv-trt1.medya.trt.com.tr/master_720.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://tv-trt1.live.trt.com.tr/master_720.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://trt.daioncdn.net/trt-1/master.m3u8?app=web": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://tv-trt1-esdai.medya.trt.com.tr/master.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trt1-dai.medya.trt.com.tr/master.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/535f4f5a-3ffa-4919-bb5d-5d31024c9237.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://notyet.denek1544.workers.dev/izle/trt1-114.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/1.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://trt.daioncdn.net/trt-1/master_720.m3u8?app=web": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://trt.daioncdn.net/trt-1/master_1080p.m3u8?&sid=7lt9umlk1uqx&app=ed3904e8-737b-4a5e-856a-1b0d7a0a94e2&ce=2": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://trt.daioncdn.net/trt-1/master.m3u8?app=ed3904e8-737b-4a5e-856a-1b0d7a0a94e2": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://trt.daioncdn.net/trt-1/master.m3u8?app=clean": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://trt.daioncdn.net/trt-1/master.m3u8?app=e435840d-2653-45a3-afef-082d4ea998f3": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "http://89.187.191.41/TRT-1-HD-TR/playlist.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:47:01.208Z",
+      "source": "m3u"
+    },
+    "http://116.202.238.88/TRT1_TR/index.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:06.209Z",
+      "source": "m3u",
+      "reason": "timeout"
+    },
+    "https://helga.iptv2022.com/sh/trt_1/index.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:47:07.135Z",
+      "source": "m3u"
+    },
+    "https://b.fulltvizle.com/trt1/playlist.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:07.228Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "https://trn03.tulix.tv/gt-trt1tveu/playlist.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:07.484Z",
+      "source": "m3u",
+      "reason": "http-404"
+    },
+    "https://tgn.bozztv.com/dvrfl05/gin-trt1tveu/playlist.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:07.674Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/c71b4e75-87a1-4048-a388-2f7fc5e5c07b.ts": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/8f46cd5d-e996-4ba3-a71c-198480f5e288.ts": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/eb8806ac-ebbf-43c3-a874-afd02b6a814e.ts": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.moja-teve9.me:80/play/live.php?mac=00:1A:79:0E:4F:73&stream=912479&extension=ts&play_token=e3cQ9hAIcv": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.moja-teve9.me:80/play/live.php?mac=00:1A:79:0E:4F:73&stream=912455&extension=ts&play_token=xWS0mOGk20": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1332310706d6138ade7950": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/2325261286da82934849d6": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/28610106417464cee3333d": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1332310706fc46b2298b36": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/455930425ae47a61530c5": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/12555943375da7df57f8b3": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://sktrgit.testworker0y.workers.dev/channel/QXR2IHwgQg==": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://kzx.testworkery0.workers.dev/atv?key=patr0n": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=2325261286cc81b01cf95d": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196698&extension=ts&play_token=6k77AngOgl": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196682&extension=ts&play_token=bdFA2u0of1": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196714&extension=ts&play_token=DWNCFJZrjl": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://notyet.denek1544.workers.dev/izle/atv-110.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/2.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/c8758555-8581-4dec-9a46-ebcfaf9ace0a.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_480p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "http://116.202.238.88/ATV_TR/tracks-v1a1/index.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://izle.canlitvapp.com/aytv/index.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:12.768Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "https://tgn.bozztv.com/trn03/gt-atv-tv/index.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:12.907Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "https://trkvz.daioncdn.net/atv/atv.m3u8?app=d5eb593f-39d9-4b01-9cfd-4748e8332cf0": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:13.795Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "https://ythls-v3.onrender.com/channel/UCUVZ7T_kwkxDOGFcDlFI-hg.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:14.083Z",
+      "source": "m3u",
+      "reason": "http-503"
+    },
+    "https://koprulu.serv00.net/ythls/?kanal_id=UCUVZ7T_kwkxDOGFcDlFI-hg.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:14.692Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "https://livestream.zazerconer.workers.dev/channel/UCUVZ7T_kwkxDOGFcDlFI-hg.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:14.787Z",
+      "source": "m3u",
+      "reason": "http-500"
+    },
+    "https://vavoo.biz-az.workers.dev/play/113044193323e36b85a648": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196696&extension=ts&play_token=DYgtNp28Es": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196680&extension=ts&play_token=RfWrMzD0aA": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196712&extension=ts&play_token=D1bUuDAgZw": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/167767968435d22ec4e572": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/17816560980c2d2941af7c": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1130441933bd5f93081361": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/38723286003580143700a": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/2315839051646c1ce130f": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=16776796840463f6dcff41": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://demiroren-live.daioncdn.net/kanald/kanald.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://live.duhnet.tv/S2/HLS_LIVE/kanalddainp/playlist.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/kanald/kanald_1080p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://notyet.denek1544.workers.dev/izle/kanald-112.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/6bdc8fb5-3e82-4b44-a0b1-6ab9fdc35d3f.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/kanald/kanald.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "http://live.duhnet.tv/S2/HLS_LIVE/kanalddainp/playlist.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "http://live.duhnet.tv/S2/HLS_LIVE/kanalddainp/track_4_1250/playlist.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=da2109ea-5dfe-4107-89ab-23593336ed61": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "http://5.135.92.133:52841/out/u/549_1.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://trn03.tulix.tv/gt-kanald/playlist.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:19.948Z",
+      "source": "m3u",
+      "reason": "http-404"
+    },
+    "http://trn09.tulix.tv/gt-kanald/index.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:20.125Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "https://demiroren-live.daioncdn.net/kanald/kanald_1080p.m3u8?app=kanald_web&ce=3": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:20.548Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "http://89.187.191.41/Kanal-D-HD-TR/video.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:20.749Z",
+      "source": "m3u",
+      "reason": "http-404"
+    },
+    "http://trn03.tulix.tv/gt-kanald-tv/tracks-v1a1/mono.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:20.877Z",
+      "source": "m3u",
+      "reason": "http-404"
+    },
+    "https://vavoo.biz-az.workers.dev/play/351471337029c80ca4c64": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196697&extension=ts&play_token=S05dySmbjf": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196681&extension=ts&play_token=D1bWjTr6uO": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196713&extension=ts&play_token=xhxHbZR2QZ": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/879588960b94fb8fa2dd0": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1449499865e512ccb4b2a4": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/35147133735c7501e9db6": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/2485009235c919fab17395": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/2395422638374699088999": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://kzx.testworkery0.workers.dev/showtv?key=patr0n": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://sktrgit.testworker0y.workers.dev/channel/U2hvdyBUViB8IEE=": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=8795889605c7795ac9528": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://canli.ensonhaber.com/tr/showtv/index.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://notyet.denek1544.workers.dev/izle/showtv.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/0ed1c367-312d-4a42-9772-ef257a36b775.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/3.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://ciner-live.daioncdn.net/showtv/showtv.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showtv/showtv.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showtv/showtv_1080p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://ciner-live.daioncdn.net/showtv/showtv_1080p.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:23.786Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "https://vavoo.biz-az.workers.dev/play/272055669263af9be64671": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196695&extension=ts&play_token=9rZyNWfIPX": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196679&extension=ts&play_token=wIZQXtaEUX": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196711&extension=ts&play_token=nggIpK8Ukz": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/27205566929a90a4945b86": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/2020035128e10d131b945f": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/6993059230c09ede7eeea": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/863472446d9f9461454d6": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://dygvideo.dygdigital.com/live/hls/startv4puhu?m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://kzx.testworkery0.workers.dev/star?key=patr0n": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://sktrgit.testworker0y.workers.dev/channel/U3RhciBUViB8IEE=": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=219297129315c074c03f8e": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/2192971293c97637353600": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://lcgid8xu.rocketcdn.com/startvhd.stream_720p/chunklist.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://notyet.denek1544.workers.dev/izle/startv-113.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/a8ea8b0b-9c06-41ce-b7f9-35e895c78b77.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://live.livestreamtv.ca/azstar/smil:azstar.smil/chunklist_w1579849357_b2000000_slen.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/5.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://dogus-live.daioncdn.net/startv/startv.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://dogus-live.daioncdn.net/startv/playlist.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://dogus.daioncdn.net/startv/startv.m3u8?app=startv_web&ce=3": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://dogus-live.daioncdn.net/startv/startv_720p.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:24.916Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "https://dogus.daioncdn.net/startv/startv.m3u8?ce=3&app=1740db13-3ee9-4858-8d2c-b1a9cfaa3718": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:47:25.298Z",
+      "source": "m3u"
+    },
+    "https://vavoo.biz-az.workers.dev/play/161305206673e7c4b7739": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196694&extension=ts&play_token=lSQRFJi5TM": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196678&extension=ts&play_token=p5hwUyOLoj": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196710&extension=ts&play_token=Vinm127vDi": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/257819759392b353c7c9cd": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/919108696c5e1f69646dd": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/161305206b6ca8959b48c": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1453917580f88ace14fe9": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/3105184056f2b2b1e8c8ab": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=196678&extension=ts&play_token=p5hwUyOLoj": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=196710&extension=ts&play_token=Vinm127vDi": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=196678&extension=ts&play_token=p5hwUyOLoj": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=196710&extension=ts&play_token=Vinm127vDi": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=196678&extension=ts&play_token=p5hwUyOLoj": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=196710&extension=ts&play_token=Vinm127vDi": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://demiroren-live.daioncdn.net/nowtv/nowtv.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "http://116.202.238.88/FOXTV_TR/index.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:31.636Z",
+      "source": "m3u",
+      "reason": "timeout"
+    },
+    "https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=6QNlEu4Mnsjp_Vvp0v1zlw&e=1750665018": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:32.022Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=6QNlEu4Mnsjp_Vvp0v1zlw&e=1750665018": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:32.787Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "https://nowtv.blutv.com/blutv_nowtv/live.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:32.945Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "https://new.cache-stream.workers.dev/stream/UCJe13zu6MyE6Oueac41KAqg/live.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:33.387Z",
+      "source": "m3u",
+      "reason": "http-500"
+    },
+    "https://ythls.armelin.one/channel/UCJe13zu6MyE6Oueac41KAqg.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:33.634Z",
+      "source": "m3u",
+      "reason": "not-hls-manifest"
+    },
+    "https://vavoo.biz-az.workers.dev/play/1702470161fe0c4007a0bb": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196693&extension=ts&play_token=b5WpiwQiiH": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196677&extension=ts&play_token=zLN7npODPH": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196709&extension=ts&play_token=BxLJEjUKpG": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/269329901340b62e2f02eb": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/38494812994251a1d3349d": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1702470161aaf1333bbf58": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/4292306921eac1acd4e3d1": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/2196709234a54a76672d16": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://sktrgit.testworker0y.workers.dev/channel/VHY4IHwgQw==": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://kzx.testworkery0.workers.dev/tv8?key=patr0n": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=2693299013444c726b1ee4": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv8-live.daioncdn.net/tv8/tv8_1080p.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv8-live.daioncdn.net/tv8/tv8.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/e93b8e86-e4fc-450a-81d4-2188eda7dda0.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/8.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3&": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?&sid=7uwoyq6usvp2&app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=2": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://ip44.radyotelekomtv.com:3958/hybrid/play.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "http://trn03.tulix.tv/gt-tv8-tv/index.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:34.968Z",
+      "source": "m3u",
+      "reason": "http-404"
+    },
+    "http://tgn.bozztv.com/trn03/gt-tv8-tv/index.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:35.022Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "https://x.canlitvapp.com/kanal8/index.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:35.403Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:47:36.701Z",
+      "source": "m3u"
+    },
+    "http://95.174.71.114:80/TR-TV8/tracks-v1a1/mono.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:36.953Z",
+      "source": "m3u",
+      "reason": "http-404"
+    },
+    "http://116.202.238.88/TV8_TR/tracks-v1a1/mono.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:41.954Z",
+      "source": "m3u",
+      "reason": "timeout"
+    },
+    "https://vavoo.biz-az.workers.dev/play/3472698776e30314a5e33a": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196692&extension=ts&play_token=021Y7YSYE8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196676&extension=ts&play_token=Y0BUC14soU": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196708&extension=ts&play_token=Pwjmuok1N0": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1908265816ef4c9a0e07d3": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/347269877637b4a523574e": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/14092376b3e1fc781650": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1830521243928aba821936": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://sktrgit.testworker0y.workers.dev/channel/VHY4LjUgfCBB": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=241220593740c7258ef669": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv8bucuk.daioncdn.net/tv8bucuk/tv8bucuk.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv8bucuk-live.daioncdn.net/tv8bucuk/tv8bucuk.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/28.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/88228e59-ca29-4b4a-95e5-e9152bd9e1b4.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://mn-nl.mncdn.com/blutv_tv8_52/live_720p2000000kbps/index.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv8-live.daioncdn.net/tv8bucuk/tv8bucuk_1080p.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://tv8.daioncdn.net/tv8bucuk/tv8bucuk.m3u8?app=tv8bucuk_web": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://tv8.daioncdn.net/tv8bucuk/tv8bucuk_480p.m3u8?&sid=7tra76g4cefx&app=bf58ab52-4865-4c81-b223-26b41009801e&ce=3": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://bcovlive-a.akamaihd.net/8fe5dabcdbcd4af0ace7b991a12a6a4c/eu-central-1/6415845530001/playlist.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:43.913Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "https://tv8-live.daioncdn.net/tv8bucuk/tv8bucuk.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:43.996Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "https://tv8.daioncdn.net/tv8bucuk/tv8bucuk.m3u8?app=bf58ab52-4865-4c81-b223-26b41009801e": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:47:44.261Z",
+      "source": "m3u"
+    },
+    "https://tv8-tb-live.ercdn.net/tv8bucuk/tv8bucuk.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:44.834Z",
+      "source": "m3u",
+      "reason": "http-401"
+    },
+    "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk_1080p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:47:45.315Z",
+      "source": "m3u"
+    },
+    "https://tv8.daioncdn.net/tv8bucuk/tv8bucuk_1080p.m3u8?app=tv8bucuk_web&ce=3": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:47:46.019Z",
+      "source": "m3u"
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=201905527745e40d41f657": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/867875861079562f15007": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196687&extension=ts&play_token=DGJnc2zcvx": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196671&extension=ts&play_token=9oLEqeVHKo": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196703&extension=ts&play_token=UppNkUMero": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/20190552770d1c1a3c2413": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/867875861a86b82795c86": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/759245925a99fcb4a7baa": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/17358068518fb13559e6ab": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=196671&extension=ts&play_token=9oLEqeVHKo": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=196703&extension=ts&play_token=UppNkUMero": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=196671&extension=ts&play_token=9oLEqeVHKo": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=196703&extension=ts&play_token=UppNkUMero": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=196671&extension=ts&play_token=9oLEqeVHKo": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/26.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/cd13382a-cd53-46b1-964a-928bdf4e63e7.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://trkvz-live.ercdn.net/a2tv/a2tv.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:51.436Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "https://trkvz-live.daioncdn.net/a2tv/a2tv.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:51.886Z",
+      "source": "m3u",
+      "reason": "http-404"
+    },
+    "https://new.cache-stream.workers.dev/stream/UCHqu50_C2U2h_rpzhygs4aA/live.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:52.855Z",
+      "source": "m3u",
+      "reason": "http-500"
+    },
+    "https://ythls.armelin.one/channel/UCHqu50_C2U2h_rpzhygs4aA.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:53.630Z",
+      "source": "m3u",
+      "reason": "not-hls-manifest"
+    },
+    "http://stream.tvcdn.net/eglence/a2.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:53.788Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "https://trkvz.daioncdn.net/a2tv/a2tv.m3u8?ce=3&app=59363a60-be96-4f73-9eff-355d0ff2c758": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:54.458Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "https://sktrgit.testworker0y.workers.dev/channel/VGV2ZTI=": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=1917502631a9b6866e12b6": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/42295295583463c26f2597": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196689&extension=ts&play_token=7u6BNeQHj0": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196673&extension=ts&play_token=FAWownG5Xe": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196705&extension=ts&play_token=xANzQNS7IG": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/2549900211495112a35221": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1917502631f13fff05089a": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/42295295588aa1ee29d2f5": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/41975076967de177004d01": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=196673&extension=ts&play_token=FAWownG5Xe": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=196705&extension=ts&play_token=xANzQNS7IG": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/44cff2e5-7871-40c8-b6d2-094572b4371a.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/27.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://live.duhnet.tv/S2/HLS_LIVE/teve2np/playlist.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://demiroren-live.daioncdn.net/teve2/teve2.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://demiroren.daioncdn.net/teve2/teve2.m3u8?app=web": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://demiroren.daioncdn.net/teve2/teve2.m3u8?app=6aab838a-437e-4a1b-bbd0-e30f79cdbbbd": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://live.duhnet.tv/S2/HLS_LIVE/teve2np/playlist.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:47:55.460Z",
+      "source": "m3u"
+    },
+    "https://live.duhnet.tv/S2/HLS_LIVE/teve2np/track_4_1000/playlist.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:47:55.865Z",
+      "source": "m3u"
+    },
+    "https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/teve2/teve2_1080p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:47:56.555Z",
+      "source": "m3u"
+    },
+    "https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/teve2/teve2.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:47:57.297Z",
+      "source": "m3u"
+    },
+    "https://vavoo.biz-az.workers.dev/play/16398895980886efa9037e": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196690&extension=ts&play_token=PndCKJQB2u": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196674&extension=ts&play_token=9BpPqEg56T": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196706&extension=ts&play_token=WrJLqZWz8L": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/10926679593933319c6c99": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/2736723250e9bfebc0a4fe": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/16398895985fa783bb64cf": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/2842046019b7dd141b5810": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/30156499821c08abdc76b8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=109266795988e12fc489b6": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://kanal7.blutv.com/blutv_kanal7_live/live.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://notyet.denek1544.workers.dev/izle/kanal7-106.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/7c94cb8c-63d1-46df-afac-a299e3910a5a.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "http://cdn.vizitv.workers.dev/7.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://yurhnwtpys.turknet.ercdn.net/cvmbjbpmdx/kanal7/kanal7_1080p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://kanal7.daioncdn.net/kanal7/kanal7.m3u8?app=f99587ad-1637-494d-8255-da35b09d17a1": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://kanal7dvr.blutv.com/blutv_kanal7_dvr2/live_720p2000000kbps/index.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:47:58.819Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "https://kanal7-live.daioncdn.net/kanal7/kanal7_1080p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:47:58.906Z",
+      "source": "m3u"
+    },
+    "https://vavoo.biz-az.workers.dev/play/2755756005a4ea6e7589ca": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196675&extension=ts&play_token=MB5iIE85Ro": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196691&extension=ts&play_token=8QiYAaqw7G": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196707&extension=ts&play_token=c1bLsSRIBi": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/805689873d1f86dda0ea7": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/16003488113c5e919349c9": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/27557560055eaff11704f2": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/3418237531aa6c4be3f243": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/27585088802658f5b5261": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=805689873341639546753": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_720p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://mn-nl.mncdn.com/blutv_beyaztv2/live.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://notyet.denek1544.workers.dev/izle/beyaztv-105.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/9.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/710fb148-7b3d-4ca2-b6c2-743097885a45.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://beyaztv.daioncdn.net/beyaztv/beyaztv.m3u8?app=fcd5c66b-da9d-44ba-a410-4f34805c397d&ce=3": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://beyaztv.daioncdn.net/beyaztv/beyaztv.m3u8?app=fcd5c66b-da9d-44ba-a410-4f34805c397d": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://beyaztv.blutv.com/blutv_beyaztv_live/live.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:00.238Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "https://turkmedya-live.ercdn.net/tv360/tv360.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:48:01.046Z",
+      "source": "m3u"
+    },
+    "https://turkmedya-live.ercdn.net/tv360/tv360_1080p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:48:01.129Z",
+      "source": "m3u"
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=21962786526c864f9c84d4": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1495761327668bcd5072dc": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196700&extension=ts&play_token=fc6mDNoLp1": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196669&extension=ts&play_token=rjNedbCxUR": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196701&extension=ts&play_token=0WeM5XSl3Q": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1495761327d780ef04e3ca": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/2196278652f048f055c5f6": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=196669&extension=ts&play_token=rjNedbCxUR": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=196701&extension=ts&play_token=0WeM5XSl3Q": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=196669&extension=ts&play_token=rjNedbCxUR": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=196701&extension=ts&play_token=0WeM5XSl3Q": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=196669&extension=ts&play_token=rjNedbCxUR": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=196701&extension=ts&play_token=0WeM5XSl3Q": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=196669&extension=ts&play_token=rjNedbCxUR": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=196701&extension=ts&play_token=0WeM5XSl3Q": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/30.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/2ffa76f2-5c2b-4f98-b29b-9bbda2f75ad6.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tur/shmax.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:01.668Z",
+      "source": "m3u",
+      "reason": "http-404"
+    },
+    "https://ythls.armelin.one/video/Y3vGHFrsqrs.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:02.532Z",
+      "source": "m3u",
+      "reason": "not-hls-manifest"
+    },
+    "https://ythlsgo.onrender.com/video/Y3vGHFrsqrs.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:02.873Z",
+      "source": "m3u",
+      "reason": "http-503"
+    },
+    "https://livestream.zazerconer.workers.dev/stream/Y3vGHFrsqrs.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:02.891Z",
+      "source": "m3u",
+      "reason": "http-500"
+    },
+    "https://new.cache-stream.workers.dev/stream/Y3vGHFrsqrs/live.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:48:03.834Z",
+      "source": "m3u"
+    },
+    "https://ciner-live.ercdn.net/showmax/showmax.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:04.258Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "https://vavoo.biz-az.workers.dev/play/10407066957b9356f79511": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196688&extension=ts&play_token=xSvgymKo8X": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196672&extension=ts&play_token=nlEsVtlBA5": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196704&extension=ts&play_token=fjDkUPg1W8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/388431903371d3ffd67aca": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/20053051322d77715d98eb": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/104070669583b50947db99": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1098827077c475105c0eb0": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=38843190334c7e81c1c6fc": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trt2.medya.trt.com.tr/master.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trt2.medya.trt.com.tr/master_720.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/34.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://trtcanlitv-lh.akamaihd.net/i/TRT2_1@107981/index_720p_av-b.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/daa339b4-807f-4111-b212-318ae5798801.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/2579401878b96c047d58b3": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197262&extension=ts&play_token=VItI33IyP6": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197249&extension=ts&play_token=qj1ZGcBagQ": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197285&extension=ts&play_token=8x04ECnrPk": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/603651638223283592b1c": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/257940187878c62c1d23e4": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/2003703357892c5750a720": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/189097604157175d6ac974": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=6036516388b222edb706e": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trthaber.live.trt.com.tr/master_720.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trthaber.medya.trt.com.tr/master_1080.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://streams.uzunmuhalefet.com/stream/aa1ae31d-1d61-44b2-b675-b74e3ff5c7fc.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/15.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trthaber.medya.trt.com.tr/master_720.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://tv.ensonhaber.com/trthaber/trthaber.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "http://tv-trthaber.medya.trt.com.tr/master.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://tv-trthaber.medya.trt.com.tr/master.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://ensonhaber-live.ercdn.net/trthaber/trthaber.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://vavoo.biz-az.workers.dev/play/312904614dc748b02d86a": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=709&extension=ts&play_token=AN3cSmXfyI": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=701&extension=ts&play_token=otMelKJIPh": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=615826&extension=ts&play_token=NKaM9BVBIs": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/2262969938ddae6a1a7898": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/29528282455c5d0324aee3": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/3129046149247ca18dae9": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/21143354249278653ec9e2": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/2781429267e8a3cf2b3820": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trtspor1.medya.trt.com.tr/master.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trtspor1.medya.trt.com.tr/master_1440.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=22629699381f94fcd9dbe6": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trtspor.medya.trt.com.tr/master_1080p.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/20.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trtspor1.live.trt.com.tr/master.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trtspor.medya.trt.com.tr/master.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trtspor.medya.trt.com.tr/master_720.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://mn-nl.mncdn.com/blutv_trtspor2/live_720p2000000kbps/index.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trtspor2.medya.trt.com.tr/master.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trtspor.live.trt.com.tr/master.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trtspor-esdai.medya.trt.com.tr/master_1440p.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trtspor-esdai.medya.trt.com.tr/master.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/dc23a8ec-c62f-47a2-ae23-e823a9851a1a.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://trtspordvr.blutv.com/blutv_trtspor_dvr/live.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://mn-nl.mncdn.com/blutv_trtspor2/live_720p2000000/index.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://trt.daioncdn.net/trtspor/master.m3u8?app=web&platform=trtspor&ppid=f59d8f7730dca3788c0d28e9c48eb087": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://trt.daioncdn.net/trtspor/master.m3u8?app=9b65474e-8197-4899-aabb-321fcf6dd9eb": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "http://162.212.179.33:80/dvrfl05/gin-trtspor/playlist.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://corestream.siteyaptim.live/trt-spor/index.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:10.236Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "https://trn03.tulix.tv/gt-trtspor-1/playlist.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:10.397Z",
+      "source": "m3u",
+      "reason": "http-404"
+    },
+    "https://test.dreamboxserver.net/trtspor/index.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:10.442Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "http://live.artofknot.com:5080/proxy/channel?url=https://tv-trtspor-esdai.medya.trt.com.tr/master.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:10.659Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "http://live.artofknot.com:5080/proxy/channel?url=https://tv-trtspor1.medya.trt.com.tr/master.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:10.822Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "https://trt.daioncdn.net/trtspor/master.m3u8?app=web": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:48:11.582Z",
+      "source": "m3u"
+    },
+    "https://vavoo.biz-az.workers.dev/play/2661394868c382749f3f0e": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197441&extension=ts&play_token=2YxNaeWuvv": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/7869736564cc06a9c7d38": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/266139486820a0c49de6d0": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/59975740534b4a6f3f1fc": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/2439012215302f85057cf8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=786973656b665fa8beb18": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trtbelgesel.medya.trt.com.tr/master_720.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn1.streamencoding.com:1935/tgrt_belgesel/tgrt1/playlist.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/31.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/d2c6d071-d252-4b73-9607-df0084017f2e.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trtbelgesel-dai.medya.trt.com.tr/master.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://d2xwn494f2lep.cloudfront.net/v1/master/80dbfc318ab6b980679b32095ba497236de6d2f9/TRT-Belgesel/master.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:11.933Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "http://tv-trtbelgesel.live.trt.com.tr/master.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:12.037Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "https://dsmartgo-live.ercdn.net/trtbelgesel/trtbelgesel.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:12.526Z",
+      "source": "m3u",
+      "reason": "http-401"
+    },
+    "https://vavoo.biz-az.workers.dev/play/691149597dd82bfd95545": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197422&extension=ts&play_token=yMORpbUiQx": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/29904103523a8cc61e5fb5": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/6911495976c3eccc46c1c": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/4076672974156c7803181d": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://sktrgit.testworker0y.workers.dev/channel/VFJUIEF2YXo=": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=2990410352438976430a38": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trtavaz.live.trt.com.tr/master_720.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/76.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trtavaz.medya.trt.com.tr/master_720.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://streams.uzunmuhalefet.com/stream/3dd49c7a-001c-4be0-9a16-0f8957e3977c.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trtavaz.medya.trt.com.tr/master.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://vavoo.biz-az.workers.dev/play/3203147403a3de72a3f660": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197261&extension=ts&play_token=cdx7DrYc71": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197254&extension=ts&play_token=0rlkSsz2j9": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197286&extension=ts&play_token=IjEhbs1E9U": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/3203147403dc5d2bea1775": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/31072055357ef373a5c362": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://sktrgit.testworker0y.workers.dev/channel/VFJUIFdvcmxk": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=3107205535643a3fc91038": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trtworld.live.trt.com.tr/master_1080.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trtworld.live.trt.com.tr/master.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/80.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trtworld.medya.trt.com.tr/master.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "http://tv-trtworld.medya.trt.com.tr/master.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://dash2.antik.sk/live/test_trt_world_atktv/playlist.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:48:13.937Z",
+      "source": "m3u"
+    },
+    "https://vavoo.biz-az.workers.dev/play/5500451029f0e83b65cf8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197417&extension=ts&play_token=uFQW2KSLfI": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/30291805060c483e92cd8c": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/550045102484194fd62e2": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/6857948303970e32d15c1": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/7922281223a64305a487d": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://rintintiri.denek1544.workers.dev/channel/VFJUIMOHb2N1aw==": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=30291805064bacb8a4036d": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trtcocuk.live.trt.com.tr/master_720.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/6ad16f63-33f5-45bd-9742-1b98a71ce6ed.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://tv-trtcocuk.live.trt.com.tr/master_720.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trtcocuk.medya.trt.com.tr/master_720.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trtcocuk.medya.trt.com.tr/master.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/21.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv-trtcocuk.live.trt.com.tr/master.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:14.089Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "https://trn03.tulix.tv/gt-trtcocuk/index.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:14.109Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "https://tv-trtcocuk.medya.trt.com.tr/master_1080.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:14.118Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "https://vavoo.biz-az.workers.dev/play/3194104127c78eba51ffc7": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197266&extension=ts&play_token=4Nw50op3di": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197247&extension=ts&play_token=sTEEqg3kAh": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197291&extension=ts&play_token=bpMCEGuEgT": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/2073292907b82518f90591": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/3194104127b06496d2f414": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/3982787280337b6c3d4aed": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/3164514696294efedc241e": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://dygvideo.dygdigital.com/live/hls/ntv4puhu?m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://dygvideo.dygdigital.com/live/hls/puhuntvdai?m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://kzx.testworkery0.workers.dev/ntv?key=patr0n": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=2073292907cc209d200015": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/f27d4ced-d7e4-4d63-95b4-c47302cad618.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/17.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://dogus-live.daioncdn.net/ntv/ntv.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://dogus.daioncdn.net/ntv/ntv.m3u8?ce=3": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "http://dogus.daioncdn.net/ntv/ntv.m3u8?ce=3&&app=7c4bb802-0c41-409e-8cd2-799984995694": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://dogus.daioncdn.net/ntv/ntv_720p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://strhlslb01.streamakaci.tv/str_ntv_ntv/str_ntv_ntv_multi/playlist.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tur/ntv.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:15.122Z",
+      "source": "m3u",
+      "reason": "http-404"
+    },
+    "https://emmazbvkkf.turknet.ercdn.net/cnifuowzza/ntv/ntv_720p.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:16.734Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "https://dogus.daioncdn.net/ntv/ntv_1080p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:48:17.058Z",
+      "source": "m3u"
+    },
+    "https://raw.githack.com/ipstreet312/freeiptv/master/ressources/tur/ntv.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:17.142Z",
+      "source": "m3u",
+      "reason": "http-404"
+    },
+    "https://cdn.jsdelivr.net/gh/ipstreet312/freeiptv@master/ressources/tur/ntv.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:18.255Z",
+      "source": "m3u",
+      "reason": "http-404"
+    },
+    "https://vavoo.biz-az.workers.dev/play/427315396743dfe9212c50": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/2056768647b3cd3bee1ca9": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/41338152650143743f9d7": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/413381526e28cb7d94374": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/3278683973f0afa7ac38fb": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197253&extension=ts&play_token=2Ocs1xojEE": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197287&extension=ts&play_token=mqO3Ga5TwL": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197253&extension=ts&play_token=2Ocs1xojEE": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197287&extension=ts&play_token=mqO3Ga5TwL": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197253&extension=ts&play_token=2Ocs1xojEE": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197287&extension=ts&play_token=mqO3Ga5TwL": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197253&extension=ts&play_token=2Ocs1xojEE": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://demiroren-live.daioncdn.net/cnnturk/cnnturk_1080p.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://demiroren-live.daioncdn.net/cnnturk/cnnturk_720p.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://live.duhnet.tv/S2/HLS_LIVE/cnnturknp/track_4_1000/playlist.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://demiroren-live.daioncdn.net/cnnturk/cnnturk.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://live.duhnet.tv/S2/HLS_LIVE/cnnturknp/track_3_750/playlist.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://live.duhnet.tv/S2/HLS_LIVE/cnnturknp/playlist.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://b.fulltvizle.com/cnn/playlist.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:18.948Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "https://raw.githubusercontent.com/tecotv2025/tecotv/refs/heads/main/playlist/Cnn_Turk.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:18.979Z",
+      "source": "m3u",
+      "reason": "http-404"
+    },
+    "http://trn03.tulix.tv/gt-cnn-turk/tracks-v1a1/mono.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:19.082Z",
+      "source": "m3u",
+      "reason": "http-404"
+    },
+    "https://yayin2.canlitv.fun/livetv/cnnturk.stream/playlist.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:19.612Z",
+      "source": "m3u",
+      "reason": "http-404"
+    },
+    "https://tgn.bozztv.com/dvrfl05/gin-cnnturk/tracks-v1a1/mono.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:19.850Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6926/index.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:48:20.227Z",
+      "source": "m3u"
+    },
+    "https://vavoo.biz-az.workers.dev/play/2360854158813051c3c887": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197264&extension=ts&play_token=Iw60S9KlXh": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197251&extension=ts&play_token=sCjQ33s91W": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197283&extension=ts&play_token=4rvpCu6PHT": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/42533693767c6c65924ea5": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/2360854158f335581f9f03": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1470199900ebbdb4fbabf0": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/46437817002d8ef78b85e": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/240277238068ef93d3dc1e": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://sahsahbazz.testworker0y.workers.dev/channel/SGFiZXJ0w7xyayB8IEI=": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=4253369376912583d237b6": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://canli.ensonhaber.com/tr/haberturk/index.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/13.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv.ensonhaber.com/haberturk/haberturk.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://streams.uzunmuhalefet.com/stream/0c0bc91d-ce3a-49cc-9054-1cff110967c4.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://ensonhaber-live.ercdn.net/haberturk/haberturk.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://ciner.daioncdn.net/haberturktv/haberturktv.m3u8?app=c98ab0b0-50cc-495b-bb37-778e91f5ff5b": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://ciner-live.daioncdn.net/haberturktv/haberturktv.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv_1080p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://haberturk.blutv.com/blutv_haberturk_live/live.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:21.065Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "https://ciner-live.daioncdn.net/haberturktv/haberturktv_1080p.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:21.147Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "https://kzx.testworkery0.workers.dev/ahaber?key=patr0n": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=1064954896a21f89fb6b5c": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/535272601f07c2fbd1f2b": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197259&extension=ts&play_token=lETzv88kvz": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197252&extension=ts&play_token=VNVj1xnbYU": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197288&extension=ts&play_token=5Ikrg2T6or": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1064954896823e0373977d": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/5352726017e63108dd805": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1596095882fdd4026d36d3": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1174108535ca4e47f4a7d3": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197252&extension=ts&play_token=VNVj1xnbYU": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197288&extension=ts&play_token=5Ikrg2T6or": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197252&extension=ts&play_token=VNVj1xnbYU": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197288&extension=ts&play_token=5Ikrg2T6or": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/b4f7a5e9-fcae-4258-83eb-cc37b6a68696.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/14.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "http://137.74.205.201/live1/mh-3mbps.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://trkvz-live.ercdn.net/ahaberhd/ahaberhd.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:48:26.742Z",
+      "source": "m3u"
+    },
+    "https://b.fulltvizle.com/ahaber/playlist.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:26.832Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "https://c.fulltvizle.com/ahaber/index.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:26.870Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "https://canlitvulusal.xyz/live/ahaber/index.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:27.010Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "https://anym3u8player.com/youtube.php/id/68f4c967d2678.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:32.010Z",
+      "source": "m3u",
+      "reason": "timeout"
+    },
+    "https://sahsahbazz.testworker0y.workers.dev/channel/SGFiZXIgR2xvYmFs": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=11966263871c480a66a299": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/40697740688fd0b8c6b747": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197268&extension=ts&play_token=tGkC8erhpz": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197244&extension=ts&play_token=om2rV48Tfv": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197294&extension=ts&play_token=jUY2fYSa3k": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/119662638752f4a2975591": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/4069774068363aa38c7a97": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/65221008233d5b5a53f33": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/2483036808de9d9e656f14": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197244&extension=ts&play_token=om2rV48Tfv": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197294&extension=ts&play_token=jUY2fYSa3k": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://canli.ensonhaber.com/tr/haberglobal/index.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/38.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://haberglobaldvr.blutv.com/blutv_haberglobal_dvr/live.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv.ensonhaber.com/haberglobal/haberglobal_720p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://ensonhaber-live.ercdn.net/haberglobal/haberglobal.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://github.com/tecotv2025/tecotv/raw/main/playlist/Haber_Global_TV.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:32.581Z",
+      "source": "m3u",
+      "reason": "http-404"
+    },
+    "https://vavoo.biz-az.workers.dev/play/38229012391e140a7f75ba": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197270&extension=ts&play_token=kbSCfqIRQ7": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197241&extension=ts&play_token=Wu0UZQvCRI": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197296&extension=ts&play_token=8fhywOE3Qq": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/3822901239bd6be40caf9f": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://sahsahbazz.testworker0y.workers.dev/channel/S2FuYWwgMjQ=": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=38229012391e140a7f75ba": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavo.sayezec.workers.dev/ID=38229012391e140a7f75ba": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv.ensonhaber.com/tv24/tv24.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://streams.uzunmuhalefet.com/stream/35b6fa6f-7915-4303-8198-30c2d7b82929.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://canli.ensonhaber.com/tr/24tv/index.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/37.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://mn-nl.mncdn.com/kanal24/smil:kanal24.smil/playlist.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://turkmedya-live.ercdn.net/tv24/tv24.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://turkmedya-live.ercdn.net/tv24/tv24_720p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:48:33.633Z",
+      "source": "m3u"
+    },
+    "https://vavoo.biz-az.workers.dev/play/960578312ee36cc17c5d2": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/2466905700da1caaa3d81e": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/2036794972b992547192b9": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/20367949726a4dd1dbd20b": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/10981729539aae9f7be4f1": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/960578312686f0f29e07c": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/24669057008c1d07812ce0": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1098172953a40c7864dfeb": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=540949&extension=ts&play_token=JOFxL2wUlR": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://5.178.103.239:55/yt1/szctv.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:38.633Z",
+      "source": "m3u",
+      "reason": "timeout"
+    },
+    "https://helga.iptv2022.com/szc_tv/index.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:48:41.025Z",
+      "source": "m3u"
+    },
+    "https://izle.canlitvapp.com/sozcu/index.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:41.117Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "https://raw.githubusercontent.com/tecotv2025/tecotv/refs/heads/main/playlist/Sozcu_Tv.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:41.155Z",
+      "source": "m3u",
+      "reason": "http-404"
+    },
+    "https://b.fulltvizle.com/sozcu/playlist.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:41.247Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "http://176.65.146.123:6004/play/a019/index.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:46.247Z",
+      "source": "m3u",
+      "reason": "timeout"
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=1738739277a6ed7f08cfb3": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/11824807968f3783ce706f": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197257&extension=ts&play_token=hQlsXbvuXH": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197248&extension=ts&play_token=Z37YuPMIhU": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197290&extension=ts&play_token=sj6qFNt3zc": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1738739277c7bdedc66c15": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1225673773d05a1944bcb0": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/12216617554191402f711d": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/11824807961492e55089db": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197248&extension=ts&play_token=Z37YuPMIhU": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197290&extension=ts&play_token=sj6qFNt3zc": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197248&extension=ts&play_token=Z37YuPMIhU": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://canli.ensonhaber.com/tr/tvnet/index.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/43.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv.ensonhaber.com/tv/tr/tvnet/index.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://mn-nl.mncdn.com/tvnet/tvnet/chunklist.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://mn-nl.mncdn.com/tvnet/tvnet/playlist.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/9006885e-a09b-41e5-a19d-3273c30a74e9.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:46.637Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "https://sahsahbazz.testworker0y.workers.dev/channel/SGFsayBUVg==": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=17719991006aa1a0ebf68a": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/17719991006aa1a0ebf68a": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197274&extension=ts&play_token=hmqcrCTD7p": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197235&extension=ts&play_token=OG8Ro26N9C": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197301&extension=ts&play_token=h3FZ99syXZ": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1320391955dfdc732d6056": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1771999100f25b9d0b0080": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/4148513719633486206c9c": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/398644410658a660ba5f49": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197235&extension=ts&play_token=OG8Ro26N9C": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197301&extension=ts&play_token=h3FZ99syXZ": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197235&extension=ts&play_token=OG8Ro26N9C": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/16.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/ea5e2000-56b6-4fb9-8dcf-b8bbe90b9f7b.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://halktv-live.daioncdn.net/halktv/halktv.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://halktv.daioncdn.net/halktv/halktv_1080p.m3u8?app=c86957d3-74a7-44da-9ad2-dc358c769609": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://halktv.daioncdn.net/halktv/halktv.m3u8?app=c86957d3-74a7-44da-9ad2-dc358c769609": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://halktvdvr.blutv.com/blutv_halktv2_dvr/live.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:47.992Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "https://halktv-live.daioncdn.net/halktv/halktv_1080p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:48:48.228Z",
+      "source": "m3u"
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=4179661802105c1488514b": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/135762464349d3676ea069": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197275&extension=ts&play_token=XlBwIcQt6l": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197277&extension=ts&play_token=KIXB6lQUC0": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197302&extension=ts&play_token=yjBo7eJJ01": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/417966180201916205156f": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1357624643b43a53ee98ad": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/10259795203fbba8e10017": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197277&extension=ts&play_token=KIXB6lQUC0": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197302&extension=ts&play_token=yjBo7eJJ01": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197277&extension=ts&play_token=KIXB6lQUC0": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197302&extension=ts&play_token=yjBo7eJJ01": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197277&extension=ts&play_token=KIXB6lQUC0": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197302&extension=ts&play_token=yjBo7eJJ01": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197277&extension=ts&play_token=KIXB6lQUC0": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/edba8b19-4745-4c5c-a235-b23a06d83eda.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/35.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tele1-live.ercdn.net/tele1/tele1.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://tele1.blutv.com/blutv_tele1_live/live.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:48.901Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "https://tele1dvr.blutv.com/blutv_tele1_dvr2/live_720p2000000kbps/index.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:49.024Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "https://tele1-live.ercdn.net/tele1/tele1_1080p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:48:49.224Z",
+      "source": "m3u"
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=1771137539fa2adff8ebd5": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/2556711030587eed1d7123": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=710&extension=ts&play_token=oaWDTNLbEj": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=702&extension=ts&play_token=CmHPqiusmm": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=615828&extension=ts&play_token=B4wXrecpVY": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/17711375392d6892b04f39": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/911836506194160f9e86b": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/25567110304fffde3b8356": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/819272696b1a82271359d": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=702&extension=ts&play_token=CmHPqiusmm": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=615828&extension=ts&play_token=B4wXrecpVY": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=702&extension=ts&play_token=CmHPqiusmm": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/0d7bcd25-1301-4ebf-bc8f-ccb7dec31577.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/19.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_720p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://raw.githubusercontent.com/tecotv2025/tecotv/refs/heads/main/playlist/A_Spor.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:51.260Z",
+      "source": "m3u",
+      "reason": "http-404"
+    },
+    "https://x.canlitvapp.com/aspor/index.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:51.717Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "https://trkvz-live.daioncdn.net/aspor/aspor.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:52.135Z",
+      "source": "m3u",
+      "reason": "http-404"
+    },
+    "https://trkvz.daioncdn.net/aspor/aspor.m3u8?ce=3&app=45f847c4-04e8-419a-a561-2ebf87084765": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:52.557Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "https://ythlsgo.onrender.com/video/SzLuO_PW43A.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:52.819Z",
+      "source": "m3u",
+      "reason": "http-503"
+    },
+    "https://new.cache-stream.workers.dev/stream/UCJElRTCNEmLemgirqvsW63Q/live.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:53.787Z",
+      "source": "m3u",
+      "reason": "http-500"
+    },
+    "https://vavoo.biz-az.workers.dev/play/236989031b5bce3e87ca9": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197269&extension=ts&play_token=jj4KLPIkkc": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197243&extension=ts&play_token=T1dId3f8j8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197295&extension=ts&play_token=uLGHcqJiiA": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/236989031fa418a7e8a17": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/858568307ad4d92a1bc0d": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/2238665357a29b6454271": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://sahsahbazz.testworker0y.workers.dev/channel/Qmxvb21iZXJnIEhUIHwgQg==": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=315207916849418564f7e9": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://canli.ensonhaber.com/tr/bloomberght/index.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/50.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/36931c3c-b36b-45eb-89c8-ffdcea8a9329.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv.ensonhaber.com/bloomberght/bloomberght.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://ensonhaber-live.ercdn.net/bloomberght/bloomberght.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8?app=web&ce=3": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://ciner-live.daioncdn.net/bloomberght/bloomberght.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:54.558Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "https://bloomberght-live.daioncdn.net/bloomberght/bloomberght.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:54.988Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "https://bloomberght2.blutv.com/blutv_bloomberght2/live.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:55.110Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "https://ciner-live.daioncdn.net/bloomberght/bloomberght_720p.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:55.200Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "https://streams.uzunmuhalefet.com/stream/41cde2c5-8f3c-405f-b5a2-fd6242d1d0a4.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/89.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://uzunmuhalefet.serv00.net/canlitv2.php?id=13406&.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:56.552Z",
+      "source": "m3u",
+      "reason": "http-403"
+    },
+    "https://raw.githubusercontent.com/tecotv2025/tecotv/refs/heads/main/playlist/CNBC_E.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:56.590Z",
+      "source": "m3u",
+      "reason": "http-404"
+    },
+    "http://stream.tvcdn.net/ekonomi/cnbc-e.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:56.664Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=8854534699ab7cd828f14": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/22498016558c1c9b866616": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197178&extension=ts&play_token=8qxzVqk0m2": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/22498016557ea875d94115": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/885453469dbf170658728": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197178&extension=ts&play_token=8qxzVqk0m2": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197178&extension=ts&play_token=8qxzVqk0m2": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197178&extension=ts&play_token=8qxzVqk0m2": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197178&extension=ts&play_token=8qxzVqk0m2": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197178&extension=ts&play_token=8qxzVqk0m2": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197178&extension=ts&play_token=8qxzVqk0m2": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197178&extension=ts&play_token=8qxzVqk0m2": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197178&extension=ts&play_token=8qxzVqk0m2": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=197178&extension=ts&play_token=8qxzVqk0m2": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197178&extension=ts&play_token=8qxzVqk0m2": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/58.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/e8b425ad-571d-475d-a657-37bca8985836.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://mn-nl.mncdn.com/blutv_ulusalkanal/smil:blutv_ulusalkanal.smil/chunklist_b2096000.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://raw.githubusercontent.com/tecotv2025/tecotv/refs/heads/main/playlist/Ulusal_Kanal.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:57.014Z",
+      "source": "m3u",
+      "reason": "http-404"
+    },
+    "https://canlitvulusal.xyz/live/ulusalkanal/index.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:57.147Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "https://trn03.tulix.tv/gt-ulusaltv/playlist.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:48:57.272Z",
+      "source": "m3u",
+      "reason": "http-404"
+    },
+    "https://internettv.guventechnology.com:19360/ulusaltv/ulusaltv.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:49:02.272Z",
+      "source": "m3u",
+      "reason": "timeout"
+    },
+    "https://kzx.testworkery0.workers.dev/ulketv?key=patr0n": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=1839766333cbe160b34439": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/3641991612565b8aee4401": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197258&extension=ts&play_token=kT246ZR7mz": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197250&extension=ts&play_token=s00psMICfR": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197289&extension=ts&play_token=Qpw9dbSFxv": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1839766333c98345854971": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/3641991612d2db7fa0fa5f": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/3203334343f12aa288ad5c": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/216740557400910fc7094": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197250&extension=ts&play_token=s00psMICfR": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://ulketv.blutv.com/blutv_ulketv2/live_720p2000000kbps/index.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/42.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/b94c88b7-3a36-48ce-9e04-19bc2b3921f9.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://mn-nl.mncdn.com/blutv_ulketv2/live.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://mn-nl.mncdn.com/blutv_ulketv2/live_720p2000000kbps/index.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://livetv.radyotvonline.net/kanal7live/ulketv/playlist.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://livetv.radyotvonline.net/kanal7live/ulketv/chunklist.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "http://line.moja-teve9.me:80/play/live.php?mac=00:1A:79:0E:4F:73&stream=912913&extension=ts&play_token=1ysoCKLswK": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.moja-teve9.me:80/play/live.php?mac=00:1A:79:0E:4F:73&stream=912912&extension=ts&play_token=QFbNJMocQs": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/16852994727259ba10c029": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197273&extension=ts&play_token=fIy9sX6ocp": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197237&extension=ts&play_token=8yRJqHBWje": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197299&extension=ts&play_token=l2Hmj6xyse": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/3760496907d3d92e38dbc3": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1685299472998443240851": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/163520723c9b15466a045": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://sahsahbazz.testworker0y.workers.dev/channel/VFYxMDAgfCBB": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=3760496907c6df5dd98932": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://trn03.tulix.tv/gt-tv100/index.m3u8?token=05b1b410ee3298d97024d804e45515ea": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://tv100.daioncdn.net/tv100/tv100_1080p.m3u8?app=web": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv100-live.daioncdn.net/tv100/tv100.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv100-live.daioncdn.net/tv100/tv100_1080p.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv100.daioncdn.net/tv100/tv100_720p.m3u8?&sid=8bopv0hcpuib&app=356e7599-d81d-4357-935a-355a1ad9846e&ce=2": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv100.daioncdn.net/tv100/tv100.m3u8?app=web": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/d95e9a1b-3955-4643-8327-413da9a1ce60.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/36.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://mn-nl.mncdn.com/blutv_tv1002/live_720p2000000kbps/index.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://ensonhaber-live.ercdn.net/tv100/tv100.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://tv.ensonhaber.com/tv100/tv100.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://tlkaycmdoq.turknet.ercdn.net/ckvbdssyig/tv100/tv100.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:49:03.858Z",
+      "source": "m3u"
+    },
+    "https://tv100.blutv.com/blutv_tv100_live/live.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:49:03.982Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "https://vavoo.biz-az.workers.dev/play/28143924587b833f07f3fe": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197263&extension=ts&play_token=c53adoDCo6": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197255&extension=ts&play_token=FI3uV5gIam": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197284&extension=ts&play_token=MjTL8rPnjA": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/1907154704d312eb8b3377": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/356274005402631275363e": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/281439245836a9660eb163": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/16846319592f81dc2953ba": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://sahsahbazz.testworker0y.workers.dev/channel/VEdSVCBIYWJlcg==": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=190715470454a282dd6577": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://canli.ensonhaber.com/tr/tgrthaber/index.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://streams.uzunmuhalefet.com/stream/bd9ebc63-8243-43d6-83a2-eeef100f7e20.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/39.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn1.streamencoding.com:1935/tgrt_haber/tgrt3/playlist.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://canli.tgrthaber.com/tgrt.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe4598be8e5d.smil/playlist.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://tgrthaber-live.daioncdn.net/tgrthaber/tgrthaber_720p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://tgrthaber-live.daioncdn.net/tgrthaber/tgrthaber.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://tgrthaber-live.daioncdn.net/tgrthaber/tgrthaber_1080p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:49:04.956Z",
+      "source": "m3u"
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=3806979011e0d72cfb10fc": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/3806979011e0d72cfb10fc": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197265&extension=ts&play_token=QkFNXps4SM": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197246&extension=ts&play_token=R9EJPhxijn": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197292&extension=ts&play_token=9wExa5OryA": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/3806979011776dd4d8791d": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197246&extension=ts&play_token=R9EJPhxijn": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197292&extension=ts&play_token=9wExa5OryA": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197246&extension=ts&play_token=R9EJPhxijn": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197292&extension=ts&play_token=9wExa5OryA": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197246&extension=ts&play_token=R9EJPhxijn": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197292&extension=ts&play_token=9wExa5OryA": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197246&extension=ts&play_token=R9EJPhxijn": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197292&extension=ts&play_token=9wExa5OryA": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/playlist.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://mn-nl.mncdn.com/blutv_flashtv/live.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/mt_0.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://flashhaber-live.ercdn.net/flashhaber/flashhaber.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://flashtv.blutv.com/blutv_flashtv/live.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:49:05.693Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "https://internettv.guventechnology.com:19360/flashhabertv/flashhabertv.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:49:10.694Z",
+      "source": "m3u",
+      "reason": "timeout"
+    },
+    "https://ythls.kekikakademi.org/youtube/channel/UCNcjCb2RnA3eMMhTZSxZu3A.m3u8": {
+      "failStreak": 1,
+      "lastFail": "2026-09-01T10:49:10.880Z",
+      "source": "m3u",
+      "reason": "network-error"
+    },
+    "https://metvvavmetv.64fetih.workers.dev/?ID=3030241554f63b28d76ab2": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/3030241554f63b28d76ab2": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197227&extension=ts&play_token=BIkfp6yMim": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/30302415543a733c821f89": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://vavoo.biz-az.workers.dev/play/36778805468c87a82d46fd": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197227&extension=ts&play_token=BIkfp6yMim": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197227&extension=ts&play_token=BIkfp6yMim": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197227&extension=ts&play_token=BIkfp6yMim": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197227&extension=ts&play_token=BIkfp6yMim": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197227&extension=ts&play_token=BIkfp6yMim": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197227&extension=ts&play_token=BIkfp6yMim": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197227&extension=ts&play_token=BIkfp6yMim": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197227&extension=ts&play_token=BIkfp6yMim": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://canli.ensonhaber.com/tr/benguturk/index.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "http://cdn.vizitv.workers.dev/60.m3u8": {
+      "failStreak": 0,
+      "lastFail": "2026-09-01T10:46:54.371Z",
+      "skippedIncrement": true
+    },
+    "https://tv.ensonhaber.com/benguturk/benguturk_720p.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://tv.ensonhaber.com/benguturk/benguturk.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    },
+    "https://ensonhaber-live.ercdn.net/benguturk/benguturk.m3u8": {
+      "failStreak": 0,
+      "lastOk": "2026-09-01T10:46:54.371Z"
+    }
+  },
   "runs": [
     {
       "at": "2026-09-01T08:49:32.544Z",
@@ -8,6 +4133,14 @@
       "addedUrls": 0,
       "removedUrls": 0,
       "applied": false
+    },
+    {
+      "at": "2026-09-01T10:46:54.371Z",
+      "mode": "pilot",
+      "changedChannels": 14,
+      "addedUrls": 21,
+      "removedUrls": 0,
+      "applied": true
     }
   ]
 }
