@@ -2600,7 +2600,9 @@
     "https://streams.uzunmuhalefet.com/stream/89dd70d5-1028-4426-9df5-cc86d4d230fa.m3u8",
     "https://metvvavmetv.64fetih.workers.dev/?ID=405074878169aaa15f6633",
     "https://vavoo.biz-az.workers.dev/play/405074878169aaa15f6633",
-    "https://vavoo.biz-az.workers.dev/play/4050748781531a8dfbf396"
+    "https://vavoo.biz-az.workers.dev/play/4050748781531a8dfbf396",
+    "http://line.tivi-one.net/play/live.php?mac=00:1A:79:5D:91:44&stream=197160&extension=ts&play_token=dg0fqY7VUH",
+    "http://me.mdmfista.com/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197160&extension=ts&play_token=dg0fqY7VUH"
   ],
   "tv6": [
     "https://cdn4.yayin.com.tr/channel6tv/index.m3u8"
@@ -4962,5 +4964,9 @@
     "http://line.tivi-one.net/play/live.php?mac=00:1A:79:5D:91:44&stream=197191&extension=ts&play_token=PM2eb119cV",
     "http://line.tivi-one.net/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197191&extension=ts&play_token=PM2eb119cV"
   ],
-  "_revision": 147
+  "cartoonnetwork": [
+    "http://me.mdmfista.com/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
+    "http://line.tivi-one.net/play/live.php?mac=00:1A:79:5D:91:44&stream=197411&extension=ts&play_token=6Vh9e7AwnI"
+  ],
+  "_revision": 148
 }

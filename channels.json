@@ -6802,6 +6802,12 @@
     "streamUrl": "https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8"
   },
   {
+    "name": "Cartoon Network",
+    "url": "https://www.cartoonnetwork.com.tr/",
+    "category": "Cocuk",
+    "streamUrl": "http://me.mdmfista.com/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197411&extension=ts&play_token=6Vh9e7AwnI"
+  },
+  {
     "name": "Kanal B",
     "url": "https://www.kanalb.com.tr/",
     "category": "Ulusal",
