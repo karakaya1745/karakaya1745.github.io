@@ -1,5 +1,5 @@
 {
-  "_revision": 142,
+  "_revision": 140,
   "360tv": [
     "https://turkmedya-live.ercdn.net/tv360/tv360_1080p.m3u8",
     "https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8",
@@ -11,7 +11,6 @@
   "a2": [
     "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8",
     "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8",
-    "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_720p.m3u8",
     "https://streams.uzunmuhalefet.com/stream/cd13382a-cd53-46b1-964a-928bdf4e63e7.m3u8",
     "http://cdn.vizitv.workers.dev/26.m3u8",
     "https://metvvavmetv.64fetih.workers.dev/?ID=201905527745e40d41f657",
@@ -30,16 +29,16 @@
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=196671&extension=ts&play_token=9oLEqeVHKo"
   ],
   "adatv": [
-    "https://vavo.sayezec.workers.dev/ID=21347352852305a53dccfa",
     "https://yayin1.canlitv.fun/live/kibrisadatv.stream/playlist.m3u8",
-    "https://vavoo.biz-az.workers.dev/play/21347352852305a53dccfa"
+    "https://vavoo.biz-az.workers.dev/play/21347352852305a53dccfa",
+    "https://vavo.sayezec.workers.dev/ID=21347352852305a53dccfa"
   ],
   "afroturktv": [
     "https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8"
   ],
   "ahaber": [
-    "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8",
     "https://trkvz-live.ercdn.net/ahaberhd/ahaberhd.m3u8",
+    "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8",
     "https://streams.uzunmuhalefet.com/stream/b4f7a5e9-fcae-4258-83eb-cc37b6a68696.m3u8",
     "http://137.74.205.201/live1/mh-3mbps.m3u8",
     "http://cdn.vizitv.workers.dev/14.m3u8",
@@ -159,8 +158,8 @@
     "http://yayin.arabeskfm.biz:8042/;?type=mp3"
   ],
   "arastv": [
-    "http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8",
-    "https://2.rtmp.org/tv217/yayin.stream/chunklist.m3u8"
+    "https://2.rtmp.org/tv217/yayin.stream/chunklist.m3u8",
+    "http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8"
   ],
   "aspor": [
     "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8",
@@ -216,10 +215,10 @@
     "https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8"
   ],
   "atvavrupa": [
+    "https://flask-api-hls-atvavrupahdtrkvz-live.onrender.com/hls_stream/master.m3u8",
     "https://streamer2.nexgen.bz/ATV/index.m3u8",
     "https://streams.uzunmuhalefet.com/stream/017621fb-d6f1-4e21-91d8-2510bdcb4ceb.m3u8",
     "https://metvvavmetv.64fetih.workers.dev/?ID=31959103511474b82d3792",
-    "https://flask-api-hls-atvavrupahdtrkvz-live.onrender.com/hls_stream/master.m3u8",
     "https://vavoo.biz-az.workers.dev/play/31959103511474b82d3792",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196666&extension=ts&play_token=mVvbrNqoax",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=196666&extension=ts&play_token=mVvbrNqoax",
@@ -281,12 +280,14 @@
     "http://cdn.vizitv.workers.dev/9.m3u8"
   ],
   "birtv": [
-    "https://live.artidijitalmedya.com/artidijital_birtv/birtv/playlist.m3u8",
-    "https://edge.socialsmart.tv/birtv/bant1/chunks.m3u8",
-    "https://metvvavmetv.64fetih.workers.dev/?ID=25407700892aa536e1a9ff",
     "https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8",
+    "https://edge1.socialsmart.tv/birtv/bant1/playlist.m3u8",
+    "https://edge1.socialsmart.tv/birtv/bant1/chunks.m3u8",
+    "https://edge.socialsmart.tv/birtv/bant1/chunks.m3u8",
     "https://vavoo.biz-az.workers.dev/play/25407700892aa536e1a9ff",
-    "https://vavoo.biz-az.workers.dev/play/2540770089362b419af842"
+    "https://vavoo.biz-az.workers.dev/play/2540770089362b419af842",
+    "https://live.artidijitalmedya.com/artidijital_birtv/birtv/playlist.m3u8",
+    "https://metvvavmetv.64fetih.workers.dev/?ID=25407700892aa536e1a9ff"
   ],
   "bloomberght": [
     "https://vavoo.biz-az.workers.dev/play/236989031b5bce3e87ca9",
@@ -343,8 +344,8 @@
     "https://metvvavmetv.64fetih.workers.dev/?ID=134086061839e644f1eaa"
   ],
   "brukselturk": [
-    "https://live.euromediacenter.com/brukselturk/index.m3u8",
-    "https://live.euromediacenter.com/brukselturk/tracks-v1a1/mono.m3u8"
+    "https://live.euromediacenter.com/brukselturk/tracks-v1a1/mono.m3u8",
+    "https://live.euromediacenter.com/brukselturk/index.m3u8"
   ],
   "bursaastv": [
     "https://vavoo.biz-az.workers.dev/play/1889158339289b18ba407c",
@@ -391,17 +392,17 @@
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197223&extension=ts&play_token=fqcWcqBS9Q"
   ],
   "ciftcitv": [
-    "http://stream.taksimbilisim.com:1935/ciftcitv/smil:ciftcitv.smil/playlist.m3u8",
+    "https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8",
     "https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8",
+    "https://vavoo.biz-az.workers.dev/play/3124431103898180a5f0f6",
+    "http://stream.taksimbilisim.com:1935/ciftcitv/smil:ciftcitv.smil/playlist.m3u8",
+    "https://vavoo.biz-az.workers.dev/play/31244311031c90b4c744d1",
+    "https://vavoo.biz-az.workers.dev/play/3185778667f715ae898254",
     "https://59cba4d34b678.streamlock.net/canlitv/ciftcitv/chunklist.m3u8",
     "https://waw2.artiyerelmedya.net/ciftcitv/bant1/playlist.m3u8",
     "https://streams.uzunmuhalefet.com/stream/e71083cf-eb54-408b-8aba-d66690520801.m3u8",
-    "http://cdn.vizitv.workers.dev/114.m3u8",
     "https://metvvavmetv.64fetih.workers.dev/?ID=318577866765847010459c",
-    "https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8",
-    "https://vavoo.biz-az.workers.dev/play/3124431103898180a5f0f6",
-    "https://vavoo.biz-az.workers.dev/play/31244311031c90b4c744d1",
-    "https://vavoo.biz-az.workers.dev/play/3185778667f715ae898254"
+    "http://cdn.vizitv.workers.dev/114.m3u8"
   ],
   "cine1": [
     "https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8"
@@ -412,13 +413,13 @@
     "http://cdn.vizitv.workers.dev/89.m3u8"
   ],
   "cnnturk": [
+    "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6926/index.m3u8",
     "https://demiroren-live.daioncdn.net/cnnturk/cnnturk_1080p.m3u8",
     "https://demiroren-live.daioncdn.net/cnnturk/cnnturk_720p.m3u8",
     "https://demiroren-live.daioncdn.net/cnnturk/cnnturk.m3u8",
     "https://live.duhnet.tv/S2/HLS_LIVE/cnnturknp/track_4_1000/playlist.m3u8",
     "https://live.duhnet.tv/S2/HLS_LIVE/cnnturknp/playlist.m3u8",
     "https://live.duhnet.tv/S2/HLS_LIVE/cnnturknp/track_3_750/playlist.m3u8",
-    "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6926/index.m3u8",
     "https://vavoo.biz-az.workers.dev/play/427315396743dfe9212c50",
     "https://vavoo.biz-az.workers.dev/play/2056768647b3cd3bee1ca9",
     "https://vavoo.biz-az.workers.dev/play/41338152650143743f9d7",
@@ -436,10 +437,10 @@
     "http://yayin.damarfm.com:8080/;?type=mp3"
   ],
   "denizpostasi": [
-    "https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8",
-    "https://metvvavmetv.64fetih.workers.dev/?ID=183207521594fc65b3f956",
     "https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/chunks.m3u8",
-    "https://vavoo.biz-az.workers.dev/play/1832075215c6619ce59242"
+    "https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8",
+    "https://vavoo.biz-az.workers.dev/play/1832075215c6619ce59242",
+    "https://metvvavmetv.64fetih.workers.dev/?ID=183207521594fc65b3f956"
   ],
   "dha": [
     "https://vavoo.biz-az.workers.dev/play/40223592760f0af9f37d41",
@@ -455,11 +456,11 @@
     "https://603c568fccdf5.streamlock.net/live2/dhaweb2/chunklist_w156766599.m3u8"
   ],
   "dimtv": [
-    "https://metvvavmetv.64fetih.workers.dev/?ID=1072972009ade9e4b4a779",
-    "https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8",
     "https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/chunks.m3u8",
+    "https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8",
     "https://vavoo.biz-az.workers.dev/play/1072972009ade9e4b4a779",
-    "https://vavoo.biz-az.workers.dev/play/1072972009a43561689b4d"
+    "https://vavoo.biz-az.workers.dev/play/1072972009a43561689b4d",
+    "https://metvvavmetv.64fetih.workers.dev/?ID=1072972009ade9e4b4a779"
   ],
   "diyanettv": [
     "https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8",
@@ -482,20 +483,20 @@
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=210472&extension=ts&play_token=qR0E9dxlC3"
   ],
   "diyartv": [
-    "https://vavo.sayezec.workers.dev/ID=4252763849da396737d0fb",
     "https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8",
-    "https://vavoo.biz-az.workers.dev/play/4252763849da396737d0fb"
+    "https://vavoo.biz-az.workers.dev/play/4252763849da396737d0fb",
+    "https://vavo.sayezec.workers.dev/ID=4252763849da396737d0fb"
   ],
   "dmax": [
-    "https://dogus-live.daioncdn.net/dmax/dmax.m3u8",
+    "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/2290/index.m3u8",
     "https://dogus.daioncdn.net/dmax/dmax.m3u8?ce=3&app=5a02c599-d17e-4982-9b04-090934d51af7&token=dUtLcFk4TkM1YjBOWlFIa1huL0UrMUYvcjhEcStnVU1TZUpsOVo5QXV4ST0=.m3u8",
     "https://dogus.daioncdn.net/dmax/dmax.m3u8?ce=3&app=5a02c599-d17e-4982-9b04-090934d51af7",
+    "https://dogus-live.daioncdn.net/dmax/dmax.m3u8",
     "https://jviqfbc2.rocketcdn.com/dmax.smil/chunklist.sltur.m3u8",
     "https://streams.uzunmuhalefet.com/stream/ca37ad2f-27a2-4227-9e04-fdd4b2279f3e.m3u8",
     "http://cdn.vizitv.workers.dev/33.m3u8",
     "http://dygvideo.dygdigital.com/live/hls/dmaxdai?m3u8",
     "https://metvvavmetv.64fetih.workers.dev/?ID=869937351ec185ded43b6",
-    "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/2290/index.m3u8",
     "https://vavoo.biz-az.workers.dev/play/1595495667292319e147ce",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197428&extension=ts&play_token=AmK9aorYxN",
     "https://vavoo.biz-az.workers.dev/play/869937351a88d2213b307",
@@ -527,13 +528,13 @@
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=210465&extension=ts&play_token=Wl1AzaWqzv"
   ],
   "dreamturk": [
+    "https://live.duhnet.tv//S2/HLS_LIVE/dreamturknp/playlist.m3u8",
     "https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8",
     "http://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8",
     "https://streams.uzunmuhalefet.com/stream/99d052f1-9bdc-4fc2-ba48-2db6d9c99b8c.m3u8",
     "http://cdn.vizitv.workers.dev/48.m3u8",
     "https://radyo.duhnet.tv/dreamturk?/;stream.mp3",
     "https://metvvavmetv.64fetih.workers.dev/?ID=42666830256873dd1e7fac",
-    "https://live.duhnet.tv//S2/HLS_LIVE/dreamturknp/playlist.m3u8",
     "https://vavoo.biz-az.workers.dev/play/6787946153f4f9e30bf05",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=724290&extension=ts&play_token=H8tbzRrnAq",
     "https://vavoo.biz-az.workers.dev/play/426668302523b70cecff67",
@@ -593,8 +594,8 @@
     "https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8"
   ],
   "erciyestv": [
-    "https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/chunks.m3u8",
-    "https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/playlist.m3u8"
+    "https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/playlist.m3u8",
+    "https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/chunks.m3u8"
   ],
   "ertv": [
     "https://vavoo.biz-az.workers.dev/play/221836468186fc17b1865",
@@ -629,11 +630,11 @@
     "https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8"
   ],
   "eurod": [
+    "https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8",
     "https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8",
     "http://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8",
     "http://cdn.vizitv.workers.dev/6.m3u8",
     "https://metvvavmetv.64fetih.workers.dev/?ID=278453038314cbbadcd2ca",
-    "https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8",
     "https://vavoo.biz-az.workers.dev/play/3358854668939e09403c17",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196663&extension=ts&play_token=Xly1dUUni8",
     "https://vavoo.biz-az.workers.dev/play/3358854668b6951d71c388",
@@ -661,15 +662,15 @@
     "https://streams.uzunmuhalefet.com/stream/7c09700e-871b-4282-8f5d-c5046b46a888.m3u8"
   ],
   "fbtv": [
+    "https://fbtv.fenerbahce.org/fenerbahcetv.stream/chunklist.m3u8",
     "http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8",
     "https://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8",
-    "https://streams.uzunmuhalefet.com/stream/aefc429a-87c3-44f1-9caa-6687f04515b8.m3u8",
-    "https://metvvavmetv.64fetih.workers.dev/?ID=3730681078c11a26802932",
-    "https://fbtv.fenerbahce.org/fenerbahcetv.stream/chunklist.m3u8",
     "https://vavoo.biz-az.workers.dev/play/61530860186f238127811",
     "https://vavoo.biz-az.workers.dev/play/3730681078c47dd7a33759",
     "https://vavoo.biz-az.workers.dev/play/615308601102d83f2f3ec",
-    "https://vavoo.biz-az.workers.dev/play/1540748539acbea3b2fbdd"
+    "https://vavoo.biz-az.workers.dev/play/1540748539acbea3b2fbdd",
+    "https://streams.uzunmuhalefet.com/stream/aefc429a-87c3-44f1-9caa-6687f04515b8.m3u8",
+    "https://metvvavmetv.64fetih.workers.dev/?ID=3730681078c11a26802932"
   ],
   "fenomenclubbin": [
     "https://live.radyofenomen.com/fenomenclubbin/abr/playlist.m3u8"
@@ -725,8 +726,8 @@
     "http://cdn.vizitv.workers.dev/40.m3u8"
   ],
   "fortunatv": [
-    "https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8",
-    "https://edge.taksimbilisim.com/ftvturk/bant1/playlist.m3u8"
+    "https://edge.taksimbilisim.com/ftvturk/bant1/playlist.m3u8",
+    "https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8"
   ],
   "fx": [
     "https://saran-live.ercdn.net/fx/index.m3u8",
@@ -765,9 +766,9 @@
     "https://ssl120.radyotelekom.com.tr/8130/stream"
   ],
   "gurbet24tv": [
-    "https://vavo.sayezec.workers.dev/ID=55116964941a7acb8360",
     "http://cdn-gurbet24.yayin.com.tr/gurbet24/gurbet24/playlist.m3u8",
-    "https://vavoo.biz-az.workers.dev/play/55116964941a7acb8360"
+    "https://vavoo.biz-az.workers.dev/play/55116964941a7acb8360",
+    "https://vavo.sayezec.workers.dev/ID=55116964941a7acb8360"
   ],
   "gzt": [
     "https://mn-nl.mncdn.com/gzttv/gzttv/playlist.m3u8",
@@ -775,12 +776,12 @@
     "http://cdn.vizitv.workers.dev/99.m3u8"
   ],
   "haber61tv": [
-    "https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8",
-    "https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/chunklist_w894465842_b1796000.m3u8",
-    "https://metvvavmetv.64fetih.workers.dev/?ID=292300494652c302afd5d5",
     "https://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/playlist.m3u8",
+    "https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8",
     "https://vavoo.biz-az.workers.dev/play/292300494652c302afd5d5",
-    "https://vavoo.biz-az.workers.dev/play/292300494692bdd8faf9ac"
+    "https://vavoo.biz-az.workers.dev/play/292300494692bdd8faf9ac",
+    "https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/chunklist_w894465842_b1796000.m3u8",
+    "https://metvvavmetv.64fetih.workers.dev/?ID=292300494652c302afd5d5"
   ],
   "haberglobal": [
     "https://tv.ensonhaber.com/haberglobal/haberglobal_720p.m3u8",
@@ -825,10 +826,10 @@
     "http://cdn.vizitv.workers.dev/13.m3u8"
   ],
   "halktv": [
+    "https://halktv-live.daioncdn.net/halktv/halktv_1080p.m3u8",
     "https://halktv.daioncdn.net/halktv/halktv_1080p.m3u8?app=c86957d3-74a7-44da-9ad2-dc358c769609",
     "https://halktv-live.daioncdn.net/halktv/halktv.m3u8",
     "https://halktv.daioncdn.net/halktv/halktv.m3u8?app=c86957d3-74a7-44da-9ad2-dc358c769609",
-    "https://halktv-live.daioncdn.net/halktv/halktv_1080p.m3u8",
     "https://streams.uzunmuhalefet.com/stream/ea5e2000-56b6-4fb9-8dcf-b8bbe90b9f7b.m3u8",
     "http://cdn.vizitv.workers.dev/16.m3u8",
     "https://sahsahbazz.testworker0y.workers.dev/channel/SGFsayBUVg==",
@@ -846,6 +847,7 @@
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197235&extension=ts&play_token=OG8Ro26N9C"
   ],
   "htspor": [
+    "https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web&ce=3",
     "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/ht-spor/ht-spor.m3u8",
     "https://ciner-live.ercdn.net/htspor/htspor.m3u8",
     "https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web",
@@ -893,8 +895,8 @@
     "https://yayin.istanbulfm.com.tr/istanbulfm/fantezi/playlist.m3u8"
   ],
   "isvicretv": [
-    "https://tivi44.ozelip.com:3269/stream/play.m3u8",
-    "https://i41.ozelip.com:3269/hybrid/play.m3u8"
+    "https://i41.ozelip.com:3269/hybrid/play.m3u8",
+    "https://tivi44.ozelip.com:3269/stream/play.m3u8"
   ],
   "joyfm": [
     "https://playerservices.streamtheworld.com/api/livestream-redirect/JOY_FM.mp3"
@@ -927,16 +929,17 @@
     "https://metvvavmetv.64fetih.workers.dev/?ID=328914504230e0c25f2df0"
   ],
   "kanal19": [
-    "https://live.euromediacenter.com/kanal19/index.m3u8",
-    "https://live.euromediacenter.com/kanal19/tracks-v1a1/mono.m3u8"
+    "https://live.euromediacenter.com/kanal19/tracks-v1a1/mono.m3u8",
+    "https://live.euromediacenter.com/kanal19/index.m3u8"
   ],
   "kanal23": [
-    "https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8",
-    "https://streams.uzunmuhalefet.com/stream/b50048d9-60a1-4bdf-8083-7fd3a467f9fd.m3u8",
-    "https://metvvavmetv.64fetih.workers.dev/?ID=3706606233e15ade88c7a",
     "https://cdn-kanal23.yayin.com.tr/kanal23/index.m3u8",
+    "https://cdn13-kanal23.yayin.com.tr/kanal23/ngrp:kanal23/playlist.m3u8",
+    "https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8",
     "https://vavoo.biz-az.workers.dev/play/3706606233e15ade88c7a",
-    "https://vavoo.biz-az.workers.dev/play/370660623891aee5d7986"
+    "https://vavoo.biz-az.workers.dev/play/370660623891aee5d7986",
+    "https://streams.uzunmuhalefet.com/stream/b50048d9-60a1-4bdf-8083-7fd3a467f9fd.m3u8",
+    "https://metvvavmetv.64fetih.workers.dev/?ID=3706606233e15ade88c7a"
   ],
   "kanal24": [
     "https://vavoo.biz-az.workers.dev/play/4179564147cef11bb1db33",
@@ -960,12 +963,12 @@
     "https://metvvavmetv.64fetih.workers.dev/?ID=117856985466bafacf1124"
   ],
   "kanal32": [
-    "https://edge1.socialsmart.tv/kanal32/bant1/playlist.m3u8",
-    "https://streams.uzunmuhalefet.com/stream/ca7b041b-e824-43e5-8b11-acfe78a0cda5.m3u8",
-    "https://metvvavmetv.64fetih.workers.dev/?ID=37609264903fe9705b8a5e",
     "https://edge1.socialsmart.tv/kanal32/bant1/chunks.m3u8",
+    "https://edge1.socialsmart.tv/kanal32/bant1/playlist.m3u8",
     "https://vavoo.biz-az.workers.dev/play/37609264903fe9705b8a5e",
-    "https://vavoo.biz-az.workers.dev/play/37609264903f5181c39c19"
+    "https://vavoo.biz-az.workers.dev/play/37609264903f5181c39c19",
+    "https://streams.uzunmuhalefet.com/stream/ca7b041b-e824-43e5-8b11-acfe78a0cda5.m3u8",
+    "https://metvvavmetv.64fetih.workers.dev/?ID=37609264903fe9705b8a5e"
   ],
   "kanal33": [
     "https://vavoo.biz-az.workers.dev/play/3712681642ee46cb7cc87c",
@@ -976,20 +979,22 @@
     "https://metvvavmetv.64fetih.workers.dev/?ID=3712681642ee46cb7cc87c"
   ],
   "kanal34": [
+    "https://live.euromediacenter.com/kanal34/tracks-v1a1/mono.m3u8",
     "https://vavoo.biz-az.workers.dev/play/18693393220cb8b1cc1d42",
     "https://vavo.sayezec.workers.dev/ID=18693393220cb8b1cc1d42"
   ],
   "kanal58": [
-    "https://edge1.socialsmart.tv/kanal58/bant1/playlist.m3u8",
-    "https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8",
-    "https://streams.uzunmuhalefet.com/stream/b59fdcd6-4de6-47cb-8dab-e3a4587f5eec.m3u8",
-    "https://metvvavmetv.64fetih.workers.dev/?ID=28027024539d984983ade4",
     "https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/chunks.m3u8",
+    "https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8",
     "https://vavoo.biz-az.workers.dev/play/2093143206eceaba595c07",
     "https://vavoo.biz-az.workers.dev/play/20931432068fc774ede8f0",
-    "https://vavoo.biz-az.workers.dev/play/2802702453a4c71823d2fc"
+    "https://vavoo.biz-az.workers.dev/play/2802702453a4c71823d2fc",
+    "https://edge1.socialsmart.tv/kanal58/bant1/playlist.m3u8",
+    "https://streams.uzunmuhalefet.com/stream/b59fdcd6-4de6-47cb-8dab-e3a4587f5eec.m3u8",
+    "https://metvvavmetv.64fetih.workers.dev/?ID=28027024539d984983ade4"
   ],
   "kanal7": [
+    "https://kanal7-live.daioncdn.net/kanal7/kanal7_1080p.m3u8",
     "https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8",
     "https://yurhnwtpys.turknet.ercdn.net/cvmbjbpmdx/kanal7/kanal7_1080p.m3u8",
     "https://kanal7.daioncdn.net/kanal7/kanal7.m3u8?app=f99587ad-1637-494d-8255-da35b09d17a1",
@@ -1010,11 +1015,11 @@
     "http://cdn.vizitv.workers.dev/7.m3u8"
   ],
   "kanal7avrupa": [
+    "https://raw.githubusercontent.com/rideordie16/YouTube/main/ch/kanal7eu.m3u8",
     "https://livetv.radyotvonline.net/kanal7live/kanal7avr/chunklist.m3u8",
     "https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8",
     "https://streams.uzunmuhalefet.com/stream/49c9a96d-f9c0-474e-b2f7-5e62bbdd0290.m3u8",
     "https://metvvavmetv.64fetih.workers.dev/?ID=4986459771133ab4a2f33",
-    "https://raw.githubusercontent.com/rideordie16/YouTube/main/ch/kanal7eu.m3u8",
     "https://vavoo.biz-az.workers.dev/play/916532487174bf814970d",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196661&extension=ts&play_token=t2EsW8HHSU",
     "https://vavoo.biz-az.workers.dev/play/916532487b16848c2612c",
@@ -1031,11 +1036,11 @@
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=196661&extension=ts&play_token=t2EsW8HHSU"
   ],
   "kanalavrupa": [
+    "https://api-tv27.yayin.com.tr/kanalavrupa/index.m3u8",
     "http://cdn-kanalavrupa.yayin.com.tr/kanalavrupa/index.m3u8",
     "http://51.15.2.151/hls/kanalavrupa.m3u8",
     "http://cdn.vizitv.workers.dev/70.m3u8",
     "https://metvvavmetv.64fetih.workers.dev/?ID=4085283006575fbfb6b120",
-    "https://api-tv27.yayin.com.tr/kanalavrupa/index.m3u8",
     "https://vavoo.biz-az.workers.dev/play/1096791444308425496108",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197199&extension=ts&play_token=RV6FOEvIWL",
     "https://vavoo.biz-az.workers.dev/play/109679144477d9b3ec4db1",
@@ -1080,10 +1085,10 @@
     "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8"
   ],
   "kanalfirat": [
+    "https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/chunks.m3u8",
     "https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8",
     "https://streams.uzunmuhalefet.com/stream/87c3e4eb-cc32-4de9-9083-30083f401e46.m3u8",
     "https://metvvavmetv.64fetih.workers.dev/?ID=7440218437e242db07f3d",
-    "https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/chunks.m3u8",
     "https://vavoo.biz-az.workers.dev/play/7440218437e242db07f3d",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196660&extension=ts&play_token=pTDH5wP4Or",
     "https://vavoo.biz-az.workers.dev/play/744021843277854df9f27",
@@ -1106,8 +1111,8 @@
     "https://metvvavmetv.64fetih.workers.dev/?ID=897076110f2f104884685"
   ],
   "kanalplus": [
-    "https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/chunks.m3u8",
-    "https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/playlist.m3u8"
+    "https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/playlist.m3u8",
+    "https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/chunks.m3u8"
   ],
   "kanalv": [
     "https://vavoo.biz-az.workers.dev/play/22154054220264091689b",
@@ -1124,25 +1129,25 @@
     "https://moondigitaledge.radyotvonline.net/karadenizfm/playlist.m3u8"
   ],
   "kardelentv": [
-    "https://vavo.sayezec.workers.dev/ID=127011060769330a43e05e",
     "https://edge1.socialsmart.tv/kardelentv/bant1/playlist.m3u8",
-    "https://vavoo.biz-az.workers.dev/play/127011060769330a43e05e"
+    "https://vavoo.biz-az.workers.dev/play/127011060769330a43e05e",
+    "https://vavo.sayezec.workers.dev/ID=127011060769330a43e05e"
   ],
   "kaytv": [
-    "https://live.artidijitalmedya.com/artidijital_kaytv/kaytv1/playlist.m3u8",
-    "https://metvvavmetv.64fetih.workers.dev/?ID=23796466374e2ee05f0779",
     "https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8",
     "https://vavoo.biz-az.workers.dev/play/23796466374e2ee05f0779",
-    "https://vavoo.biz-az.workers.dev/play/2379646637a11913cb4cb9"
+    "https://vavoo.biz-az.workers.dev/play/2379646637a11913cb4cb9",
+    "https://live.artidijitalmedya.com/artidijital_kaytv/kaytv1/playlist.m3u8",
+    "https://metvvavmetv.64fetih.workers.dev/?ID=23796466374e2ee05f0779"
   ],
   "kentturk": [
-    "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8",
-    "https://live.artidijitalmedya.com/artidijital_38kenttv/38kenttv/playlist.m3u8",
-    "https://metvvavmetv.64fetih.workers.dev/?ID=3962582829ee477739be5f",
     "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/chunks.m3u8",
+    "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8",
     "https://vavoo.biz-az.workers.dev/play/3962582829ee477739be5f",
     "https://vavoo.biz-az.workers.dev/play/396258282955ae0ff288c1",
-    "https://vavoo.biz-az.workers.dev/play/704689787eade88e17a7a"
+    "https://vavoo.biz-az.workers.dev/play/704689787eade88e17a7a",
+    "https://live.artidijitalmedya.com/artidijital_38kenttv/38kenttv/playlist.m3u8",
+    "https://metvvavmetv.64fetih.workers.dev/?ID=3962582829ee477739be5f"
   ],
   "kibrisgenctv": [
     "https://vavoo.biz-az.workers.dev/play/311547741928e82131a818",
@@ -1188,7 +1193,6 @@
   ],
   "kralpop": [
     "https://dygedge2.radyotvonline.net/kralpop/playlist.m3u8",
-    "http://dygvideo.dygdigital.com/live/hls/kralpop",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197361&extension=ts&play_token=88YQcnlyZu",
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197361&extension=ts&play_token=88YQcnlyZu",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197361&extension=ts&play_token=88YQcnlyZu",
@@ -1201,14 +1205,14 @@
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197361&extension=ts&play_token=88YQcnlyZu"
   ],
   "kralpoptv": [
+    "http://dygvideo.dygdigital.com/live/hls/kralpop",
     "https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8",
     "https://dogus.daioncdn.net/kralpoptv/kralpoptv.m3u8?app=kralpoptv_web",
+    "https://vavoo.biz-az.workers.dev/play/401243274930b2f0a2040b",
+    "https://vavoo.biz-az.workers.dev/play/416983899310ffe900395b",
     "http://bqgsd19q.rocketcdn.com/kralpop_720/chunklist.m3u8",
     "https://streams.uzunmuhalefet.com/stream/1604703d-b882-4ea0-9c4d-bc4ea1f0d463.m3u8",
-    "https://metvvavmetv.64fetih.workers.dev/?ID=401243274930b2f0a2040b",
-    "http://dygvideo.dygdigital.com/live/hls/kralpop",
-    "https://vavoo.biz-az.workers.dev/play/401243274930b2f0a2040b",
-    "https://vavoo.biz-az.workers.dev/play/416983899310ffe900395b"
+    "https://metvvavmetv.64fetih.workers.dev/?ID=401243274930b2f0a2040b"
   ],
   "kraltv": [
     "https://dogus-live.daioncdn.net/kraltv/kraltv.m3u8",
@@ -1305,12 +1309,12 @@
     "https://metvvavmetv.64fetih.workers.dev/?ID=70369886837bb68700663"
   ],
   "lifetv": [
+    "https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/chunks.m3u8",
     "https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8",
     "https://strhls.streamakaci.tv/str_lifetv_lifetv/str_lifetv_multi/playlist.m3u8",
-    "https://metvvavmetv.64fetih.workers.dev/?ID=3572490349f5368e3d7944",
-    "https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/chunks.m3u8",
     "https://vavoo.biz-az.workers.dev/play/3572490349f5368e3d7944",
-    "https://vavoo.biz-az.workers.dev/play/357249034999b94ce7c5a9"
+    "https://vavoo.biz-az.workers.dev/play/357249034999b94ce7c5a9",
+    "https://metvvavmetv.64fetih.workers.dev/?ID=3572490349f5368e3d7944"
   ],
   "linetv": [
     "https://vavoo.biz-az.workers.dev/play/1865892469c6a30088a293",
@@ -1325,9 +1329,9 @@
     "http://212.42.111.152:8080/hls/manas.m3u8"
   ],
   "mavikaradeniz": [
+    "https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/chunks.m3u8",
     "https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8",
     "https://metvvavmetv.64fetih.workers.dev/?ID=33750184684232d1aede57",
-    "https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/chunks.m3u8",
     "https://vavoo.biz-az.workers.dev/play/33750184684232d1aede57",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197183&extension=ts&play_token=18GX0jcvL1",
     "https://vavoo.biz-az.workers.dev/play/337501846887ff3f72d55b",
@@ -1353,13 +1357,13 @@
     "https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8"
   ],
   "meltemtv": [
+    "http://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8",
+    "http://vhxyrsly.rocketcdn.com/meltemtv/chunklist.m3u8",
     "https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8",
     "https://vhxyrsly.rocketcdn.com/meltemtv/chunklist.m3u8",
     "https://streams.uzunmuhalefet.com/stream/f49b3cb6-cd33-4064-97a1-8b0c79d3681a.m3u8",
     "http://cdn.vizitv.workers.dev/98.m3u8",
     "https://metvvavmetv.64fetih.workers.dev/?ID=70038106882c930faaa1b",
-    "http://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8",
-    "http://vhxyrsly.rocketcdn.com/meltemtv/chunklist.m3u8",
     "https://vavoo.biz-az.workers.dev/play/134482489061cbfbcb263a",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=210463&extension=ts&play_token=H63cTrLCxx",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197182&extension=ts&play_token=GckvrhtdF2",
@@ -1375,11 +1379,11 @@
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=210463&extension=ts&play_token=H63cTrLCxx"
   ],
   "mercantv": [
-    "https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8",
-    "https://metvvavmetv.64fetih.workers.dev/?ID=3132704137f87bc5cba15d",
     "https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/chunks.m3u8",
+    "https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8",
     "https://vavoo.biz-az.workers.dev/play/3132704137f87bc5cba15d",
-    "https://vavoo.biz-az.workers.dev/play/31327041375c0b481cf313"
+    "https://vavoo.biz-az.workers.dev/play/31327041375c0b481cf313",
+    "https://metvvavmetv.64fetih.workers.dev/?ID=3132704137f87bc5cba15d"
   ],
   "mesajtv": [
     "https://vavoo.biz-az.workers.dev/play/1751593588ad9f10b37811",
@@ -1395,10 +1399,10 @@
     "https://stream2.rtvtakip.com:7034/;"
   ],
   "minikacocuk": [
+    "http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8",
     "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8",
     "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk_480p.m3u8",
     "https://trkvz.daioncdn.net/minikago_cocuk/minikago_cocuk.m3u8?app=web&ce=3",
-    "http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8",
     "https://tgn.bozztv.com/dvrfl05/gin-minikacocuk/index.m3u8",
     "https://streams.uzunmuhalefet.com/stream/507ebfe3-0c78-4804-b3be-637e9b45f5a0.m3u8",
     "http://cdn.vizitv.workers.dev/22.m3u8",
@@ -1416,11 +1420,11 @@
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197414&extension=ts&play_token=QRcQhhtUMu"
   ],
   "minikago": [
+    "http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_720p.m3u8?tv=1",
+    "http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8",
     "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8",
     "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_480p.m3u8",
     "https://trkvz.daioncdn.net/minikago/minikago.m3u8?app=web&ce=3",
-    "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_720p.m3u8",
-    "http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8",
     "https://tgn.bozztv.com/dvrfl05/gin-minikago/index.m3u8",
     "https://streams.uzunmuhalefet.com/stream/d22a7171-68af-48ad-bd70-b2b6912fcdec.m3u8",
     "http://cdn.vizitv.workers.dev/23.m3u8",
@@ -1473,17 +1477,14 @@
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=196710&extension=ts&play_token=Vinm127vDi"
   ],
   "ntv": [
-    "https://dogus.daioncdn.net/ntv/ntv_720p.m3u8",
+    "https://dogus.daioncdn.net/ntv/ntv_1080p.m3u8",
     "https://dogus.daioncdn.net/ntv/ntv.m3u8?ce=3",
     "https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web",
+    "https://dogus.daioncdn.net/ntv/ntv_720p.m3u8",
     "http://dogus.daioncdn.net/ntv/ntv.m3u8?ce=3&&app=7c4bb802-0c41-409e-8cd2-799984995694",
-    "https://dogus-live.daioncdn.net/ntv/ntv.m3u8",
-    "https://dogus.daioncdn.net/ntv/ntv_1080p.m3u8",
     "https://strhlslb01.streamakaci.tv/str_ntv_ntv/str_ntv_ntv_multi/playlist.m3u8",
-    "https://streams.uzunmuhalefet.com/stream/f27d4ced-d7e4-4d63-95b4-c47302cad618.m3u8",
     "http://dygvideo.dygdigital.com/live/hls/ntv4puhu?m3u8",
     "http://dygvideo.dygdigital.com/live/hls/puhuntvdai?m3u8",
-    "https://kzx.testworkery0.workers.dev/ntv?key=patr0n",
     "https://vavoo.biz-az.workers.dev/play/3194104127c78eba51ffc7",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197266&extension=ts&play_token=4Nw50op3di",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197247&extension=ts&play_token=sTEEqg3kAh",
@@ -1491,7 +1492,10 @@
     "https://vavoo.biz-az.workers.dev/play/2073292907b82518f90591",
     "https://vavoo.biz-az.workers.dev/play/3194104127b06496d2f414",
     "https://vavoo.biz-az.workers.dev/play/3982787280337b6c3d4aed",
-    "https://vavoo.biz-az.workers.dev/play/3164514696294efedc241e"
+    "https://vavoo.biz-az.workers.dev/play/3164514696294efedc241e",
+    "https://dogus-live.daioncdn.net/ntv/ntv.m3u8",
+    "https://streams.uzunmuhalefet.com/stream/f27d4ced-d7e4-4d63-95b4-c47302cad618.m3u8",
+    "https://kzx.testworkery0.workers.dev/ntv?key=patr0n"
   ],
   "ntvradyo": [
     "https://dygedge.radyotvonline.net/ntvradyo/playlist.m3u8"
@@ -1564,8 +1568,10 @@
     "https://listen.powerapp.com.tr/powergreece/abr/playlist.m3u8"
   ],
   "powerlove": [
-    "https://listen.powerapp.com.tr/powerlove/abr/playlist.m3u8",
-    "https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8"
+    "https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8",
+    "http://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8",
+    "https://listen.powerapp.com.tr/plove/love.smil/playlist.m3u8",
+    "https://listen.powerapp.com.tr/powerlove/abr/playlist.m3u8"
   ],
   "powerpop": [
     "https://listen.powerapp.com.tr/powerpop/abr/playlist.m3u8"
@@ -1587,7 +1593,6 @@
   ],
   "powerturk": [
     "https://listen.powerapp.com.tr/powerturk/abr/playlist.m3u8",
-    "https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197364&extension=ts&play_token=FkdL4n4O9g",
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197364&extension=ts&play_token=FkdL4n4O9g",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197364&extension=ts&play_token=FkdL4n4O9g",
@@ -1600,36 +1605,41 @@
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197364&extension=ts&play_token=FkdL4n4O9g"
   ],
   "powerturkakustik": [
-    "https://listen.powerapp.com.tr/powerturkakustik/abr/playlist.m3u8",
-    "https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8"
+    "https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8",
+    "http://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8",
+    "https://listen.powerapp.com.tr/powerturkakustik/abr/playlist.m3u8"
   ],
   "powerturkdance": [
     "https://listen.powerapp.com.tr/powerturkdans/abr/playlist.m3u8"
   ],
   "powerturkslow": [
-    "https://listen.powerapp.com.tr/powerturkslow/abr/playlist.m3u8",
     "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
-    "https://listen.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8"
+    "http://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
+    "https://listen.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
+    "https://listen.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8",
+    "https://listen.powerapp.com.tr/powerturkslow/abr/playlist.m3u8"
   ],
   "powerturktaptaze": [
-    "https://listen.powerapp.com.tr/powerturktaptaze/abr/playlist.m3u8",
-    "https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8"
+    "https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8",
+    "http://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8",
+    "https://listen.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8",
+    "https://listen.powerapp.com.tr/powerturktaptaze/abr/playlist.m3u8"
   ],
   "powerturktv": [
-    "https://livetv.powerapp.com.tr/powerturktv/powerturkhd.smil/playlist.m3u8",
+    "https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlists.m3u8",
     "https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8",
     "https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8",
-    "https://powerturk.blutv.com/blutv_powerturk/powerturk_sd.smil/playlist.m3u8",
     "http://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8",
-    "https://waw2.artiyerelmedya.net/powerturktv/bant1/playlist.m3u8",
-    "https://streams.uzunmuhalefet.com/stream/08667b7a-2535-4cc1-9719-76cf7df77eaa.m3u8",
-    "http://cdn.vizitv.workers.dev/45.m3u8",
-    "https://metvvavmetv.64fetih.workers.dev/?ID=42444473843632d84d102d",
-    "https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlists.m3u8",
     "https://vavoo.biz-az.workers.dev/play/714196738c6888433546f",
     "https://vavoo.biz-az.workers.dev/play/714196738f41ab9f4ff29",
     "https://vavoo.biz-az.workers.dev/play/5386683482fabf774253a",
-    "https://vavoo.biz-az.workers.dev/play/176662368cb439cff75e5"
+    "https://vavoo.biz-az.workers.dev/play/176662368cb439cff75e5",
+    "https://livetv.powerapp.com.tr/powerturktv/powerturkhd.smil/playlist.m3u8",
+    "https://powerturk.blutv.com/blutv_powerturk/powerturk_sd.smil/playlist.m3u8",
+    "https://waw2.artiyerelmedya.net/powerturktv/bant1/playlist.m3u8",
+    "https://streams.uzunmuhalefet.com/stream/08667b7a-2535-4cc1-9719-76cf7df77eaa.m3u8",
+    "https://metvvavmetv.64fetih.workers.dev/?ID=42444473843632d84d102d",
+    "http://cdn.vizitv.workers.dev/45.m3u8"
   ],
   "powertv": [
     "https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8",
@@ -1755,10 +1765,10 @@
     "http://31.148.48.15/RTG_HD/index.m3u8"
   ],
   "sat7turk": [
+    "https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/chunks.m3u8",
     "https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8",
     "https://svs.itworkscdn.net/sat7turklive/sat7turk.smil/playlist.m3u8",
     "https://metvvavmetv.64fetih.workers.dev/?ID=3343868905cee63de46df4",
-    "https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/chunks.m3u8",
     "https://vavoo.biz-az.workers.dev/play/42280465621064ebc15bba",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197177&extension=ts&play_token=lky5iwkG54",
     "https://vavoo.biz-az.workers.dev/play/4228046562be8bd43d51af",
@@ -1782,12 +1792,12 @@
     "https://metvvavmetv.64fetih.workers.dev/?ID=1192565728f635dd56c60f"
   ],
   "semerkandtv": [
+    "http://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8",
     "https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8",
     "http://mtisvwurbfcyslive.mediatriple.net/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/chunklist.m3u8",
     "https://streams.uzunmuhalefet.com/stream/928b9f56-271c-440f-90ec-bedd7efc8f5f.m3u8",
     "http://cdn.vizitv.workers.dev/65.m3u8",
     "https://metvvavmetv.64fetih.workers.dev/?ID=4096268883d8a4639bc323",
-    "http://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8",
     "https://vavoo.biz-az.workers.dev/play/4096268883d8a4639bc323",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=210473&extension=ts&play_token=kw7nx0fWGJ",
     "https://vavoo.biz-az.workers.dev/play/40962688833cbe29c176a8",
@@ -1832,9 +1842,9 @@
     "https://showradyo.radyotvonline.net/showradyoaac"
   ],
   "showturk": [
+    "https://raw.githubusercontent.com/bnyusuf67-crypto/streams/refs/heads/main/streams/shturk.m3u8",
     "https://streams.uzunmuhalefet.com/stream/16e43b9b-e175-482c-a105-2253c06515c9.m3u8",
     "https://metvvavmetv.64fetih.workers.dev/?ID=18802705619a03e126f4de",
-    "https://raw.githubusercontent.com/bnyusuf67-crypto/streams/refs/heads/main/streams/shturk.m3u8",
     "https://vavoo.biz-az.workers.dev/play/20097725333f38724a70f7",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196664&extension=ts&play_token=qoGE4lge5n",
     "https://vavoo.biz-az.workers.dev/play/2009772533c306e7a5e5da",
@@ -1915,25 +1925,26 @@
     "https://yayin.istanbulfm.com.tr/istanbulfm/fantezi/playlist.m3u8"
   ],
   "startv": [
+    "https://dogus.daioncdn.net/startv/startv.m3u8?ce=3&app=1740db13-3ee9-4858-8d2c-b1a9cfaa3718",
+    "http://dygvideo.dygdigital.com/live/hls/puhustardai?m3u8",
     "https://dogus-live.daioncdn.net/startv/playlist.m3u8",
     "https://dogus.daioncdn.net/startv/startv.m3u8?app=startv_web&ce=3",
-    "https://dogus-live.daioncdn.net/startv/startv.m3u8",
-    "http://lcgid8xu.rocketcdn.com/startvhd.stream_720p/chunklist.m3u8",
-    "https://notyet.denek1544.workers.dev/izle/startv-113.m3u8",
-    "https://streams.uzunmuhalefet.com/stream/a8ea8b0b-9c06-41ce-b7f9-35e895c78b77.m3u8",
-    "http://live.livestreamtv.ca/azstar/smil:azstar.smil/chunklist_w1579849357_b2000000_slen.m3u8",
     "http://dygvideo.dygdigital.com/live/hls/startv4puhu?m3u8",
-    "https://kzx.testworkery0.workers.dev/star?key=patr0n",
-    "https://sktrgit.testworker0y.workers.dev/channel/U3RhciBUViB8IEE=",
-    "http://dygvideo.dygdigital.com/live/hls/puhustardai?m3u8",
     "https://vavoo.biz-az.workers.dev/play/272055669263af9be64671",
-    "https://vavoo.biz-az.workers.dev/play/27205566929a90a4945b86",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196695&extension=ts&play_token=9rZyNWfIPX",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196679&extension=ts&play_token=wIZQXtaEUX",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196711&extension=ts&play_token=nggIpK8Ukz",
+    "https://vavoo.biz-az.workers.dev/play/27205566929a90a4945b86",
+    "http://lcgid8xu.rocketcdn.com/startvhd.stream_720p/chunklist.m3u8",
     "https://vavoo.biz-az.workers.dev/play/2020035128e10d131b945f",
     "https://vavoo.biz-az.workers.dev/play/6993059230c09ede7eeea",
-    "https://vavoo.biz-az.workers.dev/play/863472446d9f9461454d6"
+    "https://vavoo.biz-az.workers.dev/play/863472446d9f9461454d6",
+    "https://dogus-live.daioncdn.net/startv/startv.m3u8",
+    "https://notyet.denek1544.workers.dev/izle/startv-113.m3u8",
+    "https://streams.uzunmuhalefet.com/stream/a8ea8b0b-9c06-41ce-b7f9-35e895c78b77.m3u8",
+    "http://live.livestreamtv.ca/azstar/smil:azstar.smil/chunklist_w1579849357_b2000000_slen.m3u8",
+    "https://kzx.testworkery0.workers.dev/star?key=patr0n",
+    "https://sktrgit.testworker0y.workers.dev/channel/U3RhciBUViB8IEE="
   ],
   "sunrtv": [
     "https://vavoo.biz-az.workers.dev/play/235454381152b8bdc405cf",
@@ -1962,10 +1973,10 @@
     "https://vavo.sayezec.workers.dev/ID=38229012391e140a7f75ba"
   ],
   "tarihtv": [
+    "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/tarih-tv/playlist.m3u8",
     "https://tv1.arectv30.sbs/live/tarihtv.m3u8",
     "https://notyet.denek1544.workers.dev/izle/tarihtv.m3u8",
     "https://metvvavmetv.64fetih.workers.dev/?ID=3856957052050da882aa10",
-    "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/tarih-tv/playlist.m3u8",
     "https://vavoo.biz-az.workers.dev/play/3856957052050da882aa10",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197450&extension=ts&play_token=PwfkIVPsct",
     "https://vavoo.biz-az.workers.dev/play/385695705243789b6f2c45",
@@ -1987,6 +1998,7 @@
     "https://metvvavmetv.64fetih.workers.dev/?ID=19930472434be833e11c22"
   ],
   "taytv": [
+    "https://duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8",
     "http://tjktv.ercdn.net/tjktv.m3u8",
     "https://tjktv-live.tjk.org/tjktv.m3u8",
     "https://tjktv-live.tjk.org/tjktv2/tjktv2.m3u8",
@@ -1994,7 +2006,6 @@
     "http://media.netd.com.tr/S1/HLS_LIVE/tay/1000/prog_index.m3u8",
     "https://streams.uzunmuhalefet.com/stream/fbee70a1-4177-4906-86cc-525432cef179.m3u8",
     "https://metvvavmetv.64fetih.workers.dev/?ID=1534287048d3b84ea2e278",
-    "https://duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8",
     "https://vavoo.biz-az.workers.dev/play/1534287048d3b84ea2e278",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=18646&extension=ts&play_token=pyzC9TZWFz",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=18647&extension=ts&play_token=0mS3sQtpPM",
@@ -2018,6 +2029,7 @@
     "http://cdn.vizitv.workers.dev/81.m3u8"
   ],
   "tele1": [
+    "https://tele1-live.ercdn.net/tele1/tele1_1080p.m3u8",
     "https://tele1-live.ercdn.net/tele1/tele1.m3u8",
     "https://streams.uzunmuhalefet.com/stream/edba8b19-4745-4c5c-a235-b23a06d83eda.m3u8",
     "http://cdn.vizitv.workers.dev/35.m3u8",
@@ -2041,23 +2053,25 @@
     "https://cdn-telenews.yayin.com.tr/telenews/index.m3u8"
   ],
   "tempotv": [
-    "https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8",
-    "https://metvvavmetv.64fetih.workers.dev/?ID=23025527440c3e840d27e8",
     "https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/chunks.m3u8",
+    "https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8",
     "https://vavoo.biz-az.workers.dev/play/23025527440c3e840d27e8",
-    "https://vavoo.biz-az.workers.dev/play/2302552744b0bbd860a5ea"
+    "https://vavoo.biz-az.workers.dev/play/2302552744b0bbd860a5ea",
+    "https://metvvavmetv.64fetih.workers.dev/?ID=23025527440c3e840d27e8"
   ],
   "teve2": [
+    "https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/teve2/teve2_1080p.m3u8",
+    "https://live.duhnet.tv/S2/HLS_LIVE/teve2np/playlist.m3u8",
+    "https://live.duhnet.tv/S2/HLS_LIVE/teve2np/track_4_1000/playlist.m3u8",
+    "https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/teve2/teve2.m3u8",
     "https://demiroren.daioncdn.net/teve2/teve2.m3u8?app=6aab838a-437e-4a1b-bbd0-e30f79cdbbbd",
     "http://demiroren.daioncdn.net/teve2/teve2.m3u8?app=web",
-    "https://demiroren-live.daioncdn.net/teve2/teve2.m3u8",
-    "https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/teve2/teve2.m3u8",
     "http://live.duhnet.tv/S2/HLS_LIVE/teve2np/playlist.m3u8",
+    "https://demiroren-live.daioncdn.net/teve2/teve2.m3u8",
     "https://streams.uzunmuhalefet.com/stream/44cff2e5-7871-40c8-b6d2-094572b4371a.m3u8",
     "http://cdn.vizitv.workers.dev/27.m3u8",
     "https://sktrgit.testworker0y.workers.dev/channel/VGV2ZTI=",
     "https://metvvavmetv.64fetih.workers.dev/?ID=1917502631a9b6866e12b6",
-    "https://live.duhnet.tv/S2/HLS_LIVE/teve2np/track_4_1000/playlist.m3u8",
     "https://vavoo.biz-az.workers.dev/play/42295295583463c26f2597",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196689&extension=ts&play_token=7u6BNeQHj0",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196673&extension=ts&play_token=FAWownG5Xe",
@@ -2090,17 +2104,11 @@
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197424&extension=ts&play_token=MaPd3gxY7X"
   ],
   "tgrthaber": [
-    "https://tgrthaber-live.daioncdn.net/tgrthaber/tgrthaber_720p.m3u8",
-    "https://tgrthaber-live.daioncdn.net/tgrthaber/tgrthaber.m3u8",
-    "https://canli.ensonhaber.com/tr/tgrthaber/index.m3u8",
     "https://tgrthaber-live.daioncdn.net/tgrthaber/tgrthaber_1080p.m3u8",
     "https://canli.tgrthaber.com/tgrt.m3u8",
     "https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe4598be8e5d.smil/playlist.m3u8",
-    "http://cdn1.streamencoding.com:1935/tgrt_haber/tgrt3/playlist.m3u8",
-    "https://streams.uzunmuhalefet.com/stream/bd9ebc63-8243-43d6-83a2-eeef100f7e20.m3u8",
-    "http://cdn.vizitv.workers.dev/39.m3u8",
-    "https://sahsahbazz.testworker0y.workers.dev/channel/VEdSVCBIYWJlcg==",
-    "https://metvvavmetv.64fetih.workers.dev/?ID=190715470454a282dd6577",
+    "https://tgrthaber-live.daioncdn.net/tgrthaber/tgrthaber.m3u8",
+    "https://tgrthaber-live.daioncdn.net/tgrthaber/tgrthaber_720p.m3u8",
     "https://vavoo.biz-az.workers.dev/play/28143924587b833f07f3fe",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197263&extension=ts&play_token=c53adoDCo6",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197255&extension=ts&play_token=FI3uV5gIam",
@@ -2108,12 +2116,19 @@
     "https://vavoo.biz-az.workers.dev/play/1907154704d312eb8b3377",
     "https://vavoo.biz-az.workers.dev/play/356274005402631275363e",
     "https://vavoo.biz-az.workers.dev/play/281439245836a9660eb163",
-    "https://vavoo.biz-az.workers.dev/play/16846319592f81dc2953ba"
+    "https://vavoo.biz-az.workers.dev/play/16846319592f81dc2953ba",
+    "https://canli.ensonhaber.com/tr/tgrthaber/index.m3u8",
+    "http://cdn1.streamencoding.com:1935/tgrt_haber/tgrt3/playlist.m3u8",
+    "https://streams.uzunmuhalefet.com/stream/bd9ebc63-8243-43d6-83a2-eeef100f7e20.m3u8",
+    "https://sahsahbazz.testworker0y.workers.dev/channel/VEdSVCBIYWJlcg==",
+    "https://metvvavmetv.64fetih.workers.dev/?ID=190715470454a282dd6577",
+    "http://cdn.vizitv.workers.dev/39.m3u8"
   ],
   "thturkhaber": [
     "https://edge1.taksimbilisim.com/turkhaber/bant1/chunks.m3u8"
   ],
   "tivi6": [
+    "https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/chunks.m3u8",
     "https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8",
     "http://cdn.vizitv.workers.dev/113.m3u8",
     "https://metvvavmetv.64fetih.workers.dev/?ID=7741680162cf446ba65c6",
@@ -2147,31 +2162,31 @@
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=1471704&extension=ts&play_token=Cfn7HSE3H7"
   ],
   "tjktv": [
-    "http://tjktv.ercdn.net/tjktv.m3u8",
-    "https://tjktv-live.tjk.org/tjktv.m3u8",
-    "http://tjktv-live.tjk.org/tjktv.m3u8",
-    "https://metvvavmetv.64fetih.workers.dev/?ID=27949369132f08a592203d",
     "https://tjktv-live.tjk.org/tjktv_1080p.m3u8",
+    "https://tjktv-live.tjk.org/tjktv.m3u8",
+    "http://tjktv.ercdn.net/tjktv.m3u8",
+    "http://tjktv-live.tjk.org/tjktv.m3u8",
     "https://vavoo.biz-az.workers.dev/play/314642933454afb0ab4f31",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=18648&extension=ts&play_token=35ATmf7mxn",
     "https://vavoo.biz-az.workers.dev/play/2794936913f4021be82bb1",
     "https://vavoo.biz-az.workers.dev/play/3146429334f8ee957f0372",
     "https://vavoo.biz-az.workers.dev/play/3887658051477b30f6a08b",
-    "https://vavoo.biz-az.workers.dev/play/2322888064f243d78dd7fa"
+    "https://vavoo.biz-az.workers.dev/play/2322888064f243d78dd7fa",
+    "https://metvvavmetv.64fetih.workers.dev/?ID=27949369132f08a592203d"
   ],
   "tjktv2": [
-    "https://tjktv-live.tjk.org/tjktv2/tjktv2.m3u8",
-    "https://tjktv-live.tjk.org/tjktv2/tjktv2_1080p.m3u8"
+    "https://tjktv-live.tjk.org/tjktv2/tjktv2_1080p.m3u8",
+    "https://tjktv-live.tjk.org/tjktv2/tjktv2.m3u8"
   ],
   "tlc": [
+    "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6915/index.m3u8",
     "https://dogus.daioncdn.net/tlc/tlc.m3u8?ce=3&app=1aca0aa1-06e3-41ff-a8e5-38d7df475469&token=V1JHMUZBdGFOV0k2d2szUm5hVzA4RFdmejliTEVnQkZEQWNEN29qNzJ6Yz0=.m3u8",
     "https://dogus.daioncdn.net/tlc/tlc.m3u8?ce=3&app=1aca0aa1-06e3-41ff-a8e5-38d7df475469",
+    "http://dygvideo.dygdigital.com/live/hls/tlctvdai?m3u8",
     "https://dimitri.testworkery0.workers.dev//izle/tlc.m3u8",
     "https://streams.uzunmuhalefet.com/stream/7c98bf26-69a3-4f45-a330-d7c27459b375.m3u8",
     "http://cdn.vizitv.workers.dev/32.m3u8",
-    "http://dygvideo.dygdigital.com/live/hls/tlctvdai?m3u8",
     "https://metvvavmetv.64fetih.workers.dev/?ID=17668406603d2e9e4942ac",
-    "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6915/index.m3u8",
     "https://vavoo.biz-az.workers.dev/play/17668406603d2e9e4942ac",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197429&extension=ts&play_token=K6dnYNtVcu",
     "https://vavoo.biz-az.workers.dev/play/1766840660f9d11be6e89d",
@@ -2205,6 +2220,9 @@
     "https://tv-trtgenc.medya.trt.com.tr/master.m3u8"
   ],
   "trt1": [
+    "https://tv-trt1-esdai.medya.trt.com.tr/master.m3u8",
+    "http://89.187.191.41/TRT-1-HD-TR/playlist.m3u8",
+    "https://helga.iptv2022.com/sh/trt_1/index.m3u8",
     "https://tv-trt1.medya.trt.com.tr/master.m3u8",
     "https://tv-trt1.medya.trt.com.tr/master_720.m3u8",
     "https://trt.daioncdn.net/trt-1/master_720.m3u8?app=web",
@@ -2242,8 +2260,8 @@
   ],
   "trt3": [
     "https://tv-trt3.live.trt.com.tr/master.m3u8",
-    "https://vavo.sayezec.workers.dev/ID=418740351278f04c94b243",
-    "https://vavoo.biz-az.workers.dev/play/418740351278f04c94b243"
+    "https://vavoo.biz-az.workers.dev/play/418740351278f04c94b243",
+    "https://vavo.sayezec.workers.dev/ID=418740351278f04c94b243"
   ],
   "trt4k": [
     "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/66a6e733-8800-42b1-a030-3a2d826c874c.ts",
@@ -2283,21 +2301,21 @@
     "http://cdn.vizitv.workers.dev/31.m3u8"
   ],
   "trtcocuk": [
-    "https://tv-trtcocuk.live.trt.com.tr/master_720.m3u8",
-    "https://tv-trtcocuk.medya.trt.com.tr/master_720.m3u8",
-    "http://tv-trtcocuk.live.trt.com.tr/master_720.m3u8",
-    "https://tv-trtcocuk.medya.trt.com.tr/master.m3u8",
     "https://tv-trtcocuk.medya.trt.com.tr/master_1080.m3u8",
-    "https://streams.uzunmuhalefet.com/stream/6ad16f63-33f5-45bd-9742-1b98a71ce6ed.m3u8",
-    "http://cdn.vizitv.workers.dev/21.m3u8",
-    "https://rintintiri.denek1544.workers.dev/channel/VFJUIMOHb2N1aw==",
-    "https://metvvavmetv.64fetih.workers.dev/?ID=30291805064bacb8a4036d",
+    "https://tv-trtcocuk.medya.trt.com.tr/master.m3u8",
+    "https://tv-trtcocuk.medya.trt.com.tr/master_720.m3u8",
     "https://vavoo.biz-az.workers.dev/play/5500451029f0e83b65cf8",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197417&extension=ts&play_token=uFQW2KSLfI",
     "https://vavoo.biz-az.workers.dev/play/30291805060c483e92cd8c",
     "https://vavoo.biz-az.workers.dev/play/550045102484194fd62e2",
     "https://vavoo.biz-az.workers.dev/play/6857948303970e32d15c1",
-    "https://vavoo.biz-az.workers.dev/play/7922281223a64305a487d"
+    "https://vavoo.biz-az.workers.dev/play/7922281223a64305a487d",
+    "https://tv-trtcocuk.live.trt.com.tr/master_720.m3u8",
+    "http://tv-trtcocuk.live.trt.com.tr/master_720.m3u8",
+    "https://streams.uzunmuhalefet.com/stream/6ad16f63-33f5-45bd-9742-1b98a71ce6ed.m3u8",
+    "https://rintintiri.denek1544.workers.dev/channel/VFJUIMOHb2N1aw==",
+    "https://metvvavmetv.64fetih.workers.dev/?ID=30291805064bacb8a4036d",
+    "http://cdn.vizitv.workers.dev/21.m3u8"
   ],
   "trtdiyanetcocuk": [
     "https://vavoo.biz-az.workers.dev/play/1101849390824792e0390b",
@@ -2366,18 +2384,18 @@
     "http://cdn.vizitv.workers.dev/77.m3u8"
   ],
   "trtmuzik": [
-    "https://tv-trtmuzik.medya.trt.com.tr/master_720.m3u8",
-    "https://tv-trtmuzik.medya.trt.com.tr/master.m3u8",
-    "https://streams.uzunmuhalefet.com/stream/6583f90f-0bff-4523-9547-1c9a96280b2e.m3u8",
-    "http://cdn.vizitv.workers.dev/44.m3u8",
-    "https://metvvavmetv.64fetih.workers.dev/?ID=970382162286220f5fa39",
     "https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8",
+    "https://tv-trtmuzik.medya.trt.com.tr/master.m3u8",
+    "https://tv-trtmuzik.medya.trt.com.tr/master_720.m3u8",
     "https://vavoo.biz-az.workers.dev/play/3063329534c891d2af3f0f",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197363&extension=ts&play_token=bHBz9ZRpwX",
     "https://vavoo.biz-az.workers.dev/play/970382162ddd50ab9fa1f",
     "https://vavoo.biz-az.workers.dev/play/3063329534428852a55c76",
     "https://vavoo.biz-az.workers.dev/play/233278963434f9e75fe4c8",
-    "https://vavoo.biz-az.workers.dev/play/2362678422b589617c3df4"
+    "https://vavoo.biz-az.workers.dev/play/2362678422b589617c3df4",
+    "https://streams.uzunmuhalefet.com/stream/6583f90f-0bff-4523-9547-1c9a96280b2e.m3u8",
+    "https://metvvavmetv.64fetih.workers.dev/?ID=970382162286220f5fa39",
+    "http://cdn.vizitv.workers.dev/44.m3u8"
   ],
   "trtnagme": [
     "https://rd-trtnagme.medya.trt.com.tr/master.m3u8"
@@ -2415,19 +2433,14 @@
     "https://tv-trtspor.medya.trt.com.tr/master_720.m3u8"
   ],
   "trtsporyildiz": [
-    "https://tv-trtspor2.medya.trt.com.tr/master_720.m3u8",
+    "https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor",
+    "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/2145/index.m3u8",
     "https://tv-trtspor2.medya.trt.com.tr/master_1440p.m3u8",
     "https://tv-trtspor2.medya.trt.com.tr/master.m3u8",
     "https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor&ppid=e67f6aa79d604002f37ace34d2ca101c",
-    "https://tv-trtspor-yildiz.medya.trt.com.tr/master.m3u8",
-    "https://tv-trtspor2.live.trt.com.tr/master.m3u8",
+    "https://tv-trtspor2.medya.trt.com.tr/master_720.m3u8",
     "https://tv-trtspor2-esdai.medya.trt.com.tr/master.m3u8",
     "https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?&app=2c6690bb-4021-4292-8ddc-c93a3cf04a3a",
-    "https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor",
-    "https://streams.uzunmuhalefet.com/stream/978e9210-f530-44ae-99c8-8bdfc998b071.m3u8",
-    "http://cdn.vizitv.workers.dev/54.m3u8",
-    "https://metvvavmetv.64fetih.workers.dev/?ID=2750507083b8337c6b6616",
-    "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/2145/index.m3u8",
     "https://vavoo.biz-az.workers.dev/play/14238458092c57f9e072fb",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=18644&extension=ts&play_token=6fextF0Ovq",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=18645&extension=ts&play_token=hg6kFiym3N",
@@ -2436,7 +2449,12 @@
     "https://vavoo.biz-az.workers.dev/play/3650641237b04b42cf8bc1",
     "https://vavoo.biz-az.workers.dev/play/1423845809bf14b43cb51b",
     "https://vavoo.biz-az.workers.dev/play/93054202f50916e7d7ca",
-    "https://vavoo.biz-az.workers.dev/play/208157741792dfed3be34f"
+    "https://vavoo.biz-az.workers.dev/play/208157741792dfed3be34f",
+    "https://tv-trtspor-yildiz.medya.trt.com.tr/master.m3u8",
+    "https://tv-trtspor2.live.trt.com.tr/master.m3u8",
+    "https://streams.uzunmuhalefet.com/stream/978e9210-f530-44ae-99c8-8bdfc998b071.m3u8",
+    "https://metvvavmetv.64fetih.workers.dev/?ID=2750507083b8337c6b6616",
+    "http://cdn.vizitv.workers.dev/54.m3u8"
   ],
   "trttrk": [
     "https://rd-trtturku.medya.trt.com.tr/master.m3u8"
@@ -2525,23 +2543,23 @@
     "https://tv100.daioncdn.net/tv100/tv100.m3u8?app=web"
   ],
   "tv264": [
-    "https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8",
-    "https://streams.uzunmuhalefet.com/stream/23a0e9de-9696-47a8-97ec-3d65abd058be.m3u8",
-    "https://metvvavmetv.64fetih.workers.dev/?ID=1984101968aa2ae3bca725",
     "https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8?md5=qb_9l3erQIDqZMjbKfALzA&expires=1651666386",
+    "https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8",
     "https://vavoo.biz-az.workers.dev/play/1984101968aa2ae3bca725",
-    "https://vavoo.biz-az.workers.dev/play/1984101968ff0a8d536bc4"
+    "https://vavoo.biz-az.workers.dev/play/1984101968ff0a8d536bc4",
+    "https://streams.uzunmuhalefet.com/stream/23a0e9de-9696-47a8-97ec-3d65abd058be.m3u8",
+    "https://metvvavmetv.64fetih.workers.dev/?ID=1984101968aa2ae3bca725"
   ],
   "tv4": [
+    "https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8",
     "https://turkmedya-live.ercdn.net/tv4/tv4_1080p.m3u8",
     "https://turkmedya-live.ercdn.net/tv4/tv4.m3u8",
-    "https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8",
-    "http://cdn.vizitv.workers.dev/72.m3u8",
-    "https://metvvavmetv.64fetih.workers.dev/?ID=3574429625ab8ee4e1aaa",
     "https://vavoo.biz-az.workers.dev/play/975669992eaa57c420d25",
     "https://vavoo.biz-az.workers.dev/play/3574429625133873ea3f7",
     "https://vavoo.biz-az.workers.dev/play/97566999287a1a6b31e41",
-    "https://vavoo.biz-az.workers.dev/play/119327601954bd94b87e5b"
+    "https://vavoo.biz-az.workers.dev/play/119327601954bd94b87e5b",
+    "https://metvvavmetv.64fetih.workers.dev/?ID=3574429625ab8ee4e1aaa",
+    "http://cdn.vizitv.workers.dev/72.m3u8"
   ],
   "tv41": [
     "https://vavoo.biz-az.workers.dev/play/210640386438fec4ca9352",
@@ -2588,16 +2606,13 @@
     "https://cdn4.yayin.com.tr/channel6tv/index.m3u8"
   ],
   "tv8": [
-    "https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?&sid=7uwoyq6usvp2&app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=2",
-    "https://tv8-live.daioncdn.net/tv8/tv8_1080p.m3u8",
+    "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8",
     "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8.m3u8",
+    "https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?&sid=7uwoyq6usvp2&app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=2",
     "https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3",
     "https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3&",
     "https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788",
-    "https://tv8-live.daioncdn.net/tv8/tv8.m3u8",
-    "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8",
     "https://ip44.radyotelekomtv.com:3958/hybrid/play.m3u8",
-    "https://streams.uzunmuhalefet.com/stream/e93b8e86-e4fc-450a-81d4-2188eda7dda0.m3u8",
     "https://vavoo.biz-az.workers.dev/play/1702470161fe0c4007a0bb",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196693&extension=ts&play_token=b5WpiwQiiH",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196677&extension=ts&play_token=zLN7npODPH",
@@ -2606,20 +2621,18 @@
     "https://vavoo.biz-az.workers.dev/play/38494812994251a1d3349d",
     "https://vavoo.biz-az.workers.dev/play/1702470161aaf1333bbf58",
     "https://vavoo.biz-az.workers.dev/play/4292306921eac1acd4e3d1",
-    "https://vavoo.biz-az.workers.dev/play/2196709234a54a76672d16"
+    "https://vavoo.biz-az.workers.dev/play/2196709234a54a76672d16",
+    "https://tv8-live.daioncdn.net/tv8/tv8_1080p.m3u8",
+    "https://tv8-live.daioncdn.net/tv8/tv8.m3u8",
+    "https://streams.uzunmuhalefet.com/stream/e93b8e86-e4fc-450a-81d4-2188eda7dda0.m3u8"
   ],
   "tv85": [
-    "https://tv8-live.daioncdn.net/tv8bucuk/tv8bucuk_1080p.m3u8",
-    "https://mn-nl.mncdn.com/blutv_tv8_52/live_720p2000000kbps/index.m3u8",
+    "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk_1080p.m3u8",
+    "https://tv8.daioncdn.net/tv8bucuk/tv8bucuk_1080p.m3u8?app=tv8bucuk_web&ce=3",
+    "https://tv8.daioncdn.net/tv8bucuk/tv8bucuk.m3u8?app=bf58ab52-4865-4c81-b223-26b41009801e",
     "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk.m3u8",
     "https://tv8.daioncdn.net/tv8bucuk/tv8bucuk.m3u8?app=tv8bucuk_web",
     "https://tv8.daioncdn.net/tv8bucuk/tv8bucuk_480p.m3u8?&sid=7tra76g4cefx&app=bf58ab52-4865-4c81-b223-26b41009801e&ce=3",
-    "https://tv8bucuk-live.daioncdn.net/tv8bucuk/tv8bucuk.m3u8",
-    "https://tv8bucuk.daioncdn.net/tv8bucuk/tv8bucuk.m3u8",
-    "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk_1080p.m3u8",
-    "https://streams.uzunmuhalefet.com/stream/88228e59-ca29-4b4a-95e5-e9152bd9e1b4.m3u8",
-    "https://sktrgit.testworker0y.workers.dev/channel/VHY4LjUgfCBB",
-    "https://metvvavmetv.64fetih.workers.dev/?ID=241220593740c7258ef669",
     "https://vavoo.biz-az.workers.dev/play/3472698776e30314a5e33a",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196692&extension=ts&play_token=021Y7YSYE8",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196676&extension=ts&play_token=Y0BUC14soU",
@@ -2627,7 +2640,14 @@
     "https://vavoo.biz-az.workers.dev/play/1908265816ef4c9a0e07d3",
     "https://vavoo.biz-az.workers.dev/play/347269877637b4a523574e",
     "https://vavoo.biz-az.workers.dev/play/14092376b3e1fc781650",
-    "https://vavoo.biz-az.workers.dev/play/1830521243928aba821936"
+    "https://vavoo.biz-az.workers.dev/play/1830521243928aba821936",
+    "https://tv8-live.daioncdn.net/tv8bucuk/tv8bucuk_1080p.m3u8",
+    "https://mn-nl.mncdn.com/blutv_tv8_52/live_720p2000000kbps/index.m3u8",
+    "https://tv8bucuk-live.daioncdn.net/tv8bucuk/tv8bucuk.m3u8",
+    "https://tv8bucuk.daioncdn.net/tv8bucuk/tv8bucuk.m3u8",
+    "https://streams.uzunmuhalefet.com/stream/88228e59-ca29-4b4a-95e5-e9152bd9e1b4.m3u8",
+    "https://sktrgit.testworker0y.workers.dev/channel/VHY4LjUgfCBB",
+    "https://metvvavmetv.64fetih.workers.dev/?ID=241220593740c7258ef669"
   ],
   "tvden": [
     "https://vavoo.biz-az.workers.dev/play/33417206402eccd63d5a50",
@@ -2754,9 +2774,9 @@
     "https://vavoo.biz-az.workers.dev/play/344251480556f9e5db0f41"
   ],
   "vuslattv": [
-    "https://vavo.sayezec.workers.dev/ID=94903312294e3da09f3b7",
     "https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/playlist.m3u8",
-    "https://vavoo.biz-az.workers.dev/play/94903312294e3da09f3b7"
+    "https://vavoo.biz-az.workers.dev/play/94903312294e3da09f3b7",
+    "https://vavo.sayezec.workers.dev/ID=94903312294e3da09f3b7"
   ],
   "yabantv": [
     "https://yaban-live.ercdn.net/yabantv/yabantv_1080p.m3u8",
@@ -2782,8 +2802,8 @@
     "https://live.euromediacenter.com/yenicagtv/tracks-v1a1/mono.m3u8"
   ],
   "yoltv": [
-    "https://vavo.sayezec.workers.dev/ID=1377055653aae1eccd061c",
     "https://live.yoltv.com/hls/stream.m3u8",
+    "https://vavo.sayezec.workers.dev/ID=1377055653aae1eccd061c",
     "https://vavoo.biz-az.workers.dev/play/10711660543c82502a97f7",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197164&extension=ts&play_token=nDvHZaixWT",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197164&extension=ts&play_token=nDvHZaixWT",
@@ -3048,8 +3068,7 @@
     "https://edge-e3.evrideo.tv/f2dcbecf-5af0-47db-a82e-032112050a23_1000027346_HLS/manifest.m3u8"
   ],
   "saglikchannel": [
-    "https://live.euromediacenter.com/saglikchannel/tracks-v1a1/mono.m3u8",
-    "https://live.euromediacenter.com/saglikchannel/index.m3u8"
+    "https://live.euromediacenter.com/saglikchannel/tracks-v1a1/mono.m3u8"
   ],
   "tbmmtvhd": [
     "https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8"
@@ -3787,9 +3806,7 @@
     "https://sslyayin.netyayin.net:8150/stream?/;stream.mp3"
   ],
   "numberoneturkdamar": [
-    "https://eustr75.mediatriple.net/Number1Media/20_Number1_Turk_Damar.stream/playlist.m3u8",
-    "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8",
-    "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e19877b340.smil/playlist.m3u8"
+    "https://eustr75.mediatriple.net/Number1Media/20_Number1_Turk_Damar.stream/playlist.m3u8"
   ],
   "retroturk": [
     "https://playerservices.streamtheworld.com/api/livestream-redirect/RETROTURK128AAC.aac?/;stream.mp3"
@@ -4158,8 +4175,7 @@
     "https://eustr75.mediatriple.net/Number1Media/03_Number1_Turk_Slow.stream/playlist.m3u8"
   ],
   "numberoneturk": [
-    "https://eustr75.mediatriple.net/Number1Media/00_Number1_Turk_FM.stream/playlist.m3u8",
-    "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e187770143.smil/playlist.m3u8"
+    "https://eustr75.mediatriple.net/Number1Media/00_Number1_Turk_FM.stream/playlist.m3u8"
   ],
   "number1rb": [
     "https://eustr75.mediatriple.net/Number1Media/17_Number1_RnB.stream/playlist.m3u8"
@@ -4249,8 +4265,10 @@
     "https://yayin.radyomadyo.com:8004/stream"
   ],
   "powerdance": [
-    "https://listen.powerapp.com.tr/powerdance/abr/playlist.m3u8",
-    "https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8"
+    "https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8",
+    "http://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8",
+    "https://listen.powerapp.com.tr/dance/dance.smil/playlist.m3u8",
+    "https://listen.powerapp.com.tr/powerdance/abr/playlist.m3u8"
   ],
   "powerhiphoprb": [
     "https://listen.powerapp.com.tr/powerrbhiphop/abr/playlist.m3u8"
@@ -4925,16 +4943,8 @@
     "https://live.enerjiplay.com/stream/enerjislow?/;stream.mp3"
   ],
   "kocaelitv": [
-    "https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8",
     "https://edge1.socialsmart.tv/kocaelitv/bant1/chunks.m3u8",
-    "https://edge1.socialsmart.tv/kocaelitv/bant1/playlist.m3u8"
-  ],
-  "spacetoon": [
-    "https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8",
-    "https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8",
-    "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-spacetoon/d8382fb9ab4b2307058f12c7ea90db54/index.m3u8"
-  ],
-  "kanalb": [
-    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197198&extension=ts&play_token=6NxyOt8ARr"
+    "https://edge1.socialsmart.tv/kocaelitv/bant1/playlist.m3u8",
+    "https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8"
   ]
 }
