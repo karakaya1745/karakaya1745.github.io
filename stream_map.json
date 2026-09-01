@@ -674,8 +674,9 @@
     "https://streams.uzunmuhalefet.com/stream/93841168-9d59-43d0-9246-e04b64558b05.m3u8"
   ],
   "finesttv": [
-    "https://vavoo.biz-az.workers.dev/play/2663765748ad351c6aadb3",
-    "https://vavo.sayezec.workers.dev/ID=2663765748ad351c6aadb3"
+    "https://vavo.sayezec.workers.dev/ID=2663765748ad351c6aadb3",
+    "http://media.finest.tv/hls/live.m3u8",
+    "https://vavoo.biz-az.workers.dev/play/2663765748ad351c6aadb3"
   ],
   "flashhaber": [
     "https://mn-nl.mncdn.com/blutv_flashtv/live.m3u8",
@@ -2675,8 +2676,9 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/VIRGIN_RADIO.mp3"
   ],
   "viyanatv": [
-    "https://vavoo.biz-az.workers.dev/play/344251480556f9e5db0f41",
-    "https://vavo.sayezec.workers.dev/ID=344251480556f9e5db0f41"
+    "https://vavo.sayezec.workers.dev/ID=344251480556f9e5db0f41",
+    "http://nrttn172.kesintisizyayin.com:29010/nrttn/nrttn/playlist.m3u8",
+    "https://vavoo.biz-az.workers.dev/play/344251480556f9e5db0f41"
   ],
   "vuslattv": [
     "https://vavoo.biz-az.workers.dev/play/94903312294e3da09f3b7",
