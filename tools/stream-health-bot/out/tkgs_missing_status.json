@@ -1,0 +1,693 @@
+{
+  "generatedAt": "2026-09-01T14:47:40.456Z",
+  "tkgsPath": "D:\\PROJELER\\ANDROİD TV UYGULAMASI2\\tools\\tkgs_eklenecek_kanallar.json",
+  "channelsPath": "D:\\PROJELER\\karakaya1745.github.io\\channels.json",
+  "m3uSourceCount": 38,
+  "channels": [
+    {
+      "name": "TV8 International",
+      "category": "Ulusal",
+      "tkgsUrl": "https://www.tv8int.com/",
+      "tkgsStreamUrl": "https://www.giniko.com/xml/secure/plist.php?ch=1045",
+      "inCatalog": false,
+      "m3uCandidateCount": 2,
+      "probedCount": 2,
+      "probeStatus": "❌ çalışmıyor",
+      "action": "sizin link gerekir",
+      "searchKeys": [
+        "tv8international",
+        "tv8int",
+        "trtv8int"
+      ],
+      "workingUrls": [],
+      "probeResults": [
+        {
+          "url": "http://162.212.179.33/dvrfl05/gin-tv8int/index.m3u8",
+          "live": false,
+          "reason": "timeout",
+          "sourceId": "onureroz-karma-index",
+          "title": "TV8 INT"
+        },
+        {
+          "url": "http://nimplus3.bozztv.com/tv8int/tv8int/playlist.m3u8",
+          "live": false,
+          "reason": "timeout",
+          "sourceId": "onureroz-karma-index",
+          "title": "TV8 INT"
+        }
+      ],
+      "m3uSampleUrls": [
+        "http://162.212.179.33/dvrfl05/gin-tv8int/index.m3u8",
+        "http://nimplus3.bozztv.com/tv8int/tv8int/playlist.m3u8"
+      ]
+    },
+    {
+      "name": "GRT",
+      "category": "Ulusal",
+      "tkgsUrl": "https://www.grttv.com.tr/",
+      "tkgsStreamUrl": "http://yerelmedya.tv:1935/grt/_definst_/bant1/chunklist.m3u8",
+      "inCatalog": false,
+      "m3uCandidateCount": 1,
+      "probedCount": 1,
+      "probeStatus": "❌ çalışmıyor",
+      "action": "sizin link gerekir",
+      "searchKeys": [
+        "grt",
+        "grttv",
+        "grtgaziantep"
+      ],
+      "workingUrls": [],
+      "probeResults": [
+        {
+          "url": "http://yerelmedya.tv:1935/grt/_definst_/bant1/chunklist.m3u8",
+          "live": false,
+          "reason": "timeout",
+          "sourceId": "playlist-c11",
+          "title": "GRT Gaziantep"
+        }
+      ],
+      "m3uSampleUrls": [
+        "http://yerelmedya.tv:1935/grt/_definst_/bant1/chunklist.m3u8"
+      ]
+    },
+    {
+      "name": "Kon TV",
+      "category": "Ulusal",
+      "tkgsUrl": "https://www.kontv.com.tr/",
+      "tkgsStreamUrl": "https://59cba4d34b678.streamlock.net/live/kontv/chunklist.m3u8",
+      "inCatalog": false,
+      "m3uCandidateCount": 11,
+      "probedCount": 1,
+      "probeStatus": "❌ çalışmıyor",
+      "action": "sizin link gerekir",
+      "searchKeys": [
+        "kontv",
+        "trkontv"
+      ],
+      "workingUrls": [],
+      "probeResults": [
+        {
+          "url": "https://59cba4d34b678.streamlock.net/live/kontv/chunklist.m3u8",
+          "live": false,
+          "reason": "network-error",
+          "sourceId": "playlist-yerel-rest",
+          "title": "KON TV"
+        }
+      ],
+      "m3uSampleUrls": [
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197191&extension=ts&play_token=PM2eb119cV",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197191&extension=ts&play_token=PM2eb119cV",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197191&extension=ts&play_token=PM2eb119cV",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197191&extension=ts&play_token=PM2eb119cV",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197191&extension=ts&play_token=PM2eb119cV"
+      ]
+    },
+    {
+      "name": "Tek Rumeli TV",
+      "category": "Ulusal",
+      "tkgsUrl": "https://www.tekrumelitv.com/",
+      "tkgsStreamUrl": "http://yayin3.canlitv.com:1935/live/rumelitv/iptvdelisi.m3u8",
+      "inCatalog": false,
+      "m3uCandidateCount": 1,
+      "probedCount": 1,
+      "probeStatus": "❌ çalışmıyor",
+      "action": "sizin link gerekir",
+      "searchKeys": [
+        "tekrumelitv"
+      ],
+      "workingUrls": [],
+      "probeResults": [
+        {
+          "url": "https://edge1.socialsmart.tv/tekrumelitv/bant1/playlist.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404,
+          "sourceId": "onureroz-karma-index",
+          "title": "TEK RUMELİ TV"
+        }
+      ],
+      "m3uSampleUrls": [
+        "https://edge1.socialsmart.tv/tekrumelitv/bant1/playlist.m3u8"
+      ]
+    },
+    {
+      "name": "HRT Akdeniz TV",
+      "category": "Ulusal",
+      "tkgsUrl": "https://www.hrtakdeniztv.com/",
+      "tkgsStreamUrl": "https://vavo.sayezec.workers.dev/ID=4223430509a4cfa811948c",
+      "inCatalog": false,
+      "m3uCandidateCount": 0,
+      "probedCount": 0,
+      "probeStatus": "❓ M3U'da yok",
+      "action": "sizin link gerekir",
+      "searchKeys": [
+        "hrtakdeniztv",
+        "hrtakdeniz"
+      ],
+      "workingUrls": [],
+      "probeResults": [],
+      "m3uSampleUrls": []
+    },
+    {
+      "name": "FM TV",
+      "category": "Ulusal",
+      "tkgsUrl": "https://www.fmtv.com.tr/",
+      "tkgsStreamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/5fd4b2d6-0201-4036-9c3b-8682271444f5.ts",
+      "inCatalog": false,
+      "m3uCandidateCount": 0,
+      "probedCount": 0,
+      "probeStatus": "❓ M3U'da yok",
+      "action": "sizin link gerekir",
+      "searchKeys": [
+        "fmtv"
+      ],
+      "workingUrls": [],
+      "probeResults": [],
+      "m3uSampleUrls": []
+    },
+    {
+      "name": "Kadirga TV",
+      "category": "Ulusal",
+      "tkgsUrl": "https://www.kadrigatv.com/",
+      "tkgsStreamUrl": "https://vavo.sayezec.workers.dev/ID=2093940826f764b66f64f5",
+      "inCatalog": false,
+      "m3uCandidateCount": 0,
+      "probedCount": 0,
+      "probeStatus": "❓ M3U'da yok",
+      "action": "sizin link gerekir",
+      "searchKeys": [
+        "kadirgatv"
+      ],
+      "workingUrls": [],
+      "probeResults": [],
+      "m3uSampleUrls": []
+    },
+    {
+      "name": "TV 2020",
+      "category": "Ulusal",
+      "tkgsUrl": "http://kuzeykibris.tv/",
+      "tkgsStreamUrl": "http://kuzeykibris.tv/m3u8/tv_dialog.m3u8",
+      "inCatalog": false,
+      "m3uCandidateCount": 3,
+      "probedCount": 3,
+      "probeStatus": "❌ çalışmıyor",
+      "action": "sizin link gerekir",
+      "searchKeys": [
+        "tv2020"
+      ],
+      "workingUrls": [],
+      "probeResults": [
+        {
+          "url": "https://sc-kuzeykibrissmarttv.ercdn.net/tv2020/bantp1/playlist.m3u8",
+          "live": false,
+          "reason": "timeout",
+          "sourceId": "onureroz-karma-index",
+          "title": "TV 2020"
+        },
+        {
+          "url": "http://kuzeykibris.tv/m3u8/tv_dialog.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404,
+          "sourceId": "playlist-c07",
+          "title": "TV 2020"
+        },
+        {
+          "url": "https://spor.kuzeykibris.tv/m3u8/tv_2020.m3u8",
+          "live": false,
+          "reason": "timeout",
+          "sourceId": "onureroz-karma-index",
+          "title": "TV 2020"
+        }
+      ],
+      "m3uSampleUrls": [
+        "http://kuzeykibris.tv/m3u8/tv_dialog.m3u8",
+        "https://sc-kuzeykibrissmarttv.ercdn.net/tv2020/bantp1/playlist.m3u8",
+        "https://spor.kuzeykibris.tv/m3u8/tv_2020.m3u8"
+      ]
+    },
+    {
+      "name": "Kanal B",
+      "category": "Ulusal",
+      "tkgsUrl": "https://www.kanalb.com.tr/",
+      "tkgsStreamUrl": "http://212.174.58.161/hls-live/livepkgr/_definst_/liveevent/kanalb.m3u8",
+      "inCatalog": true,
+      "m3uCandidateCount": 0,
+      "probedCount": 0,
+      "probeStatus": "⏭ zaten var",
+      "action": "zaten eklendi",
+      "searchKeys": [
+        "kanalb",
+        "trkanalb"
+      ],
+      "workingUrls": [],
+      "probeResults": [],
+      "m3uSampleUrls": []
+    },
+    {
+      "name": "Gonca TV",
+      "category": "Ulusal",
+      "tkgsUrl": "https://www.goncatv.com.tr/",
+      "tkgsStreamUrl": "http://stream.taksimbilisim.com:1935/tuncerciftci/smil:tuncerciftci.smil/iptvdelisi.m3u8",
+      "inCatalog": false,
+      "m3uCandidateCount": 1,
+      "probedCount": 1,
+      "probeStatus": "❌ çalışmıyor",
+      "action": "sizin link gerekir",
+      "searchKeys": [
+        "goncatv"
+      ],
+      "workingUrls": [],
+      "probeResults": [
+        {
+          "url": "http://stream.taksimbilisim.com:1935/tuncerciftci/smil:tuncerciftci.smil/iptvdelisi.m3u8",
+          "live": false,
+          "reason": "timeout",
+          "sourceId": "playlist-c11",
+          "title": "Gonca TV"
+        }
+      ],
+      "m3uSampleUrls": [
+        "http://stream.taksimbilisim.com:1935/tuncerciftci/smil:tuncerciftci.smil/iptvdelisi.m3u8"
+      ]
+    },
+    {
+      "name": "Rumeli TV",
+      "category": "Ulusal",
+      "tkgsUrl": "https://www.rumelitv.com.tr/",
+      "tkgsStreamUrl": "http://yayin3.canlitv.com:1935/live/rumelitv/iptvdelisi.m3u8",
+      "inCatalog": false,
+      "m3uCandidateCount": 12,
+      "probedCount": 2,
+      "probeStatus": "❌ çalışmıyor",
+      "action": "sizin link gerekir",
+      "searchKeys": [
+        "rumelitv",
+        "trrumelitv"
+      ],
+      "workingUrls": [],
+      "probeResults": [
+        {
+          "url": "https://rumelitv-live.ercdn.net/rumelitv/rumelitv.m3u8",
+          "live": false,
+          "reason": "timeout",
+          "sourceId": "onureroz-karma-index",
+          "title": "RUMELİ TV"
+        },
+        {
+          "url": "http://yayin3.canlitv.com:1935/live/rumelitv/iptvdelisi.m3u8",
+          "live": false,
+          "reason": "timeout",
+          "sourceId": "playlist-yerel-rest2",
+          "title": "RUMELI TV"
+        }
+      ],
+      "m3uSampleUrls": [
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197188&extension=ts&play_token=PaNAKhTAov",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197188&extension=ts&play_token=PaNAKhTAov",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197188&extension=ts&play_token=PaNAKhTAov",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197188&extension=ts&play_token=PaNAKhTAov",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197188&extension=ts&play_token=PaNAKhTAov"
+      ]
+    },
+    {
+      "name": "Kocaeli TV",
+      "category": "Ulusal",
+      "tkgsUrl": "https://www.kocaelitv.com.tr/",
+      "tkgsStreamUrl": "https://vavo.sayezec.workers.dev/ID=3702528985a3c17ff125d1",
+      "inCatalog": true,
+      "m3uCandidateCount": 0,
+      "probedCount": 0,
+      "probeStatus": "⏭ zaten var",
+      "action": "zaten eklendi",
+      "searchKeys": [
+        "kocaelitv"
+      ],
+      "workingUrls": [],
+      "probeResults": [],
+      "m3uSampleUrls": []
+    },
+    {
+      "name": "Yeni Kocaeli TV",
+      "category": "Ulusal",
+      "tkgsUrl": "https://www.yenikocaelitv.com/",
+      "tkgsStreamUrl": "https://vavo.sayezec.workers.dev/ID=758663570c267cae815eb",
+      "inCatalog": false,
+      "m3uCandidateCount": 0,
+      "probedCount": 0,
+      "probeStatus": "❓ M3U'da yok",
+      "action": "sizin link gerekir",
+      "searchKeys": [
+        "yenikocaelitv"
+      ],
+      "workingUrls": [],
+      "probeResults": [],
+      "m3uSampleUrls": []
+    },
+    {
+      "name": "Türkmeneli TV",
+      "category": "Ulusal",
+      "tkgsUrl": "https://www.turkmenelitv.com/",
+      "tkgsStreamUrl": "http://line.moja-teve9.me:80/play/live.php?mac=00:1A:79:0E:4F:73&stream=912441&extension=ts&play_token=DJ6bncmjsD",
+      "inCatalog": true,
+      "m3uCandidateCount": 0,
+      "probedCount": 0,
+      "probeStatus": "⏭ zaten var",
+      "action": "zaten eklendi",
+      "searchKeys": [
+        "turkmenelitv"
+      ],
+      "workingUrls": [],
+      "probeResults": [],
+      "m3uSampleUrls": []
+    },
+    {
+      "name": "Kanal 68",
+      "category": "Ulusal",
+      "tkgsUrl": "https://www.kanal68.com/",
+      "tkgsStreamUrl": "https://waw2.artiyerelmedya.net/kanal68/bant1/playlist.m3u8",
+      "inCatalog": false,
+      "m3uCandidateCount": 12,
+      "probedCount": 2,
+      "probeStatus": "❌ çalışmıyor",
+      "action": "sizin link gerekir",
+      "searchKeys": [
+        "kanal68",
+        "trkanal68"
+      ],
+      "workingUrls": [],
+      "probeResults": [
+        {
+          "url": "https://waw2.artiyerelmedya.net/kanal68/bant1/playlist.m3u8",
+          "live": false,
+          "reason": "timeout",
+          "sourceId": "playlist-yerel-rest",
+          "title": "KANAL 68"
+        },
+        {
+          "url": "https://live.artidijitalmedya.com/artidijital_kanal68/kanal68/playlist.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404,
+          "sourceId": "onureroz-index",
+          "title": "KANAL 68"
+        }
+      ],
+      "m3uSampleUrls": [
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197200&extension=ts&play_token=4eItwPJoyj",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197200&extension=ts&play_token=4eItwPJoyj",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197200&extension=ts&play_token=4eItwPJoyj",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197200&extension=ts&play_token=4eItwPJoyj",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197200&extension=ts&play_token=4eItwPJoyj"
+      ]
+    },
+    {
+      "name": "Vizyon 58",
+      "category": "Ulusal",
+      "tkgsUrl": "https://www.vizyon58.com/",
+      "tkgsStreamUrl": "https://waw2.artiyerelmedya.net/vizyon58/bant1/playlist.m3u8",
+      "inCatalog": false,
+      "m3uCandidateCount": 0,
+      "probedCount": 0,
+      "probeStatus": "❓ M3U'da yok",
+      "action": "sizin link gerekir",
+      "searchKeys": [
+        "vizyon58"
+      ],
+      "workingUrls": [],
+      "probeResults": [],
+      "m3uSampleUrls": []
+    },
+    {
+      "name": "Ege TV",
+      "category": "Ulusal",
+      "tkgsUrl": "https://www.egetv.com.tr/",
+      "tkgsStreamUrl": "https://waw1.artiyerelmedya.net/egetv/bant1/playlist.m3u8",
+      "inCatalog": false,
+      "m3uCandidateCount": 1,
+      "probedCount": 1,
+      "probeStatus": "❌ çalışmıyor",
+      "action": "sizin link gerekir",
+      "searchKeys": [
+        "egetv"
+      ],
+      "workingUrls": [],
+      "probeResults": [
+        {
+          "url": "https://waw1.artiyerelmedya.net/egetv/bant1/playlist.m3u8",
+          "live": false,
+          "reason": "timeout",
+          "sourceId": "playlist-c10",
+          "title": "Ege TV"
+        }
+      ],
+      "m3uSampleUrls": [
+        "https://waw1.artiyerelmedya.net/egetv/bant1/playlist.m3u8"
+      ]
+    },
+    {
+      "name": "Deha TV",
+      "category": "Ulusal",
+      "tkgsUrl": "https://www.dehatv.com.tr/",
+      "tkgsStreamUrl": "http://waw1.artiyerelmedya.net:1935/dehatv/bant1/playlist.m3u8",
+      "inCatalog": false,
+      "m3uCandidateCount": 1,
+      "probedCount": 1,
+      "probeStatus": "❌ çalışmıyor",
+      "action": "sizin link gerekir",
+      "searchKeys": [
+        "dehatv"
+      ],
+      "workingUrls": [],
+      "probeResults": [
+        {
+          "url": "http://waw1.artiyerelmedya.net:1935/dehatv/bant1/playlist.m3u8",
+          "live": false,
+          "reason": "timeout",
+          "sourceId": "playlist-c09",
+          "title": "DEHA TV"
+        }
+      ],
+      "m3uSampleUrls": [
+        "http://waw1.artiyerelmedya.net:1935/dehatv/bant1/playlist.m3u8"
+      ]
+    },
+    {
+      "name": "Anadolu Dernek TV",
+      "category": "Ulusal",
+      "tkgsUrl": "https://www.anadoludernektv.com/",
+      "tkgsStreamUrl": "http://ch.canlitvlive.io/anadolu-dernek-tv/live.m3u8",
+      "inCatalog": false,
+      "m3uCandidateCount": 1,
+      "probedCount": 1,
+      "probeStatus": "❌ çalışmıyor",
+      "action": "sizin link gerekir",
+      "searchKeys": [
+        "anadoludernektv",
+        "anadoludernek"
+      ],
+      "workingUrls": [],
+      "probeResults": [
+        {
+          "url": "http://ch.canlitvlive.io/anadolu-dernek-tv/live.m3u8",
+          "live": false,
+          "reason": "timeout",
+          "sourceId": "playlist-c08",
+          "title": "Anadolu Dernek TV"
+        }
+      ],
+      "m3uSampleUrls": [
+        "http://ch.canlitvlive.io/anadolu-dernek-tv/live.m3u8"
+      ]
+    },
+    {
+      "name": "Bitlis TV",
+      "category": "Ulusal",
+      "tkgsUrl": "https://www.bitlistv.com/",
+      "tkgsStreamUrl": "https://waw1.artiyerelmedya.net/bitlistv/bant1/playlist.m3u8",
+      "inCatalog": false,
+      "m3uCandidateCount": 1,
+      "probedCount": 1,
+      "probeStatus": "❌ çalışmıyor",
+      "action": "sizin link gerekir",
+      "searchKeys": [
+        "bitlistv"
+      ],
+      "workingUrls": [],
+      "probeResults": [
+        {
+          "url": "https://waw1.artiyerelmedya.net/bitlistv/bant1/playlist.m3u8",
+          "live": false,
+          "reason": "network-error",
+          "sourceId": "playlist-c08",
+          "title": "Bitlis TV"
+        }
+      ],
+      "m3uSampleUrls": [
+        "https://waw1.artiyerelmedya.net/bitlistv/bant1/playlist.m3u8"
+      ]
+    },
+    {
+      "name": "Pamukkale TV",
+      "category": "Ulusal",
+      "tkgsUrl": "https://www.pamukkaletv.com.tr/",
+      "tkgsStreamUrl": "http://ch.canlitvlive.io/pamukkale-tv/live.m3u8",
+      "inCatalog": false,
+      "m3uCandidateCount": 2,
+      "probedCount": 2,
+      "probeStatus": "❌ çalışmıyor",
+      "action": "sizin link gerekir",
+      "searchKeys": [
+        "pamukkaletv"
+      ],
+      "workingUrls": [],
+      "probeResults": [
+        {
+          "url": "http://ch.canlitvlive.io/pamukkale-tv/live.m3u8",
+          "live": false,
+          "reason": "timeout",
+          "sourceId": "playlist-yerel-rest2",
+          "title": "PAMUKKALE TV"
+        },
+        {
+          "url": "http://stream.tvcdn.net/yerel/pamukkale-tv.m3u8",
+          "live": false,
+          "reason": "timeout",
+          "sourceId": "onureroz-karma-index",
+          "title": "PAMUKKALE TV"
+        }
+      ],
+      "m3uSampleUrls": [
+        "http://ch.canlitvlive.io/pamukkale-tv/live.m3u8",
+        "http://stream.tvcdn.net/yerel/pamukkale-tv.m3u8"
+      ]
+    },
+    {
+      "name": "Süper TV",
+      "category": "Ulusal",
+      "tkgsUrl": "https://www.supertv.com.tr/",
+      "tkgsStreamUrl": "https://vavoo.to/vavoo-iptv/play/2327216525a34fcf2f636f",
+      "inCatalog": false,
+      "m3uCandidateCount": 1,
+      "probedCount": 1,
+      "probeStatus": "❌ çalışmıyor",
+      "action": "sizin link gerekir",
+      "searchKeys": [
+        "supertv",
+        "supertvtokat"
+      ],
+      "workingUrls": [],
+      "probeResults": [
+        {
+          "url": "https://5be5d840359c6.streamlock.net/supertv/supertv/chunklist.m3u8",
+          "live": false,
+          "reason": "network-error",
+          "sourceId": "playlist-yerel-rest3",
+          "title": "Süper TV Tokat"
+        }
+      ],
+      "m3uSampleUrls": [
+        "https://5be5d840359c6.streamlock.net/supertv/supertv/chunklist.m3u8"
+      ]
+    },
+    {
+      "name": "DRT Denizli",
+      "category": "Ulusal",
+      "tkgsUrl": "https://www.drt.com.tr/",
+      "tkgsStreamUrl": "http://stream2.taksimbilisim.com:1935/drt/smil:drt.smil/iptvdelisi.m3u8",
+      "inCatalog": false,
+      "m3uCandidateCount": 3,
+      "probedCount": 3,
+      "probeStatus": "❌ çalışmıyor",
+      "action": "sizin link gerekir",
+      "searchKeys": [
+        "drtdenizli",
+        "drt"
+      ],
+      "workingUrls": [],
+      "probeResults": [
+        {
+          "url": "http://stream2.taksimbilisim.com:1935/drt/smil:drt.smil/iptvdelisi.m3u8",
+          "live": false,
+          "reason": "timeout",
+          "sourceId": "playlist-c10",
+          "title": "DRT DENIZLI"
+        },
+        {
+          "url": "https://edge1.socialsmart.tv/drttv/bant1/playlist.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404,
+          "sourceId": "onureroz-karma-index",
+          "title": "DRT DENİZLİ"
+        },
+        {
+          "url": "http://stream2.taksimbilisim.com:1935/drt/smil:drt.smil/playlist.m3u8",
+          "live": false,
+          "reason": "timeout",
+          "sourceId": "onureroz-karma-index",
+          "title": "DRT DENİZLİ"
+        }
+      ],
+      "m3uSampleUrls": [
+        "http://stream2.taksimbilisim.com:1935/drt/smil:drt.smil/iptvdelisi.m3u8",
+        "https://edge1.socialsmart.tv/drttv/bant1/playlist.m3u8",
+        "http://stream2.taksimbilisim.com:1935/drt/smil:drt.smil/playlist.m3u8"
+      ]
+    },
+    {
+      "name": "Inter AZ",
+      "category": "Ulusal",
+      "tkgsUrl": "https://interaz.tv/",
+      "tkgsStreamUrl": "http://yayin.netradyom.com:1935/live/interaz/playlist.m3u8",
+      "inCatalog": false,
+      "m3uCandidateCount": 0,
+      "probedCount": 0,
+      "probeStatus": "❓ M3U'da yok",
+      "action": "sizin link gerekir",
+      "searchKeys": [
+        "interaz"
+      ],
+      "workingUrls": [],
+      "probeResults": [],
+      "m3uSampleUrls": []
+    },
+    {
+      "name": "BRT 3",
+      "category": "Ulusal",
+      "tkgsUrl": "https://www.brtk.net/",
+      "tkgsStreamUrl": "http://wms.brtk.net:1935/live/brt2/playlist.m3u8",
+      "inCatalog": false,
+      "m3uCandidateCount": 1,
+      "probedCount": 1,
+      "probeStatus": "❌ çalışmıyor",
+      "action": "sizin link gerekir",
+      "searchKeys": [
+        "brt3"
+      ],
+      "workingUrls": [],
+      "probeResults": [
+        {
+          "url": "http://wms.brtk.net:1935/live/brt2/playlist.m3u8",
+          "live": false,
+          "reason": "timeout",
+          "sourceId": "playlist-c07",
+          "title": "BRT 3"
+        }
+      ],
+      "m3uSampleUrls": [
+        "http://wms.brtk.net:1935/live/brt2/playlist.m3u8"
+      ]
+    }
+  ],
+  "summary": {
+    "total": 25,
+    "inCatalog": 3,
+    "withM3u": 16,
+    "working": 0,
+    "byAction": {
+      "sizin link gerekir": 22,
+      "zaten eklendi": 3
+    }
+  }
+}

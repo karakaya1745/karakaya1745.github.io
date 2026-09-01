@@ -92,6 +92,15 @@ export const M3U_KEY_ALIASES = {
   sozcutv: "sozcutv",
   cnnturktr: "cnnturk",
   cnnturk: "cnnturk",
+  // TKGS eksik kanal M3U adı eşleştirmeleri (yanlış çapraz eşleşme yok)
+  grtgaziantep: "grt",
+  trkontv: "kontv",
+  trtv8int: "tv8international",
+  trkanal68: "kanal68",
+  trkanalb: "kanalb",
+  trrumelitv: "rumelitv",
+  supertvtokat: "supertv",
+  trcartoonnetwork: "cartoonnetwork",
 };
 
 export function resolveM3uKey(entry) {
