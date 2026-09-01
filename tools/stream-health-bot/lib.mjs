@@ -232,6 +232,37 @@ export function loadJson(path, fallback = null) {
   }
 }
 
+/** @param {string} localFallback repo-root-relative or absolute path */
+export function resolveLocalFallbackPath(localFallback, root) {
+  return path.isAbsolute(localFallback) ? localFallback : path.join(root, localFallback);
+}
+
+/**
+ * Fetch remote M3U text or read localFallback (local-only sources supported).
+ * @param {{ id?: string, url?: string, localFallback?: string }} src
+ * @param {string} root repo root for relative localFallback paths
+ * @param {(msg: string) => void} [logFn]
+ */
+export async function loadM3uSourceText(src, root, logFn = () => {}) {
+  const readLocal = () => {
+    if (!src.localFallback) return null;
+    const localPath = resolveLocalFallbackPath(src.localFallback, root);
+    if (!fs.existsSync(localPath)) return null;
+    logFn(`  yerel: ${src.localFallback}`);
+    return fs.readFileSync(localPath, "utf8");
+  };
+
+  if (!src.url) return readLocal();
+
+  try {
+    return await fetchText(src.url);
+  } catch (e) {
+    const text = readLocal();
+    if (text) return text;
+    throw e;
+  }
+}
+
 export function toUrlArray(value) {
   if (Array.isArray(value)) return value.map((u) => String(u).trim()).filter(Boolean);
   if (typeof value === "string" && value.trim()) return [value.trim()];

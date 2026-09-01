@@ -8,6 +8,11 @@
       "priority": 1
     },
     {
+      "id": "iptv-org-io-tr",
+      "url": "https://iptv-org.github.io/iptv/countries/tr.m3u",
+      "priority": 1
+    },
+    {
       "id": "zek-gist",
       "url": "https://gist.githubusercontent.com/zek/209bcd5888473014d4cc5d82390e7d56/raw",
       "priority": 2
@@ -15,6 +20,16 @@
     {
       "id": "legal-iptv-tr",
       "url": "https://streams.uzunmuhalefet.com/lists/tr.m3u",
+      "priority": 2
+    },
+    {
+      "id": "tivizon-smartwebos",
+      "url": "https://raw.githubusercontent.com/smartwebos/TV/refs/heads/main/Tivizon.m3u",
+      "priority": 2
+    },
+    {
+      "id": "onureroz-all",
+      "url": "https://onureroz.com/indirmeler/turk/all.m3u",
       "priority": 2
     },
     {
@@ -29,9 +44,74 @@
       "filterTurkey": true
     },
     {
+      "id": "onureroz-index",
+      "url": "https://onureroz.com/indirmeler/turk/index.m3u",
+      "priority": 3
+    },
+    {
+      "id": "onureroz-karma-index",
+      "url": "https://onureroz.com/indirmeler/turk/karma-index.m3u",
+      "priority": 3
+    },
+    {
       "id": "ukusgul-gist",
       "url": "https://gist.githubusercontent.com/ukusgul-a11y/56ce0695a07e1c4ddf1ff60427f97658/raw",
       "priority": 4
+    },
+    {
+      "id": "bytefix-repairs-tr",
+      "url": "https://gist.githubusercontent.com/ByteFixRepairs/194e9e3a08075befa1703f02d4af82ad/raw/ByteFixRepairsTurkIPTV.m3u",
+      "priority": 4
+    },
+    {
+      "id": "local-270506",
+      "localFallback": "tools/stream-health-bot/local-sources/tr-tv1-270506.m3u",
+      "priority": 2
+    },
+    {
+      "id": "local-270507",
+      "localFallback": "tools/stream-health-bot/local-sources/tr-tv1-270507.m3u",
+      "priority": 2
+    },
+    {
+      "id": "local-270508",
+      "localFallback": "tools/stream-health-bot/local-sources/tr-tv1-270508.m3u",
+      "priority": 2
+    },
+    {
+      "id": "local-270509",
+      "localFallback": "tools/stream-health-bot/local-sources/tr-tv1-270509.m3u",
+      "priority": 2
+    },
+    {
+      "id": "local-270510",
+      "localFallback": "tools/stream-health-bot/local-sources/tr-tv1-270510.m3u",
+      "priority": 2
+    },
+    {
+      "id": "local-270511",
+      "localFallback": "tools/stream-health-bot/local-sources/tr-tv1-270511.m3u",
+      "priority": 2
+    },
+    {
+      "id": "local-270512",
+      "localFallback": "tools/stream-health-bot/local-sources/tr-tv1-270512.m3u",
+      "priority": 2
+    },
+    {
+      "id": "local-270513",
+      "localFallback": "tools/stream-health-bot/local-sources/tr-tv1-270513.m3u",
+      "priority": 2
+    },
+    {
+      "id": "local-270514",
+      "localFallback": "tools/stream-health-bot/local-sources/tr-tv1-270514.m3u",
+      "priority": 2
+    },
+    {
+      "id": "local-270515",
+      "localFallback": "tools/stream-health-bot/local-sources/tr-tv1-270515.m3u",
+      "priority": 2
     }
   ]
 }

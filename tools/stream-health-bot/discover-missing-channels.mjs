@@ -26,6 +26,7 @@ import {
   backupFiles,
   checkUrlLive,
   fetchText,
+  loadM3uSourceText,
   isRiskyStreamUrl,
   isTrustedCdnUrl,
   isTurkeyM3uEntry,
@@ -133,18 +134,9 @@ async function loadM3uSources() {
     let text = null;
     try {
       log(`M3U: ${src.id}`);
-      text = await fetchText(src.url);
+      text = await loadM3uSourceText(src, ROOT, log);
     } catch (e) {
-      if (src.localFallback) {
-        const localPath = path.isAbsolute(src.localFallback)
-          ? src.localFallback
-          : path.join(ROOT, src.localFallback);
-        if (fs.existsSync(localPath)) {
-          log(`  yerel yedek: ${src.localFallback}`);
-          text = fs.readFileSync(localPath, "utf8");
-        }
-      }
-      if (!text) log(`  UYARI ${src.id}: ${e.message}`);
+      log(`  UYARI ${src.id}: ${e.message}`);
     }
     if (!text) continue;
     let entries = parseM3U(text);
