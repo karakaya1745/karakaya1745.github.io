@@ -7,7 +7,7 @@
  *  - Mevcut kanalları silmez / üzerine yazmaz (append-only)
  *  - Yeni kanal: katı HLS probe geçmeden eklenmez
  *  - Mevcut kanal: yeni URL probe geçmeden eklenmez
- *  - mac=/play_token= URL'leri atlanır
+ *  - Panel IPTV URL'leri (live.php/mac=/play_token=) risky tier'da eklenir
  *  - Yazmadan önce yedek
  *
  * Usage:
@@ -79,8 +79,6 @@ function stamp() {
 function isUnencryptedM3uUrl(url) {
   if (shouldSkipM3uUrl(url)) return false;
   const u = url.toLowerCase();
-  if (u.includes("play_token")) return false;
-  if (u.includes("mac=")) return false;
   if (u.includes("drm") || u.includes("widevine") || u.includes("encrypted")) return false;
   if (u.includes("username=") || u.includes("password=")) return false;
   return true;
@@ -459,8 +457,7 @@ async function main() {
     if (!candidates.length) continue;
 
     const candidateUrls = candidates.map((c) => c.url);
-    const safeUrls = candidateUrls.filter((u) => !isRiskyStreamUrl(u));
-    const toTry = safeUrls.length ? safeUrls : candidateUrls;
+    const toTry = candidateUrls;
 
     const { live, results } = await probeUrls(toTry, Math.min(MAX_PROBE_ENRICH, slots));
     if (!live.length) continue;

@@ -1,5 +1,5 @@
 {
-  "_revision": 140,
+  "_revision": 141,
   "360tv": [
     "https://turkmedya-live.ercdn.net/tv360/tv360_1080p.m3u8",
     "https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8",
@@ -4847,5 +4847,9 @@
   ],
   "kocaelitv": [
     "https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8"
+  ],
+  "spacetoon": [
+    "https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8",
+    "https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8"
   ]
 }

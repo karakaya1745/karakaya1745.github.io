@@ -68,10 +68,9 @@ const BROADCASTER_NAME_PATTERNS =
   /\b(trt|atv|show|star|kanal\s*d|now|fox|haberturk|ntv|tv8|beyaz|demir|360|tele1|sozcu|benguturk|halk|tbmm|flash|tv100|a2|teve2|belediye|istanbul|ankara|izmir|antalya|bursa|konya|samsun|gaziantep|kocaeli|eskisehir|eskişehir|ordu|tokat|artvin|ege|kapadokya|grt|kontv|agro|tek\s*rumeli|yerel|ulusal|spor)\b/i;
 
 const EXCLUDE_TITLE_PATTERNS =
-  /\b(xxx|adult|porn|casino|bet|canl[iı]\s*bahis|rulet|poker|\+18|18\+)\b|live\.php\?mac=|\(romania\)|\(azerbaijan\)|\(az\)|\(de\)|\(uk\)|\(us\)|\(fr\)|\(it\)|\(es\)|\(ru\)|\(ar\)/i;
+  /\b(xxx|adult|porn|casino|bet|canl[iı]\s*bahis|rulet|poker|\+18|18\+)\b|\(romania\)|\(azerbaijan\)|\(az\)|\(de\)|\(uk\)|\(us\)|\(fr\)|\(it\)|\(es\)|\(ru\)|\(ar\)/i;
 
-const EXCLUDE_URL_PATTERNS =
-  /live\.php\?mac=|play_token|\/live\/[^/]+\/[^/]+\/[^/?#]+\.(ts|m3u8?)/i;
+const EXCLUDE_URL_PATTERNS = /\/live\/[^/]+\/[^/]+\/[^/?#]+\.(ts|m3u8?)/i;
 
 const PAID_NAME_PATTERNS = [/bein/i, /ssport/i, /tivibu/i, /dsmart/i];
 
@@ -109,10 +108,7 @@ function isLegalM3uUrl(url) {
   if (shouldSkipM3uUrl(url)) return false;
   const u = url.toLowerCase();
   if (EXCLUDE_URL_PATTERNS.test(u)) return false;
-  if (u.includes("play_token")) return false;
-  if (u.includes("mac=")) return false;
   if (u.includes("username=") || u.includes("password=")) return false;
-  if (isRiskyStreamUrl(url)) return false;
   return true;
 }
 
@@ -359,13 +355,18 @@ async function main() {
       continue;
     }
 
-    const safeLive = liveUrls.filter((u) => !isRiskyStreamUrl(u) && isLegalM3uUrl(u));
-    const officialLive = safeLive.filter(isOfficialCdnUrl);
-    const chosen = uniqueUrls([...officialLive, ...safeLive]).slice(0, MAX_URLS_PER_NEW_CHANNEL);
+    const legalLive = liveUrls.filter(isLegalM3uUrl);
+    const officialLive = legalLive.filter(isOfficialCdnUrl);
+    const safeLive = legalLive.filter((u) => !isRiskyStreamUrl(u));
+    const riskyLive = legalLive.filter(isRiskyStreamUrl);
+    const chosen = uniqueUrls([...officialLive, ...safeLive, ...riskyLive]).slice(
+      0,
+      MAX_URLS_PER_NEW_CHANNEL,
+    );
 
     if (!chosen.length) {
-      report.riskySkipped.push({ name: cand.name, key: cand.key, reason: "probe-live-but-risky" });
-      log(`RISKY SKIP ${cand.name}`);
+      report.riskySkipped.push({ name: cand.name, key: cand.key, reason: "probe-live-but-not-legal" });
+      log(`SKIP ${cand.name} (probe gecti ama legal degil)`);
       continue;
     }
 

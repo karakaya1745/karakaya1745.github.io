@@ -60,8 +60,6 @@ function log(...a) {
 function isUnencryptedM3uUrl(url) {
   if (shouldSkipM3uUrl(url)) return false;
   const u = url.toLowerCase();
-  if (u.includes("play_token")) return false;
-  if (u.includes("mac=")) return false;
   if (u.includes("drm") || u.includes("widevine") || u.includes("encrypted")) return false;
   if (u.includes("username=") || u.includes("password=")) return false;
   return true;

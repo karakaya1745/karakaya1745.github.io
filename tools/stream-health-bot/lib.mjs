@@ -160,10 +160,45 @@ export function isTurkeyM3uEntry(entry) {
   return false;
 }
 
+/** MAG/Stalker panel live.php URLs (mac + play_token + stream=) */
+export function isPanelIptvUrl(url) {
+  const u = url.trim().toLowerCase();
+  if (u.includes("live.php") && u.includes("stream=")) return true;
+  if (u.includes("mac=") && u.includes("play_token=") && u.includes("stream=")) return true;
+  if (
+    u.includes("extension=ts") &&
+    u.includes("stream=") &&
+    (u.includes("live.php") || u.includes("/play/"))
+  ) {
+    return true;
+  }
+  return false;
+}
+
+export function isPanelIptvHost(url) {
+  try {
+    const host = new URL(url).hostname.toLowerCase();
+    return (
+      host.includes("tivi-one") ||
+      host.includes("tivi-one-iptv") ||
+      host.startsWith("mag.") ||
+      host.startsWith("line.") ||
+      host.includes("iptv") ||
+      host.includes("mdmfista") ||
+      host.includes("moja-teve") ||
+      host.includes("teve")
+    );
+  } catch {
+    return false;
+  }
+}
+
 export function isPlayableUrl(url) {
   const u = url.trim().toLowerCase();
   if (!/^https?:\/\//i.test(u)) return false;
   if (u.includes("youtube.com") || u.includes("youtu.be/")) return false;
+  if (isPanelIptvUrl(url)) return true;
+  if (isPanelIptvHost(url) && /stream=|extension=ts|live\.php/.test(u)) return true;
   return (
     u.includes(".m3u8") ||
     u.includes(".m3u") ||
@@ -247,6 +282,10 @@ export function isValidHlsManifestSample(sample, contentType = "") {
  */
 export async function probeChannelPlayback(url, timeoutMs = PROBE_TIMEOUT_MS) {
   if (!isPlayableUrl(url)) return { live: false, reason: "not-playable" };
+  const uLower = url.toLowerCase();
+  const isPanelTs =
+    isPanelIptvUrl(url) &&
+    (uLower.includes("extension=ts") || uLower.includes("stream="));
   const ac = new AbortController();
   const tm = setTimeout(() => ac.abort(), timeoutMs);
   try {
@@ -268,13 +307,24 @@ export async function probeChannelPlayback(url, timeoutMs = PROBE_TIMEOUT_MS) {
     if (
       ct.includes("mp2t") ||
       ct.includes("mpegts") ||
-      url.toLowerCase().includes(".ts") ||
+      uLower.includes(".ts") ||
+      uLower.includes("extension=ts") ||
       isValidTsSample(sample)
     ) {
-      return { live: true, reason: "mpeg-ts", status: r.status };
+      return {
+        live: true,
+        reason: isPanelTs ? "panel-mpeg-ts" : "mpeg-ts",
+        status: r.status,
+      };
     }
-    if (ct.includes("mp4") || url.toLowerCase().includes(".mp4") || isValidMp4Sample(sample)) {
+    if (ct.includes("mp4") || uLower.includes(".mp4") || isValidMp4Sample(sample)) {
       return { live: true, reason: "mp4", status: r.status };
+    }
+    if (
+      isPanelTs &&
+      (ct.includes("video/") || ct.includes("octet-stream") || ct.includes("application/octet"))
+    ) {
+      return { live: true, reason: "panel-video-ct", status: r.status };
     }
     return { live: false, reason: "not-stream", status: r.status };
   } catch (e) {
@@ -396,6 +446,7 @@ export function isRiskyStreamUrl(url) {
     u.includes("biz-az.workers.dev") ||
     u.includes("tiviplayer.com") ||
     u.includes("iptvspor") ||
+    isPanelIptvUrl(url) ||
     /:\d+\/play\/[a-z0-9]+/i.test(url)
   );
 }
@@ -405,6 +456,7 @@ export function sortUrlsByQuality(urls) {
 }
 
 export function detectUrlAuth(url) {
+  if (isPanelIptvUrl(url)) return [];
   const reasons = [];
   try {
     const parsed = new URL(url);
@@ -422,8 +474,12 @@ export function detectUrlAuth(url) {
   return reasons;
 }
 
+const SKIP_M3U_URL_PATTERNS =
+  /\b(xxx|adult|porn|casino|bet|canl[iı]\s*bahis|rulet|poker|\+18|18\+)\b/i;
+
 export function shouldSkipM3uUrl(url) {
   if (!isPlayableUrl(url)) return true;
+  if (SKIP_M3U_URL_PATTERNS.test(url)) return true;
   if (detectUrlAuth(url).length) return true;
   return false;
 }
