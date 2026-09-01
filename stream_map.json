@@ -4949,5 +4949,8 @@
   "kanalb": [
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197198&extension=ts&play_token=6NxyOt8ARr"
   ],
-  "_revision": 143
+  "ikratv": [
+    "https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8"
+  ],
+  "_revision": 144
 }

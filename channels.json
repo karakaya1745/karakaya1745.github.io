@@ -861,7 +861,7 @@
     "name": "Kent Turk",
     "url": "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8",
     "category": "Ulusal",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/3962582829ee477739be5f"
+    "streamUrl": "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8"
   },
   {
     "name": "Mavi Karadeniz",
@@ -6800,5 +6800,11 @@
     "url": "https://www.kanalb.com.tr/",
     "category": "Ulusal",
     "streamUrl": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197198&extension=ts&play_token=6NxyOt8ARr"
+  },
+  {
+    "name": "Ikra TV",
+    "url": "https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8",
+    "category": "Dini",
+    "streamUrl": "https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8"
   }
 ]
