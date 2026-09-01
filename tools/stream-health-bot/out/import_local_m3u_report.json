@@ -1,0 +1,331 @@
+{
+  "generatedAt": "2026-09-01T11:57:10.010Z",
+  "dryRun": false,
+  "m3uSourceCount": 26,
+  "newChannels": [],
+  "enrichedChannels": [
+    {
+      "key": "kanal23",
+      "added": 1,
+      "urls": [
+        "https://cdn13-kanal23.yayin.com.tr/kanal23/ngrp:kanal23/playlist.m3u8"
+      ],
+      "total": 6,
+      "probeResults": [
+        {
+          "url": "https://cdn13-kanal23.yayin.com.tr/kanal23/ngrp:kanal23/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    }
+  ],
+  "skippedProbeFailed": [
+    {
+      "name": "KANAL ORDU",
+      "key": "kanalordu",
+      "reason": "probe-failed",
+      "probed": 1,
+      "probeResults": [
+        {
+          "url": "https://5be5d840359c6.streamlock.net/kanalordutv/kanalordutv/chunklist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "name": "MSBC Kanal 2000",
+      "key": "msbckanal2000",
+      "reason": "probe-failed",
+      "probed": 1,
+      "probeResults": [
+        {
+          "url": "https://59cba4d34b678.streamlock.net/canlitv/kanal-2000/chunklist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "name": "Kanal T",
+      "key": "kanalt",
+      "reason": "probe-failed",
+      "probed": 1,
+      "probeResults": [
+        {
+          "url": "http://kuzeykibris.tv/m3u8/tv_kanalt.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404
+        }
+      ]
+    },
+    {
+      "name": "Belediye TV",
+      "key": "belediyetv",
+      "reason": "probe-failed",
+      "probed": 1,
+      "probeResults": [
+        {
+          "url": "https://5be5d840359c6.streamlock.net/belediyelertv/belediyelertv/chunklist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "name": "Belediye Gündem TV",
+      "key": "belediyegundemtv",
+      "reason": "probe-failed",
+      "probed": 1,
+      "probeResults": [
+        {
+          "url": "http://46.20.13.51:1935/makinetv/_definst_/makinetv/chunklist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "name": "Gaziantep Olay TV",
+      "key": "gaziantepolaytv",
+      "reason": "probe-failed",
+      "probed": 1,
+      "probeResults": [
+        {
+          "url": "http://waw1.artiyerelmedya.net:1935/olaytv/bant1/chunklist.m3u8",
+          "live": false,
+          "reason": "timeout"
+        }
+      ]
+    },
+    {
+      "name": "GRT Gaziantep",
+      "key": "grtgaziantep",
+      "reason": "probe-failed",
+      "probed": 1,
+      "probeResults": [
+        {
+          "url": "http://yerelmedya.tv:1935/grt/_definst_/bant1/chunklist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "name": "Istanbul TV",
+      "key": "istanbultv",
+      "reason": "probe-failed",
+      "probed": 1,
+      "probeResults": [
+        {
+          "url": "http://streaming.netdirekt.com.tr/35757/msyapi/chunks.m3u8",
+          "live": false,
+          "reason": "timeout"
+        }
+      ]
+    },
+    {
+      "name": "KANAL 38",
+      "key": "kanal38",
+      "reason": "probe-failed",
+      "probed": 1,
+      "probeResults": [
+        {
+          "url": "https://59cba4d34b678.streamlock.net/live/kanal38/chunklist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "name": "KANAL 56",
+      "key": "kanal56",
+      "reason": "probe-failed",
+      "probed": 1,
+      "probeResults": [
+        {
+          "url": "https://cdn-kanal56tv.yayin.com.tr/Kanal56TV/Kanal56TV/playlist.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404
+        }
+      ]
+    },
+    {
+      "name": "Kanal 57 Tokat",
+      "key": "kanal57tokat",
+      "reason": "probe-failed",
+      "probed": 1,
+      "probeResults": [
+        {
+          "url": "https://59cba4d34b678.streamlock.net/canlitv/kanal57/playlist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "name": "Kanal 60 TV",
+      "key": "kanal60tv",
+      "reason": "probe-failed",
+      "probed": 1,
+      "probeResults": [
+        {
+          "url": "https://59cba4d34b678.streamlock.net/canlitv/kanal60/chunklist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "name": "KANAL 68",
+      "key": "kanal68",
+      "reason": "probe-failed",
+      "probed": 1,
+      "probeResults": [
+        {
+          "url": "https://waw2.artiyerelmedya.net/kanal68/bant1/playlist.m3u8",
+          "live": false,
+          "reason": "timeout"
+        }
+      ]
+    },
+    {
+      "name": "KANAL 101",
+      "key": "kanal101",
+      "reason": "probe-failed",
+      "probed": 1,
+      "probeResults": [
+        {
+          "url": "http://s01.vpis.io/kanal101/kanal101.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "name": "KANAL A ALANYA",
+      "key": "kanalaalanya",
+      "reason": "probe-failed",
+      "probed": 1,
+      "probeResults": [
+        {
+          "url": "http://stream2.taksimbilisim.com:1935/kanala/bant1/playlist.m3u8",
+          "live": false,
+          "reason": "timeout"
+        }
+      ]
+    },
+    {
+      "name": "Kanal Artvin",
+      "key": "kanalartvin",
+      "reason": "probe-failed",
+      "probed": 1,
+      "probeResults": [
+        {
+          "url": "https://5be5d840359c6.streamlock.net/kanalartvin/kanalartvin/chunklist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "name": "KANAL B",
+      "key": "kanalb",
+      "reason": "probe-failed",
+      "probed": 1,
+      "probeResults": [
+        {
+          "url": "http://212.174.58.161/hls-live/livepkgr/_definst_/liveevent/kanalb.m3u8",
+          "live": false,
+          "reason": "timeout"
+        }
+      ]
+    },
+    {
+      "name": "Kanal Ege",
+      "key": "kanalege",
+      "reason": "probe-failed",
+      "probed": 1,
+      "probeResults": [
+        {
+          "url": "https://59cba4d34b678.streamlock.net/canlitv/kanalege/chunklist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "name": "Kanal Ordu TV",
+      "key": "kanalordutv",
+      "reason": "probe-failed",
+      "probed": 1,
+      "probeResults": [
+        {
+          "url": "http://live.arkumedia.com:1935/kanalordutv/kanalordutv/chunklist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "name": "KANAL V VIP Antalya",
+      "key": "kanalvvipantalya",
+      "reason": "probe-failed",
+      "probed": 1,
+      "probeResults": [
+        {
+          "url": "http://yerelmedya.tv:1935/kanalv/bant1/chunklist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "name": "SUN TV Konya",
+      "key": "suntvkonya",
+      "reason": "probe-failed",
+      "probed": 1,
+      "probeResults": [
+        {
+          "url": "http://148.251.42.124:8081/live/suntv/chunks.m3u8",
+          "live": false,
+          "reason": "timeout"
+        }
+      ]
+    },
+    {
+      "name": "Süper Kanal Bursa",
+      "key": "superkanalbursa",
+      "reason": "probe-failed",
+      "probed": 1,
+      "probeResults": [
+        {
+          "url": "http://yayin3.canlitv.com:1935/canlitv/superkanal/iptvdelisi.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "name": "TV 9 Izmir",
+      "key": "tv9izmir",
+      "reason": "probe-failed",
+      "probed": 1,
+      "probeResults": [
+        {
+          "url": "https://59cba4d34b678.streamlock.net/canlitv/tv9izmir/chunklist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    }
+  ],
+  "totalNewUrls": 1,
+  "streamMapRevision": 140,
+  "newChannelCount": 0,
+  "enrichedChannelCount": 1
+}

@@ -1,5 +1,5 @@
 {
-  "_revision": 139,
+  "_revision": 140,
   "360tv": [
     "https://turkmedya-live.ercdn.net/tv360/tv360_1080p.m3u8",
     "https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8",
@@ -908,11 +908,12 @@
     "https://live.euromediacenter.com/kanal19/index.m3u8"
   ],
   "kanal23": [
-    "https://vavoo.biz-az.workers.dev/play/3706606233e15ade88c7a",
-    "https://vavoo.biz-az.workers.dev/play/370660623891aee5d7986",
     "https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8",
     "https://streams.uzunmuhalefet.com/stream/b50048d9-60a1-4bdf-8083-7fd3a467f9fd.m3u8",
-    "https://metvvavmetv.64fetih.workers.dev/?ID=3706606233e15ade88c7a"
+    "https://metvvavmetv.64fetih.workers.dev/?ID=3706606233e15ade88c7a",
+    "https://cdn13-kanal23.yayin.com.tr/kanal23/ngrp:kanal23/playlist.m3u8",
+    "https://vavoo.biz-az.workers.dev/play/3706606233e15ade88c7a",
+    "https://vavoo.biz-az.workers.dev/play/370660623891aee5d7986"
   ],
   "kanal24": [
     "https://vavoo.biz-az.workers.dev/play/4179564147cef11bb1db33",

@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-01T11:45:45.324Z",
+  "generatedAt": "2026-09-01T11:53:51.473Z",
   "dryRun": false,
   "sourceCount": 26,
   "catalogChannelCount": 1014,
-  "streamMapRevisionBefore": 137,
+  "streamMapRevisionBefore": 139,
   "candidatesTotal": 62,
   "added": [],
   "alreadyInCatalog": 4747,
@@ -17,7 +17,8 @@
         {
           "url": "https://cdn.yayin.com.tr/aktiftv/aktiftv/playlist.m3u8",
           "live": false,
-          "reason": "network-error"
+          "reason": "http-404",
+          "status": 404
         }
       ]
     },
@@ -91,7 +92,7 @@
         {
           "url": "https://waw1.artiyerelmedya.net/bitlistv/bant1/playlist.m3u8",
           "live": false,
-          "reason": "network-error"
+          "reason": "timeout"
         }
       ]
     },
@@ -151,7 +152,7 @@
         {
           "url": "http://waw1.artiyerelmedya.net:1935/dehatv/bant1/playlist.m3u8",
           "live": false,
-          "reason": "network-error"
+          "reason": "timeout"
         }
       ]
     },
@@ -199,7 +200,7 @@
         {
           "url": "https://waw1.artiyerelmedya.net/egetv/bant1/playlist.m3u8",
           "live": false,
-          "reason": "network-error"
+          "reason": "timeout"
         }
       ]
     },
@@ -235,7 +236,7 @@
         {
           "url": "http://waw1.artiyerelmedya.net:1935/olaytv/bant1/chunklist.m3u8",
           "live": false,
-          "reason": "network-error"
+          "reason": "timeout"
         }
       ]
     },
@@ -295,7 +296,8 @@
         {
           "url": "https://cdn-kanal56tv.yayin.com.tr/Kanal56TV/Kanal56TV/playlist.m3u8",
           "live": false,
-          "reason": "network-error"
+          "reason": "http-404",
+          "status": 404
         }
       ]
     },
@@ -331,7 +333,7 @@
         {
           "url": "https://waw2.artiyerelmedya.net/kanal68/bant1/playlist.m3u8",
           "live": false,
-          "reason": "network-error"
+          "reason": "timeout"
         }
       ]
     },
@@ -548,7 +550,7 @@
         {
           "url": "https://waw2.artiyerelmedya.net/tatlisestv/bant1/chunks.m3u8",
           "live": false,
-          "reason": "network-error"
+          "reason": "timeout"
         }
       ]
     },
@@ -680,7 +682,7 @@
         {
           "url": "https://waw1.artiyerelmedya.net/yesilyurttv/bant1/playlist.m3u8",
           "live": false,
-          "reason": "network-error"
+          "reason": "timeout"
         }
       ]
     },
@@ -752,13 +754,13 @@
         {
           "url": "http://yayin3.canlitv.com:1935/canlitv/superkanal/iptvdelisi.m3u8",
           "live": false,
-          "reason": "timeout"
+          "reason": "network-error"
         }
       ]
     }
   ],
   "riskySkipped": [],
   "warnings": [],
-  "streamMapRevisionAfter": 137,
+  "streamMapRevisionAfter": 139,
   "addedCount": 0
 }
