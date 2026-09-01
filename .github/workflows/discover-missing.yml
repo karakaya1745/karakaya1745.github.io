@@ -2,8 +2,8 @@ name: Discover Missing Channels
 
 on:
   schedule:
-    # Her Pazartesi 03:00 UTC
-    - cron: "0 3 * * 1"
+    # Her gun 03:00 UTC
+    - cron: "0 3 * * *"
   workflow_dispatch:
 
 permissions:

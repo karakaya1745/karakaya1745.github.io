@@ -1,5 +1,6 @@
 {
   "_comment": "Bot bu URL'leri periyodik indirir. channels.json / stream_map.json'a YAZMAZ.",
+  "_howToAddSources": "Yeni M3U kaynagi eklemek icin 'sources' dizisine asagidaki formatta bir obje ekleyin. id: benzersiz kisa ad (or. my-playlist). url: ham M3U veya M3U8 playlist adresi. priority: oncelik (1 = en yuksek; dusuk sayi once kullanilir). Opsiyonel alanlar: filterTurkey (true ise sadece Turkiye kanallari alinir), localFallback (ag erisimi yoksa kullanilacak yerel dosya yolu). Ornek: {\"id\": \"my-playlist\", \"url\": \"https://example.com/tr.m3u\", \"priority\": 2}",
   "sources": [
     {
       "id": "iptv-org-tr",
