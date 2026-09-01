@@ -1,0 +1,578 @@
+{
+  "generatedAt": "2026-09-01T11:33:53.417Z",
+  "m3uSourceCount": 38,
+  "catalogChannelCount": 1014,
+  "streamMapKeyCount": 1028,
+  "totalCount": 23,
+  "skipped": {
+    "encryptedOrAuth": 11324,
+    "inCatalog": 60,
+    "notTurkeyRelevant": 250,
+    "falsePositiveTitle": 0
+  },
+  "probeSummary": {
+    "probed": 23,
+    "live": 0,
+    "dead": 23
+  },
+  "channels": [
+    {
+      "key": "belediyegundemtv",
+      "name": "Belediye Gündem TV",
+      "group": "Diğer",
+      "sampleUrl": "http://46.20.13.51:1935/makinetv/_definst_/makinetv/chunklist.m3u8",
+      "sourceId": "playlist-c08",
+      "sourceIds": [
+        "playlist-c08"
+      ],
+      "urlCount": 1,
+      "probeStatus": "olumsuz (network-error)"
+    },
+    {
+      "key": "belediyetv",
+      "name": "Belediye TV",
+      "group": "Diğer",
+      "sampleUrl": "https://5be5d840359c6.streamlock.net/belediyelertv/belediyelertv/chunklist.m3u8",
+      "sourceId": "playlist-c08",
+      "sourceIds": [
+        "playlist-c08"
+      ],
+      "urlCount": 1,
+      "probeStatus": "olumsuz (network-error)"
+    },
+    {
+      "key": "gaziantepolaytv",
+      "name": "Gaziantep Olay TV",
+      "group": "Diğer",
+      "sampleUrl": "http://waw1.artiyerelmedya.net:1935/olaytv/bant1/chunklist.m3u8",
+      "sourceId": "playlist-c11",
+      "sourceIds": [
+        "playlist-c11"
+      ],
+      "urlCount": 1,
+      "probeStatus": "olumsuz (network-error)"
+    },
+    {
+      "key": "grtgaziantep",
+      "name": "GRT Gaziantep",
+      "group": "Diğer",
+      "sampleUrl": "http://yerelmedya.tv:1935/grt/_definst_/bant1/chunklist.m3u8",
+      "sourceId": "playlist-c11",
+      "sourceIds": [
+        "playlist-c11"
+      ],
+      "urlCount": 1,
+      "probeStatus": "olumsuz (timeout)"
+    },
+    {
+      "key": "istanbultv",
+      "name": "Istanbul TV",
+      "group": "Diğer",
+      "sampleUrl": "http://streaming.netdirekt.com.tr/35757/msyapi/chunks.m3u8",
+      "sourceId": "playlist-c11",
+      "sourceIds": [
+        "playlist-c11"
+      ],
+      "urlCount": 1,
+      "probeStatus": "olumsuz (timeout)"
+    },
+    {
+      "key": "kanal101",
+      "name": "KANAL 101",
+      "group": "Diğer",
+      "sampleUrl": "http://s01.vpis.io/kanal101/kanal101.m3u8",
+      "sourceId": "playlist-yerel-rest",
+      "sourceIds": [
+        "playlist-yerel-rest"
+      ],
+      "urlCount": 1,
+      "probeStatus": "olumsuz (timeout)"
+    },
+    {
+      "key": "kanal38",
+      "name": "KANAL 38",
+      "group": "Diğer",
+      "sampleUrl": "https://59cba4d34b678.streamlock.net/live/kanal38/chunklist.m3u8",
+      "sourceId": "playlist-yerel-rest",
+      "sourceIds": [
+        "playlist-yerel-rest"
+      ],
+      "urlCount": 1,
+      "probeStatus": "olumsuz (timeout)"
+    },
+    {
+      "key": "kanal56",
+      "name": "KANAL 56",
+      "group": "Diğer",
+      "sampleUrl": "https://cdn-kanal56tv.yayin.com.tr/Kanal56TV/Kanal56TV/playlist.m3u8",
+      "sourceId": "playlist-yerel-rest",
+      "sourceIds": [
+        "playlist-yerel-rest"
+      ],
+      "urlCount": 1,
+      "probeStatus": "olumsuz (timeout)"
+    },
+    {
+      "key": "kanal57tokat",
+      "name": "Kanal 57 Tokat",
+      "group": "Diğer",
+      "sampleUrl": "https://59cba4d34b678.streamlock.net/canlitv/kanal57/playlist.m3u8",
+      "sourceId": "playlist-yerel-rest",
+      "sourceIds": [
+        "playlist-yerel-rest"
+      ],
+      "urlCount": 1,
+      "probeStatus": "olumsuz (timeout)"
+    },
+    {
+      "key": "kanal60tv",
+      "name": "Kanal 60 TV",
+      "group": "Diğer",
+      "sampleUrl": "https://59cba4d34b678.streamlock.net/canlitv/kanal60/chunklist.m3u8",
+      "sourceId": "playlist-yerel-rest",
+      "sourceIds": [
+        "playlist-yerel-rest"
+      ],
+      "urlCount": 1,
+      "probeStatus": "olumsuz (timeout)"
+    },
+    {
+      "key": "kanal68",
+      "name": "KANAL 68",
+      "group": "Diğer",
+      "sampleUrl": "https://waw2.artiyerelmedya.net/kanal68/bant1/playlist.m3u8",
+      "sourceId": "playlist-yerel-rest",
+      "sourceIds": [
+        "playlist-yerel-rest"
+      ],
+      "urlCount": 1,
+      "probeStatus": "olumsuz (timeout)"
+    },
+    {
+      "key": "kanalaalanya",
+      "name": "KANAL A ALANYA",
+      "group": "Diğer",
+      "sampleUrl": "http://stream2.taksimbilisim.com:1935/kanala/bant1/playlist.m3u8",
+      "sourceId": "playlist-yerel-rest",
+      "sourceIds": [
+        "playlist-yerel-rest"
+      ],
+      "urlCount": 1,
+      "probeStatus": "olumsuz (timeout)"
+    },
+    {
+      "key": "kanalartvin",
+      "name": "Kanal Artvin",
+      "group": "Diğer",
+      "sampleUrl": "https://5be5d840359c6.streamlock.net/kanalartvin/kanalartvin/chunklist.m3u8",
+      "sourceId": "playlist-yerel-rest",
+      "sourceIds": [
+        "playlist-yerel-rest"
+      ],
+      "urlCount": 1,
+      "probeStatus": "olumsuz (timeout)"
+    },
+    {
+      "key": "kanalb",
+      "name": "KANAL B",
+      "group": "Diğer",
+      "sampleUrl": "http://212.174.58.161/hls-live/livepkgr/_definst_/liveevent/kanalb.m3u8",
+      "sourceId": "playlist-yerel-rest",
+      "sourceIds": [
+        "playlist-yerel-rest"
+      ],
+      "urlCount": 1,
+      "probeStatus": "olumsuz (timeout)"
+    },
+    {
+      "key": "kanalege",
+      "name": "Kanal Ege",
+      "group": "Diğer",
+      "sampleUrl": "https://59cba4d34b678.streamlock.net/canlitv/kanalege/chunklist.m3u8",
+      "sourceId": "playlist-yerel-rest",
+      "sourceIds": [
+        "playlist-yerel-rest"
+      ],
+      "urlCount": 1,
+      "probeStatus": "olumsuz (timeout)"
+    },
+    {
+      "key": "kanalordu",
+      "name": "KANAL ORDU",
+      "group": "Diğer",
+      "sampleUrl": "https://5be5d840359c6.streamlock.net/kanalordutv/kanalordutv/chunklist.m3u8",
+      "sourceId": "playlist-c05",
+      "sourceIds": [
+        "playlist-c05"
+      ],
+      "urlCount": 1,
+      "probeStatus": "olumsuz (timeout)"
+    },
+    {
+      "key": "kanalordutv",
+      "name": "Kanal Ordu TV",
+      "group": "Diğer",
+      "sampleUrl": "http://live.arkumedia.com:1935/kanalordutv/kanalordutv/chunklist.m3u8",
+      "sourceId": "playlist-yerel-rest",
+      "sourceIds": [
+        "playlist-yerel-rest"
+      ],
+      "urlCount": 1,
+      "probeStatus": "olumsuz (timeout)"
+    },
+    {
+      "key": "kanalt",
+      "name": "Kanal T",
+      "group": "Diğer",
+      "sampleUrl": "http://kuzeykibris.tv/m3u8/tv_kanalt.m3u8",
+      "sourceId": "playlist-c07",
+      "sourceIds": [
+        "playlist-c07"
+      ],
+      "urlCount": 1,
+      "probeStatus": "olumsuz (timeout)"
+    },
+    {
+      "key": "kanalvvipantalya",
+      "name": "KANAL V VIP Antalya",
+      "group": "Diğer",
+      "sampleUrl": "http://yerelmedya.tv:1935/kanalv/bant1/chunklist.m3u8",
+      "sourceId": "playlist-yerel-rest",
+      "sourceIds": [
+        "playlist-yerel-rest"
+      ],
+      "urlCount": 1,
+      "probeStatus": "olumsuz (timeout)"
+    },
+    {
+      "key": "msbckanal2000",
+      "name": "MSBC Kanal 2000",
+      "group": "Diğer",
+      "sampleUrl": "https://59cba4d34b678.streamlock.net/canlitv/kanal-2000/chunklist.m3u8",
+      "sourceId": "playlist-c05",
+      "sourceIds": [
+        "playlist-c05",
+        "playlist-yerel-rest2"
+      ],
+      "urlCount": 2,
+      "probeStatus": "olumsuz (network-error)"
+    },
+    {
+      "key": "suntvkonya",
+      "name": "SUN TV Konya",
+      "group": "Diğer",
+      "sampleUrl": "http://148.251.42.124:8081/live/suntv/chunks.m3u8",
+      "sourceId": "playlist-yerel-rest2",
+      "sourceIds": [
+        "playlist-yerel-rest2"
+      ],
+      "urlCount": 1,
+      "probeStatus": "olumsuz (timeout)"
+    },
+    {
+      "key": "superkanalbursa",
+      "name": "Süper Kanal Bursa",
+      "group": "Diğer",
+      "sampleUrl": "http://yayin3.canlitv.com:1935/canlitv/superkanal/iptvdelisi.m3u8",
+      "sourceId": "playlist-yerel-rest3",
+      "sourceIds": [
+        "playlist-yerel-rest3"
+      ],
+      "urlCount": 1,
+      "probeStatus": "olumsuz (timeout)"
+    },
+    {
+      "key": "tv9izmir",
+      "name": "TV 9 Izmir",
+      "group": "Diğer",
+      "sampleUrl": "https://59cba4d34b678.streamlock.net/canlitv/tv9izmir/chunklist.m3u8",
+      "sourceId": "playlist-yerel-rest3",
+      "sourceIds": [
+        "playlist-yerel-rest3"
+      ],
+      "urlCount": 1,
+      "probeStatus": "olumsuz (network-error)"
+    }
+  ],
+  "byCategory": {
+    "Diğer": [
+      {
+        "key": "belediyegundemtv",
+        "name": "Belediye Gündem TV",
+        "group": "Diğer",
+        "sampleUrl": "http://46.20.13.51:1935/makinetv/_definst_/makinetv/chunklist.m3u8",
+        "sourceId": "playlist-c08",
+        "sourceIds": [
+          "playlist-c08"
+        ],
+        "urlCount": 1,
+        "probeStatus": "olumsuz (network-error)"
+      },
+      {
+        "key": "belediyetv",
+        "name": "Belediye TV",
+        "group": "Diğer",
+        "sampleUrl": "https://5be5d840359c6.streamlock.net/belediyelertv/belediyelertv/chunklist.m3u8",
+        "sourceId": "playlist-c08",
+        "sourceIds": [
+          "playlist-c08"
+        ],
+        "urlCount": 1,
+        "probeStatus": "olumsuz (network-error)"
+      },
+      {
+        "key": "gaziantepolaytv",
+        "name": "Gaziantep Olay TV",
+        "group": "Diğer",
+        "sampleUrl": "http://waw1.artiyerelmedya.net:1935/olaytv/bant1/chunklist.m3u8",
+        "sourceId": "playlist-c11",
+        "sourceIds": [
+          "playlist-c11"
+        ],
+        "urlCount": 1,
+        "probeStatus": "olumsuz (network-error)"
+      },
+      {
+        "key": "grtgaziantep",
+        "name": "GRT Gaziantep",
+        "group": "Diğer",
+        "sampleUrl": "http://yerelmedya.tv:1935/grt/_definst_/bant1/chunklist.m3u8",
+        "sourceId": "playlist-c11",
+        "sourceIds": [
+          "playlist-c11"
+        ],
+        "urlCount": 1,
+        "probeStatus": "olumsuz (timeout)"
+      },
+      {
+        "key": "istanbultv",
+        "name": "Istanbul TV",
+        "group": "Diğer",
+        "sampleUrl": "http://streaming.netdirekt.com.tr/35757/msyapi/chunks.m3u8",
+        "sourceId": "playlist-c11",
+        "sourceIds": [
+          "playlist-c11"
+        ],
+        "urlCount": 1,
+        "probeStatus": "olumsuz (timeout)"
+      },
+      {
+        "key": "kanal101",
+        "name": "KANAL 101",
+        "group": "Diğer",
+        "sampleUrl": "http://s01.vpis.io/kanal101/kanal101.m3u8",
+        "sourceId": "playlist-yerel-rest",
+        "sourceIds": [
+          "playlist-yerel-rest"
+        ],
+        "urlCount": 1,
+        "probeStatus": "olumsuz (timeout)"
+      },
+      {
+        "key": "kanal38",
+        "name": "KANAL 38",
+        "group": "Diğer",
+        "sampleUrl": "https://59cba4d34b678.streamlock.net/live/kanal38/chunklist.m3u8",
+        "sourceId": "playlist-yerel-rest",
+        "sourceIds": [
+          "playlist-yerel-rest"
+        ],
+        "urlCount": 1,
+        "probeStatus": "olumsuz (timeout)"
+      },
+      {
+        "key": "kanal56",
+        "name": "KANAL 56",
+        "group": "Diğer",
+        "sampleUrl": "https://cdn-kanal56tv.yayin.com.tr/Kanal56TV/Kanal56TV/playlist.m3u8",
+        "sourceId": "playlist-yerel-rest",
+        "sourceIds": [
+          "playlist-yerel-rest"
+        ],
+        "urlCount": 1,
+        "probeStatus": "olumsuz (timeout)"
+      },
+      {
+        "key": "kanal57tokat",
+        "name": "Kanal 57 Tokat",
+        "group": "Diğer",
+        "sampleUrl": "https://59cba4d34b678.streamlock.net/canlitv/kanal57/playlist.m3u8",
+        "sourceId": "playlist-yerel-rest",
+        "sourceIds": [
+          "playlist-yerel-rest"
+        ],
+        "urlCount": 1,
+        "probeStatus": "olumsuz (timeout)"
+      },
+      {
+        "key": "kanal60tv",
+        "name": "Kanal 60 TV",
+        "group": "Diğer",
+        "sampleUrl": "https://59cba4d34b678.streamlock.net/canlitv/kanal60/chunklist.m3u8",
+        "sourceId": "playlist-yerel-rest",
+        "sourceIds": [
+          "playlist-yerel-rest"
+        ],
+        "urlCount": 1,
+        "probeStatus": "olumsuz (timeout)"
+      },
+      {
+        "key": "kanal68",
+        "name": "KANAL 68",
+        "group": "Diğer",
+        "sampleUrl": "https://waw2.artiyerelmedya.net/kanal68/bant1/playlist.m3u8",
+        "sourceId": "playlist-yerel-rest",
+        "sourceIds": [
+          "playlist-yerel-rest"
+        ],
+        "urlCount": 1,
+        "probeStatus": "olumsuz (timeout)"
+      },
+      {
+        "key": "kanalaalanya",
+        "name": "KANAL A ALANYA",
+        "group": "Diğer",
+        "sampleUrl": "http://stream2.taksimbilisim.com:1935/kanala/bant1/playlist.m3u8",
+        "sourceId": "playlist-yerel-rest",
+        "sourceIds": [
+          "playlist-yerel-rest"
+        ],
+        "urlCount": 1,
+        "probeStatus": "olumsuz (timeout)"
+      },
+      {
+        "key": "kanalartvin",
+        "name": "Kanal Artvin",
+        "group": "Diğer",
+        "sampleUrl": "https://5be5d840359c6.streamlock.net/kanalartvin/kanalartvin/chunklist.m3u8",
+        "sourceId": "playlist-yerel-rest",
+        "sourceIds": [
+          "playlist-yerel-rest"
+        ],
+        "urlCount": 1,
+        "probeStatus": "olumsuz (timeout)"
+      },
+      {
+        "key": "kanalb",
+        "name": "KANAL B",
+        "group": "Diğer",
+        "sampleUrl": "http://212.174.58.161/hls-live/livepkgr/_definst_/liveevent/kanalb.m3u8",
+        "sourceId": "playlist-yerel-rest",
+        "sourceIds": [
+          "playlist-yerel-rest"
+        ],
+        "urlCount": 1,
+        "probeStatus": "olumsuz (timeout)"
+      },
+      {
+        "key": "kanalege",
+        "name": "Kanal Ege",
+        "group": "Diğer",
+        "sampleUrl": "https://59cba4d34b678.streamlock.net/canlitv/kanalege/chunklist.m3u8",
+        "sourceId": "playlist-yerel-rest",
+        "sourceIds": [
+          "playlist-yerel-rest"
+        ],
+        "urlCount": 1,
+        "probeStatus": "olumsuz (timeout)"
+      },
+      {
+        "key": "kanalordu",
+        "name": "KANAL ORDU",
+        "group": "Diğer",
+        "sampleUrl": "https://5be5d840359c6.streamlock.net/kanalordutv/kanalordutv/chunklist.m3u8",
+        "sourceId": "playlist-c05",
+        "sourceIds": [
+          "playlist-c05"
+        ],
+        "urlCount": 1,
+        "probeStatus": "olumsuz (timeout)"
+      },
+      {
+        "key": "kanalordutv",
+        "name": "Kanal Ordu TV",
+        "group": "Diğer",
+        "sampleUrl": "http://live.arkumedia.com:1935/kanalordutv/kanalordutv/chunklist.m3u8",
+        "sourceId": "playlist-yerel-rest",
+        "sourceIds": [
+          "playlist-yerel-rest"
+        ],
+        "urlCount": 1,
+        "probeStatus": "olumsuz (timeout)"
+      },
+      {
+        "key": "kanalt",
+        "name": "Kanal T",
+        "group": "Diğer",
+        "sampleUrl": "http://kuzeykibris.tv/m3u8/tv_kanalt.m3u8",
+        "sourceId": "playlist-c07",
+        "sourceIds": [
+          "playlist-c07"
+        ],
+        "urlCount": 1,
+        "probeStatus": "olumsuz (timeout)"
+      },
+      {
+        "key": "kanalvvipantalya",
+        "name": "KANAL V VIP Antalya",
+        "group": "Diğer",
+        "sampleUrl": "http://yerelmedya.tv:1935/kanalv/bant1/chunklist.m3u8",
+        "sourceId": "playlist-yerel-rest",
+        "sourceIds": [
+          "playlist-yerel-rest"
+        ],
+        "urlCount": 1,
+        "probeStatus": "olumsuz (timeout)"
+      },
+      {
+        "key": "msbckanal2000",
+        "name": "MSBC Kanal 2000",
+        "group": "Diğer",
+        "sampleUrl": "https://59cba4d34b678.streamlock.net/canlitv/kanal-2000/chunklist.m3u8",
+        "sourceId": "playlist-c05",
+        "sourceIds": [
+          "playlist-c05",
+          "playlist-yerel-rest2"
+        ],
+        "urlCount": 2,
+        "probeStatus": "olumsuz (network-error)"
+      },
+      {
+        "key": "suntvkonya",
+        "name": "SUN TV Konya",
+        "group": "Diğer",
+        "sampleUrl": "http://148.251.42.124:8081/live/suntv/chunks.m3u8",
+        "sourceId": "playlist-yerel-rest2",
+        "sourceIds": [
+          "playlist-yerel-rest2"
+        ],
+        "urlCount": 1,
+        "probeStatus": "olumsuz (timeout)"
+      },
+      {
+        "key": "superkanalbursa",
+        "name": "Süper Kanal Bursa",
+        "group": "Diğer",
+        "sampleUrl": "http://yayin3.canlitv.com:1935/canlitv/superkanal/iptvdelisi.m3u8",
+        "sourceId": "playlist-yerel-rest3",
+        "sourceIds": [
+          "playlist-yerel-rest3"
+        ],
+        "urlCount": 1,
+        "probeStatus": "olumsuz (timeout)"
+      },
+      {
+        "key": "tv9izmir",
+        "name": "TV 9 Izmir",
+        "group": "Diğer",
+        "sampleUrl": "https://59cba4d34b678.streamlock.net/canlitv/tv9izmir/chunklist.m3u8",
+        "sourceId": "playlist-yerel-rest3",
+        "sourceIds": [
+          "playlist-yerel-rest3"
+        ],
+        "urlCount": 1,
+        "probeStatus": "olumsuz (network-error)"
+      }
+    ]
+  }
+}
