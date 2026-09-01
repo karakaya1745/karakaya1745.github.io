@@ -1,0 +1,36 @@
+#EXTINF:-0,TGRT Haber alt3
+http://cdn1.streamencoding.com:1935/tgrt_haber/tgrt3/playlist.m3u8
+#EXTINF:-0,TGRT EU
+https://canli.ensonhaber.com/tr/tgrteu/index.m3u8
+#EXTINF:-0,TRT HABER alt2
+https://tv-trthaber.live.trt.com.tr/master_720.m3u8
+#EXTINF:-0,Bloomberg HT
+https://canli.ensonhaber.com/tr/bloomberght/index.m3u8
+#EXTINF:-0,Akit TV
+http://akittv-live.ercdn.net/akittv/akittv.m3u8
+#EXTINF:-0,DIYALOG TV
+http://yayin3.canlitv.com:1935/live/diyalogtv/iptvdelisi.m3u8
+#EXTINF:-0,TRT TÜRK
+https://tv-trtturk.live.trt.com.tr/master_720.m3u8
+#EXTINF:-0,Haber 61 TV
+http://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/iptvdelisi.m3u8
+#EXTINF:-0,Haber Istanbul TV
+http://ms1.sanlisoy.com:1935/haberistanbultv/haberistanbultv/playlist.m3u8
+#EXTINF:-0,EkoTürk TV
+http://ch.canlitvlive.io/ekoturktv/live.m3u8
+#EXTINF:-0,Tele 1
+http://iptvmasterlink.dyndns.org:5566/Entry/tele1_yeni.m3u8
+#EXTINF:-0,Tele 1 alt2
+http://ch.canlitvlive.io/tele1/live.m3u8
+#EXTINF:-0,KRT (FHD)
+http://live1.krttv.com.tr/show/krttv_mobil/index.m3u8
+#EXTINF:-0,Ulusal Kanal (720)
+http://iptvmasterlink.dyndns.org:5566/Entry/ulusalkanal_yeni.m3u8
+#EXTINF:-0,ON Medya Haber
+http://live.arkumedia.com:1935/marmaratv/marmaratv/chunklist.m3u8
+#EXTINF:-0,ON4 TV
+http://yayin.netradyom.com:1935/live/on4/chunklist.m3u8
+#EXTINF:-0,Bengütürk
+https://canli.ensonhaber.com/tr/benguturk/index.m3u8
+#EXTINF:-0,REHBER TV
+http://rehbertv.canliyayin.org/P871000884/rehbertv/chunklist.m3u8

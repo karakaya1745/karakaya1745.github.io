@@ -1,0 +1,53 @@
+#EXTINF:-0,KRAL 90´ LAR TV
+http://cf2wcwwd.rocketcdn.com/kraldijital-doksanlartv.smil/chunklist.m3u8
+#EXTINF:-0,KRAL WORLD
+http://stmpo0wa.rocketcdn.com/kralworldtv.smil/chunklist.m3u8
+#EXTINF:-0,POWER TV
+https://livetv.powerapp.com.tr/powertv/powerhd.smil/playlist.m3u8
+#EXTINF:-0,POWER TV alt2
+https://waw2.artiyerelmedya.net/powertv/bant1/playlist.m3u8
+#EXTINF:-0,POWERTÜRK TV
+https://livetv.powerapp.com.tr/powerturktv/powerturkhd.smil/playlist.m3u8
+#EXTINF:-0,POWERTÜRK TV alt2
+https://waw2.artiyerelmedya.net/powerturktv/bant1/playlist.m3u8
+#EXTINF:-0,Leblebi TV
+http://win1.yayin.com.tr/LeblebiTv/LeblebiTv/chunklist.m3u8
+#EXTINF:-0,Number 1
+https://n10101m.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
+#EXTINF:-0,Number 1 Türk
+https://n10101m.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e187770143.smil/playlist.m3u8
+#EXTINF:-0,Number 1 Damar
+https://n10101m.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e19877b340.smil/playlist.m3u8
+#EXTINF:-0,Number 1 Aşk
+https://n10101m.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e18f9c54e6.smil/playlist.m3u8
+#EXTINF:-0,Number 1 Dance
+https://n10101m.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2aa89e721.smil/playlist.m3u8
+#EXTINF:-0,SLOW KARADENIZ TV
+http://slowkaradeniztv.yayin.com.tr/slowkaradeniztv/smil:slowkaradeniztv.smil/playlist.m3u8
+#EXTINF:-0,Tatlises TV
+https://waw2.artiyerelmedya.net/tatlisestv/bant1/chunks.m3u8
+#EXTINF:-0,Radyo Kulüp
+http://cdn-radyokulup.yayin.com.tr/radyokulup/radyokulup/chunklist.m3u8
+#EXTINF:-0,Radyo Kulüp TV alt2
+https://59cba4d34b678.streamlock.net/canlitv/radyokuluptv/chunklist.m3u8
+#EXTINF:0,Vatan TV
+http://ch.canlitvlive.io/vatantv/live.m3u8
+#EXTINF:-0,Finest TV
+http://media.finest.tv/hls/live.m3u8
+#EXTINF:-0,Damar TV
+http://51.255.7.18:8080/hls/damar.m3u8
+#EXTINF:-0,Damar TV
+https://tvsms.club/tvy.php?kanal=damar&file=.m3u8
+#EXTINF:-0,Genç TV Sms TV
+https://tvsms.club/tvy.php?kanal=genctv&file=.m3u8
+#EXTINF:-0,Arabesk TV
+https://tvsms.club/tvy.php?kanal=arabeskyeni&file=.m3u8
+#EXTINF:-0,Ezo TV
+https://tvsms.club/tvy.php?kanal=ezo&file=.m3u8
+#EXTINF:-0,Zeyno TV
+https://tvsms.club/tvy.php?kanal=zeynotv&file=.m3u8
+#EXTINF:-0,Sıla TV
+https://tvsms.club/tvy.php?kanal=silatv&file=.m3u8
+• Dini Kanallar
+#EXTINF:-0,Biat TV
+https://5be5d840359c6.streamlock.net/biattv/biattv/chunklist.m3u8

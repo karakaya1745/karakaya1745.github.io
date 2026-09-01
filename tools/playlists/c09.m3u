@@ -1,0 +1,34 @@
+#EXTINF:-0,BRTV Karabük HD
+http://yerelmedya.tv:1935/brtv/bant1/chunklist.m3u8
+#EXTINF:-0,Bursa AS TV
+https://waw2.artiyerelmedya.net/astv/bant1/chunks.m3u8
+#EXTINF:-0,Business Channel Türk
+https://59cba4d34b678.streamlock.net/canlitv/businesschannelturk/chunklist.m3u8
+#EXTINF:-0,Büyük Alanya TV
+https://canliyayin.buyukalanya.com/hls/byk/buyukalanya.m3u8
+#EXTINF:-0,Can TV
+http://canbroadcast.com:7000/canlican/tv.m3u8
+#EXTINF:-0,CAN TV 24
+http://yayin3.canlitv.com:1935/canlitv/cantv/iptvdelisi.m3u8
+#EXTINF:-0,CRI Türk Dizi
+http://cri.aa.net.tr:1935/dizi/dizi/chunklist.m3u8
+#EXTINF:-0,ÇANAKKALE TON TV
+https://waw2.artiyerelmedya.net/tontv/bant1/playlist.m3u8
+#EXTINF:-0,ÇANAKKALE WEB TV
+http://89.252.162.76/webtv/live.m3u8
+#EXTINF:-0,ÇAY TV
+http://stream2.taksimbilisim.com:1935/caytv/smil:caytv.smil/iptvdelisi.m3u8
+#EXTINF:-0,ÇEKMEKÖY WEB TV
+https://cdn-cekmekoybeltv.yayin.com.tr/cekmekoybeltv/cekmekoybeltv_1080p/playlist.m3u8
+#EXTINF:-0,Çiftçi TV
+https://59cba4d34b678.streamlock.net/canlitv/ciftcitv/chunklist.m3u8
+#EXTINF:-0,CRI Türk Belgesel
+http://cri.aa.net.tr:1935/belgesel/belgesel/chunklist.m3u8
+#EXTINF:-0,DEHA TV
+http://waw1.artiyerelmedya.net:1935/dehatv/bant1/playlist.m3u8
+#EXTINF:-0,Deniz Haber TV
+https://s01.vpis.io/denizhaber/denizhaber.m3u8
+#EXTINF:-0,Deniz Postası TV
+http://waw1.artiyerelmedya.net:1935/denizpostasitv/bant1/chunks.m3u8
+#EXTINF:-0,Dersim 62 TV
+http://live.arkumedia.com:1935/dersim62tv/dersim62tv/playlist.m3u8

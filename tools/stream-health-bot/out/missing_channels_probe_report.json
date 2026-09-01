@@ -1,0 +1,740 @@
+{
+  "generatedAt": "2026-09-01T11:25:30.292Z",
+  "m3uSourceCount": 22,
+  "channelsPath": "D:\\PROJELER\\ANDROİD TV UYGULAMASI2\\app\\src\\main\\assets\\channels.json",
+  "missingPath": "D:\\PROJELER\\ANDROİD TV UYGULAMASI2\\tools\\stream-health-bot\\missing_channels.json",
+  "skipped": [
+    {
+      "name": "TRT Spor 2",
+      "reason": "zaten channels.json'da veya alias ile mevcut"
+    },
+    {
+      "name": "beIN Sports Haber",
+      "reason": "ücretli/atlandı"
+    },
+    {
+      "name": "Kocaeli TV",
+      "reason": "zaten channels.json'da veya alias ile mevcut"
+    },
+    {
+      "name": "BRT 3",
+      "reason": "zaten channels.json'da veya alias ile mevcut"
+    }
+  ],
+  "channels": [
+    {
+      "name": "TV8 International",
+      "category": "Ulusal",
+      "searchKeys": [
+        "tv8international",
+        "tv8int"
+      ],
+      "totalCandidates": 2,
+      "probedCount": 2,
+      "candidates": [
+        {
+          "url": "http://162.212.179.33/dvrfl05/gin-tv8int/index.m3u8",
+          "sourceId": "onureroz-all",
+          "title": "TV8 INT",
+          "trusted": false,
+          "risky": false,
+          "skipped": false
+        },
+        {
+          "url": "http://nimplus3.bozztv.com/tv8int/tv8int/playlist.m3u8",
+          "sourceId": "onureroz-all",
+          "title": "TV8 INT",
+          "trusted": false,
+          "risky": false,
+          "skipped": false
+        }
+      ],
+      "probeResults": [
+        {
+          "url": "http://162.212.179.33/dvrfl05/gin-tv8int/index.m3u8",
+          "live": false,
+          "reason": "timeout",
+          "sourceId": "onureroz-all",
+          "title": "TV8 INT"
+        },
+        {
+          "url": "http://nimplus3.bozztv.com/tv8int/tv8int/playlist.m3u8",
+          "live": false,
+          "reason": "network-error",
+          "sourceId": "onureroz-all",
+          "title": "TV8 INT"
+        }
+      ],
+      "workingUrls": [],
+      "status": "urls_but_none_work"
+    },
+    {
+      "name": "Space Toon",
+      "category": "Cocuk",
+      "searchKeys": [
+        "spacetoon"
+      ],
+      "totalCandidates": 2,
+      "probedCount": 2,
+      "candidates": [
+        {
+          "url": "https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8",
+          "sourceId": "onureroz-all",
+          "title": "SPACE TOON",
+          "trusted": false,
+          "risky": false,
+          "skipped": false
+        },
+        {
+          "url": "https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8",
+          "sourceId": "onureroz-all",
+          "title": "SPACE TOON",
+          "trusted": false,
+          "risky": false,
+          "skipped": false
+        }
+      ],
+      "probeResults": [
+        {
+          "url": "https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206,
+          "sourceId": "onureroz-all",
+          "title": "SPACE TOON"
+        },
+        {
+          "url": "https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200,
+          "sourceId": "onureroz-all",
+          "title": "SPACE TOON"
+        }
+      ],
+      "workingUrls": [
+        "https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8",
+        "https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8"
+      ],
+      "status": "working"
+    },
+    {
+      "name": "Cartoon Network",
+      "category": "Cocuk",
+      "searchKeys": [
+        "cartoonnetwork",
+        "cartoonnetworktr"
+      ],
+      "totalCandidates": 3,
+      "probedCount": 3,
+      "candidates": [
+        {
+          "url": "https://tv.arectv31.sbs/live/cartoonnetwork.m3u8",
+          "sourceId": "onureroz-all",
+          "title": "CARTOON NETWORK TR",
+          "trusted": false,
+          "risky": false,
+          "skipped": false
+        },
+        {
+          "url": "https://tv.arectv34.sbs/live/cartoonnetwork.m3u8",
+          "sourceId": "onureroz-all",
+          "title": "CARTOON NETWORK TR",
+          "trusted": false,
+          "risky": false,
+          "skipped": false
+        },
+        {
+          "url": "https://cartoonnetwork.blutv.com/blutv_cartoonnetwork/live.m3u8",
+          "sourceId": "onureroz-all",
+          "title": "CARTOON NETWORK TR",
+          "trusted": false,
+          "risky": false,
+          "skipped": false
+        }
+      ],
+      "probeResults": [
+        {
+          "url": "https://tv.arectv31.sbs/live/cartoonnetwork.m3u8",
+          "live": false,
+          "reason": "timeout",
+          "sourceId": "onureroz-all",
+          "title": "CARTOON NETWORK TR"
+        },
+        {
+          "url": "https://tv.arectv34.sbs/live/cartoonnetwork.m3u8",
+          "live": false,
+          "reason": "timeout",
+          "sourceId": "onureroz-all",
+          "title": "CARTOON NETWORK TR"
+        },
+        {
+          "url": "https://cartoonnetwork.blutv.com/blutv_cartoonnetwork/live.m3u8",
+          "live": false,
+          "reason": "http-421",
+          "status": 421,
+          "sourceId": "onureroz-all",
+          "title": "CARTOON NETWORK TR"
+        }
+      ],
+      "workingUrls": [],
+      "status": "urls_but_none_work"
+    },
+    {
+      "name": "GRT",
+      "category": "Ulusal",
+      "searchKeys": [
+        "grt",
+        "grttv"
+      ],
+      "totalCandidates": 0,
+      "probedCount": 0,
+      "candidates": [],
+      "probeResults": [],
+      "workingUrls": [],
+      "status": "no_m3u_match"
+    },
+    {
+      "name": "Kon TV",
+      "category": "Ulusal",
+      "searchKeys": [
+        "kontv"
+      ],
+      "totalCandidates": 0,
+      "probedCount": 0,
+      "candidates": [],
+      "probeResults": [],
+      "workingUrls": [],
+      "status": "no_m3u_match"
+    },
+    {
+      "name": "Ekin Türk",
+      "category": "Muzik",
+      "searchKeys": [
+        "ekinturk"
+      ],
+      "totalCandidates": 0,
+      "probedCount": 0,
+      "candidates": [],
+      "probeResults": [],
+      "workingUrls": [],
+      "status": "no_m3u_match"
+    },
+    {
+      "name": "Agro TV",
+      "category": "Yasam",
+      "searchKeys": [
+        "agrotv"
+      ],
+      "totalCandidates": 2,
+      "probedCount": 2,
+      "candidates": [
+        {
+          "url": "https://yayin30.haber100.com/live/agrotv/playlist.m3u8",
+          "sourceId": "onureroz-all",
+          "title": "AGRO TV",
+          "trusted": false,
+          "risky": false,
+          "skipped": false
+        },
+        {
+          "url": "https://agrotv.blutv.com/blutv_agrotv/live.m3u8",
+          "sourceId": "onureroz-all",
+          "title": "AGRO TV",
+          "trusted": false,
+          "risky": false,
+          "skipped": false
+        }
+      ],
+      "probeResults": [
+        {
+          "url": "https://yayin30.haber100.com/live/agrotv/playlist.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404,
+          "sourceId": "onureroz-all",
+          "title": "AGRO TV"
+        },
+        {
+          "url": "https://agrotv.blutv.com/blutv_agrotv/live.m3u8",
+          "live": false,
+          "reason": "http-421",
+          "status": 421,
+          "sourceId": "onureroz-all",
+          "title": "AGRO TV"
+        }
+      ],
+      "workingUrls": [],
+      "status": "urls_but_none_work"
+    },
+    {
+      "name": "Tek Rumeli TV",
+      "category": "Ulusal",
+      "searchKeys": [
+        "tekrumelitv"
+      ],
+      "totalCandidates": 1,
+      "probedCount": 1,
+      "candidates": [
+        {
+          "url": "https://edge1.socialsmart.tv/tekrumelitv/bant1/playlist.m3u8",
+          "sourceId": "onureroz-all",
+          "title": "TEK RUMELİ TV",
+          "trusted": false,
+          "risky": false,
+          "skipped": false
+        }
+      ],
+      "probeResults": [
+        {
+          "url": "https://edge1.socialsmart.tv/tekrumelitv/bant1/playlist.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404,
+          "sourceId": "onureroz-all",
+          "title": "TEK RUMELİ TV"
+        }
+      ],
+      "workingUrls": [],
+      "status": "urls_but_none_work"
+    },
+    {
+      "name": "HRT Akdeniz TV",
+      "category": "Ulusal",
+      "searchKeys": [
+        "hrtakdeniztv",
+        "hrtakdeniz"
+      ],
+      "totalCandidates": 0,
+      "probedCount": 0,
+      "candidates": [],
+      "probeResults": [],
+      "workingUrls": [],
+      "status": "no_m3u_match"
+    },
+    {
+      "name": "FM TV",
+      "category": "Ulusal",
+      "searchKeys": [
+        "fmtv"
+      ],
+      "totalCandidates": 0,
+      "probedCount": 0,
+      "candidates": [],
+      "probeResults": [],
+      "workingUrls": [],
+      "status": "no_m3u_match"
+    },
+    {
+      "name": "Kadirga TV",
+      "category": "Ulusal",
+      "searchKeys": [
+        "kadirgatv"
+      ],
+      "totalCandidates": 0,
+      "probedCount": 0,
+      "candidates": [],
+      "probeResults": [],
+      "workingUrls": [],
+      "status": "no_m3u_match"
+    },
+    {
+      "name": "TV 2020",
+      "category": "Ulusal",
+      "searchKeys": [
+        "tv2020"
+      ],
+      "totalCandidates": 2,
+      "probedCount": 2,
+      "candidates": [
+        {
+          "url": "https://sc-kuzeykibrissmarttv.ercdn.net/tv2020/bantp1/playlist.m3u8",
+          "sourceId": "onureroz-all",
+          "title": "TV 2020",
+          "trusted": true,
+          "risky": false,
+          "skipped": false
+        },
+        {
+          "url": "https://spor.kuzeykibris.tv/m3u8/tv_2020.m3u8",
+          "sourceId": "onureroz-all",
+          "title": "TV 2020",
+          "trusted": false,
+          "risky": false,
+          "skipped": false
+        }
+      ],
+      "probeResults": [
+        {
+          "url": "https://sc-kuzeykibrissmarttv.ercdn.net/tv2020/bantp1/playlist.m3u8",
+          "live": false,
+          "reason": "timeout",
+          "sourceId": "onureroz-all",
+          "title": "TV 2020"
+        },
+        {
+          "url": "https://spor.kuzeykibris.tv/m3u8/tv_2020.m3u8",
+          "live": false,
+          "reason": "timeout",
+          "sourceId": "onureroz-all",
+          "title": "TV 2020"
+        }
+      ],
+      "workingUrls": [],
+      "status": "urls_but_none_work"
+    },
+    {
+      "name": "Kanal B",
+      "category": "Ulusal",
+      "searchKeys": [
+        "kanalb"
+      ],
+      "totalCandidates": 2,
+      "probedCount": 2,
+      "candidates": [
+        {
+          "url": "https://baskentaudiovideo.xyz/LiveApp/streams/mUE22idl26lA1683879097431.m3u8",
+          "sourceId": "onureroz-all",
+          "title": "KANAL B",
+          "trusted": false,
+          "risky": false,
+          "skipped": false
+        },
+        {
+          "url": "https://baskentaudiovideo.xyz/ULUSALApp/streams/mUE22idl26lA1683879097431.m3u8",
+          "sourceId": "onureroz-index",
+          "title": "KANAL B",
+          "trusted": false,
+          "risky": false,
+          "skipped": false
+        }
+      ],
+      "probeResults": [
+        {
+          "url": "https://baskentaudiovideo.xyz/LiveApp/streams/mUE22idl26lA1683879097431.m3u8",
+          "live": false,
+          "reason": "not-hls-manifest",
+          "status": 206,
+          "sourceId": "onureroz-all",
+          "title": "KANAL B"
+        },
+        {
+          "url": "https://baskentaudiovideo.xyz/ULUSALApp/streams/mUE22idl26lA1683879097431.m3u8",
+          "live": false,
+          "reason": "not-hls-manifest",
+          "status": 206,
+          "sourceId": "onureroz-index",
+          "title": "KANAL B"
+        }
+      ],
+      "workingUrls": [],
+      "status": "urls_but_none_work"
+    },
+    {
+      "name": "Gonca TV",
+      "category": "Ulusal",
+      "searchKeys": [
+        "goncatv"
+      ],
+      "totalCandidates": 0,
+      "probedCount": 0,
+      "candidates": [],
+      "probeResults": [],
+      "workingUrls": [],
+      "status": "no_m3u_match"
+    },
+    {
+      "name": "Rumeli TV",
+      "category": "Ulusal",
+      "searchKeys": [
+        "rumelitv"
+      ],
+      "totalCandidates": 1,
+      "probedCount": 1,
+      "candidates": [
+        {
+          "url": "https://rumelitv-live.ercdn.net/rumelitv/rumelitv.m3u8",
+          "sourceId": "onureroz-all",
+          "title": "RUMELİ TV",
+          "trusted": true,
+          "risky": false,
+          "skipped": false
+        }
+      ],
+      "probeResults": [
+        {
+          "url": "https://rumelitv-live.ercdn.net/rumelitv/rumelitv.m3u8",
+          "live": false,
+          "reason": "timeout",
+          "sourceId": "onureroz-all",
+          "title": "RUMELİ TV"
+        }
+      ],
+      "workingUrls": [],
+      "status": "urls_but_none_work"
+    },
+    {
+      "name": "Yeni Kocaeli TV",
+      "category": "Ulusal",
+      "searchKeys": [
+        "yenikocaelitv"
+      ],
+      "totalCandidates": 0,
+      "probedCount": 0,
+      "candidates": [],
+      "probeResults": [],
+      "workingUrls": [],
+      "status": "no_m3u_match"
+    },
+    {
+      "name": "Uçankuş TV",
+      "category": "Haber",
+      "searchKeys": [
+        "ucankustv",
+        "ucankus"
+      ],
+      "totalCandidates": 0,
+      "probedCount": 0,
+      "candidates": [],
+      "probeResults": [],
+      "workingUrls": [],
+      "status": "no_m3u_match"
+    },
+    {
+      "name": "Kanal 68",
+      "category": "Ulusal",
+      "searchKeys": [
+        "kanal68"
+      ],
+      "totalCandidates": 1,
+      "probedCount": 1,
+      "candidates": [
+        {
+          "url": "https://live.artidijitalmedya.com/artidijital_kanal68/kanal68/playlist.m3u8",
+          "sourceId": "onureroz-index",
+          "title": "KANAL 68",
+          "trusted": false,
+          "risky": false,
+          "skipped": false
+        }
+      ],
+      "probeResults": [
+        {
+          "url": "https://live.artidijitalmedya.com/artidijital_kanal68/kanal68/playlist.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404,
+          "sourceId": "onureroz-index",
+          "title": "KANAL 68"
+        }
+      ],
+      "workingUrls": [],
+      "status": "urls_but_none_work"
+    },
+    {
+      "name": "Vizyon 58",
+      "category": "Ulusal",
+      "searchKeys": [
+        "vizyon58"
+      ],
+      "totalCandidates": 0,
+      "probedCount": 0,
+      "candidates": [],
+      "probeResults": [],
+      "workingUrls": [],
+      "status": "no_m3u_match"
+    },
+    {
+      "name": "Ege TV",
+      "category": "Ulusal",
+      "searchKeys": [
+        "egetv"
+      ],
+      "totalCandidates": 0,
+      "probedCount": 0,
+      "candidates": [],
+      "probeResults": [],
+      "workingUrls": [],
+      "status": "no_m3u_match"
+    },
+    {
+      "name": "Deha TV",
+      "category": "Ulusal",
+      "searchKeys": [
+        "dehatv"
+      ],
+      "totalCandidates": 0,
+      "probedCount": 0,
+      "candidates": [],
+      "probeResults": [],
+      "workingUrls": [],
+      "status": "no_m3u_match"
+    },
+    {
+      "name": "Tatlıses TV",
+      "category": "Muzik",
+      "searchKeys": [
+        "tatlisestv"
+      ],
+      "totalCandidates": 1,
+      "probedCount": 1,
+      "candidates": [
+        {
+          "url": "https://live.artidijitalmedya.com/artidijital_tatlisestv/tatlisestv/chunks.m3u8",
+          "sourceId": "rideordie-tv2",
+          "title": "TATLISES TV",
+          "trusted": false,
+          "risky": false,
+          "skipped": false
+        }
+      ],
+      "probeResults": [
+        {
+          "url": "https://live.artidijitalmedya.com/artidijital_tatlisestv/tatlisestv/chunks.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404,
+          "sourceId": "rideordie-tv2",
+          "title": "TATLISES TV"
+        }
+      ],
+      "workingUrls": [],
+      "status": "urls_but_none_work"
+    },
+    {
+      "name": "Anadolu Dernek TV",
+      "category": "Ulusal",
+      "searchKeys": [
+        "anadoludernektv",
+        "anadoludernek"
+      ],
+      "totalCandidates": 0,
+      "probedCount": 0,
+      "candidates": [],
+      "probeResults": [],
+      "workingUrls": [],
+      "status": "no_m3u_match"
+    },
+    {
+      "name": "Bitlis TV",
+      "category": "Ulusal",
+      "searchKeys": [
+        "bitlistv"
+      ],
+      "totalCandidates": 0,
+      "probedCount": 0,
+      "candidates": [],
+      "probeResults": [],
+      "workingUrls": [],
+      "status": "no_m3u_match"
+    },
+    {
+      "name": "Pamukkale TV",
+      "category": "Ulusal",
+      "searchKeys": [
+        "pamukkaletv"
+      ],
+      "totalCandidates": 1,
+      "probedCount": 1,
+      "candidates": [
+        {
+          "url": "http://stream.tvcdn.net/yerel/pamukkale-tv.m3u8",
+          "sourceId": "onureroz-all",
+          "title": "PAMUKKALE TV",
+          "trusted": false,
+          "risky": false,
+          "skipped": false
+        }
+      ],
+      "probeResults": [
+        {
+          "url": "http://stream.tvcdn.net/yerel/pamukkale-tv.m3u8",
+          "live": false,
+          "reason": "timeout",
+          "sourceId": "onureroz-all",
+          "title": "PAMUKKALE TV"
+        }
+      ],
+      "workingUrls": [],
+      "status": "urls_but_none_work"
+    },
+    {
+      "name": "Süper TV",
+      "category": "Ulusal",
+      "searchKeys": [
+        "supertv"
+      ],
+      "totalCandidates": 0,
+      "probedCount": 0,
+      "candidates": [],
+      "probeResults": [],
+      "workingUrls": [],
+      "status": "no_m3u_match"
+    },
+    {
+      "name": "DRT Denizli",
+      "category": "Ulusal",
+      "searchKeys": [
+        "drtdenizli",
+        "drt"
+      ],
+      "totalCandidates": 2,
+      "probedCount": 2,
+      "candidates": [
+        {
+          "url": "https://edge1.socialsmart.tv/drttv/bant1/playlist.m3u8",
+          "sourceId": "onureroz-all",
+          "title": "DRT DENİZLİ",
+          "trusted": false,
+          "risky": false,
+          "skipped": false
+        },
+        {
+          "url": "http://stream2.taksimbilisim.com:1935/drt/smil:drt.smil/playlist.m3u8",
+          "sourceId": "onureroz-all",
+          "title": "DRT DENİZLİ",
+          "trusted": false,
+          "risky": false,
+          "skipped": false
+        }
+      ],
+      "probeResults": [
+        {
+          "url": "https://edge1.socialsmart.tv/drttv/bant1/playlist.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404,
+          "sourceId": "onureroz-all",
+          "title": "DRT DENİZLİ"
+        },
+        {
+          "url": "http://stream2.taksimbilisim.com:1935/drt/smil:drt.smil/playlist.m3u8",
+          "live": false,
+          "reason": "timeout",
+          "sourceId": "onureroz-all",
+          "title": "DRT DENİZLİ"
+        }
+      ],
+      "workingUrls": [],
+      "status": "urls_but_none_work"
+    },
+    {
+      "name": "Inter AZ",
+      "category": "Ulusal",
+      "searchKeys": [
+        "interaz"
+      ],
+      "totalCandidates": 0,
+      "probedCount": 0,
+      "candidates": [],
+      "probeResults": [],
+      "workingUrls": [],
+      "status": "no_m3u_match"
+    }
+  ],
+  "summary": {
+    "working": 1,
+    "urlsButNoneWork": 11,
+    "noM3uMatch": 16
+  }
+}

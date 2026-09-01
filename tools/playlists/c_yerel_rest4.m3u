@@ -1,0 +1,78 @@
+#EXTINF:-0,Woman TV
+https://s01.vpis.io/wmtv/wmtv.m3u8
+#EXTINF:-0,Yaren TV
+https://59cba4d34b678.streamlock.net/canlitv/yarentv/iptvdelisi.m3u8
+#EXTINF:-0,Yeşilyurt TV
+https://waw1.artiyerelmedya.net/yesilyurttv/bant1/playlist.m3u8
+ 
+Azeri Kanallar
+
+#EXTINF:0,ARB
+http://85.132.81.184:8080/arb/live/index.m3u8
+#EXTINF:0,ARB 24
+http://85.132.81.184:8080/arb24/live1/index.m3u8
+#EXTINF:0,ARB Kəpəz
+http://85.132.81.184:8080/arbkepez/live/index.m3u8
+#EXTINF:0,Apa TV
+https://www.youtube.com/user/APATVOfficial/live
+#EXTINF:0,AZGEO TV
+https://tv.cdn.xsg.ge/gpb-streaming/azer/tracks-v1a1/mono.m3u8
+#EXTINF:-0,Az News TV
+https://swow1.socialsmart.tv/aznews/smil:aznews.smil/chunklist_w750686581_b1364000_sltur.m3u8
+#EXTINF:0,Azad TV
+http://85.132.81.184:8080/atv/index.m3u8
+#EXTINF:0,Azstar TV
+http://live.livestreamtv.ca/azstar/smil:azstar.smil/chunklist_w1579849357_b2000000_slen.m3u8
+#EXTINF:0,CBC
+http://cbctvlive.flashmediacast.com:1935/CBCTVLive/livestream/playlist.m3u8
+#EXTINF:0,EL TV
+http://85.132.53.162:1935/live/eltv/chunklist.m3u8
+#EXTINF:0,Günaz TV
+http://gtv.live.cdn.bitgravity.com/gtv/live/feed02
+#EXTINF:0,Ictimai
+https://node19.connect.az:8086/ch1/ch1.hi.m3u8
+#EXTINF:0,InterAz TV
+http://yayin.netradyom.com:1935/live/interaz/playlist.m3u8
+#EXTINF:0,Kanal 12
+http://yayin.netradyom.com:1935/live/kanal12/playlist.m3u8
+#EXTINF:0,Muz TV
+http://185.129.1.242:8080/muztvaz/mono.m3u8
+#EXTINF:0,Naxçıvan TV
+http://canli.naxcivantv.az/media/20201010/high/tv_high.m3u8
+#EXTINF:0,Turan TV
+http://185.132.178.34:7500/Turan-TV/tracks-v1a1/mono.m3u8
+#EXTINF:0,Qafqaz TV
+https://streams.livetv.az/azerbaijan/qafqaztv/playlist.m3u8
+#EXTINF:0,Qəbələ TV
+https://qebele.tv/live/stream/index.m3u8
+#EXTINF:0,Xezer
+https://59c7ea6bec1c6.streamlock.net/live/xezertv.stream/chunklist_w2109417220.m3u8
+
+
+Türkiye Adresli Kanallar;
+
+#EXTINF:-0,Kanal Hayat
+https://player-api.new.livestream.com/accounts/7475784/events/8817566/broadcasts/198321647.secure.m3u8
+#EXTINF:-0,Al Qanat 9
+https://5baddb02ef445.streamlock.net/qanat/alqanat9/playlist.m3u8
+#EXTINF:-0,Libya Al-Ahrar TV
+http://video-live.vzaar.com/243BFFE/live-144734/tqg0WrP7UtC4.m3u8
+#EXTINF:-0,Falastini TV
+http://149.202.79.190:8081/palestiniantv_source/live/chunks.m3u8
+#EXTINF:-0,Syria TV
+https://svs.itworkscdn.net/syriatvlive/syriatv.smil/chunklist.m3u8
+#EXTINF:-0,Elsharq ME
+https://mn-nl.mncdn.com/elsharq_me/live/chunklist.m3u8
+
+
+#EXTINF:-0,Sat 7 Türk
+http://unirtmp.tulix.tv:1935/sat7turk/satturklive-web.smil/playlist.m3u8
+#EXTINF:-0,Thaqalayn TV
+https://live.thaqalayn.tv/hls/live.m3u8
+#EXTINF:-0,Elsharq El Awast
+https://mn-nl.mncdn.com/elsharq_live/live/chunklist.m3u8
+
+Al-Zahra TV Türkce
+https://live.al-zahratv.com/live/playlist.m3u8
+Hadi TV 7 türkce
+http://yayin.netradyom.com:1935/naki/live/playlist.m3u8

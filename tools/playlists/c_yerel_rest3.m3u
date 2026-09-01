@@ -1,0 +1,66 @@
+#EXTINF:-0,Süper Kanal Bursa
+http://yayin3.canlitv.com:1935/canlitv/superkanal/iptvdelisi.m3u8
+#EXTINF:-0,Süper TV Tokat
+https://5be5d840359c6.streamlock.net/supertv/supertv/chunklist.m3u8
+#EXTINF:-0,Tay TV
+http://media.netd.com.tr/S1/HLS_LIVE/tay/1000/prog_index.m3u8
+#EXTINF:-0,TMB TV
+http://ch.canlitvlive.io/tmb-tv/live.m3u8
+#EXTINF:-0,TBMM TV
+http://mecliscanlitv-lh.akamaihd.net/i/MECLISTV_1@127503/master.m3u8
+#EXTINF:-0,TD Bir TV
+http://play.streamkit.tv/content/channel/yecmobile/live/yecmobile.player.m3u8
+#EXTINF:-0,TE60 TV Tokat
+https://waw2.artiyerelmedya.net/te60tv/bant1/playlist.m3u8
+#EXTINF:-0,TEMPO TV
+http://waw1.artiyerelmedya.net:1935/tempotv/bant1/playlist.m3u8
+#EXTINF:-0,Trakyatürk TV
+https://tv.medyakurumsal.com:3089/live/yeni34live.m3u8
+#EXTINF:-0,TR6 TV
+http://live.arkumedia.com:1935/tr6tv/tr6tv/chunklist.m3u8
+#EXTINF:-0,TR6 TV
+https://5be5d840359c6.streamlock.net/tr6tv/tr6tv/chunklist.m3u8
+#EXTINF:0,TRT Eba TV İlkokul
+https://tv-e-okul00.live.trt.com.tr/master_720.m3u8
+#EXTINF:0,TRT Eba TV Ortaokul
+https://tv-e-okul01.live.trt.com.tr/master_720.m3u8
+#EXTINF:0,TRT Eba TV Lise
+https://tv-e-okul02.live.trt.com.tr/master_720.m3u8
+#EXTINF:-0,TRT KURDI
+https://tv-trtkurdi.live.trt.com.tr/master_720.m3u8
+#EXTINF:-0,TV A
+http://broadcasttr.com:1935/tva/bant1/iptvdelisi.m3u8
+#EXTINF:-0,TV Kayseri
+https://59cba4d34b678.streamlock.net/canlitv/tvkayseri/playlist.m3u8
+#EXTINF:-0,TV 1  Kayseri
+http://stream.taksimbilisim.com:1935/tv1/bant1/chunklist.m3u8
+#EXTINF:-0,TV 9 Izmir
+https://59cba4d34b678.streamlock.net/canlitv/tv9izmir/chunklist.m3u8
+#EXTINF:-0,TV 35
+https://59cba4d34b678.streamlock.net/canlitv/tv35/playlist.m3u8
+#EXTINF:-0,TV 38
+https://59cba4d34b678.streamlock.net/live/tv38/playlist.m3u8
+#EXTINF:-0,TV 41
+https://waw1.artiyerelmedya.net/tv41/bant1/chunks.m3u8
+#EXTINF:-0,TV 52
+http://stream.taksimbilisim.com:1935/tv52/smil:tv52.smil/iptvdelisi.m3u8
+#EXTINF:-0,TV 52 alt2
+https://broadcasttr.com:446/tv52/bant1/playlist.m3u8
+#EXTINF:-0,TV DEN
+http://canli.tvden.com.tr/hls/live.m3u8
+#EXTINF:-0,Tuzla Web TV
+http://tuzlawebtv.netmedya.org:1935/tuzlawebtv/live.sdp/iptvdelisi.m3u8
+#EXTINF:-0,Türk Haber
+https://59cba4d34b678.streamlock.net/canlitv/kanal43/chunklist.m3u8
+#EXTINF:-0,Uçankuş TV
+https://ucankus-live.cdnnew.com/ucankus/ucankus.m3u8
+#EXTINF:-0,Üniversite TV
+https://5be5d840359c6.streamlock.net/unitv/unitv/chunklist.m3u8
+#EXTINF:-0,ÜN TV - SELÇUK ÜNIVERSITESI TV
+https://59cba4d34b678.streamlock.net/live/untv/playlist.m3u8
+#EXTINF:-0,ÜÜ TV Üsküdar Üniversitesi TV
+http://uskudarunv.mediatriple.net/uskudarunv/uskudar2/iptvdelisi.m3u8
+#EXTINF:-0,VIZYON 58 TV
+https://waw2.artiyerelmedya.net/vizyon58/bant1/playlist.m3u8
+#EXTINF:-0,VUSLAT TV
+https://59cba4d34b678.streamlock.net/live/vuslattv/chunklist.m3u8

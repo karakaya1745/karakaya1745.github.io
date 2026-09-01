@@ -1,0 +1,45 @@
+#EXTINF:-0,Diyanet TV
+http://ch.canlitvlive.io/trtdiyanet/live.m3u8
+#EXTINF:-0,DOST TV
+http://137.74.150.14:8080/permabil/DOSTtv/index.m3u8
+#EXTINF:-0,LALEGÜL TV
+http://lalegultv.netmedya.net/hls/lalegultv.m3u8
+#EXTINF:-0,SEMERKAND TV
+http://mtisvwurbfcyslive.mediatriple.net/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/chunklist.m3u8
+#EXTINF:-0,Mesaj TV
+https://waw2.artiyerelmedya.net/mesajtv/bant1/playlist.m3u8
+#EXTINF:-0,Mihrap TV
+https://yayin.kudustv.com/981680400/mihraptv/playlist.m3u8
+• Tarim Kanallar
+#EXTINF:-0,Çiftçi TV
+https://waw2.artiyerelmedya.net/ciftcitv/bant1/playlist.m3u8
+#EXTINF:-0,Çiftçi TV alt2
+http://ch.canlitvlive.io/ciftci-tv/live.m3u8
+#EXTINF:-0,Köy TV
+http://ch.canlitvlive.io/koytv/live.m3u8
+#EXTINF:-0,TARIM TV
+https://usd.nocvp.com/asset/7Gx7kEbk/chunklist.m3u8
+#EXTINF:-0,Agro TV
+https://yayin.haber100.com/P650841340/agrotv/chuclink.m3u8
+• Belgesel Kanallar
+#EXTINF:-0,AV TV HD
+https://59cba4d34b678.streamlock.net/canlitv/avtv/playlist.m3u8
+#EXTINF:-0,DMAX
+https://jviqfbc2.rocketcdn.com/dmax.smil/chunklist.sltur.m3u8
+#EXTINF:-0,TLC Türkiye
+https://pa9agxjg.rocketcdn.com/tlctv.smil/chunklist.ltur.m3u8
+#EXTINF:-0,Yaban TV
+https://59cba4d34b678.streamlock.net/live1/yabantv/playlist.m3u8
+#EXTINF:-0,TRT Belgesel
+http://cdn1.streamencoding.com:1935/tgrt_belgesel/tgrt1/playlist.m3u8
+#EXTINF:-0,KANAL ORDU
+https://5be5d840359c6.streamlock.net/kanalordutv/kanalordutv/chunklist.m3u8
+#EXTINF:-0,MSBC Kanal 2000
+https://59cba4d34b678.streamlock.net/canlitv/kanal-2000/chunklist.m3u8
+#EXTINF:-0,CRI Türk Belgesel
+http://cri.aa.net.tr:1935/belgesel/belgesel/chunklist.m3u8
+• Çocuk Kanallar
+#EXTINF:-0,Cartoon Network
+http://ch.canlitvlive.io/cartoonnetwork/live.m3u8
+#EXTINF:-0,Disney Channel
+http://ch.canlitvlive.io/disneychannel/live.m3u8

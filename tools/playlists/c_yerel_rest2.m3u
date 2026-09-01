@@ -1,0 +1,60 @@
+#EXTINF:-0,MAVI KARADENIZ TV
+http://yerelmedya.tv:1935/mavikaradeniz/bant1/chunklist.m3u8
+#EXTINF:-0,MC EU TV
+https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&type=live&service=wowza&protocol=https&output=playlist.m3u8
+#EXTINF:-0,Mercan TV HD
+http://yerelmedya.tv:1935/mercantv/bant1/chunklist.m3u8
+#EXTINF:-0,Merkez TV
+http://broadcasttr.com:1935/merkeztv/smil:merkeztv.smil/iptvdelisi.m3u8
+#EXTINF:-0,Meteroloji TV
+https://b01c02nl.mediatriple.net/videoonlylive/mtfgdbkwkjllolive/broadcast_5b1673b7c36b7.smil/chunklist.m3u8
+#EXTINF:-0,Metro Türk
+http://metrotvadana.radyotvonline.net/metrotv/metrotvhd/chunklist.m3u8
+#EXTINF:-0,MOR TV
+http://live.arkumedia.com:1935/tvmor/tvmor/chunklist.m3u8
+#EXTINF:-0,MSBC Kanal 2000
+https://59cba4d34b678.streamlock.net/canlitv/kanal-2000/chunklist.m3u8
+#EXTINF:-0,MUGLATÜRK TV
+http://stream.taksimbilisim.com:1935/muglaturk/bant1/playlist.m3u8
+#EXTINF:0,Natural TV Afrika
+https://broadcasttr.com:446/naturaltv/bant1/playlist.m3u8
+#EXTINF:-0,OlayTürk Kayseri
+http://waw1.artiyerelmedya.net:1935/olayturk/bant1/chunks.m3u8
+#EXTINF:-0,ON Medya Haber
+http://live.arkumedia.com:1935/marmaratv/marmaratv/chunklist.m3u8
+#EXTINF:-0,OGÜN TV
+https://s01.vpis.io/ogun/ogun.m3u8
+#EXTINF:-0,Otağ TV
+https://59cba4d34b678.streamlock.net/canlitv/otagtv/chunklist.m3u8
+#EXTINF:-0,ÖNCÜ TV
+https://broadcasttr.com:446/oncurtv/bant1/playlist.m3u8
+#EXTINF:-0,PAMUKKALE TV
+http://ch.canlitvlive.io/pamukkale-tv/live.m3u8
+#EXTINF:-0,Refahiye 24 TV
+https://win25.yayin.com.tr/refahiye24tv/refahiye24tv/chunklist.m3u8
+#EXTINF:-0,Royal TV
+http://source2.primetime.ch:2981/play/royaltv/index.m3u8
+#EXTINF:-0,REHBER TV
+http://rehbertv.canliyayin.org/P871000884/rehbertv/chunklist.m3u8
+#EXTINF:-0,RUMELI TV
+http://yayin3.canlitv.com:1935/live/rumelitv/iptvdelisi.m3u8
+#EXTINF:-0,Sakarya TV
+http://s01.vpis.io/sakaryatelevizyonu/sakaryatelevizyonu.m3u8
+#EXTINF:-0,Samsun Canli Haber TV
+https://cdn-samsuncanlihabertv.yayin.com.tr/samsuncanlihabertv/samsuncanlihabertv/playlist.m3u8
+#EXTINF:-0,Sariyer TV
+http://s01.vpis.io/sariyer/sariyer.m3u8
+#EXTINF:-0,Sinop Yildiz TV
+http://s01.vpis.io/sinopyildiz/sinopyildiz.m3u8
+#EXTINF:-0,Siteler TV
+http://live.arkumedia.com:1935/sitelertv/sitelertv/chunklist.m3u8
+#EXTINF:-0,Sivas Belediyesi TV
+http://mn-nl.mncdn.com/sivasbel_tv_live/sivasbel_tv1/chunklist.m3u8
+#EXTINF:-0,Sivas SRT
+http://ch.canlitvlive.io/sivas-srt/live.m3u8
+#EXTINF:-0,STK TV
+https://5be5d840359c6.streamlock.net/stktv/stktv/playlist.m3u8
+#EXTINF:-0,SUN TV Konya
+http://148.251.42.124:8081/live/suntv/chunks.m3u8
+#EXTINF:-0,SUN RTV MERSIN
+http://cdn-suntv.yayin.com.tr/suntv/suntv/chunklist.m3u8

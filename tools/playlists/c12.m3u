@@ -1,0 +1,18 @@
+#EXTINF:-0,IÇEL TV
+http://stream.taksimbilisim.com:1935/iceltv/bant1/iptvdelisi.m3u8
+#EXTINF:-0,KANAL 3
+http://stream.taksimbilisim.com:1935/kanal3/smil:kanal3.smil/iptvdelisi.m3u8
+#EXTINF:-0,KANAL 15
+https://waw2.artiyerelmedya.net/kanal15/bant1/chunks.m3u8
+#EXTINF:-0,KANAL 19
+https://5be5d840359c6.streamlock.net/kanal19tv/kanal19tv/chunklist.m3u8
+#EXTINF:-0,KANAL 23
+https://cdn13-kanal23.yayin.com.tr/kanal23/ngrp:kanal23/playlist.m3u8
+#EXTINF:-0,KANAL 26
+https://waw2.artiyerelmedya.net:446/kanal26/bant1/playlist.m3u8
+#EXTINF:-0,KANAL 32
+http://ch.canlitvlive.io/kanal-32/live.m3u8
+#EXTINF:-0,KANAL 33
+https://59cba4d34b678.streamlock.net/canlitv/kanal33mersin/chunklist.m3u8
+#EXTINF:-0,KANAL 33 alt.
+http://stream.taksimbilisim.com:1935/kanal33/bant1/chunklist.m3u8

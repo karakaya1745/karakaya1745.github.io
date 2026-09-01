@@ -112,6 +112,86 @@
       "id": "local-270515",
       "localFallback": "tools/stream-health-bot/local-sources/tr-tv1-270515.m3u",
       "priority": 2
+    },
+    {
+      "id": "playlist-c01",
+      "localFallback": "tools/playlists/c01.m3u",
+      "priority": 2
+    },
+    {
+      "id": "playlist-c02",
+      "localFallback": "tools/playlists/c02.m3u",
+      "priority": 2
+    },
+    {
+      "id": "playlist-c03",
+      "localFallback": "tools/playlists/c03.m3u",
+      "priority": 2
+    },
+    {
+      "id": "playlist-c04",
+      "localFallback": "tools/playlists/c04.m3u",
+      "priority": 2
+    },
+    {
+      "id": "playlist-c05",
+      "localFallback": "tools/playlists/c05.m3u",
+      "priority": 2
+    },
+    {
+      "id": "playlist-c06",
+      "localFallback": "tools/playlists/c06.m3u",
+      "priority": 2
+    },
+    {
+      "id": "playlist-c07",
+      "localFallback": "tools/playlists/c07.m3u",
+      "priority": 2
+    },
+    {
+      "id": "playlist-c08",
+      "localFallback": "tools/playlists/c08.m3u",
+      "priority": 2
+    },
+    {
+      "id": "playlist-c09",
+      "localFallback": "tools/playlists/c09.m3u",
+      "priority": 2
+    },
+    {
+      "id": "playlist-c10",
+      "localFallback": "tools/playlists/c10.m3u",
+      "priority": 2
+    },
+    {
+      "id": "playlist-c11",
+      "localFallback": "tools/playlists/c11.m3u",
+      "priority": 2
+    },
+    {
+      "id": "playlist-c12",
+      "localFallback": "tools/playlists/c12.m3u",
+      "priority": 2
+    },
+    {
+      "id": "playlist-yerel-rest",
+      "localFallback": "tools/playlists/c_yerel_rest.m3u",
+      "priority": 2
+    },
+    {
+      "id": "playlist-yerel-rest2",
+      "localFallback": "tools/playlists/c_yerel_rest2.m3u",
+      "priority": 2
+    },
+    {
+      "id": "playlist-yerel-rest3",
+      "localFallback": "tools/playlists/c_yerel_rest3.m3u",
+      "priority": 2
+    },
+    {
+      "id": "playlist-yerel-rest4",
+      "localFallback": "tools/playlists/c_yerel_rest4.m3u",
+      "priority": 2
     }
   ]
 }

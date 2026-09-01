@@ -1,0 +1,27 @@
+#EXTINF:-0,Meteroloji TV
+https://b01c02nl.mediatriple.net/videoonlylive/mtfgdbkwkjllolive/broadcast_5b1673b7c36b7.smil/chunklist.m3u8
+#EXTINF:-0,NHT TV
+http://nhttv22.nhttv.com:29020/nhttv/nhttv/playlist.m3u8
+• KKTC Kanallari
+#EXTINF:-0,BRT 1 FHD
+http://kuzeykibris.tv/m3u8/tv_brt1.m3u8
+#EXTINF:-0,BRT 1 HD
+http://wms.brtk.net:1935/live/BRTHD/playlist.m3u8
+#EXTINF:-0,BRT 2 FHD
+http://kuzeykibris.tv/m3u8/tv_brt2.m3u8
+#EXTINF:-0,BRT 3 HD
+http://wms.brtk.net:1935/live/brt2/playlist.m3u8
+#EXTINF:-0,Kanal T FHD
+http://kuzeykibris.tv/m3u8/tv_kanalt.m3u8
+#EXTINF:-0,Kibris TV
+http://kuzeykibris.tv/m3u8/tv_ktv.m3u8
+#EXTINF:-0,Kibris TV
+https://play.kibrisfm.com/hls/canli1.m3u8
+#EXTINF:-0,Genç TV
+http://kuzeykibris.tv/m3u8/tv_genc.m3u8
+#EXTINF:-0,TV 2020
+http://kuzeykibris.tv/m3u8/tv_dialog.m3u8
+#EXTINF:-0,Sim TV
+http://kuzeykibris.tv/m3u8/tv_sim.m3u8
+#EXTINF:-0,Ada TV
+http://kuzeykibris.tv/m3u8/tv_ada.m3u8

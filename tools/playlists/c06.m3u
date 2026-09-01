@@ -1,0 +1,43 @@
+#EXTINF:-0,Minika Go
+http://ch.canlitvlive.io/minikago/live.m3u8
+#EXTINF:-0,Minika Çocuk
+http://ch.canlitvlive.io/minikacocuk/live.m3u8
+#EXTINF:-0,TV 4
+https://mn-nl.mncdn.com/karamel/karamel/chunklist.m3u8
+#EXTINF:-0,TRT Çocuk
+https://tv-trtcocuk.live.trt.com.tr/master_720.m3u8
+• Türk Web TV Kanallar
+#EXTINF:-0,Afyon Türk TV
+https://5be5d840359c6.streamlock.net/afyonturktv/afyonturktv/playlist.m3u8
+#EXTINF:-0,Aktif TV
+https://cdn.yayin.com.tr/aktiftv/aktiftv/playlist.m3u8
+#EXTINF:-0,TV Avrupa
+http://tv86905.radyotelekomtv.com:22808/almanyadaturktv/almanyadaturktv/playlist.m3u8
+#EXTINF:-0,Brüksel Türk TV
+http://live.arkumedia.com:1935/brukselturktv/brukselturktv/chunklist.m3u8
+#EXTINF:-0,Euro 90 Channel
+https://ssl4.radyotvonline.com/e90tv/e90tvlive/chunklist.m3u8
+#EXTINF:-0,Vizyon TV İsviçre
+https://vizyontv.yayin.com.tr/vizyontv/vizyontv_1080p/playlist.m3u8
+#EXTINF:-0,Viyana TV
+http://nrttn172.kesintisizyayin.com:29010/nrttn/nrttn/playlist.m3u8
+#EXTINF:-0,Elit TV İsviçre
+http://source2.primetime.ch:2981/play/elittv/index.m3u8
+#EXTINF:0,BLUTV Aksiyon
+https://d1vftv9up76vki.cloudfront.net/out/v1/6f27e3bde7274af6b06befa08cd839d7/master.m3u8
+#EXTINF:0,BLUTV KOMEDI
+https://d20aqhpvpegrs2.cloudfront.net/out/v1/d9da7879327241d3831f39b61016a353/master.m3u8
+#EXTINF:-0,CINE5 TV
+http://win1.yayin.com.tr/cine5/cine5/iptvdelisi.m3u8
+#EXTINF:-0,Kuzey Kibris TV
+http://kuzeykibris.tv/m3u8/tv_kktv.m3u8
+#EXTINF:-0,Güneş TV Kibris
+http://kuzeykibris.tv/m3u8/tv_gunes.m3u8
+#EXTINF:-0,Sürmeli TV Yozgat
+http://srmltv66.4kradyotv.com:8080/srmltv/srmltv/chunklist.m3u8
+#EXTINF:-0,Torba TV
+https://59cba4d34b678.streamlock.net/canlitv/torbatv/iptvdelisi.m3u8
+#EXTINF:-0,IBB TV
+http://wowza.istweb.tv:1935/webtv/webtv_wowza1/playlist.m3u8
+#EXTINF:-0,IBB TV 2
+http://wowza.istweb.tv:1935/dp/istanbul2/playlist.m3u8

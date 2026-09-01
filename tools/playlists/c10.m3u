@@ -1,0 +1,24 @@
+#EXTINF:-0,DHA CANLI 1
+https://5d8ef5ac99397.streamlock.net/live/smil:dhaweb.smil/chunklist.m3u8
+#EXTINF:-0,DIM TV Alanya
+https://waw2.artiyerelmedya.net/dimtv/bant1/playlist.m3u8
+#EXTINF:-0,DIYALOG TV
+http://yayin3.canlitv.com:1935/live/diyalogtv/iptvdelisi.m3u8
+#EXTINF:-0,DIYAR TV
+rtmp://yayin10.canliyayin.org/P981680400/diyartv
+#EXTINF:-0,Doğuş TV
+http://s01.vpis.io/dogustv/dogustv.m3u8
+#EXTINF:-0,DRT DENIZLI
+http://stream2.taksimbilisim.com:1935/drt/smil:drt.smil/iptvdelisi.m3u8
+#EXTINF:-0,EDESSA TV
+rtmp://185.87.252.44/edessatv/edessatv.flv
+#EXTINF:-0,Ege TV
+https://waw1.artiyerelmedya.net/egetv/bant1/playlist.m3u8
+#EXTINF:-0,Ege Atürk TV
+https://5be5d840359c6.streamlock.net/egeaturktv/egeaturktv/playlist.m3u8
+#EXTINF:-0,Ege Üniversitesi Televizyonu
+http://stream.ege.edu.tr:1935/live/live/chunklist.m3u8
+#EXTINF:-0,Elmas TV
+https://5be5d840359c6.streamlock.net/elmas67tv/elmas67tv/chunklist.m3u8
+#EXTINF:-0,E TV Manisa
+http://broadcasttr.com:1935/manisaetv/bant1/chunklist.m3u8

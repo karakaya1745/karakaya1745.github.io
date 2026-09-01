@@ -1,0 +1,42 @@
+#EXTM3U
+#EXTINF:0,ATV
+http://ch.canlitvlive.io/atv/live.m3u8
+#EXTINF:0,ATV Avrupa
+http://ch.canlitvlive.io/atv-avrupa/live.m3u8
+#EXTINF:-0,Show TV
+https://canli.ensonhaber.com/tr/showtv/index.m3u8
+#EXTINF:-0,Star TV HD
+http://lcgid8xu.rocketcdn.com/startvhd.stream_720p/chunklist.m3u8
+#EXTINF:-0,Showmax 720
+http://iptvmasterlink.dyndns.org:5566/Entry/showmax_yeni.m3u8
+#EXTINF:-0,Showmax 640
+http://ch.canlitvlive.io/show-max/live.m3u8
+#EXTINF:-0,TV8
+http://ch.canlitvlive.io/kanal8/live.m3u8
+#EXTINF:-0,TRT 1
+https://tv-trt1.live.trt.com.tr/master_720.m3u8
+#EXTINF:-0,TRT 2
+https://trtcanlitv-lh.akamaihd.net/i/TRT2_1@107981/index_720p_av-b.m3u8
+#EXTINF:-0,TRT AVAZ
+https://tv-trtavaz.live.trt.com.tr/master_720.m3u8
+#EXTINF:-0,TV EM
+https://cdn.yayin.com.tr/TVEM/TVEM/chunklist.m3u8
+#EXTINF:-0,Beyaz TV alt2
+http://ch.canlitvlive.io/beyaztv/live.m3u8
+#EXTINF:-0,EUROSTAR TV
+http://xrklj56s.rocketcdn.com/eurostar.stream_720p/chunklist.m3u8
+#EXTINF:-0,ON4 TV
+http://yayin.netradyom.com:1935/live/on4/playlist.m3u8
+• Haber Kanallar
+#EXTINF:-0,HABER GLOBAL [HD]
+https://canli.ensonhaber.com/tr/haberglobal/index.m3u8
+#EXTINF:-0,NTV
+http://api.ntv.com.tr/rss/LiveStream
+#EXTINF:-0,Habertürk
+https://canli.ensonhaber.com/tr/haberturk/index.m3u8
+#EXTINF:-0,24 TV
+https://canli.ensonhaber.com/tr/24tv/index.m3u8
+#EXTINF:-0,TV Net
+https://canli.ensonhaber.com/tr/tvnet/index.m3u8
+#EXTINF:-0,TGRT Haber
+https://canli.ensonhaber.com/tr/tgrthaber/index.m3u8

@@ -1,0 +1,40 @@
+#EXTINF:-0,TRT WORLD
+https://tv-trtworld.live.trt.com.tr/master_1080.m3u8
+#EXTINF:-0,Medya Haber
+http://137.74.205.201/live1/mh-3mbps.m3u8
+#EXTINF:-0,Finanstürk TV
+http://live.arkumedia.com:1935/finansturktv/finansturktv/playlist.m3u8
+#EXTINF:-0,KUDÜS TV
+https://yayin.kudustv.com/981680400/kudustv/playlist.m3u8
+#EXTINF:-0,YOL TV
+http://stream.yol.tv:9485/medialive/yol.m3u8
+#EXTINF:-0,CAN TV
+http://canbroadcast.com:7000/canlican/tv.m3u8
+#EXTINF:-0,AA Live
+http://mtulqxgomrllive.mediatriple.net/mtulqxgomrllive/broadcast_59f9c0c785b88.smil/chunklist.m3u8
+• Spor Kanallar
+#EXTINF:-0,GS TV Galatasaray
+https://owifavo5.rocketcdn.com/gstv/gstv.smil/chunklist_b2328000_sltur.m3u8
+#EXTINF:-0,TRT SPOR
+https://tv-trtspor1.live.trt.com.tr/master.m3u8
+#EXTINF:-0,TRT SPOR 2
+https://tv-trtspor2.live.trt.com.tr/master.m3u8
+#EXTINF:-0,Yeni Malatyaspor TV
+https://592f1881b3d5f.streamlock.net:1443/santraltv_925/santraltv_925/playlist.m3u8
+#EXTINF:-0,Sports TV
+http://live.sportstv.com.tr/hls/low/sportstv_fhd/index.m3u8
+#EXTINF:-0,Briç ve Satranç TV
+http://139.162.182.79/live/test/index.m3u8
+#EXTINF:-0,Tay TV
+http://media.netd.com.tr/S1/HLS_LIVE/tay/1000/prog_index.m3u8
+• Müzik Kanallar
+#EXTINF:-0,KRAL TV HD
+http://mid5dg6m.rocketcdn.com/kraltv_720/chunklist.m3u8
+#EXTINF:-0,KRAL POP HD
+http://bqgsd19q.rocketcdn.com/kralpop_720/chunklist.m3u8
+#EXTINF:-0,KRAL POP AKUSTIK
+http://dmu3sqri.rocketcdn.com/kraldijital-akustiktv.smil/chunklist.m3u8
+#EXTINF:-0,KRAL POP KONSER
+http://0ajuu84p.rocketcdn.com/kraldijital-popkonsertv.smil/chunklist.m3u8
+#EXTINF:-0,KRAL PERFORMANS
+http://kh2zh6sy.rocketcdn.com/kraldijital-konsertv.smil/chunklist.m3u8
