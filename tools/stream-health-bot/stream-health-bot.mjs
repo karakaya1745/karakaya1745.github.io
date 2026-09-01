@@ -444,12 +444,14 @@ async function main() {
   for (const [k, v] of Object.entries(nextMap)) {
     newStreamMapObj[k] = v;
   }
-  const mapChanged = JSON.stringify(
-    Object.fromEntries(Object.entries(streamMapRaw).filter(([k]) => k !== "_revision")),
-  ) !== JSON.stringify(Object.fromEntries(Object.entries(nextMap)));
+  // Revizyon yalnızca gerçek URL değişikliğinde artsın (yanlış karşılaştırma önlenir)
+  const mapChanged =
+    report.changed.length > 0 || report.addedUrls > 0 || report.removedUrls > 0;
 
   if (mapChanged) {
     newStreamMapObj._revision = revision + 1;
+  } else {
+    newStreamMapObj._revision = revision;
   }
 
   report.streamMapRevision = newStreamMapObj._revision;
