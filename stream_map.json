@@ -1,5 +1,5 @@
 {
-  "_revision": 138,
+  "_revision": 139,
   "360tv": [
     "https://turkmedya-live.ercdn.net/tv360/tv360_1080p.m3u8",
     "https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8",
@@ -2181,7 +2181,7 @@
     "https://vavo.sayezec.workers.dev/ID=418740351278f04c94b243"
   ],
   "trt4k": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/66a6e733-8800-42b1-a030-3a2d826c874c.ts"
+    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/66a6e733-8800-42b1-a030-3a2d826c874c.ts",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197438&extension=ts&play_token=zkjkoH1DCe"
   ],
   "trtarabi": [
