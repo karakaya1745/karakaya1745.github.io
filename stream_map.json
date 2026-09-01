@@ -1,5 +1,5 @@
 {
-  "_revision": 141,
+  "_revision": 142,
   "360tv": [
     "https://turkmedya-live.ercdn.net/tv360/tv360_1080p.m3u8",
     "https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8",
@@ -4933,5 +4933,8 @@
     "https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8",
     "https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8",
     "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-spacetoon/d8382fb9ab4b2307058f12c7ea90db54/index.m3u8"
+  ],
+  "kanalb": [
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197198&extension=ts&play_token=6NxyOt8ARr"
   ]
 }

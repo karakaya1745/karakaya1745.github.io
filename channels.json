@@ -6794,5 +6794,11 @@
     "url": "https://www.spacetoon.com/",
     "category": "Cocuk",
     "streamUrl": "https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8"
+  },
+  {
+    "name": "Kanal B",
+    "url": "https://www.kanalb.com.tr/",
+    "category": "Ulusal",
+    "streamUrl": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197198&extension=ts&play_token=6NxyOt8ARr"
   }
 ]
