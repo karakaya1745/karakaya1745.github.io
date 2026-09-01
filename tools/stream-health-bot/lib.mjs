@@ -435,6 +435,7 @@ export function streamUrlQualityScore(url) {
   else if (u.includes("720") || u.includes("_720")) score = 800_000;
   else if (u.includes("/hd") || u.includes("_hd")) score = 700_000;
   if (u.includes(".m3u8") || u.includes("/playlist") || u.includes(".smil")) score += 50;
+  if (isTrustedCdnUrl(url)) score += 80_000;
   if (isRiskyStreamUrl(url)) score -= 400_000;
   return score;
 }
@@ -453,6 +454,26 @@ export function isRiskyStreamUrl(url) {
 
 export function sortUrlsByQuality(urls) {
   return [...urls].sort((a, b) => streamUrlQualityScore(b) - streamUrlQualityScore(a));
+}
+
+/** CDN → güvenli → riskli; son çalışan (lastOk) kendi katmanında öne */
+export function orderUrlsForPlayback(urls, urlFails = {}) {
+  const promoteLastOk = (list) =>
+    [...list].sort((a, b) => {
+      const aOk = urlFails[a]?.lastOk || "";
+      const bOk = urlFails[b]?.lastOk || "";
+      if (aOk && !bOk) return -1;
+      if (!aOk && bOk) return 1;
+      if (aOk && bOk) return bOk.localeCompare(aOk);
+      return 0;
+    });
+
+  const trusted = promoteLastOk(sortUrlsByQuality(urls.filter(isTrustedCdnUrl)));
+  const safe = promoteLastOk(
+    sortUrlsByQuality(urls.filter((u) => !isTrustedCdnUrl(u) && !isRiskyStreamUrl(u))),
+  );
+  const risky = promoteLastOk(sortUrlsByQuality(urls.filter(isRiskyStreamUrl)));
+  return uniqueUrls([...trusted, ...safe, ...risky]);
 }
 
 export function detectUrlAuth(url) {

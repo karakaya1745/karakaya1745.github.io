@@ -38,6 +38,7 @@ import {
   isTurkeyM3uEntry,
   loadJson,
   normalizeChannelKey,
+  orderUrlsForPlayback,
   parseM3U,
   pooledMap,
   probeChannelPlayback,
@@ -291,6 +292,8 @@ async function mergeChannelUrls({ key, currentUrls, m3uCandidates, probeResults,
 
   if (!merged.length) merged = uniqueUrls([...currentUrls]);
 
+  merged = orderUrlsForPlayback(merged, state.urlFails || {});
+
   // Sadece yeni link eklerken üst sınır uygula; mevcut çalışanları kesme.
   if (added.length > 0 && merged.length > MAX_URLS_PER_CHANNEL) {
     const mustKeep = new Set([...keptLiveInOrder, ...keptDead, ...removed]);
@@ -302,7 +305,7 @@ async function mergeChannelUrls({ key, currentUrls, m3uCandidates, probeResults,
   const sameUrls =
     merged.length === currentUrls.length &&
     merged.every((u, i) => u === currentUrls[i]);
-  const changed = !sameUrls && (removed.length > 0 || added.length > 0);
+  const changed = !sameUrls;
 
   return {
     key,
