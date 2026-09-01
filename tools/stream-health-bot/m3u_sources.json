@@ -13,6 +13,56 @@
       "priority": 1
     },
     {
+      "id": "iptv-org-animation",
+      "url": "https://iptv-org.github.io/iptv/categories/animation.m3u",
+      "priority": 2
+    },
+    {
+      "id": "iptv-org-kids",
+      "url": "https://iptv-org.github.io/iptv/categories/kids.m3u",
+      "priority": 2
+    },
+    {
+      "id": "iptv-org-news",
+      "url": "https://iptv-org.github.io/iptv/categories/news.m3u",
+      "priority": 2
+    },
+    {
+      "id": "iptv-org-general",
+      "url": "https://iptv-org.github.io/iptv/categories/general.m3u",
+      "priority": 2
+    },
+    {
+      "id": "iptv-org-entertainment",
+      "url": "https://iptv-org.github.io/iptv/categories/entertainment.m3u",
+      "priority": 2
+    },
+    {
+      "id": "iptv-org-sports",
+      "url": "https://iptv-org.github.io/iptv/categories/sports.m3u",
+      "priority": 2
+    },
+    {
+      "id": "iptv-org-documentary",
+      "url": "https://iptv-org.github.io/iptv/categories/documentary.m3u",
+      "priority": 2
+    },
+    {
+      "id": "iptv-org-religious",
+      "url": "https://iptv-org.github.io/iptv/categories/religious.m3u",
+      "priority": 2
+    },
+    {
+      "id": "iptv-org-music",
+      "url": "https://iptv-org.github.io/iptv/categories/music.m3u",
+      "priority": 2
+    },
+    {
+      "id": "iptv-org-education",
+      "url": "https://iptv-org.github.io/iptv/categories/education.m3u",
+      "priority": 2
+    },
+    {
       "id": "zek-gist",
       "url": "https://gist.githubusercontent.com/zek/209bcd5888473014d4cc5d82390e7d56/raw",
       "priority": 2

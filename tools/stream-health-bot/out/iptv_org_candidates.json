@@ -1,0 +1,1674 @@
+{
+  "generatedAt": "2026-09-01T15:14:53.628Z",
+  "channelCount": 1017,
+  "sourceCount": 11,
+  "rawCandidateCount": 128,
+  "uniqueCandidateCount": 71,
+  "probedCount": 71,
+  "workingCount": 44,
+  "tkgsMatchCount": 0,
+  "turkishCount": 8,
+  "intlCount": 39,
+  "topCandidates": [
+    {
+      "rank": 1,
+      "name": "BabyTV Turkiye",
+      "key": "babytvturkiye",
+      "category": "Cocuk",
+      "url": "https://saran-live.ercdn.net/babytv/index.m3u8",
+      "sourceId": "iptv-org-tr",
+      "groupTitle": "Kids",
+      "tvgId": "BabyTV.uk@Turkiye",
+      "turkeyRelevant": true,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 2,
+      "name": "National Geographic",
+      "key": "nationalgeographic",
+      "category": "Belgesel",
+      "url": "https://saran-live.ercdn.net/natgeohd/index.m3u8",
+      "sourceId": "iptv-org-tr",
+      "groupTitle": "Documentary",
+      "tvgId": "NationalGeographic.tr@SD",
+      "turkeyRelevant": true,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "altUrls": [
+        "http://88.212.15.19/live/test_ngc/playlist.m3u8",
+        "http://176.61.157.250/NationalGeographic/index.m3u8",
+        "http://88.212.15.19/live/ngc_hun/index.m3u8"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "National Geographic Wild",
+      "key": "nationalgeographicwild",
+      "category": "Belgesel",
+      "url": "https://saran-live.ercdn.net/natgeowild/index.m3u8",
+      "sourceId": "iptv-org-tr",
+      "groupTitle": "Documentary",
+      "tvgId": "NationalGeographicWild.tr@SD",
+      "turkeyRelevant": true,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "altUrls": [
+        "http://88.212.15.29/live/test_ngw/playlist.m3u8",
+        "http://88.212.15.19/live/ngw_hun/index.m3u8",
+        "https://flash1.bogulus1.cfd/wild/usergenr9qsi5gt.m3u8"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "BBC First Turkiye",
+      "key": "bbcfirstturkiye",
+      "category": "Ulusal",
+      "url": "http://88.212.15.29/live/bbc_first/index.m3u8",
+      "sourceId": "iptv-org-tr",
+      "groupTitle": "Entertainment",
+      "tvgId": "BBCFirst.uk@Turkiye",
+      "turkeyRelevant": true,
+      "usefulIntl": false,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 5,
+      "name": "Luys TV",
+      "key": "luystv",
+      "category": "Ulusal",
+      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8",
+      "sourceId": "iptv-org-tr",
+      "groupTitle": "Culture",
+      "tvgId": "LuysTV.tr@SD",
+      "turkeyRelevant": true,
+      "usefulIntl": false,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 6,
+      "name": "Van 65 TV",
+      "key": "van65tv",
+      "category": "Ulusal",
+      "url": "https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8",
+      "sourceId": "iptv-org-tr",
+      "groupTitle": "General",
+      "tvgId": "Van65TV.tr@SD",
+      "turkeyRelevant": true,
+      "usefulIntl": false,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 7,
+      "name": "Med Muzik",
+      "key": "medmuzik",
+      "category": "Muzik",
+      "url": "http://54.36.110.140/live3/live3.m3u8",
+      "sourceId": "iptv-org-tr",
+      "groupTitle": "Music",
+      "tvgId": "MedMuzik.tr@SD",
+      "turkeyRelevant": true,
+      "usefulIntl": false,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 8,
+      "name": "Fox Deportes",
+      "key": "foxdeportes",
+      "category": "Spor",
+      "url": "http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8",
+      "sourceId": "iptv-org-sports",
+      "groupTitle": "Sports",
+      "tvgId": "FoxDeportes.us@SD",
+      "turkeyRelevant": true,
+      "usefulIntl": false,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 9,
+      "name": "Disney Channel Latin America",
+      "key": "disneychannellatinamerica",
+      "category": "Cocuk",
+      "url": "http://15.204.246.24:8080/DisneyHD/index.m3u8",
+      "sourceId": "iptv-org-animation",
+      "groupTitle": "Animation;Kids",
+      "tvgId": "DisneyChannelLatinAmerica.ar@Panregional",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 10,
+      "name": "Disney Channel Latin America North",
+      "key": "disneychannellatinamericanorth",
+      "category": "Cocuk",
+      "url": "http://138.121.15.230:9002/DISNEY-CHANNEL/index.m3u8",
+      "sourceId": "iptv-org-animation",
+      "groupTitle": "Animation;Kids",
+      "tvgId": "DisneyChannelLatinAmerica.ar@North",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 11,
+      "name": "Disney Channel Latin America Panregional",
+      "key": "disneychannellatinamericapanregional",
+      "category": "Cocuk",
+      "url": "http://45.134.141.161:2200/ARG/Disney_Channel/index.m3u8",
+      "sourceId": "iptv-org-animation",
+      "groupTitle": "Animation;Kids",
+      "tvgId": "DisneyChannelLatinAmerica.ar@PanregionalHD",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 12,
+      "name": "Nickelodeon Pluto TV",
+      "key": "nickelodeonplutotv",
+      "category": "Cocuk",
+      "url": "https://jmp2.uk/plu-5ca673e0d0bd6c2689c94ce3.m3u8",
+      "sourceId": "iptv-org-animation",
+      "groupTitle": "Animation;Kids",
+      "tvgId": "NickelodeonPlutoTV.us@SD",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 13,
+      "name": "Disney Channel",
+      "key": "disneychannel",
+      "category": "Cocuk",
+      "url": "http://151.80.18.177:86/Disney_Channel_HD/index.m3u8",
+      "sourceId": "iptv-org-kids",
+      "groupTitle": "Kids",
+      "tvgId": "DisneyChannel.cz@SD",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "altUrls": [
+        "http://88.212.15.19/live/test_disney/playlist.m3u8",
+        "http://88.212.15.19/live/disney_channel_hun/index.m3u8",
+        "https://galandriel1.thobias11.cfd/dysnee/usergendx0k2rnd.m3u8"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "Disney Junior",
+      "key": "disneyjunior",
+      "category": "Cocuk",
+      "url": "http://88.212.15.19/live/test_disney_junior/playlist.m3u8",
+      "sourceId": "iptv-org-kids",
+      "groupTitle": "Kids",
+      "tvgId": "DisneyJunior.cz@SD",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "altUrls": [
+        "https://atlantida1.aquax1.cfd/disjr/usergendxvoq4rnd.m3u8",
+        "http://23.237.104.106:8080/USA_DISNEY_JUNIOR/index.m3u8",
+        "http://149.71.34.166:8000/play/a00l/index.m3u8"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "Disney XD",
+      "key": "disneyxd",
+      "category": "Cocuk",
+      "url": "http://23.237.104.106:8080/USA_DISNEY_XD/index.m3u8",
+      "sourceId": "iptv-org-kids",
+      "groupTitle": "Kids",
+      "tvgId": "DisneyXD.us@East",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 16,
+      "name": "Nickelodeon",
+      "key": "nickelodeon",
+      "category": "Cocuk",
+      "url": "http://88.212.15.19/live/test_nickelodeon_hevc_25p/playlist.m3u8",
+      "sourceId": "iptv-org-kids",
+      "groupTitle": "Kids",
+      "tvgId": "Nickelodeon.cz@SD",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "altUrls": [
+        "https://ma.anixa.tv/clips/stream/nickelodeon/playlist.php",
+        "http://176.61.157.250/Nickelodeon/index.m3u8",
+        "http://88.212.15.19/live/test_nickelodeon_hu_1200_atk/playlist.m3u8"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "Nickelodeon CIS",
+      "key": "nickelodeoncis",
+      "category": "Cocuk",
+      "url": "https://stream8.cinerama.uz/1500/playlist.m3u8",
+      "sourceId": "iptv-org-kids",
+      "groupTitle": "Kids",
+      "tvgId": "NickelodeonCIS.kz@SD",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 18,
+      "name": "Nickelodeon Clásico",
+      "key": "nickelodeonclsico",
+      "category": "Cocuk",
+      "url": "https://jmp2.uk/plu-6824cda00101510f9eeaa011.m3u8",
+      "sourceId": "iptv-org-kids",
+      "groupTitle": "Kids",
+      "tvgId": "NickelodeonClasico.us@LatAm",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 19,
+      "name": "Nickelodeon Clássico",
+      "key": "nickelodeonclssico",
+      "category": "Cocuk",
+      "url": "https://jmp2.uk/plu-6824ce10c5d53e1351ceb8d1.m3u8",
+      "sourceId": "iptv-org-kids",
+      "groupTitle": "Kids",
+      "tvgId": "NickelodeonClassico.us@BR",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 20,
+      "name": "Nickelodeon Classics",
+      "key": "nickelodeonclassics",
+      "category": "Cocuk",
+      "url": "https://jmp2.uk/plu-67f3eb800a1beb98767ca748.m3u8",
+      "sourceId": "iptv-org-kids",
+      "groupTitle": "Kids",
+      "tvgId": "NickelodeonClassics.de@DACH",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 21,
+      "name": "Nickelodeon Junior",
+      "key": "nickelodeonjunior",
+      "category": "Cocuk",
+      "url": "http://151.80.18.177:86/Nickelodeon_Junior/index.m3u8",
+      "sourceId": "iptv-org-kids",
+      "groupTitle": "Kids",
+      "tvgId": "NickelodeonJunior.fr@SD",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 22,
+      "name": "Nickelodeon Latin America",
+      "key": "nickelodeonlatinamerica",
+      "category": "Cocuk",
+      "url": "http://15.204.246.24:8080/NickHD/index.m3u8",
+      "sourceId": "iptv-org-kids",
+      "groupTitle": "Kids",
+      "tvgId": "NickelodeonLatinAmerica.us@Panregional",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 23,
+      "name": "Nickelodeon Teen",
+      "key": "nickelodeonteen",
+      "category": "Cocuk",
+      "url": "https://jmp2.uk/plu-5f0d668b872e4400073acc68.m3u8",
+      "sourceId": "iptv-org-kids",
+      "groupTitle": "Kids",
+      "tvgId": "NickelodeonTeen.de@DACH",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "altUrls": [
+        "https://jmp2.uk/plu-60f5fabf0721880007cd50e3.m3u8",
+        "https://jmp2.uk/plu-5fab09a8749b1a00077d35d2.m3u8"
+      ]
+    },
+    {
+      "rank": 24,
+      "name": "Nickelodeon Toons",
+      "key": "nickelodeontoons",
+      "category": "Cocuk",
+      "url": "https://jmp2.uk/plu-5ede448d3d50590007a4419e.m3u8",
+      "sourceId": "iptv-org-kids",
+      "groupTitle": "Kids",
+      "tvgId": "NickelodeonToons.de@DACH",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "altUrls": [
+        "https://jmp2.uk/plu-645951c0e94c38000802d2cb.m3u8",
+        "https://jmp2.uk/plu-645952687cb4b100084ed52e.m3u8"
+      ]
+    },
+    {
+      "rank": 25,
+      "name": "Aaj Tak",
+      "key": "aajtak",
+      "category": "Haber",
+      "url": "https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8",
+      "sourceId": "iptv-org-news",
+      "groupTitle": "News",
+      "tvgId": "AajTak.in@SD",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "altUrls": [
+        "http://103.213.31.109:90/AajtakHD/playlist.m3u8"
+      ]
+    },
+    {
+      "rank": 26,
+      "name": "CGTN",
+      "key": "cgtn",
+      "category": "Haber",
+      "url": "https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8",
+      "sourceId": "iptv-org-news",
+      "groupTitle": "News",
+      "tvgId": "CGTN.cn@SD",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "altUrls": [
+        "https://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8"
+      ]
+    },
+    {
+      "rank": 27,
+      "name": "CGTN French",
+      "key": "cgtnfrench",
+      "category": "Haber",
+      "url": "http://145.239.5.177/214/index.m3u8",
+      "sourceId": "iptv-org-news",
+      "groupTitle": "News",
+      "tvgId": "CGTNFrench.cn@SD",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 28,
+      "name": "DW English",
+      "key": "dwenglish",
+      "category": "Haber",
+      "url": "https://amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01644-amg01644c1-amgplt0343/playlist.m3u8",
+      "sourceId": "iptv-org-news",
+      "groupTitle": "News",
+      "tvgId": "DW.de@English",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 29,
+      "name": "DW Espanol",
+      "key": "dwespanol",
+      "category": "Haber",
+      "url": "http://177.234.249.178:8888/DW/index.m3u8",
+      "sourceId": "iptv-org-news",
+      "groupTitle": "News",
+      "tvgId": "DW.de@Espanol",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 30,
+      "name": "NDTV 24x7",
+      "key": "ndtv24x7",
+      "category": "Haber",
+      "url": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/NDTV24x7.m3u8",
+      "sourceId": "iptv-org-news",
+      "groupTitle": "News",
+      "tvgId": "NDTV24x7.in@SD",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 31,
+      "name": "WION",
+      "key": "wion",
+      "category": "Haber",
+      "url": "http://vg-zeefta.akamaized.net/ptnr-yupptv/title-wion/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/20c3c0d9-0256-43fe-bca6-70fdd490b957/main.m3u8",
+      "sourceId": "iptv-org-news",
+      "groupTitle": "News",
+      "tvgId": "WION.in@SD",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 32,
+      "name": "NDTV LANKA",
+      "key": "ndtvlanka",
+      "category": "Diger",
+      "url": "https://g4wlkqqwl23a-hls-live.5centscdn.com/NDTVLANKA/1ff5fa54d14c3ff6c6bd3918bbb7db5d.sdp/playlist.m3u8",
+      "sourceId": "iptv-org-entertainment",
+      "groupTitle": "Entertainment",
+      "tvgId": "NDTVLANKA.lk@SD",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 33,
+      "name": "Red Bull TV",
+      "key": "redbulltv",
+      "category": "Spor",
+      "url": "https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8",
+      "sourceId": "iptv-org-sports",
+      "groupTitle": "Outdoor;Sports",
+      "tvgId": "RedBullTV.at@EUMENA",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 34,
+      "name": "Red Bull TV AU",
+      "key": "redbulltvau",
+      "category": "Spor",
+      "url": "https://db34cc6127ac459db55cab5f97cd66b9.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-680-WORBAUENFAST-WHALETVPLUS/680/whaletvplus/hls/master/playlist.m3u8",
+      "sourceId": "iptv-org-sports",
+      "groupTitle": "Outdoor;Sports",
+      "tvgId": "RedBullTV.at@AU",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 35,
+      "name": "Red Bull TV UK",
+      "key": "redbulltvuk",
+      "category": "Spor",
+      "url": "https://1a3566cb46914c5499fbc86fbc4ac87e.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-932-WORBUKENFAST-WHALETVPLUS/932/whaletvplus/hls/master/playlist.m3u8",
+      "sourceId": "iptv-org-sports",
+      "groupTitle": "Outdoor;Sports",
+      "tvgId": "RedBullTV.at@UK",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 36,
+      "name": "Asharq Discovery",
+      "key": "asharqdiscovery",
+      "category": "Belgesel",
+      "url": "https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8",
+      "sourceId": "iptv-org-documentary",
+      "groupTitle": "Documentary;Education",
+      "tvgId": "AsharqDiscovery.sa@SD",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 37,
+      "name": "Bloomberg Originals",
+      "key": "bloombergoriginals",
+      "category": "Belgesel",
+      "url": "https://e96a7526.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0Jsb29tYmVyZ09yaWdpbmFsc19ITFM/playlist.m3u8",
+      "sourceId": "iptv-org-documentary",
+      "groupTitle": "Business;Documentary",
+      "tvgId": "BloombergOriginals.us@Poland",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "altUrls": [
+        "https://86fdc85a.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfQmxvb21iZXJnT3JpZ2luYWxzX0hMUw/playlist.m3u8",
+        "https://bloomberg.com/media-manifest/streams/qt.m3u8"
+      ]
+    },
+    {
+      "rank": 38,
+      "name": "National Geographic East",
+      "key": "nationalgeographiceast",
+      "category": "Belgesel",
+      "url": "http://198.58.104.90:8989/natgeo/index.m3u8",
+      "sourceId": "iptv-org-documentary",
+      "groupTitle": "Documentary",
+      "tvgId": "NationalGeographic.us@HDEast",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 39,
+      "name": "National Geographic Latin America",
+      "key": "nationalgeographiclatinamerica",
+      "category": "Belgesel",
+      "url": "http://15.204.246.24:8080/NatGeoHD/index.m3u8",
+      "sourceId": "iptv-org-documentary",
+      "groupTitle": "Documentary",
+      "tvgId": "NationalGeographicLatinAmerica.us@Panregional",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 40,
+      "name": "National Geographic Wild East",
+      "key": "nationalgeographicwildeast",
+      "category": "Belgesel",
+      "url": "http://198.58.104.90:8989/natgeowild/index.m3u8",
+      "sourceId": "iptv-org-documentary",
+      "groupTitle": "Documentary",
+      "tvgId": "NationalGeographicWild.us@HDEast",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 41,
+      "name": "Smithsonian Channel Pluto TV",
+      "key": "smithsonianchannelplutotv",
+      "category": "Belgesel",
+      "url": "https://jmp2.uk/plu-6298bd10d88ef000073f16b7.m3u8",
+      "sourceId": "iptv-org-documentary",
+      "groupTitle": "Documentary",
+      "tvgId": "SmithsonianChannelPlutoTV.us@BR",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "altUrls": [
+        "https://jmp2.uk/plu-63a084934734f30007457b2c.m3u8"
+      ]
+    },
+    {
+      "rank": 42,
+      "name": "Smithsonian Channel Selects",
+      "key": "smithsonianchannelselects",
+      "category": "Belgesel",
+      "url": "https://jmp2.uk/plu-61fb988e032c0100077d5252.m3u8",
+      "sourceId": "iptv-org-documentary",
+      "groupTitle": "Documentary",
+      "tvgId": "SmithsonianChannelSelects.se@DK",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "altUrls": [
+        "https://jmp2.uk/plu-61fb9907b1b78d000717ed9f.m3u8"
+      ]
+    },
+    {
+      "rank": 43,
+      "name": "Disney Channel Latin America Center",
+      "key": "disneychannellatinamericacenter",
+      "category": "Cocuk",
+      "url": "http://181.78.8.199:8000/play/a0dn/index.m3u8",
+      "sourceId": "iptv-org-animation",
+      "groupTitle": "Animation;Kids",
+      "tvgId": "DisneyChannelLatinAmerica.ar@Center",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "altUrls": []
+    },
+    {
+      "rank": 44,
+      "name": "Disney Channel Latin America Mexico",
+      "key": "disneychannellatinamericamexico",
+      "category": "Cocuk",
+      "url": "http://45.166.93.156:9999/play/a0f3/index.m3u8",
+      "sourceId": "iptv-org-animation",
+      "groupTitle": "Animation;Kids",
+      "tvgId": "DisneyChannelLatinAmerica.ar@Mexico",
+      "turkeyRelevant": false,
+      "usefulIntl": true,
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "altUrls": []
+    }
+  ],
+  "failedNotable": [
+    {
+      "name": "Bursa TV",
+      "category": "Ulusal",
+      "url": "https://win1.yayin.com.tr/bursatv/bursatv/playlist.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "url": "https://win1.yayin.com.tr/bursatv/bursatv/playlist.m3u8",
+        "live": false,
+        "reason": "http-404",
+        "status": 404
+      }
+    },
+    {
+      "name": "Cekmeköy TV",
+      "category": "Ulusal",
+      "url": "https://cdn-cekmekoybeltv.yayin.com.tr/cekmekoybeltv/cekmekoybeltv_1080p/playlist.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "url": "https://cdn-cekmekoybeltv.yayin.com.tr/cekmekoybeltv/cekmekoybeltv_1080p/playlist.m3u8",
+        "live": false,
+        "reason": "network-error"
+      }
+    },
+    {
+      "name": "Qaf TV",
+      "category": "Ulusal",
+      "url": "https://customer-9vqui33qma2rownb.cloudflarestream.com/7792e558fe54e23bdd4b462ec275cdba/manifest/video.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "url": "https://customer-9vqui33qma2rownb.cloudflarestream.com/7792e558fe54e23bdd4b462ec275cdba/manifest/video.m3u8",
+        "live": false,
+        "reason": "not-stream",
+        "status": 204
+      }
+    },
+    {
+      "name": "BBC Earth Turkiye",
+      "category": "Belgesel",
+      "url": "https://nord.ayakkabiparti.lol/bbc/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "url": "https://nord.ayakkabiparti.lol/bbc/index.m3u8",
+        "live": false,
+        "reason": "timeout"
+      }
+    },
+    {
+      "name": "Viasat History",
+      "category": "Belgesel",
+      "url": "https://nord.ayakkabiparti.lol/viasathistory/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "url": "https://nord.ayakkabiparti.lol/viasathistory/index.m3u8",
+        "live": false,
+        "reason": "timeout"
+      }
+    },
+    {
+      "name": "11 Kanal",
+      "category": "Ulusal",
+      "url": "https://11tv-dp.cdn-04.cosmonova.net.ua/hls/11tv-dp_ua_hi/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "url": "https://11tv-dp.cdn-04.cosmonova.net.ua/hls/11tv-dp_ua_hi/index.m3u8",
+        "live": false,
+        "reason": "timeout"
+      }
+    },
+    {
+      "name": "31 Kanal",
+      "category": "Ulusal",
+      "url": "http://stream.mcquack.net/388/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "url": "http://stream.mcquack.net/388/index.m3u8",
+        "live": false,
+        "reason": "timeout"
+      }
+    },
+    {
+      "name": "FOX 13 Seattle WA",
+      "category": "Ulusal",
+      "url": "https://aegis-cloudfront-1.tubi.video/cc394198-7bde-43e8-b186-875bc0eb3037/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "url": "https://aegis-cloudfront-1.tubi.video/cc394198-7bde-43e8-b186-875bc0eb3037/index.m3u8",
+        "live": false,
+        "reason": "timeout"
+      }
+    },
+    {
+      "name": "Fox West",
+      "category": "Ulusal",
+      "url": "http://stream.cammonitorplus.net/1799/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "url": "http://stream.cammonitorplus.net/1799/index.m3u8",
+        "live": false,
+        "reason": "timeout"
+      }
+    },
+    {
+      "name": "Groovia Kanal",
+      "category": "Ulusal",
+      "url": "https://gist.githubusercontent.com/iptvonlinetv/02d209207082846012c15305f7471c55/raw/4439b54b986e696e6fcfba7a53380d85b27bbbc1/udp450.500.723:6050.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "url": "https://gist.githubusercontent.com/iptvonlinetv/02d209207082846012c15305f7471c55/raw/4439b54b986e696e6fcfba7a53380d85b27bbbc1/udp450.500.723:6050.m3u8",
+        "live": false,
+        "reason": "timeout"
+      }
+    },
+    {
+      "name": "Kanal 5",
+      "category": "Ulusal",
+      "url": "https://s2.teve.mk/tvstanici/2/playlist.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "url": "https://s2.teve.mk/tvstanici/2/playlist.m3u8",
+        "live": false,
+        "reason": "timeout"
+      }
+    },
+    {
+      "name": "Kanal 6",
+      "category": "Ulusal",
+      "url": "https://restreamer1.tnt.ba/hls/kanal6.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "url": "https://restreamer1.tnt.ba/hls/kanal6.m3u8",
+        "live": false,
+        "reason": "timeout"
+      }
+    },
+    {
+      "name": "Kanal 35",
+      "category": "Ulusal",
+      "url": "https://str2.yodacdn.net/kanal35/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "url": "https://str2.yodacdn.net/kanal35/index.m3u8",
+        "live": false,
+        "reason": "timeout"
+      }
+    },
+    {
+      "name": "Kanal A",
+      "category": "Ulusal",
+      "url": "https://streamer01.xploretv.si/__cl/cg:prod/__c/A1_SI_AKANALHD_ott/__op/dash-default/__dci/__f/index.m3u8?admin=xploreTv_test_user&redirect=true",
+      "tkgsMissing": null,
+      "probe": {
+        "url": "https://streamer01.xploretv.si/__cl/cg:prod/__c/A1_SI_AKANALHD_ott/__op/dash-default/__dci/__f/index.m3u8?admin=xploreTv_test_user&redirect=true",
+        "live": false,
+        "reason": "timeout"
+      }
+    },
+    {
+      "name": "Kanal Hovedstaden",
+      "category": "Ulusal",
+      "url": "http://khkbh.dk:8080/hls/livestream/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "url": "http://khkbh.dk:8080/hls/livestream/index.m3u8",
+        "live": false,
+        "reason": "timeout"
+      }
+    },
+    {
+      "name": "Kanal Jadid",
+      "category": "Ulusal",
+      "url": "https://kjhls.wns.live/hls/stream.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "url": "https://kjhls.wns.live/hls/stream.m3u8",
+        "live": false,
+        "reason": "timeout"
+      }
+    },
+    {
+      "name": "Kanal S",
+      "category": "Ulusal",
+      "url": "https://lives.atv.az:5443/KANAL-S/streams/kanals.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "url": "https://lives.atv.az:5443/KANAL-S/streams/kanals.m3u8",
+        "live": false,
+        "reason": "timeout"
+      }
+    },
+    {
+      "name": "ViàATV",
+      "category": "Ulusal",
+      "url": "https://streamer01.myvideoplace.tv/streamer02/hls/ATV_DIRECT_EV_111018.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "url": "https://streamer01.myvideoplace.tv/streamer02/hls/ATV_DIRECT_EV_111018.m3u8",
+        "live": false,
+        "reason": "timeout"
+      }
+    },
+    {
+      "name": "LiveNOW from FOX",
+      "category": "Haber",
+      "url": "https://pb-k5p02dtnr2162.akamaized.net/LiveNOW_from_FOX.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "url": "https://pb-k5p02dtnr2162.akamaized.net/LiveNOW_from_FOX.m3u8",
+        "live": false,
+        "reason": "timeout"
+      }
+    }
+  ],
+  "allWorking": [
+    {
+      "name": "BabyTV Turkiye",
+      "key": "babytvturkiye",
+      "category": "Cocuk",
+      "url": "https://saran-live.ercdn.net/babytv/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "sourceId": "iptv-org-tr"
+    },
+    {
+      "name": "National Geographic",
+      "key": "nationalgeographic",
+      "category": "Belgesel",
+      "url": "https://saran-live.ercdn.net/natgeohd/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "sourceId": "iptv-org-tr"
+    },
+    {
+      "name": "National Geographic Wild",
+      "key": "nationalgeographicwild",
+      "category": "Belgesel",
+      "url": "https://saran-live.ercdn.net/natgeowild/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "sourceId": "iptv-org-tr"
+    },
+    {
+      "name": "BBC First Turkiye",
+      "key": "bbcfirstturkiye",
+      "category": "Ulusal",
+      "url": "http://88.212.15.29/live/bbc_first/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "sourceId": "iptv-org-tr"
+    },
+    {
+      "name": "Luys TV",
+      "key": "luystv",
+      "category": "Ulusal",
+      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "sourceId": "iptv-org-tr"
+    },
+    {
+      "name": "Van 65 TV",
+      "key": "van65tv",
+      "category": "Ulusal",
+      "url": "https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "sourceId": "iptv-org-tr"
+    },
+    {
+      "name": "Med Muzik",
+      "key": "medmuzik",
+      "category": "Muzik",
+      "url": "http://54.36.110.140/live3/live3.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "sourceId": "iptv-org-tr"
+    },
+    {
+      "name": "Fox Deportes",
+      "key": "foxdeportes",
+      "category": "Spor",
+      "url": "http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "sourceId": "iptv-org-sports"
+    },
+    {
+      "name": "Disney Channel Latin America",
+      "key": "disneychannellatinamerica",
+      "category": "Cocuk",
+      "url": "http://15.204.246.24:8080/DisneyHD/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "sourceId": "iptv-org-animation"
+    },
+    {
+      "name": "Disney Channel Latin America North",
+      "key": "disneychannellatinamericanorth",
+      "category": "Cocuk",
+      "url": "http://138.121.15.230:9002/DISNEY-CHANNEL/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "sourceId": "iptv-org-animation"
+    },
+    {
+      "name": "Disney Channel Latin America Panregional",
+      "key": "disneychannellatinamericapanregional",
+      "category": "Cocuk",
+      "url": "http://45.134.141.161:2200/ARG/Disney_Channel/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "sourceId": "iptv-org-animation"
+    },
+    {
+      "name": "Nickelodeon Pluto TV",
+      "key": "nickelodeonplutotv",
+      "category": "Cocuk",
+      "url": "https://jmp2.uk/plu-5ca673e0d0bd6c2689c94ce3.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "sourceId": "iptv-org-animation"
+    },
+    {
+      "name": "Disney Channel",
+      "key": "disneychannel",
+      "category": "Cocuk",
+      "url": "http://151.80.18.177:86/Disney_Channel_HD/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "sourceId": "iptv-org-kids"
+    },
+    {
+      "name": "Disney Junior",
+      "key": "disneyjunior",
+      "category": "Cocuk",
+      "url": "http://88.212.15.19/live/test_disney_junior/playlist.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "sourceId": "iptv-org-kids"
+    },
+    {
+      "name": "Disney XD",
+      "key": "disneyxd",
+      "category": "Cocuk",
+      "url": "http://23.237.104.106:8080/USA_DISNEY_XD/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "sourceId": "iptv-org-kids"
+    },
+    {
+      "name": "Nickelodeon",
+      "key": "nickelodeon",
+      "category": "Cocuk",
+      "url": "http://88.212.15.19/live/test_nickelodeon_hevc_25p/playlist.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "sourceId": "iptv-org-kids"
+    },
+    {
+      "name": "Nickelodeon CIS",
+      "key": "nickelodeoncis",
+      "category": "Cocuk",
+      "url": "https://stream8.cinerama.uz/1500/playlist.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "sourceId": "iptv-org-kids"
+    },
+    {
+      "name": "Nickelodeon Clásico",
+      "key": "nickelodeonclsico",
+      "category": "Cocuk",
+      "url": "https://jmp2.uk/plu-6824cda00101510f9eeaa011.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "sourceId": "iptv-org-kids"
+    },
+    {
+      "name": "Nickelodeon Clássico",
+      "key": "nickelodeonclssico",
+      "category": "Cocuk",
+      "url": "https://jmp2.uk/plu-6824ce10c5d53e1351ceb8d1.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "sourceId": "iptv-org-kids"
+    },
+    {
+      "name": "Nickelodeon Classics",
+      "key": "nickelodeonclassics",
+      "category": "Cocuk",
+      "url": "https://jmp2.uk/plu-67f3eb800a1beb98767ca748.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "sourceId": "iptv-org-kids"
+    },
+    {
+      "name": "Nickelodeon Junior",
+      "key": "nickelodeonjunior",
+      "category": "Cocuk",
+      "url": "http://151.80.18.177:86/Nickelodeon_Junior/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "sourceId": "iptv-org-kids"
+    },
+    {
+      "name": "Nickelodeon Latin America",
+      "key": "nickelodeonlatinamerica",
+      "category": "Cocuk",
+      "url": "http://15.204.246.24:8080/NickHD/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "sourceId": "iptv-org-kids"
+    },
+    {
+      "name": "Nickelodeon Teen",
+      "key": "nickelodeonteen",
+      "category": "Cocuk",
+      "url": "https://jmp2.uk/plu-5f0d668b872e4400073acc68.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "sourceId": "iptv-org-kids"
+    },
+    {
+      "name": "Nickelodeon Toons",
+      "key": "nickelodeontoons",
+      "category": "Cocuk",
+      "url": "https://jmp2.uk/plu-5ede448d3d50590007a4419e.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "sourceId": "iptv-org-kids"
+    },
+    {
+      "name": "Aaj Tak",
+      "key": "aajtak",
+      "category": "Haber",
+      "url": "https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "sourceId": "iptv-org-news"
+    },
+    {
+      "name": "CGTN",
+      "key": "cgtn",
+      "category": "Haber",
+      "url": "https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "sourceId": "iptv-org-news"
+    },
+    {
+      "name": "CGTN French",
+      "key": "cgtnfrench",
+      "category": "Haber",
+      "url": "http://145.239.5.177/214/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "sourceId": "iptv-org-news"
+    },
+    {
+      "name": "DW English",
+      "key": "dwenglish",
+      "category": "Haber",
+      "url": "https://amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01644-amg01644c1-amgplt0343/playlist.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "sourceId": "iptv-org-news"
+    },
+    {
+      "name": "DW Espanol",
+      "key": "dwespanol",
+      "category": "Haber",
+      "url": "http://177.234.249.178:8888/DW/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "sourceId": "iptv-org-news"
+    },
+    {
+      "name": "NDTV 24x7",
+      "key": "ndtv24x7",
+      "category": "Haber",
+      "url": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/NDTV24x7.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "sourceId": "iptv-org-news"
+    },
+    {
+      "name": "WION",
+      "key": "wion",
+      "category": "Haber",
+      "url": "http://vg-zeefta.akamaized.net/ptnr-yupptv/title-wion/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/20c3c0d9-0256-43fe-bca6-70fdd490b957/main.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "sourceId": "iptv-org-news"
+    },
+    {
+      "name": "NDTV LANKA",
+      "key": "ndtvlanka",
+      "category": "Diger",
+      "url": "https://g4wlkqqwl23a-hls-live.5centscdn.com/NDTVLANKA/1ff5fa54d14c3ff6c6bd3918bbb7db5d.sdp/playlist.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "sourceId": "iptv-org-entertainment"
+    },
+    {
+      "name": "Red Bull TV",
+      "key": "redbulltv",
+      "category": "Spor",
+      "url": "https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "sourceId": "iptv-org-sports"
+    },
+    {
+      "name": "Red Bull TV AU",
+      "key": "redbulltvau",
+      "category": "Spor",
+      "url": "https://db34cc6127ac459db55cab5f97cd66b9.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-680-WORBAUENFAST-WHALETVPLUS/680/whaletvplus/hls/master/playlist.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "sourceId": "iptv-org-sports"
+    },
+    {
+      "name": "Red Bull TV UK",
+      "key": "redbulltvuk",
+      "category": "Spor",
+      "url": "https://1a3566cb46914c5499fbc86fbc4ac87e.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-932-WORBUKENFAST-WHALETVPLUS/932/whaletvplus/hls/master/playlist.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "sourceId": "iptv-org-sports"
+    },
+    {
+      "name": "Asharq Discovery",
+      "key": "asharqdiscovery",
+      "category": "Belgesel",
+      "url": "https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "sourceId": "iptv-org-documentary"
+    },
+    {
+      "name": "Bloomberg Originals",
+      "key": "bloombergoriginals",
+      "category": "Belgesel",
+      "url": "https://e96a7526.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0Jsb29tYmVyZ09yaWdpbmFsc19ITFM/playlist.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "sourceId": "iptv-org-documentary"
+    },
+    {
+      "name": "National Geographic East",
+      "key": "nationalgeographiceast",
+      "category": "Belgesel",
+      "url": "http://198.58.104.90:8989/natgeo/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "sourceId": "iptv-org-documentary"
+    },
+    {
+      "name": "National Geographic Latin America",
+      "key": "nationalgeographiclatinamerica",
+      "category": "Belgesel",
+      "url": "http://15.204.246.24:8080/NatGeoHD/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "sourceId": "iptv-org-documentary"
+    },
+    {
+      "name": "National Geographic Wild East",
+      "key": "nationalgeographicwildeast",
+      "category": "Belgesel",
+      "url": "http://198.58.104.90:8989/natgeowild/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 206
+      },
+      "sourceId": "iptv-org-documentary"
+    },
+    {
+      "name": "Smithsonian Channel Pluto TV",
+      "key": "smithsonianchannelplutotv",
+      "category": "Belgesel",
+      "url": "https://jmp2.uk/plu-6298bd10d88ef000073f16b7.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "sourceId": "iptv-org-documentary"
+    },
+    {
+      "name": "Smithsonian Channel Selects",
+      "key": "smithsonianchannelselects",
+      "category": "Belgesel",
+      "url": "https://jmp2.uk/plu-61fb988e032c0100077d5252.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "sourceId": "iptv-org-documentary"
+    },
+    {
+      "name": "Disney Channel Latin America Center",
+      "key": "disneychannellatinamericacenter",
+      "category": "Cocuk",
+      "url": "http://181.78.8.199:8000/play/a0dn/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "sourceId": "iptv-org-animation"
+    },
+    {
+      "name": "Disney Channel Latin America Mexico",
+      "key": "disneychannellatinamericamexico",
+      "category": "Cocuk",
+      "url": "http://45.166.93.156:9999/play/a0f3/index.m3u8",
+      "tkgsMissing": null,
+      "probe": {
+        "live": true,
+        "reason": "hls-manifest",
+        "status": 200
+      },
+      "sourceId": "iptv-org-animation"
+    }
+  ]
+}
