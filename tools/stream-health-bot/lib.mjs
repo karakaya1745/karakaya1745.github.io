@@ -514,6 +514,77 @@ export function shouldSkipM3uUrl(url) {
   return false;
 }
 
+/** Dağınık blokları birleştirilecek hedef kategoriler */
+export const CONSOLIDATE_TARGET_CATEGORIES = [
+  "Haber",
+  "Spor",
+  "Cocuk",
+  "Dini",
+  "Belgesel",
+  "Muzik",
+];
+
+/**
+ * Hedef kategorilerdeki dağınık kanalları ilk görünüm indeksinde tek blok haline getirir.
+ * Ulusal ve diğer kategorilerin göreli sırası korunur; tam kategori sıralaması yapılmaz.
+ * @param {object[]} channelsArray
+ * @param {string[]} [targetCategories]
+ * @returns {object[]}
+ */
+export function consolidateScatteredCategories(
+  channelsArray,
+  targetCategories = CONSOLIDATE_TARGET_CATEGORIES,
+) {
+  const targetSet = new Set(targetCategories);
+  const buckets = new Map(targetCategories.map((cat) => [cat, []]));
+
+  for (const ch of channelsArray) {
+    const cat = String(ch?.category || "").trim();
+    if (targetSet.has(cat)) buckets.get(cat).push(ch);
+  }
+
+  const written = new Set();
+  const result = [];
+  for (const ch of channelsArray) {
+    const cat = String(ch?.category || "").trim();
+    if (targetSet.has(cat)) {
+      if (!written.has(cat)) {
+        result.push(...buckets.get(cat));
+        written.add(cat);
+      }
+    } else {
+      result.push(ch);
+    }
+  }
+  return result;
+}
+
+/**
+ * Yeni kanal ekleme: hedef kategorilerde bloğun sonuna, diğerlerinde listenin sonuna.
+ * @param {object[]} channelsArray
+ * @param {object} newChannelEntry
+ * @returns {object[]}
+ */
+export function insertChannelInCategoryOrder(channelsArray, newChannelEntry) {
+  const cat = String(newChannelEntry?.category || "").trim();
+  if (!CONSOLIDATE_TARGET_CATEGORIES.includes(cat)) {
+    return [...channelsArray, newChannelEntry];
+  }
+
+  let lastIdx = -1;
+  for (let i = channelsArray.length - 1; i >= 0; i--) {
+    if (String(channelsArray[i]?.category || "").trim() === cat) {
+      lastIdx = i;
+      break;
+    }
+  }
+  if (lastIdx === -1) return [...channelsArray, newChannelEntry];
+
+  const result = [...channelsArray];
+  result.splice(lastIdx + 1, 0, newChannelEntry);
+  return result;
+}
+
 export function atomicWriteJson(filePath, data) {
   const text = `${JSON.stringify(data, null, 2)}\n`;
   const tmp = `${filePath}.tmp`;
