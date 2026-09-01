@@ -77,7 +77,8 @@
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197233&extension=ts&play_token=5x13V8PrEV",
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197233&extension=ts&play_token=5x13V8PrEV",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=197233&extension=ts&play_token=5x13V8PrEV",
-    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197233&extension=ts&play_token=5x13V8PrEV"
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197233&extension=ts&play_token=5x13V8PrEV",
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197231&extension=ts&play_token=xYOCtq7QJV"
   ],
   "aksutv": [
     "https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8",
@@ -4961,5 +4962,5 @@
     "http://line.tivi-one.net/play/live.php?mac=00:1A:79:5D:91:44&stream=197191&extension=ts&play_token=PM2eb119cV",
     "http://line.tivi-one.net/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197191&extension=ts&play_token=PM2eb119cV"
   ],
-  "_revision": 146
+  "_revision": 147
 }
