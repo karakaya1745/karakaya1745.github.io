@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-01T14:51:51.431Z",
+  "generatedAt": "2026-09-02T09:24:00.824Z",
   "dryRun": false,
-  "sourceCount": 26,
-  "catalogChannelCount": 1016,
-  "streamMapRevisionBefore": 143,
-  "candidatesTotal": 76,
+  "sourceCount": 27,
+  "catalogChannelCount": 1027,
+  "streamMapRevisionBefore": 151,
+  "candidatesTotal": 74,
   "added": [],
-  "alreadyInCatalog": 4758,
-  "skippedNotLegal": 6647,
+  "alreadyInCatalog": 4985,
+  "skippedNotLegal": 6604,
   "probeFailed": [
     {
       "name": "┃TR┃ KANAL 68",
@@ -47,43 +47,6 @@
       ]
     },
     {
-      "name": "┃TR┃ KON TV",
-      "key": "kontv",
-      "probed": 6,
-      "probeResults": [
-        {
-          "url": "https://59cba4d34b678.streamlock.net/live/kontv/chunklist.m3u8",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197191&extension=ts&play_token=PM2eb119cV",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197191&extension=ts&play_token=PM2eb119cV",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197191&extension=ts&play_token=PM2eb119cV",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197191&extension=ts&play_token=PM2eb119cV",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197191&extension=ts&play_token=PM2eb119cV",
-          "live": false,
-          "reason": "network-error"
-        }
-      ]
-    },
-    {
       "name": "Aktif TV",
       "key": "aktiftv",
       "probed": 1,
@@ -93,6 +56,19 @@
           "live": false,
           "reason": "http-404",
           "status": 404
+        }
+      ]
+    },
+    {
+      "name": "Baby TV",
+      "key": "babytv",
+      "probed": 1,
+      "probeResults": [
+        {
+          "url": "https://saran-live.ercdn.net/babytv/index.m3u8",
+          "live": false,
+          "reason": "http-401",
+          "status": 401
         }
       ]
     },
@@ -310,7 +286,7 @@
         {
           "url": "http://waw1.artiyerelmedya.net:1935/olaytv/bant1/chunklist.m3u8",
           "live": false,
-          "reason": "network-error"
+          "reason": "timeout"
         }
       ]
     },
@@ -575,18 +551,6 @@
       "probeResults": [
         {
           "url": "https://5be5d840359c6.streamlock.net/stktv/stktv/playlist.m3u8",
-          "live": false,
-          "reason": "network-error"
-        }
-      ]
-    },
-    {
-      "name": "Süper TV Tokat",
-      "key": "supertv",
-      "probed": 1,
-      "probeResults": [
-        {
-          "url": "https://5be5d840359c6.streamlock.net/supertv/supertv/chunklist.m3u8",
           "live": false,
           "reason": "network-error"
         }
@@ -1313,22 +1277,10 @@
           "reason": "timeout"
         }
       ]
-    },
-    {
-      "name": "Süper Kanal Bursa",
-      "key": "superkanalbursa",
-      "probed": 1,
-      "probeResults": [
-        {
-          "url": "http://yayin3.canlitv.com:1935/canlitv/superkanal/iptvdelisi.m3u8",
-          "live": false,
-          "reason": "network-error"
-        }
-      ]
     }
   ],
   "riskySkipped": [],
   "warnings": [],
-  "streamMapRevisionAfter": 143,
+  "streamMapRevisionAfter": 151,
   "addedCount": 0
 }

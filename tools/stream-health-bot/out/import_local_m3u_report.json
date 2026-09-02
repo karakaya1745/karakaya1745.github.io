@@ -1,10 +1,121 @@
 {
-  "generatedAt": "2026-09-01T14:55:45.995Z",
+  "generatedAt": "2026-09-02T09:27:51.723Z",
   "dryRun": false,
-  "m3uSourceCount": 26,
-  "newChannels": [],
+  "m3uSourceCount": 27,
+  "newChannels": [
+    {
+      "name": "Film Screen",
+      "key": "filmscreen",
+      "category": "Diger",
+      "urls": [
+        "https://edge-e3.evrideo.tv/f2dcbecf-5af0-47db-a82e-032112050a23_1000027346_HLS/manifest.m3u8"
+      ],
+      "probeResults": [
+        {
+          "url": "https://edge-e3.evrideo.tv/f2dcbecf-5af0-47db-a82e-032112050a23_1000027346_HLS/manifest.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "name": "Dizi TV",
+      "key": "dizitv",
+      "category": "Diger",
+      "urls": [
+        "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/dizi-tv/playlist/0.m3u8"
+      ],
+      "probeResults": [
+        {
+          "url": "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/dizi-tv/playlist/0.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "name": "SDM Sinema",
+      "key": "sdmsinema",
+      "category": "Diger",
+      "urls": [
+        "https://host.onlineradyotv.net:8081/sdmtv/tracks-v1a1/mono.m3u8"
+      ],
+      "probeResults": [
+        {
+          "url": "https://host.onlineradyotv.net:8081/sdmtv/tracks-v1a1/mono.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "name": "NDR TV",
+      "key": "ndrtv",
+      "category": "Diger",
+      "urls": [
+        "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master.m3u8"
+      ],
+      "probeResults": [
+        {
+          "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "name": "MC TV",
+      "key": "mctv",
+      "category": "Diger",
+      "urls": [
+        "https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&type=live&service=wowza&protocol=https&output=playlist.m3u8"
+      ],
+      "probeResults": [
+        {
+          "url": "https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&type=live&service=wowza&protocol=https&output=playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "name": "Syria TV",
+      "key": "syriatv",
+      "category": "Diger",
+      "urls": [
+        "https://live.kwikmotion.com/syriatvlive/syriatv.smil/playlist_dvr.m3u8"
+      ],
+      "probeResults": [
+        {
+          "url": "https://live.kwikmotion.com/syriatvlive/syriatv.smil/playlist_dvr.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    }
+  ],
   "enrichedChannels": [],
   "skippedProbeFailed": [
+    {
+      "name": "Baby TV",
+      "key": "babytv",
+      "reason": "probe-failed",
+      "probed": 1,
+      "probeResults": [
+        {
+          "url": "https://saran-live.ercdn.net/babytv/index.m3u8",
+          "live": false,
+          "reason": "http-401",
+          "status": 401
+        }
+      ]
+    },
     {
       "name": "KANAL D 8K",
       "key": "trkanald8k",
@@ -480,54 +591,6 @@
         },
         {
           "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197200&extension=ts&play_token=4eItwPJoyj",
-          "live": false,
-          "reason": "network-error"
-        }
-      ]
-    },
-    {
-      "name": "KON TV",
-      "key": "kontv",
-      "reason": "probe-failed",
-      "probed": 8,
-      "probeResults": [
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197191&extension=ts&play_token=PM2eb119cV",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197191&extension=ts&play_token=PM2eb119cV",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197191&extension=ts&play_token=PM2eb119cV",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197191&extension=ts&play_token=PM2eb119cV",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197191&extension=ts&play_token=PM2eb119cV",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197191&extension=ts&play_token=PM2eb119cV",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197191&extension=ts&play_token=PM2eb119cV",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197191&extension=ts&play_token=PM2eb119cV",
           "live": false,
           "reason": "network-error"
         }
@@ -1071,19 +1134,6 @@
       ]
     },
     {
-      "name": "Süper Kanal Bursa",
-      "key": "superkanalbursa",
-      "reason": "probe-failed",
-      "probed": 1,
-      "probeResults": [
-        {
-          "url": "http://yayin3.canlitv.com:1935/canlitv/superkanal/iptvdelisi.m3u8",
-          "live": false,
-          "reason": "network-error"
-        }
-      ]
-    },
-    {
       "name": "TV 9 Izmir",
       "key": "tv9izmir",
       "reason": "probe-failed",
@@ -1097,8 +1147,8 @@
       ]
     }
   ],
-  "totalNewUrls": 0,
-  "streamMapRevision": 143,
-  "newChannelCount": 0,
+  "totalNewUrls": 6,
+  "streamMapRevision": 152,
+  "newChannelCount": 6,
   "enrichedChannelCount": 0
 }
