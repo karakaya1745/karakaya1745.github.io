@@ -248,5 +248,55 @@
       "localFallback": "tools/playlists/c_yerel_rest4.m3u",
       "priority": 2
     }
+  ],
+  "directSources": [
+    {
+      "id": "cdn-yerelmedya",
+      "name": "Yerel Medya (yerelmedya.tv:1935)",
+      "baseUrl": "http://yerelmedya.tv/",
+      "type": "direct-hls",
+      "note": "User VLC onayli Kon TV kaynagi",
+      "addedAt": "2026-09-02T11:18:30.906Z"
+    },
+    {
+      "id": "panel-mdmfista",
+      "name": "MAG/Xtream panel (me.mdmfista.com)",
+      "baseUrl": "http://me.mdmfista.com/",
+      "type": "panel",
+      "note": "User VLC onayli panel kaynagi",
+      "addedAt": "2026-09-02T11:18:30.906Z"
+    },
+    {
+      "id": "panel-tivi-one",
+      "name": "MAG/Xtream panel (line.tivi-one.net)",
+      "baseUrl": "http://line.tivi-one.net/",
+      "type": "panel",
+      "note": "User VLC onayli panel kaynagi",
+      "addedAt": "2026-09-02T11:18:30.906Z"
+    },
+    {
+      "id": "cdn-taksimbilisim-edge",
+      "name": "Taksim Bilişim edge CDN (edge.taksimbilisim.com)",
+      "baseUrl": "https://edge.taksimbilisim.com/",
+      "type": "direct-hls",
+      "note": "User VLC onayli Kocaeli TV kaynagi",
+      "addedAt": "2026-09-02T11:18:30.906Z"
+    },
+    {
+      "id": "cdn-trt-medya",
+      "name": "TRT Medya CDN (medya.trt.com.tr / daioncdn.net)",
+      "baseUrl": "https://medya.trt.com.tr/",
+      "type": "direct-hls",
+      "note": "Resmi TRT HLS kaynaklari",
+      "addedAt": "2026-09-02T11:18:30.906Z"
+    },
+    {
+      "id": "cdn-fastly-turkmeneli",
+      "name": "Fastly CDN (global.ssl.fastly.net)",
+      "baseUrl": "https://135962.global.ssl.fastly.net/",
+      "type": "direct-hls",
+      "note": "User VLC onayli Turkmeneli TV kaynagi",
+      "addedAt": "2026-09-02T11:18:30.906Z"
+    }
   ]
 }

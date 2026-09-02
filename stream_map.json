@@ -2244,9 +2244,6 @@
   "trabzonbuyuksehirbelediyesitv": [
     "https://tv191.radyotelekom.com.tr:3612/stream/play.m3u8"
   ],
-  "TRT GENÇ": [
-    "https://tv-trtgenc.medya.trt.com.tr/master.m3u8"
-  ],
   "trt1": [
     "https://trt.daioncdn.net/trt-1/master_1080p.m3u8?&sid=7lt9umlk1uqx&app=ed3904e8-737b-4a5e-856a-1b0d7a0a94e2&ce=2",
     "https://tv-trt1.medya.trt.com.tr/master_720.m3u8",
@@ -4997,6 +4994,7 @@
     "https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8"
   ],
   "kontv": [
+    "http://yerelmedya.tv:1935/grt/_definst_/bant1/playlist.m3u8",
     "http://me.mdmfista.com/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197191&extension=ts&play_token=PM2eb119cV",
     "http://line.tivi-one.net/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197191&extension=ts&play_token=PM2eb119cV",
     "http://line.tivi-one.net/play/live.php?mac=00:1A:79:5D:91:44&stream=197191&extension=ts&play_token=PM2eb119cV",
@@ -5006,7 +5004,7 @@
     "http://me.mdmfista.com/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
     "http://line.tivi-one.net/play/live.php?mac=00:1A:79:5D:91:44&stream=197411&extension=ts&play_token=6Vh9e7AwnI"
   ],
-  "_revision": 153,
+  "_revision": 154,
   "luystv": [
     "https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8"
   ],
@@ -5028,5 +5026,15 @@
   ],
   "mctv": [
     "https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&type=live&service=wowza&protocol=https&output=playlist.m3u8"
+  ],
+  "trtgenc": [
+    "https://tv-trtgenc.medya.trt.com.tr/master.m3u8"
+  ],
+  "rumelitv": [
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197188&extension=ts&play_token=PaNAKhTAov",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197188&extension=ts&play_token=PaNAKhTAov"
+  ],
+  "turkmenelitv": [
+    "https://135962.global.ssl.fastly.net/5ff366a512987e2c0a3dabfe/live_14378e1002eb11ef9cb025207067897a/playlist.m3u8"
   ]
 }
