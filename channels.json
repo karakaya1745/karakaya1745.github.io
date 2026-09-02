@@ -159,7 +159,7 @@
     "name": "Sözcü TV",
     "url": "https://www.szctv.com.tr/canli-yayin-izle",
     "category": "Haber",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/960578312ee36cc17c5d2"
+    "streamUrl": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=540949&extension=ts&play_token=JOFxL2wUlR"
   },
   {
     "name": "TVNET",

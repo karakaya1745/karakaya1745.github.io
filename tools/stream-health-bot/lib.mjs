@@ -465,8 +465,17 @@ export function sortUrlsByQuality(urls) {
   return [...urls].sort((a, b) => streamUrlQualityScore(b) - streamUrlQualityScore(a));
 }
 
+/** helga.iptv2022.com sahte manifest tuzağı — stream_map'ten çıkar */
+export function isFakeManifestTrapUrl(url) {
+  return /helga\.iptv2022\.com/i.test(String(url || ""));
+}
+
+/** VLC-onaylı panel-öncelikli kanallar */
+const PANEL_FIRST_CHANNEL_KEYS = new Set(["sozcutv"]);
+
 /** CDN → güvenli → riskli; son çalışan (lastOk) kendi katmanında öne */
-export function orderUrlsForPlayback(urls, urlFails = {}) {
+export function orderUrlsForPlayback(urls, urlFails = {}, channelKey = null) {
+  const input = urls.filter((u) => !isFakeManifestTrapUrl(u));
   const promoteLastOk = (list) =>
     [...list].sort((a, b) => {
       const aOk = urlFails[a]?.lastOk || "";
@@ -477,12 +486,18 @@ export function orderUrlsForPlayback(urls, urlFails = {}) {
       return 0;
     });
 
-  const trusted = promoteLastOk(sortUrlsByQuality(urls.filter(isTrustedCdnUrl)));
+  const trusted = promoteLastOk(sortUrlsByQuality(input.filter(isTrustedCdnUrl)));
   const safe = promoteLastOk(
-    sortUrlsByQuality(urls.filter((u) => !isTrustedCdnUrl(u) && !isRiskyStreamUrl(u))),
+    sortUrlsByQuality(input.filter((u) => !isTrustedCdnUrl(u) && !isRiskyStreamUrl(u))),
   );
-  const risky = promoteLastOk(sortUrlsByQuality(urls.filter(isRiskyStreamUrl)));
-  return uniqueUrls([...trusted, ...safe, ...risky]);
+  const risky = promoteLastOk(sortUrlsByQuality(input.filter(isRiskyStreamUrl)));
+  let result = uniqueUrls([...trusted, ...safe, ...risky]);
+  if (channelKey && PANEL_FIRST_CHANNEL_KEYS.has(channelKey)) {
+    const panelInOrder = input.filter(isPanelIptvUrl);
+    const rest = result.filter((u) => !isPanelIptvUrl(u));
+    result = uniqueUrls([...panelInOrder, ...rest]);
+  }
+  return result;
 }
 
 export function detectUrlAuth(url) {

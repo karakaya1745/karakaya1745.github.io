@@ -1915,7 +1915,8 @@
     "https://radyo.duhnet.tv/ak_dtvh_slowturk"
   ],
   "sozcutv": [
-    "https://helga.iptv2022.com/szc_tv/index.m3u8",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=540949&extension=ts&play_token=JOFxL2wUlR",
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=540949&extension=ts&play_token=JOFxL2wUlR",
     "https://vavoo.biz-az.workers.dev/play/960578312ee36cc17c5d2",
     "https://vavoo.biz-az.workers.dev/play/2466905700da1caaa3d81e",
     "https://vavoo.biz-az.workers.dev/play/2036794972b992547192b9",
@@ -5004,7 +5005,7 @@
     "http://me.mdmfista.com/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
     "http://line.tivi-one.net/play/live.php?mac=00:1A:79:5D:91:44&stream=197411&extension=ts&play_token=6Vh9e7AwnI"
   ],
-  "_revision": 154,
+  "_revision": 155,
   "luystv": [
     "https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8"
   ],
