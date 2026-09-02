@@ -330,12 +330,6 @@
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/22309682628a9ba731b044"
   },
   {
-    "name": "Can TV",
-    "url": "https://livetv.canbroadcast.com:7443/canlican/tv.m3u8",
-    "category": "Haber",
-    "streamUrl": "https://vavoo.biz-az.workers.dev/play/3900702315d5891138ec1d"
-  },
-  {
     "name": "DHA",
     "url": "https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8",
     "category": "Haber",
@@ -414,16 +408,10 @@
     "streamUrl": "https://tjktv-live.tjk.org/tjktv2/tjktv2.m3u8"
   },
   {
-    "name": "Mutlu Spor",
-    "url": "https://mutlu.mutlumedya30.workers.dev/stream/mutlu/kanal_1781709516135.m3u8",
-    "category": "Spor",
-    "streamUrl": "https://mutlu.mutlumedya30.workers.dev/stream/mutlu/kanal_1781709516135.m3u8"
-  },
-  {
     "name": "Ekol Spor",
-    "url": "https://vavo.sayezec.workers.dev/ID=814969642ed05792517e0",
+    "url": "https://ekoltv-live.ercdn.net/ekolsport/ekolsport.m3u8",
     "category": "Spor",
-    "streamUrl": "https://vavo.sayezec.workers.dev/ID=814969642ed05792517e0"
+    "streamUrl": "https://ekoltv-live.ercdn.net/ekolsport/ekolsport.m3u8"
   },
   {
     "name": "Tay TV",
@@ -451,9 +439,9 @@
   },
   {
     "name": "Tarih TV",
-    "url": "https://tv1.arectv30.sbs/live/tarihtv.m3u8",
+    "url": "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/tarih-tv/playlist.m3u8",
     "category": "Belgesel",
-    "streamUrl": "https://tv1.arectv30.sbs/live/tarihtv.m3u8"
+    "streamUrl": "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/tarih-tv/playlist.m3u8"
   },
   {
     "name": "Yaban TV",
@@ -508,12 +496,6 @@
     "url": "https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8",
     "category": "Cocuk",
     "streamUrl": "https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8"
-  },
-  {
-    "name": "Space Toon",
-    "url": "https://www.spacetoon.com/",
-    "category": "Cocuk",
-    "streamUrl": "https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8"
   },
   {
     "name": "Cartoon Network",
@@ -652,30 +634,6 @@
     "url": "",
     "category": "Muzik",
     "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/674ea0d9-ec7c-4e7d-9059-97ddf78a1262.ts"
-  },
-  {
-    "name": "MUSLUM GURSES",
-    "url": "",
-    "category": "Muzik",
-    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/06cc2632-4bc5-480d-93bb-3b168c24a6d3.ts"
-  },
-  {
-    "name": "YILDIZ TILBE",
-    "url": "",
-    "category": "Muzik",
-    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/a26df4e9-e5ba-4c8c-8192-28adde159752.ts"
-  },
-  {
-    "name": "NESET ERTAS",
-    "url": "",
-    "category": "Muzik",
-    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/e1e02add-da86-479c-951c-2674ab4fdcdf.ts"
-  },
-  {
-    "name": "SINAN OZEN",
-    "url": "",
-    "category": "Muzik",
-    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/b22df94e-8890-4f99-8ba3-46e548260e5d.ts"
   },
   {
     "name": "Lalegul TV",
