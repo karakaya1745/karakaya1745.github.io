@@ -5005,5 +5005,8 @@
   ],
   "mukabeletv": [
     "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/mukabele-tv/playlist.m3u8"
+  ],
+  "supertv": [
+    "http://wms.shared.streamshow.it/supertv/mp4:supertv/playlist.m3u8"
   ]
 }

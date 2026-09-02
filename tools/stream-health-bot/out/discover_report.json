@@ -1,11 +1,13 @@
 {
-  "generatedAt": "2026-09-01T14:50:39.088Z",
+  "generatedAt": "2026-09-02T08:17:42.189Z",
   "dryRun": false,
-  "pending": 27,
+  "pending": 25,
   "skippedExists": [
     "TRT Spor 2",
     "TRT Genç",
     "Space Toon",
+    "Cartoon Network",
+    "Kon TV",
     "Kanal B",
     "Kocaeli TV",
     "Türkmeneli TV"
@@ -13,7 +15,34 @@
   "skippedPaid": [
     "beIN Sports Haber"
   ],
-  "discovered": [],
+  "discovered": [
+    {
+      "name": "Süper TV",
+      "key": "supertv",
+      "urls": [
+        "http://wms.shared.streamshow.it/supertv/mp4:supertv/playlist.m3u8"
+      ],
+      "m3uCandidates": 3,
+      "probeResults": [
+        {
+          "url": "http://wms.shared.streamshow.it/supertv/mp4:supertv/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        },
+        {
+          "url": "https://live.supertv.ro/live/supertv/playlist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "https://5be5d840359c6.streamlock.net/supertv/supertv/chunklist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    }
+  ],
   "notFound": [
     {
       "name": "TV8 International",
@@ -33,83 +62,11 @@
       ]
     },
     {
-      "name": "Cartoon Network",
-      "candidates": 14,
-      "probeResults": [
-        {
-          "url": "http://ch.canlitvlive.io/cartoonnetwork/live.m3u8",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "https://tv.arectv31.sbs/live/cartoonnetwork.m3u8",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "https://tv.arectv34.sbs/live/cartoonnetwork.m3u8",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "https://cartoonnetwork.blutv.com/blutv_cartoonnetwork/live.m3u8",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
-          "live": false,
-          "reason": "network-error"
-        }
-      ]
-    },
-    {
       "name": "GRT",
       "candidates": 1,
       "probeResults": [
         {
           "url": "http://yerelmedya.tv:1935/grt/_definst_/bant1/chunklist.m3u8",
-          "live": false,
-          "reason": "network-error"
-        }
-      ]
-    },
-    {
-      "name": "Kon TV",
-      "candidates": 11,
-      "probeResults": [
-        {
-          "url": "https://59cba4d34b678.streamlock.net/live/kontv/chunklist.m3u8",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197191&extension=ts&play_token=PM2eb119cV",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197191&extension=ts&play_token=PM2eb119cV",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197191&extension=ts&play_token=PM2eb119cV",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197191&extension=ts&play_token=PM2eb119cV",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197191&extension=ts&play_token=PM2eb119cV",
           "live": false,
           "reason": "network-error"
         }
@@ -369,17 +326,6 @@
       ]
     },
     {
-      "name": "Süper TV",
-      "candidates": 1,
-      "probeResults": [
-        {
-          "url": "https://5be5d840359c6.streamlock.net/supertv/supertv/chunklist.m3u8",
-          "live": false,
-          "reason": "network-error"
-        }
-      ]
-    },
-    {
       "name": "DRT Denizli",
       "candidates": 3,
       "probeResults": [
@@ -419,7 +365,9 @@
     }
   ],
   "warnings": [],
-  "addedCount": 0,
-  "addedNames": [],
-  "streamMapRevision": 143
+  "addedCount": 1,
+  "addedNames": [
+    "Süper TV"
+  ],
+  "streamMapRevision": 150
 }
