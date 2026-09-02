@@ -6862,45 +6862,9 @@
     "streamUrl": "https://edge1.socialsmart.tv/metropoltv/smil/metropoltv/bant1/chunks.m3u8?app=supersatforum"
   },
   {
-    "name": "Süper TV",
-    "url": "https://www.supertv.com.tr/",
-    "category": "Ulusal",
-    "streamUrl": "http://wms.shared.streamshow.it/supertv/mp4:supertv/playlist.m3u8"
-  },
-  {
-    "name": "Film Screen",
-    "url": "",
-    "category": "Diger",
-    "streamUrl": "https://edge-e3.evrideo.tv/f2dcbecf-5af0-47db-a82e-032112050a23_1000027346_HLS/manifest.m3u8"
-  },
-  {
-    "name": "Dizi TV",
-    "url": "",
-    "category": "Diger",
-    "streamUrl": "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/dizi-tv/playlist/0.m3u8"
-  },
-  {
-    "name": "SDM Sinema",
-    "url": "",
-    "category": "Diger",
-    "streamUrl": "https://host.onlineradyotv.net:8081/sdmtv/tracks-v1a1/mono.m3u8"
-  },
-  {
-    "name": "NDR TV",
-    "url": "",
-    "category": "Diger",
-    "streamUrl": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master.m3u8"
-  },
-  {
     "name": "MC TV",
     "url": "",
     "category": "Diger",
     "streamUrl": "https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&type=live&service=wowza&protocol=https&output=playlist.m3u8"
-  },
-  {
-    "name": "Syria TV",
-    "url": "",
-    "category": "Diger",
-    "streamUrl": "https://live.kwikmotion.com/syriatvlive/syriatv.smil/playlist_dvr.m3u8"
   }
 ]

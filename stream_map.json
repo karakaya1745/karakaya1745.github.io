@@ -5006,7 +5006,7 @@
     "http://me.mdmfista.com/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
     "http://line.tivi-one.net/play/live.php?mac=00:1A:79:5D:91:44&stream=197411&extension=ts&play_token=6Vh9e7AwnI"
   ],
-  "_revision": 152,
+  "_revision": 153,
   "luystv": [
     "https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8"
   ],
@@ -5026,26 +5026,7 @@
   "mukabeletv": [
     "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/mukabele-tv/playlist.m3u8"
   ],
-  "supertv": [
-    "http://wms.shared.streamshow.it/supertv/mp4:supertv/playlist.m3u8",
-    "http://iptv.supertv.ro:8000/play/a001/index.m3u8"
-  ],
-  "filmscreen": [
-    "https://edge-e3.evrideo.tv/f2dcbecf-5af0-47db-a82e-032112050a23_1000027346_HLS/manifest.m3u8"
-  ],
-  "dizitv": [
-    "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/dizi-tv/playlist/0.m3u8"
-  ],
-  "sdmsinema": [
-    "https://host.onlineradyotv.net:8081/sdmtv/tracks-v1a1/mono.m3u8"
-  ],
-  "ndrtv": [
-    "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master.m3u8"
-  ],
   "mctv": [
     "https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&type=live&service=wowza&protocol=https&output=playlist.m3u8"
-  ],
-  "syriatv": [
-    "https://live.kwikmotion.com/syriatvlive/syriatv.smil/playlist_dvr.m3u8"
   ]
 }
