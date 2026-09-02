@@ -39,6 +39,7 @@ import {
   loadJson,
   normalizeChannelKey,
   orderUrlsForPlayback,
+  isSozcuProtectedPanelUrl,
   parseM3U,
   pooledMap,
   probeChannelPlayback,
@@ -246,7 +247,8 @@ async function mergeChannelUrls({ key, currentUrls, m3uCandidates, probeResults,
   const allowRemove = !skipProbeRun;
   for (const d of dead) {
     const streak = Number(state.urlFails[d.url]?.failStreak) || 0;
-    const canRemove = allowRemove && streak >= FAIL_STREAK_REMOVE && live.length > 0;
+    const protectedPanel = key === "sozcutv" && isSozcuProtectedPanelUrl(d.url);
+    const canRemove = allowRemove && streak >= FAIL_STREAK_REMOVE && live.length > 0 && !protectedPanel;
     if (canRemove) removed.push(d.url);
     else keptDead.push(d.url);
   }
@@ -292,7 +294,7 @@ async function mergeChannelUrls({ key, currentUrls, m3uCandidates, probeResults,
 
   if (!merged.length) merged = uniqueUrls([...currentUrls]);
 
-  merged = orderUrlsForPlayback(merged, state.urlFails || {});
+  merged = orderUrlsForPlayback(merged, state.urlFails || {}, key);
 
   // Sadece yeni link eklerken üst sınır uygula; mevcut çalışanları kesme.
   if (added.length > 0 && merged.length > MAX_URLS_PER_CHANNEL) {

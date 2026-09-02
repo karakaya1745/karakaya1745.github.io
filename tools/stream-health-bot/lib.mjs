@@ -473,6 +473,16 @@ export function isFakeManifestTrapUrl(url) {
 /** VLC-onaylı panel-öncelikli kanallar */
 const PANEL_FIRST_CHANNEL_KEYS = new Set(["sozcutv"]);
 
+/** Sözcü TV panel URL'leri — health bot tarafından asla silinmez / alta itilmez */
+export function isSozcuProtectedPanelUrl(url) {
+  const u = String(url || "").toLowerCase();
+  return (
+    u.includes("live.php") &&
+    u.includes("stream=540949") &&
+    (u.includes("line.tivi-one") || u.includes("mdmfista") || u.includes("mag.tivi-one"))
+  );
+}
+
 /** CDN → güvenli → riskli; son çalışan (lastOk) kendi katmanında öne */
 export function orderUrlsForPlayback(urls, urlFails = {}, channelKey = null) {
   const input = urls.filter((u) => !isFakeManifestTrapUrl(u));
@@ -493,8 +503,12 @@ export function orderUrlsForPlayback(urls, urlFails = {}, channelKey = null) {
   const risky = promoteLastOk(sortUrlsByQuality(input.filter(isRiskyStreamUrl)));
   let result = uniqueUrls([...trusted, ...safe, ...risky]);
   if (channelKey && PANEL_FIRST_CHANNEL_KEYS.has(channelKey)) {
-    const panelInOrder = input.filter(isPanelIptvUrl);
-    const rest = result.filter((u) => !isPanelIptvUrl(u));
+    const panelInOrder = input.filter(
+      (u) => isPanelIptvUrl(u) || (channelKey === "sozcutv" && isSozcuProtectedPanelUrl(u)),
+    );
+    const rest = result.filter(
+      (u) => !isPanelIptvUrl(u) && !(channelKey === "sozcutv" && isSozcuProtectedPanelUrl(u)),
+    );
     result = uniqueUrls([...panelInOrder, ...rest]);
   }
   return result;
