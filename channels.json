@@ -432,6 +432,18 @@
     "streamUrl": "https://vavoo.biz-az.workers.dev/play/1534287048d3b84ea2e278"
   },
   {
+    "name": "SIFIR TV",
+    "url": "",
+    "category": "Spor",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/09ba421a-ffb3-43f1-9ef2-768f4830db55.ts"
+  },
+  {
+    "name": "WWE SMACKDOWN",
+    "url": "",
+    "category": "Spor",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/350ad2eb-5ece-4271-bb79-97e11cbb604c.ts"
+  },
+  {
     "name": "TRT Belgesel",
     "url": "https://www.trtizle.com/canli/tv/trt-belgesel",
     "category": "Kamu",
@@ -472,6 +484,72 @@
     "url": "https://mn-nl.mncdn.com/gzttv/gzttv/playlist.m3u8",
     "category": "Belgesel",
     "streamUrl": "https://mn-nl.mncdn.com/gzttv/gzttv/playlist.m3u8"
+  },
+  {
+    "name": "DISCOVERY CHANNEL",
+    "url": "",
+    "category": "Belgesel",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/cd2284b3-d910-4312-a8ee-d816963d6235.ts"
+  },
+  {
+    "name": "DISCOVERY ID",
+    "url": "",
+    "category": "Belgesel",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/235a6131-82ae-4ab9-bdc0-ea5df67a48cd.ts"
+  },
+  {
+    "name": "VIASAT EXPLORE",
+    "url": "",
+    "category": "Belgesel",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/a9d14c3c-b7b2-4a47-83aa-a361ada39615.ts"
+  },
+  {
+    "name": "VIASAT HISTORY",
+    "url": "",
+    "category": "Belgesel",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/1b5c4ce8-04a1-4c07-bfbd-f04ce9b1fda5.ts"
+  },
+  {
+    "name": "GLFE GURME",
+    "url": "",
+    "category": "Belgesel",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/414b934d-dd89-4fcd-9c46-09725c538289.ts"
+  },
+  {
+    "name": "DA VINCI",
+    "url": "",
+    "category": "Belgesel",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/3dfdd8bc-788f-4836-8548-d6875ca15fed.ts"
+  },
+  {
+    "name": "HABITAT",
+    "url": "",
+    "category": "Belgesel",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/7981b173-c0c6-4fcd-bc1f-ca90f0e4b385.ts"
+  },
+  {
+    "name": "ANIMAUX",
+    "url": "",
+    "category": "Belgesel",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/444dcc84-b195-42c6-85dc-07c43430553a.ts"
+  },
+  {
+    "name": "CHASSE & PECHE",
+    "url": "",
+    "category": "Belgesel",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/dea5fad5-14b2-4cce-9f87-ab113953c371.ts"
+  },
+  {
+    "name": "FASHION TV",
+    "url": "",
+    "category": "Belgesel",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/3d6d3894-3380-4106-9b10-f5db47566eb4.ts"
+  },
+  {
+    "name": "LOVE NATURE",
+    "url": "",
+    "category": "Belgesel",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/e6c0d979-a624-4473-bb58-e2defbd7c907.ts"
   },
   {
     "name": "Hunat TV",
@@ -640,6 +718,162 @@
     "url": "",
     "category": "Muzik",
     "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/d8d9294f-5f4a-4d17-b4cb-c02d940154c1.ts"
+  },
+  {
+    "name": "90'LAR",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/b9861fd0-3470-4026-afd9-f313d2074ef9.ts"
+  },
+  {
+    "name": "ARABESK",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/3e8680f1-5f33-42d3-a332-6103e9f7cd46.ts"
+  },
+  {
+    "name": "BLUES",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/3e2690f1-9628-4e91-a695-9d8dd2101972.ts"
+  },
+  {
+    "name": "CALISIRKEN",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/46be1d9e-1ffd-40d9-b7bb-3cbc1cb22bc5.ts"
+  },
+  {
+    "name": "DINI MUSIKI",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/94d2bc87-4cd2-4b85-994a-85214b25720c.ts"
+  },
+  {
+    "name": "JAZZ",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/fbb51dd8-4161-4506-a23b-a55f830b0d97.ts"
+  },
+  {
+    "name": "LOUNGE",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/6272d74d-aa00-4cf5-bd65-d286166c24d0.ts"
+  },
+  {
+    "name": "RETRO",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/79870e82-d2bc-4948-abf6-360052df2631.ts"
+  },
+  {
+    "name": "TRACE URBAN",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/4fe85482-b061-4bd8-b351-83e1222d3a3b.ts"
+  },
+  {
+    "name": "MTV HITS",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/2f977e3f-73ef-4c47-8b3c-0cc8886e4d26.ts"
+  },
+  {
+    "name": "MEZZO LIVE",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/2999d1be-0e9f-4b96-bd93-81d939a9bdfa.ts"
+  },
+  {
+    "name": "MCM TOP",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/674ea0d9-ec7c-4e7d-9059-97ddf78a1262.ts"
+  },
+  {
+    "name": "HRT AKDENIZ HQ",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/8907032e-f796-49df-9a77-55732b4af266.ts"
+  },
+  {
+    "name": "DAMAR TURKULER",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/ae48d7c6-e896-4b41-9960-77e8f858ebf3.ts"
+  },
+  {
+    "name": "TURKULER 2",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/7520ab52-0bde-41e0-aafd-395a881b6ab4.ts"
+  },
+  {
+    "name": "IBRAHIM TATLISES 3",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/da77f422-b7c0-41d3-b3df-3eb33f16827e.ts"
+  },
+  {
+    "name": "ORHAN GENCEBAY 2",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/5496ce03-f8bb-45f8-a421-4f23dc77f71e.ts"
+  },
+  {
+    "name": "EDIP AKBAYRAM",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/47ce823c-6ec8-4a9f-adf9-e6c86671ebb9.ts"
+  },
+  {
+    "name": "FERDI TAYFUR 2",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/6c72a99f-ac28-4e96-8dfe-0a9f9ad011c2.ts"
+  },
+  {
+    "name": "TARKAN 2",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/407359fd-6682-493b-a638-89c0907bc67d.ts"
+  },
+  {
+    "name": "MUSLUM GURSES",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/06cc2632-4bc5-480d-93bb-3b168c24a6d3.ts"
+  },
+  {
+    "name": "AHMET KAYA",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/9aa589c5-ca1a-4015-beb7-66b99ab3e7c3.ts"
+  },
+  {
+    "name": "YILDIZ TILBE",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/a26df4e9-e5ba-4c8c-8192-28adde159752.ts"
+  },
+  {
+    "name": "NESET ERTAS",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/e1e02add-da86-479c-951c-2674ab4fdcdf.ts"
+  },
+  {
+    "name": "SELDA BAGCAN",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/94e2093f-4c0c-4720-a7db-107592fc6346.ts"
+  },
+  {
+    "name": "SINAN OZEN",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/b22df94e-8890-4f99-8ba3-46e548260e5d.ts"
   },
   {
     "name": "Lalegul TV",
@@ -6902,5 +7136,71 @@
     "url": "",
     "category": "Yasam",
     "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/1413062b-8a59-4602-8a8c-8c40c3e2c428.ts"
+  },
+  {
+    "name": "DOCU SCREEN",
+    "url": "",
+    "category": "Ulusal",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/324304a1-0293-4cda-ae6a-8fbed5ee2ebf.ts"
+  },
+  {
+    "name": "FIGHTBOX",
+    "url": "",
+    "category": "Ulusal",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/90b8975e-ee50-4248-bc2f-97e13eee4fc3.ts"
+  },
+  {
+    "name": "NBA TV",
+    "url": "",
+    "category": "Ulusal",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/43318fc7-6304-4681-a79c-671eb9755b2b.ts"
+  },
+  {
+    "name": "COCUK SMART",
+    "url": "",
+    "category": "Ulusal",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/b39e156a-aa7c-4995-a739-3953c3bfdc14.ts"
+  },
+  {
+    "name": "SINEMA 1",
+    "url": "",
+    "category": "Ulusal",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/bb785119-24eb-40c4-9820-1933e33e9024.ts"
+  },
+  {
+    "name": "MOVIESMART CLASSIC",
+    "url": "",
+    "category": "Ulusal",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/374f34dc-73c5-432b-8e80-5d6781944611.ts"
+  },
+  {
+    "name": "DIZISMART PREMIUM",
+    "url": "",
+    "category": "Ulusal",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/4e61e9f1-b401-4a2e-9833-89bb42d08e5b.ts"
+  },
+  {
+    "name": "GLFE SERIES 1",
+    "url": "",
+    "category": "Sinema",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/95f7b02c-2ef6-4093-a775-363dbca8732d.ts"
+  },
+  {
+    "name": "GLFE MOVIES PREMIERE 1",
+    "url": "",
+    "category": "Sinema",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/a54e7db4-03c7-45b6-bf55-8c31f0b7a209.ts"
+  },
+  {
+    "name": "FILMBOX",
+    "url": "",
+    "category": "Sinema",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/3a77afda-bccb-4e1f-9c5a-b859780d848e.ts"
+  },
+  {
+    "name": "ANADOLU DERNEK TV",
+    "url": "",
+    "category": "Yasam",
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/3a7ca3ee-dae7-430c-919d-24f6f13855ed.ts"
   }
 ]
