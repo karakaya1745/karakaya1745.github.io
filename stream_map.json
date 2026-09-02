@@ -5159,7 +5159,7 @@
     "http://me.mdmfista.com/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
     "http://line.tivi-one.net/play/live.php?mac=00:1A:79:5D:91:44&stream=197411&extension=ts&play_token=6Vh9e7AwnI"
   ],
-  "_revision": 159,
+  "_revision": 160,
   "luystv": [
     "https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8"
   ],
@@ -5212,195 +5212,26 @@
   "dreamtv": [
     "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/d8d9294f-5f4a-4d17-b4cb-c02d940154c1.ts"
   ],
-  "docuscreen": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/324304a1-0293-4cda-ae6a-8fbed5ee2ebf.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/0ece051b-708b-4b7c-a8ab-2002b0256307.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/3a135a55-956e-499c-bad8-f8198f4fb287.ts"
-  ],
-  "fightbox": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/90b8975e-ee50-4248-bc2f-97e13eee4fc3.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/2d8004e6-f885-4570-9fe2-c933241f2ac2.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/8aed2177-21b6-41bc-93d2-87700e1c1f09.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/b3f77183-35d6-454d-aa33-4d705b523836.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/97b4aa30-aa52-4bea-ab1e-de426a35dba1.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/d0bc8932-cd8a-40e8-9f50-afbf31293684.ts"
-  ],
-  "nbatv": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/43318fc7-6304-4681-a79c-671eb9755b2b.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/e75fffdb-1e33-4422-957d-5d6398b3da5a.ts"
-  ],
   "cocuksmart": [
     "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/b39e156a-aa7c-4995-a739-3953c3bfdc14.ts"
-  ],
-  "sinema1": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/bb785119-24eb-40c4-9820-1933e33e9024.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/bf2a306f-3cde-49d6-ab76-c5feb08b91b8.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/77296fca-f37f-4b64-9467-df7e8e8c7116.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/b8b7176a-e659-4aa4-80d8-6220cb5a2ee6.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/a4c160b5-0c65-450e-99f3-8d404968f237.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/a51c62e1-199f-4271-bd9c-d2d714204230.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/5e63d3ac-dc1e-4090-a869-7f592e54eedc.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/9d3ab7ed-e8fb-4de1-8aa0-cdfa4d212ffa.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/b7c7dca9-7f97-45f8-8551-40265f873c14.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/51275382-4938-4a15-9a06-c7843293decf.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/00ab09d5-fad5-429b-b765-53de52fbd50d.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/98cc7752-8ef1-4175-81e3-4e3d2032cd6d.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/ccc9c93c-1817-4008-9363-d6f58ebeae5e.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/01ab29a4-310a-4cf3-8ce1-88312e2035e4.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/58558763-81ac-4b6b-b4a7-bf9f1f5f54b9.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/ab405e25-92a6-47f2-a722-a90c757c9ea1.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/117a70be-d82b-40dc-a53f-46c76555abda.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/aea631ee-ae1f-47d2-9fbc-70ab593d9047.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/0cef4dcb-8d99-43d4-9719-565bfd7b3120.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/42d8aaea-b75b-48e8-9b06-c89e3b188016.ts"
-  ],
-  "moviesmartclassic": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/374f34dc-73c5-432b-8e80-5d6781944611.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/427bc94d-b052-43c2-99d7-980e73ed4840.ts"
-  ],
-  "dizismartpremium": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/4e61e9f1-b401-4a2e-9833-89bb42d08e5b.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/9e5c54cb-c3b6-45cd-bb3a-4fd057725bae.ts"
-  ],
-  "sifirtv": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/09ba421a-ffb3-43f1-9ef2-768f4830db55.ts"
-  ],
-  "wwesmackdown": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/350ad2eb-5ece-4271-bb79-97e11cbb604c.ts"
-  ],
-  "discoverychannel": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/cd2284b3-d910-4312-a8ee-d816963d6235.ts"
-  ],
-  "discoveryid": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/235a6131-82ae-4ab9-bdc0-ea5df67a48cd.ts"
-  ],
-  "viasatexplore": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/a9d14c3c-b7b2-4a47-83aa-a361ada39615.ts"
-  ],
-  "viasathistory": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/1b5c4ce8-04a1-4c07-bfbd-f04ce9b1fda5.ts"
-  ],
-  "glfegurme": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/414b934d-dd89-4fcd-9c46-09725c538289.ts"
-  ],
-  "davinci": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/3dfdd8bc-788f-4836-8548-d6875ca15fed.ts"
-  ],
-  "habitat": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/7981b173-c0c6-4fcd-bc1f-ca90f0e4b385.ts"
-  ],
-  "animaux": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/444dcc84-b195-42c6-85dc-07c43430553a.ts"
-  ],
-  "chassepeche": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/dea5fad5-14b2-4cce-9f87-ab113953c371.ts"
-  ],
-  "fashiontv": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/3d6d3894-3380-4106-9b10-f5db47566eb4.ts"
-  ],
-  "lovenature": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/e6c0d979-a624-4473-bb58-e2defbd7c907.ts"
-  ],
-  "glfeseries1": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/95f7b02c-2ef6-4093-a775-363dbca8732d.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/d03ac11a-7d5b-4319-a59e-f77f94e1334d.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/61dc4033-b65e-481d-9373-2460d26be826.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/1179492c-59c1-4dbf-b1fa-ff4adf0b87d5.ts"
-  ],
-  "glfemoviespremiere1": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/a54e7db4-03c7-45b6-bf55-8c31f0b7a209.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/240769ea-3656-4814-b292-c28372393ce9.ts"
-  ],
-  "filmbox": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/3a77afda-bccb-4e1f-9c5a-b859780d848e.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/d3c20271-8eee-4dc6-b321-20cc58b1f9fc.ts"
   ],
   "anadoludernektv": [
     "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/3a7ca3ee-dae7-430c-919d-24f6f13855ed.ts"
   ],
-  "90lar": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/b9861fd0-3470-4026-afd9-f313d2074ef9.ts"
-  ],
-  "arabesk": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/3e8680f1-5f33-42d3-a332-6103e9f7cd46.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/5306165a-35a6-40a4-a553-99e0b42d6c47.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/4b63bc73-7c9d-4f92-b213-ceae272ac42a.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/656eb745-57cd-4d1b-b699-17c181b8bddd.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/1816231f-b1ef-4b4c-9224-9799cb176da8.ts"
-  ],
-  "blues": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/3e2690f1-9628-4e91-a695-9d8dd2101972.ts"
-  ],
-  "calisirken": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/46be1d9e-1ffd-40d9-b7bb-3cbc1cb22bc5.ts"
-  ],
-  "dinimusiki": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/94d2bc87-4cd2-4b85-994a-85214b25720c.ts"
-  ],
-  "jazz": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/fbb51dd8-4161-4506-a23b-a55f830b0d97.ts"
-  ],
-  "lounge": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/6272d74d-aa00-4cf5-bd65-d286166c24d0.ts"
-  ],
   "retro": [
     "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/79870e82-d2bc-4948-abf6-360052df2631.ts"
-  ],
-  "traceurban": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/4fe85482-b061-4bd8-b351-83e1222d3a3b.ts"
-  ],
-  "mtvhits": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/2f977e3f-73ef-4c47-8b3c-0cc8886e4d26.ts"
-  ],
-  "mezzolive": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/2999d1be-0e9f-4b96-bd93-81d939a9bdfa.ts"
   ],
   "mcmtop": [
     "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/674ea0d9-ec7c-4e7d-9059-97ddf78a1262.ts"
   ],
-  "hrtakdenizhq": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/8907032e-f796-49df-9a77-55732b4af266.ts"
-  ],
-  "damarturkuler": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/ae48d7c6-e896-4b41-9960-77e8f858ebf3.ts"
-  ],
-  "turkuler2": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/7520ab52-0bde-41e0-aafd-395a881b6ab4.ts"
-  ],
-  "ibrahimtatlises3": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/da77f422-b7c0-41d3-b3df-3eb33f16827e.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/9ebc6099-55e2-4f13-8173-dc3939d3fa00.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/3d1a2ce7-4d1d-482d-bbff-dc9e4b5adfa2.ts"
-  ],
-  "orhangencebay2": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/5496ce03-f8bb-45f8-a421-4f23dc77f71e.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/cca583db-ca73-4623-9707-e900c8951103.ts"
-  ],
-  "edipakbayram": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/47ce823c-6ec8-4a9f-adf9-e6c86671ebb9.ts"
-  ],
-  "ferditayfur2": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/6c72a99f-ac28-4e96-8dfe-0a9f9ad011c2.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/0620b653-caf6-4682-b1f5-15724ed4962c.ts"
-  ],
-  "tarkan2": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/7206baea-f3b5-49a3-b83c-46a995b44975.ts",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/407359fd-6682-493b-a638-89c0907bc67d.ts"
-  ],
   "muslumgurses": [
     "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/06cc2632-4bc5-480d-93bb-3b168c24a6d3.ts"
-  ],
-  "ahmetkaya": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/9aa589c5-ca1a-4015-beb7-66b99ab3e7c3.ts"
   ],
   "yildiztilbe": [
     "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/a26df4e9-e5ba-4c8c-8192-28adde159752.ts"
   ],
   "nesetertas": [
     "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/e1e02add-da86-479c-951c-2674ab4fdcdf.ts"
-  ],
-  "seldabagcan": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/94e2093f-4c0c-4720-a7db-107592fc6346.ts"
   ],
   "sinanozen": [
     "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/b22df94e-8890-4f99-8ba3-46e548260e5d.ts"
