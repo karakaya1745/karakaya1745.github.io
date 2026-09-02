@@ -253,6 +253,18 @@
       "localFallback": "tools/stream-health-bot/local-sources/ss_favori.m3u",
       "priority": 2,
       "note": "User ss_favori playlist (2026-09-02)"
+    },
+    {
+      "id": "local-haber-txt",
+      "localFallback": "tools/stream-health-bot/local-sources/Haber_txt.m3u",
+      "priority": 2,
+      "note": "User local-haber-txt playlist (2026-09-02)"
+    },
+    {
+      "id": "local-glife-leg-11",
+      "localFallback": "tools/stream-health-bot/local-sources/GLife-leg-11.m3u",
+      "priority": 2,
+      "note": "User local-glife-leg-11 playlist (2026-09-02)"
     }
   ],
   "directSources": [

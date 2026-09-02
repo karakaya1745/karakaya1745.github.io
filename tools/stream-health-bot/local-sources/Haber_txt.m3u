@@ -1,0 +1,90 @@
+#EXTM3U
+#EXTINF:-1,24 Haber
+https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
+#EXTINF:-1,A Haber
+https://trn03.tulix.tv/gt-ahabertv/index.m3u8
+#EXTINF:-1,A News Haber
+https://trn03.tulix.tv/gt-anews/index.m3u8
+#EXTINF:-1,A Para Haber
+https://goldvod.org/live/hpgdisco/123456/131.m3u8
+#EXTINF:-1,Akit Tv Haber
+https://akittv-live.ercdn.net/akittv/akittv.m3u8
+#EXTINF:-1,BenguTurk Tv Haber
+https://tv.ensonhaber.com/benguturk/benguturk.m3u8
+#EXTINF:-1,Bloomberg Tv Haber
+https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8
+#EXTINF:-1,Cnbc-e Tv Haber
+https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
+#EXTINF:-1,Cnn Turk Tv Haber
+https://raw.githubusercontent.com/tecotv2025/tecotv/refs/heads/main/playlist/Cnn_Turk.m3u8
+#EXTINF:-1,Dha 1 Tv Haber
+https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/chunklist_w630024058.m3u8
+#EXTINF:-1,Dha 2 Tv Haber
+https://603c568fccdf5.streamlock.net/live2/dhaweb2/chunklist_w156766599.m3u8
+#EXTINF:-1,Ekol Tv Haber
+https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
+#EXTINF:-1,EkoTurk Tv Haber
+https://trn03.tulix.tv/gt-ekoturk/index.m3u8
+#EXTINF:-1,FinansTurk Tv Haber
+https://yayin30.haber100.com/live/finansturk/playlist.m3u8
+#EXTINF:-1,Flash Tv Haber
+https://flashhaber-live.ercdn.net/flashhaber/flashhaber_720p.m3u8
+#EXTINF:-1,Gzt Tv Haber
+https://mn-nl.mncdn.com/gzttv/gzttv/playlist.m3u8
+#EXTINF:-1,Haber Global Tv Haber
+https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
+#EXTINF:-1,HaberTurk Tv Haber
+https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv.m3u8
+#EXTINF:-1,Haber61 Tv Haber
+https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/chunklist_w894465842_b1796000.m3u8
+#EXTINF:-1,Halk Tv Haber
+https://halktv-live.daioncdn.net/halktv/halktv.m3u8
+#EXTINF:-1,İha1 Tv Haber
+https://live01.iha.tv/webabone/live/chunks.m3u8
+#EXTINF:-1,İha2 Tv Haber
+https://live01.iha.tv/webabone/live2/chunks.m3u8
+#EXTINF:-1,İlke Tv Haber
+https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
+#EXTINF:-1,Krt Tv Haber
+https://trn03.tulix.tv/gt-krt--tv/index.m3u8
+#EXTINF:-1,Lider Tv Haber
+http://nrttn172.kesintisizyayin.com:29010/lidertv/lidertv/chunklist_w2110077784.m3u8
+#EXTINF:-1,Meltem Tv Haber
+https://vhxyrsly.rocketcdn.com/meltemtv/chunklist.m3u8
+#EXTINF:-1,Neo Tv Haber
+https://edge1.taksimbilisim.com/neohaber/bant1/chunks.m3u8
+#EXTINF:-1,Ntv Tv Haber
+https://dogus.daioncdn.net/ntv/ntv.m3u8?ce=3
+#EXTINF:-1,Sozcu Tv Haber
+https://goldvod.org/live/hpgdiscoo/123456/108.m3u8
+#EXTINF:-1,Tele1 Tv Haber
+https://tele1-live.ercdn.net/tele1/tele1.m3u8
+#EXTINF:-1,TeleNews Tv Haber
+https://cdn-telenews.yayin.com.tr/telenews/index.m3u8
+#EXTINF:-1,TgrtHaber Tv Haber
+https://canli.tgrthaber.com/tgrt.m3u8
+#EXTINF:-1,TrtHaber Tv Haber
+http://tv-trthaber.medya.trt.com.tr/master.m3u8
+#EXTINF:-1,TrtWorldHaber Tv Haber
+http://tv-trtworld.medya.trt.com.tr/master.m3u8
+#EXTINF:-1,Tv5 Tv Haber
+https://ip252.ozelip.com:1936/protv5/protv5/playlist.m3u8
+#EXTINF:-1,Tv100 Tv Haber
+https://ensonhaber-live.ercdn.net/tv100/tv100.m3u8
+#EXTINF:-1,TvNet Tv Haber
+https://mn-nl.mncdn.com/tvnet/tvnet/playlist.m3u8
+#EXTINF:-1,TurkHaber Tv Haber
+https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8
+#EXTINF:-1,Tbmm Tv Haber
+https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
+#EXTINF:-1,Ulusal Kanal Tv Haber
+https://goldvod.org/live/hpgdisco/123456/114.m3u8
+#EXTINF:-1,Ulke Tv Haber
+https://trn03.tulix.tv/gt-ulketv/index.m3u8
+#EXTINF:-1,YeniCag Tv Haber
+https://live.euromediacenter.com/yenicagtv/tracks-v1a1/mono.m3u8
+
+
+
+
+
