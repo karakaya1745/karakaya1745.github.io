@@ -2,8 +2,8 @@ name: Import Legal Channels
 
 on:
   schedule:
-    # Her gun 05:00 UTC (enrich 04:00 sonrasi)
-    - cron: "0 5 * * *"
+    # Her 3 gunde bir 05:00 UTC (08:00 TR) — gun 1, 4, 7, ...
+    - cron: "0 5 */3 * *"
   workflow_dispatch:
 
 permissions:

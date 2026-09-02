@@ -2,8 +2,8 @@ name: Stream Health Bot
 
 on:
   schedule:
-    # Her gun 02:00 UTC
-    - cron: "0 2 * * *"
+    # Her 3 gunde bir 02:00 UTC (05:00 TR) — gun 1, 4, 7, ...
+    - cron: "0 2 */3 * *"
   workflow_dispatch:
     inputs:
       all_tv:

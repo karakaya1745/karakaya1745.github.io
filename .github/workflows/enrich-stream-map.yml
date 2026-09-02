@@ -2,8 +2,8 @@ name: Enrich Stream Map
 
 on:
   schedule:
-    # Her gun 04:00 UTC (discover-missing 03:00 sonrasi)
-    - cron: "0 4 * * *"
+    # Her 3 gunde bir 04:00 UTC (07:00 TR) — gun 1, 4, 7, ...
+    - cron: "0 4 */3 * *"
   workflow_dispatch:
 
 permissions:
