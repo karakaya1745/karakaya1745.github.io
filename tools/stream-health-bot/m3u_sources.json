@@ -247,6 +247,12 @@
       "id": "playlist-yerel-rest4",
       "localFallback": "tools/playlists/c_yerel_rest4.m3u",
       "priority": 2
+    },
+    {
+      "id": "local-ss-favori",
+      "localFallback": "tools/stream-health-bot/local-sources/ss_favori.m3u",
+      "priority": 2,
+      "note": "User ss_favori playlist (2026-09-02)"
     }
   ],
   "directSources": [

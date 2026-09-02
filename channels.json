@@ -6872,5 +6872,11 @@
     "url": "https://www.rumelitv.com.tr/",
     "category": "Ulusal",
     "streamUrl": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197188&extension=ts&play_token=PaNAKhTAov"
+  },
+  {
+    "name": "tvB",
+    "url": "",
+    "category": "Ulusal",
+    "streamUrl": "https://ip44.radyotelekomtv.com:3958/hybrid/play.m3u8"
   }
 ]
