@@ -1562,22 +1562,19 @@
     "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/DigitalTV/playlist.m3u8"
   ],
   "now": [
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196710&extension=ts&play_token=Vinm127vDi",
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196694&extension=ts&play_token=lSQRFJi5TM",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=196710&extension=ts&play_token=Vinm127vDi",
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196678&extension=ts&play_token=p5hwUyOLoj",
     "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8",
     "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8",
-    "https://demiroren-live.daioncdn.net/nowtv/nowtv.m3u8",
-    "http://stream.mcquack.net/182/index.m3u8",
-    "http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/6108/index.m3u8",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=196678&extension=ts&play_token=p5hwUyOLoj",
     "https://vavoo.biz-az.workers.dev/play/161305206673e7c4b7739",
-    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196694&extension=ts&play_token=lSQRFJi5TM",
-    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196678&extension=ts&play_token=p5hwUyOLoj",
-    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196710&extension=ts&play_token=Vinm127vDi",
     "https://vavoo.biz-az.workers.dev/play/257819759392b353c7c9cd",
     "https://vavoo.biz-az.workers.dev/play/919108696c5e1f69646dd",
     "https://vavoo.biz-az.workers.dev/play/161305206b6ca8959b48c",
     "https://vavoo.biz-az.workers.dev/play/1453917580f88ace14fe9",
     "https://vavoo.biz-az.workers.dev/play/3105184056f2b2b1e8c8ab",
-    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=196678&extension=ts&play_token=p5hwUyOLoj",
-    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=196710&extension=ts&play_token=Vinm127vDi",
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=196678&extension=ts&play_token=p5hwUyOLoj",
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=196710&extension=ts&play_token=Vinm127vDi",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=196678&extension=ts&play_token=p5hwUyOLoj",
@@ -5140,7 +5137,7 @@
     "http://me.mdmfista.com/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
     "http://line.tivi-one.net/play/live.php?mac=00:1A:79:5D:91:44&stream=197411&extension=ts&play_token=6Vh9e7AwnI"
   ],
-  "_revision": 162,
+  "_revision": 163,
   "luystv": [
     "https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8"
   ],
