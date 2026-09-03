@@ -97,9 +97,9 @@
   },
   {
     "name": "TV100",
-    "url": "https://trn03.tulix.tv/gt-tv100/index.m3u8?token=05b1b410ee3298d97024d804e45515ea",
+    "url": "https://ensonhaber-live.ercdn.net/tv100/tv100.m3u8",
     "category": "Ulusal",
-    "streamUrl": "https://trn03.tulix.tv/gt-tv100/index.m3u8?token=05b1b410ee3298d97024d804e45515ea"
+    "streamUrl": "https://ensonhaber-live.ercdn.net/tv100/tv100.m3u8"
   },
   {
     "name": "TYT Türk",

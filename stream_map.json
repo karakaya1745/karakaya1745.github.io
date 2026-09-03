@@ -2672,27 +2672,12 @@
     "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/cb2663e9-8728-4477-b398-73f1ed12158f.ts"
   ],
   "tv100": [
-    "https://tv100.daioncdn.net/tv100/tv100_1080p.m3u8?app=web",
-    "https://tv100-live.daioncdn.net/tv100/tv100_1080p.m3u8",
-    "https://mn-nl.mncdn.com/blutv_tv1002/live_720p2000000kbps/index.m3u8",
     "https://ensonhaber-live.ercdn.net/tv100/tv100.m3u8",
     "https://tv.ensonhaber.com/tv100/tv100.m3u8",
-    "https://tv100-live.daioncdn.net/tv100/tv100.m3u8",
-    "https://tlkaycmdoq.turknet.ercdn.net/ckvbdssyig/tv100/tv100.m3u8",
-    "https://tv100.daioncdn.net/tv100/tv100.m3u8?app=web",
-    "https://gwebstream.net/hls/master.m3u8",
-    "https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8",
-    "https://trn03.tulix.tv/gt-tv100/index.m3u8?token=05b1b410ee3298d97024d804e45515ea",
-    "http://line.moja-teve9.me:80/play/live.php?mac=00:1A:79:0E:4F:73&stream=912913&extension=ts&play_token=1ysoCKLswK",
-    "http://line.moja-teve9.me:80/play/live.php?mac=00:1A:79:0E:4F:73&stream=912912&extension=ts&play_token=QFbNJMocQs",
     "https://vavoo.biz-az.workers.dev/play/16852994727259ba10c029",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197273&extension=ts&play_token=fIy9sX6ocp",
-    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197237&extension=ts&play_token=8yRJqHBWje",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197299&extension=ts&play_token=l2Hmj6xyse",
-    "https://vavoo.biz-az.workers.dev/play/3760496907d3d92e38dbc3",
-    "https://vavoo.biz-az.workers.dev/play/1685299472998443240851",
-    "https://vavoo.biz-az.workers.dev/play/163520723c9b15466a045",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/d7467ca6-6b33-4c54-a419-6506b5b995b3.ts"
+    "https://vavoo.biz-az.workers.dev/play/1685299472998443240851"
   ],
   "tv264": [
     "https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8?md5=qb_9l3erQIDqZMjbKfALzA&expires=1651666386",
@@ -5137,7 +5122,7 @@
     "http://me.mdmfista.com/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
     "http://line.tivi-one.net/play/live.php?mac=00:1A:79:5D:91:44&stream=197411&extension=ts&play_token=6Vh9e7AwnI"
   ],
-  "_revision": 163,
+  "_revision": 164,
   "luystv": [
     "https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8"
   ],
