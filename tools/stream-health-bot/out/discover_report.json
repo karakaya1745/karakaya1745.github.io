@@ -1,21 +1,48 @@
 {
-  "generatedAt": "2026-09-02T08:17:42.189Z",
+  "generatedAt": "2026-09-04T07:30:20.121Z",
   "dryRun": false,
-  "pending": 25,
+  "pending": 21,
   "skippedExists": [
     "TRT Spor 2",
     "TRT Genç",
-    "Space Toon",
     "Cartoon Network",
     "Kon TV",
+    "FM TV",
     "Kanal B",
+    "Gonca TV",
+    "Rumeli TV",
     "Kocaeli TV",
-    "Türkmeneli TV"
+    "Türkmeneli TV",
+    "Deha TV",
+    "Anadolu Dernek TV"
   ],
   "skippedPaid": [
     "beIN Sports Haber"
   ],
   "discovered": [
+    {
+      "name": "Space Toon",
+      "key": "spacetoon",
+      "urls": [
+        "https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8",
+        "https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8"
+      ],
+      "m3uCandidates": 2,
+      "probeResults": [
+        {
+          "url": "https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        },
+        {
+          "url": "https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    },
     {
       "name": "Süper TV",
       "key": "supertv",
@@ -117,11 +144,6 @@
       "probeResults": []
     },
     {
-      "name": "FM TV",
-      "candidates": 0,
-      "probeResults": []
-    },
-    {
       "name": "Kadirga TV",
       "candidates": 0,
       "probeResults": []
@@ -145,53 +167,6 @@
           "live": false,
           "reason": "http-404",
           "status": 404
-        }
-      ]
-    },
-    {
-      "name": "Gonca TV",
-      "candidates": 1,
-      "probeResults": [
-        {
-          "url": "http://stream.taksimbilisim.com:1935/tuncerciftci/smil:tuncerciftci.smil/iptvdelisi.m3u8",
-          "live": false,
-          "reason": "timeout"
-        }
-      ]
-    },
-    {
-      "name": "Rumeli TV",
-      "candidates": 12,
-      "probeResults": [
-        {
-          "url": "https://rumelitv-live.ercdn.net/rumelitv/rumelitv.m3u8",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://yayin3.canlitv.com:1935/live/rumelitv/iptvdelisi.m3u8",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197188&extension=ts&play_token=PaNAKhTAov",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197188&extension=ts&play_token=PaNAKhTAov",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197188&extension=ts&play_token=PaNAKhTAov",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197188&extension=ts&play_token=PaNAKhTAov",
-          "live": false,
-          "reason": "network-error"
         }
       ]
     },
@@ -265,17 +240,6 @@
       ]
     },
     {
-      "name": "Deha TV",
-      "candidates": 1,
-      "probeResults": [
-        {
-          "url": "http://waw1.artiyerelmedya.net:1935/dehatv/bant1/playlist.m3u8",
-          "live": false,
-          "reason": "timeout"
-        }
-      ]
-    },
-    {
       "name": "Tatlıses TV",
       "candidates": 1,
       "probeResults": [
@@ -284,17 +248,6 @@
           "live": false,
           "reason": "http-404",
           "status": 404
-        }
-      ]
-    },
-    {
-      "name": "Anadolu Dernek TV",
-      "candidates": 1,
-      "probeResults": [
-        {
-          "url": "http://ch.canlitvlive.io/anadolu-dernek-tv/live.m3u8",
-          "live": false,
-          "reason": "network-error"
         }
       ]
     },
@@ -365,9 +318,10 @@
     }
   ],
   "warnings": [],
-  "addedCount": 1,
+  "addedCount": 2,
   "addedNames": [
+    "Space Toon",
     "Süper TV"
   ],
-  "streamMapRevision": 150
+  "streamMapRevision": 167
 }
