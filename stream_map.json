@@ -1245,10 +1245,11 @@
     "https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/chunks.m3u8",
     "https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8",
     "https://strhls.streamakaci.tv/str_lifetv_lifetv/str_lifetv_multi/playlist.m3u8",
-    "https://metvvavmetv.64fetih.workers.dev/?ID=3572490349f5368e3d7944",
     "http://88.212.15.19/live/lifetv/index.m3u8",
     "http://lifetv.bitflip.ee/live/stream1_1/index.m3u8",
     "https://lifetv.livebox.co.in/lifetvhls/lifetv.m3u8",
+    "https://metvvavmetv.64fetih.workers.dev/?ID=3572490349f5368e3d7944",
+    "https://lifetv.mpks.sk/s.m3u8",
     "https://vavoo.biz-az.workers.dev/play/3572490349f5368e3d7944",
     "https://vavoo.biz-az.workers.dev/play/357249034999b94ce7c5a9"
   ],
@@ -4711,7 +4712,7 @@
     "http://me.mdmfista.com/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
     "http://line.tivi-one.net/play/live.php?mac=00:1A:79:5D:91:44&stream=197411&extension=ts&play_token=6Vh9e7AwnI"
   ],
-  "_revision": 167,
+  "_revision": 168,
   "luystv": [
     "https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8"
   ],
@@ -4732,7 +4733,8 @@
     "https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/mukabele-tv/playlist.m3u8"
   ],
   "mctv": [
-    "https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&type=live&service=wowza&protocol=https&output=playlist.m3u8"
+    "https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&type=live&service=wowza&protocol=https&output=playlist.m3u8",
+    "https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=https&service=wowza&type=live"
   ],
   "trtgenc": [
     "https://tv-trtgenc.medya.trt.com.tr/master.m3u8"
@@ -4744,7 +4746,8 @@
     "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/19b24934-1125-480e-a027-188d4b3ae4b4.ts"
   ],
   "turkmenelitv": [
-    "https://135962.global.ssl.fastly.net/5ff366a512987e2c0a3dabfe/live_14378e1002eb11ef9cb025207067897a/playlist.m3u8"
+    "https://135962.global.ssl.fastly.net/5ff366a512987e2c0a3dabfe/live_14378e1002eb11ef9cb025207067897a/playlist.m3u8",
+    "https://135962.global.ssl.fastly.net/5ff366a512987e2c0a3dabfe/live_14378e1002eb11ef9cb025207067897a/index.fmp4.m3u8"
   ],
   "tvb": [
     "https://ip44.radyotelekomtv.com:3958/hybrid/play.m3u8"
@@ -4762,6 +4765,8 @@
     "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/1413062b-8a59-4602-8a8c-8c40c3e2c428.ts"
   ],
   "dreamtv": [
+    "https://xykt-fix.github.io/play/a02j/index.m3u8",
+    "https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8",
     "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/d8d9294f-5f4a-4d17-b4cb-c02d940154c1.ts"
   ],
   "cocuksmart": [
@@ -4778,9 +4783,11 @@
   ],
   "spacetoon": [
     "https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8",
-    "https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8"
+    "https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8",
+    "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-spacetoon/d8382fb9ab4b2307058f12c7ea90db54/index.m3u8"
   ],
   "supertv": [
-    "http://wms.shared.streamshow.it/supertv/mp4:supertv/playlist.m3u8"
+    "http://wms.shared.streamshow.it/supertv/mp4:supertv/playlist.m3u8",
+    "http://iptv.supertv.ro:8000/play/a001/index.m3u8"
   ]
 }

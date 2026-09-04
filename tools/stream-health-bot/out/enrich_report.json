@@ -1,164 +1,56 @@
 {
-  "generatedAt": "2026-09-02T08:41:18.373Z",
+  "generatedAt": "2026-09-04T08:26:56.981Z",
   "dryRun": false,
   "skipProbe": false,
-  "targetCount": 1040,
+  "targetCount": 1052,
   "enriched": [
     {
-      "key": "a2",
-      "added": 1,
-      "urls": [
-        "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_720p.m3u8"
-      ],
-      "total": 19,
-      "probeResults": [
-        {
-          "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_720p.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 200
-        },
-        {
-          "url": "https://c.fulltvizle.com/a2/tracks-v1a1/mono.m3u8",
-          "live": false,
-          "reason": "network-error"
-        }
-      ]
-    },
-    {
-      "key": "adatv",
-      "added": 1,
-      "urls": [
-        "https://live-evg10.tv360.bitel.com.pe/bitel/alasdeaguilaSRT/playlist.m3u8"
-      ],
-      "total": 4,
-      "probeResults": [
-        {
-          "url": "https://sc-kuzeykibrissmarttv.ercdn.net/adatv/bant1/playlist.m3u8",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "https://live-evg10.tv360.bitel.com.pe/bitel/alasdeaguilaSRT/playlist.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 206
-        },
-        {
-          "url": "https://spor.kuzeykibris.tv/m3u8/tv_ada.m3u8",
-          "live": false,
-          "reason": "timeout"
-        }
-      ]
-    },
-    {
-      "key": "dosttv",
-      "added": 1,
-      "urls": [
-        "https://tvsms.club/tvz.php?kanal=dost&file=.m3u8"
-      ],
-      "total": 18,
-      "probeResults": [
-        {
-          "url": "http://137.74.150.14:8080/permabil/DOSTtv/index.m3u8",
-          "live": false,
-          "reason": "timeout"
-        },
-        {
-          "url": "https://tvsms.club/tvz.php?kanal=dost&file=.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 200
-        }
-      ]
-    },
-    {
-      "key": "estv",
-      "added": 1,
-      "urls": [
-        "https://cloudfront44.lexanetwork.com:1344/relay01/HDE032.sdp/playlist.m3u8"
-      ],
-      "total": 6,
-      "probeResults": [
-        {
-          "url": "https://cloudfront44.lexanetwork.com:1344/relay01/HDE032.sdp/playlist.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 206
-        }
-      ]
-    },
-    {
-      "key": "fx",
-      "added": 1,
-      "urls": [
-        "http://23.237.104.106:8080/USA_FX/index.m3u8"
-      ],
-      "total": 19,
-      "probeResults": [
-        {
-          "url": "http://23.237.104.106:8080/USA_FX/index.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 206
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197158&extension=ts&play_token=qpYjn1XjAo",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=1471702&extension=ts&play_token=cbcl7gAM4x",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197158&extension=ts&play_token=qpYjn1XjAo",
-          "live": false,
-          "reason": "network-error"
-        }
-      ]
-    },
-    {
-      "key": "kralpop",
-      "added": 1,
-      "urls": [
-        "http://dygvideo.dygdigital.com/live/hls/kralpop"
-      ],
-      "total": 12,
-      "probeResults": [
-        {
-          "url": "http://dygvideo.dygdigital.com/live/hls/kralpop",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 200
-        }
-      ]
-    },
-    {
       "key": "lifetv",
-      "added": 3,
+      "added": 1,
       "urls": [
-        "http://88.212.15.19/live/lifetv/index.m3u8",
-        "http://lifetv.bitflip.ee/live/stream1_1/index.m3u8",
-        "https://lifetv.livebox.co.in/lifetvhls/lifetv.m3u8"
+        "https://lifetv.mpks.sk/s.m3u8"
       ],
-      "total": 9,
+      "total": 10,
       "probeResults": [
         {
-          "url": "http://88.212.15.19/live/lifetv/index.m3u8",
+          "url": "https://lifetv.mpks.sk/s.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        },
+        {
+          "url": "http://waw1.artiyerelmedya.net:1935/lifetv/bant1/playlist.m3u8",
+          "live": false,
+          "reason": "timeout"
+        }
+      ]
+    },
+    {
+      "key": "mctv",
+      "added": 1,
+      "urls": [
+        "https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=https&service=wowza&type=live"
+      ],
+      "total": 2,
+      "probeResults": [
+        {
+          "url": "https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=https&service=wowza&type=live",
           "live": true,
           "reason": "hls-manifest",
           "status": 200
-        },
+        }
+      ]
+    },
+    {
+      "key": "turkmenelitv",
+      "added": 1,
+      "urls": [
+        "https://135962.global.ssl.fastly.net/5ff366a512987e2c0a3dabfe/live_14378e1002eb11ef9cb025207067897a/index.fmp4.m3u8"
+      ],
+      "total": 2,
+      "probeResults": [
         {
-          "url": "http://lifetv.bitflip.ee/live/stream1_1/index.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 200
-        },
-        {
-          "url": "https://lifetv.livebox.co.in/lifetvhls/lifetv.m3u8",
+          "url": "https://135962.global.ssl.fastly.net/5ff366a512987e2c0a3dabfe/live_14378e1002eb11ef9cb025207067897a/index.fmp4.m3u8",
           "live": true,
           "reason": "hls-manifest",
           "status": 206
@@ -166,38 +58,22 @@
       ]
     },
     {
-      "key": "minikago",
-      "added": 1,
-      "urls": [
-        "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_720p.m3u8"
-      ],
-      "total": 21,
-      "probeResults": [
-        {
-          "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_720p.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 200
-        }
-      ]
-    },
-    {
-      "key": "neotv",
+      "key": "dreamtv",
       "added": 2,
       "urls": [
-        "https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8",
-        "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/DigitalTV/playlist.m3u8"
+        "https://xykt-fix.github.io/play/a02j/index.m3u8",
+        "https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8"
       ],
       "total": 3,
       "probeResults": [
         {
-          "url": "https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8",
+          "url": "https://xykt-fix.github.io/play/a02j/index.m3u8",
           "live": true,
           "reason": "hls-manifest",
-          "status": 200
+          "status": 206
         },
         {
-          "url": "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/DigitalTV/playlist.m3u8",
+          "url": "https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8",
           "live": true,
           "reason": "hls-manifest",
           "status": 206
@@ -205,137 +81,29 @@
       ]
     },
     {
-      "key": "powerturk",
+      "key": "spacetoon",
       "added": 1,
       "urls": [
-        "https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8"
-      ],
-      "total": 12,
-      "probeResults": [
-        {
-          "url": "https://mn-nl.mncdn.com/blutv_powerturk/smil:powerturk_sd.smil/playlist.m3u8",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 200
-        },
-        {
-          "url": "https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/chunklist_b5250000_sltur.m3u8",
-          "live": false,
-          "reason": "http-404",
-          "status": 404
-        }
-      ]
-    },
-    {
-      "key": "tv1",
-      "added": 1,
-      "urls": [
-        "https://live.tv1.rw/index.m3u8"
-      ],
-      "total": 16,
-      "probeResults": [
-        {
-          "url": "https://live.tv1.rw/index.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 206
-        }
-      ]
-    },
-    {
-      "key": "saglikchannel",
-      "added": 1,
-      "urls": [
-        "https://live.euromediacenter.com/saglikchannel/index.m3u8"
-      ],
-      "total": 2,
-      "probeResults": [
-        {
-          "url": "https://live.euromediacenter.com/saglikchannel/index.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 206
-        }
-      ]
-    },
-    {
-      "key": "numberoneturkdamar",
-      "added": 2,
-      "urls": [
-        "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8",
-        "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e19877b340.smil/playlist.m3u8"
+        "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-spacetoon/d8382fb9ab4b2307058f12c7ea90db54/index.m3u8"
       ],
       "total": 3,
       "probeResults": [
         {
-          "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 206
-        },
-        {
-          "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e19877b340.smil/playlist.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 206
-        }
-      ]
-    },
-    {
-      "key": "numberoneturk",
-      "added": 1,
-      "urls": [
-        "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e187770143.smil/playlist.m3u8"
-      ],
-      "total": 2,
-      "probeResults": [
-        {
-          "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e187770143.smil/playlist.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 206
-        },
-        {
-          "url": "https://nr1turk.blutv.com/blutv_n1turk/blutv_n1turk/index.m3u8",
+          "url": "https://streams.spacetoon.com/live/stchannel/smil:livesmil.smil/playlist.m3u8",
           "live": false,
-          "reason": "network-error"
-        }
-      ]
-    },
-    {
-      "key": "ikratv",
-      "added": 1,
-      "urls": [
-        "https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/chunks.m3u8"
-      ],
-      "total": 2,
-      "probeResults": [
+          "reason": "http-403",
+          "status": 403
+        },
         {
-          "url": "https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/chunks.m3u8",
+          "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-spacetoon/d8382fb9ab4b2307058f12c7ea90db54/index.m3u8",
           "live": true,
           "reason": "hls-manifest",
           "status": 206
-        }
-      ]
-    },
-    {
-      "key": "metropoltv",
-      "added": 1,
-      "urls": [
-        "https://edge1.socialsmart.tv/metropoltv/smil/metropoltv/bant1/chunks.m3u8"
-      ],
-      "total": 2,
-      "probeResults": [
+        },
         {
-          "url": "https://edge1.socialsmart.tv/metropoltv/smil/metropoltv/bant1/chunks.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 206
+          "url": "http://ios-byjj.onrender.com/TRiOS.php?ID=Spacetoon",
+          "live": false,
+          "reason": "not-playable"
         }
       ]
     },
@@ -366,9 +134,12 @@
       ]
     }
   ],
-  "skippedFull": [],
-  "totalNewUrls": 21,
-  "enrichedCount": 17,
-  "streamMapRevision": 151,
+  "skippedFull": [
+    "dmax",
+    "sportstv"
+  ],
+  "totalNewUrls": 7,
+  "enrichedCount": 6,
+  "streamMapRevision": 168,
   "mapChanged": true
 }
