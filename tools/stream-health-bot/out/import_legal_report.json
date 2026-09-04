@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-02T09:24:00.824Z",
+  "generatedAt": "2026-09-04T09:11:09.700Z",
   "dryRun": false,
-  "sourceCount": 27,
-  "catalogChannelCount": 1027,
-  "streamMapRevisionBefore": 151,
-  "candidatesTotal": 74,
+  "sourceCount": 30,
+  "catalogChannelCount": 1036,
+  "streamMapRevisionBefore": 168,
+  "candidatesTotal": 71,
   "added": [],
-  "alreadyInCatalog": 4985,
-  "skippedNotLegal": 6604,
+  "alreadyInCatalog": 5385,
+  "skippedNotLegal": 6792,
   "probeFailed": [
     {
       "name": "┃TR┃ KANAL 68",
@@ -195,18 +195,6 @@
       ]
     },
     {
-      "name": "DEHA TV",
-      "key": "dehatv",
-      "probed": 1,
-      "probeResults": [
-        {
-          "url": "http://waw1.artiyerelmedya.net:1935/dehatv/bant1/playlist.m3u8",
-          "live": false,
-          "reason": "timeout"
-        }
-      ]
-    },
-    {
       "name": "Doğuş TV",
       "key": "dogustv",
       "probed": 1,
@@ -286,19 +274,7 @@
         {
           "url": "http://waw1.artiyerelmedya.net:1935/olaytv/bant1/chunklist.m3u8",
           "live": false,
-          "reason": "timeout"
-        }
-      ]
-    },
-    {
-      "name": "Gonca TV",
-      "key": "goncatv",
-      "probed": 1,
-      "probeResults": [
-        {
-          "url": "http://stream.taksimbilisim.com:1935/tuncerciftci/smil:tuncerciftci.smil/iptvdelisi.m3u8",
-          "live": false,
-          "reason": "timeout"
+          "reason": "network-error"
         }
       ]
     },
@@ -576,7 +552,7 @@
         {
           "url": "https://waw2.artiyerelmedya.net/te60tv/bant1/playlist.m3u8",
           "live": false,
-          "reason": "timeout"
+          "reason": "network-error"
         }
       ]
     },
@@ -997,43 +973,6 @@
       ]
     },
     {
-      "name": "┃TR┃ RUMELI TV",
-      "key": "rumelitv",
-      "probed": 6,
-      "probeResults": [
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197188&extension=ts&play_token=PaNAKhTAov",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197188&extension=ts&play_token=PaNAKhTAov",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197188&extension=ts&play_token=PaNAKhTAov",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197188&extension=ts&play_token=PaNAKhTAov",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197188&extension=ts&play_token=PaNAKhTAov",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197188&extension=ts&play_token=PaNAKhTAov",
-          "live": false,
-          "reason": "network-error"
-        }
-      ]
-    },
-    {
       "name": "┃TR┃ TV 5",
       "key": "trtv5",
       "probed": 6,
@@ -1281,6 +1220,6 @@
   ],
   "riskySkipped": [],
   "warnings": [],
-  "streamMapRevisionAfter": 151,
+  "streamMapRevisionAfter": 168,
   "addedCount": 0
 }

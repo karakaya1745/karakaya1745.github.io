@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-02T09:27:51.723Z",
+  "generatedAt": "2026-09-04T09:14:37.638Z",
   "dryRun": false,
-  "m3uSourceCount": 27,
+  "m3uSourceCount": 30,
   "newChannels": [
     {
       "name": "Film Screen",
@@ -61,22 +61,6 @@
       "probeResults": [
         {
           "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 200
-        }
-      ]
-    },
-    {
-      "name": "MC TV",
-      "key": "mctv",
-      "category": "Diger",
-      "urls": [
-        "https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&type=live&service=wowza&protocol=https&output=playlist.m3u8"
-      ],
-      "probeResults": [
-        {
-          "url": "https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&type=live&service=wowza&protocol=https&output=playlist.m3u8",
           "live": true,
           "reason": "hls-manifest",
           "status": 200
@@ -597,54 +581,6 @@
       ]
     },
     {
-      "name": "RUMELI TV",
-      "key": "rumelitv",
-      "reason": "probe-failed",
-      "probed": 8,
-      "probeResults": [
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197188&extension=ts&play_token=PaNAKhTAov",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197188&extension=ts&play_token=PaNAKhTAov",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197188&extension=ts&play_token=PaNAKhTAov",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197188&extension=ts&play_token=PaNAKhTAov",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197188&extension=ts&play_token=PaNAKhTAov",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197188&extension=ts&play_token=PaNAKhTAov",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197188&extension=ts&play_token=PaNAKhTAov",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197188&extension=ts&play_token=PaNAKhTAov",
-          "live": false,
-          "reason": "network-error"
-        }
-      ]
-    },
-    {
       "name": "PAMUKKALE TV",
       "key": "trpamukkaletv",
       "reason": "probe-failed",
@@ -911,20 +847,6 @@
       ]
     },
     {
-      "name": "Kanal T",
-      "key": "kanalt",
-      "reason": "probe-failed",
-      "probed": 1,
-      "probeResults": [
-        {
-          "url": "http://kuzeykibris.tv/m3u8/tv_kanalt.m3u8",
-          "live": false,
-          "reason": "http-404",
-          "status": 404
-        }
-      ]
-    },
-    {
       "name": "Belediye TV",
       "key": "belediyetv",
       "reason": "probe-failed",
@@ -1147,8 +1069,8 @@
       ]
     }
   ],
-  "totalNewUrls": 6,
-  "streamMapRevision": 152,
-  "newChannelCount": 6,
+  "totalNewUrls": 5,
+  "streamMapRevision": 169,
+  "newChannelCount": 5,
   "enrichedChannelCount": 0
 }
