@@ -1,9 +1,10 @@
 name: Import Legal Channels
 
 on:
-  schedule:
-    # Her 3 gunde bir 05:00 UTC (08:00 TR) — gun 1, 4, 7, ...
-    - cron: "0 5 */3 * *"
+  # SUSPENDED by user request - cron disabled; manual only
+  # schedule:
+  #   # Every 3 days 05:00 UTC (08:00 TR)
+  #   - cron: "0 5 */3 * *"
   workflow_dispatch:
 
 permissions:

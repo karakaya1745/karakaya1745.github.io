@@ -1,9 +1,10 @@
 name: Discover Missing Channels
 
 on:
-  schedule:
-    # Her 3 gunde bir 03:00 UTC (06:00 TR) — gun 1, 4, 7, ...
-    - cron: "0 3 */3 * *"
+  # SUSPENDED by user request - cron disabled; manual only
+  # schedule:
+  #   # Every 3 days 03:00 UTC (06:00 TR)
+  #   - cron: "0 3 */3 * *"
   workflow_dispatch:
 
 permissions:

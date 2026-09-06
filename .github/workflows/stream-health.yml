@@ -1,9 +1,10 @@
 name: Stream Health Bot
 
 on:
-  schedule:
-    # Her 3 gunde bir 02:00 UTC (05:00 TR) — gun 1, 4, 7, ...
-    - cron: "0 2 */3 * *"
+  # SUSPENDED by user request - cron disabled; manual only
+  # schedule:
+  #   # Every 3 days 02:00 UTC (05:00 TR)
+  #   - cron: "0 2 */3 * *"
   workflow_dispatch:
     inputs:
       all_tv:
