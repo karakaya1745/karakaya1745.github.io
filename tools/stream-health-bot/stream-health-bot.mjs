@@ -382,7 +382,14 @@ async function main() {
         }
         if (added.length) {
           nextMap[key] = sortUrlsByQuality(added).slice(0, MAX_URLS_PER_CHANNEL);
-          report.changed.push({ key, added: added.length, removed: 0, live: added.length });
+          report.changed.push({
+            key,
+            added: added.length,
+            removed: 0,
+            live: added.length,
+            addedUrls: added,
+            removedUrls: [],
+          });
           report.addedUrls += added.length;
           log(`+YENI ${key}: ${added.length} link (bos kanala)`);
         }
@@ -409,6 +416,8 @@ async function main() {
         removed: result.removed.length,
         live: result.liveCount,
         keptDead: result.keptDeadCount,
+        addedUrls: result.added,
+        removedUrls: result.removed,
       });
       report.removedUrls += result.removed.length;
       report.addedUrls += result.added.length;

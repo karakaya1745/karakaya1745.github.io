@@ -5,13 +5,14 @@
  * Windows Node 24: TLS probe için `node --use-system-ca` gerekli olabilir.
  */
 import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
 
 if (process.platform === "win32" && !process.execArgv.some((a) => a.includes("use-system-ca"))) {
   console.warn(
     "[lib] UYARI: Windows'ta probe icin NODE_OPTIONS=--use-system-ca veya node --use-system-ca kullanin",
   );
 }
-import path from "path";
 
 export const UA = "Mozilla/5.0 (Linux; Android 14) CanliTVTR-healthbot/1.0";
 export const PROBE_TIMEOUT_MS = 5000;
@@ -535,6 +536,174 @@ export function detectUrlAuth(url) {
 
 const SKIP_M3U_URL_PATTERNS =
   /\b(xxx|adult|porn|casino|bet|canl[iı]\s*bahis|rulet|poker|\+18|18\+)\b/i;
+
+/** IMPORT_POLICY.md — blocked channel name patterns (always skip) */
+export const BLOCKED_CHANNEL_NAME_PATTERNS = [
+  /\bs\s*sport\b/i,
+  /\bssport\b/i,
+  /^tagess/i,
+  /\bdizi\s*tv\b/i,
+  /\bcinex\b/i,
+  /\bfilm\s*screen\b/i,
+  /\bsdm\s*sinema\b/i,
+  /\bs[uü]per\s*tv\b/i,
+  /^ndr\b/i,
+  /\bsyria\s*tv\b/i,
+  /\btivibu\b/i,
+  /\bdsmart\b/i,
+];
+
+/** IMPORT_POLICY.md — premium/encrypted (block if NOT in TKGS şifresiz list) */
+export const PREMIUM_ENCRYPTED_NAME_PATTERNS = [
+  /\bbein\b/i,
+  /\bnba\s*tv\b/i,
+  /\bwwe\b/i,
+  /\bdiscovery\s*(channel|id)\b/i,
+  /\bviasat\b/i,
+  /\bfightbox\b/i,
+  /\bfilmbox\b/i,
+  /\bglfe\b/i,
+  /\bdizismart\b/i,
+  /\bmoviesmart\b/i,
+  /\bsinema\s*\d+\b/i,
+  /\banimaux\b/i,
+  /\bchasse\s*&?\s*peche\b/i,
+  /\bfashion\s*tv\b/i,
+  /\blove\s*nature\b/i,
+  /\bdocu\s*screen\b/i,
+  /\bhabitat\b/i,
+  /\bda\s*vinici?\b/i,
+  /\bsifir\s*tv\b/i,
+  /\btrace\s*urban\b/i,
+  /\bmtv\s*hits\b/i,
+  /\bmezzo\s*live\b/i,
+];
+
+/** IPTV genre/artist music packs — not TKGS FTA channels */
+export const IPTV_MUSIC_PACK_NAME_PATTERNS = [
+  /^90'?lar$/i,
+  /^akustik$/i,
+  /^arabesk$/i,
+  /^blues$/i,
+  /^calisirken$/i,
+  /^dini\s*musiki$/i,
+  /^jazz$/i,
+  /^klasik$/i,
+  /^lounge$/i,
+  /^mutlu$/i,
+  /^oldies$/i,
+  /^damar\s*turkuler$/i,
+  /^turkuler\s*\d*$/i,
+  /\b(tarkan|tatlises|ibrahim\s*tatlises|gencebay|akbayram|tayfur|ahmet\s*kaya|selda\s*bagcan)\s*\d*\s*$/i,
+  /^hrt\s*akdeniz\s*hq$/i,
+];
+
+export const FOREIGN_PAY_TITLE_PATTERNS =
+  /\(romania\)|\(azerbaijan\)|\(az\)|\(de\)|\(uk\)|\(us\)|\(fr\)|\(it\)|\(es\)|\(ru\)|\(ar\)|\b(tagess|ndr|syria|bbc|cnn\s*international|france\s*24|dw\s*english|al\s*jazeera\s*english)\b/i;
+
+const TKGS_JSON_CANDIDATES = [
+  path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "tkgs_eklenecek_kanallar.json"),
+  path.join(path.dirname(fileURLToPath(import.meta.url)), "missing_channels.json"),
+];
+
+let _tkgsSifresizKeyCache = null;
+
+/** @returns {Set<string>} normalized keys from TKGS şifresiz reference list */
+export function loadTkgsSifresizKeys() {
+  if (_tkgsSifresizKeyCache) return _tkgsSifresizKeyCache;
+  const keys = new Set();
+  for (const file of TKGS_JSON_CANDIDATES) {
+    try {
+      const list = loadJson(file, []);
+      if (!Array.isArray(list)) continue;
+      for (const ch of list) {
+        const name = ch?.name;
+        if (!name) continue;
+        const key = normalizeChannelKey(name);
+        if (key) keys.add(key);
+        if (M3U_KEY_ALIASES[key]) keys.add(M3U_KEY_ALIASES[key]);
+        for (const [alias, target] of Object.entries(M3U_KEY_ALIASES)) {
+          if (target === key) keys.add(alias);
+        }
+      }
+      if (keys.size) break;
+    } catch {
+      /* optional */
+    }
+  }
+  _tkgsSifresizKeyCache = keys;
+  return keys;
+}
+
+/** @param {string} name */
+export function isTkgsSifresizAllowed(name) {
+  const key = normalizeChannelKey(name);
+  if (!key) return false;
+  const tkgs = loadTkgsSifresizKeys();
+  if (tkgs.has(key)) return true;
+  if (M3U_KEY_ALIASES[key] && tkgs.has(M3U_KEY_ALIASES[key])) return true;
+  return false;
+}
+
+/** @param {string} name */
+export function isBlockedChannelName(name) {
+  const n = String(name || "").trim();
+  if (!n) return false;
+  return BLOCKED_CHANNEL_NAME_PATTERNS.some((re) => re.test(n));
+}
+
+/** @param {string} name */
+export function isPremiumEncryptedChannelName(name) {
+  const n = String(name || "").trim();
+  if (!n) return false;
+  if (PREMIUM_ENCRYPTED_NAME_PATTERNS.some((re) => re.test(n))) return true;
+  if (IPTV_MUSIC_PACK_NAME_PATTERNS.some((re) => re.test(n))) return true;
+  return false;
+}
+
+/** @param {string} url */
+export function isFakeHelgaStream(url) {
+  try {
+    return new URL(url).hostname.toLowerCase().includes("helga.iptv2022.com");
+  } catch {
+    return /helga\.iptv2022\.com/i.test(String(url || ""));
+  }
+}
+
+/**
+ * Single import gate — IMPORT_POLICY.md
+ * @param {{ name?: string, title?: string, url?: string, groupTitle?: string, mode?: 'import'|'discover'|'enrich' }} opts
+ * @returns {{ skip: boolean, reason?: string }}
+ */
+export function shouldSkipImportEntry(opts = {}) {
+  const name = opts.name || opts.title || "";
+  const url = opts.url || "";
+  const groupTitle = opts.groupTitle || "";
+  const mode = opts.mode || "import";
+
+  if (!name || String(name).trim().length < 2) {
+    return { skip: true, reason: "empty-title" };
+  }
+  if (isBlockedChannelName(name)) {
+    return { skip: true, reason: "blocked-name" };
+  }
+  if (FOREIGN_PAY_TITLE_PATTERNS.test(name) || FOREIGN_PAY_TITLE_PATTERNS.test(groupTitle)) {
+    return { skip: true, reason: "foreign-pay" };
+  }
+  if (url && isFakeHelgaStream(url)) {
+    return { skip: true, reason: "fake-helga" };
+  }
+  if (url && SKIP_M3U_URL_PATTERNS.test(url)) {
+    return { skip: true, reason: "blocked-url" };
+  }
+  if (isPremiumEncryptedChannelName(name) && !isTkgsSifresizAllowed(name)) {
+    return { skip: true, reason: "premium-not-tkgs" };
+  }
+  if (mode !== "enrich" && url && shouldSkipM3uUrl(url)) {
+    return { skip: true, reason: "blocked-url-auth" };
+  }
+  return { skip: false };
+}
 
 export function shouldSkipM3uUrl(url) {
   if (!isPlayableUrl(url)) return true;

@@ -1,0 +1,91 @@
+{
+  "generatedAt": "2026-09-08T13:32:43.178Z",
+  "mode": "proposal-only",
+  "applied": false,
+  "catalogTouched": false,
+  "summary": {
+    "add_url": 7,
+    "add_channel": 1,
+    "remove_url": 0
+  },
+  "runs": [
+    {
+      "label": "aggregate-only",
+      "ok": true,
+      "code": null,
+      "timedOut": false,
+      "skipped": false
+    }
+  ],
+  "sources": {
+    "health": "2026-09-01T08:49:32.544Z",
+    "enrich": "2026-09-04T08:26:56.981Z",
+    "discover": "2026-09-04T07:30:20.121Z"
+  },
+  "proposals": [
+    {
+      "action": "add_url",
+      "channelName": "Life TV",
+      "channelKey": "lifetv",
+      "url": "https://lifetv.mpks.sk/s.m3u8",
+      "source": "enrich-stream-map",
+      "reason": "M3U enrich dry-run: alternatif URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "MC TV",
+      "channelKey": "mctv",
+      "url": "https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=https&service=wowza&type=live",
+      "source": "enrich-stream-map",
+      "reason": "M3U enrich dry-run: alternatif URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "Türkmeneli TV",
+      "channelKey": "turkmenelitv",
+      "url": "https://135962.global.ssl.fastly.net/5ff366a512987e2c0a3dabfe/live_14378e1002eb11ef9cb025207067897a/index.fmp4.m3u8",
+      "source": "enrich-stream-map",
+      "reason": "M3U enrich dry-run: alternatif URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "DREAM TV",
+      "channelKey": "dreamtv",
+      "url": "https://xykt-fix.github.io/play/a02j/index.m3u8",
+      "source": "enrich-stream-map",
+      "reason": "M3U enrich dry-run: alternatif URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "DREAM TV",
+      "channelKey": "dreamtv",
+      "url": "https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8",
+      "source": "enrich-stream-map",
+      "reason": "M3U enrich dry-run: alternatif URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "spacetoon",
+      "channelKey": "spacetoon",
+      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-spacetoon/d8382fb9ab4b2307058f12c7ea90db54/index.m3u8",
+      "source": "enrich-stream-map",
+      "reason": "M3U enrich dry-run: alternatif URL"
+    },
+    {
+      "action": "add_channel",
+      "channelName": "Space Toon",
+      "channelKey": "spacetoon",
+      "url": "https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8",
+      "source": "discover-missing-channels",
+      "reason": "TKGS/eksik liste dry-run: yeni kanal"
+    },
+    {
+      "action": "add_url",
+      "channelName": "Space Toon",
+      "channelKey": "spacetoon",
+      "url": "https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8",
+      "source": "discover-missing-channels",
+      "reason": "Yeni kanal icin ek URL (dry-run)"
+    }
+  ]
+}

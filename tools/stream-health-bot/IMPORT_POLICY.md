@@ -5,6 +5,17 @@
 
 ---
 
+## Proposal mode (default) / Teklif modu
+
+> **Bot asla katalogu otomatik yazmaz.**  
+> GitHub Actions: `proposal-notify.yml` her 3 gunde dry-run arastirma yapar → `out/proposals_latest.json` + `.md` → e-posta ozeti.  
+> `channels.json` / `stream_map.json` yalnizca **kullanici onayi** veya acik manuel `--apply` ile degisir.  
+> Eski workflow'lar (`stream-health`, `discover-missing`, `enrich-stream-map`, `import-legal-channels`) artik **yalnizca dry-run** + `workflow_dispatch`; cron + `--apply` kalici kapali.
+
+Yerel: `node tools/stream-health-bot/generate-proposals.mjs` (asla `--apply` gecirmez).
+
+---
+
 ## NEVER ADD / ASLA EKLEME
 
 ### TKGS rule (primary)
@@ -59,6 +70,8 @@ if (skip) continue; // skip.reason explains why
 
 Modes: `"import"` | `"discover"` | `"enrich"`
 
+Proposal aggregator (`generate-proposals.mjs`) ayni gate'i uygular; politika disi adaylari teklife eklemez.
+
 ---
 
 ## Sync targets (on catalog write)
@@ -71,10 +84,17 @@ Increment `stream_map.json` → `_revision` on every catalog change.
 
 ---
 
-## GitHub Actions schedule — SUSPENDED
+## GitHub Actions — e-posta secret'lari
 
-> **Bots are SUSPENDED by user request.** Cron/`schedule:` triggers are commented out in
-> `karakaya1745.github.io/.github/workflows/` (stream-health, discover-missing, enrich-stream-map, import-legal-channels).
-> Manual run still available: Actions → workflow → **Run workflow**.
+Repo: `karakaya1745.github.io` → Settings → Secrets and variables → Actions
 
-Former schedule (disabled): every 3 days UTC staggered — stream-health 02:00, discover 03:00, enrich 04:00, import-legal 05:00.
+| Secret | Aciklama |
+|--------|----------|
+| `MAIL_TO` | Bildirim adresi (sizin e-posta) |
+| `MAIL_FROM` | Gonderen (genelde ayni Gmail) |
+| `SMTP_SERVER` | `smtp.gmail.com` |
+| `SMTP_PORT` | `587` |
+| `SMTP_USERNAME` | Gmail |
+| `SMTP_PASSWORD` | Gmail App Password |
+
+Cron: `0 5 */3 * *` (05:00 UTC ≈ 08:00 TR), workflow: `proposal-notify.yml`.

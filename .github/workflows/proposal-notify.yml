@@ -1,0 +1,140 @@
+name: Proposal Notify
+
+on:
+  schedule:
+    # Every 3 days 05:00 UTC ≈ 08:00 TR
+    - cron: "0 5 */3 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stream-bot-writes
+  cancel-in-progress: false
+
+jobs:
+  propose-and-notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Generate proposals (dry-run only)
+        env:
+          PROPOSAL_STEP_TIMEOUT_MS: "3600000"
+        run: |
+          node tools/stream-health-bot/generate-proposals.mjs --health-all-tv
+          if ! git diff --quiet -- channels.json stream_map.json; then
+            echo "HATA: channels.json veya stream_map.json degisti — proposal modunda yasak"
+            git checkout -- channels.json stream_map.json
+            exit 1
+          fi
+
+      - name: Commit proposals only
+        run: |
+          git config user.name "stream-health-bot"
+          git config user.email "bot@canlitvtr.local"
+          # Katalog dosyalarina dokunma. Fail-streak icin url_health_state kalici tutulur.
+          git add \
+            tools/stream-health-bot/out/proposals_latest.json \
+            tools/stream-health-bot/out/proposals_latest.md \
+            tools/stream-health-bot/out/proposals_*.json \
+            tools/stream-health-bot/out/url_health_state.json \
+            tools/stream-health-bot/out/maintain_report.json \
+            tools/stream-health-bot/out/enrich_report.json \
+            tools/stream-health-bot/out/discover_report.json
+          if git diff --staged --quiet; then
+            echo "Degisiklik yok."
+            exit 0
+          fi
+          COUNT=$(node -e "const p=require('./tools/stream-health-bot/out/proposals_latest.json'); console.log((p.proposals||[]).length)")
+          git commit -m "proposals: ${COUNT} teklif hazir (onay bekliyor) [bot]"
+          git pull --rebase --autostash origin main
+          git push origin main
+
+      - name: Prepare email body
+        id: mail
+        run: |
+          node <<'NODE'
+          const fs = require("fs");
+          const path = "tools/stream-health-bot/out/proposals_latest.json";
+          let data = { proposals: [], summary: {}, generatedAt: "" };
+          try {
+            data = JSON.parse(fs.readFileSync(path, "utf8"));
+          } catch {}
+          const n = (data.proposals || []).length;
+          const s = data.summary || {};
+          const repo = process.env.GITHUB_REPOSITORY || "karakaya1745/karakaya1745.github.io";
+          const rawUrl = `https://raw.githubusercontent.com/${repo}/main/tools/stream-health-bot/out/proposals_latest.md`;
+          const subject = `[Canlı TV] ${n} teklif hazır`;
+          const lines = [
+            `Canlı TV katalog botu — onay bekleyen teklif özeti`,
+            ``,
+            `Toplam: ${n} teklif`,
+            `  - add_url: ${s.add_url || 0}`,
+            `  - add_channel: ${s.add_channel || 0}`,
+            `  - remove_url: ${s.remove_url || 0}`,
+            `Zaman: ${data.generatedAt || new Date().toISOString()}`,
+            ``,
+            `NOT: channels.json / stream_map.json otomatik değiştirilmedi.`,
+            `Onayladıktan sonra manuel uygulayın.`,
+            ``,
+            `İlk teklifler (max 20):`,
+            ``,
+          ];
+          for (const p of (data.proposals || []).slice(0, 20)) {
+            lines.push(`- [${p.action}] ${p.channelName} (${p.channelKey})`);
+            if (p.url) lines.push(`  ${p.url}`);
+            if (p.reason) lines.push(`  ${p.reason}`);
+          }
+          if (n > 20) lines.push(``, `... ve ${n - 20} teklif daha`);
+          lines.push(``, `Tam liste:`, rawUrl, ``);
+          fs.mkdirSync("tools/stream-health-bot/out", { recursive: true });
+          fs.writeFileSync("tools/stream-health-bot/out/email_body.txt", lines.join("\n"), "utf8");
+          fs.writeFileSync("tools/stream-health-bot/out/email_subject.txt", subject, "utf8");
+          fs.appendFileSync(process.env.GITHUB_OUTPUT, `count=${n}\n`);
+          console.log(subject);
+          NODE
+
+      - name: Check mail secrets
+        id: secrets_check
+        env:
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+          SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+        run: |
+          if [ -z "$MAIL_TO" ] || [ -z "$SMTP_SERVER" ] || [ -z "$SMTP_USERNAME" ] || [ -z "$SMTP_PASSWORD" ]; then
+            echo "::warning::E-posta secret'lari eksik (MAIL_TO, MAIL_FROM, SMTP_SERVER, SMTP_PORT, SMTP_USERNAME, SMTP_PASSWORD). Bildirim atlandi — workflow basarili sayilir."
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+            echo "from=${MAIL_FROM:-$SMTP_USERNAME}" >> "$GITHUB_OUTPUT"
+            echo "port=${SMTP_PORT:-587}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Send email
+        if: steps.secrets_check.outputs.ready == 'true'
+        continue-on-error: true
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ steps.secrets_check.outputs.port }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: "[Canli TV] ${{ steps.mail.outputs.count }} teklif hazir"
+          to: ${{ secrets.MAIL_TO }}
+          from: ${{ steps.secrets_check.outputs.from }}
+          body: file://tools/stream-health-bot/out/email_body.txt
+          content_type: text/plain
+          secure: false
+          ignore_cert: true
