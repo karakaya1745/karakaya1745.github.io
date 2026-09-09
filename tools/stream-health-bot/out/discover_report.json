@@ -1,13 +1,12 @@
 {
-  "generatedAt": "2026-09-04T07:30:20.121Z",
-  "dryRun": false,
-  "pending": 21,
+  "generatedAt": "2026-09-09T09:30:22.125Z",
+  "dryRun": true,
+  "pending": 22,
   "skippedExists": [
     "TRT Spor 2",
     "TRT Genç",
     "Cartoon Network",
     "Kon TV",
-    "FM TV",
     "Kanal B",
     "Gonca TV",
     "Rumeli TV",
@@ -47,7 +46,8 @@
       "name": "Süper TV",
       "key": "supertv",
       "urls": [
-        "http://wms.shared.streamshow.it/supertv/mp4:supertv/playlist.m3u8"
+        "http://wms.shared.streamshow.it/supertv/mp4:supertv/playlist.m3u8",
+        "http://iptv.supertv.ro:8000/play/a001/index.m3u8"
       ],
       "m3uCandidates": 3,
       "probeResults": [
@@ -58,14 +58,15 @@
           "status": 206
         },
         {
-          "url": "https://live.supertv.ro/live/supertv/playlist.m3u8",
+          "url": "https://5be5d840359c6.streamlock.net/supertv/supertv/chunklist.m3u8",
           "live": false,
           "reason": "network-error"
         },
         {
-          "url": "https://5be5d840359c6.streamlock.net/supertv/supertv/chunklist.m3u8",
-          "live": false,
-          "reason": "network-error"
+          "url": "http://iptv.supertv.ro:8000/play/a001/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
         }
       ]
     }
@@ -140,6 +141,11 @@
     },
     {
       "name": "HRT Akdeniz TV",
+      "candidates": 0,
+      "probeResults": []
+    },
+    {
+      "name": "FM TV",
       "candidates": 0,
       "probeResults": []
     },
@@ -323,5 +329,5 @@
     "Space Toon",
     "Süper TV"
   ],
-  "streamMapRevision": 167
+  "streamMapRevision": 172
 }
