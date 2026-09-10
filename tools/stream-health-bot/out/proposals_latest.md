@@ -1,17 +1,17 @@
 # Stream Health — Onay Bekleyen Teklifler
 
-Olusturulma: 2026-09-09T09:07:09.514Z
-Toplam teklif: **153**
+Olusturulma: 2026-09-10T09:21:23.983Z
+Toplam teklif: **187**
 
 | action | add_url | add_channel | remove_url |
 | --- | ---: | ---: | ---: |
-| adet | 53 | 1 | 99 |
+| adet | 87 | 1 | 99 |
 
 > Bu dosya **yalnizca teklif** icerir. `channels.json` / `stream_map.json` otomatik degistirilmez.
 
 ## Calisma ozeti
 
-- `health`: OK
+- `health`: TIMEOUT
 - `enrich`: OK
 - `discover`: OK
 
@@ -167,9 +167,43 @@ Toplam teklif: **153**
 | 146 | add_url | CNBC-e | cnbce | https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlist.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
 | 147 | add_url | Ekoturk | ekoturk | https://cdn.ekoturk.net/hls/master.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
 | 148 | add_url | MC TV | mctv | https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=https&service=wowza&type=live | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 149 | add_url | A Spor | aspor | https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8 | enrich-stream-map | M3U enrich dry-run: alternatif URL |
-| 150 | add_url | TELE 1 | tele1 | https://tele1-live.ercdn.net/tele1/tele1.m3u8 | enrich-stream-map | M3U enrich dry-run: alternatif URL |
-| 151 | add_url | TV8 | tv8 | https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8 | enrich-stream-map | M3U enrich dry-run: alternatif URL |
-| 152 | add_channel | Space Toon | spacetoon | https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8 | discover-missing-channels | TKGS/eksik liste dry-run: yeni kanal |
-| 153 | add_url | Space Toon | spacetoon | https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8 | discover-missing-channels | Yeni kanal icin ek URL (dry-run) |
+| 149 | add_url | A News | anews | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197297&extension=ts&play_token=K7FHjiXCNb | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 150 | add_url | A News | anews | http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197239&extension=ts&play_token=xp5X57KHYf | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 151 | add_url | A News | anews | http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197297&extension=ts&play_token=K7FHjiXCNb | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 152 | add_url | Bengu Turk | benguturk | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=197227&extension=ts&play_token=BIkfp6yMim | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 153 | add_url | Bengu Turk | benguturk | http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197227&extension=ts&play_token=BIkfp6yMim | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 154 | add_url | Cartoon Network | cartoonnetwork | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197411&extension=ts&play_token=6Vh9e7AwnI | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 155 | add_url | Cartoon Network | cartoonnetwork | http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197411&extension=ts&play_token=6Vh9e7AwnI | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 156 | add_url | Cartoon Network | cartoonnetwork | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197411&extension=ts&play_token=6Vh9e7AwnI | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 157 | add_url | Kanal B | kanalb | http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197198&extension=ts&play_token=6NxyOt8ARr | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 158 | add_url | Kanal B | kanalb | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197198&extension=ts&play_token=6NxyOt8ARr | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 159 | add_url | Kanal B | kanalb | http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197198&extension=ts&play_token=6NxyOt8ARr | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 160 | add_url | Kon TV | kontv | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197191&extension=ts&play_token=PM2eb119cV | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 161 | add_url | Kon TV | kontv | http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197191&extension=ts&play_token=PM2eb119cV | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 162 | add_url | Kon TV | kontv | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197191&extension=ts&play_token=PM2eb119cV | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 163 | add_url | Koza TV | kozatv | http://66capanoglu.com:8080/live/zehra@senol/15082022/352714.ts | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 164 | add_url | Medine TV | medinetv | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=801067&extension=ts&play_token=1955JCRmy8 | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 165 | add_url | Medine TV | medinetv | http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=801067&extension=ts&play_token=1955JCRmy8 | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 166 | add_url | Medine TV | medinetv | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=801067&extension=ts&play_token=1955JCRmy8 | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 167 | add_url | Meltem TV | meltemtv | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197182&extension=ts&play_token=GckvrhtdF2 | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 168 | add_url | Meltem TV | meltemtv | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=210463&extension=ts&play_token=H63cTrLCxx | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 169 | add_url | Meltem TV | meltemtv | http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197182&extension=ts&play_token=GckvrhtdF2 | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 170 | add_url | Minika Cocuk | minikacocuk | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197414&extension=ts&play_token=QRcQhhtUMu | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 171 | add_url | Minika Cocuk | minikacocuk | http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197414&extension=ts&play_token=QRcQhhtUMu | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 172 | add_url | Minika Cocuk | minikacocuk | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=197414&extension=ts&play_token=QRcQhhtUMu | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 173 | add_url | Minika GO | minikago | http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197415&extension=ts&play_token=jZU8XkX5Bq | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 174 | add_url | Minika GO | minikago | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=197415&extension=ts&play_token=jZU8XkX5Bq | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 175 | add_url | Minika GO | minikago | http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197415&extension=ts&play_token=jZU8XkX5Bq | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 176 | add_url | Rumeli TV | rumelitv | http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197188&extension=ts&play_token=PaNAKhTAov | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 177 | add_url | Rumeli TV | rumelitv | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197188&extension=ts&play_token=PaNAKhTAov | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 178 | add_url | TELE 1 | tele1 | https://tele1-live.ercdn.net/tele1/tele1.m3u8 | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 179 | add_url | TV5 | tv5 | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197160&extension=ts&play_token=dg0fqY7VUH | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 180 | add_url | TV5 | tv5 | http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197160&extension=ts&play_token=dg0fqY7VUH | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 181 | add_url | TV5 | tv5 | http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=210462&extension=ts&play_token=KSZIvDyc2v | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 182 | add_url | TV8 | tv8 | https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8 | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 183 | add_url | VAV TV | vavtv | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197167&extension=ts&play_token=6Sq7Otufl9 | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 184 | add_url | VAV TV | vavtv | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=210464&extension=ts&play_token=syELrgHMxY | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 185 | add_url | VAV TV | vavtv | http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197167&extension=ts&play_token=6Sq7Otufl9 | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 186 | add_channel | Space Toon | spacetoon | https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8 | discover-missing-channels | TKGS/eksik liste dry-run: yeni kanal |
+| 187 | add_url | Space Toon | spacetoon | https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8 | discover-missing-channels | Yeni kanal icin ek URL (dry-run) |
 

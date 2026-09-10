@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T09:26:01.101Z",
+  "generatedAt": "2026-09-10T10:21:24.045Z",
   "dryRun": true,
   "skipProbe": false,
   "targetCount": 1021,
@@ -31,28 +31,95 @@
       ]
     },
     {
-      "key": "aspor",
-      "added": 1,
+      "key": "anews",
+      "added": 3,
       "urls": [
-        "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8"
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197297&extension=ts&play_token=K7FHjiXCNb",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197239&extension=ts&play_token=xp5X57KHYf",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197297&extension=ts&play_token=K7FHjiXCNb"
       ],
-      "total": 12,
+      "total": 15,
       "probeResults": [
         {
-          "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8",
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197297&extension=ts&play_token=K7FHjiXCNb",
           "live": true,
-          "reason": "hls-manifest",
+          "reason": "panel-mpeg-ts",
           "status": 200
         },
         {
-          "url": "https://c.fulltvizle.com/aspor/index.m3u8",
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197239&extension=ts&play_token=xp5X57KHYf",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197297&extension=ts&play_token=K7FHjiXCNb",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "benguturk",
+      "added": 2,
+      "urls": [
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=197227&extension=ts&play_token=BIkfp6yMim",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197227&extension=ts&play_token=BIkfp6yMim"
+      ],
+      "total": 14,
+      "probeResults": [
+        {
+          "url": "https://canli.ensonhaber.com/tr/benguturk/index.m3u8",
           "live": false,
           "reason": "network-error"
         },
         {
-          "url": "https://streams.uzunmuhalefet.com/stream/0d7bcd25-1301-4ebf-bc8f-ccb7dec31577.m3u8",
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=197227&extension=ts&play_token=BIkfp6yMim",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197227&extension=ts&play_token=BIkfp6yMim",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "cartoonnetwork",
+      "added": 3,
+      "urls": [
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197411&extension=ts&play_token=6Vh9e7AwnI"
+      ],
+      "total": 5,
+      "probeResults": [
+        {
+          "url": "http://ch.canlitvlive.io/cartoonnetwork/live.m3u8",
           "live": false,
           "reason": "network-error"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
         }
       ]
     },
@@ -219,17 +286,99 @@
       ]
     },
     {
-      "key": "kanal33",
+      "key": "kanalb",
+      "added": 3,
+      "urls": [
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197198&extension=ts&play_token=6NxyOt8ARr",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197198&extension=ts&play_token=6NxyOt8ARr",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197198&extension=ts&play_token=6NxyOt8ARr"
+      ],
+      "total": 4,
+      "probeResults": [
+        {
+          "url": "https://baskentaudiovideo.xyz/LiveApp/streams/mUE22idl26lA1683879097431.m3u8",
+          "live": false,
+          "reason": "not-stream",
+          "status": 206
+        },
+        {
+          "url": "http://212.174.58.161/hls-live/livepkgr/_definst_/liveevent/kanalb.m3u8",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "https://baskentaudiovideo.xyz/ULUSALApp/streams/mUE22idl26lA1683879097431.m3u8",
+          "live": false,
+          "reason": "not-stream",
+          "status": 206
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197198&extension=ts&play_token=6NxyOt8ARr",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197198&extension=ts&play_token=6NxyOt8ARr",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197198&extension=ts&play_token=6NxyOt8ARr",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "kontv",
+      "added": 3,
+      "urls": [
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197191&extension=ts&play_token=PM2eb119cV",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197191&extension=ts&play_token=PM2eb119cV",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197191&extension=ts&play_token=PM2eb119cV"
+      ],
+      "total": 7,
+      "probeResults": [
+        {
+          "url": "https://59cba4d34b678.streamlock.net/live/kontv/chunklist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197191&extension=ts&play_token=PM2eb119cV",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197191&extension=ts&play_token=PM2eb119cV",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197191&extension=ts&play_token=PM2eb119cV",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "kozatv",
       "added": 1,
       "urls": [
-        "https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8"
+        "http://66capanoglu.com:8080/live/zehra@senol/15082022/352714.ts"
       ],
       "total": 2,
       "probeResults": [
         {
-          "url": "https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8",
+          "url": "http://66capanoglu.com:8080/live/zehra@senol/15082022/352714.ts",
           "live": true,
-          "reason": "hls-manifest",
+          "reason": "mpeg-ts",
           "status": 206
         }
       ]
@@ -319,6 +468,160 @@
       ]
     },
     {
+      "key": "medinetv",
+      "added": 3,
+      "urls": [
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=801067&extension=ts&play_token=1955JCRmy8",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=801067&extension=ts&play_token=1955JCRmy8",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=801067&extension=ts&play_token=1955JCRmy8"
+      ],
+      "total": 4,
+      "probeResults": [
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=801067&extension=ts&play_token=1955JCRmy8",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=801067&extension=ts&play_token=1955JCRmy8",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=801067&extension=ts&play_token=1955JCRmy8",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "meltemtv",
+      "added": 3,
+      "urls": [
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197182&extension=ts&play_token=GckvrhtdF2",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=210463&extension=ts&play_token=H63cTrLCxx",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197182&extension=ts&play_token=GckvrhtdF2"
+      ],
+      "total": 17,
+      "probeResults": [
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197182&extension=ts&play_token=GckvrhtdF2",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=210463&extension=ts&play_token=H63cTrLCxx",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197182&extension=ts&play_token=GckvrhtdF2",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "minikacocuk",
+      "added": 3,
+      "urls": [
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197414&extension=ts&play_token=QRcQhhtUMu",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197414&extension=ts&play_token=QRcQhhtUMu",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=197414&extension=ts&play_token=QRcQhhtUMu"
+      ],
+      "total": 12,
+      "probeResults": [
+        {
+          "url": "https://trkvz-live.daioncdn.net/minikago_cocuk/minikago_cocuk.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404
+        },
+        {
+          "url": "https://trkvz.daioncdn.net/minikago_cocuk/minikago_cocuk.m3u8?app=web&ce=3",
+          "live": false,
+          "reason": "http-403",
+          "status": 403
+        },
+        {
+          "url": "http://trn10.tulix.tv/gt-minikacocuk/index.m3u8",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197414&extension=ts&play_token=QRcQhhtUMu",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197414&extension=ts&play_token=QRcQhhtUMu",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=197414&extension=ts&play_token=QRcQhhtUMu",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "minikago",
+      "added": 3,
+      "urls": [
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197415&extension=ts&play_token=jZU8XkX5Bq",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=197415&extension=ts&play_token=jZU8XkX5Bq",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197415&extension=ts&play_token=jZU8XkX5Bq"
+      ],
+      "total": 16,
+      "probeResults": [
+        {
+          "url": "https://trkvz-live.daioncdn.net/minikago/minikago.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404
+        },
+        {
+          "url": "https://trkvz.daioncdn.net/minikago/minikago.m3u8?app=web&ce=3",
+          "live": false,
+          "reason": "http-403",
+          "status": 403
+        },
+        {
+          "url": "http://trn10.tulix.tv/gt-minikago/index.m3u8",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197415&extension=ts&play_token=jZU8XkX5Bq",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=197415&extension=ts&play_token=jZU8XkX5Bq",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197415&extension=ts&play_token=jZU8XkX5Bq",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        }
+      ]
+    },
+    {
       "key": "neotv",
       "added": 2,
       "urls": [
@@ -354,6 +657,45 @@
           "live": true,
           "reason": "hls-manifest",
           "status": 206
+        }
+      ]
+    },
+    {
+      "key": "rumelitv",
+      "added": 2,
+      "urls": [
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197188&extension=ts&play_token=PaNAKhTAov",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197188&extension=ts&play_token=PaNAKhTAov"
+      ],
+      "total": 6,
+      "probeResults": [
+        {
+          "url": "https://rumelitv-live.ercdn.net/rumelitv/rumelitv.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://yayin3.canlitv.com:1935/live/rumelitv/iptvdelisi.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197188&extension=ts&play_token=PaNAKhTAov",
+          "live": false,
+          "reason": "http-502",
+          "status": 502
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197188&extension=ts&play_token=PaNAKhTAov",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197188&extension=ts&play_token=PaNAKhTAov",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
         }
       ]
     },
@@ -486,7 +828,7 @@
         {
           "url": "https://tv100.daioncdn.net/tv100/tv100_1080p.m3u8?app=web",
           "live": false,
-          "reason": "timeout"
+          "reason": "network-error"
         },
         {
           "url": "https://tv100-live.daioncdn.net/tv100/tv100.m3u8",
@@ -498,6 +840,42 @@
           "live": true,
           "reason": "hls-manifest",
           "status": 206
+        }
+      ]
+    },
+    {
+      "key": "tv5",
+      "added": 3,
+      "urls": [
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197160&extension=ts&play_token=dg0fqY7VUH",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197160&extension=ts&play_token=dg0fqY7VUH",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=210462&extension=ts&play_token=KSZIvDyc2v"
+      ],
+      "total": 6,
+      "probeResults": [
+        {
+          "url": "https://cdn4.skygo.mn/live/disk1/TV5HD/DASH-FTA/TV5HD.mpd",
+          "live": false,
+          "reason": "not-stream",
+          "status": 206
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197160&extension=ts&play_token=dg0fqY7VUH",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197160&extension=ts&play_token=dg0fqY7VUH",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=210462&extension=ts&play_token=KSZIvDyc2v",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
         }
       ]
     },
@@ -528,11 +906,47 @@
           "status": 403
         }
       ]
+    },
+    {
+      "key": "vavtv",
+      "added": 3,
+      "urls": [
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197167&extension=ts&play_token=6Sq7Otufl9",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=210464&extension=ts&play_token=syELrgHMxY",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197167&extension=ts&play_token=6Sq7Otufl9"
+      ],
+      "total": 5,
+      "probeResults": [
+        {
+          "url": "https://trkvz-live.ercdn.net/vavtv/vavtv.m3u8",
+          "live": false,
+          "reason": "http-403",
+          "status": 403
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197167&extension=ts&play_token=6Sq7Otufl9",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=210464&extension=ts&play_token=syELrgHMxY",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197167&extension=ts&play_token=6Sq7Otufl9",
+          "live": true,
+          "reason": "panel-mpeg-ts",
+          "status": 200
+        }
+      ]
     }
   ],
   "skippedFull": [],
-  "totalNewUrls": 29,
-  "enrichedCount": 24,
+  "totalNewUrls": 62,
+  "enrichedCount": 35,
   "streamMapRevision": 172,
   "mapChanged": true
 }
