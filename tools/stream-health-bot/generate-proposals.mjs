@@ -5,6 +5,7 @@
  * Runs existing bots in DRY-RUN (never --apply) and consolidates:
  *   out/proposals_latest.json
  *   out/proposals_latest.md
+ *   out/proposals_adds.m3u          (yalnizca add_url / add_channel)
  *   out/proposals_YYYY-MM-DD.json (dated copy)
  *
  * Usage:
@@ -227,6 +228,21 @@ function proposalTableRows(list) {
   return lines;
 }
 
+function toAddsM3u(adds) {
+  const lines = ["#EXTM3U"];
+  for (const p of adds || []) {
+    const url = String(p.url || "").trim();
+    if (!url) continue;
+    const key = String(p.channelKey || "").replace(/"/g, "");
+    const name = String(p.channelName || p.channelKey || key || "unknown").trim();
+    lines.push(
+      `#EXTINF:-1 tvg-id="${key}" group-title="Ekleme Teklifleri",${name}`,
+    );
+    lines.push(url);
+  }
+  return `${lines.join("\n")}\n`;
+}
+
 function toMarkdown(payload) {
   const adds = payload.adds || [];
   const removes = payload.removes || [];
@@ -243,6 +259,11 @@ function toMarkdown(payload) {
     `| adet | ${payload.summary.add_url} | ${payload.summary.add_channel} | ${payload.summary.remove_url} |`,
     "",
     "> Bu dosya **yalnizca teklif** icerir. `channels.json` / `stream_map.json` otomatik degistirilmez.",
+    "",
+    "## VLC test (yalnizca ekleme teklifleri)",
+    "",
+    "- Dosya: [`tools/stream-health-bot/out/proposals_adds.m3u`](./proposals_adds.m3u)",
+    "- Raw: https://raw.githubusercontent.com/karakaya1745/karakaya1745.github.io/main/tools/stream-health-bot/out/proposals_adds.m3u",
     "",
     "## Calisma ozeti",
     "",
@@ -357,14 +378,17 @@ async function main() {
 
   const jsonPath = path.join(OUT_DIR, "proposals_latest.json");
   const mdPath = path.join(OUT_DIR, "proposals_latest.md");
+  const m3uPath = path.join(OUT_DIR, "proposals_adds.m3u");
   const datedJson = path.join(OUT_DIR, `proposals_${stampDate()}.json`);
 
   atomicWriteJson(jsonPath, payload);
   fs.writeFileSync(mdPath, toMarkdown(payload), "utf8");
+  fs.writeFileSync(m3uPath, toAddsM3u(adds), "utf8");
   atomicWriteJson(datedJson, payload);
 
   log(`Yazildi: ${jsonPath}`);
   log(`Yazildi: ${mdPath}`);
+  log(`Yazildi: ${m3uPath}`);
   log(`Yazildi: ${datedJson}`);
   log(
     `Ozet: ${adds.length} ekleme, ${removes.length} kaldirma (add_url=${summary.add_url}, add_channel=${summary.add_channel}, remove_url=${summary.remove_url})`,

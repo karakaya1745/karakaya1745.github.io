@@ -9,6 +9,11 @@ Toplam teklif: **186** (87 ekleme, 99 kaldirma)
 
 > Bu dosya **yalnizca teklif** icerir. `channels.json` / `stream_map.json` otomatik degistirilmez.
 
+## VLC test (yalnizca ekleme teklifleri)
+
+- Dosya: [`tools/stream-health-bot/out/proposals_adds.m3u`](./proposals_adds.m3u)
+- Raw: https://raw.githubusercontent.com/karakaya1745/karakaya1745.github.io/main/tools/stream-health-bot/out/proposals_adds.m3u
+
 ## Calisma ozeti
 
 - `health`: TIMEOUT

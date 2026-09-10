@@ -1,0 +1,175 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="atv" group-title="Ekleme Teklifleri",ATV
+http://45.171.108.253:8888/ATV/index.m3u8
+#EXTINF:-1 tvg-id="atv" group-title="Ekleme Teklifleri",ATV
+https://live.zendzend.com/mpegts/29375_107244/media_mpegts_0.m3u8
+#EXTINF:-1 tvg-id="kanald" group-title="Ekleme Teklifleri",Kanal D
+https://stream1.kanald.ro/iphone/knd-live.m3u8
+#EXTINF:-1 tvg-id="kanald" group-title="Ekleme Teklifleri",Kanal D
+https://live.duhnet.tv/S2/HLS_LIVE/kanalddainp/playlist.m3u8
+#EXTINF:-1 tvg-id="now" group-title="Ekleme Teklifleri",NOW
+http://stream.cammonitorplus.net/1752/index.m3u8
+#EXTINF:-1 tvg-id="now" group-title="Ekleme Teklifleri",NOW
+http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/6108/index.m3u8
+#EXTINF:-1 tvg-id="now" group-title="Ekleme Teklifleri",NOW
+http://stream.mcquack.net/182/index.m3u8
+#EXTINF:-1 tvg-id="tv8" group-title="Ekleme Teklifleri",TV8
+http://315e5a5d.ottrast.com/iptv/8KSD5KFDXA6H88/2454/index.m3u8
+#EXTINF:-1 tvg-id="tv100" group-title="Ekleme Teklifleri",TV100
+https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8
+#EXTINF:-1 tvg-id="tv100" group-title="Ekleme Teklifleri",TV100
+https://gwebstream.net/hls/master.m3u8
+#EXTINF:-1 tvg-id="ntv" group-title="Ekleme Teklifleri",NTV
+https://protokolldns.xyz/ntv.l.i.v.e5547892023/index.m3u8
+#EXTINF:-1 tvg-id="ntv" group-title="Ekleme Teklifleri",NTV
+https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
+#EXTINF:-1 tvg-id="ntv" group-title="Ekleme Teklifleri",NTV
+https://cdn.livespanel.com/nossatv/nossatv/playlist.m3u8
+#EXTINF:-1 tvg-id="ntv" group-title="Ekleme Teklifleri",NTV
+https://bl.rutube.ru/livestream/c37cd74192c6bc3d6cd6077c0c4fd686/index.m3u8?e=2077050299&s=HSWg81JrQ3OqmwuWkEIDAQ&scheme=https
+#EXTINF:-1 tvg-id="ntv" group-title="Ekleme Teklifleri",NTV
+http://45.153.24.78/NTV/index.m3u8
+#EXTINF:-1 tvg-id="haberglobal" group-title="Ekleme Teklifleri",Haber Global
+https://ensonhaber-live.ercdn.net/haberglobal/haberglobal.m3u8
+#EXTINF:-1 tvg-id="haberglobal" group-title="Ekleme Teklifleri",Haber Global
+https://tv.ensonhaber.com/haberglobal/haberglobal_720p.m3u8
+#EXTINF:-1 tvg-id="t24" group-title="Ekleme Teklifleri",T24
+http://88.212.15.19/live/test_ct24_hevc/playlist.m3u8
+#EXTINF:-1 tvg-id="tele1" group-title="Ekleme Teklifleri",TELE 1
+https://tele1-live.ercdn.net/tele1/tele1_1080p.m3u8
+#EXTINF:-1 tvg-id="tgrthaber" group-title="Ekleme Teklifleri",TGRT Haber
+https://canli.tgrthaber.com/tgrt.m3u8
+#EXTINF:-1 tvg-id="tgrthaber" group-title="Ekleme Teklifleri",TGRT Haber
+https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe4598be8e5d.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="lifetv" group-title="Ekleme Teklifleri",Life TV
+http://88.212.15.19/live/lifetv/index.m3u8
+#EXTINF:-1 tvg-id="lifetv" group-title="Ekleme Teklifleri",Life TV
+http://lifetv.bitflip.ee/live/stream1_1/index.m3u8
+#EXTINF:-1 tvg-id="lifetv" group-title="Ekleme Teklifleri",Life TV
+https://lifetv.livebox.co.in/lifetvhls/lifetv.m3u8
+#EXTINF:-1 tvg-id="lifetv" group-title="Ekleme Teklifleri",Life TV
+https://lifetv.mpks.sk/s.m3u8
+#EXTINF:-1 tvg-id="neotv" group-title="Ekleme Teklifleri",Neo TV
+https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
+#EXTINF:-1 tvg-id="neotv" group-title="Ekleme Teklifleri",Neo TV
+http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/DigitalTV/playlist.m3u8
+#EXTINF:-1 tvg-id="htspor" group-title="Ekleme Teklifleri",HT Spor
+https://new.cache-stream.workers.dev/stream/UCK3mI2lsk3LSo8PBUc8JTSw/live.m3u8
+#EXTINF:-1 tvg-id="dmax" group-title="Ekleme Teklifleri",DMAX
+http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/2290/index.m3u8
+#EXTINF:-1 tvg-id="tlc" group-title="Ekleme Teklifleri",TLC
+http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6915/index.m3u8
+#EXTINF:-1 tvg-id="tgrtbelgesel" group-title="Ekleme Teklifleri",TGRT Belgesel
+https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="kralpoptv" group-title="Ekleme Teklifleri",Kral Pop TV
+https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
+#EXTINF:-1 tvg-id="powertv" group-title="Ekleme Teklifleri",Power TV
+https://powertvkannada.com/hls/stream.m3u8
+#EXTINF:-1 tvg-id="powerturkslow" group-title="Ekleme Teklifleri",Power Türk Slow
+https://listen.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="dreamtv" group-title="Ekleme Teklifleri",DREAM TV
+https://xykt-fix.github.io/play/a02j/index.m3u8
+#EXTINF:-1 tvg-id="dreamtv" group-title="Ekleme Teklifleri",DREAM TV
+https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8
+#EXTINF:-1 tvg-id="mcmtop" group-title="Ekleme Teklifleri",MCM TOP
+http://46.32.176.50/mcmtop/index.m3u8
+#EXTINF:-1 tvg-id="dosttv" group-title="Ekleme Teklifleri",Dost TV
+https://tvsms.club/tvz.php?kanal=dost&file=.m3u8
+#EXTINF:-1 tvg-id="adatv" group-title="Ekleme Teklifleri",Ada TV
+https://live-evg10.tv360.bitel.com.pe/bitel/alasdeaguilaSRT/playlist.m3u8
+#EXTINF:-1 tvg-id="erzurumwebtv" group-title="Ekleme Teklifleri",Erzurum Web TV
+https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8
+#EXTINF:-1 tvg-id="kanal33" group-title="Ekleme Teklifleri",Kanal 33
+https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="ertv" group-title="Ekleme Teklifleri",Er TV
+https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8
+#EXTINF:-1 tvg-id="estv" group-title="Ekleme Teklifleri",ES TV
+https://cloudfront44.lexanetwork.com:1344/relay01/HDE032.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="tivi6" group-title="Ekleme Teklifleri",Tivi 6
+https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
+#EXTINF:-1 tvg-id="tivi6" group-title="Ekleme Teklifleri",Tivi 6
+https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/chunks.m3u8
+#EXTINF:-1 tvg-id="tv1" group-title="Ekleme Teklifleri",TV 1
+https://live.tv1.rw/index.m3u8
+#EXTINF:-1 tvg-id="cnbce" group-title="Ekleme Teklifleri",CNBC-e
+https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ekoturk" group-title="Ekleme Teklifleri",Ekoturk
+https://cdn.ekoturk.net/hls/master.m3u8
+#EXTINF:-1 tvg-id="mctv" group-title="Ekleme Teklifleri",MC TV
+https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=https&service=wowza&type=live
+#EXTINF:-1 tvg-id="anews" group-title="Ekleme Teklifleri",A News
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197297&extension=ts&play_token=K7FHjiXCNb
+#EXTINF:-1 tvg-id="anews" group-title="Ekleme Teklifleri",A News
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197297&extension=ts&play_token=K7FHjiXCNb
+#EXTINF:-1 tvg-id="aspor" group-title="Ekleme Teklifleri",A Spor
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8
+#EXTINF:-1 tvg-id="atv" group-title="Ekleme Teklifleri",ATV
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
+#EXTINF:-1 tvg-id="benguturk" group-title="Ekleme Teklifleri",Bengu Turk
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=197227&extension=ts&play_token=BIkfp6yMim
+#EXTINF:-1 tvg-id="benguturk" group-title="Ekleme Teklifleri",Bengu Turk
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197227&extension=ts&play_token=BIkfp6yMim
+#EXTINF:-1 tvg-id="cartoonnetwork" group-title="Ekleme Teklifleri",Cartoon Network
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197411&extension=ts&play_token=6Vh9e7AwnI
+#EXTINF:-1 tvg-id="cartoonnetwork" group-title="Ekleme Teklifleri",Cartoon Network
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197411&extension=ts&play_token=6Vh9e7AwnI
+#EXTINF:-1 tvg-id="cartoonnetwork" group-title="Ekleme Teklifleri",Cartoon Network
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197411&extension=ts&play_token=6Vh9e7AwnI
+#EXTINF:-1 tvg-id="kanalb" group-title="Ekleme Teklifleri",Kanal B
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197198&extension=ts&play_token=6NxyOt8ARr
+#EXTINF:-1 tvg-id="kanalb" group-title="Ekleme Teklifleri",Kanal B
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197198&extension=ts&play_token=6NxyOt8ARr
+#EXTINF:-1 tvg-id="kanalb" group-title="Ekleme Teklifleri",Kanal B
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197198&extension=ts&play_token=6NxyOt8ARr
+#EXTINF:-1 tvg-id="kontv" group-title="Ekleme Teklifleri",Kon TV
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197191&extension=ts&play_token=PM2eb119cV
+#EXTINF:-1 tvg-id="kontv" group-title="Ekleme Teklifleri",Kon TV
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197191&extension=ts&play_token=PM2eb119cV
+#EXTINF:-1 tvg-id="kontv" group-title="Ekleme Teklifleri",Kon TV
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197191&extension=ts&play_token=PM2eb119cV
+#EXTINF:-1 tvg-id="kozatv" group-title="Ekleme Teklifleri",Koza TV
+http://66capanoglu.com:8080/live/zehra@senol/15082022/352714.ts
+#EXTINF:-1 tvg-id="medinetv" group-title="Ekleme Teklifleri",Medine TV
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=801067&extension=ts&play_token=1955JCRmy8
+#EXTINF:-1 tvg-id="medinetv" group-title="Ekleme Teklifleri",Medine TV
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=801067&extension=ts&play_token=1955JCRmy8
+#EXTINF:-1 tvg-id="medinetv" group-title="Ekleme Teklifleri",Medine TV
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=801067&extension=ts&play_token=1955JCRmy8
+#EXTINF:-1 tvg-id="meltemtv" group-title="Ekleme Teklifleri",Meltem TV
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197182&extension=ts&play_token=GckvrhtdF2
+#EXTINF:-1 tvg-id="meltemtv" group-title="Ekleme Teklifleri",Meltem TV
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=210463&extension=ts&play_token=H63cTrLCxx
+#EXTINF:-1 tvg-id="meltemtv" group-title="Ekleme Teklifleri",Meltem TV
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197182&extension=ts&play_token=GckvrhtdF2
+#EXTINF:-1 tvg-id="minikacocuk" group-title="Ekleme Teklifleri",Minika Cocuk
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197414&extension=ts&play_token=QRcQhhtUMu
+#EXTINF:-1 tvg-id="minikacocuk" group-title="Ekleme Teklifleri",Minika Cocuk
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197414&extension=ts&play_token=QRcQhhtUMu
+#EXTINF:-1 tvg-id="minikacocuk" group-title="Ekleme Teklifleri",Minika Cocuk
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=197414&extension=ts&play_token=QRcQhhtUMu
+#EXTINF:-1 tvg-id="minikago" group-title="Ekleme Teklifleri",Minika GO
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197415&extension=ts&play_token=jZU8XkX5Bq
+#EXTINF:-1 tvg-id="minikago" group-title="Ekleme Teklifleri",Minika GO
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=197415&extension=ts&play_token=jZU8XkX5Bq
+#EXTINF:-1 tvg-id="minikago" group-title="Ekleme Teklifleri",Minika GO
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197415&extension=ts&play_token=jZU8XkX5Bq
+#EXTINF:-1 tvg-id="rehbertv" group-title="Ekleme Teklifleri",Rehber TV
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=210469&extension=ts&play_token=r4Pv0CSWXd
+#EXTINF:-1 tvg-id="rumelitv" group-title="Ekleme Teklifleri",Rumeli TV
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197188&extension=ts&play_token=PaNAKhTAov
+#EXTINF:-1 tvg-id="rumelitv" group-title="Ekleme Teklifleri",Rumeli TV
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197188&extension=ts&play_token=PaNAKhTAov
+#EXTINF:-1 tvg-id="rumelitv" group-title="Ekleme Teklifleri",Rumeli TV
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197188&extension=ts&play_token=PaNAKhTAov
+#EXTINF:-1 tvg-id="tele1" group-title="Ekleme Teklifleri",TELE 1
+https://tele1-live.ercdn.net/tele1/tele1.m3u8
+#EXTINF:-1 tvg-id="tv5" group-title="Ekleme Teklifleri",TV5
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197160&extension=ts&play_token=dg0fqY7VUH
+#EXTINF:-1 tvg-id="vavtv" group-title="Ekleme Teklifleri",VAV TV
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197167&extension=ts&play_token=6Sq7Otufl9
+#EXTINF:-1 tvg-id="vavtv" group-title="Ekleme Teklifleri",VAV TV
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=210464&extension=ts&play_token=syELrgHMxY
+#EXTINF:-1 tvg-id="spacetoon" group-title="Ekleme Teklifleri",Space Toon
+https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8
+#EXTINF:-1 tvg-id="spacetoon" group-title="Ekleme Teklifleri",Space Toon
+https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8

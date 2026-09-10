@@ -45,6 +45,7 @@ jobs:
           git add \
             tools/stream-health-bot/out/proposals_latest.json \
             tools/stream-health-bot/out/proposals_latest.md \
+            tools/stream-health-bot/out/proposals_adds.m3u \
             tools/stream-health-bot/out/proposals_*.json \
             tools/stream-health-bot/out/url_health_state.json \
             tools/stream-health-bot/out/maintain_report.json \
@@ -84,6 +85,7 @@ jobs:
           const n = addN + removeN;
           const repo = process.env.GITHUB_REPOSITORY || "karakaya1745/karakaya1745.github.io";
           const rawUrl = `https://raw.githubusercontent.com/${repo}/main/tools/stream-health-bot/out/proposals_latest.md`;
+          const m3uRawUrl = `https://raw.githubusercontent.com/${repo}/main/tools/stream-health-bot/out/proposals_adds.m3u`;
           const subject = `[Canlı TV] ${addN} ekleme, ${removeN} kaldırma teklifi`;
 
           function appendList(lines, list, max) {
@@ -126,7 +128,15 @@ jobs:
             appendList(lines, removes, 20);
             lines.push(``);
           }
-          lines.push(`Tam liste:`, rawUrl, ``);
+          lines.push(
+            `Tam liste:`,
+            rawUrl,
+            ``,
+            `VLC test (yalnızca ekleme teklifleri — add_url / add_channel):`,
+            `  Dosya: tools/stream-health-bot/out/proposals_adds.m3u`,
+            `  Raw: ${m3uRawUrl}`,
+            ``,
+          );
           fs.mkdirSync("tools/stream-health-bot/out", { recursive: true });
           fs.writeFileSync("tools/stream-health-bot/out/email_body.txt", lines.join("\n"), "utf8");
           fs.writeFileSync("tools/stream-health-bot/out/email_subject.txt", subject, "utf8");
