@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T11:17:33.950Z",
+  "generatedAt": "2026-09-10T13:20:22.554Z",
   "dryRun": true,
   "pending": 22,
   "skippedExists": [
@@ -215,12 +215,14 @@
         {
           "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197200&extension=ts&play_token=4eItwPJoyj",
           "live": false,
-          "reason": "network-error"
+          "reason": "http-502",
+          "status": 502
         },
         {
           "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197200&extension=ts&play_token=4eItwPJoyj",
           "live": false,
-          "reason": "network-error"
+          "reason": "http-404",
+          "status": 404
         },
         {
           "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197200&extension=ts&play_token=4eItwPJoyj",

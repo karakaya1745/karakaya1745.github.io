@@ -1,26 +1,40 @@
 {
-  "generatedAt": "2026-09-10T11:30:35.802Z",
+  "generatedAt": "2026-09-10T11:54:52.888Z",
   "mode": "proposal-only",
   "applied": false,
   "catalogTouched": false,
   "summary": {
-    "add_url": 87,
+    "add_url": 86,
     "add_channel": 1,
     "remove_url": 99
   },
   "runs": [
     {
-      "label": "aggregate-only",
-      "ok": true,
+      "label": "health",
+      "ok": false,
       "code": null,
+      "timedOut": true,
+      "skipped": false
+    },
+    {
+      "label": "enrich",
+      "ok": true,
+      "code": 0,
+      "timedOut": false,
+      "skipped": false
+    },
+    {
+      "label": "discover",
+      "ok": true,
+      "code": 0,
       "timedOut": false,
       "skipped": false
     }
   ],
   "sources": {
     "health": "2026-09-09T09:07:09.553Z",
-    "enrich": "2026-09-10T10:21:24.045Z",
-    "discover": "2026-09-10T11:17:33.950Z"
+    "enrich": "2026-09-10T12:54:52.946Z",
+    "discover": "2026-09-10T13:20:22.554Z"
   },
   "adds": [
     {
@@ -427,15 +441,23 @@
       "action": "add_url",
       "channelName": "A News",
       "channelKey": "anews",
-      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197239&extension=ts&play_token=xp5X57KHYf",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197297&extension=ts&play_token=K7FHjiXCNb",
       "source": "enrich-stream-map",
       "reason": "M3U enrich dry-run: alternatif URL"
     },
     {
       "action": "add_url",
-      "channelName": "A News",
-      "channelKey": "anews",
-      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197297&extension=ts&play_token=K7FHjiXCNb",
+      "channelName": "A Spor",
+      "channelKey": "aspor",
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8",
+      "source": "enrich-stream-map",
+      "reason": "M3U enrich dry-run: alternatif URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "ATV",
+      "channelKey": "atv",
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8",
       "source": "enrich-stream-map",
       "reason": "M3U enrich dry-run: alternatif URL"
     },
@@ -633,6 +655,22 @@
     },
     {
       "action": "add_url",
+      "channelName": "Rehber TV",
+      "channelKey": "rehbertv",
+      "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=210469&extension=ts&play_token=r4Pv0CSWXd",
+      "source": "enrich-stream-map",
+      "reason": "M3U enrich dry-run: alternatif URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "Rumeli TV",
+      "channelKey": "rumelitv",
+      "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197188&extension=ts&play_token=PaNAKhTAov",
+      "source": "enrich-stream-map",
+      "reason": "M3U enrich dry-run: alternatif URL"
+    },
+    {
+      "action": "add_url",
       "channelName": "Rumeli TV",
       "channelKey": "rumelitv",
       "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197188&extension=ts&play_token=PaNAKhTAov",
@@ -659,31 +697,7 @@
       "action": "add_url",
       "channelName": "TV5",
       "channelKey": "tv5",
-      "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197160&extension=ts&play_token=dg0fqY7VUH",
-      "source": "enrich-stream-map",
-      "reason": "M3U enrich dry-run: alternatif URL"
-    },
-    {
-      "action": "add_url",
-      "channelName": "TV5",
-      "channelKey": "tv5",
       "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197160&extension=ts&play_token=dg0fqY7VUH",
-      "source": "enrich-stream-map",
-      "reason": "M3U enrich dry-run: alternatif URL"
-    },
-    {
-      "action": "add_url",
-      "channelName": "TV5",
-      "channelKey": "tv5",
-      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=210462&extension=ts&play_token=KSZIvDyc2v",
-      "source": "enrich-stream-map",
-      "reason": "M3U enrich dry-run: alternatif URL"
-    },
-    {
-      "action": "add_url",
-      "channelName": "TV8",
-      "channelKey": "tv8",
-      "url": "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8",
       "source": "enrich-stream-map",
       "reason": "M3U enrich dry-run: alternatif URL"
     },
@@ -700,14 +714,6 @@
       "channelName": "VAV TV",
       "channelKey": "vavtv",
       "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=210464&extension=ts&play_token=syELrgHMxY",
-      "source": "enrich-stream-map",
-      "reason": "M3U enrich dry-run: alternatif URL"
-    },
-    {
-      "action": "add_url",
-      "channelName": "VAV TV",
-      "channelKey": "vavtv",
-      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197167&extension=ts&play_token=6Sq7Otufl9",
       "source": "enrich-stream-map",
       "reason": "M3U enrich dry-run: alternatif URL"
     },
@@ -1927,15 +1933,23 @@
       "action": "add_url",
       "channelName": "A News",
       "channelKey": "anews",
-      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197239&extension=ts&play_token=xp5X57KHYf",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197297&extension=ts&play_token=K7FHjiXCNb",
       "source": "enrich-stream-map",
       "reason": "M3U enrich dry-run: alternatif URL"
     },
     {
       "action": "add_url",
-      "channelName": "A News",
-      "channelKey": "anews",
-      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197297&extension=ts&play_token=K7FHjiXCNb",
+      "channelName": "A Spor",
+      "channelKey": "aspor",
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8",
+      "source": "enrich-stream-map",
+      "reason": "M3U enrich dry-run: alternatif URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "ATV",
+      "channelKey": "atv",
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8",
       "source": "enrich-stream-map",
       "reason": "M3U enrich dry-run: alternatif URL"
     },
@@ -2133,6 +2147,22 @@
     },
     {
       "action": "add_url",
+      "channelName": "Rehber TV",
+      "channelKey": "rehbertv",
+      "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=210469&extension=ts&play_token=r4Pv0CSWXd",
+      "source": "enrich-stream-map",
+      "reason": "M3U enrich dry-run: alternatif URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "Rumeli TV",
+      "channelKey": "rumelitv",
+      "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197188&extension=ts&play_token=PaNAKhTAov",
+      "source": "enrich-stream-map",
+      "reason": "M3U enrich dry-run: alternatif URL"
+    },
+    {
+      "action": "add_url",
       "channelName": "Rumeli TV",
       "channelKey": "rumelitv",
       "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197188&extension=ts&play_token=PaNAKhTAov",
@@ -2159,31 +2189,7 @@
       "action": "add_url",
       "channelName": "TV5",
       "channelKey": "tv5",
-      "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197160&extension=ts&play_token=dg0fqY7VUH",
-      "source": "enrich-stream-map",
-      "reason": "M3U enrich dry-run: alternatif URL"
-    },
-    {
-      "action": "add_url",
-      "channelName": "TV5",
-      "channelKey": "tv5",
       "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197160&extension=ts&play_token=dg0fqY7VUH",
-      "source": "enrich-stream-map",
-      "reason": "M3U enrich dry-run: alternatif URL"
-    },
-    {
-      "action": "add_url",
-      "channelName": "TV5",
-      "channelKey": "tv5",
-      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=210462&extension=ts&play_token=KSZIvDyc2v",
-      "source": "enrich-stream-map",
-      "reason": "M3U enrich dry-run: alternatif URL"
-    },
-    {
-      "action": "add_url",
-      "channelName": "TV8",
-      "channelKey": "tv8",
-      "url": "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8_1080p.m3u8",
       "source": "enrich-stream-map",
       "reason": "M3U enrich dry-run: alternatif URL"
     },
@@ -2200,14 +2206,6 @@
       "channelName": "VAV TV",
       "channelKey": "vavtv",
       "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=210464&extension=ts&play_token=syELrgHMxY",
-      "source": "enrich-stream-map",
-      "reason": "M3U enrich dry-run: alternatif URL"
-    },
-    {
-      "action": "add_url",
-      "channelName": "VAV TV",
-      "channelKey": "vavtv",
-      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197167&extension=ts&play_token=6Sq7Otufl9",
       "source": "enrich-stream-map",
       "reason": "M3U enrich dry-run: alternatif URL"
     },
