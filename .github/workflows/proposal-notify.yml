@@ -54,8 +54,10 @@ jobs:
             echo "Degisiklik yok."
             exit 0
           fi
-          COUNT=$(node -e "const p=require('./tools/stream-health-bot/out/proposals_latest.json'); console.log((p.proposals||[]).length)")
-          git commit -m "proposals: ${COUNT} teklif hazir (onay bekliyor) [bot]"
+          COUNT=$(node -e "const p=require('./tools/stream-health-bot/out/proposals_latest.json'); const a=(p.adds||[]).length; const r=(p.removes||[]).length; console.log(a+','+r)")
+          ADD_N="${COUNT%%,*}"
+          REMOVE_N="${COUNT##*,}"
+          git commit -m "proposals: ${ADD_N} ekleme, ${REMOVE_N} kaldırma teklifi (onay bekliyor) [bot]"
           git pull --rebase --autostash origin main
           git push origin main
 
@@ -65,19 +67,41 @@ jobs:
           node <<'NODE'
           const fs = require("fs");
           const path = "tools/stream-health-bot/out/proposals_latest.json";
-          let data = { proposals: [], summary: {}, generatedAt: "" };
+          let data = { proposals: [], adds: [], removes: [], summary: {}, generatedAt: "" };
           try {
             data = JSON.parse(fs.readFileSync(path, "utf8"));
           } catch {}
-          const n = (data.proposals || []).length;
           const s = data.summary || {};
+          const flat = Array.isArray(data.proposals) ? data.proposals : [];
+          const adds = Array.isArray(data.adds)
+            ? data.adds
+            : flat.filter((p) => p.action === "add_url" || p.action === "add_channel");
+          const removes = Array.isArray(data.removes)
+            ? data.removes
+            : flat.filter((p) => p.action === "remove_url");
+          const addN = adds.length;
+          const removeN = removes.length;
+          const n = addN + removeN;
           const repo = process.env.GITHUB_REPOSITORY || "karakaya1745/karakaya1745.github.io";
           const rawUrl = `https://raw.githubusercontent.com/${repo}/main/tools/stream-health-bot/out/proposals_latest.md`;
-          const subject = `[Canlı TV] ${n} teklif hazır`;
+          const subject = `[Canlı TV] ${addN} ekleme, ${removeN} kaldırma teklifi`;
+
+          function appendList(lines, list, max) {
+            const shown = list.slice(0, max);
+            for (const p of shown) {
+              lines.push(`- [${p.action}] ${p.channelName} (${p.channelKey})`);
+              if (p.url) lines.push(`  ${p.url}`);
+              if (p.reason) lines.push(`  ${p.reason}`);
+            }
+            if (list.length > max) {
+              lines.push(``, `... ve ${list.length - max} teklif daha`);
+            }
+          }
+
           const lines = [
             `Canlı TV katalog botu — onay bekleyen teklif özeti`,
             ``,
-            `Toplam: ${n} teklif`,
+            `Toplam: ${n} teklif (${addN} ekleme, ${removeN} kaldırma)`,
             `  - add_url: ${s.add_url || 0}`,
             `  - add_channel: ${s.add_channel || 0}`,
             `  - remove_url: ${s.remove_url || 0}`,
@@ -86,20 +110,33 @@ jobs:
             `NOT: channels.json / stream_map.json otomatik değiştirilmedi.`,
             `Onayladıktan sonra manuel uygulayın.`,
             ``,
-            `İlk teklifler (max 20):`,
+            `=== Eklenecek linkler / kanallar (${addN}) ===`,
             ``,
           ];
-          for (const p of (data.proposals || []).slice(0, 20)) {
-            lines.push(`- [${p.action}] ${p.channelName} (${p.channelKey})`);
-            if (p.url) lines.push(`  ${p.url}`);
-            if (p.reason) lines.push(`  ${p.reason}`);
+          if (!addN) {
+            lines.push(`(yok)`, ``);
+          } else {
+            appendList(lines, adds, 20);
+            lines.push(``);
           }
-          if (n > 20) lines.push(``, `... ve ${n - 20} teklif daha`);
-          lines.push(``, `Tam liste:`, rawUrl, ``);
+          lines.push(`=== Kaldırılacak linkler (${removeN}) ===`, ``);
+          if (!removeN) {
+            lines.push(`(yok)`, ``);
+          } else {
+            appendList(lines, removes, 20);
+            lines.push(``);
+          }
+          lines.push(`Tam liste:`, rawUrl, ``);
           fs.mkdirSync("tools/stream-health-bot/out", { recursive: true });
           fs.writeFileSync("tools/stream-health-bot/out/email_body.txt", lines.join("\n"), "utf8");
           fs.writeFileSync("tools/stream-health-bot/out/email_subject.txt", subject, "utf8");
-          fs.appendFileSync(process.env.GITHUB_OUTPUT, `count=${n}\n`);
+          const out = [
+            `count=${n}`,
+            `add_count=${addN}`,
+            `remove_count=${removeN}`,
+            `subject=${subject}`,
+          ].join("\n");
+          fs.appendFileSync(process.env.GITHUB_OUTPUT, `${out}\n`);
           console.log(subject);
           NODE
 
@@ -131,7 +168,7 @@ jobs:
           server_port: ${{ steps.secrets_check.outputs.port }}
           username: ${{ secrets.SMTP_USERNAME }}
           password: ${{ secrets.SMTP_PASSWORD }}
-          subject: "[Canli TV] ${{ steps.mail.outputs.count }} teklif hazir"
+          subject: ${{ steps.mail.outputs.subject }}
           to: ${{ secrets.MAIL_TO }}
           from: ${{ steps.secrets_check.outputs.from }}
           body: file://tools/stream-health-bot/out/email_body.txt

@@ -9,6 +9,7 @@
 
 > **Bot asla katalogu otomatik yazmaz.**  
 > GitHub Actions: `proposal-notify.yml` her 3 gunde dry-run arastirma yapar → `out/proposals_latest.json` + `.md` → e-posta ozeti.  
+> MD / e-posta **ekleme** (`adds`: add_url, add_channel) ve **kaldirma** (`removes`: remove_url) bolumlerini ayri listeler.  
 > `channels.json` / `stream_map.json` yalnizca **kullanici onayi** veya acik manuel `--apply` ile degisir.  
 > Eski workflow'lar (`stream-health`, `discover-missing`, `enrich-stream-map`, `import-legal-channels`) artik **yalnizca dry-run** + `workflow_dispatch`; cron + `--apply` kalici kapali.
 

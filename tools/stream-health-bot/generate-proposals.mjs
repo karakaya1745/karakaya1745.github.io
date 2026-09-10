@@ -213,12 +213,30 @@ function collectFromDiscover(report, proposals, seen) {
   }
 }
 
+function proposalTableRows(list) {
+  const lines = [
+    "| # | action | kanal | key | url | kaynak | neden |",
+    "| ---: | --- | --- | --- | --- | --- | --- |",
+  ];
+  list.forEach((p, i) => {
+    const url = String(p.url || "").replace(/\|/g, "\\|");
+    lines.push(
+      `| ${i + 1} | ${p.action} | ${p.channelName} | ${p.channelKey} | ${url} | ${p.source} | ${p.reason} |`,
+    );
+  });
+  return lines;
+}
+
 function toMarkdown(payload) {
+  const adds = payload.adds || [];
+  const removes = payload.removes || [];
+  const addCount = adds.length;
+  const removeCount = removes.length;
   const lines = [
     "# Stream Health — Onay Bekleyen Teklifler",
     "",
     `Olusturulma: ${payload.generatedAt}`,
-    `Toplam teklif: **${payload.proposals.length}**`,
+    `Toplam teklif: **${addCount + removeCount}** (${addCount} ekleme, ${removeCount} kaldirma)`,
     "",
     `| action | add_url | add_channel | remove_url |`,
     `| --- | ---: | ---: | ---: |`,
@@ -235,21 +253,20 @@ function toMarkdown(payload) {
     lines.push(`- \`${run.label}\`: ${status}${run.skipped ? " (atlandi)" : ""}`);
   }
 
-  lines.push("", "## Teklifler", "");
-  if (!payload.proposals.length) {
-    lines.push("_Teklif yok._", "");
-    return `${lines.join("\n")}\n`;
+  lines.push("", "## Eklenecek linkler / kanallar", "");
+  if (!adds.length) {
+    lines.push("_Ekleme teklifi yok._", "");
+  } else {
+    lines.push(...proposalTableRows(adds), "");
   }
 
-  lines.push("| # | action | kanal | key | url | kaynak | neden |");
-  lines.push("| ---: | --- | --- | --- | --- | --- | --- |");
-  payload.proposals.forEach((p, i) => {
-    const url = String(p.url || "").replace(/\|/g, "\\|");
-    lines.push(
-      `| ${i + 1} | ${p.action} | ${p.channelName} | ${p.channelKey} | ${url} | ${p.source} | ${p.reason} |`,
-    );
-  });
-  lines.push("");
+  lines.push("## Kaldırılacak linkler", "");
+  if (!removes.length) {
+    lines.push("_Kaldirma teklifi yok._", "");
+  } else {
+    lines.push(...proposalTableRows(removes), "");
+  }
+
   return `${lines.join("\n")}\n`;
 }
 
@@ -304,10 +321,14 @@ async function main() {
   collectFromEnrich(enrichReport, nameByKey, proposals, seen);
   collectFromDiscover(discoverReport, proposals, seen);
 
+  const adds = proposals.filter(
+    (p) => p.action === "add_url" || p.action === "add_channel",
+  );
+  const removes = proposals.filter((p) => p.action === "remove_url");
   const summary = {
-    add_url: proposals.filter((p) => p.action === "add_url").length,
-    add_channel: proposals.filter((p) => p.action === "add_channel").length,
-    remove_url: proposals.filter((p) => p.action === "remove_url").length,
+    add_url: adds.filter((p) => p.action === "add_url").length,
+    add_channel: adds.filter((p) => p.action === "add_channel").length,
+    remove_url: removes.length,
   };
 
   const payload = {
@@ -328,7 +349,10 @@ async function main() {
       enrich: enrichReport?.generatedAt || null,
       discover: discoverReport?.generatedAt || null,
     },
-    proposals,
+    // Grouped lists (primary). Flat `proposals` kept for older consumers.
+    adds,
+    removes,
+    proposals: [...adds, ...removes],
   };
 
   const jsonPath = path.join(OUT_DIR, "proposals_latest.json");
@@ -343,7 +367,7 @@ async function main() {
   log(`Yazildi: ${mdPath}`);
   log(`Yazildi: ${datedJson}`);
   log(
-    `Ozet: ${proposals.length} teklif (add_url=${summary.add_url}, add_channel=${summary.add_channel}, remove_url=${summary.remove_url})`,
+    `Ozet: ${adds.length} ekleme, ${removes.length} kaldirma (add_url=${summary.add_url}, add_channel=${summary.add_channel}, remove_url=${summary.remove_url})`,
   );
   log("channels.json / stream_map.json DEGISTIRILMEDI.");
 }
