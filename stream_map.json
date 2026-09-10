@@ -1,5 +1,5 @@
 {
-  "_revision": 173,
+  "_revision": 174,
   "01fm": [
     "https://stream.turkiyeradyolari.com/01fm/stream?/;stream.mp3"
   ],
@@ -1092,7 +1092,9 @@
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197268&extension=ts&play_token=tGkC8erhpz",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197244&extension=ts&play_token=om2rV48Tfv",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197294&extension=ts&play_token=jUY2fYSa3k",
-    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197294&extension=ts&play_token=jUY2fYSa3k"
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197294&extension=ts&play_token=jUY2fYSa3k",
+    "https://ensonhaber-live.ercdn.net/haberglobal/haberglobal.m3u8",
+    "https://tv.ensonhaber.com/haberglobal/haberglobal_720p.m3u8"
   ],
   "haberturk": [
     "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv_1080p.m3u8",
@@ -1382,7 +1384,8 @@
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196696&extension=ts&play_token=DYgtNp28Es",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196680&extension=ts&play_token=RfWrMzD0aA",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196712&extension=ts&play_token=D1bUuDAgZw",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/e9e9e2ab-8830-4d76-9f2c-9f612eb9f85a.ts"
+    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/e9e9e2ab-8830-4d76-9f2c-9f612eb9f85a.ts",
+    "https://live.duhnet.tv/S2/HLS_LIVE/kanalddainp/playlist.m3u8"
   ],
   "kanalfirat": [
     "https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/chunks.m3u8",
@@ -3301,7 +3304,8 @@
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197275&extension=ts&play_token=XlBwIcQt6l",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=197275&extension=ts&play_token=XlBwIcQt6l",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197275&extension=ts&play_token=XlBwIcQt6l",
-    "https://tele1-live.ercdn.net/tele1/tele1.m3u8"
+    "https://tele1-live.ercdn.net/tele1/tele1.m3u8",
+    "https://tele1-live.ercdn.net/tele1/tele1_1080p.m3u8"
   ],
   "tempofm": [
     "https://stream.turkiyeradyolari.com:8170/stream"
@@ -3345,7 +3349,8 @@
     "https://tgrthaber-live.daioncdn.net/tgrthaber/tgrthaber.m3u8",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197263&extension=ts&play_token=c53adoDCo6",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197255&extension=ts&play_token=FI3uV5gIam",
-    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197284&extension=ts&play_token=MjTL8rPnjA"
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197284&extension=ts&play_token=MjTL8rPnjA",
+    "https://canli.tgrthaber.com/tgrt.m3u8"
   ],
   "therockradio": [
     "https://moondigitaledge.radyotvonline.net/rockland/playlist.m3u8"
