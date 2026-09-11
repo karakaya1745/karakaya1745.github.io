@@ -1,5 +1,5 @@
 {
-  "_revision": 174,
+  "_revision": 175,
   "01fm": [
     "https://stream.turkiyeradyolari.com/01fm/stream?/;stream.mp3"
   ],
@@ -1533,9 +1533,9 @@
     "https://yayin2.canliyayin.org:10989/;stream.mp3"
   ],
   "kocaelitv": [
+    "https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8",
     "https://edge1.socialsmart.tv/kocaelitv/bant1/chunks.m3u8",
-    "https://edge1.socialsmart.tv/kocaelitv/bant1/playlist.m3u8",
-    "https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8"
+    "https://edge1.socialsmart.tv/kocaelitv/bant1/playlist.m3u8"
   ],
   "kolejfm": [
     "https://sslyayin.netyayin.net:8096/;"
@@ -3890,5 +3890,8 @@
   ],
   "zonguldakdemokratfm": [
     "https://sonic.dcnet.com.tr/8078/stream?"
+  ],
+  "kanalurfa": [
+    "https://edge1.socialsmart.tv/kanalurfa/bant1/playlist.m3u8"
   ]
 }
