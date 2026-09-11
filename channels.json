@@ -51,7 +51,7 @@
     "name": "A2",
     "url": "https://www.atv.com.tr/a2tv",
     "category": "Ulusal",
-    "streamUrl": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8"
+    "streamUrl": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8"
   },
   {
     "name": "teve2",
@@ -117,13 +117,13 @@
     "name": "CNN Turk",
     "url": "https://www.cnnturk.com/canli-yayin",
     "category": "Haber",
-    "streamUrl": "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6926/index.m3u8"
+    "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197287&extension=ts&play_token=mqO3Ga5TwL"
   },
   {
     "name": "Haberturk",
     "url": "https://www.haberturk.com/canliyayin",
     "category": "Haber",
-    "streamUrl": "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv_1080p.m3u8"
+    "streamUrl": "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv.m3u8"
   },
   {
     "name": "A Haber",
@@ -267,13 +267,13 @@
     "name": "Global Haber",
     "url": "https://vavo.sayezec.workers.dev/ID=1224377838995614ed0843",
     "category": "Haber",
-    "streamUrl": "https://vavo.sayezec.workers.dev/ID=1224377838995614ed0843"
+    "streamUrl": ""
   },
   {
     "name": "Life TV",
     "url": "https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8",
     "category": "Haber",
-    "streamUrl": "https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/chunks.m3u8"
+    "streamUrl": ""
   },
   {
     "name": "Mekameleen TV",
@@ -519,7 +519,7 @@
     "name": "Number 1 Damar",
     "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8",
     "category": "Muzik",
-    "streamUrl": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8"
+    "streamUrl": ""
   },
   {
     "name": "Number 1 Dance",
@@ -831,7 +831,7 @@
     "name": "Kuzey Kibris TV",
     "url": "http://old.kuzeykibris.tv/m3u8/kktv.m3u8",
     "category": "Ulusal",
-    "streamUrl": "http://old.kuzeykibris.tv/m3u8/kktv.m3u8"
+    "streamUrl": ""
   },
   {
     "name": "BRT 1",
@@ -969,7 +969,7 @@
     "name": "Kent Turk",
     "url": "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8",
     "category": "Ulusal",
-    "streamUrl": "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/chunks.m3u8"
+    "streamUrl": ""
   },
   {
     "name": "Mavi Karadeniz",
@@ -1017,7 +1017,7 @@
     "name": "ARAS TV",
     "url": "http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8",
     "category": "Ulusal",
-    "streamUrl": "https://2.rtmp.org/tv217/yayin.stream/chunklist.m3u8"
+    "streamUrl": "http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8"
   },
   {
     "name": "Balkan Turk",
@@ -1239,7 +1239,7 @@
     "name": "Manas TV",
     "url": "http://212.42.111.152:8080/",
     "category": "Yasam",
-    "streamUrl": "http://212.42.111.152:8080/hls/manas.m3u8"
+    "streamUrl": ""
   },
   {
     "name": "ATV Alanya",
@@ -1413,7 +1413,7 @@
     "name": "Powertürk Taptaze",
     "url": "https://www.canlitvtr.app/radyo/powerturktaptaze",
     "category": "Radyo Pop",
-    "streamUrl": "https://listen.powerapp.com.tr/powerturktaptaze/abr/playlist.m3u8"
+    "streamUrl": "https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8"
   },
   {
     "name": "Radyo Fenomen",
@@ -1461,13 +1461,13 @@
     "name": "Power Türk Slow",
     "url": "https://www.canlitvtr.app/radyo/powerturkslow",
     "category": "Radyo Slow",
-    "streamUrl": "https://listen.powerapp.com.tr/powerturkslow/abr/playlist.m3u8"
+    "streamUrl": "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8"
   },
   {
     "name": "PowerTürk Akustik",
     "url": "https://www.canlitvtr.app/radyo/powerturkakustik",
     "category": "Radyo Slow",
-    "streamUrl": "https://listen.powerapp.com.tr/powerturkakustik/abr/playlist.m3u8"
+    "streamUrl": "https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8"
   },
   {
     "name": "Radyo 7 | Slow",
