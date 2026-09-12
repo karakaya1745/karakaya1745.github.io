@@ -1,5 +1,5 @@
 {
-  "_revision": 176,
+  "_revision": 177,
   "01fm": [
     "https://stream.turkiyeradyolari.com/01fm/stream?/;stream.mp3"
   ],
@@ -3827,5 +3827,8 @@
   ],
   "kanalurfa": [
     "https://edge1.socialsmart.tv/kanalurfa/bant1/playlist.m3u8"
+  ],
+  "damarturk": [
+    "https://stream.yayintescil.com:3183/stream/play.m3u8"
   ]
 }
