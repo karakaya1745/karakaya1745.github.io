@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T11:09:19.678Z",
+  "generatedAt": "2026-09-16T10:58:50.805Z",
   "dryRun": true,
   "pending": 22,
   "skippedExists": [
@@ -19,29 +19,6 @@
     "beIN Sports Haber"
   ],
   "discovered": [
-    {
-      "name": "Space Toon",
-      "key": "spacetoon",
-      "urls": [
-        "https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8",
-        "https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8"
-      ],
-      "m3uCandidates": 2,
-      "probeResults": [
-        {
-          "url": "https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 206
-        },
-        {
-          "url": "https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 200
-        }
-      ]
-    },
     {
       "name": "Süper TV",
       "key": "supertv",
@@ -74,20 +51,19 @@
   "notFound": [
     {
       "name": "TV8 International",
-      "candidates": 2,
+      "candidates": 1,
       "probeResults": [
         {
           "url": "http://162.212.179.33/dvrfl05/gin-tv8int/index.m3u8",
           "live": false,
           "reason": "timeout"
-        },
-        {
-          "url": "http://nimplus3.bozztv.com/tv8int/tv8int/playlist.m3u8",
-          "live": false,
-          "reason": "http-404",
-          "status": 404
         }
       ]
+    },
+    {
+      "name": "Space Toon",
+      "candidates": 0,
+      "probeResults": []
     },
     {
       "name": "GRT",
@@ -107,19 +83,8 @@
     },
     {
       "name": "Agro TV",
-      "candidates": 3,
+      "candidates": 1,
       "probeResults": [
-        {
-          "url": "https://yayin30.haber100.com/live/agrotv/playlist.m3u8",
-          "live": false,
-          "reason": "http-404",
-          "status": 404
-        },
-        {
-          "url": "https://agrotv.blutv.com/blutv_agrotv/live.m3u8",
-          "live": false,
-          "reason": "network-error"
-        },
         {
           "url": "https://yayin.haber100.com/P650841340/agrotv/chuclink.m3u8",
           "live": false,
@@ -156,18 +121,8 @@
     },
     {
       "name": "TV 2020",
-      "candidates": 3,
+      "candidates": 1,
       "probeResults": [
-        {
-          "url": "https://sc-kuzeykibrissmarttv.ercdn.net/tv2020/bantp1/playlist.m3u8",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "https://spor.kuzeykibris.tv/m3u8/tv_2020.m3u8",
-          "live": false,
-          "reason": "timeout"
-        },
         {
           "url": "http://kuzeykibris.tv/m3u8/tv_dialog.m3u8",
           "live": false,
@@ -194,18 +149,12 @@
     },
     {
       "name": "Kanal 68",
-      "candidates": 12,
+      "candidates": 11,
       "probeResults": [
         {
           "url": "https://waw2.artiyerelmedya.net/kanal68/bant1/playlist.m3u8",
           "live": false,
           "reason": "timeout"
-        },
-        {
-          "url": "https://live.artidijitalmedya.com/artidijital_kanal68/kanal68/playlist.m3u8",
-          "live": false,
-          "reason": "http-404",
-          "status": 404
         },
         {
           "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197200&extension=ts&play_token=4eItwPJoyj",
@@ -224,6 +173,11 @@
         },
         {
           "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197200&extension=ts&play_token=4eItwPJoyj",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197200&extension=ts&play_token=4eItwPJoyj",
           "live": false,
           "reason": "network-error"
         }
@@ -273,12 +227,12 @@
       "candidates": 2,
       "probeResults": [
         {
-          "url": "http://stream.tvcdn.net/yerel/pamukkale-tv.m3u8",
+          "url": "http://ch.canlitvlive.io/pamukkale-tv/live.m3u8",
           "live": false,
           "reason": "network-error"
         },
         {
-          "url": "http://ch.canlitvlive.io/pamukkale-tv/live.m3u8",
+          "url": "http://stream.tvcdn.net/yerel/pamukkale-tv.m3u8",
           "live": false,
           "reason": "network-error"
         }
@@ -289,6 +243,11 @@
       "candidates": 3,
       "probeResults": [
         {
+          "url": "http://stream2.taksimbilisim.com:1935/drt/smil:drt.smil/iptvdelisi.m3u8",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
           "url": "https://edge1.socialsmart.tv/drttv/bant1/playlist.m3u8",
           "live": false,
           "reason": "http-404",
@@ -296,11 +255,6 @@
         },
         {
           "url": "http://stream2.taksimbilisim.com:1935/drt/smil:drt.smil/playlist.m3u8",
-          "live": false,
-          "reason": "timeout"
-        },
-        {
-          "url": "http://stream2.taksimbilisim.com:1935/drt/smil:drt.smil/iptvdelisi.m3u8",
           "live": false,
           "reason": "timeout"
         }
@@ -324,10 +278,9 @@
     }
   ],
   "warnings": [],
-  "addedCount": 2,
+  "addedCount": 1,
   "addedNames": [
-    "Space Toon",
     "Süper TV"
   ],
-  "streamMapRevision": 178
+  "streamMapRevision": 179
 }
