@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T10:38:43.962Z",
+  "generatedAt": "2026-09-19T10:08:45.403Z",
   "dryRun": true,
   "skipProbe": false,
   "targetCount": 1014,
@@ -13,16 +13,20 @@
       "total": 3,
       "probeResults": [
         {
+          "url": "https://sc-kuzeykibrissmarttv.ercdn.net/adatv/bant1/playlist.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
           "url": "https://live-evg10.tv360.bitel.com.pe/bitel/alasdeaguilaSRT/playlist.m3u8",
           "live": true,
           "reason": "hls-manifest",
           "status": 206
         },
         {
-          "url": "http://kuzeykibris.tv/m3u8/tv_ada.m3u8",
+          "url": "https://spor.kuzeykibris.tv/m3u8/tv_ada.m3u8",
           "live": false,
-          "reason": "http-404",
-          "status": 404
+          "reason": "timeout"
         }
       ]
     },
@@ -80,6 +84,34 @@
           "url": "https://streams.uzunmuhalefet.com/stream/c8758555-8581-4dec-9a46-ebcfaf9ace0a.m3u8",
           "live": false,
           "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "key": "bloomberght",
+      "added": 1,
+      "urls": [
+        "https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8"
+      ],
+      "total": 9,
+      "probeResults": [
+        {
+          "url": "https://ciner-live.daioncdn.net/bloomberght/bloomberght_720p.m3u8",
+          "live": false,
+          "reason": "http-403",
+          "status": 403
+        },
+        {
+          "url": "https://ciner-live.daioncdn.net/bloomberght/bloomberght.m3u8",
+          "live": false,
+          "reason": "http-403",
+          "status": 403
+        },
+        {
+          "url": "https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
         }
       ]
     },
@@ -149,6 +181,28 @@
       ]
     },
     {
+      "key": "cnnturk",
+      "added": 1,
+      "urls": [
+        "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6926/index.m3u8"
+      ],
+      "total": 6,
+      "probeResults": [
+        {
+          "url": "https://tgn.bozztv.com/dvrfl05/gin-cnnturk/tracks-v1a1/mono.m3u8",
+          "live": false,
+          "reason": "http-403",
+          "status": 403
+        },
+        {
+          "url": "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6926/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    },
+    {
       "key": "diyanettv",
       "added": 3,
       "urls": [
@@ -158,6 +212,11 @@
       ],
       "total": 6,
       "probeResults": [
+        {
+          "url": "https://diyanet.blutv.com/blutv_diyanet2/live.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
         {
           "url": "http://ch.canlitvlive.io/trtdiyanet/live.m3u8",
           "live": false,
@@ -184,13 +243,60 @@
       ]
     },
     {
-      "key": "dreamtv",
-      "added": 2,
+      "key": "dmax",
+      "added": 1,
       "urls": [
-        "https://xykt-fix.github.io/play/a02j/index.m3u8",
-        "https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8"
+        "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/2290/index.m3u8"
       ],
-      "total": 3,
+      "total": 11,
+      "probeResults": [
+        {
+          "url": "https://dogus-live.daioncdn.net/dmax/dmax_720p.m3u8",
+          "live": false,
+          "reason": "http-403",
+          "status": 403
+        },
+        {
+          "url": "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/2290/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        },
+        {
+          "url": "https://streams.uzunmuhalefet.com/stream/ca37ad2f-27a2-4227-9e04-fdd4b2279f3e.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "key": "dosttv",
+      "added": 1,
+      "urls": [
+        "https://tvsms.club/tvz.php?kanal=dost&file=.m3u8"
+      ],
+      "total": 14,
+      "probeResults": [
+        {
+          "url": "http://137.74.150.14:8080/permabil/DOSTtv/index.m3u8",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "https://tvsms.club/tvz.php?kanal=dost&file=.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "dreamtv",
+      "added": 1,
+      "urls": [
+        "https://xykt-fix.github.io/play/a02j/index.m3u8"
+      ],
+      "total": 2,
       "probeResults": [
         {
           "url": "https://xykt-fix.github.io/play/a02j/index.m3u8",
@@ -200,9 +306,9 @@
         },
         {
           "url": "https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 206
+          "live": false,
+          "reason": "http-404",
+          "status": 404
         }
       ]
     },
@@ -235,27 +341,6 @@
           "live": true,
           "reason": "hls-manifest",
           "status": 206
-        }
-      ]
-    },
-    {
-      "key": "flashhaber",
-      "added": 1,
-      "urls": [
-        "https://flashhaber-live.ercdn.net/flashhaber/flashhaber.m3u8"
-      ],
-      "total": 15,
-      "probeResults": [
-        {
-          "url": "https://flashhaber-live.ercdn.net/flashhaber/flashhaber.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 206
-        },
-        {
-          "url": "https://ythls.kekikakademi.org/youtube/channel/UCNcjCb2RnA3eMMhTZSxZu3A.m3u8",
-          "live": false,
-          "reason": "network-error"
         }
       ]
     },
@@ -309,6 +394,17 @@
       "total": 14,
       "probeResults": [
         {
+          "url": "https://raw.githubusercontent.com/UzunMuhalefet/yayinlar/main/streams/kanal7avrupa.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404
+        },
+        {
+          "url": "https://live.kanal7.com/live/kanal7AvrupaLive/index.m3u8",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
           "url": "https://raw.githubusercontent.com/rideordie16/YouTube/main/ch/kanal7eu.m3u8",
           "live": true,
           "reason": "hls-manifest",
@@ -327,9 +423,21 @@
       "total": 10,
       "probeResults": [
         {
+          "url": "https://baskentaudiovideo.xyz/LiveApp/streams/mUE22idl26lA1683879097431.m3u8",
+          "live": false,
+          "reason": "not-stream",
+          "status": 206
+        },
+        {
           "url": "http://212.174.58.161/hls-live/livepkgr/_definst_/liveevent/kanalb.m3u8",
           "live": false,
           "reason": "timeout"
+        },
+        {
+          "url": "https://baskentaudiovideo.xyz/ULUSALApp/streams/mUE22idl26lA1683879097431.m3u8",
+          "live": false,
+          "reason": "not-stream",
+          "status": 206
         },
         {
           "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197198&extension=ts&play_token=6NxyOt8ARr",
@@ -545,9 +653,21 @@
       "total": 13,
       "probeResults": [
         {
-          "url": "http://ch.canlitvlive.io/minikacocuk/live.m3u8",
+          "url": "https://trkvz-live.daioncdn.net/minikago_cocuk/minikago_cocuk.m3u8",
           "live": false,
-          "reason": "network-error"
+          "reason": "http-404",
+          "status": 404
+        },
+        {
+          "url": "https://trkvz.daioncdn.net/minikago_cocuk/minikago_cocuk.m3u8?app=web&ce=3",
+          "live": false,
+          "reason": "http-403",
+          "status": 403
+        },
+        {
+          "url": "http://trn10.tulix.tv/gt-minikacocuk/index.m3u8",
+          "live": false,
+          "reason": "timeout"
         },
         {
           "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197414&extension=ts&play_token=QRcQhhtUMu",
@@ -593,6 +713,11 @@
           "live": true,
           "reason": "hls-manifest",
           "status": 206
+        },
+        {
+          "url": "https://nr1turk.blutv.com/blutv_n1turk/blutv_n1turk/index.m3u8",
+          "live": false,
+          "reason": "network-error"
         }
       ]
     },
@@ -689,6 +814,28 @@
       ]
     },
     {
+      "key": "tgrtbelgesel",
+      "added": 1,
+      "urls": [
+        "https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8"
+      ],
+      "total": 6,
+      "probeResults": [
+        {
+          "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        },
+        {
+          "url": "https://tgn.bozztv.com/dvrfl05/gin-tgrtbelgesel/tracks-v1a1/mono.m3u8",
+          "live": false,
+          "reason": "http-403",
+          "status": 403
+        }
+      ]
+    },
+    {
       "key": "tgrthaber",
       "added": 1,
       "urls": [
@@ -706,6 +853,75 @@
           "url": "https://streams.uzunmuhalefet.com/stream/bd9ebc63-8243-43d6-83a2-eeef100f7e20.m3u8",
           "live": false,
           "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "key": "tlc",
+      "added": 1,
+      "urls": [
+        "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6915/index.m3u8"
+      ],
+      "total": 14,
+      "probeResults": [
+        {
+          "url": "https://dogus-live.daioncdn.net/tlc/tlc_720p.m3u8",
+          "live": false,
+          "reason": "http-403",
+          "status": 403
+        },
+        {
+          "url": "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6915/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        },
+        {
+          "url": "https://streams.uzunmuhalefet.com/stream/7c98bf26-69a3-4f45-a330-d7c27459b375.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "key": "trtsporyildiz",
+      "added": 1,
+      "urls": [
+        "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/2145/index.m3u8"
+      ],
+      "total": 11,
+      "probeResults": [
+        {
+          "url": "http://162.212.179.33:80/dvrfl05/gin-trtSPOR2/playlist.m3u8",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/2145/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        },
+        {
+          "url": "https://streams.uzunmuhalefet.com/stream/978e9210-f530-44ae-99c8-8bdfc998b071.m3u8",
+          "live": false,
+          "reason": "network-error"
+        }
+      ]
+    },
+    {
+      "key": "trtworld",
+      "added": 1,
+      "urls": [
+        "https://mumbai-edge.smartplaytv.in/TRTWorld/index.m3u8"
+      ],
+      "total": 7,
+      "probeResults": [
+        {
+          "url": "https://mumbai-edge.smartplaytv.in/TRTWorld/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
         }
       ]
     },
@@ -735,6 +951,32 @@
       "probeResults": [
         {
           "url": "https://live.tv1.rw/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        }
+      ]
+    },
+    {
+      "key": "tv100",
+      "added": 1,
+      "urls": [
+        "https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8"
+      ],
+      "total": 5,
+      "probeResults": [
+        {
+          "url": "https://tv100.daioncdn.net/tv100/tv100_1080p.m3u8?app=web",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "https://tv100-live.daioncdn.net/tv100/tv100.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8",
           "live": true,
           "reason": "hls-manifest",
           "status": 206
@@ -788,6 +1030,12 @@
       "total": 5,
       "probeResults": [
         {
+          "url": "https://trkvz-live.ercdn.net/vavtv/vavtv.m3u8",
+          "live": false,
+          "reason": "http-403",
+          "status": 403
+        },
+        {
           "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197167&extension=ts&play_token=6Sq7Otufl9",
           "live": true,
           "reason": "panel-mpeg-ts",
@@ -818,6 +1066,11 @@
       "total": 10,
       "probeResults": [
         {
+          "url": "https://iptv.amgsmart2home.de/YOLTVMAIN/index.m3u8",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
           "url": "http://stream.yol.tv:9485/medialive/yol.m3u8",
           "live": false,
           "reason": "network-error"
@@ -844,8 +1097,8 @@
     }
   ],
   "skippedFull": [],
-  "totalNewUrls": 64,
-  "enrichedCount": 32,
+  "totalNewUrls": 71,
+  "enrichedCount": 40,
   "streamMapRevision": 179,
   "mapChanged": true
 }

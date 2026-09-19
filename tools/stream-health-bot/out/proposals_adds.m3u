@@ -105,6 +105,8 @@ http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197239&ex
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197297&extension=ts&play_token=K7FHjiXCNb
 #EXTINF:-1 tvg-id="atv" group-title="Ekleme Teklifleri",ATV
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
+#EXTINF:-1 tvg-id="bloomberght" group-title="Ekleme Teklifleri",Bloomberg HT
+https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8
 #EXTINF:-1 tvg-id="cartoonnetwork" group-title="Ekleme Teklifleri",Cartoon Network
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197411&extension=ts&play_token=6Vh9e7AwnI
 #EXTINF:-1 tvg-id="cartoonnetwork" group-title="Ekleme Teklifleri",Cartoon Network
@@ -117,14 +119,14 @@ http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197223&ex
 http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197223&extension=ts&play_token=fqcWcqBS9Q
 #EXTINF:-1 tvg-id="cemtv" group-title="Ekleme Teklifleri",Cem TV
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197223&extension=ts&play_token=fqcWcqBS9Q
+#EXTINF:-1 tvg-id="cnnturk" group-title="Ekleme Teklifleri",CNN Turk
+http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6926/index.m3u8
 #EXTINF:-1 tvg-id="diyanettv" group-title="Ekleme Teklifleri",Diyanet TV
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=210472&extension=ts&play_token=qR0E9dxlC3
 #EXTINF:-1 tvg-id="diyanettv" group-title="Ekleme Teklifleri",Diyanet TV
 http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=210472&extension=ts&play_token=qR0E9dxlC3
 #EXTINF:-1 tvg-id="diyanettv" group-title="Ekleme Teklifleri",Diyanet TV
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=210472&extension=ts&play_token=qR0E9dxlC3
-#EXTINF:-1 tvg-id="flashhaber" group-title="Ekleme Teklifleri",Flash Haber
-https://flashhaber-live.ercdn.net/flashhaber/flashhaber.m3u8
 #EXTINF:-1 tvg-id="haberglobal" group-title="Ekleme Teklifleri",Haber Global
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197244&extension=ts&play_token=om2rV48Tfv
 #EXTINF:-1 tvg-id="haberglobal" group-title="Ekleme Teklifleri",Haber Global
@@ -183,6 +185,10 @@ http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=210473&ex
 http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=210473&extension=ts&play_token=kw7nx0fWGJ
 #EXTINF:-1 tvg-id="semerkandtv" group-title="Ekleme Teklifleri",Semerkand TV
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=210473&extension=ts&play_token=kw7nx0fWGJ
+#EXTINF:-1 tvg-id="trtsporyildiz" group-title="Ekleme Teklifleri",TRT Spor Yildiz
+http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/2145/index.m3u8
+#EXTINF:-1 tvg-id="trtworld" group-title="Ekleme Teklifleri",TRT World
+https://mumbai-edge.smartplaytv.in/TRTWorld/index.m3u8
 #EXTINF:-1 tvg-id="turkmenelitv" group-title="Ekleme Teklifleri",Türkmeneli TV
 https://135962.global.ssl.fastly.net/5ff366a512987e2c0a3dabfe/live_14378e1002eb11ef9cb025207067897a/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="tv5" group-title="Ekleme Teklifleri",TV5
@@ -203,3 +209,7 @@ http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197164&exte
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197164&extension=ts&play_token=nDvHZaixWT
 #EXTINF:-1 tvg-id="yoltv" group-title="Ekleme Teklifleri",Yol TV
 http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197164&extension=ts&play_token=nDvHZaixWT
+#EXTINF:-1 tvg-id="spacetoon" group-title="Ekleme Teklifleri",Space Toon
+https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8
+#EXTINF:-1 tvg-id="fmtv" group-title="Ekleme Teklifleri",FM TV
+https://s2.tvdatta.com:3307/hybrid/play.m3u8
