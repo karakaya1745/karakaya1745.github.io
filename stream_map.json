@@ -1,5 +1,5 @@
 {
-  "_revision": 178,
+  "_revision": 179,
   "01fm": [
     "https://stream.turkiyeradyolari.com/01fm/stream?/;stream.mp3"
   ],
@@ -232,7 +232,10 @@
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197297&extension=ts&play_token=K7FHjiXCNb",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197239&extension=ts&play_token=xp5X57KHYf",
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197239&extension=ts&play_token=xp5X57KHYf",
-    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197297&extension=ts&play_token=K7FHjiXCNb"
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197297&extension=ts&play_token=K7FHjiXCNb",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197297&extension=ts&play_token=K7FHjiXCNb",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197239&extension=ts&play_token=xp5X57KHYf",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197297&extension=ts&play_token=K7FHjiXCNb"
   ],
   "ankararadyobanko": [
     "https://stream.netradyom.com/listen/radyobanko/radio.mp3/;stream.mp3"
@@ -552,7 +555,8 @@
     "http://me.mdmfista.com/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
     "http://line.tivi-one.net/play/live.php?mac=00:1A:79:5D:91:44&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
-    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197411&extension=ts&play_token=6Vh9e7AwnI"
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197411&extension=ts&play_token=6Vh9e7AwnI"
   ],
   "caytv": [
     "https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8",
@@ -563,7 +567,10 @@
   ],
   "cemtv": [
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197223&extension=ts&play_token=fqcWcqBS9Q",
-    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197223&extension=ts&play_token=fqcWcqBS9Q"
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197223&extension=ts&play_token=fqcWcqBS9Q",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197223&extension=ts&play_token=fqcWcqBS9Q",
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197223&extension=ts&play_token=fqcWcqBS9Q",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197223&extension=ts&play_token=fqcWcqBS9Q"
   ],
   "cgtndocumentary": [
     "https://live-stream.cgtn.com/event-live/CGTN_1_1NAzByztAaY/index.m3u8"
@@ -679,7 +686,10 @@
   "diyanettv": [
     "https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8",
     "http://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/40324d64-fb61-4c47-bff3-13213d4f0b59.ts"
+    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/40324d64-fb61-4c47-bff3-13213d4f0b59.ts",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=210472&extension=ts&play_token=qR0E9dxlC3",
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=210472&extension=ts&play_token=qR0E9dxlC3",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=210472&extension=ts&play_token=qR0E9dxlC3"
   ],
   "diyarbakircanradyo": [
     "https://radyo.yayindakiler.com:2028/;"
@@ -1090,7 +1100,10 @@
     "https://tv.ensonhaber.com/haberglobal/haberglobal_720p.m3u8",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197244&extension=ts&play_token=om2rV48Tfv",
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197294&extension=ts&play_token=jUY2fYSa3k",
-    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197244&extension=ts&play_token=om2rV48Tfv"
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197244&extension=ts&play_token=om2rV48Tfv",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197244&extension=ts&play_token=om2rV48Tfv",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197294&extension=ts&play_token=jUY2fYSa3k",
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197244&extension=ts&play_token=om2rV48Tfv"
   ],
   "haberturk": [
     "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv.m3u8",
@@ -1368,7 +1381,10 @@
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197198&extension=ts&play_token=6NxyOt8ARr",
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197198&extension=ts&play_token=6NxyOt8ARr",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197198&extension=ts&play_token=6NxyOt8ARr",
-    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197198&extension=ts&play_token=6NxyOt8ARr"
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197198&extension=ts&play_token=6NxyOt8ARr",
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197198&extension=ts&play_token=6NxyOt8ARr",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=197198&extension=ts&play_token=6NxyOt8ARr",
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197198&extension=ts&play_token=6NxyOt8ARr"
   ],
   "kanald": [
     "https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/kanald/kanald_1080p.m3u8",
@@ -1638,7 +1654,10 @@
     "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/e9b7b8bc-e607-4935-bdb0-3380f93fefa1.ts"
   ],
   "kudustv": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/d491263e-a6a3-4cec-b99e-057416822e3b.ts"
+    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/d491263e-a6a3-4cec-b99e-057416822e3b.ts",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=210468&extension=ts&play_token=LANcD0vQE5",
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=210468&extension=ts&play_token=LANcD0vQE5",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=210468&extension=ts&play_token=LANcD0vQE5"
   ],
   "kuradyo": [
     "https://s3.radio.co/sdbea8450c/listen?/;stream.mp3"
@@ -1756,7 +1775,10 @@
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=801067&extension=ts&play_token=1955JCRmy8",
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=801067&extension=ts&play_token=1955JCRmy8",
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=801067&extension=ts&play_token=1955JCRmy8",
-    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=801067&extension=ts&play_token=1955JCRmy8"
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=801067&extension=ts&play_token=1955JCRmy8",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=801067&extension=ts&play_token=1955JCRmy8",
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=801067&extension=ts&play_token=1955JCRmy8",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=801067&extension=ts&play_token=1955JCRmy8"
   ],
   "medyafm": [
     "https://live.radyositesihazir.com/live"
@@ -1796,7 +1818,10 @@
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=210463&extension=ts&play_token=H63cTrLCxx",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197182&extension=ts&play_token=GckvrhtdF2",
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197182&extension=ts&play_token=GckvrhtdF2",
-    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=210463&extension=ts&play_token=H63cTrLCxx"
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=210463&extension=ts&play_token=H63cTrLCxx",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=210463&extension=ts&play_token=H63cTrLCxx",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197182&extension=ts&play_token=GckvrhtdF2",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=210463&extension=ts&play_token=H63cTrLCxx"
   ],
   "mercanfm": [
     "https://mercanfm.ozelip.com.tr:10975/stream?"
@@ -1854,7 +1879,8 @@
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197414&extension=ts&play_token=QRcQhhtUMu",
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197414&extension=ts&play_token=QRcQhhtUMu",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197414&extension=ts&play_token=QRcQhhtUMu",
-    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=197414&extension=ts&play_token=QRcQhhtUMu"
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=197414&extension=ts&play_token=QRcQhhtUMu",
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197414&extension=ts&play_token=QRcQhhtUMu"
   ],
   "minikago": [
     "http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_720p.m3u8?tv=1",
@@ -2002,7 +2028,8 @@
     "https://eustr75.mediatriple.net/Number1Media/15_Number1_Rock.stream/playlist.m3u8"
   ],
   "numberoneturk": [
-    "https://eustr75.mediatriple.net/Number1Media/00_Number1_Turk_FM.stream/playlist.m3u8"
+    "https://eustr75.mediatriple.net/Number1Media/00_Number1_Turk_FM.stream/playlist.m3u8",
+    "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e187770143.smil/playlist.m3u8"
   ],
   "numberoneturkdamar": [
     "https://eustr75.mediatriple.net/Number1Media/20_Number1_Turk_Damar.stream/playlist.m3u8",
@@ -3037,7 +3064,10 @@
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197188&extension=ts&play_token=PaNAKhTAov",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197188&extension=ts&play_token=PaNAKhTAov",
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197188&extension=ts&play_token=PaNAKhTAov",
-    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197188&extension=ts&play_token=PaNAKhTAov"
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197188&extension=ts&play_token=PaNAKhTAov",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197188&extension=ts&play_token=PaNAKhTAov",
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197188&extension=ts&play_token=PaNAKhTAov",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=197188&extension=ts&play_token=PaNAKhTAov"
   ],
   "safakfm": [
     "https://yayin2.canliyayin.org:10970/;"
@@ -3090,7 +3120,10 @@
   "semerkandtv": [
     "http://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8",
     "https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/4fe613ba-d862-418d-b985-dde1d422355a.ts"
+    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/4fe613ba-d862-418d-b985-dde1d422355a.ts",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=210473&extension=ts&play_token=kw7nx0fWGJ",
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=210473&extension=ts&play_token=kw7nx0fWGJ",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=210473&extension=ts&play_token=kw7nx0fWGJ"
   ],
   "sercemtv": [
     "https://canli.sercemtv.com.tr/hls/0/stream.m3u8"
@@ -3545,7 +3578,8 @@
     "https://dash2.antik.sk/live/test_trt_world_atktv/playlist.m3u8",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197261&extension=ts&play_token=cdx7DrYc71",
     "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197254&extension=ts&play_token=0rlkSsz2j9",
-    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197286&extension=ts&play_token=IjEhbs1E9U"
+    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197286&extension=ts&play_token=IjEhbs1E9U",
+    "https://mumbai-edge.smartplaytv.in/TRTWorld/index.m3u8"
   ],
   "tumzamanlarineniyileri": [
     "https://playerservices.streamtheworld.com/api/livestream-redirect/GHOAT_TR128AAC.aac?/;stream.mp3"
@@ -3560,7 +3594,8 @@
     "https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8"
   ],
   "turkmenelitv": [
-    "https://135962.global.ssl.fastly.net/5ff366a512987e2c0a3dabfe/live_14378e1002eb11ef9cb025207067897a/playlist.m3u8"
+    "https://135962.global.ssl.fastly.net/5ff366a512987e2c0a3dabfe/live_14378e1002eb11ef9cb025207067897a/playlist.m3u8",
+    "https://135962.global.ssl.fastly.net/5ff366a512987e2c0a3dabfe/live_14378e1002eb11ef9cb025207067897a/index.fmp4.m3u8"
   ],
   "turkuradyo": [
     "https://yayin.turkhosted.com/4591/stream"
@@ -3620,7 +3655,9 @@
     "https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8",
     "http://line.tivi-one.net/play/live.php?mac=00:1A:79:5D:91:44&stream=197160&extension=ts&play_token=dg0fqY7VUH",
     "http://me.mdmfista.com/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197160&extension=ts&play_token=dg0fqY7VUH",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/8ea17713-036e-4587-88d4-2221db0f8957.ts"
+    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/8ea17713-036e-4587-88d4-2221db0f8957.ts",
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197160&extension=ts&play_token=dg0fqY7VUH",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197160&extension=ts&play_token=dg0fqY7VUH"
   ],
   "tv6": [
     "https://cdn4.yayin.com.tr/channel6tv/index.m3u8"
@@ -3836,7 +3873,10 @@
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=197164&extension=ts&play_token=nDvHZaixWT",
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197164&extension=ts&play_token=nDvHZaixWT",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197164&extension=ts&play_token=nDvHZaixWT",
-    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197164&extension=ts&play_token=nDvHZaixWT"
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197164&extension=ts&play_token=nDvHZaixWT",
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197164&extension=ts&play_token=nDvHZaixWT",
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197164&extension=ts&play_token=nDvHZaixWT",
+    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197164&extension=ts&play_token=nDvHZaixWT"
   ],
   "yonradyo": [
     "https://stream.radyolarburada.com:8020/;?type=http&nocache=107036"
