@@ -21,7 +21,7 @@
     "name": "Show TV",
     "url": "https://www.showtv.com.tr/canli-yayin",
     "category": "Ulusal",
-    "streamUrl": "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showtv/showtv_1080p.m3u8"
+    "streamUrl": "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showtv/showtv.m3u8"
   },
   {
     "name": "Star TV",
@@ -273,7 +273,7 @@
     "name": "Life TV",
     "url": "https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8",
     "category": "Haber",
-    "streamUrl": ""
+    "streamUrl": "https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8"
   },
   {
     "name": "Mekameleen TV",
@@ -405,7 +405,7 @@
     "name": "Tay TV",
     "url": "https://www.taytv.com.tr/canli-yayin",
     "category": "Spor",
-    "streamUrl": "https://duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8"
+    "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=18646&extension=ts&play_token=pyzC9TZWFz"
   },
   {
     "name": "TRT Belgesel",
@@ -771,7 +771,7 @@
     "name": "Türkmeneli TV",
     "url": "https://www.turkmenelitv.com/",
     "category": "Ulusal",
-    "streamUrl": "https://135962.global.ssl.fastly.net/5ff366a512987e2c0a3dabfe/live_14378e1002eb11ef9cb025207067897a/playlist.m3u8"
+    "streamUrl": "https://135962.global.ssl.fastly.net/5ff366a512987e2c0a3dabfe/live_14378e1002eb11ef9cb025207067897a/index.fmp4.m3u8"
   },
   {
     "name": "Kon TV",
@@ -837,7 +837,7 @@
     "name": "Kuzey Kibris TV",
     "url": "http://old.kuzeykibris.tv/m3u8/kktv.m3u8",
     "category": "Ulusal",
-    "streamUrl": ""
+    "streamUrl": "http://old.kuzeykibris.tv/m3u8/kktv.m3u8"
   },
   {
     "name": "BRT 1",
@@ -975,7 +975,7 @@
     "name": "Kent Turk",
     "url": "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8",
     "category": "Ulusal",
-    "streamUrl": ""
+    "streamUrl": "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8"
   },
   {
     "name": "Mavi Karadeniz",
@@ -1077,7 +1077,7 @@
     "name": "Euro D",
     "url": "https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8",
     "category": "Ulusal",
-    "streamUrl": "https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8"
+    "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196663&extension=ts&play_token=Xly1dUUni8"
   },
   {
     "name": "Ilke TV",
@@ -1203,7 +1203,7 @@
     "name": "Ekoturk",
     "url": "https://www.ekoturk.com/canli-yayin",
     "category": "Ekonomi",
-    "streamUrl": "https://yayin30.haber100.com/live/finansturk/playlist.m3u8"
+    "streamUrl": "https://cdn.ekoturk.net/hls/master.m3u8"
   },
   {
     "name": "Finans Turk",
@@ -1215,7 +1215,7 @@
     "name": "Ekol TV",
     "url": "https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8",
     "category": "Ekonomi",
-    "streamUrl": "https://ekoltv-live.ercdn.net/ekoltv/ekoltv_1080p.m3u8"
+    "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=1257377&extension=ts&play_token=DA2nexCTPP"
   },
   {
     "name": "Ciftci TV",
@@ -1233,7 +1233,7 @@
     "name": "Fashion One TV",
     "url": "https://www.fashionone.com/live",
     "category": "Yasam",
-    "streamUrl": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8"
+    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/5e36ee25-918c-407d-8f93-49d0c7e40411.ts"
   },
   {
     "name": "Fortuna TV",
@@ -3980,7 +3980,7 @@
     "name": "Number One Türk Rap",
     "url": "https://www.canlitvtr.app/radyo/numberoneturkrap",
     "category": "Radyo Yerel",
-    "streamUrl": "https://eustr75.mediatriple.net/Number1Media/30_Number1_Turk_Rap.stream/playlist.m3u8",
+    "streamUrl": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8",
     "province": "İstanbul"
   },
   {
