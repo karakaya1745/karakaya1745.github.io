@@ -1,5 +1,5 @@
 {
-  "_revision": 182,
+  "_revision": 183,
   "01fm": [
     "https://stream.turkiyeradyolari.com/01fm/stream?/;stream.mp3"
   ],
@@ -210,9 +210,6 @@
   ],
   "amedradyo": [
     "https://sslyayin.radyoyayini.com:7060/stream?"
-  ],
-  "anadoludernektv": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/3a7ca3ee-dae7-430c-919d-24f6f13855ed.ts"
   ],
   "anadolunettv": [
     "https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8",
@@ -632,9 +629,6 @@
   "davetradyo": [
     "https://stream.radiojar.com/ggu0fd6qu2wtv?"
   ],
-  "dehatv": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/d1752040-72ad-4355-9e45-e4ef35c8a487.ts"
-  ],
   "denizliartfm": [
     "https://sslyayin.netyayin.net/denizliartfm/stream/;stream.mp3"
   ],
@@ -657,12 +651,6 @@
   "dha": [
     "https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8",
     "https://603c568fccdf5.streamlock.net/live2/dhaweb2/playlist.m3u8"
-  ],
-  "dha1": [
-    "https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/chunklist_w630024058.m3u8"
-  ],
-  "dha2": [
-    "https://603c568fccdf5.streamlock.net/live2/dhaweb2/chunklist_w156766599.m3u8"
   ],
   "dimtv": [
     "https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/chunks.m3u8",
@@ -1036,7 +1024,6 @@
   "giresunradyoflash": [
     "https://sslyayin.netyayin.net/flashfm/stream?/;stream.mp3"
   ],
-  "globalhaber": [],
   "gnfm": [
     "https://ssl120.radyotelekom.com.tr/8130/stream"
   ],
@@ -1715,7 +1702,6 @@
   "malatyaradyoimparator": [
     "https://radyo.yayindakiler.com:4042/;"
   ],
-  "manastv": [],
   "manisaradyohiras": [
     "https://radyo.wlsrv.com:9082/;/;stream.mp3"
   ],
@@ -1751,9 +1737,6 @@
   ],
   "mbatfm": [
     "https://radyo.medyahost.com.tr/8034/stream"
-  ],
-  "mcmtop": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/674ea0d9-ec7c-4e7d-9059-97ddf78a1262.ts"
   ],
   "mctv": [
     "https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&type=live&service=wowza&protocol=https&output=playlist.m3u8",
@@ -1969,7 +1952,6 @@
   "number1classic": [
     "https://eustr75.mediatriple.net/Number1Media/08_Number1_Classic.stream/playlist.m3u8"
   ],
-  "number1damar": [],
   "number1dance": [
     "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8"
   ],
@@ -3140,9 +3122,6 @@
   "showtrend": [
     "https://listen.radyotvonline.net/hls/play/show_trend.m3u8"
   ],
-  "showturk": [
-    "https://raw.githubusercontent.com/bnyusuf67-crypto/streams/refs/heads/main/streams/shturk.m3u8"
-  ],
   "showtv": [
     "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showtv/showtv.m3u8",
     "https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558",
@@ -3287,13 +3266,6 @@
   ],
   "tekirdagradyoseker": [
     "https://radyo.yayin.com.tr:4046/;"
-  ],
-  "tele1": [
-    "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197275&extension=ts&play_token=XlBwIcQt6l",
-    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=197275&extension=ts&play_token=XlBwIcQt6l",
-    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197275&extension=ts&play_token=XlBwIcQt6l",
-    "https://tele1-live.ercdn.net/tele1/tele1.m3u8",
-    "https://tele1-live.ercdn.net/tele1/tele1_1080p.m3u8"
   ],
   "tempofm": [
     "https://stream.turkiyeradyolari.com:8170/stream"

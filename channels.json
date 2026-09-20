@@ -84,12 +84,6 @@
     "streamUrl": "http://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax.m3u8"
   },
   {
-    "name": "Show Türk",
-    "url": "https://www.showturk.com.tr/",
-    "category": "Ulusal",
-    "streamUrl": "https://raw.githubusercontent.com/bnyusuf67-crypto/streams/refs/heads/main/streams/shturk.m3u8"
-  },
-  {
     "name": "TV100",
     "url": "https://ensonhaber-live.ercdn.net/tv100/tv100.m3u8",
     "category": "Ulusal",
@@ -166,12 +160,6 @@
     "url": "https://halktv.com.tr/canli-yayin",
     "category": "Haber",
     "streamUrl": "https://halktv-live.daioncdn.net/halktv/halktv_1080p.m3u8"
-  },
-  {
-    "name": "TELE 1",
-    "url": "https://tele1.com.tr/canli-yayin/",
-    "category": "Haber",
-    "streamUrl": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197275&extension=ts&play_token=XlBwIcQt6l"
   },
   {
     "name": "Bengu Turk",
@@ -264,12 +252,6 @@
     "streamUrl": "https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8"
   },
   {
-    "name": "Global Haber",
-    "url": "https://vavo.sayezec.workers.dev/ID=1224377838995614ed0843",
-    "category": "Haber",
-    "streamUrl": ""
-  },
-  {
     "name": "Life TV",
     "url": "https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8",
     "category": "Haber",
@@ -316,18 +298,6 @@
     "url": "https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8",
     "category": "Haber",
     "streamUrl": "https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8"
-  },
-  {
-    "name": "DHA 1",
-    "url": "https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/chunklist_w630024058.m3u8",
-    "category": "Haber",
-    "streamUrl": "https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/chunklist_w630024058.m3u8"
-  },
-  {
-    "name": "DHA 2",
-    "url": "https://603c568fccdf5.streamlock.net/live2/dhaweb2/chunklist_w156766599.m3u8",
-    "category": "Haber",
-    "streamUrl": "https://603c568fccdf5.streamlock.net/live2/dhaweb2/chunklist_w156766599.m3u8"
   },
   {
     "name": "DİM TV",
@@ -516,12 +486,6 @@
     "streamUrl": "https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8"
   },
   {
-    "name": "Number 1 Damar",
-    "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8",
-    "category": "Muzik",
-    "streamUrl": ""
-  },
-  {
     "name": "Number 1 Dance",
     "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8",
     "category": "Muzik",
@@ -574,12 +538,6 @@
     "url": "",
     "category": "Muzik",
     "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/79870e82-d2bc-4948-abf6-360052df2631.ts"
-  },
-  {
-    "name": "MCM TOP",
-    "url": "",
-    "category": "Muzik",
-    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/674ea0d9-ec7c-4e7d-9059-97ddf78a1262.ts"
   },
   {
     "name": "Afro Türk",
@@ -1240,12 +1198,6 @@
     "url": "https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8",
     "category": "Yasam",
     "streamUrl": "https://edge.taksimbilisim.com/ftvturk/bant1/playlist.m3u8"
-  },
-  {
-    "name": "Manas TV",
-    "url": "http://212.42.111.152:8080/",
-    "category": "Yasam",
-    "streamUrl": ""
   },
   {
     "name": "ATV Alanya",
@@ -6722,18 +6674,6 @@
     "url": "",
     "category": "Ulusal",
     "streamUrl": "https://ip44.radyotelekomtv.com:3958/hybrid/play.m3u8"
-  },
-  {
-    "name": "DEHA TV",
-    "url": "",
-    "category": "Yasam",
-    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/d1752040-72ad-4355-9e45-e4ef35c8a487.ts"
-  },
-  {
-    "name": "ANADOLU DERNEK TV",
-    "url": "",
-    "category": "Yasam",
-    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/3a7ca3ee-dae7-430c-919d-24f6f13855ed.ts"
   },
   {
     "name": "Van TV",
