@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-19T10:38:49.682Z",
+  "generatedAt": "2026-09-22T10:53:58.364Z",
   "dryRun": true,
-  "pending": 22,
+  "pending": 24,
   "skippedExists": [
     "TRT Spor 2",
     "TRT Genç",
@@ -11,35 +11,12 @@
     "Gonca TV",
     "Rumeli TV",
     "Kocaeli TV",
-    "Türkmeneli TV",
-    "Deha TV",
-    "Anadolu Dernek TV"
+    "Türkmeneli TV"
   ],
   "skippedPaid": [
     "beIN Sports Haber"
   ],
   "discovered": [
-    {
-      "name": "Space Toon",
-      "key": "spacetoon",
-      "urls": [
-        "https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8"
-      ],
-      "m3uCandidates": 2,
-      "probeResults": [
-        {
-          "url": "https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 200
-        }
-      ]
-    },
     {
       "name": "FM TV",
       "key": "fmtv",
@@ -87,20 +64,19 @@
   "notFound": [
     {
       "name": "TV8 International",
-      "candidates": 2,
+      "candidates": 1,
       "probeResults": [
         {
           "url": "http://162.212.179.33/dvrfl05/gin-tv8int/index.m3u8",
           "live": false,
           "reason": "timeout"
-        },
-        {
-          "url": "http://nimplus3.bozztv.com/tv8int/tv8int/playlist.m3u8",
-          "live": false,
-          "reason": "http-404",
-          "status": 404
         }
       ]
+    },
+    {
+      "name": "Space Toon",
+      "candidates": 0,
+      "probeResults": []
     },
     {
       "name": "GRT",
@@ -120,19 +96,8 @@
     },
     {
       "name": "Agro TV",
-      "candidates": 3,
+      "candidates": 1,
       "probeResults": [
-        {
-          "url": "https://yayin30.haber100.com/live/agrotv/playlist.m3u8",
-          "live": false,
-          "reason": "http-404",
-          "status": 404
-        },
-        {
-          "url": "https://agrotv.blutv.com/blutv_agrotv/live.m3u8",
-          "live": false,
-          "reason": "network-error"
-        },
         {
           "url": "https://yayin.haber100.com/P650841340/agrotv/chuclink.m3u8",
           "live": false,
@@ -164,18 +129,8 @@
     },
     {
       "name": "TV 2020",
-      "candidates": 3,
+      "candidates": 1,
       "probeResults": [
-        {
-          "url": "https://sc-kuzeykibrissmarttv.ercdn.net/tv2020/bantp1/playlist.m3u8",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "https://spor.kuzeykibris.tv/m3u8/tv_2020.m3u8",
-          "live": false,
-          "reason": "timeout"
-        },
         {
           "url": "http://kuzeykibris.tv/m3u8/tv_dialog.m3u8",
           "live": false,
@@ -254,6 +209,17 @@
       ]
     },
     {
+      "name": "Deha TV",
+      "candidates": 1,
+      "probeResults": [
+        {
+          "url": "http://waw1.artiyerelmedya.net:1935/dehatv/bant1/playlist.m3u8",
+          "live": false,
+          "reason": "timeout"
+        }
+      ]
+    },
+    {
       "name": "Tatlıses TV",
       "candidates": 1,
       "probeResults": [
@@ -262,6 +228,17 @@
           "live": false,
           "reason": "http-404",
           "status": 404
+        }
+      ]
+    },
+    {
+      "name": "Anadolu Dernek TV",
+      "candidates": 1,
+      "probeResults": [
+        {
+          "url": "http://ch.canlitvlive.io/anadolu-dernek-tv/live.m3u8",
+          "live": false,
+          "reason": "network-error"
         }
       ]
     },
@@ -281,12 +258,12 @@
       "candidates": 2,
       "probeResults": [
         {
-          "url": "http://stream.tvcdn.net/yerel/pamukkale-tv.m3u8",
+          "url": "http://ch.canlitvlive.io/pamukkale-tv/live.m3u8",
           "live": false,
           "reason": "network-error"
         },
         {
-          "url": "http://ch.canlitvlive.io/pamukkale-tv/live.m3u8",
+          "url": "http://stream.tvcdn.net/yerel/pamukkale-tv.m3u8",
           "live": false,
           "reason": "network-error"
         }
@@ -297,6 +274,11 @@
       "candidates": 3,
       "probeResults": [
         {
+          "url": "http://stream2.taksimbilisim.com:1935/drt/smil:drt.smil/iptvdelisi.m3u8",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
           "url": "https://edge1.socialsmart.tv/drttv/bant1/playlist.m3u8",
           "live": false,
           "reason": "http-404",
@@ -304,11 +286,6 @@
         },
         {
           "url": "http://stream2.taksimbilisim.com:1935/drt/smil:drt.smil/playlist.m3u8",
-          "live": false,
-          "reason": "timeout"
-        },
-        {
-          "url": "http://stream2.taksimbilisim.com:1935/drt/smil:drt.smil/iptvdelisi.m3u8",
           "live": false,
           "reason": "timeout"
         }
@@ -332,11 +309,10 @@
     }
   ],
   "warnings": [],
-  "addedCount": 3,
+  "addedCount": 2,
   "addedNames": [
-    "Space Toon",
     "FM TV",
     "Süper TV"
   ],
-  "streamMapRevision": 179
+  "streamMapRevision": 184
 }
