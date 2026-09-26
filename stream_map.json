@@ -1,5 +1,8 @@
 {
-  "_revision": 188,
+  "_revision": 189,
+  "duyuru": [
+    "https://karakaya1745.github.io/guncelleme_duyuru.m3u8"
+  ],
   "01fm": [
     "https://stream.turkiyeradyolari.com/01fm/stream?/;stream.mp3"
   ],
