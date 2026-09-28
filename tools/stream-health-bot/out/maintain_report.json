@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-25T09:58:09.868Z",
+  "generatedAt": "2026-09-28T11:24:23.624Z",
   "mode": "all-tv",
-  "targetCount": 219,
+  "targetCount": 220,
   "changed": [
     {
       "key": "trt1",
       "added": 2,
       "removed": 3,
-      "live": 14,
-      "keptDead": 0,
+      "live": 13,
+      "keptDead": 1,
       "addedUrls": [
         "http://89.187.191.41/TRT-1-HD-TR/playlist.m3u8",
         "https://helga.iptv2022.com/sh/trt_1/index.m3u8"
@@ -21,16 +21,16 @@
     },
     {
       "key": "atv",
-      "added": 3,
-      "removed": 3,
-      "live": 10,
+      "added": 2,
+      "removed": 4,
+      "live": 8,
       "keptDead": 1,
       "addedUrls": [
         "http://45.171.108.253:8888/ATV/index.m3u8",
-        "http://stream.mcquack.net/36/index.m3u8",
-        "https://live.zendzend.com/mpegts/29375_107244/media_mpegts_0.m3u8"
+        "http://stream.mcquack.net/36/index.m3u8"
       ],
       "removedUrls": [
+        "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_720p.m3u8",
         "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/c71b4e75-87a1-4048-a388-2f7fc5e5c07b.ts",
         "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/8f46cd5d-e996-4ba3-a71c-198480f5e288.ts",
         "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/eb8806ac-ebbf-43c3-a874-afd02b6a814e.ts"
@@ -88,11 +88,13 @@
     },
     {
       "key": "a2",
-      "added": 0,
+      "added": 1,
       "removed": 0,
-      "live": 11,
+      "live": 12,
       "keptDead": 0,
-      "addedUrls": [],
+      "addedUrls": [
+        "https://ythls.armelin.one/channel/UCHqu50_C2U2h_rpzhygs4aA.m3u8"
+      ],
       "removedUrls": []
     },
     {
@@ -159,15 +161,6 @@
       "removed": 0,
       "live": 16,
       "keptDead": 0,
-      "addedUrls": [],
-      "removedUrls": []
-    },
-    {
-      "key": "t24",
-      "added": 0,
-      "removed": 0,
-      "live": 5,
-      "keptDead": 1,
       "addedUrls": [],
       "removedUrls": []
     },
@@ -316,20 +309,23 @@
     {
       "key": "cemtv",
       "added": 0,
-      "removed": 1,
+      "removed": 4,
       "live": 1,
-      "keptDead": 3,
+      "keptDead": 0,
       "addedUrls": [],
       "removedUrls": [
-        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197223&extension=ts&play_token=fqcWcqBS9Q"
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197223&extension=ts&play_token=fqcWcqBS9Q",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197223&extension=ts&play_token=fqcWcqBS9Q",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197223&extension=ts&play_token=fqcWcqBS9Q",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197223&extension=ts&play_token=fqcWcqBS9Q"
       ]
     },
     {
       "key": "anews",
       "added": 0,
-      "removed": 9,
+      "removed": 17,
       "live": 3,
-      "keptDead": 8,
+      "keptDead": 0,
       "addedUrls": [],
       "removedUrls": [
         "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197239&extension=ts&play_token=xp5X57KHYf",
@@ -340,7 +336,15 @@
         "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197297&extension=ts&play_token=K7FHjiXCNb",
         "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197239&extension=ts&play_token=xp5X57KHYf",
         "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197297&extension=ts&play_token=K7FHjiXCNb",
-        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197239&extension=ts&play_token=xp5X57KHYf"
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197239&extension=ts&play_token=xp5X57KHYf",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197239&extension=ts&play_token=xp5X57KHYf",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197297&extension=ts&play_token=K7FHjiXCNb",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197297&extension=ts&play_token=K7FHjiXCNb",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197239&extension=ts&play_token=xp5X57KHYf",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197297&extension=ts&play_token=K7FHjiXCNb",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197239&extension=ts&play_token=xp5X57KHYf",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197297&extension=ts&play_token=K7FHjiXCNb",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=197239&extension=ts&play_token=xp5X57KHYf"
       ]
     },
     {
@@ -404,11 +408,13 @@
     },
     {
       "key": "trtsporyildiz",
-      "added": 0,
+      "added": 1,
       "removed": 4,
-      "live": 6,
+      "live": 7,
       "keptDead": 0,
-      "addedUrls": [],
+      "addedUrls": [
+        "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/2145/index.m3u8"
+      ],
       "removedUrls": [
         "https://tv-trtspor2.medya.trt.com.tr/master_720.m3u8",
         "https://tv-trtspor2.medya.trt.com.tr/master_1440p.m3u8",
@@ -445,6 +451,17 @@
         "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=18647&extension=ts&play_token=0mS3sQtpPM",
         "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/1896ade9-b183-4607-aea8-aa04431f7162.ts"
       ]
+    },
+    {
+      "key": "trtbelgesel",
+      "added": 1,
+      "removed": 0,
+      "live": 1,
+      "keptDead": 3,
+      "addedUrls": [
+        "https://tv-trtbelgesel-dai.medya.trt.com.tr/master.m3u8"
+      ],
+      "removedUrls": []
     },
     {
       "key": "dmax",
@@ -519,9 +536,9 @@
     {
       "key": "minikacocuk",
       "added": 0,
-      "removed": 6,
+      "removed": 10,
       "live": 3,
-      "keptDead": 4,
+      "keptDead": 0,
       "addedUrls": [],
       "removedUrls": [
         "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197414&extension=ts&play_token=QRcQhhtUMu",
@@ -529,15 +546,19 @@
         "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197414&extension=ts&play_token=QRcQhhtUMu",
         "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197414&extension=ts&play_token=QRcQhhtUMu",
         "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197414&extension=ts&play_token=QRcQhhtUMu",
-        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197414&extension=ts&play_token=QRcQhhtUMu"
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197414&extension=ts&play_token=QRcQhhtUMu",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197414&extension=ts&play_token=QRcQhhtUMu",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197414&extension=ts&play_token=QRcQhhtUMu",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=197414&extension=ts&play_token=QRcQhhtUMu",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197414&extension=ts&play_token=QRcQhhtUMu"
       ]
     },
     {
       "key": "minikago",
       "added": 0,
-      "removed": 7,
-      "live": 6,
-      "keptDead": 3,
+      "removed": 10,
+      "live": 5,
+      "keptDead": 1,
       "addedUrls": [],
       "removedUrls": [
         "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197415&extension=ts&play_token=jZU8XkX5Bq",
@@ -546,7 +567,10 @@
         "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197415&extension=ts&play_token=jZU8XkX5Bq",
         "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197415&extension=ts&play_token=jZU8XkX5Bq",
         "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197415&extension=ts&play_token=jZU8XkX5Bq",
-        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197415&extension=ts&play_token=jZU8XkX5Bq"
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197415&extension=ts&play_token=jZU8XkX5Bq",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197415&extension=ts&play_token=jZU8XkX5Bq",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=197415&extension=ts&play_token=jZU8XkX5Bq",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197415&extension=ts&play_token=jZU8XkX5Bq"
       ]
     },
     {
@@ -627,13 +651,12 @@
     },
     {
       "key": "dreamtv",
-      "added": 2,
+      "added": 1,
       "removed": 0,
-      "live": 2,
+      "live": 1,
       "keptDead": 1,
       "addedUrls": [
-        "https://xykt-fix.github.io/play/a02j/index.m3u8",
-        "https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8"
+        "https://xykt-fix.github.io/play/a02j/index.m3u8"
       ],
       "removedUrls": []
     },
@@ -660,12 +683,15 @@
     {
       "key": "semerkandtv",
       "added": 0,
-      "removed": 1,
+      "removed": 4,
       "live": 2,
-      "keptDead": 3,
+      "keptDead": 0,
       "addedUrls": [],
       "removedUrls": [
-        "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/4fe613ba-d862-418d-b985-dde1d422355a.ts"
+        "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/4fe613ba-d862-418d-b985-dde1d422355a.ts",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=210473&extension=ts&play_token=kw7nx0fWGJ",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=210473&extension=ts&play_token=kw7nx0fWGJ",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=210473&extension=ts&play_token=kw7nx0fWGJ"
       ]
     },
     {
@@ -714,12 +740,13 @@
     {
       "key": "tv5",
       "added": 0,
-      "removed": 1,
+      "removed": 2,
       "live": 2,
-      "keptDead": 1,
+      "keptDead": 0,
       "addedUrls": [],
       "removedUrls": [
-        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=210462&extension=ts&play_token=KSZIvDyc2v"
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=210462&extension=ts&play_token=KSZIvDyc2v",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=210462&extension=ts&play_token=KSZIvDyc2v"
       ]
     },
     {
@@ -746,11 +773,12 @@
     {
       "key": "rehbertv",
       "added": 0,
-      "removed": 2,
+      "removed": 3,
       "live": 1,
-      "keptDead": 1,
+      "keptDead": 0,
       "addedUrls": [],
       "removedUrls": [
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=210469&extension=ts&play_token=r4Pv0CSWXd",
         "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=210469&extension=ts&play_token=r4Pv0CSWXd",
         "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=210469&extension=ts&play_token=r4Pv0CSWXd"
       ]
@@ -764,6 +792,19 @@
       "addedUrls": [],
       "removedUrls": [
         "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/d1752040-72ad-4355-9e45-e4ef35c8a487.ts"
+      ]
+    },
+    {
+      "key": "medinetv",
+      "added": 0,
+      "removed": 3,
+      "live": 1,
+      "keptDead": 0,
+      "addedUrls": [],
+      "removedUrls": [
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=801067&extension=ts&play_token=1955JCRmy8",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=801067&extension=ts&play_token=1955JCRmy8",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=801067&extension=ts&play_token=1955JCRmy8"
       ]
     },
     {
@@ -783,10 +824,23 @@
       "key": "trtworld",
       "added": 0,
       "removed": 0,
-      "live": 6,
-      "keptDead": 1,
+      "live": 7,
+      "keptDead": 0,
       "addedUrls": [],
       "removedUrls": []
+    },
+    {
+      "key": "diyanettv",
+      "added": 0,
+      "removed": 3,
+      "live": 2,
+      "keptDead": 0,
+      "addedUrls": [],
+      "removedUrls": [
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=210472&extension=ts&play_token=qR0E9dxlC3",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=210472&extension=ts&play_token=qR0E9dxlC3",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=210472&extension=ts&play_token=qR0E9dxlC3"
+      ]
     },
     {
       "key": "koytv",
@@ -1008,14 +1062,16 @@
     {
       "key": "tv52",
       "added": 0,
-      "removed": 3,
+      "removed": 5,
       "live": 1,
-      "keptDead": 2,
+      "keptDead": 0,
       "addedUrls": [],
       "removedUrls": [
         "http://line.tivi-one.net/play/live.php?mac=00:1A:79:5D:91:44&stream=197160&extension=ts&play_token=dg0fqY7VUH",
         "http://me.mdmfista.com/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197160&extension=ts&play_token=dg0fqY7VUH",
-        "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/8ea17713-036e-4587-88d4-2221db0f8957.ts"
+        "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/8ea17713-036e-4587-88d4-2221db0f8957.ts",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197160&extension=ts&play_token=dg0fqY7VUH",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197160&extension=ts&play_token=dg0fqY7VUH"
       ]
     },
     {
@@ -1196,9 +1252,9 @@
     {
       "key": "meltemtv",
       "added": 0,
-      "removed": 8,
+      "removed": 17,
       "live": 6,
-      "keptDead": 9,
+      "keptDead": 0,
       "addedUrls": [],
       "removedUrls": [
         "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197182&extension=ts&play_token=GckvrhtdF2",
@@ -1208,7 +1264,16 @@
         "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197182&extension=ts&play_token=GckvrhtdF2",
         "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=210463&extension=ts&play_token=H63cTrLCxx",
         "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197182&extension=ts&play_token=GckvrhtdF2",
-        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=210463&extension=ts&play_token=H63cTrLCxx"
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=210463&extension=ts&play_token=H63cTrLCxx",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197182&extension=ts&play_token=GckvrhtdF2",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197182&extension=ts&play_token=GckvrhtdF2",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=210463&extension=ts&play_token=H63cTrLCxx",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=210463&extension=ts&play_token=H63cTrLCxx",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197182&extension=ts&play_token=GckvrhtdF2",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=210463&extension=ts&play_token=H63cTrLCxx",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197182&extension=ts&play_token=GckvrhtdF2",
+        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=210463&extension=ts&play_token=H63cTrLCxx",
+        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=197182&extension=ts&play_token=GckvrhtdF2"
       ]
     },
     {
@@ -1255,9 +1320,9 @@
       ]
     }
   ],
-  "removedUrls": 358,
-  "addedUrls": 42,
+  "removedUrls": 399,
+  "addedUrls": 43,
   "warnings": [],
-  "streamMapRevision": 189,
+  "streamMapRevision": 190,
   "mapChanged": true
 }

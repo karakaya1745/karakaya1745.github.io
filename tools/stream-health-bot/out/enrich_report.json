@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-25T10:37:22.556Z",
+  "generatedAt": "2026-09-28T12:11:15.533Z",
   "dryRun": true,
   "skipProbe": false,
-  "targetCount": 1010,
+  "targetCount": 1011,
   "enriched": [
     {
       "key": "adatv",
@@ -130,12 +130,11 @@
     },
     {
       "key": "dreamtv",
-      "added": 2,
+      "added": 1,
       "urls": [
-        "https://xykt-fix.github.io/play/a02j/index.m3u8",
-        "https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8"
+        "https://xykt-fix.github.io/play/a02j/index.m3u8"
       ],
-      "total": 3,
+      "total": 2,
       "probeResults": [
         {
           "url": "https://xykt-fix.github.io/play/a02j/index.m3u8",
@@ -145,9 +144,9 @@
         },
         {
           "url": "https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 206
+          "live": false,
+          "reason": "http-404",
+          "status": 404
         }
       ]
     },
@@ -466,8 +465,8 @@
     }
   ],
   "skippedFull": [],
-  "totalNewUrls": 24,
+  "totalNewUrls": 23,
   "enrichedCount": 21,
-  "streamMapRevision": 189,
+  "streamMapRevision": 190,
   "mapChanged": true
 }
