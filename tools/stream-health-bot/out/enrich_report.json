@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T12:11:15.533Z",
+  "generatedAt": "2026-10-01T12:19:02.953Z",
   "dryRun": true,
   "skipProbe": false,
   "targetCount": 1011,
@@ -27,6 +27,22 @@
           "url": "https://spor.kuzeykibris.tv/m3u8/tv_ada.m3u8",
           "live": false,
           "reason": "timeout"
+        }
+      ]
+    },
+    {
+      "key": "atvavrupa",
+      "added": 1,
+      "urls": [
+        "https://flask-api-hls-atvavrupahdtrkvz-live.onrender.com/hls_stream/master.m3u8"
+      ],
+      "total": 12,
+      "probeResults": [
+        {
+          "url": "https://flask-api-hls-atvavrupahdtrkvz-live.onrender.com/hls_stream/master.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
         }
       ]
     },
@@ -81,33 +97,6 @@
       ]
     },
     {
-      "key": "dmax",
-      "added": 1,
-      "urls": [
-        "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/2290/index.m3u8"
-      ],
-      "total": 11,
-      "probeResults": [
-        {
-          "url": "https://dogus-live.daioncdn.net/dmax/dmax_720p.m3u8",
-          "live": false,
-          "reason": "http-403",
-          "status": 403
-        },
-        {
-          "url": "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/2290/index.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 200
-        },
-        {
-          "url": "https://streams.uzunmuhalefet.com/stream/ca37ad2f-27a2-4227-9e04-fdd4b2279f3e.m3u8",
-          "live": false,
-          "reason": "network-error"
-        }
-      ]
-    },
-    {
       "key": "dosttv",
       "added": 1,
       "urls": [
@@ -130,11 +119,12 @@
     },
     {
       "key": "dreamtv",
-      "added": 1,
+      "added": 2,
       "urls": [
-        "https://xykt-fix.github.io/play/a02j/index.m3u8"
+        "https://xykt-fix.github.io/play/a02j/index.m3u8",
+        "https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8"
       ],
-      "total": 2,
+      "total": 3,
       "probeResults": [
         {
           "url": "https://xykt-fix.github.io/play/a02j/index.m3u8",
@@ -144,22 +134,6 @@
         },
         {
           "url": "https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8",
-          "live": false,
-          "reason": "http-404",
-          "status": 404
-        }
-      ]
-    },
-    {
-      "key": "erzurumwebtv",
-      "added": 1,
-      "urls": [
-        "https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8"
-      ],
-      "total": 2,
-      "probeResults": [
-        {
-          "url": "https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8",
           "live": true,
           "reason": "hls-manifest",
           "status": 206
@@ -210,22 +184,6 @@
       ]
     },
     {
-      "key": "kozatv",
-      "added": 1,
-      "urls": [
-        "http://66capanoglu.com:8080/live/zehra@senol/15082022/352714.ts"
-      ],
-      "total": 2,
-      "probeResults": [
-        {
-          "url": "http://66capanoglu.com:8080/live/zehra@senol/15082022/352714.ts",
-          "live": true,
-          "reason": "mpeg-ts",
-          "status": 206
-        }
-      ]
-    },
-    {
       "key": "kralpoptv",
       "added": 1,
       "urls": [
@@ -249,7 +207,7 @@
         "http://lifetv.bitflip.ee/live/stream1_1/index.m3u8",
         "https://lifetv.livebox.co.in/lifetvhls/lifetv.m3u8"
       ],
-      "total": 4,
+      "total": 5,
       "probeResults": [
         {
           "url": "http://88.212.15.19/live/lifetv/index.m3u8",
@@ -369,59 +327,6 @@
       ]
     },
     {
-      "key": "tlc",
-      "added": 1,
-      "urls": [
-        "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6915/index.m3u8"
-      ],
-      "total": 14,
-      "probeResults": [
-        {
-          "url": "https://dogus-live.daioncdn.net/tlc/tlc_720p.m3u8",
-          "live": false,
-          "reason": "http-403",
-          "status": 403
-        },
-        {
-          "url": "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6915/index.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 200
-        },
-        {
-          "url": "https://streams.uzunmuhalefet.com/stream/7c98bf26-69a3-4f45-a330-d7c27459b375.m3u8",
-          "live": false,
-          "reason": "network-error"
-        }
-      ]
-    },
-    {
-      "key": "trtsporyildiz",
-      "added": 1,
-      "urls": [
-        "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/2145/index.m3u8"
-      ],
-      "total": 11,
-      "probeResults": [
-        {
-          "url": "http://162.212.179.33:80/dvrfl05/gin-trtSPOR2/playlist.m3u8",
-          "live": false,
-          "reason": "timeout"
-        },
-        {
-          "url": "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/2145/index.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 200
-        },
-        {
-          "url": "https://streams.uzunmuhalefet.com/stream/978e9210-f530-44ae-99c8-8bdfc998b071.m3u8",
-          "live": false,
-          "reason": "network-error"
-        }
-      ]
-    },
-    {
       "key": "tv1",
       "added": 1,
       "urls": [
@@ -465,8 +370,8 @@
     }
   ],
   "skippedFull": [],
-  "totalNewUrls": 23,
-  "enrichedCount": 21,
-  "streamMapRevision": 190,
+  "totalNewUrls": 20,
+  "enrichedCount": 17,
+  "streamMapRevision": 193,
   "mapChanged": true
 }

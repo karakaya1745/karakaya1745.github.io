@@ -1,11 +1,11 @@
 # Stream Health — Onay Bekleyen Teklifler
 
-Olusturulma: 2026-09-28T11:24:23.587Z
-Toplam teklif: **445** (46 ekleme, 399 kaldirma)
+Olusturulma: 2026-10-01T11:19:02.881Z
+Toplam teklif: **446** (47 ekleme, 399 kaldirma)
 
 | action | add_url | add_channel | remove_url |
 | --- | ---: | ---: | ---: |
-| adet | 44 | 2 | 399 |
+| adet | 45 | 2 | 399 |
 
 > Bu dosya **yalnizca teklif** icerir. `channels.json` / `stream_map.json` otomatik degistirilmez.
 
@@ -16,7 +16,7 @@ Toplam teklif: **445** (46 ekleme, 399 kaldirma)
 
 ## Calisma ozeti
 
-- `health`: OK
+- `health`: TIMEOUT
 - `enrich`: OK
 - `discover`: OK
 
@@ -65,11 +65,12 @@ Toplam teklif: **445** (46 ekleme, 399 kaldirma)
 | 39 | add_url | TV 1 | tv1 | https://live.tv1.rw/index.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
 | 40 | add_url | Bloomberg HT | bloomberght | https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
 | 41 | add_url | Ekol TV | ekoltv | https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 42 | add_url | CNN Turk | cnnturk | http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6926/index.m3u8 | enrich-stream-map | M3U enrich dry-run: alternatif URL |
-| 43 | add_url | Koza TV | kozatv | http://66capanoglu.com:8080/live/zehra@senol/15082022/352714.ts | enrich-stream-map | M3U enrich dry-run: alternatif URL |
-| 44 | add_url | Number One Türk Damar | numberoneturkdamar | https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8 | enrich-stream-map | M3U enrich dry-run: alternatif URL |
-| 45 | add_channel | Space Toon | spacetoon | https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8 | discover-missing-channels | TKGS/eksik liste dry-run: yeni kanal |
-| 46 | add_channel | FM TV | fmtv | https://s2.tvdatta.com:3307/hybrid/play.m3u8 | discover-missing-channels | TKGS/eksik liste dry-run: yeni kanal |
+| 42 | add_url | ATV Avrupa | atvavrupa | https://flask-api-hls-atvavrupahdtrkvz-live.onrender.com/hls_stream/master.m3u8 | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 43 | add_url | CNN Turk | cnnturk | http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6926/index.m3u8 | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 44 | add_url | DREAM TV | dreamtv | https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8 | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 45 | add_url | Number One Türk Damar | numberoneturkdamar | https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8 | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 46 | add_channel | Space Toon | spacetoon | https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8 | discover-missing-channels | TKGS/eksik liste dry-run: yeni kanal |
+| 47 | add_channel | FM TV | fmtv | https://s2.tvdatta.com:3307/hybrid/play.m3u8 | discover-missing-channels | TKGS/eksik liste dry-run: yeni kanal |
 
 ## Kaldırılacak linkler
 

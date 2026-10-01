@@ -81,10 +81,12 @@ https://live.tv1.rw/index.m3u8
 https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8
 #EXTINF:-1 tvg-id="ekoltv" group-title="Ekleme Teklifleri",Ekol TV
 https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
+#EXTINF:-1 tvg-id="atvavrupa" group-title="Ekleme Teklifleri",ATV Avrupa
+https://flask-api-hls-atvavrupahdtrkvz-live.onrender.com/hls_stream/master.m3u8
 #EXTINF:-1 tvg-id="cnnturk" group-title="Ekleme Teklifleri",CNN Turk
 http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6926/index.m3u8
-#EXTINF:-1 tvg-id="kozatv" group-title="Ekleme Teklifleri",Koza TV
-http://66capanoglu.com:8080/live/zehra@senol/15082022/352714.ts
+#EXTINF:-1 tvg-id="dreamtv" group-title="Ekleme Teklifleri",DREAM TV
+https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8
 #EXTINF:-1 tvg-id="numberoneturkdamar" group-title="Ekleme Teklifleri",Number One Türk Damar
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8
 #EXTINF:-1 tvg-id="spacetoon" group-title="Ekleme Teklifleri",Space Toon
