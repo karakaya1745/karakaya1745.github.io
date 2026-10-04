@@ -2,6 +2,8 @@
 
 Canli TV kanal katalogu (`channels.json`, `stream_map.json`).
 
+> `stream_map.json` degisince mutlaka `node tools/update-ota-metadata.mjs` calistirin (MS Store `metadata.json` revision = `stream_map._revision`).
+
 ## Stream Health Bot — GitHub Actions
 
 > **Varsayilan: onay / teklif modu.** Bot `channels.json` / `stream_map.json` dosyalarini **asla otomatik yazmaz**.
