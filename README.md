@@ -2,7 +2,19 @@
 
 Canli TV kanal katalogu (`channels.json`, `stream_map.json`).
 
-> `stream_map.json` degisince mutlaka `node tools/update-ota-metadata.mjs` calistirin (MS Store `metadata.json` revision = `stream_map._revision`).
+## OTA metadata (MS Store)
+
+Android `stream_map.json` → `_revision` okur. MS Store once `metadata.json` → `revision` bakar; bu sayi artmazsa `stream_map` indirilmez.
+
+`channels.json` veya `stream_map.json` degisince, commit'ten once:
+
+```bash
+node tools/update-ota-metadata.mjs
+```
+
+`metadata.revision` her zaman `stream_map._revision` ile ayni olur (`channelCount`, `updatedAt`, dosya `sha256` de yenilenir). Kontrol: `node tools/update-ota-metadata.mjs --check`.
+
+`--apply` ile katalog yazan scriptler bunu kendisi calistirir. Elle commit'te unutulursa `main` push'unda `.github/workflows/sync-ota-metadata.yml` `metadata.json`'u yeniden uretip ayri commit atar.
 
 ## Stream Health Bot — GitHub Actions
 
@@ -11,6 +23,7 @@ Canli TV kanal katalogu (`channels.json`, `stream_map.json`).
 
 | Workflow | Durum |
 |----------|--------|
+| **sync-ota-metadata** | Aktif — `main` push (katalog) `metadata.json` revision'unu `stream_map._revision` ile esitler |
 | **proposal-notify** | Aktif — cron `0 5 */3 * *` (05:00 UTC ≈ 08:00 TR) + manuel |
 | stream-health | Yalnizca `workflow_dispatch`, **dry-run** (no `--apply`) |
 | discover-missing | Yalnizca `workflow_dispatch`, **dry-run** |

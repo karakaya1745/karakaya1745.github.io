@@ -82,6 +82,13 @@ Proposal aggregator (`generate-proposals.mjs`) ayni gate'i uygular; politika dis
 3. `../karakaya1745.github.io/channels.json` + `stream_map.json`
 
 Increment `stream_map.json` → `_revision` on every catalog change.
+Then refresh Pages `metadata.json` so MS Store sees the same number (`metadata.revision` = `stream_map._revision`):
+
+```bash
+node tools/update-ota-metadata.mjs
+```
+
+`--apply` writers do this automatically when they write a Pages catalog. A push to `main` that still forgets it is repaired by `.github/workflows/sync-ota-metadata.yml`. Check locally with `node tools/update-ota-metadata.mjs --check`.
 
 ---
 
