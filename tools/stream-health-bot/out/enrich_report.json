@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T12:19:02.953Z",
+  "generatedAt": "2026-10-04T11:11:27.869Z",
   "dryRun": true,
   "skipProbe": false,
   "targetCount": 1011,
@@ -27,22 +27,6 @@
           "url": "https://spor.kuzeykibris.tv/m3u8/tv_ada.m3u8",
           "live": false,
           "reason": "timeout"
-        }
-      ]
-    },
-    {
-      "key": "atvavrupa",
-      "added": 1,
-      "urls": [
-        "https://flask-api-hls-atvavrupahdtrkvz-live.onrender.com/hls_stream/master.m3u8"
-      ],
-      "total": 12,
-      "probeResults": [
-        {
-          "url": "https://flask-api-hls-atvavrupahdtrkvz-live.onrender.com/hls_stream/master.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 206
         }
       ]
     },
@@ -306,27 +290,6 @@
       ]
     },
     {
-      "key": "tgrthaber",
-      "added": 1,
-      "urls": [
-        "https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe4598be8e5d.smil/playlist.m3u8"
-      ],
-      "total": 8,
-      "probeResults": [
-        {
-          "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe4598be8e5d.smil/playlist.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 206
-        },
-        {
-          "url": "https://streams.uzunmuhalefet.com/stream/bd9ebc63-8243-43d6-83a2-eeef100f7e20.m3u8",
-          "live": false,
-          "reason": "network-error"
-        }
-      ]
-    },
-    {
       "key": "tv1",
       "added": 1,
       "urls": [
@@ -370,8 +333,8 @@
     }
   ],
   "skippedFull": [],
-  "totalNewUrls": 20,
-  "enrichedCount": 17,
+  "totalNewUrls": 18,
+  "enrichedCount": 15,
   "streamMapRevision": 193,
   "mapChanged": true
 }

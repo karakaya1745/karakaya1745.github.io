@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T12:24:40.784Z",
+  "generatedAt": "2026-10-04T11:17:02.426Z",
   "dryRun": true,
   "pending": 24,
   "skippedExists": [
@@ -145,8 +145,7 @@
         {
           "url": "https://edge1.socialsmart.tv/tekrumelitv/bant1/playlist.m3u8",
           "live": false,
-          "reason": "http-404",
-          "status": 404
+          "reason": "network-error"
         }
       ]
     },
@@ -319,8 +318,7 @@
         {
           "url": "https://edge1.socialsmart.tv/drttv/bant1/playlist.m3u8",
           "live": false,
-          "reason": "http-404",
-          "status": 404
+          "reason": "network-error"
         },
         {
           "url": "http://stream2.taksimbilisim.com:1935/drt/smil:drt.smil/playlist.m3u8",

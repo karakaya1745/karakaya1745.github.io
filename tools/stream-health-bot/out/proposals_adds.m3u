@@ -1,20 +1,22 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="trt1" group-title="Ekleme Teklifleri",TRT 1
-http://89.187.191.41/TRT-1-HD-TR/playlist.m3u8
 #EXTINF:-1 tvg-id="atv" group-title="Ekleme Teklifleri",ATV
 http://45.171.108.253:8888/ATV/index.m3u8
 #EXTINF:-1 tvg-id="atv" group-title="Ekleme Teklifleri",ATV
 http://stream.mcquack.net/36/index.m3u8
+#EXTINF:-1 tvg-id="atv" group-title="Ekleme Teklifleri",ATV
+https://live.zendzend.com/mpegts/29375_107244/media_mpegts_0.m3u8
+#EXTINF:-1 tvg-id="atv" group-title="Ekleme Teklifleri",ATV
+http://190.93.224.42/ATV/index.m3u8
 #EXTINF:-1 tvg-id="kanald" group-title="Ekleme Teklifleri",Kanal D
 https://stream1.kanald.ro/iphone/knd-live.m3u8
 #EXTINF:-1 tvg-id="startv" group-title="Ekleme Teklifleri",Star TV
 http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2465/index.m3u8
 #EXTINF:-1 tvg-id="now" group-title="Ekleme Teklifleri",NOW
+http://57.128.231.171:8080/249/index.m3u8
+#EXTINF:-1 tvg-id="now" group-title="Ekleme Teklifleri",NOW
 http://stream.mcquack.net/182/index.m3u8
 #EXTINF:-1 tvg-id="tv8" group-title="Ekleme Teklifleri",TV8
 http://315e5a5d.ottrast.com/iptv/8KSD5KFDXA6H88/2454/index.m3u8
-#EXTINF:-1 tvg-id="a2" group-title="Ekleme Teklifleri",A2
-https://ythls.armelin.one/channel/UCHqu50_C2U2h_rpzhygs4aA.m3u8
 #EXTINF:-1 tvg-id="tv100" group-title="Ekleme Teklifleri",TV100
 https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8
 #EXTINF:-1 tvg-id="tv100" group-title="Ekleme Teklifleri",TV100
@@ -29,8 +31,6 @@ https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
 https://cdn.livespanel.com/nossatv/nossatv/playlist.m3u8
 #EXTINF:-1 tvg-id="ntv" group-title="Ekleme Teklifleri",NTV
 https://strhlslb01.streamakaci.tv/str_ntv_ntv/str_ntv_ntv_multi/playlist.m3u8
-#EXTINF:-1 tvg-id="haberturk" group-title="Ekleme Teklifleri",Haberturk
-https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv_1080p.m3u8
 #EXTINF:-1 tvg-id="tgrthaber" group-title="Ekleme Teklifleri",TGRT Haber
 https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe4598be8e5d.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="flashhaber" group-title="Ekleme Teklifleri",Flash Haber
@@ -43,18 +43,8 @@ http://lifetv.bitflip.ee/live/stream1_1/index.m3u8
 https://lifetv.livebox.co.in/lifetvhls/lifetv.m3u8
 #EXTINF:-1 tvg-id="lifetv" group-title="Ekleme Teklifleri",Life TV
 https://lifetv.mpks.sk/s.m3u8
-#EXTINF:-1 tvg-id="lifetv" group-title="Ekleme Teklifleri",Life TV
-https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/chunks.m3u8
 #EXTINF:-1 tvg-id="neotv" group-title="Ekleme Teklifleri",Neo TV
 https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
-#EXTINF:-1 tvg-id="trtsporyildiz" group-title="Ekleme Teklifleri",TRT Spor Yildiz
-http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/2145/index.m3u8
-#EXTINF:-1 tvg-id="trtbelgesel" group-title="Ekleme Teklifleri",TRT Belgesel
-https://tv-trtbelgesel-dai.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="dmax" group-title="Ekleme Teklifleri",DMAX
-http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/2290/index.m3u8
-#EXTINF:-1 tvg-id="tlc" group-title="Ekleme Teklifleri",TLC
-http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6915/index.m3u8
 #EXTINF:-1 tvg-id="tgrtbelgesel" group-title="Ekleme Teklifleri",TGRT Belgesel
 https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="kralpoptv" group-title="Ekleme Teklifleri",Kral Pop TV
@@ -65,12 +55,12 @@ https://powertvkannada.com/hls/stream.m3u8
 https://listen.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="dreamtv" group-title="Ekleme Teklifleri",DREAM TV
 https://xykt-fix.github.io/play/a02j/index.m3u8
+#EXTINF:-1 tvg-id="dreamtv" group-title="Ekleme Teklifleri",DREAM TV
+https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8
 #EXTINF:-1 tvg-id="dosttv" group-title="Ekleme Teklifleri",Dost TV
 https://tvsms.club/tvz.php?kanal=dost&file=.m3u8
 #EXTINF:-1 tvg-id="adatv" group-title="Ekleme Teklifleri",Ada TV
 https://live-evg10.tv360.bitel.com.pe/bitel/alasdeaguilaSRT/playlist.m3u8
-#EXTINF:-1 tvg-id="erzurumwebtv" group-title="Ekleme Teklifleri",Erzurum Web TV
-https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8
 #EXTINF:-1 tvg-id="kanal7avrupa" group-title="Ekleme Teklifleri",Kanal 7 Avrupa
 https://raw.githubusercontent.com/rideordie16/YouTube/main/ch/kanal7eu.m3u8
 #EXTINF:-1 tvg-id="estv" group-title="Ekleme Teklifleri",ES TV
@@ -81,12 +71,8 @@ https://live.tv1.rw/index.m3u8
 https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8
 #EXTINF:-1 tvg-id="ekoltv" group-title="Ekleme Teklifleri",Ekol TV
 https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
-#EXTINF:-1 tvg-id="atvavrupa" group-title="Ekleme Teklifleri",ATV Avrupa
-https://flask-api-hls-atvavrupahdtrkvz-live.onrender.com/hls_stream/master.m3u8
 #EXTINF:-1 tvg-id="cnnturk" group-title="Ekleme Teklifleri",CNN Turk
 http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6926/index.m3u8
-#EXTINF:-1 tvg-id="dreamtv" group-title="Ekleme Teklifleri",DREAM TV
-https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8
 #EXTINF:-1 tvg-id="numberoneturkdamar" group-title="Ekleme Teklifleri",Number One Türk Damar
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8
 #EXTINF:-1 tvg-id="spacetoon" group-title="Ekleme Teklifleri",Space Toon

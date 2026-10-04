@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-28T11:24:23.624Z",
+  "generatedAt": "2026-10-04T10:51:52.235Z",
   "mode": "all-tv",
   "targetCount": 220,
   "changed": [
     {
       "key": "trt1",
-      "added": 2,
-      "removed": 3,
+      "added": 1,
+      "removed": 4,
       "live": 13,
-      "keptDead": 1,
+      "keptDead": 0,
       "addedUrls": [
-        "http://89.187.191.41/TRT-1-HD-TR/playlist.m3u8",
         "https://helga.iptv2022.com/sh/trt_1/index.m3u8"
       ],
       "removedUrls": [
+        "https://tv-trt1-esdai.medya.trt.com.tr/master.m3u8",
         "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/787a6f9f-0337-4634-9d49-3d2b94ce5b86.ts",
         "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/aea62a30-956a-4c9a-a868-c4c04443cb5f.ts",
         "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/05ef32a4-827d-4e20-87f8-37892492aec6.ts"
@@ -21,16 +21,17 @@
     },
     {
       "key": "atv",
-      "added": 2,
-      "removed": 4,
-      "live": 8,
-      "keptDead": 1,
+      "added": 4,
+      "removed": 3,
+      "live": 12,
+      "keptDead": 0,
       "addedUrls": [
         "http://45.171.108.253:8888/ATV/index.m3u8",
-        "http://stream.mcquack.net/36/index.m3u8"
+        "http://stream.mcquack.net/36/index.m3u8",
+        "https://live.zendzend.com/mpegts/29375_107244/media_mpegts_0.m3u8",
+        "http://190.93.224.42/ATV/index.m3u8"
       ],
       "removedUrls": [
-        "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_720p.m3u8",
         "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/c71b4e75-87a1-4048-a388-2f7fc5e5c07b.ts",
         "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/8f46cd5d-e996-4ba3-a71c-198480f5e288.ts",
         "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/eb8806ac-ebbf-43c3-a874-afd02b6a814e.ts"
@@ -62,11 +63,12 @@
     },
     {
       "key": "now",
-      "added": 1,
+      "added": 2,
       "removed": 0,
-      "live": 11,
+      "live": 12,
       "keptDead": 0,
       "addedUrls": [
+        "http://57.128.231.171:8080/249/index.m3u8",
         "http://stream.mcquack.net/182/index.m3u8"
       ],
       "removedUrls": []
@@ -88,13 +90,11 @@
     },
     {
       "key": "a2",
-      "added": 1,
+      "added": 0,
       "removed": 0,
-      "live": 12,
+      "live": 11,
       "keptDead": 0,
-      "addedUrls": [
-        "https://ythls.armelin.one/channel/UCHqu50_C2U2h_rpzhygs4aA.m3u8"
-      ],
+      "addedUrls": [],
       "removedUrls": []
     },
     {
@@ -146,13 +146,11 @@
     },
     {
       "key": "haberturk",
-      "added": 1,
+      "added": 0,
       "removed": 0,
       "live": 8,
       "keptDead": 0,
-      "addedUrls": [
-        "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv_1080p.m3u8"
-      ],
+      "addedUrls": [],
       "removedUrls": []
     },
     {
@@ -168,8 +166,8 @@
       "key": "tvnet",
       "added": 0,
       "removed": 1,
-      "live": 6,
-      "keptDead": 0,
+      "live": 5,
+      "keptDead": 1,
       "addedUrls": [],
       "removedUrls": [
         "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/9911508a-c20a-472d-81b3-c1bfb72675cb.ts"
@@ -250,19 +248,8 @@
       ]
     },
     {
-      "key": "guneydogutv",
-      "added": 0,
-      "removed": 1,
-      "live": 1,
-      "keptDead": 0,
-      "addedUrls": [],
-      "removedUrls": [
-        "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/48e8a51f-190b-4c61-8fa1-1c62488731b0.ts"
-      ]
-    },
-    {
       "key": "lifetv",
-      "added": 5,
+      "added": 4,
       "removed": 0,
       "live": 6,
       "keptDead": 0,
@@ -270,8 +257,7 @@
         "http://88.212.15.19/live/lifetv/index.m3u8",
         "http://lifetv.bitflip.ee/live/stream1_1/index.m3u8",
         "https://lifetv.livebox.co.in/lifetvhls/lifetv.m3u8",
-        "https://lifetv.mpks.sk/s.m3u8",
-        "https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/chunks.m3u8"
+        "https://lifetv.mpks.sk/s.m3u8"
       ],
       "removedUrls": []
     },
@@ -382,8 +368,8 @@
       "key": "htspor",
       "added": 0,
       "removed": 7,
-      "live": 6,
-      "keptDead": 0,
+      "live": 4,
+      "keptDead": 2,
       "addedUrls": [],
       "removedUrls": [
         "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=1245941&extension=ts&play_token=uuZgxxbnDG",
@@ -408,13 +394,11 @@
     },
     {
       "key": "trtsporyildiz",
-      "added": 1,
+      "added": 0,
       "removed": 4,
       "live": 7,
       "keptDead": 0,
-      "addedUrls": [
-        "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/2145/index.m3u8"
-      ],
+      "addedUrls": [],
       "removedUrls": [
         "https://tv-trtspor2.medya.trt.com.tr/master_720.m3u8",
         "https://tv-trtspor2.medya.trt.com.tr/master_1440p.m3u8",
@@ -453,25 +437,12 @@
       ]
     },
     {
-      "key": "trtbelgesel",
-      "added": 1,
-      "removed": 0,
-      "live": 1,
-      "keptDead": 3,
-      "addedUrls": [
-        "https://tv-trtbelgesel-dai.medya.trt.com.tr/master.m3u8"
-      ],
-      "removedUrls": []
-    },
-    {
       "key": "dmax",
-      "added": 1,
+      "added": 0,
       "removed": 6,
       "live": 5,
       "keptDead": 0,
-      "addedUrls": [
-        "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/2290/index.m3u8"
-      ],
+      "addedUrls": [],
       "removedUrls": [
         "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197428&extension=ts&play_token=AmK9aorYxN",
         "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197428&extension=ts&play_token=AmK9aorYxN",
@@ -483,13 +454,11 @@
     },
     {
       "key": "tlc",
-      "added": 1,
+      "added": 0,
       "removed": 9,
       "live": 5,
       "keptDead": 0,
-      "addedUrls": [
-        "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6915/index.m3u8"
-      ],
+      "addedUrls": [],
       "removedUrls": [
         "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197429&extension=ts&play_token=K6dnYNtVcu",
         "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197429&extension=ts&play_token=K6dnYNtVcu",
@@ -556,11 +525,12 @@
     {
       "key": "minikago",
       "added": 0,
-      "removed": 10,
+      "removed": 11,
       "live": 5,
-      "keptDead": 1,
+      "keptDead": 0,
       "addedUrls": [],
       "removedUrls": [
+        "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_720p.m3u8",
         "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197415&extension=ts&play_token=jZU8XkX5Bq",
         "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197415&extension=ts&play_token=jZU8XkX5Bq",
         "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197415&extension=ts&play_token=jZU8XkX5Bq",
@@ -651,12 +621,13 @@
     },
     {
       "key": "dreamtv",
-      "added": 1,
+      "added": 2,
       "removed": 0,
-      "live": 1,
+      "live": 2,
       "keptDead": 1,
       "addedUrls": [
-        "https://xykt-fix.github.io/play/a02j/index.m3u8"
+        "https://xykt-fix.github.io/play/a02j/index.m3u8",
+        "https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8"
       ],
       "removedUrls": []
     },
@@ -887,17 +858,6 @@
       ]
     },
     {
-      "key": "altastv",
-      "added": 0,
-      "removed": 1,
-      "live": 1,
-      "keptDead": 0,
-      "addedUrls": [],
-      "removedUrls": [
-        "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/4407e5db-51c4-4b67-b9f7-a5fb3691c4cf.ts"
-      ]
-    },
-    {
       "key": "brt1",
       "added": 0,
       "removed": 11,
@@ -952,25 +912,12 @@
       ]
     },
     {
-      "key": "caytv",
+      "key": "kozatv",
       "added": 0,
-      "removed": 1,
-      "live": 1,
-      "keptDead": 0,
-      "addedUrls": [],
-      "removedUrls": [
-        "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/9b834186-45c2-4565-8f55-f584ff87f82c.ts"
-      ]
-    },
-    {
-      "key": "erzurumwebtv",
-      "added": 1,
       "removed": 0,
-      "live": 2,
-      "keptDead": 0,
-      "addedUrls": [
-        "https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8"
-      ],
+      "live": 0,
+      "keptDead": 2,
+      "addedUrls": [],
       "removedUrls": []
     },
     {
@@ -988,13 +935,11 @@
     {
       "key": "kanal33",
       "added": 0,
-      "removed": 1,
-      "live": 1,
-      "keptDead": 0,
+      "removed": 0,
+      "live": 0,
+      "keptDead": 2,
       "addedUrls": [],
-      "removedUrls": [
-        "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/f50193cd-be0b-490b-854c-5142c068c1f8.ts"
-      ]
+      "removedUrls": []
     },
     {
       "key": "kanal7avrupa",
@@ -1057,21 +1002,6 @@
         "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:BF&stream=197183&extension=ts&play_token=18GX0jcvL1",
         "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C2&stream=197183&extension=ts&play_token=18GX0jcvL1",
         "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197183&extension=ts&play_token=18GX0jcvL1"
-      ]
-    },
-    {
-      "key": "tv52",
-      "added": 0,
-      "removed": 5,
-      "live": 1,
-      "keptDead": 0,
-      "addedUrls": [],
-      "removedUrls": [
-        "http://line.tivi-one.net/play/live.php?mac=00:1A:79:5D:91:44&stream=197160&extension=ts&play_token=dg0fqY7VUH",
-        "http://me.mdmfista.com/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197160&extension=ts&play_token=dg0fqY7VUH",
-        "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/8ea17713-036e-4587-88d4-2221db0f8957.ts",
-        "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197160&extension=ts&play_token=dg0fqY7VUH",
-        "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197160&extension=ts&play_token=dg0fqY7VUH"
       ]
     },
     {
@@ -1160,8 +1090,8 @@
       "key": "tv1",
       "added": 1,
       "removed": 11,
-      "live": 3,
-      "keptDead": 0,
+      "live": 2,
+      "keptDead": 1,
       "addedUrls": [
         "https://live.tv1.rw/index.m3u8"
       ],
@@ -1320,9 +1250,9 @@
       ]
     }
   ],
-  "removedUrls": 399,
-  "addedUrls": 43,
+  "removedUrls": 391,
+  "addedUrls": 38,
   "warnings": [],
-  "streamMapRevision": 190,
+  "streamMapRevision": 193,
   "mapChanged": true
 }
