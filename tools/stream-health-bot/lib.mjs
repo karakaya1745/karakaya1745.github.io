@@ -7,6 +7,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { syncOtaMetadataBeside } from "../update-ota-metadata.mjs";
 
 if (process.platform === "win32" && !process.execArgv.some((a) => a.includes("use-system-ca"))) {
   console.warn(
@@ -788,6 +789,12 @@ export function atomicWriteJson(filePath, data) {
   const tmp = `${filePath}.tmp`;
   fs.writeFileSync(tmp, text, "utf8");
   fs.renameSync(tmp, filePath);
+  // Pages catalog writes must refresh metadata.json in the same step.
+  // MS Store ignores stream_map until metadata.revision increases.
+  const base = path.basename(filePath);
+  if (base === "stream_map.json" || base === "channels.json") {
+    syncOtaMetadataBeside(filePath);
+  }
 }
 
 export function backupFiles(paths, backupDir) {

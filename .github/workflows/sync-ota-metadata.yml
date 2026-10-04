@@ -1,0 +1,67 @@
+name: Sync OTA metadata
+
+# MS Store reads metadata.json revision before stream_map. Keep them equal
+# whenever the Pages catalog changes, including hand edits that skip
+# `node tools/update-ota-metadata.mjs`.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "channels.json"
+      - "stream_map.json"
+      - "channel_logos.json"
+      - "metadata.json"
+      - "tools/update-ota-metadata.mjs"
+      - ".github/workflows/sync-ota-metadata.yml"
+  pull_request:
+    paths:
+      - "channels.json"
+      - "stream_map.json"
+      - "channel_logos.json"
+      - "metadata.json"
+      - "tools/update-ota-metadata.mjs"
+      - ".github/workflows/sync-ota-metadata.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ota-metadata-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Verify metadata.revision equals stream_map._revision
+        if: github.event_name == 'pull_request'
+        run: node tools/update-ota-metadata.mjs --check
+
+      - name: Regenerate metadata.json
+        if: github.event_name == 'push'
+        run: node tools/update-ota-metadata.mjs
+
+      - name: Commit metadata if catalog publish skipped it
+        if: github.event_name == 'push'
+        run: |
+          if git diff --quiet -- metadata.json; then
+            echo "metadata.json already matches stream_map._revision."
+            exit 0
+          fi
+          git config user.name "ota-metadata-bot"
+          git config user.email "bot@canlitvtr.local"
+          git add metadata.json
+          git commit -m "Sync metadata.json revision to stream_map._revision [bot]"
+          git pull --rebase --autostash origin main
+          git push origin HEAD:main

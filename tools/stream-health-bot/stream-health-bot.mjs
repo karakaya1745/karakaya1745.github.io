@@ -49,6 +49,7 @@ import {
   toUrlArray,
   uniqueUrls,
 } from "./lib.mjs";
+import { syncOtaMetadataBeside } from "../update-ota-metadata.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..", "..");
@@ -499,6 +500,7 @@ async function main() {
     const channelsText = fs.readFileSync(channelsFile, "utf8");
     const pagesCh = path.join(PAGES_REPO, "channels.json");
     fs.writeFileSync(pagesCh, channelsText, "utf8");
+    syncOtaMetadataBeside(pagesCh);
     log(`channels senkron: ${pagesCh}`);
   }
 
