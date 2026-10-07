@@ -9,14 +9,10 @@ https://live.zendzend.com/mpegts/29375_107244/media_mpegts_0.m3u8
 http://190.93.224.42/ATV/index.m3u8
 #EXTINF:-1 tvg-id="kanald" group-title="Ekleme Teklifleri",Kanal D
 https://stream1.kanald.ro/iphone/knd-live.m3u8
-#EXTINF:-1 tvg-id="startv" group-title="Ekleme Teklifleri",Star TV
-http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2465/index.m3u8
 #EXTINF:-1 tvg-id="now" group-title="Ekleme Teklifleri",NOW
 http://57.128.231.171:8080/249/index.m3u8
 #EXTINF:-1 tvg-id="now" group-title="Ekleme Teklifleri",NOW
 http://stream.mcquack.net/182/index.m3u8
-#EXTINF:-1 tvg-id="tv8" group-title="Ekleme Teklifleri",TV8
-http://315e5a5d.ottrast.com/iptv/8KSD5KFDXA6H88/2454/index.m3u8
 #EXTINF:-1 tvg-id="tv100" group-title="Ekleme Teklifleri",TV100
 https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8
 #EXTINF:-1 tvg-id="tv100" group-title="Ekleme Teklifleri",TV100
@@ -55,8 +51,6 @@ https://powertvkannada.com/hls/stream.m3u8
 https://listen.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="dreamtv" group-title="Ekleme Teklifleri",DREAM TV
 https://xykt-fix.github.io/play/a02j/index.m3u8
-#EXTINF:-1 tvg-id="dreamtv" group-title="Ekleme Teklifleri",DREAM TV
-https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8
 #EXTINF:-1 tvg-id="dosttv" group-title="Ekleme Teklifleri",Dost TV
 https://tvsms.club/tvz.php?kanal=dost&file=.m3u8
 #EXTINF:-1 tvg-id="adatv" group-title="Ekleme Teklifleri",Ada TV
