@@ -1,6 +1,6 @@
 # Stream Health — Onay Bekleyen Teklifler
 
-Olusturulma: 2026-10-07T11:29:11.671Z
+Olusturulma: 2026-10-10T10:55:31.123Z
 Toplam teklif: **424** (37 ekleme, 387 kaldirma)
 
 | action | add_url | add_channel | remove_url |
@@ -16,7 +16,7 @@ Toplam teklif: **424** (37 ekleme, 387 kaldirma)
 
 ## Calisma ozeti
 
-- `health`: OK
+- `health`: TIMEOUT
 - `enrich`: OK
 - `discover`: OK
 
@@ -57,7 +57,7 @@ Toplam teklif: **424** (37 ekleme, 387 kaldirma)
 | 31 | add_url | TV 1 | tv1 | https://live.tv1.rw/index.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
 | 32 | add_url | Bloomberg HT | bloomberght | https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
 | 33 | add_url | Ekol TV | ekoltv | https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 34 | add_url | CNN Turk | cnnturk | http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6926/index.m3u8 | enrich-stream-map | M3U enrich dry-run: alternatif URL |
+| 34 | add_url | DREAM TV | dreamtv | https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8 | enrich-stream-map | M3U enrich dry-run: alternatif URL |
 | 35 | add_url | Number One Türk Damar | numberoneturkdamar | https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8 | enrich-stream-map | M3U enrich dry-run: alternatif URL |
 | 36 | add_channel | Space Toon | spacetoon | https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8 | discover-missing-channels | TKGS/eksik liste dry-run: yeni kanal |
 | 37 | add_channel | FM TV | fmtv | https://s2.tvdatta.com:3307/hybrid/play.m3u8 | discover-missing-channels | TKGS/eksik liste dry-run: yeni kanal |

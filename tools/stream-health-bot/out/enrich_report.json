@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T11:50:33.970Z",
+  "generatedAt": "2026-10-10T11:55:31.183Z",
   "dryRun": true,
   "skipProbe": false,
   "targetCount": 1011,
@@ -59,28 +59,6 @@
       ]
     },
     {
-      "key": "cnnturk",
-      "added": 1,
-      "urls": [
-        "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6926/index.m3u8"
-      ],
-      "total": 6,
-      "probeResults": [
-        {
-          "url": "https://tgn.bozztv.com/dvrfl05/gin-cnnturk/tracks-v1a1/mono.m3u8",
-          "live": false,
-          "reason": "http-403",
-          "status": 403
-        },
-        {
-          "url": "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6926/index.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 200
-        }
-      ]
-    },
-    {
       "key": "dosttv",
       "added": 1,
       "urls": [
@@ -103,11 +81,12 @@
     },
     {
       "key": "dreamtv",
-      "added": 1,
+      "added": 2,
       "urls": [
-        "https://xykt-fix.github.io/play/a02j/index.m3u8"
+        "https://xykt-fix.github.io/play/a02j/index.m3u8",
+        "https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8"
       ],
-      "total": 2,
+      "total": 3,
       "probeResults": [
         {
           "url": "https://xykt-fix.github.io/play/a02j/index.m3u8",
@@ -117,8 +96,9 @@
         },
         {
           "url": "https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8",
-          "live": false,
-          "reason": "timeout"
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
         }
       ]
     },
@@ -353,7 +333,7 @@
   ],
   "skippedFull": [],
   "totalNewUrls": 18,
-  "enrichedCount": 16,
-  "streamMapRevision": 193,
+  "enrichedCount": 15,
+  "streamMapRevision": 194,
   "mapChanged": true
 }
