@@ -318,6 +318,24 @@
     "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/94c89c23-d566-49a7-9195-305ac694839e.ts"
   },
   {
+    "name": "24 TV",
+    "url": "",
+    "category": "Haber",
+    "streamUrl": "https://tv.ensonhaber.com/tv24/tv24.m3u8"
+  },
+  {
+    "name": "TeleNews",
+    "url": "",
+    "category": "Haber",
+    "streamUrl": "https://cdn4.yayin.com.tr/telenews/video.m3u8"
+  },
+  {
+    "name": "Syria TV",
+    "url": "",
+    "category": "Haber",
+    "streamUrl": "https://live.kwikmotion.com/syriatvlive/syriatv.smil/playlist_dvr.m3u8"
+  },
+  {
     "name": "TRT Spor",
     "url": "https://www.trtizle.com/canli/tv/trt-spor",
     "category": "Spor",
@@ -462,6 +480,24 @@
     "streamUrl": "http://me.mdmfista.com/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197411&extension=ts&play_token=6Vh9e7AwnI"
   },
   {
+    "name": "Spacetoon Turkey",
+    "url": "",
+    "category": "Cocuk",
+    "streamUrl": "https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8"
+  },
+  {
+    "name": "Baby TV",
+    "url": "",
+    "category": "Cocuk",
+    "streamUrl": "https://saran-live.ercdn.net/babytv/index.m3u8"
+  },
+  {
+    "name": "Disney Jr.",
+    "url": "",
+    "category": "Cocuk",
+    "streamUrl": "https://saran-live.ercdn.net/disneyjunior/index.m3u8"
+  },
+  {
     "name": "TRT Muzik",
     "url": "https://www.trtizle.com/canli/tv/trt-muzik",
     "category": "Kamu",
@@ -556,6 +592,24 @@
     "url": "",
     "category": "Muzik",
     "streamUrl": "https://stream.yayintescil.com:3183/stream/play.m3u8"
+  },
+  {
+    "name": "KN Music TV",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8"
+  },
+  {
+    "name": "Number 1 Ask",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8"
+  },
+  {
+    "name": "Number 1 TV",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8"
   },
   {
     "name": "Lalegul TV",
@@ -772,6 +826,12 @@
     "url": "https://tv-e-okul01.medya.trt.com.tr/master.m3u8",
     "category": "Kamu",
     "streamUrl": "https://tv-e-okul01.medya.trt.com.tr/master.m3u8"
+  },
+  {
+    "name": "Tabii TV",
+    "url": "",
+    "category": "Kamu",
+    "streamUrl": "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv_1080p.m3u8?sid=IUlyczhCBES7nvvwJSIycw&bvr_flags=10&bvr_ch=tabiitv&bvr_bw=2800000"
   },
   {
     "name": "Altas TV",
@@ -6686,5 +6746,41 @@
     "category": "Ulusal",
     "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=210464&extension=ts&play_token=syELrgHMxY",
     "url": ""
+  },
+  {
+    "name": "Bi Kanal",
+    "url": "",
+    "category": "Ulusal",
+    "streamUrl": "https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8"
+  },
+  {
+    "name": "Kibris Kanal T",
+    "url": "",
+    "category": "Ulusal",
+    "streamUrl": "https://edge.kuzeykibrissmart.tv/kanalt/bant1/playlist.m3u8"
+  },
+  {
+    "name": "TV 3",
+    "url": "",
+    "category": "Ulusal",
+    "streamUrl": "https://live.artidijitalmedya.com/artidijital_tv3/tv3/playlist.m3u8"
+  },
+  {
+    "name": "Rize Turk",
+    "url": "",
+    "category": "Ulusal",
+    "streamUrl": "https://yayin.rizeturk.com:3777/hybrid/play.m3u8"
+  },
+  {
+    "name": "SDM Sinema",
+    "url": "",
+    "category": "Ulusal",
+    "streamUrl": "https://host.onlineradyotv.net:8081/sdmtv/tracks-v1a1/mono.m3u8"
+  },
+  {
+    "name": "Cine1",
+    "url": "",
+    "category": "Ulusal",
+    "streamUrl": "http://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8"
   }
 ]
