@@ -32,6 +32,18 @@ const ROOT = path.resolve(__dirname, "..", "..");
 const OUT_DIR = path.join(__dirname, "out");
 const CHANNELS_PATH = path.join(ROOT, "channels.json");
 const STREAM_MAP_PATH = path.join(ROOT, "stream_map.json");
+const REJECTED_PATH = path.join(__dirname, "rejected_proposals.json");
+
+// Kullanicinin reddettigi oneri URL'leri: bir daha adds/m3u/bildirime girmez.
+function loadRejectedUrls() {
+  const data = loadJson(REJECTED_PATH, null);
+  const list = Array.isArray(data?.urls) ? data.urls : [];
+  return new Set(
+    list
+      .map((e) => String(typeof e === "string" ? e : e?.url || "").trim())
+      .filter(Boolean),
+  );
+}
 
 const args = new Set(process.argv.slice(2));
 const aggregateOnly = args.has("--aggregate-only");
@@ -342,9 +354,17 @@ async function main() {
   collectFromEnrich(enrichReport, nameByKey, proposals, seen);
   collectFromDiscover(discoverReport, proposals, seen);
 
-  const adds = proposals.filter(
-    (p) => p.action === "add_url" || p.action === "add_channel",
-  );
+  const rejectedUrls = loadRejectedUrls();
+  let rejectedSkipped = 0;
+  const adds = proposals.filter((p) => {
+    if (p.action !== "add_url" && p.action !== "add_channel") return false;
+    if (rejectedUrls.has(String(p.url || "").trim())) {
+      rejectedSkipped++;
+      return false;
+    }
+    return true;
+  });
+  if (rejectedSkipped) log(`Red listesi: ${rejectedSkipped} ekleme teklifi atlandi`);
   const removes = proposals.filter((p) => p.action === "remove_url");
   const summary = {
     add_url: adds.filter((p) => p.action === "add_url").length,

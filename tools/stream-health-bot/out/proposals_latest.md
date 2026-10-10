@@ -1,11 +1,11 @@
 # Stream Health — Onay Bekleyen Teklifler
 
-Olusturulma: 2026-10-10T10:55:31.123Z
-Toplam teklif: **424** (37 ekleme, 387 kaldirma)
+Olusturulma: 2026-10-10T14:08:29.970Z
+Toplam teklif: **387** (0 ekleme, 387 kaldirma)
 
 | action | add_url | add_channel | remove_url |
 | --- | ---: | ---: | ---: |
-| adet | 35 | 2 | 387 |
+| adet | 0 | 0 | 387 |
 
 > Bu dosya **yalnizca teklif** icerir. `channels.json` / `stream_map.json` otomatik degistirilmez.
 
@@ -16,51 +16,11 @@ Toplam teklif: **424** (37 ekleme, 387 kaldirma)
 
 ## Calisma ozeti
 
-- `health`: TIMEOUT
-- `enrich`: OK
-- `discover`: OK
+- `aggregate-only`: OK
 
 ## Eklenecek linkler / kanallar
 
-| # | action | kanal | key | url | kaynak | neden |
-| ---: | --- | --- | --- | --- | --- | --- |
-| 1 | add_url | ATV | atv | http://45.171.108.253:8888/ATV/index.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 2 | add_url | ATV | atv | http://stream.mcquack.net/36/index.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 3 | add_url | ATV | atv | https://live.zendzend.com/mpegts/29375_107244/media_mpegts_0.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 4 | add_url | ATV | atv | http://190.93.224.42/ATV/index.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 5 | add_url | Kanal D | kanald | https://stream1.kanald.ro/iphone/knd-live.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 6 | add_url | NOW | now | http://57.128.231.171:8080/249/index.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 7 | add_url | NOW | now | http://stream.mcquack.net/182/index.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 8 | add_url | TV100 | tv100 | https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 9 | add_url | TV100 | tv100 | https://gwebstream.net/hls/master.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 10 | add_url | NTV | ntv | https://protokolldns.xyz/ntv.l.i.v.e5547892023/index.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 11 | add_url | NTV | ntv | https://dash4.antik.sk/live/test_ntv_tizen/playlist.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 12 | add_url | NTV | ntv | https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 13 | add_url | NTV | ntv | https://cdn.livespanel.com/nossatv/nossatv/playlist.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 14 | add_url | NTV | ntv | https://strhlslb01.streamakaci.tv/str_ntv_ntv/str_ntv_ntv_multi/playlist.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 15 | add_url | TGRT Haber | tgrthaber | https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe4598be8e5d.smil/playlist.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 16 | add_url | Flash Haber | flashhaber | https://flashhaber-live.ercdn.net/flashhaber/flashhaber.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 17 | add_url | Life TV | lifetv | http://88.212.15.19/live/lifetv/index.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 18 | add_url | Life TV | lifetv | http://lifetv.bitflip.ee/live/stream1_1/index.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 19 | add_url | Life TV | lifetv | https://lifetv.livebox.co.in/lifetvhls/lifetv.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 20 | add_url | Life TV | lifetv | https://lifetv.mpks.sk/s.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 21 | add_url | Neo TV | neotv | https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 22 | add_url | TGRT Belgesel | tgrtbelgesel | https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 23 | add_url | Kral Pop TV | kralpoptv | https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 24 | add_url | Power TV | powertv | https://powertvkannada.com/hls/stream.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 25 | add_url | Power Türk Slow | powerturkslow | https://listen.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 26 | add_url | DREAM TV | dreamtv | https://xykt-fix.github.io/play/a02j/index.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 27 | add_url | Dost TV | dosttv | https://tvsms.club/tvz.php?kanal=dost&file=.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 28 | add_url | Ada TV | adatv | https://live-evg10.tv360.bitel.com.pe/bitel/alasdeaguilaSRT/playlist.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 29 | add_url | Kanal 7 Avrupa | kanal7avrupa | https://raw.githubusercontent.com/rideordie16/YouTube/main/ch/kanal7eu.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 30 | add_url | ES TV | estv | https://cloudfront44.lexanetwork.com:1344/relay01/HDE032.sdp/playlist.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 31 | add_url | TV 1 | tv1 | https://live.tv1.rw/index.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 32 | add_url | Bloomberg HT | bloomberght | https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 33 | add_url | Ekol TV | ekoltv | https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 34 | add_url | DREAM TV | dreamtv | https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8 | enrich-stream-map | M3U enrich dry-run: alternatif URL |
-| 35 | add_url | Number One Türk Damar | numberoneturkdamar | https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8 | enrich-stream-map | M3U enrich dry-run: alternatif URL |
-| 36 | add_channel | Space Toon | spacetoon | https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8 | discover-missing-channels | TKGS/eksik liste dry-run: yeni kanal |
-| 37 | add_channel | FM TV | fmtv | https://s2.tvdatta.com:3307/hybrid/play.m3u8 | discover-missing-channels | TKGS/eksik liste dry-run: yeni kanal |
+_Ekleme teklifi yok._
 
 ## Kaldırılacak linkler
 

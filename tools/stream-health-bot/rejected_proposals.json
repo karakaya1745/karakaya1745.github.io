@@ -1,0 +1,192 @@
+{
+  "description": "Kullanici tarafindan gecersiz bulunup reddedilen oneri URL'leri. generate-proposals.mjs bu URL'leri adds/proposals_adds.m3u/bildirim ciktisindan cikarir.",
+  "updatedAt": "2026-10-10T14:08:29.784Z",
+  "source": "out/proposals_adds.m3u (2026-10-10)",
+  "urls": [
+    {
+      "url": "http://45.171.108.253:8888/ATV/index.m3u8",
+      "tvgId": "atv",
+      "name": "ATV"
+    },
+    {
+      "url": "http://stream.mcquack.net/36/index.m3u8",
+      "tvgId": "atv",
+      "name": "ATV"
+    },
+    {
+      "url": "https://live.zendzend.com/mpegts/29375_107244/media_mpegts_0.m3u8",
+      "tvgId": "atv",
+      "name": "ATV"
+    },
+    {
+      "url": "http://190.93.224.42/ATV/index.m3u8",
+      "tvgId": "atv",
+      "name": "ATV"
+    },
+    {
+      "url": "https://stream1.kanald.ro/iphone/knd-live.m3u8",
+      "tvgId": "kanald",
+      "name": "Kanal D"
+    },
+    {
+      "url": "http://57.128.231.171:8080/249/index.m3u8",
+      "tvgId": "now",
+      "name": "NOW"
+    },
+    {
+      "url": "http://stream.mcquack.net/182/index.m3u8",
+      "tvgId": "now",
+      "name": "NOW"
+    },
+    {
+      "url": "https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8",
+      "tvgId": "tv100",
+      "name": "TV100"
+    },
+    {
+      "url": "https://gwebstream.net/hls/master.m3u8",
+      "tvgId": "tv100",
+      "name": "TV100"
+    },
+    {
+      "url": "https://protokolldns.xyz/ntv.l.i.v.e5547892023/index.m3u8",
+      "tvgId": "ntv",
+      "name": "NTV"
+    },
+    {
+      "url": "https://dash4.antik.sk/live/test_ntv_tizen/playlist.m3u8",
+      "tvgId": "ntv",
+      "name": "NTV"
+    },
+    {
+      "url": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8",
+      "tvgId": "ntv",
+      "name": "NTV"
+    },
+    {
+      "url": "https://cdn.livespanel.com/nossatv/nossatv/playlist.m3u8",
+      "tvgId": "ntv",
+      "name": "NTV"
+    },
+    {
+      "url": "https://strhlslb01.streamakaci.tv/str_ntv_ntv/str_ntv_ntv_multi/playlist.m3u8",
+      "tvgId": "ntv",
+      "name": "NTV"
+    },
+    {
+      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe4598be8e5d.smil/playlist.m3u8",
+      "tvgId": "tgrthaber",
+      "name": "TGRT Haber"
+    },
+    {
+      "url": "https://flashhaber-live.ercdn.net/flashhaber/flashhaber.m3u8",
+      "tvgId": "flashhaber",
+      "name": "Flash Haber"
+    },
+    {
+      "url": "http://88.212.15.19/live/lifetv/index.m3u8",
+      "tvgId": "lifetv",
+      "name": "Life TV"
+    },
+    {
+      "url": "http://lifetv.bitflip.ee/live/stream1_1/index.m3u8",
+      "tvgId": "lifetv",
+      "name": "Life TV"
+    },
+    {
+      "url": "https://lifetv.livebox.co.in/lifetvhls/lifetv.m3u8",
+      "tvgId": "lifetv",
+      "name": "Life TV"
+    },
+    {
+      "url": "https://lifetv.mpks.sk/s.m3u8",
+      "tvgId": "lifetv",
+      "name": "Life TV"
+    },
+    {
+      "url": "https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8",
+      "tvgId": "neotv",
+      "name": "Neo TV"
+    },
+    {
+      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8",
+      "tvgId": "tgrtbelgesel",
+      "name": "TGRT Belgesel"
+    },
+    {
+      "url": "https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8",
+      "tvgId": "kralpoptv",
+      "name": "Kral Pop TV"
+    },
+    {
+      "url": "https://powertvkannada.com/hls/stream.m3u8",
+      "tvgId": "powertv",
+      "name": "Power TV"
+    },
+    {
+      "url": "https://listen.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8",
+      "tvgId": "powerturkslow",
+      "name": "Power Türk Slow"
+    },
+    {
+      "url": "https://xykt-fix.github.io/play/a02j/index.m3u8",
+      "tvgId": "dreamtv",
+      "name": "DREAM TV"
+    },
+    {
+      "url": "https://tvsms.club/tvz.php?kanal=dost&file=.m3u8",
+      "tvgId": "dosttv",
+      "name": "Dost TV"
+    },
+    {
+      "url": "https://live-evg10.tv360.bitel.com.pe/bitel/alasdeaguilaSRT/playlist.m3u8",
+      "tvgId": "adatv",
+      "name": "Ada TV"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rideordie16/YouTube/main/ch/kanal7eu.m3u8",
+      "tvgId": "kanal7avrupa",
+      "name": "Kanal 7 Avrupa"
+    },
+    {
+      "url": "https://cloudfront44.lexanetwork.com:1344/relay01/HDE032.sdp/playlist.m3u8",
+      "tvgId": "estv",
+      "name": "ES TV"
+    },
+    {
+      "url": "https://live.tv1.rw/index.m3u8",
+      "tvgId": "tv1",
+      "name": "TV 1"
+    },
+    {
+      "url": "https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8",
+      "tvgId": "bloomberght",
+      "name": "Bloomberg HT"
+    },
+    {
+      "url": "https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8",
+      "tvgId": "ekoltv",
+      "name": "Ekol TV"
+    },
+    {
+      "url": "https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8",
+      "tvgId": "dreamtv",
+      "name": "DREAM TV"
+    },
+    {
+      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8",
+      "tvgId": "numberoneturkdamar",
+      "name": "Number One Türk Damar"
+    },
+    {
+      "url": "https://spacetoon-prod-dub-ak.akamaized.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8",
+      "tvgId": "spacetoon",
+      "name": "Space Toon"
+    },
+    {
+      "url": "https://s2.tvdatta.com:3307/hybrid/play.m3u8",
+      "tvgId": "fmtv",
+      "name": "FM TV"
+    }
+  ]
+}
