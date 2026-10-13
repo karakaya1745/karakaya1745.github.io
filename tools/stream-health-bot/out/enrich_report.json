@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-10T11:55:31.183Z",
+  "generatedAt": "2026-10-13T12:45:42.823Z",
   "dryRun": true,
   "skipProbe": false,
-  "targetCount": 1011,
+  "targetCount": 1027,
   "enriched": [
     {
       "key": "adatv",
@@ -55,6 +55,42 @@
           "live": true,
           "reason": "hls-manifest",
           "status": 206
+        }
+      ]
+    },
+    {
+      "key": "cartoonnetwork",
+      "added": 1,
+      "urls": [
+        "http://tvsen7.aynascope.net/cartoonnetwork/index.m3u8"
+      ],
+      "total": 7,
+      "probeResults": [
+        {
+          "url": "http://tvsen7.aynascope.net/cartoonnetwork/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        },
+        {
+          "url": "http://ch.canlitvlive.io/cartoonnetwork/live.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
+          "live": false,
+          "reason": "timeout"
         }
       ]
     },
@@ -163,19 +199,18 @@
     },
     {
       "key": "lifetv",
-      "added": 3,
+      "added": 2,
       "urls": [
-        "http://88.212.15.19/live/lifetv/index.m3u8",
         "http://lifetv.bitflip.ee/live/stream1_1/index.m3u8",
         "https://lifetv.livebox.co.in/lifetvhls/lifetv.m3u8"
       ],
-      "total": 5,
+      "total": 4,
       "probeResults": [
         {
           "url": "http://88.212.15.19/live/lifetv/index.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 200
+          "live": false,
+          "reason": "http-503",
+          "status": 503
         },
         {
           "url": "http://lifetv.bitflip.ee/live/stream1_1/index.m3u8",
@@ -197,7 +232,7 @@
       "urls": [
         "https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8"
       ],
-      "total": 2,
+      "total": 3,
       "probeResults": [
         {
           "url": "https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8",
@@ -305,35 +340,128 @@
       ]
     },
     {
-      "key": "tv100",
-      "added": 1,
+      "key": "tv3",
+      "added": 2,
       "urls": [
-        "https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8"
+        "http://flussonic.linkintel.ru/tv-3/index.m3u8",
+        "http://stream.mcquack.net/136/index.m3u8"
       ],
-      "total": 5,
+      "total": 3,
       "probeResults": [
         {
-          "url": "https://tv100.daioncdn.net/tv100/tv100_1080p.m3u8?app=web",
+          "url": "https://customer-ezarl905qqr949qs.cloudflarestream.com/856e914abd09e036ce9ce4fa649278b2/manifest/video.m3u8",
           "live": false,
-          "reason": "network-error"
+          "reason": "http-404",
+          "status": 404
         },
         {
-          "url": "https://tv100-live.daioncdn.net/tv100/tv100.m3u8",
-          "live": false,
-          "reason": "network-error"
+          "url": "http://flussonic.linkintel.ru/tv-3/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
         },
         {
-          "url": "https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8",
+          "url": "http://stream.mcquack.net/136/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "syriatv",
+      "added": 3,
+      "urls": [
+        "https://svs.itworkscdn.net/syriatvlive/syriatv.smil/playlist.m3u8",
+        "https://stream.ads.ottera.tv/playlist.m3u8?network_id=6017",
+        "https://live.kwikmotion.com/syriatvlive/syriatv.smil/playlist.m3u8"
+      ],
+      "total": 4,
+      "probeResults": [
+        {
+          "url": "https://svs.itworkscdn.net/syriatvlive/syriatv.smil/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        },
+        {
+          "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=6017",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        },
+        {
+          "url": "https://live.kwikmotion.com/syriatvlive/syriatv.smil/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "tabiitv",
+      "added": 1,
+      "urls": [
+        "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.m3u8"
+      ],
+      "total": 2,
+      "probeResults": [
+        {
+          "url": "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "rizeturk",
+      "added": 1,
+      "urls": [
+        "https://yayin.rizeturk.com:3777/multi_web/play.m3u8"
+      ],
+      "total": 2,
+      "probeResults": [
+        {
+          "url": "https://yayin.rizeturk.com:3777/multi_web/play.m3u8",
           "live": true,
           "reason": "hls-manifest",
           "status": 206
         }
       ]
+    },
+    {
+      "key": "cine1",
+      "added": 1,
+      "urls": [
+        "https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8"
+      ],
+      "total": 2,
+      "probeResults": [
+        {
+          "url": "https://live.artidijitalmedya.com/artidijital_cine1/cine1/playlist.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404
+        },
+        {
+          "url": "https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        },
+        {
+          "url": "https://live.artidijitalmedya.com/artidijital_cine1/cine1/chunks.m3u8",
+          "live": false,
+          "reason": "http-404",
+          "status": 404
+        }
+      ]
     }
   ],
   "skippedFull": [],
-  "totalNewUrls": 18,
-  "enrichedCount": 15,
-  "streamMapRevision": 194,
+  "totalNewUrls": 25,
+  "enrichedCount": 20,
+  "streamMapRevision": 195,
   "mapChanged": true
 }

@@ -1,1 +1,13 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="cartoonnetwork" group-title="Ekleme Teklifleri",Cartoon Network
+http://tvsen7.aynascope.net/cartoonnetwork/index.m3u8
+#EXTINF:-1 tvg-id="tabiitv" group-title="Ekleme Teklifleri",Tabii TV
+https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.m3u8
+#EXTINF:-1 tvg-id="tv3" group-title="Ekleme Teklifleri",TV 3
+http://flussonic.linkintel.ru/tv-3/index.m3u8
+#EXTINF:-1 tvg-id="tv3" group-title="Ekleme Teklifleri",TV 3
+http://stream.mcquack.net/136/index.m3u8
+#EXTINF:-1 tvg-id="rizeturk" group-title="Ekleme Teklifleri",Rize Turk
+https://yayin.rizeturk.com:3777/multi_web/play.m3u8
+#EXTINF:-1 tvg-id="cine1" group-title="Ekleme Teklifleri",Cine1
+https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8
