@@ -1,0 +1,280 @@
+channel,url,status,source
+123 Live TV,https://123tv-mx1.flex-cdn.net/index.m3u8,working,iptv-org
+123 Live TV,http://customized-cdn.net/invalidurlstream5/streamPlaylist.m3u8,failed (000),iptv-org -> variant playlist
+123 Live TV,http://customized-cdn.net/invalidurlstream4/streamPlaylist.m3u8,failed (000),iptv-org -> variant playlist
+123 Live TV,http://customized-cdn.net/invalidurlstream3/streamPlaylist.m3u8,failed (000),iptv-org -> variant playlist
+3sat,https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/veryhigh/master.m3u8,geo-blocked (403),Free-TV
+3sat,https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+3sat,https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/med/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+3sat,https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/low/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+Anixe +,https://wow.anixa.tv/live/anixesd/playlist.m3u8,working,GitHub code search
+Anixe +,https://ma.anixa.tv/clips/stream/anixesd/index.m3u8,geo-blocked (403),iptv-org
+Anixe HD Serie,https://wow.anixa.tv/live/anixehd2/playlist.m3u8,working,GitHub code search
+Anixe HD Serie,https://ma.anixa.tv/clips/stream/anixehd/index.m3u8,geo-blocked (403),iptv-org
+ARD Alpha,https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8,working,iptv-org+Free-TV
+ARD Alpha,https://mcdn.br.de/br/fs/ard_alpha/hls/de/master360p1200.m3u8,working,iptv-org+Free-TV -> variant playlist
+ARD Alpha,https://mcdn.br.de/br/fs/ard_alpha/hls/de/master1080p5000.m3u8,working,iptv-org+Free-TV -> variant playlist
+ARD Alpha,https://mcdn.br.de/br/fs/ard_alpha/hls/de/master720p3200.m3u8,working,iptv-org+Free-TV -> variant playlist
+Aristo TV,https://ma.anixa.tv/clips/stream/aristo/index.m3u8,geo-blocked (403),iptv-org
+ARTE Deutsch,https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/index.m3u8,geo-blocked (403),iptv-org+Free-TV
+ARTE Deutsch,https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/master.m3u8,geo-blocked (403),kodinerds-iptv
+ARTE Deutsch,https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/master_v720.m3u8,geo-blocked (403),GitHub code search
+Augsburg TV,https://stream02.welocal.stream/stream/fhd-augsburgtv_104951/ngrp:stream_all/playlist.m3u8,working,iptv-org
+Augsburg TV,https://stream02.welocal.stream/stream/fhd-augsburgtv_104951/ngrp:stream_all/chunklist_b3628000.m3u8,working,iptv-org -> variant playlist
+Augsburg TV,https://stream02.welocal.stream/stream/fhd-augsburgtv_104951/ngrp:stream_all/chunklist_b946000.m3u8,working,iptv-org -> variant playlist
+Augsburg TV,https://stream02.welocal.stream/stream/fhd-augsburgtv_104951/ngrp:stream_all/chunklist_b446000.m3u8,working,iptv-org -> variant playlist
+Augsburg TV,https://augsburgtv.iptv-playoutcenter.de/augsburgtv/augsburgtv.stream_1/playlist.m3u8,working,kodinerds-iptv
+Baden TV,https://stream04.welocal.stream/stream/fhd-badentv_231351/ngrp:stream_all/playlist.m3u8,working,baden-tv.com player
+Baden TV,http://badentv-stream2.siebnich.info/rtplive/btv.stream/live.m3u8,failed (000),iptv-org
+Baden TV,https://cdn.icu.de/rtplive/smil:btv.smil/playlist.m3u8,failed (000),kodinerds-iptv
+Bayerisches Fernsehen Nord,https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8,working,iptv-org+Free-TV
+Bayerisches Fernsehen Nord,https://mcdn.br.de/br/fs/bfs_nord/hls/de/master360p1200.m3u8,working,iptv-org+Free-TV -> variant playlist
+Bayerisches Fernsehen Nord,https://mcdn.br.de/br/fs/bfs_nord/hls/de/master1080p5000.m3u8,working,iptv-org+Free-TV -> variant playlist
+Bayerisches Fernsehen Nord,https://mcdn.br.de/br/fs/bfs_nord/hls/de/master720p3200.m3u8,working,iptv-org+Free-TV -> variant playlist
+Bayerisches Fernsehen Süd,https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8,working,iptv-org+Free-TV
+Bayerisches Fernsehen Süd,https://mcdn.br.de/br/fs/bfs_sued/hls/de/master360p1200.m3u8,working,iptv-org+Free-TV -> variant playlist
+Bayerisches Fernsehen Süd,https://mcdn.br.de/br/fs/bfs_sued/hls/de/master1080p5000.m3u8,working,iptv-org+Free-TV -> variant playlist
+Bayerisches Fernsehen Süd,https://mcdn.br.de/br/fs/bfs_sued/hls/de/master720p3200.m3u8,working,iptv-org+Free-TV -> variant playlist
+Bibel TV,https://bibint01.iptv-playoutcenter.de/bibint01/bibint01.stream_all/playlist.m3u8,working,iptv-org
+Bibel TV,https://bibeltv01.iptv-playoutcenter.de/bibeltv01/bibeltv01.stream_all/playlist.m3u8,working,kodinerds-iptv
+Das Erste,https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8,working,iptv-org
+Das Erste,https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master360p1200.m3u8,working,iptv-org -> variant playlist
+Das Erste,https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master1080p5000.m3u8,working,iptv-org -> variant playlist
+Das Erste,https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master720p3200.m3u8,working,iptv-org -> variant playlist
+Das Erste,https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8,working,kodinerds-iptv/Free-TV
+Das Erste,https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master360p1200.m3u8,working,kodinerds-iptv/Free-TV -> variant playlist
+Das Erste,https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master1080p5000.m3u8,working,kodinerds-iptv/Free-TV -> variant playlist
+Das Erste,https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master720p3200.m3u8,working,kodinerds-iptv/Free-TV -> variant playlist
+Deluxe Dance by Kontor,https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8,working,Free-TV
+Deluxe Dance by Kontor,https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/2646ace419595568_33669357_2610130235_1080p.m3u8,working,Free-TV -> variant playlist
+Deluxe Dance by Kontor,https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/2646ace419595568_33669357_2610130235_720p.m3u8,working,Free-TV -> variant playlist
+Deluxe Dance by Kontor,https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/2646ace419595568_33669357_2610130235_480p.m3u8,working,Free-TV -> variant playlist
+Deluxe Music,https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8,working,iptv-org+Free-TV
+Deluxe Music,https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/2646acd91d5391e3_13018905_2610130205_1.m3u8,working,iptv-org+Free-TV -> variant playlist
+Deluxe Music,https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/2646acd91d5391e3_13018905_2610130205_2.m3u8,working,iptv-org+Free-TV -> variant playlist
+Deluxe Music,https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/2646acd91d5391e3_13018905_2610130205_3.m3u8,working,iptv-org+Free-TV -> variant playlist
+Deluxe Rap,https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8,working,iptv-org
+Deluxe Rap,https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/2646ace1f474593f_33669365_2610131208_5.m3u8,working,iptv-org -> variant playlist
+Deluxe Rap,https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/2646ace1f474593f_33669365_2610131208_1.m3u8,working,iptv-org -> variant playlist
+Deluxe Rap,https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/2646ace1f474593f_33669365_2610131208_2.m3u8,working,iptv-org -> variant playlist
+DF1,https://d287776cjxyfeq.cloudfront.net/out/v1/08823cd7fba74508a5a577fd51dc41f6/index.m3u8,geo-blocked (403),GitHub code search
+DMF,https://d-m-f.iptv-playoutcenter.de/dmf/dmf1/playlist.m3u8,working,iptv-org
+Dokusat,https://muc3.iptv-playoutcenter.de/dokusat/dokusat1/playlist.m3u8,working,iptv-org
+EWTN auf Deutsch,https://cdn3.wowza.com/1/ZUkxSDBrZHlMbjVn/ZkhNRFNZ/hls/live/playlist.m3u8,working,iptv-org
+EWTN auf Deutsch,https://cdn3.wowza.com/1/ZUkxSDBrZHlMbjVn/ZkhNRFNZ/hls/ppbbrj4k/720/chunklist.m3u8,working,iptv-org -> variant playlist
+EWTN auf Deutsch,https://cdn3.wowza.com/1/ZUkxSDBrZHlMbjVn/ZkhNRFNZ/hls/ppbbrj4k/480/chunklist.m3u8,working,iptv-org -> variant playlist
+EWTN auf Deutsch,https://cdn3.wowza.com/1/ZUkxSDBrZHlMbjVn/ZkhNRFNZ/hls/ppbbrj4k/360/chunklist.m3u8,working,iptv-org -> variant playlist
+Franken Plus,https://stream01.welocal.stream/stream/fhd-frankenplus_119/ngrp:stream_all/playlist.m3u8,working,iptv-org (older commit)
+Franken Plus,https://stream01.welocal.stream/stream/fhd-frankenplus_119/ngrp:stream_all/chunklist_b3628000.m3u8,working,iptv-org (older commit) -> variant playlist
+Franken Plus,https://stream01.welocal.stream/stream/fhd-frankenplus_119/ngrp:stream_all/chunklist_b946000.m3u8,working,iptv-org (older commit) -> variant playlist
+Franken Plus,https://stream01.welocal.stream/stream/fhd-frankenplus_119/ngrp:stream_all/chunklist_b446000.m3u8,working,iptv-org (older commit) -> variant playlist
+Handystar,https://sparhandytv.cdn.ses-ps.com/live/channel01/hls/index.m3u8,failed (302),iptv-org
+Hope TV Deutsch,https://jstre.am/live/jsl:AQfP7b5HoTM.m3u8,working,bibeltv.de/live (slug hope-tv) + hopetv.de/live player
+Hope TV Deutsch,https://cdn-de-fra.b-cdn.net/hcorg_Lmro4tmzOp1/s/jsl_AQfP7b5HoTM/master.m3u8,working,hopetv.de/live player (browser)
+Hope TV Deutsch,https://jstre.am/live/rxy1q/1080p/main.m3u8,failed (404),bibeltv.de website -> variant playlist
+Hope TV Deutsch,https://jstre.am/live/rxy1q/720p/main.m3u8,failed (404),bibeltv.de website -> variant playlist
+Hope TV Deutsch,https://jstre.am/live/rxy1q/480p/main.m3u8,failed (404),bibeltv.de website -> variant playlist
+Hope TV Deutsch,https://customer-x8zydurm357k8j9p.cloudflarestream.com/5b46490d20cdd87fcac238b0027813e0/manifest/video.m3u8,failed (204),iptv-org
+Hope TV Deutsch,https://customer-x8zydurm357k8j9p.cloudflarestream.com/5b46490d20cdd87fcac238b0027813e0/manifest/video.m3u8?x=1,failed (204),iptv-org (retry)
+HR Fernsehen,https://hrhls.akamaized.net/hls/live/2024525/hrhls/index.m3u8,working,iptv-org
+HR Fernsehen,https://hrhls.akamaized.net/hls/live/2024525/hrhls/master-360p-1200.m3u8,working,iptv-org -> variant playlist
+HR Fernsehen,https://hrhls.akamaized.net/hls/live/2024525-b/hrhls/master-360p-1200.m3u8,working,iptv-org -> variant playlist
+HR Fernsehen,https://hrhls.akamaized.net/hls/live/2024525/hrhls/master-720p-3200.m3u8,working,iptv-org -> variant playlist
+HR Fernsehen,https://hrhlsde.akamaized.net/hls/live/2024526/hrhlsde/master.m3u8,working,Free-TV
+HSE,https://hse24.akamaized.net/hls/live/2006663/hse24/playlist.m3u8,working,iptv-org
+HSE,https://hse24.akamaized.net/hls/live/2006663/hse24/master_1080p25.m3u8,working,iptv-org -> variant playlist
+HSE,https://hse24.akamaized.net/hls/live/2006663-b/hse24/master_1080p25.m3u8,working,iptv-org -> variant playlist
+HSE,https://hse24.akamaized.net/hls/live/2006663/hse24/master_900p25.m3u8,working,iptv-org -> variant playlist
+HSE Extra,https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/playlist.m3u8,working,iptv-org
+HSE Extra,https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/master_1080p25.m3u8,working,iptv-org -> variant playlist
+HSE Extra,https://hse24extra.akamaized.net/hls/live/2006596-b/hse24extra/master_1080p25.m3u8,working,iptv-org -> variant playlist
+HSE Extra,https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/master_900p25.m3u8,working,iptv-org -> variant playlist
+HSE Trend,https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/playlist.m3u8,working,iptv-org
+HSE Trend,https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/master_576_1p25.m3u8,working,iptv-org -> variant playlist
+HSE Trend,https://hse24trend.akamaized.net/hls/live/2006597-b/hse24trend/master_576_1p25.m3u8,working,iptv-org -> variant playlist
+HSE Trend,https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/master_576_2p25.m3u8,working,iptv-org -> variant playlist
+Höhenrausch,https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/5d398d83-c54c-11ec-967f-401ac48a6867/0/master.m3u8?country=DE&vendor=samsung&coppa=1,working,GitHub code search (Rakuten TV / Samsung TV Plus feed)
+Höhenrausch,https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/f769642d-5984-11ef-a2df-87241c204d22/0/master.m3u8?country=DE&vendor=samsung&coppa=1,working,GitHub code search (Whale TV+ feed)
+Just Cooking,https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/44bf4cd7-7cd5-11eb-908d-533d39655269/0/master.m3u8?country=DE&vendor=samsung&coppa=1,working,GitHub code search (Samsung TV Plus feed)
+Just Fishing,https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/3d1508f1-c5ff-11ec-967f-401ac48a6867/0/master.m3u8?country=DE&vendor=samsung&coppa=1,working,GitHub code search (Rakuten TV / Samsung TV Plus feed)
+Juwelo,https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3u8,working,iptv-org
+Juwelo,https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/2646acd5413662e9_12812347_2610120941_3_3.m3u8,working,iptv-org -> variant playlist
+Juwelo,https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/2646acd5413662e9_12812347_2610120941_2_2.m3u8,working,iptv-org -> variant playlist
+Juwelo,https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/2646acd5413662e9_12812347_2610120941_1_1.m3u8,working,iptv-org -> variant playlist
+K-TV,https://d1pz8zear993v8.cloudfront.net/hlsme/kathtv.m3u8,working,iptv-org index.m3u
+K-TV,https://d1pz8zear993v8.cloudfront.net/hlsme/stream_0.m3u8,working,iptv-org index.m3u -> variant playlist
+K-TV,https://d1pz8zear993v8.cloudfront.net/hlsme/stream_1.m3u8,working,iptv-org index.m3u -> variant playlist
+K-TV,https://d1pz8zear993v8.cloudfront.net/hlsme/stream_2.m3u8,working,iptv-org index.m3u -> variant playlist
+K-TV,https://a19bf41486254a3485a864c8b0c14fe1.msvdn.net/live/S28743697/LpD0q2aoyujI/playlist.m3u8,failed (000),bibeltv.de/live (slug k-tv)
+KIKA,https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8,working,iptv-org
+KIKA,https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master-360p-1200.m3u8,working,iptv-org -> variant playlist
+KIKA,https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master-1080p-5000.m3u8,working,iptv-org -> variant playlist
+KIKA,https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master-720p-3200.m3u8,working,iptv-org -> variant playlist
+KIKA,https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master.m3u8,working,Free-TV/kodinerds-iptv
+KIKA,https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master-360p-1200.m3u8,working,Free-TV/kodinerds-iptv -> variant playlist
+KIKA,https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master-1080p-5000.m3u8,working,Free-TV/kodinerds-iptv -> variant playlist
+KIKA,https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master-720p-3200.m3u8,working,Free-TV/kodinerds-iptv -> variant playlist
+L TV,https://sdn-global-live-streaming-packager-cache.3qsdn.com/130321/130321_264_live.m3u8,working,l-tv.de player
+L TV,https://live2.telvi.de/hls/l-tv_s1.m3u8,failed (000),kodinerds-iptv
+Lilo TV,https://lilo.iptv-playoutcenter.de/lilo/lilo-sat1/playlist.m3u8,working,kodinerds-iptv
+Lilo TV,https://lilo.iptv-playoutcenter.de/lilo/lilo-all/playlist.m3u8,working,iptv-playoutcenter pattern
+Lilo TV,https://lilo.iptv-playoutcenter.de/lilo/lilo1/playlist.m3u8,working,iptv-playoutcenter pattern
+MDR Fernsehen Sachsen,https://mdrtvsnhls.akamaized.net/hls/live/2016928/mdrtvsn/master.m3u8,geo-blocked (403),Free-TV
+MDR Fernsehen Sachsen,https://mdrtvsnhls.akamaized.net/hls/live/2016928/mdrtvsn/index.m3u8,geo-blocked (403),iptv-org
+MDR Fernsehen Sachsen,https://mdr-live.ard-mcdn.de/mdr/live/hls/de/master.m3u8,geo-blocked (403),GitHub code search
+MDR Fernsehen Sachsen,https://mdrtvsnhls.akamaized.net/hls/live/2016928/mdrtvsn/master_1280x720.m3u8,geo-blocked (403),GitHub code search
+MDR Fernsehen Sachsen-Anhalt,https://mdrtvsahls.akamaized.net/hls/live/2016879/mdrtvsa/master.m3u8,geo-blocked (403),Free-TV
+MDR Fernsehen Sachsen-Anhalt,https://mdrtvsahls.akamaized.net/hls/live/2016879/mdrtvsa/index.m3u8,geo-blocked (403),iptv-org
+MDR Fernsehen Sachsen-Anhalt,https://mdrtvsahls.akamaized.net/hls/live/2016879/mdrtvsa/master_1280x720.m3u8,geo-blocked (403),GitHub code search
+MDR Fernsehen Thüringen,https://mdrtvthhls.akamaized.net/hls/live/2016880/mdrtvth/master.m3u8,geo-blocked (403),Free-TV
+MDR Fernsehen Thüringen,https://mdrtvthhls.akamaized.net/hls/live/2016880/mdrtvth/index.m3u8,geo-blocked (403),MDR (variant)
+MDR Fernsehen Thüringen,https://mdrtvthhls.akamaized.net/hls/live/2016880/mdrtvth/master_1280x720.m3u8,geo-blocked (403),GitHub code search
+München TV,https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist.m3u8,working,iptv-org
+N24 Doku,https://broadcast.n24-doku.personalstream.tv/ses/hls/live/2107300/n24-doku-live/master.m3u8,geo-blocked (403),GitHub code search
+N24 Doku,https://w-n24doku2weltcms.akamaized.net/hls/live/2106400/N24Doku-SES/master.m3u8,geo-blocked (403),GitHub code search
+NDR Fernsehen Hamburg,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master.m3u8,working,iptv-org+Free-TV
+NDR Fernsehen Hamburg,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master-360p-1200.m3u8,working,iptv-org+Free-TV -> variant playlist
+NDR Fernsehen Hamburg,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master-1080p-5000.m3u8,working,iptv-org+Free-TV -> variant playlist
+NDR Fernsehen Hamburg,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master-720p-3200.m3u8,working,iptv-org+Free-TV -> variant playlist
+NDR Fernsehen Hamburg,https://ndrint.akamaized.net/hls/live/2020766/ndr_int/index.m3u8,working,Free-TV (NDR International)
+NDR Fernsehen Hamburg,https://ndrint.akamaized.net/hls/live/2020766/ndr_int/master-360p-1200.m3u8,working,Free-TV (NDR International) -> variant playlist
+NDR Fernsehen Hamburg,https://ndrint.akamaized.net/hls/live/2020766/ndr_int/master-1080p-5000.m3u8,working,Free-TV (NDR International) -> variant playlist
+NDR Fernsehen Hamburg,https://ndrint.akamaized.net/hls/live/2020766-b/ndr_int/master-360p-1200.m3u8,failed (404),Free-TV (NDR International) -> variant playlist
+NDR Fernsehen Mecklenburg-Vorpommern,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master.m3u8,working,iptv-org+Free-TV
+NDR Fernsehen Mecklenburg-Vorpommern,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master-360p-1200.m3u8,working,iptv-org+Free-TV -> variant playlist
+NDR Fernsehen Mecklenburg-Vorpommern,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master-1080p-5000.m3u8,working,iptv-org+Free-TV -> variant playlist
+NDR Fernsehen Mecklenburg-Vorpommern,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master-720p-3200.m3u8,working,iptv-org+Free-TV -> variant playlist
+NDR Fernsehen Niedersachsen,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master.m3u8,working,iptv-org+Free-TV
+NDR Fernsehen Niedersachsen,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master-360p-1200.m3u8,working,iptv-org+Free-TV -> variant playlist
+NDR Fernsehen Niedersachsen,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master-1080p-5000.m3u8,working,iptv-org+Free-TV -> variant playlist
+NDR Fernsehen Niedersachsen,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master-720p-3200.m3u8,working,iptv-org+Free-TV -> variant playlist
+NDR Fernsehen Schleswig-Holstein,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master.m3u8,working,iptv-org+Free-TV
+NDR Fernsehen Schleswig-Holstein,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master-360p-1200.m3u8,working,iptv-org+Free-TV -> variant playlist
+NDR Fernsehen Schleswig-Holstein,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master-1080p-5000.m3u8,working,iptv-org+Free-TV -> variant playlist
+NDR Fernsehen Schleswig-Holstein,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master-720p-3200.m3u8,working,iptv-org+Free-TV -> variant playlist
+Niederbayern TV Satellit,https://stream03.welocal.stream/stream/sat-nby/ngrp:sat-nby.stream_all/index.m3u8,working,iptv-org
+Niederbayern TV Satellit,https://stream03.welocal.stream/stream/sat-nby/ngrp:sat-nby.stream_all/chunklist_w1985315699_b3628000.m3u8,working,iptv-org -> variant playlist
+Niederbayern TV Satellit,https://stream03.welocal.stream/stream/sat-nby/ngrp:sat-nby.stream_all/chunklist_w1985315699_b946000.m3u8,working,iptv-org -> variant playlist
+Niederbayern TV Satellit,https://stream03.welocal.stream/stream/sat-nby/ngrp:sat-nby.stream_all/chunklist_w1985315699_b446000.m3u8,working,iptv-org -> variant playlist
+Niederbayern TV Satellit,https://stream03.welocal.stream/stream/fhd-nbypassau_49171/ngrp:stream_all/playlist.m3u8,working,kodinerds-iptv (Passau feed)
+Niederbayern TV Satellit,https://stream03.welocal.stream/stream/fhd-nbypassau_49171/ngrp:stream_all/chunklist_b3628000.m3u8,working,kodinerds-iptv (Passau feed) -> variant playlist
+Niederbayern TV Satellit,https://stream03.welocal.stream/stream/fhd-nbypassau_49171/ngrp:stream_all/chunklist_b946000.m3u8,working,kodinerds-iptv (Passau feed) -> variant playlist
+Niederbayern TV Satellit,https://stream03.welocal.stream/stream/fhd-nbypassau_49171/ngrp:stream_all/chunklist_b446000.m3u8,working,kodinerds-iptv (Passau feed) -> variant playlist
+One,https://mcdn-one.ard.de/ardone/hls/master.m3u8,geo-blocked (403),Free-TV
+One Terra,https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/0d7ddc61-818f-11eb-908d-533d39655269/0/master.m3u8?country=DE&vendor=samsung&coppa=1,working,GitHub code search (Samsung TV Plus feed)
+OTVA,https://stream02.welocal.stream/stream/fhd-otva_6546/ngrp:stream_all/playlist.m3u8,working,GitHub code search
+Phoenix,https://zdf-hls-19.akamaized.net/hls/live/2016502/de/veryhigh/master.m3u8,geo-blocked (403),Free-TV
+Phoenix,https://zdf-hls-19.akamaized.net/hls/live/2016502/de/high/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+Phoenix,https://zdf-hls-19.akamaized.net/hls/live/2016502/de/med/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+Phoenix,https://zdf-hls-19.akamaized.net/hls/live/2016502/de/low/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+Phoenix,https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/veryhigh/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+Phoenix,https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/high/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+Phoenix,https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/med/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+Phoenix,https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/low/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+QVC Deutschland,https://qvcde-live.akamaized.net/hls/live/2097104/qvc/master.m3u8,working,iptv-org
+QVC Deutschland,https://qvcde-live.akamaized.net/hls/live/2097104/qvc/1/1.m3u8,working,iptv-org -> variant playlist
+QVC Deutschland,https://qvcde-live.akamaized.net/hls/live/2097104/qvc/2/2.m3u8,working,iptv-org -> variant playlist
+QVC Deutschland,https://qvcde-live.akamaized.net/hls/live/2097104/qvc/3/3.m3u8,working,iptv-org -> variant playlist
+QVC Style Deutschland,https://qvcde-live.akamaized.net/hls/live/2097104/qby/master.m3u8,working,iptv-org
+QVC Style Deutschland,https://qvcde-live.akamaized.net/hls/live/2097104/qby/1/1.m3u8,failed (404),iptv-org -> variant playlist
+QVC Style Deutschland,https://qvcde-live.akamaized.net/hls/live/2097104/qby/2/2.m3u8,failed (404),iptv-org -> variant playlist
+QVC Style Deutschland,https://qvcde-live.akamaized.net/hls/live/2097104/qby/3/3.m3u8,failed (404),iptv-org -> variant playlist
+QVC Zwei,https://qvcde-live.akamaized.net/hls/live/2097104/qps/master.m3u8,working,iptv-org
+QVC Zwei,https://qvcde-live.akamaized.net/hls/live/2097104/qps/1/1.m3u8,failed (404),iptv-org -> variant playlist
+QVC Zwei,https://qvcde-live.akamaized.net/hls/live/2097104/qps/2/2.m3u8,failed (404),iptv-org -> variant playlist
+QVC Zwei,https://qvcde-live.akamaized.net/hls/live/2097104/qps/3/3.m3u8,failed (404),iptv-org -> variant playlist
+Radio Bremen Fernsehen,https://rbhlslive.akamaized.net/hls/live/2020435/rbfs/master.m3u8,geo-blocked (403),iptv-org+Free-TV
+RBB Berlin,https://rbb-hls-berlin.akamaized.net/hls/live/2017824/rbb_berlin/master.m3u8,geo-blocked (403),Free-TV
+RBB Berlin,https://rbb-hls-berlin.akamaized.net/hls/live/2017824/rbb_berlin/index.m3u8,geo-blocked (403),iptv-org
+RBB Berlin,https://rbb-live.ard-mcdn.de/rbb/berlin/hls/de/master.m3u8,geo-blocked (403),GitHub code search
+RBB Brandenburg,https://rbb-hls-brandenburg.akamaized.net/hls/live/2017825/rbb_brandenburg/master.m3u8,geo-blocked (403),iptv-org+Free-TV
+Regio TV Satellit,https://regiotv-b.iptv-playoutcenter.de/regiotv-b/regiotv-b.stream_1/playlist.m3u8,working,GitHub code search
+Regio TV Satellit,https://regiotv-s.iptv-playoutcenter.de/regiotv-s/regiotv-s.stream_1/playlist.m3u8,working,GitHub code search
+Regio TV Satellit,https://regiotv.iptv-playoutcenter.de/regiotv/regiotv.stream_1/playlist.m3u8,working,GitHub code search
+Regio TV Satellit,https://stream05.welocal.stream/stream/fhd-regiotv_182913/ngrp:stream_all/playlist.m3u8,failed (000),kodinerds-iptv
+RiC,https://rictv.iptv-playoutcenter.de/rictv/rictv-web/playlist.m3u8,working,iptv-org
+Sachsen Eins,https://sachsen1.iptv-playoutcenter.de/sachsen1/sachsen1.stream_1/playlist.m3u8,working,iptv-org
+Sachsen Eins,https://sachsen1.iptv-playoutcenter.de/sachsen1/sachsen1.stream_1/chunks.m3u8,working,iptv-org -> variant playlist
+Schlager Deluxe,https://sdn-global-live-streaming-packager-cache.3qsdn.com/26658/26658_264_live.m3u8,failed (404),Free-TV
+Sender Neu Jerusalem,https://bild-und-ton.stream/snj-de/snj-de.smil/.m3u8,working,iptv-org
+Sender Neu Jerusalem,https://bild-und-ton.stream/snj-de/snj-de.smil/chunklist_w1024417188_b105000_slde.m3u8,working,iptv-org -> variant playlist
+Sender Neu Jerusalem,https://bild-und-ton.stream/snj-de/snj-de.smil/chunklist_w1024417188_b145000_slde.m3u8,working,iptv-org -> variant playlist
+Sender Neu Jerusalem,https://bild-und-ton.stream/snj-de/snj-de.smil/chunklist_w1024417188_b365000_slde.m3u8,working,iptv-org -> variant playlist
+Shop LC Deutschland,https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel(LCGERMANYWEB)/master.m3u8,working,shoplc.de website
+Shop LC Deutschland,https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel(LCGERMANYWEB)/01.m3u8,working,shoplc.de website -> variant playlist
+Shop LC Deutschland,https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel(LCGERMANYWEB)/02.m3u8,working,shoplc.de website -> variant playlist
+Shop LC Deutschland,https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel(LCGERMANYWEB)/03.m3u8,working,shoplc.de website -> variant playlist
+Sonnenklar TV,http://euvia.cdn.ses-ps.com/HLS-Live/index.m3u8,failed (000),iptv-org
+Sonnenklar TV,https://euvia.cdn.ses-ps.com/HLS-Live/index.m3u8,failed (404),iptv-org (https)
+SR Fernsehen,https://srfs.akamaized.net/hls/live/689649/srfsgeo/index.m3u8,working,iptv-org+Free-TV
+SR Fernsehen,https://srfs.akamaized.net/hls/live/689649/srfsgeo/master-360p-1328.m3u8,working,iptv-org+Free-TV -> variant playlist
+SR Fernsehen,https://srfs.akamaized.net/hls/live/689649-b/srfsgeo/master-360p-1328.m3u8,working,iptv-org+Free-TV -> variant playlist
+SR Fernsehen,https://srfs.akamaized.net/hls/live/689649/srfsgeo/master-720p-3328.m3u8,working,iptv-org+Free-TV -> variant playlist
+Stimmungsgarten TV,https://stimmungsgartentv.iptv-playoutcenter.de/stimmungsgartentv/stimmungsgartentv-all/playlist.m3u8,working,GitHub code search
+SWR Fernsehen Baden-Württemberg,https://swrbwd-hls.akamaized.net/hls/live/2018672/swrbwd/master.m3u8,geo-blocked (403),iptv-org+Free-TV
+SWR Fernsehen Baden-Württemberg,https://mcdn.swr.de/swr/swrbwd/master.m3u8,geo-blocked (403),GitHub code search
+SWR Fernsehen Baden-Württemberg,https://swrbwd-hls.akamaized.net/hls/live/2018672/swrbwd/master-720p-3628.m3u8,geo-blocked (403),GitHub code search
+SWR Fernsehen Rheinland-Pfalz,https://swrrpd-hls.akamaized.net/hls/live/2018676/swrrpd/master.m3u8,geo-blocked (403),iptv-org+Free-TV
+Tagesschau 24,https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8,working,iptv-org+Free-TV
+Tagesschau 24,https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master-360p-1328.m3u8,working,iptv-org+Free-TV -> variant playlist
+Tagesschau 24,https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master-720p-3328.m3u8,working,iptv-org+Free-TV -> variant playlist
+Tagesschau 24,https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master-540p-1728.m3u8,working,iptv-org+Free-TV -> variant playlist
+Telegold,https://telegold.iptv-playoutcenter.de/telegold/telegold-all/playlist.m3u8,working,telegold.de website
+Telegold,https://telegold.iptv-playoutcenter.de/telegold/telegold1/playlist.m3u8,working,iptv-playoutcenter pattern
+TV Ingolstadt,https://stream01.welocal.stream/stream/fhd-tvingolstadt_44349/ngrp:stream_all/playlist.m3u8,working,iptv-org
+TV Ingolstadt,https://stream01.welocal.stream/stream/fhd-tvingolstadt_44349/ngrp:stream_all/chunklist_b3628000.m3u8,working,iptv-org -> variant playlist
+TV Ingolstadt,https://stream01.welocal.stream/stream/fhd-tvingolstadt_44349/ngrp:stream_all/chunklist_b946000.m3u8,working,iptv-org -> variant playlist
+TV Ingolstadt,https://stream01.welocal.stream/stream/fhd-tvingolstadt_44349/ngrp:stream_all/chunklist_b446000.m3u8,working,iptv-org -> variant playlist
+Volksmusik TV,https://vmtv.iptv-playoutcenter.de/vmtv/vmtv1/playlist.m3u8,working,iptv-org
+WDR Fernsehen Köln,https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master.m3u8,working,iptv-org
+WDR Fernsehen Köln,https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master-360p-1200.m3u8,working,iptv-org -> variant playlist
+WDR Fernsehen Köln,https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master-1080p-5000.m3u8,working,iptv-org -> variant playlist
+WDR Fernsehen Köln,https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master-720p-3200.m3u8,working,iptv-org -> variant playlist
+WDR Fernsehen Köln,https://wdrfs247.akamaized.net/hls/live/681509/wdr_msl4_fs247/index.m3u8,working,Free-TV
+WDR Fernsehen Köln,https://wdrfsww247.akamaized.net/hls/live/2009628/wdr_msl4_fs247ww/master_1328.m3u8,working,Free-TV -> variant playlist
+WDR Fernsehen Köln,https://wdrfsww247.akamaized.net/hls/live/2009628-b/wdr_msl4_fs247ww/master_1328.m3u8,working,Free-TV -> variant playlist
+WDR Fernsehen Köln,https://wdrfsww247.akamaized.net/hls/live/2009628/wdr_msl4_fs247ww/master_3328.m3u8,working,Free-TV -> variant playlist
+WDR Fernsehen Köln,https://wdr-live.ard-mcdn.de/wdr/live/hls/int/master.m3u8,working,ARD (variant)
+WDR Fernsehen Köln,https://wdr-live.ard-mcdn.de/wdr/live/hls/int/master-360p-1200.m3u8,working,ARD (variant) -> variant playlist
+WDR Fernsehen Köln,https://wdr-live.ard-mcdn.de/wdr/live/hls/int/master-720p-3200.m3u8,working,ARD (variant) -> variant playlist
+WDR Fernsehen Köln,https://wdr-live.ard-mcdn.de/wdr/live/hls/int/master-1080p-5000.m3u8,working,ARD (variant) -> variant playlist
+WDR Studio Aachen,https://wdrlokalzeit.akamaized.net/hls/live/2018019-b/wdrlz_aachen/master.m3u8,working,iptv-org
+WDR Studio Bielefeld,https://wdrlokalzeit.akamaized.net/hls/live/2018026-b/wdrlz_bielefeld/master.m3u8,working,iptv-org
+WDR Studio Bonn,https://wdrlokalzeit.akamaized.net/hls/live/2018021-b/wdrlz_bonn/master.m3u8,working,iptv-org
+WDR Studio Dortmund,https://wdrlokalzeit.akamaized.net/hls/live/2018022-b/wdrlz_dortmund/master.m3u8,working,iptv-org
+WDR Studio Duisburg,https://wdrlokalzeit.akamaized.net/hls/live/2018024-b/wdrlz_duisburg/master.m3u8,working,iptv-org
+WDR Studio Düsseldorf,https://wdrlokalzeit.akamaized.net/hls/live/2018023-b/wdrlz_duesseldorf/master.m3u8,working,iptv-org
+WDR Studio Essen,https://wdrlokalzeit.akamaized.net/hls/live/2018027-b/wdrlz_essen/master.m3u8,working,iptv-org
+WDR Studio Münster,https://wdrlokalzeit.akamaized.net/hls/live/2018025-b/wdrlz_muensterland/master.m3u8,working,iptv-org
+WDR Studio Siegen,https://wdrlokalzeit.akamaized.net/hls/live/2018020-b/wdrlz_siegen/master.m3u8,working,iptv-org
+WDR Studio Wuppertal,https://wdrlokalzeit.akamaized.net/hls/live/2018028-b/wdrlz_wuppertal/master.m3u8,working,iptv-org
+Welt,https://w-live2weltcms.akamaized.net/hls/live/2041019/Welt-LivePGM/index.m3u8,geo-blocked (403),Free-TV
+Welt,https://welt.personalstream.tv/v1/master.m3u8,failed (401),kodinerds-iptv
+Welt,https://welt.personalstream.tv/v1/master.m3u8?ads.country=de&ads.pf=welttv,failed (401),welt.de website
+Welt,https://live2weltcms-lh.akamaihd.net/i/Live2WeltCMS_1@444563/master.m3u8,geo-blocked (403),GitHub code search
+Welt,https://broadcast.welt.personalstream.tv/ses/hls/live/2040228/welttv-broadcast/index.m3u8,geo-blocked (403),GitHub code search
+Xplore,https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/bab21a88-7cd4-11eb-908d-533d39655269/0/master.m3u8?country=DE&vendor=samsung&coppa=1,working,GitHub code search (Samsung TV Plus feed)
+ZDF,https://zdf-hls-15.akamaized.net/hls/live/2016498/de/veryhigh/master.m3u8,geo-blocked (403),Free-TV
+ZDF,https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+ZDF,https://zdf-hls-15.akamaized.net/hls/live/2016498/de/med/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+ZDF,https://zdf-hls-15.akamaized.net/hls/live/2016498/de/low/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+ZDF,https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/veryhigh/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+ZDF,https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/high/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+ZDF,https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/med/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+ZDF,https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/low/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+ZDF Info,https://zdf-hls-17.akamaized.net/hls/live/2016500/de/veryhigh/master.m3u8,geo-blocked (403),Free-TV
+ZDF Info,https://zdf-hls-17.akamaized.net/hls/live/2016500/de/high/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+ZDF Info,https://zdf-hls-17.akamaized.net/hls/live/2016500/de/med/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+ZDF Info,https://zdf-hls-17.akamaized.net/hls/live/2016500/de/low/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+ZDF Info,https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/veryhigh/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+ZDF Info,https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/high/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+ZDF Info,https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/med/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+ZDF Info,https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/low/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+ZDF Neo,https://zdf-hls-16.akamaized.net/hls/live/2016499/de/veryhigh/master.m3u8,geo-blocked (403),Free-TV
+ZDF Neo,https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+ZDF Neo,https://zdf-hls-16.akamaized.net/hls/live/2016499/de/med/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+ZDF Neo,https://zdf-hls-16.akamaized.net/hls/live/2016499/de/low/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+ZDF Neo,https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/veryhigh/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+ZDF Neo,https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/high/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+ZDF Neo,https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/med/master.m3u8,geo-blocked (403),ZDF CDN (variant)
+ZDF Neo,https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/low/master.m3u8,geo-blocked (403),ZDF CDN (variant)

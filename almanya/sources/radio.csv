@@ -1,0 +1,440 @@
+station,url,format,bitrate,status,source
+104.6 RTL,https://stream.104.6rtl.com/rtl-live/mp3-192/radio-browser.info/,MP3,0,working,radio-browser.info (104.6 RTL) [https variant]
+104.6 RTL,https://stream.104.6rtl.com/rtl-60er70er/mp3-128/radio-browser.info/,MP3,0,working,radio-browser.info (104.6 RTL 60er & 70er) [https variant]
+104.6 RTL,https://stream.104.6rtl.com/rtl-80er/mp3-128/radio-browser.info/,MP3,0,working,radio-browser.info (104.6 RTL Das Beste der 80er) [https variant]
+104.6 RTL,https://stream.104.6rtl.com/rtl-black/mp3-128/radio-browser.info/,MP3,0,working,radio-browser.info (104.6 RTL Best of Black) [https variant]
+104.6 RTL,http://stream.104.6rtl.com/rtl-live/mp3-192/radio-browser.info/,MP3,0,untested (plain http blocked from box),radio-browser.info (104.6 RTL)
+104.6 RTL,http://stream.104.6rtl.com/rtl-60er70er/mp3-128/radio-browser.info/,MP3,0,untested (plain http blocked from box),radio-browser.info (104.6 RTL 60er & 70er)
+104.6 RTL,http://stream.104.6rtl.com/rtl-80er/mp3-128/radio-browser.info/,MP3,0,untested (plain http blocked from box),radio-browser.info (104.6 RTL Das Beste der 80er)
+104.6 RTL,http://stream.104.6rtl.com/rtl-black/mp3-128/radio-browser.info/,MP3,0,untested (plain http blocked from box),radio-browser.info (104.6 RTL Best of Black)
+Absolut relax,https://absolut-relax.live-sm.absolutradio.de/absolut-relax?__cb=130270101023249,AAC,0,working,radio-browser.info (Absolut Relax)
+Absolut relax,https://absolut-relax.live-sm.absolutradio.de/absolut-relax/stream/mp3,MP3,128,working,radio-browser.info (Absolut Relax)
+Absolut relax,https://absolut-relax.live-sm.absolutradio.de/absolut-relax?aggregator=website&companionAds=true&companion_zone_alias=31&aw_0_req.userConsentV2=undefined,AAC,0,working,radio-browser.info (Absolut relax)
+Absolut relax,https://edge19.live-sm.absolutradio.de/absolut-relax/stream/aacp,AAC,0,working,radio-browser.info (Absolut Relax)
+Antenne 1,https://stream.antenne1.de/a1nbg/livestream1.aac,AAC,0,working,radio-browser.info (Antenne 1 Neckarburg)
+Antenne 1,https://stream.antenne1.de/a1stg/livestream2.mp3,MP3,0,working,radio-browser.info (antenne 1) [https variant]
+Antenne 1,https://stream.antenne1.de/sommerhits/livestream2.mp3?usid=H-M-09-0-0,MP3,0,working,radio-browser.info (Antenne 1 Sommerhits) [https variant]
+Antenne 1,http://stream.antenne1.de/a1stg/livestream2.mp3,MP3,0,untested (plain http blocked from box),radio-browser.info (antenne 1)
+Antenne 1,http://stream.antenne1.de/sommerhits/livestream2.mp3?usid=H-M-09-0-0,MP3,0,untested (plain http blocked from box),radio-browser.info (Antenne 1 Sommerhits)
+Antenne Bayern,https://mp3channels.webradio.antenne.de/antenne,MP3,128,working,radio-browser.info (Antenne Bayern) [https variant]
+Antenne Bayern,https://mp3channels.webradio.antenne.de/chillout,MP3,128,working,radio-browser.info (Antenne Bayern - Chillout) [https variant]
+Antenne Bayern,https://mp3channels.webradio.antenne.de/classic-rock-live,MP3,128,working,radio-browser.info (Antenne Bayern - Classic Rock Live (MP3)) [https variant]
+Antenne Bayern,https://mp3channels.webradio.antenne.de/top-40,MP3,128,working,radio-browser.info (Antenne Bayern - Top 40) [https variant]
+Antenne Bayern,http://mp3channels.webradio.antenne.de/antenne,MP3,128,untested (plain http blocked from box),radio-browser.info (Antenne Bayern)
+Antenne Bayern,http://mp3channels.webradio.antenne.de/chillout,MP3,128,untested (plain http blocked from box),radio-browser.info (Antenne Bayern - Chillout)
+Antenne Bayern,http://mp3channels.webradio.antenne.de/classic-rock-live,MP3,128,untested (plain http blocked from box),radio-browser.info (Antenne Bayern - Classic Rock Live (MP3))
+Antenne Bayern,http://mp3channels.webradio.antenne.de/top-40,MP3,128,untested (plain http blocked from box),radio-browser.info (Antenne Bayern - Top 40)
+Antenne MV,https://streams.antennemv.de/oldies/mp3-128/streams.antennemv.de/,MP3,0,working,radio-browser.info (Antenne MV Oldies & Evergreens) [https variant]
+Antenne MV,https://streams.antennemv.de/oldies/mp3-192,MP3,0,working,radio-browser.info (Antenne MV Oldies) [https variant]
+Antenne MV,http://streams.antennemv.de/oldies/mp3-128/streams.antennemv.de/,MP3,0,untested (plain http blocked from box),radio-browser.info (Antenne MV Oldies & Evergreens)
+Antenne MV,http://streams.antennemv.de/oldies/mp3-192,MP3,0,untested (plain http blocked from box),radio-browser.info (Antenne MV Oldies)
+Antenne Niedersachsen,https://stream.antenne.com/oldies/mp3-192/linux/,MP3,0,working,radio-browser.info (Antenne Niedersachsen Oldies) [https variant]
+Antenne Niedersachsen,https://stream.antenne.com/antenne-nds/aac-64/stream.antenne.com/,AAC,0,working,radio-browser.info (Antenne Niedersachsen) [https variant]
+Antenne Niedersachsen,https://stream.antenne.com/antenne-nds-80er/mp3-192/linux/,MP3,0,working,radio-browser.info (Antenne Niedersachsen 80er) [https variant]
+Antenne Niedersachsen,https://stream.antenne.com/deutsch/mp3-192/linux/,MP3,0,working,radio-browser.info (Antenne Niedersachsen Deutsch) [https variant]
+Antenne Niedersachsen,http://stream.antenne.com/oldies/mp3-192/linux/,MP3,0,untested (plain http blocked from box),radio-browser.info (Antenne Niedersachsen Oldies)
+Antenne Niedersachsen,http://stream.antenne.com/antenne-nds/aac-64/stream.antenne.com/,AAC,0,untested (plain http blocked from box),radio-browser.info (Antenne Niedersachsen)
+Antenne Niedersachsen,http://stream.antenne.com/antenne-nds-80er/mp3-192/linux/,MP3,0,untested (plain http blocked from box),radio-browser.info (Antenne Niedersachsen 80er)
+Antenne Niedersachsen,http://stream.antenne.com/deutsch/mp3-192/linux/,MP3,0,untested (plain http blocked from box),radio-browser.info (Antenne Niedersachsen Deutsch)
+Bayern 1 Oberbayern,https://dispatcher.rndfnk.com/br/br1/obb/mp3/mid,MP3,128,working,radio-browser.info (Bayern 1 Oberbayern)
+Bayern 1 Oberbayern,https://dispatcher.rndfnk.com/br/br1/franken/mp3/mid,MP3,128,working,radio-browser.info (Bayern 1 Franken)
+Bayern 1 Oberbayern,https://dispatcher.rndfnk.com/br/br1/nbopf/mp3/mid,MP3,128,working,radio-browser.info (Bayern 1 Niederbayern / Oberpfalz)
+Bayern 1 Oberbayern,https://dispatcher.rndfnk.com/br/br1/schwaben/mp3/mid,MP3,128,working,radio-browser.info (Bayern 1 Schwaben)
+Bayern 2,https://dispatcher.rndfnk.com/br/br2/live/mp3/mid,MP3,128,working,radio-browser.info (Bayern 2)
+Bayern 2,https://br-radio.ard-mcdn.de/br/radio/b2/hls/192/seglist.m3u8,UNKNOWN,0,working,radio-browser.info (Bayern 2 (HLS 192))
+Bayern 2,https://br-radio.ard-mcdn.de/br/radio/b2/hls/96/seglist.m3u8,UNKNOWN,0,working,radio-browser.info (Bayern 2 (HLS 96))
+Bayern 3,https://dispatcher.rndfnk.com/br/br3/live/mp3/mid,MP3,128,working,radio-browser.info (Bayern 3)
+Bayern 3,https://br-radio.ard-mcdn.de/br/radio/b3/hls/192/seglist.m3u8,UNKNOWN,0,working,radio-browser.info (Bayern 3 (HLS 192))
+Bayern 3,https://br-radio.ard-mcdn.de/br/radio/b3/hls/96/seglist.m3u8,UNKNOWN,0,working,radio-browser.info (Bayern 3 (HLS 96))
+Berliner Rundfunk 91.4,https://topradio-de-hz-fal-stream08-cluster01.radiohost.de/brf-oldies_mp3-128?ref=homepage&amsparams=homepage&listenerid=31363231303734323636-37372e32322e36382e3830-3439333932-4d6f7a696c6c612f352e30202857696e646f7773,MP3,128,working,radio-browser.info (Berliner Rundfunk 91.4 - Ostrock & Pop)
+Berliner Rundfunk 91.4,https://topradio-de-hz-fal-stream10-cluster01.radiohost.de/brf_mp3-128,MP3,128,working,radio-browser.info (Berliner Rundfunk 91.4)
+Berliner Rundfunk 91.4,https://stream.berliner-rundfunk.de/brf/mp3-128/internetradio/,MP3,128,working,radio-browser.info (Berliner Rundfunk 91.4) [https variant]
+Berliner Rundfunk 91.4,http://stream.berliner-rundfunk.de/brf/mp3-128/internetradio/,MP3,128,untested (plain http blocked from box),radio-browser.info (Berliner Rundfunk 91.4)
+bigFM,https://stream.bigfm.de/tomorrowland/mp3-128/radiobrowser,MP3,0,working,radio-browser.info (bigFM Tomorrowland One World Radio)
+bigFM,https://streams.bigfm.de/bigfm-deutschrap-128-aac,AAC,0,working,radio-browser.info (bigFM Deutsch Rap) [https variant]
+bigFM,https://streams.bigfm.de/nitrox-128-mp3,AAC,0,working,radio-browser.info (bigFM EDM & Progressive) [https variant]
+bigFM,https://streams.bigfm.de/bigfm-sunsetlounge-128-mp3?usid=0-0-H-M-D-12,MP3,0,working,radio-browser.info (BigFM Sunset Lounge) [https variant]
+bigFM,http://streams.bigfm.de/bigfm-deutschrap-128-aac,AAC,0,untested (plain http blocked from box),radio-browser.info (bigFM Deutsch Rap)
+bigFM,http://streams.bigfm.de/nitrox-128-mp3,AAC,0,untested (plain http blocked from box),radio-browser.info (bigFM EDM & Progressive)
+bigFM,http://streams.bigfm.de/bigfm-sunsetlounge-128-mp3?usid=0-0-H-M-D-12,MP3,0,untested (plain http blocked from box),radio-browser.info (BigFM Sunset Lounge)
+BR 24,https://dispatcher.rndfnk.com/br/br24/live/mp3/mid,MP3,128,working,radio-browser.info (BR24)
+BR 24,https://br-radio.ard-mcdn.de/br/radio/br24/hls/96/seglist.m3u8,UNKNOWN,0,working,radio-browser.info (BR24 (HLS 96))
+BR 24,https://br-radio.ard-mcdn.de/br/radio/br24/hls/192/seglist.m3u8,UNKNOWN,0,working,radio-browser.info (BR24 (HLS 192))
+BR Heimat,https://dispatcher.rndfnk.com/br/brheimat/live/mp3/mid,MP3,128,working,radio-browser.info (BR Heimat)
+BR Klassik,https://dispatcher.rndfnk.com/br/brklassik/live/mp3/high,MP3,256,working,radio-browser.info (BR Klassik)
+BR Schlager,https://dispatcher.rndfnk.com/br/brschlager/live/mp3/mid,MP3,128,working,radio-browser.info (BR Schlager)
+Bremen Eins,https://icecast.radiobremen.de/rb/bremeneins/live/mp3/128/stream.mp3?aggregator=surfmusik-de,MP3,128,working,radio-browser.info (Bremen Eins)
+Bremen Eins,https://icecast.radiobremen.de/rb/bremeneins/live/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (Bremen Eins)
+Bremen Eins,https://icecast.radiobremen.de/rb/webchannel6/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (Bremen Eins Beat-Club)
+Bremen Eins,https://icecast.radiobremen.de/rb/webchannel5/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (Bremen Eins Spezial)
+Bremen Next,https://icecast.radiobremen.de/rb/bremennext/live/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (BREMEN NEXT)
+Bremen Vier,https://icecast.radiobremen.de/rb/bremenvier/live/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (Bremen Vier)
+Bremen Vier,https://icecast.radiobremen.de/rb/webchannel8/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (Bremen Vier Rockt)
+Bremen Vier,https://icecast.radiobremen.de/rb/webchannel3/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (Bremen Vier Heuckzeug)
+Bremen Zwei,https://icecast.radiobremen.de/rb/bremenzwei/live/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (Bremen Zwei NEU)
+Bremen Zwei,https://f111.rndfnk.com/ard/rb/webchannel4/mp3/128/stream.mp3?cid=01FC1WBDEZX7N1AXVXJMP19PFM&sid=3KbhzoTQJxIzPXVAvgWZ1cWOTXw&token=-c3ee2A2Y7txqsF5_wC_KRjrwXfDOgkOeR4OhdKSpnA&tvf=7o3sYsHx3RhmMTExLnJuZGZuay5jb20,MP3,128,working,radio-browser.info (Bremen Zwei)
+Bremen Zwei,https://icecast.radiobremen.de/rb/webchannel7/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (Bremen Zwei Sounds)
+Cosmo,https://wdr-cosmo-afrobeat.icecastssl.wdr.de/wdr/cosmo/afrobeat/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (WDR COSMO - Afrobeats)
+Cosmo,https://wdr-cosmo-live.icecast.wdr.de/wdr/cosmo/live/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (WDR COSMO) [https variant]
+Cosmo,https://wdr-cosmo-coslive.icecast.wdr.de/wdr/cosmo/coslive/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (WDR COSMO - Live) [https variant]
+Cosmo,http://wdr-cosmo-live.icecast.wdr.de/wdr/cosmo/live/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (WDR COSMO)
+Cosmo,http://wdr-cosmo-coslive.icecast.wdr.de/wdr/cosmo/coslive/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (WDR COSMO - Live)
+delta radio,https://deltaradio.streamabc.net/regc-deltahardheavy-mp3-128-4714362?sABC=6nppp92p%230%23q280o0r09ns9qpq3889p9qqn13p5753s%23fgernzf.qrygnenqvb.qr&aw_0_1st.playerid=streams.deltaradio.de&amsparams=playerid:streams.deltaradio.de;skey:1791805740,MP3,0,working,radio-browser.info (delta radio HARD ROCK & HEAVY METAL)
+delta radio,https://streams.deltaradio.de/delta-indie/mp3-192/mediaplayer,MP3,0,working,radio-browser.info (delta radio Indie) [https variant]
+delta radio,https://streams.deltaradio.de/delta-grunge/mp3-192/mediaplayer,MP3,0,working,radio-browser.info (delta radio Grunge) [https variant]
+delta radio,https://streams.deltaradio.de/delta-alternative/mp3-192/mediaplayer,MP3,0,working,radio-browser.info (delta radio Alternative) [https variant]
+delta radio,http://streams.deltaradio.de/delta-indie/mp3-192/mediaplayer,MP3,0,untested (plain http blocked from box),radio-browser.info (delta radio Indie)
+delta radio,http://streams.deltaradio.de/delta-grunge/mp3-192/mediaplayer,MP3,0,untested (plain http blocked from box),radio-browser.info (delta radio Grunge)
+delta radio,http://streams.deltaradio.de/delta-alternative/mp3-192/mediaplayer,MP3,0,untested (plain http blocked from box),radio-browser.info (delta radio Alternative)
+Deutschlandfunk,https://st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3?aggregator=web,MP3,128,working,radio-browser.info (Deutschlandfunk | DLF | MP3 128k)
+Deutschlandfunk,https://st02.sslstream.dlf.de/dlf/02/128/mp3/stream.mp3?aggregator=web,MP3,128,working,radio-browser.info (Deutschlandfunk Kultur | DLF | MP3 128k)
+Deutschlandfunk,https://st01.sslstream.dlf.de/dlf/01/low/opus/stream.opus?aggregator=web,OGG,24,working,radio-browser.info (Deutschlandfunk | DLF | OPUS 24k)
+Deutschlandfunk,https://st01.sslstream.dlf.de/dlf/01/low/aac/stream.aac?aggregator=web,AAC,48,working,radio-browser.info (Deutschlandfunk | DLF | AAC 48k)
+Deutschlandfunk Kultur,https://st02.sslstream.dlf.de/dlf/02/mid/aac/stream.aac?aggregator=web,AAC,128,working,radio-browser.info (Deutschlandfunk Kultur | DLF | AAC 96k)
+Deutschlandfunk Kultur,https://st02.sslstream.dlf.de/dlf/02/high/aac/stream.aac?aggregator=web,AAC,256,working,radio-browser.info (Deutschlandfunk Kultur | DLF | AAC 192k)
+Deutschlandfunk Kultur,https://st02.sslstream.dlf.de/dlf/02/low/opus/stream.opus?aggregator=web,OGG,24,working,radio-browser.info (Deutschlandfunk Kultur | DLF | OPUS 24k)
+Deutschlandfunk Nova,https://st03.sslstream.dlf.de/dlf/03/128/mp3/stream.mp3?aggregator=web,MP3,128,working,radio-browser.info (Deutschlandfunk Nova | DLF | MP3 128k)
+Deutschlandfunk Nova,https://st03.sslstream.dlf.de/dlf/03/high/aac/stream.aac?aggregator=web,AAC,192,working,radio-browser.info (Deutschlandfunk Nova | DLF | AAC 192k)
+Deutschlandfunk Nova,https://st03.sslstream.dlf.de/dlf/03/high/opus/stream.opus?aggregator=web,OGG,64,working,radio-browser.info (Deutschlandfunk Nova | DLF | OPUS 64k)
+Deutschlandfunk Nova,https://st03.sslstream.dlf.de/dlf/03/low/aac/stream.aac?aggregator=web,AAC,64,working,radio-browser.info (Deutschlandfunk Nova | DLF | AAC 48k)
+Dokumente und Debatten,https://st04.sslstream.dlf.de/dlf/04/mid/aac/stream.aac?aggregator=web,AAC,96,working,radio-browser.info (Deutschlandfunk Dokumente und Debatten | DLF | AAC 96k)
+Dokumente und Debatten,https://st04.sslstream.dlf.de/dlf/04/128/mp3/stream.mp3?aggregator=web,MP3,128,working,radio-browser.info (Deutschlandfunk Dokumente und Debatten | DLF | MP3 128k)
+Dokumente und Debatten,https://st04.sslstream.dlf.de/dlf/04/low/aac/stream.aac?aggregator=web,AAC,48,working,radio-browser.info (Deutschlandfunk Dokumente und Debatten | DLF | AAC 48k)
+Dokumente und Debatten,https://st04.sslstream.dlf.de/dlf/04/high/aac/stream.aac?aggregator=web,AAC,192,working,radio-browser.info (Deutschlandfunk Dokumente und Debatten | DLF | AAC 192k)
+ENERGY,https://edge85.streamonkey.net/energy-nuernberg?aggregator=shorty,AAC,0,working,radio-browser.info (Energy (NRJ) Nürnberg)
+ENERGY,https://edge06.streamonkey.net/energy-summerhits/stream/mp3?aggregator=shorty,MP3,128,working,radio-browser.info (Energy NRJ Summerhits)
+ENERGY,https://stream.ffn.de/energybremen/mp3-192/livestream.mp3,MP3,192,working,radio-browser.info (Energy Bremen (NRJ)) [https variant]
+ENERGY,https://nrj.de/germanytop40,MP3,128,working,radio-browser.info (Energy Top 40) [https variant]
+ENERGY,http://stream.ffn.de/energybremen/mp3-192/livestream.mp3,MP3,192,untested (plain http blocked from box),radio-browser.info (Energy Bremen (NRJ))
+ENERGY,http://nrj.de/germanytop40,MP3,128,untested (plain http blocked from box),radio-browser.info (Energy Top 40)
+FFN,https://stream.ffn.de/ffn-80er/?ref=radio-browser,MP3,192,working,radio-browser.info (Radio FFN - 80er)
+FFN,http://player.ffn.de/ffn.aac,AAC+,48,untested (plain http blocked from box),radio-browser.info (Radio FFN)
+FFN,https://player.ffn.de/radioffn.mp3,MP3,192,failed (302 text/html; charset=iso-8859-1),radio-browser.info (radio ffn)
+FFN,https://player.ffn.de/radiobollerwagen.mp3,MP3,192,failed (302 text/html; charset=iso-8859-1),radio-browser.info (radio ffn - Radio Bollerwagen)
+Hit Radio FFH,https://mp3.ffh.de/radioffh/hqlivestream.mp3,MP3,128,working,radio-browser.info (Hit Radio FFH) [https variant]
+Hit Radio FFH,https://mp3.ffh.de/ffhchannels/hq80er.mp3,MP3,128,working,radio-browser.info (Hit Radio FFH - 80er) [https variant]
+Hit Radio FFH,https://mp3.ffh.de/ffhchannels/hqeurodance.mp3?aw_0_req.gdpr=true,MP3,128,working,radio-browser.info (Hit Radio FFH - Eurodance) [https variant]
+Hit Radio FFH,https://mp3.ffh.de/ffhchannels/hqtop40.mp3,MP3,128,working,radio-browser.info (Hit Radio FFH - Top 40) [https variant]
+Hit Radio FFH,http://mp3.ffh.de/radioffh/hqlivestream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (Hit Radio FFH)
+Hit Radio FFH,http://mp3.ffh.de/ffhchannels/hq80er.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (Hit Radio FFH - 80er)
+Hit Radio FFH,http://mp3.ffh.de/ffhchannels/hqeurodance.mp3?aw_0_req.gdpr=true,MP3,128,untested (plain http blocked from box),radio-browser.info (Hit Radio FFH - Eurodance)
+Hit Radio FFH,http://mp3.ffh.de/ffhchannels/hqtop40.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (Hit Radio FFH - Top 40)
+Hitradio Ohr,https://edge67.streamonkey.net/fho-hitradioohrlive/stream/aacp?aggregator=smk-m3u-aac,AAC,0,working,radio-browser.info (Hitradio Ohr)
+Hitradio Ohr,https://edge70.streamonkey.net/fho-hitradioohr90er/stream/aacp?aggregator=smk-m3u-aac,AAC,0,working,radio-browser.info (Hitradio Ohr 90er)
+HR 1,https://dispatcher.rndfnk.com/hr/hr1/live/mp3/high,MP3,128,working,radio-browser.info (HR1)
+HR 1,https://hlshr1.akamaized.net/hls/live/2016533/hr1/master.m3u8,AAC+,96,working,radio-browser.info (hr1)
+HR 1,https://dispatcher.rndfnk.com/hr/hr1/live/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (HR1) [https variant]
+HR 1,http://dispatcher.rndfnk.com/hr/hr1/live/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (HR1)
+HR 2 Kultur,https://dispatcher.rndfnk.com/hr/hr2/live/mp3/high,MP3,256,working,radio-browser.info (hr2-kultur)
+HR 2 Kultur,https://hlshr2.akamaized.net/hls/live/2016534/hr2/master.m3u8,AAC,102,working,radio-browser.info (hr2-kultur)
+HR 2 Kultur,https://dispatcher.rndfnk.com/hr/hr2/live/medium,MP3,128,working,radio-browser.info (hr2-kultur 128kb mp3)
+HR 3,https://dispatcher.rndfnk.com/hr/hr3/live/mp3/high,MP3,128,working,radio-browser.info (HR3 (mp3/high))
+HR 3,https://hlshr3.akamaized.net/hls/live/2016536/hr3rheinmain/master.m3u8,AAC,102,working,radio-browser.info (hr3 Rhein-Main)
+HR 3,https://dispatcher.rndfnk.com/hr/hr3/nordhessen/high,MP3,128,working,radio-browser.info (hr3 Nordhessen)
+HR 3,https://dispatcher.rndfnk.com/hr/hr3/live/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (HR3) [https variant]
+HR 3,http://dispatcher.rndfnk.com/hr/hr3/live/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (HR3)
+HR 4,https://dispatcher.rndfnk.com/hr/hr4/live/mp3/high,MP3,128,working,radio-browser.info (hr4)
+HR 4,https://dispatcher.rndfnk.com/hr/hr4/mittelhessen/high,MP3,128,working,radio-browser.info (hr4 Mittelhessen)
+HR 4,https://hlshr4.akamaized.net/hls/live/2016537/hr4rheinmain/master.m3u8,AAC,102,working,radio-browser.info (hr4)
+HR 4,https://dispatcher.rndfnk.com/hr/hr4/suedhessen/high,MP3,128,working,radio-browser.info (hr4 Südhessen)
+HR Dasding,https://liveradio.swr.de/d245tgd/dasding/,AAC,96,working,radio-browser.info (DASDING)
+HR Dasding,https://liveradio.swr.de/d9zadj3/dasding/,MP3,128,working,radio-browser.info (SWR dasding)
+HR Dasding,https://liveradio.swr.de/sw890cl/dasding/,AAC,96,working,radio-browser.info (DASDING | 48k aac)
+HR Dasding,https://liveradio.swr.de/sw331ch/raka10/play.aac,AAC,96,working,radio-browser.info (DASDING - Chillout)
+HR Dasding,https://liveradio.swr.de/sw282p3/dasding/play.mp3,MP3,128,working,broadcaster stream URL (verified)
+HR Info,https://dispatcher.rndfnk.com/hr/hrinfo/live/mp3/high,MP3,128,working,radio-browser.info (hr-iNFO (128k))
+HR Info,https://dispatcher.rndfnk.com/hr/hrinfo-sued/mp3/high,MP3,128,working,radio-browser.info (hr-info)
+HR Info,https://dispatcher.rndfnk.com/hr/hrinfo/live/high,MP3,128,working,radio-browser.info (hr-iNFO)
+KISS FM,https://stream.kissfm.de/kissfm/mp3-128/internetradio/,MP3,128,working,radio-browser.info (98.8 Kiss FM) [https variant]
+KISS FM,https://stream.kissfm.de/kissfm-sextime/mp3-128/internetradio/,MP3,128,working,radio-browser.info (98.8 Kiss FM Sextime) [https variant]
+KISS FM,https://stream.kissfm.de/kissfm-electro/mp3-128/internetradio/,MP3,128,working,radio-browser.info (98.8 Kiss FM Clubsets) [https variant]
+KISS FM,https://topradio-de-hz-fal-stream03-cluster01.radiohost.de/kissfm-hiphop_aac-64?,AAC,64,working,radio-browser.info (Kiss FM Oldschool Hiphop) [https variant]
+KISS FM,http://stream.kissfm.de/kissfm/mp3-128/internetradio/,MP3,128,untested (plain http blocked from box),radio-browser.info (98.8 Kiss FM)
+KISS FM,http://stream.kissfm.de/kissfm-sextime/mp3-128/internetradio/,MP3,128,untested (plain http blocked from box),radio-browser.info (98.8 Kiss FM Sextime)
+KISS FM,http://stream.kissfm.de/kissfm-electro/mp3-128/internetradio/,MP3,128,untested (plain http blocked from box),radio-browser.info (98.8 Kiss FM Clubsets)
+KISS FM,http://topradio-de-hz-fal-stream03-cluster01.radiohost.de/kissfm-hiphop_aac-64?,AAC,64,untested (plain http blocked from box),radio-browser.info (Kiss FM Oldschool Hiphop)
+Klassik Radio,https://live.streams.klassikradio.de/klassikradio-deutschland/stream/mp3,MP3,0,working,radio-browser.info (Klassik Radio - Live)
+Klassik Radio,https://stream.klassikradio.de/mozart/mp3-128/vtuner/,MP3,0,working,radio-browser.info (Klassik Radio - Pure Mozart) [https variant]
+Klassik Radio,https://stream.klassikradio.de/lounge/mp3-128/www.klassikradio.de/,MP3,0,working,radio-browser.info (Klassik Radio - Lounge) [https variant]
+Klassik Radio,https://stream.klassikradio.de/opera/mp3-128/www.klassikradio.de/,MP3,0,working,radio-browser.info (Klassik Radio - Opera) [https variant]
+Klassik Radio,http://stream.klassikradio.de/mozart/mp3-128/vtuner/,MP3,0,untested (plain http blocked from box),radio-browser.info (Klassik Radio - Pure Mozart)
+Klassik Radio,http://stream.klassikradio.de/lounge/mp3-128/www.klassikradio.de/,MP3,0,untested (plain http blocked from box),radio-browser.info (Klassik Radio - Lounge)
+Klassik Radio,http://stream.klassikradio.de/opera/mp3-128/www.klassikradio.de/,MP3,0,untested (plain http blocked from box),radio-browser.info (Klassik Radio - Opera)
+MDR Aktuell,https://mdr-284340-0.sslcast.mdr.de/mdr/284340/0/mp3/high/stream.mp3,MP3,128,working,broadcaster stream URL (verified)
+MDR Aktuell,http://mdr-284340-0.cast.mdr.de/mdr/284340/0/mp3/high/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (MDR Aktuell)
+MDR Jump,https://mdr-radio-hls.akamaized.net/hls/live/2112904/mdr-284320-0-hls/index.m3u8,AAC,102,working,radio-browser.info (MDR JUMP - Im Osten zu Hause und immer deine Lieblingshits!)
+MDR Jump,https://mdr-284320-0.sslcast.mdr.de/mdr/284320/0/mp3/high/stream.mp3,MP3,128,working,broadcaster stream URL (verified)
+MDR Jump,http://mdr-284320-0.cast.mdr.de/mdr/284320/0/mp3/high/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (MDR Jump)
+MDR Klassik,https://mdr-284350-0.sslcast.mdr.de/mdr/284350/0/mp3/max/stream.mp3,MP3,256,working,radio-browser.info (MDR Klassik MP3 256)
+MDR Klassik,https://mdr-284350-0.sslcast.mdr.de/mdr/284350/0/mp3/high/stream.mp3,MP3,128,working,broadcaster stream URL (verified)
+MDR Klassik,http://mdr-284350-0.cast.mdr.de/mdr/284350/0/mp3/high/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (MDR Klassik)
+MDR Kultur,https://mdr-284310-0.sslcast.mdr.de/mdr/284310/0/mp3/high/stream.mp3,MP3,128,working,broadcaster stream URL (verified)
+MDR Kultur,http://mdr-284310-0.cast.mdr.de/mdr/284310/0/mp3/high/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (MDR Kultur)
+MDR Kultur,http://mdr-284311-0.cast.mdr.de/mdr/284311/0/mp3/high/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (MDR Kultur Klassik im Konzert)
+MDR Sachsen,https://mdr-284280-0.sslcast.mdr.de/mdr/284280/0/mp3/high/stream.mp3,MP3,128,working,broadcaster stream URL (verified)
+MDR Sachsen,http://mdr-284280-0.cast.mdr.de/mdr/284280/0/mp3/high/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (MDR Sachsen)
+MDR Sachsen,http://mdr-284290-0.cast.mdr.de/mdr/284290/0/mp3/high/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (MDR Sachsen-Anhalt)
+MDR Sachsen-Anhalt,https://mdr-radio-hls.akamaized.net/hls/live/2112894/mdr-284290-2-hls/index.m3u8,AAC,102,working,radio-browser.info (MDR SACHSEN-ANHALT – Das Radio wie wir)
+MDR Sachsen-Anhalt,https://mdr-284290-0.sslcast.mdr.de/mdr/284290/0/mp3/high/stream.mp3,MP3,128,working,broadcaster stream URL (verified)
+MDR Sputnik,https://mdr-284330-0.sslcast.mdr.de/mdr/284330/0/mp3/high/stream.mp3,MP3,128,working,broadcaster stream URL (verified)
+MDR Sputnik,http://mdr-284330-0.cast.mdr.de/mdr/284330/0/mp3/high/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (MDR Sputnik)
+MDR Sputnik,http://mdr-284331-2.cast.mdr.de/mdr/284331/2/mp3/high/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (MDR Sputnik Club)
+MDR Thüringen Mitte/West,https://f111.rndfnk.com/ard/mdr/284300/0/mp3/128/stream.mp3?cid=01FBQ0VVNFY9PE18EJE73MJAYC&sid=3KahWlgtyLbqs2uGb2Oy6XtbYXN&token=PRchVKSyadq6xR6Qz9xC3gRZ0-ujZj2MznBKBBUCvyI&tvf=vOZhmbnV3RhmMTExLnJuZGZuay5jb20,MP3,128,working,radio-browser.info (MDR Thüringen) [https variant]
+MDR Thüringen Mitte/West,https://f121.rndfnk.com/ard/mdr/284300/0/mp3/128/stream.mp3?cid=01FBQ0VVNFY9PE18EJE73MJAYC&sid=3Kau0Kb0Oilv3Zch0SLlykfhOdP&token=YL5W-PbADOpo9Dq-62AH5up_Ojh5sqv9NndBJo4zvtA&tvf=EAtT6lLb3RhmMTIxLnJuZGZuay5jb20,MP3,128,working,radio-browser.info (MDR Thüringen) [https variant]
+MDR Thüringen Mitte/West,https://f141.rndfnk.com/ard/mdr/284300/0/mp3/128/stream.mp3?cid=01FBQ0VVNFY9PE18EJE73MJAYC&sid=3KafvB7V5fB7w4zqhb4KmK8cOV7&token=JbhTa0C9j-pcTgpFZrjU5N5Y7i8GVwx1ZieS5hEZMPM&tvf=dZaGEQHV3RhmMTQxLnJuZGZuay5jb20,MP3,128,working,radio-browser.info (MDR Thüringen) [https variant]
+MDR Thüringen Mitte/West,https://d111.rndfnk.com/ard/mdr/284300/2/mp3/128/stream.mp3?cid=01FBQ0YB45T1Y0FY793WK4GDE7&sid=3Ka2h2e4FSxzjzIp1IC00JfICe7&token=n-LDYwam2jt9bGqpuLvNuPNYqG69hn52IK3WZPtLpW0&tvf=XAuB_WbD3RhkMTExLnJuZGZuay5jb20,MP3,128,working,radio-browser.info (MDR Thüringen Nord) [https variant]
+MDR Thüringen Mitte/West,https://mdr-284300-0.sslcast.mdr.de/mdr/284300/0/mp3/high/stream.mp3,MP3,128,working,broadcaster stream URL (verified)
+MDR Thüringen Mitte/West,http://f111.rndfnk.com/ard/mdr/284300/0/mp3/128/stream.mp3?cid=01FBQ0VVNFY9PE18EJE73MJAYC&sid=3KahWlgtyLbqs2uGb2Oy6XtbYXN&token=PRchVKSyadq6xR6Qz9xC3gRZ0-ujZj2MznBKBBUCvyI&tvf=vOZhmbnV3RhmMTExLnJuZGZuay5jb20,MP3,128,untested (plain http blocked from box),radio-browser.info (MDR Thüringen)
+MDR Thüringen Mitte/West,http://f121.rndfnk.com/ard/mdr/284300/0/mp3/128/stream.mp3?cid=01FBQ0VVNFY9PE18EJE73MJAYC&sid=3Kau0Kb0Oilv3Zch0SLlykfhOdP&token=YL5W-PbADOpo9Dq-62AH5up_Ojh5sqv9NndBJo4zvtA&tvf=EAtT6lLb3RhmMTIxLnJuZGZuay5jb20,MP3,128,untested (plain http blocked from box),radio-browser.info (MDR Thüringen)
+MDR Thüringen Mitte/West,http://f141.rndfnk.com/ard/mdr/284300/0/mp3/128/stream.mp3?cid=01FBQ0VVNFY9PE18EJE73MJAYC&sid=3KafvB7V5fB7w4zqhb4KmK8cOV7&token=JbhTa0C9j-pcTgpFZrjU5N5Y7i8GVwx1ZieS5hEZMPM&tvf=dZaGEQHV3RhmMTQxLnJuZGZuay5jb20,MP3,128,untested (plain http blocked from box),radio-browser.info (MDR Thüringen)
+MDR Thüringen Mitte/West,http://d111.rndfnk.com/ard/mdr/284300/2/mp3/128/stream.mp3?cid=01FBQ0YB45T1Y0FY793WK4GDE7&sid=3Ka2h2e4FSxzjzIp1IC00JfICe7&token=n-LDYwam2jt9bGqpuLvNuPNYqG69hn52IK3WZPtLpW0&tvf=XAuB_WbD3RhkMTExLnJuZGZuay5jb20,MP3,128,untested (plain http blocked from box),radio-browser.info (MDR Thüringen Nord)
+N-Joy,https://icecast.ndr.de/ndr/njoy/live/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (N-JOY)
+N-Joy,http://icecast.ndr.de/ndr/njoy/live/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (N-JOY)
+NDR 1 Niedersachsen Hannover,https://icecast.ndr.de/ndr/ndr1niedersachsen/hannover/mp3/128/stream.mp3?1728424471708&aggregator=web,MP3,128,working,radio-browser.info (NDR 1 Niedersachsen)
+NDR 1 Niedersachsen Hannover,https://icecast.ndr.de/ndr/ndr1niedersachsen/oldenburg/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (NDR 1 Niedersachsen (OL))
+NDR 1 Niedersachsen Hannover,https://icecast.ndr.de/ndr/ndr1niedersachsen/osnabrueck/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (NDR 1 Niedersachsen (OS)) [https variant]
+NDR 1 Niedersachsen Hannover,https://icecast.ndr.de/ndr/ndr1niedersachsen/hannover/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (NDR 1 Niedersachsen) [https variant]
+NDR 1 Niedersachsen Hannover,http://icecast.ndr.de/ndr/ndr1niedersachsen/osnabrueck/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (NDR 1 Niedersachsen (OS))
+NDR 1 Niedersachsen Hannover,http://icecast.ndr.de/ndr/ndr1niedersachsen/hannover/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (NDR 1 Niedersachsen)
+NDR 1 Radio MV Schwerin,https://icecast.ndr.de/ndr/ndr1radiomv/schwerin/mp3/128/stream.mp3?1728424914112&aggregator=web,MP3,128,working,radio-browser.info (NDR 1 Radio MV)
+NDR 1 Radio MV Schwerin,https://icecast.ndr.de/ndr/ndr1radiomv/schwerin/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (NDR 1 Radio MV) [https variant]
+NDR 1 Radio MV Schwerin,https://icecast.ndr.de/ndr/ndr1radiomv/greifswald/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (NDR 1 Radio MV (HGW)) [https variant]
+NDR 1 Radio MV Schwerin,https://icecast.ndr.de/ndr/ndr1radiomv/rostock/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (NDR 1 Radio MV (Regio Rostock)) [https variant]
+NDR 1 Radio MV Schwerin,http://icecast.ndr.de/ndr/ndr1radiomv/schwerin/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (NDR 1 Radio MV)
+NDR 1 Radio MV Schwerin,http://icecast.ndr.de/ndr/ndr1radiomv/greifswald/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (NDR 1 Radio MV (HGW))
+NDR 1 Radio MV Schwerin,http://icecast.ndr.de/ndr/ndr1radiomv/rostock/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (NDR 1 Radio MV (Regio Rostock))
+NDR 1 Welle Nord Kiel,https://icecast.ndr.de/ndr/ndr1wellenord/kiel/mp3/128/stream.mp3?1728424684403&aggregator=web,MP3,128,working,radio-browser.info (NDR 1 Welle Nord)
+NDR 1 Welle Nord Kiel,https://icecast.ndr.de/ndr/ndr1wellenord/kiel/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (NDR 1 Welle Nord) [https variant]
+NDR 1 Welle Nord Kiel,https://icecast.ndr.de/ndr/ndr1wellenord/luebeck/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (NDR 1 Welle Nord | Lübeck) [https variant]
+NDR 1 Welle Nord Kiel,http://icecast.ndr.de/ndr/ndr1wellenord/kiel/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (NDR 1 Welle Nord)
+NDR 1 Welle Nord Kiel,http://icecast.ndr.de/ndr/ndr1wellenord/luebeck/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (NDR 1 Welle Nord | Lübeck)
+NDR 2,https://icecast.ndr.de/ndr/ndr2/niedersachsen/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (NDR 2)
+NDR 2,https://icecast.ndr.de/ndr/ndr2/hamburg/mp3/128/stream.mp3?1728423809880&aggregator=web,MP3,128,working,radio-browser.info (NDR 2 Hamburg)
+NDR 2,https://icecast.ndr.de/ndr/ndr2/hamburg/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (NDR 2 (Hamburg)) [https variant]
+NDR 2,http://icecast.ndr.de/ndr/ndr2/niedersachsen/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (NDR 2 - Niedersachsen)
+NDR 2,http://icecast.ndr.de/ndr/ndr2/hamburg/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (NDR 2 (Hamburg))
+NDR 90.3,https://icecast.ndr.de/ndr/ndr903/hamburg/mp3/128/stream.mp3,MP3,128,working,broadcaster stream URL (verified)
+NDR Blue,https://icecast.ndr.de/ndr/ndrblue/live/mp3/128/stream.mp3?1728425782606&aggregator=web,MP3,128,working,radio-browser.info (NDR Blue)
+NDR Blue,https://icecast.ndr.de/ndr/ndrblue/live/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (NDR Blue) [https variant]
+NDR Blue,http://icecast.ndr.de/ndr/ndrblue/live/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (NDR Blue)
+NDR Info Niedersachsen,https://icecast.ndr.de/ndr/ndrinfo/schleswigholstein/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (NDR Info Schleswig-Holstein)
+NDR Info Niedersachsen,https://icecast.ndr.de/ndr/ndrinfo/hamburg/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (NDR Info (Hamburg)) [https variant]
+NDR Info Niedersachsen,https://icecast.ndr.de/ndr/ndrinfo/live/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (NDR Info (Niedersachsen)) [https variant]
+NDR Info Niedersachsen,http://icecast.ndr.de/ndr/ndrinfo/hamburg/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (NDR Info (Hamburg))
+NDR Info Niedersachsen,http://icecast.ndr.de/ndr/ndrinfo/schleswigholstein/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (NDR Info (Schleswig-Holstein))
+NDR Info Niedersachsen,http://icecast.ndr.de/ndr/ndrinfo/live/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (NDR Info (Niedersachsen))
+NDR Info Spezial,https://icecast.ndr.de/ndr/ndrinfospezial/live/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (NDR Info Spezial) [https variant]
+NDR Info Spezial,http://icecast.ndr.de/ndr/ndrinfospezial/live/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (NDR Info Spezial)
+NDR Kultur,https://f131.rndfnk.com/ard/ndr/ndrkultur/live/aac/192/stream.aac?aggregator=web&cid=01FBQ2EJ6T7QK3WENQ5KT9S2FB&sid=2aWrl15TtQvWg6RQ9hvrVfdh99E&token=cgylLQKukz6c0ajNCSHCboafG1Q474A1QN0WA3_K3Hg&tvf=4vGFz6J7pxdmMTMxLnJuZGZuay5jb20,AAC,192,working,radio-browser.info (NDR Kultur (AAC 192))
+NDR Kultur,https://icecast.ndr.de/ndr/ndrkultur/live/mp3/128/stream.mp3?1728425224079&aggregator=web,MP3,128,working,radio-browser.info (NDR Kultur)
+NDR Kultur,https://icecast.ndr.de/ndr/ndrkultur/live/aac/192/stream.aac,AAC,192,working,radio-browser.info (NDR Kultur) [https variant]
+NDR Kultur,http://icecast.ndr.de/ndr/ndrkultur/live/aac/192/stream.aac,AAC,192,untested (plain http blocked from box),radio-browser.info (NDR Kultur)
+NDR Schlager,https://icecast.ndr.de/ndr/ndrschlager/live/mp3/128/stream.mp3?1728425971529&aggregator=web,MP3,128,working,radio-browser.info (NDR Schlager)
+Oldie Antenne,https://s1-webradio.oldie-antenne.de/oldie-antenne?aw_0_1st.playerid=OldieAntenneWebPlayer,MP3,128,working,radio-browser.info (OLDIE ANTENNE)
+Oldie Antenne,https://s7-webradio.oldie-antenne.de/oldie-antenne-80er-hits/stream/mp3?aw_0_1st.playerid=OldieAntenneWebPlayer&aw_0_1st.skey=1706378427399&aw_0_req.userConsentV2=CP5CssAP5CssAAFADBDEAlEgAAAAAAAAAAYgAAAAAAEhIAMAAQL2DQAYAAgXsIgAwABAvYVABgACBewyADAAEC9h0AGAAIF7EIAMAAQL2JQAYAAgXsUgAwABAvYA.YAAAAAAAAAAA&companionAds=false&companion_zone_alias=41%2C42%2C40%2C731%2C752%2C756%2C768,MP3,128,working,radio-browser.info (Oldie Antenne - 80er Hits)
+Oldie Antenne,https://stream.oldie-antenne.de/oldie-antenne-60er-hits/stream/mp3,MP3,128,working,radio-browser.info (Oldie Antenne - 60er Hits)
+Oldie Antenne,https://stream.oldie-antenne.de/oldie-antenne/stream/aacp,AAC,0,working,radio-browser.info (Oldie Antenne [aac]) [https variant]
+Oldie Antenne,http://stream.oldie-antenne.de/oldie-antenne/stream/aacp,AAC,0,untested (plain http blocked from box),radio-browser.info (Oldie Antenne [aac])
+R.SH,https://streams.rsh.de/rsh-live/mp3-192/mediaplayer,MP3,0,working,radio-browser.info (R.SH Live) [https variant]
+R.SH,https://rsh.streamabc.net/regc-rshlive-mp3-128-7643923?sABC=6npq4s9o%230%23r30o443r1929r059s085628511796n57%23fgernzf.efu.qr&aw_0_1st.playerid=streams.rsh.de&amsparams=playerid:streams.rsh.de;skey:1791840155,MP3,0,working,radio-browser.info (R.SH Live) [https variant]
+R.SH,https://streams.rsh.de/90er/mp3-192/homepage/,MP3,0,working,radio-browser.info (R.SH 90er) [https variant]
+R.SH,https://streams.rsh.de/dance/mp3-192/homepage/,MP3,0,working,radio-browser.info (R.SH Dance) [https variant]
+R.SH,http://streams.rsh.de/rsh-live/mp3-192/mediaplayer,MP3,0,untested (plain http blocked from box),radio-browser.info (R.SH Live)
+R.SH,http://rsh.streamabc.net/regc-rshlive-mp3-128-7643923?sABC=6npq4s9o%230%23r30o443r1929r059s085628511796n57%23fgernzf.efu.qr&aw_0_1st.playerid=streams.rsh.de&amsparams=playerid:streams.rsh.de;skey:1791840155,MP3,0,untested (plain http blocked from box),radio-browser.info (R.SH Live)
+R.SH,http://streams.rsh.de/90er/mp3-192/homepage/,MP3,0,untested (plain http blocked from box),radio-browser.info (R.SH 90er)
+R.SH,http://streams.rsh.de/dance/mp3-192/homepage/,MP3,0,untested (plain http blocked from box),radio-browser.info (R.SH Dance)
+Radio 21,https://streams.radio21.de/braunschweig/mp3-192/web,MP3,0,working,radio-browser.info (RADIO 21 Braunschweig)
+Radio 21,https://streams.radio21.de/nrw/mp3-192/web,MP3,0,working,radio-browser.info (RADIO 21 Nordrhein-Westfalen)
+Radio 21,https://radio21.streamabc.net/radio21-hannover-mp3-192-3735655,MP3,0,working,radio-browser.info (Radio 21)
+Radio 21,https://radio21.streamabc.net/radio21-bremen-mp3-192-7011720,MP3,0,working,radio-browser.info (Radio 21 Bremen)
+Radio Arabella,https://edge12.stream.radioarabella.de/radioarabella-muenchen?aggregator=RDs24_live_radioarabella_de-stream-aac,AAC,0,working,radio-browser.info (Radio Arabella München)
+Radio Arabella,https://live.stream.radioarabella.de/radioarabella-bayern/stream/mp3?aggregator=araby,MP3,128,working,radio-browser.info (Radio Arabella Bayern)
+Radio Bob,https://streams.radiobob.de/bob-metal/mp3-192/streams.radiobob.de/,MP3,0,working,radio-browser.info (RADIO BOB! BOBs Metal) [https variant]
+Radio Bob,https://streams.radiobob.de/bob-alternative/mp3-192/streams.radiobob.de/,MP3,0,working,radio-browser.info (RADIO BOB! BOBs Alternative Rock) [https variant]
+Radio Bob,https://streams.radiobob.de/bob-classicrock/mp3-192/streams.radiobob.de/,MP3,0,working,radio-browser.info (RADIO BOB! Classic Rock) [https variant]
+Radio Bob,https://streams.radiobob.de/bob-bestofrock/mp3-192/streams.radiobob.de/,MP3,0,working,radio-browser.info (RADIO BOB! BOBs Best of Rock) [https variant]
+Radio Bob,http://streams.radiobob.de/bob-metal/mp3-192/streams.radiobob.de/,MP3,0,untested (plain http blocked from box),radio-browser.info (RADIO BOB! BOBs Metal)
+Radio Bob,http://streams.radiobob.de/bob-alternative/mp3-192/streams.radiobob.de/,MP3,0,untested (plain http blocked from box),radio-browser.info (RADIO BOB! BOBs Alternative Rock)
+Radio Bob,http://streams.radiobob.de/bob-classicrock/mp3-192/streams.radiobob.de/,MP3,0,untested (plain http blocked from box),radio-browser.info (RADIO BOB! Classic Rock)
+Radio Bob,http://streams.radiobob.de/bob-bestofrock/mp3-192/streams.radiobob.de/,MP3,0,untested (plain http blocked from box),radio-browser.info (RADIO BOB! BOBs Best of Rock)
+Radio Brocken,https://stream.radiobrocken.de/live-hal-lei/mp3-256/,MP3,0,working,radio-browser.info (Radio Brocken Halle-Leipzig)
+Radio Brocken,https://fhhalle.streamabc.net/fhhal-rblive-mp3-256-3654873?sABC=6npp4n11%230%23r30o443r1929r059s085628511796n57%23qverxgyvaxUC&aw_0_1st.playerid=direktlinkHP&amsparams=playerid:direktlinkHP;skey:1791773201,MP3,0,working,radio-browser.info (Radio Brocken) [https variant]
+Radio Brocken,https://fhhalle.streamabc.net/fhhal-brocken80er-mp3-256-3155073?sABC=6npp0os4%230%23r30o443r1929r059s085628511796n57%23qverxgyvaxUC&aw_0_1st.playerid=direktlinkHP&amsparams=playerid:direktlinkHP;skey:1791757300,MP3,0,working,radio-browser.info (Radio Brocken - Kulthits) [https variant]
+Radio Brocken,http://fhhalle.streamabc.net/fhhal-rblive-mp3-256-3654873?sABC=6npp4n11%230%23r30o443r1929r059s085628511796n57%23qverxgyvaxUC&aw_0_1st.playerid=direktlinkHP&amsparams=playerid:direktlinkHP;skey:1791773201,MP3,0,untested (plain http blocked from box),radio-browser.info (Radio Brocken)
+Radio Brocken,http://fhhalle.streamabc.net/fhhal-brocken80er-mp3-256-3155073?sABC=6npp0os4%230%23r30o443r1929r059s085628511796n57%23qverxgyvaxUC&aw_0_1st.playerid=direktlinkHP&amsparams=playerid:direktlinkHP;skey:1791757300,MP3,0,untested (plain http blocked from box),radio-browser.info (Radio Brocken - Kulthits)
+Radio Gong 96.3,https://radiogong-live.cast.addradio.de/radiogong/live/mp3/high,MP3,192,working,radio-browser.info (Radio Gong 96.3 München - Live) [https variant]
+Radio Gong 96.3,https://radiogong-channel08.cast.addradio.de/radiogong/channel08/mp3/high,MP3,192,working,radio-browser.info (Radio Gong 96.3 München - Akustic Covers) [https variant]
+Radio Gong 96.3,http://radiogong-live.cast.addradio.de/radiogong/live/mp3/high,MP3,192,untested (plain http blocked from box),radio-browser.info (Radio Gong 96.3 München - Live)
+Radio Gong 96.3,http://mp3.radiogong963.c.nmdn.net/ps-radiogongchannel5/livestream.mp3,MP3,192,untested (plain http blocked from box),radio-browser.info (Radio Gong 96.3 München - Party Gong)
+Radio Gong 96.3,http://radiogong-channel08.cast.addradio.de/radiogong/channel08/mp3/high,MP3,192,untested (plain http blocked from box),radio-browser.info (Radio Gong 96.3 München - Akustic Covers)
+Radio Gong 96.3,http://mp3.radiogong963.c.nmdn.net/ps-radiogongchannel4/livestream.mp3,MP3,192,untested (plain http blocked from box),radio-browser.info (Radio Gong 96.3 München - Kulthits)
+Radio Hamburg,https://frontend.streamonkey.net/rhh-1036?aggregator=linkradiohamburgde,AAC,0,working,radio-browser.info (Radio Hamburg)
+Radio Hamburg,https://frontend.streamonkey.net/rhh-1036?,AAC,0,working,radio-browser.info (Radio Hamburg)
+Radio Hamburg,https://rhh.streamabc.net/rhh-rhhlive-mp3-192-9338172?sABC=6npp1433%230%23q280o0r09ns9qpq3889p9qqn13p5753s%23gharva&aw_0_1st.playerid=tunein&amsparams=playerid:tunein;skey:1791759411,MP3,0,working,radio-browser.info (Radio Hamburg)
+Radio HBR,https://stream1.radiohbr.de/stream.mp3,MP3,128,working,radio-browser.info (Radio HBR) [https variant]
+Radio HBR,http://stream1.radiohbr.de/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (Radio HBR)
+Radio HBR,http://stream2.radiohbr.de:8080/stream.aac,AAC+,48,untested (plain http blocked from box),radio-browser.info (Radio HBR)
+Radio HBR,http://segenswelle.de:8000/hbr.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (Radio HBR)
+Radio Horeb,http://rs16.stream24.org/horeb.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (Radio Horeb 128k)
+Radio Horeb,http://dreamsiteradiocp.com:8114/stream,AAC+,64,untested (plain http blocked from box),radio-browser.info (Radio Horeb (32 kbps))
+Radio Horeb,http://rs16.stream24.org:8000/horeb.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (Radio Horeb (127 kbps))
+Radio Horeb,http://rs16.stream24.org:8100/horeb.aac,AAC+,64,untested (plain http blocked from box),radio-browser.info (Radio Horeb 48k)
+Radio NRW,http://osl.radio.nrw/,MP3,120,untested (plain http blocked from box),radio-browser.info (Radio NRW)
+Radio Paloma,https://stream.silvacast.com/RPLive/mp3-128/RadioPaloma_Homepage,MP3,128,working,radio-browser.info (Radio Paloma - 100% Deutscher Schlager!)
+Radio Paloma,https://icepool.silvacast.com/RADIOPALOMA.mp3,MP3,128,working,radio-browser.info (Radio Paloma) [https variant]
+Radio Paloma,https://pool.radiopaloma.de/RP-Kultschlager.mp3,MP3,128,working,radio-browser.info (Radio Paloma - Kultschlager) [https variant]
+Radio Paloma,https://pool.radiopaloma.de/RP-Partyschlager.mp3,MP3,128,working,radio-browser.info (Radio Paloma - Partyschlager) [https variant]
+Radio Paloma,http://icepool.silvacast.com/RADIOPALOMA.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (Radio Paloma)
+Radio Paloma,http://pool.radiopaloma.de/RP-Kultschlager.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (Radio Paloma - Kultschlager)
+Radio Paloma,http://pool.radiopaloma.de/RP-Partyschlager.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (Radio Paloma - Partyschlager)
+Radio PSR,https://streams.radiopsr.de/psr-live/mp3-192/mediaplayer,MP3,0,working,radio-browser.info (Radio PSR)
+Radio PSR,https://regiocast.streamabc.net/regc-psr2000er1212201-mp3-192-6313640?sABC=6npp4318%230%23q280o0r09ns9qpq3889p9qqn13p5753s%23fgernzf.enqvbcfe.qr&aw_0_1st.playerid=streams.radiopsr.de&amsparams=playerid:streams.radiopsr.de;skey:1791771416,MP3,0,working,radio-browser.info (RADIO PSR Pop Dance)
+Radio PSR,https://psr.streamabc.net/regc-psrlive-mp3-192-4316100?sABC=6npp439r%230%23q280o0r09ns9qpq3889p9qqn13p5753s%23fgernzf.enqvbcfe.qr&aw_0_1st.playerid=streams.radiopsr.de&amsparams=playerid:streams.radiopsr.de;skey:1791771550,MP3,0,working,radio-browser.info (RADIO PSR Live)
+Radio PSR,https://streams.radiopsr.de/psr-live/aac-64/mediaplayer,AAC,0,working,radio-browser.info (Radio PSR) [https variant]
+Radio PSR,http://streams.radiopsr.de/psr-live/aac-64/mediaplayer,AAC,0,untested (plain http blocked from box),radio-browser.info (Radio PSR)
+Radio Regenbogen,https://streams.regenbogen.de/rr2-bw-128-mp3,MP3,0,working,radio-browser.info (Radio Regenbogen 2) [https variant]
+Radio Regenbogen,https://streams.regenbogen.de/rr-mannheim-128-mp3,MP3,0,working,radio-browser.info (Radio Regenbogen 102.8) [https variant]
+Radio Regenbogen,https://streams.regenbogen.de/rr-gunsnroses-128-mp3,MP3,0,working,radio-browser.info (Radio Regenbogen - Guns N' Roses) [https variant]
+Radio Regenbogen,https://streams.regenbogen.de/rr-kinderlieder-128-mp3,MP3,0,working,radio-browser.info (Radio Regenbogen - Kinderlieder) [https variant]
+Radio Regenbogen,http://streams.regenbogen.de/rr2-bw-128-mp3,MP3,0,untested (plain http blocked from box),radio-browser.info (Radio Regenbogen 2)
+Radio Regenbogen,http://streams.regenbogen.de/rr-mannheim-128-mp3,MP3,0,untested (plain http blocked from box),radio-browser.info (Radio Regenbogen 102.8)
+Radio Regenbogen,http://streams.regenbogen.de/rr-gunsnroses-128-mp3,MP3,0,untested (plain http blocked from box),radio-browser.info (Radio Regenbogen - Guns N' Roses)
+Radio Regenbogen,http://streams.regenbogen.de/rr-kinderlieder-128-mp3,MP3,0,untested (plain http blocked from box),radio-browser.info (Radio Regenbogen - Kinderlieder)
+Radio SAW,https://stream.saw-musikwelt.de/saw-synthie-pop/stream.mp3,MP3,0,working,radio-browser.info (radio SAW Synthie Pop)
+Radio SAW,https://stream.saw-musikwelt.de/saw-90er/mp3-128/radio-browser/stream.mp3,AAC,0,working,radio-browser.info (radio SAW - 90er) [https variant]
+Radio SAW,https://stream.saw-musikwelt.de/saw-80er/mp3-128/radio-browser/stream.mp3,AAC,0,working,radio-browser.info (radio SAW - 80er) [https variant]
+Radio SAW,https://stream.saw-musikwelt.de/saw-party/mp3-128/radio-browser/stream.mp3,AAC,0,working,radio-browser.info (radio SAW - Party) [https variant]
+Radio SAW,http://stream.saw-musikwelt.de/saw-90er/mp3-128/radio-browser/stream.mp3,AAC,0,untested (plain http blocked from box),radio-browser.info (radio SAW - 90er)
+Radio SAW,http://stream.saw-musikwelt.de/saw-80er/mp3-128/radio-browser/stream.mp3,AAC,0,untested (plain http blocked from box),radio-browser.info (radio SAW - 80er)
+Radio SAW,http://stream.saw-musikwelt.de/saw-party/mp3-128/radio-browser/stream.mp3,AAC,0,untested (plain http blocked from box),radio-browser.info (radio SAW - Party)
+Radio Teddy,https://streamtdy.ir-media-tec.com/live/mp3-128/web/play.mp3,MP3,0,working,radio-browser.info (Radio Teddy - Livestream) [https variant]
+Radio Teddy,https://streamtdy.ir-media-tec.com/disco/mp3-128/web/play.mp3,MP3,0,working,radio-browser.info (Radio Teddy - Kinder Disco) [https variant]
+Radio Teddy,https://streamtdy.ir-media-tec.com/kinderlieder/mp3-128/web/play.mp3,MP3,0,working,radio-browser.info (Radio Teddy - Kinderlieder) [https variant]
+Radio Teddy,https://streamtdy.ir-media-tec.com/weihnachtslieder/mp3-128/web/play.mp3,MP3,0,working,radio-browser.info (Radio Teddy - Weihnachtslieder) [https variant]
+Radio Teddy,http://streamtdy.ir-media-tec.com/live/mp3-128/web/play.mp3,MP3,0,untested (plain http blocked from box),radio-browser.info (Radio Teddy - Livestream)
+Radio Teddy,http://streamtdy.ir-media-tec.com/disco/mp3-128/web/play.mp3,MP3,0,untested (plain http blocked from box),radio-browser.info (Radio Teddy - Kinder Disco)
+Radio Teddy,http://streamtdy.ir-media-tec.com/kinderlieder/mp3-128/web/play.mp3,MP3,0,untested (plain http blocked from box),radio-browser.info (Radio Teddy - Kinderlieder)
+Radio Teddy,http://streamtdy.ir-media-tec.com/weihnachtslieder/mp3-128/web/play.mp3,MP3,0,untested (plain http blocked from box),radio-browser.info (Radio Teddy - Weihnachtslieder)
+RBB 24 Inforadio,https://dispatcher.rndfnk.com/rbb/inforadio/live/mp3/mid?aggregator=tunein,MP3,128,working,radio-browser.info (Inforadio vom rbb)
+RBB 24 Inforadio,https://f121.rndfnk.com/ard/rbb/inforadio/live/mp3/128/stream.mp3?cid=01FC1WYDPN76K6HSCD8QCR9D3S&sid=2QcLzffN32wHfW1lVCzlxHze7qi&token=pGWtFx8DdsdTygJQfppoygwrmQAJ9neXn-Oapylzh_E&tvf=RIPifb2zZBdmMTIxLnJuZGZuay5jb20,MP3,128,working,radio-browser.info (RBB 24 Inforadio)
+RBB 24 Inforadio,https://dispatcher.rndfnk.com/rbb/inforadio/live/mp3/mid,MP3,128,working,radio-browser.info (Inforadio) [https variant]
+RBB 24 Inforadio,https://dispatcher.rndfnk.com/rbb/inforadio/live/mp3/low,MP3,64,working,radio-browser.info (rbb INFOradio (mp3-low)) [https variant]
+RBB 24 Inforadio,http://dispatcher.rndfnk.com/rbb/inforadio/live/mp3/mid,MP3,128,untested (plain http blocked from box),radio-browser.info (Inforadio)
+RBB 24 Inforadio,http://dispatcher.rndfnk.com/rbb/inforadio/live/mp3/low,MP3,64,untested (plain http blocked from box),radio-browser.info (rbb INFOradio (mp3-low))
+RBB 88.8,https://rbb888.akamaized.net/hls/live/2017003/rbb_rbb888/master.m3u8,AAC,75,working,radio-browser.info (RBB 88.8 Hohe Qualität)
+RBB 88.8,https://dispatcher.rndfnk.com/rbb/rbb888/live/mp3/mid,MP3,128,working,radio-browser.info (RBB 88.8 Radio Berlin) [https variant]
+RBB 88.8,http://dispatcher.rndfnk.com/rbb/rbb888/live/mp3/mid,MP3,128,untested (plain http blocked from box),radio-browser.info (RBB 88.8 Radio Berlin)
+RBB Fritz,https://dispatcher.rndfnk.com/rbb/fritz/live/mp3/mid,MP3,128,working,radio-browser.info (Radio Fritz)
+RBB Fritz,http://dispatcher.rndfnk.com/rbb/fritz/live/mp3/mid,MP3,128,untested (plain http blocked from box),radio-browser.info (Fritz)
+RBB Fritz,http://fritz.de/livemp3_s,MP3,64,untested (plain http blocked from box),radio-browser.info (rbb FRITZ (48 kbit/s))
+RBB Radio 3,https://stream.radio38.de/,MP3,192,working,radio-browser.info (Radio38 Braunschweig) [https variant]
+RBB Radio 3,http://stream.radio38.de/,MP3,192,untested (plain http blocked from box),radio-browser.info (Radio38 Braunschweig)
+RBB Radio Eins,https://f111.rndfnk.com/ard/rbb/radioeins/live/mp3/128/stream.mp3?cid=01FC1WH12KJ93TCQPDSE2E5PZ9&sid=3KaCZ6SITRJ2je2F4FlKm4iTGhL&token=AfwQazqHOz7Hq8hMxg3rlM1eiJCe9KujIKcALz-pPS4&tvf=JTQZBNXH3RhmMTExLnJuZGZuay5jb20,MP3,128,working,radio-browser.info (Radioeins) [https variant]
+RBB Radio Eins,https://d141.rndfnk.com/ard/rbb/radioeins/live/mp3/128/stream.mp3?cid=01FC1WH12KJ93TCQPDSE2E5PZ9&sid=3KaEJKR2QRiDXa394Fhg5Z5Qgw8&token=EdCiV0gNjsqokTx-6z9il6BCks1BrjSu4HzChlAgODc&tvf=9zwygp3I3RhkMTQxLnJuZGZuay5jb20,MP3,128,working,radio-browser.info (RadioEins [High Quality]) [https variant]
+RBB Radio Eins,https://d141.rndfnk.com/ard/rbb/radioeins/live/mp3/48/stream.mp3?cid=01FC1WH12KJ93TCQPDSE2E5PZ9&sid=3KZh8zTnwKViz6WlMMFbDv2Je9z&token=kXycRZo7Uoa8abUFPf5K-XWp1U445jfr_mLTyTVn6Xs&tvf=bEeMd7u53RhkMTQxLnJuZGZuay5jb20,MP3,64,working,radio-browser.info (radioeins-rbb-56 kbit/s) [https variant]
+RBB Radio Eins,https://d111.rndfnk.com/ard/rbb/radioeins/live/mp3/128/stream.mp3?cid=01FC1WH12KJ93TCQPDSE2E5PZ9&sid=3KZM1us1m4bs9rO70ElKbQq3Lti&token=9Y-9WfXBgAHbAOMSKK-aISO44ipsToyDoaEmBgpYu44&tvf=rLiu-0Gw3RhkMTExLnJuZGZuay5jb20,MP3,128,working,radio-browser.info (Radioeins) [https variant]
+RBB Radio Eins,http://f111.rndfnk.com/ard/rbb/radioeins/live/mp3/128/stream.mp3?cid=01FC1WH12KJ93TCQPDSE2E5PZ9&sid=3KaCZ6SITRJ2je2F4FlKm4iTGhL&token=AfwQazqHOz7Hq8hMxg3rlM1eiJCe9KujIKcALz-pPS4&tvf=JTQZBNXH3RhmMTExLnJuZGZuay5jb20,MP3,128,untested (plain http blocked from box),radio-browser.info (Radioeins)
+RBB Radio Eins,http://d141.rndfnk.com/ard/rbb/radioeins/live/mp3/128/stream.mp3?cid=01FC1WH12KJ93TCQPDSE2E5PZ9&sid=3KaEJKR2QRiDXa394Fhg5Z5Qgw8&token=EdCiV0gNjsqokTx-6z9il6BCks1BrjSu4HzChlAgODc&tvf=9zwygp3I3RhkMTQxLnJuZGZuay5jb20,MP3,128,untested (plain http blocked from box),radio-browser.info (RadioEins [High Quality])
+RBB Radio Eins,http://d141.rndfnk.com/ard/rbb/radioeins/live/mp3/48/stream.mp3?cid=01FC1WH12KJ93TCQPDSE2E5PZ9&sid=3KZh8zTnwKViz6WlMMFbDv2Je9z&token=kXycRZo7Uoa8abUFPf5K-XWp1U445jfr_mLTyTVn6Xs&tvf=bEeMd7u53RhkMTQxLnJuZGZuay5jb20,MP3,64,untested (plain http blocked from box),radio-browser.info (radioeins-rbb-56 kbit/s)
+RBB Radio Eins,http://d111.rndfnk.com/ard/rbb/radioeins/live/mp3/128/stream.mp3?cid=01FC1WH12KJ93TCQPDSE2E5PZ9&sid=3KZM1us1m4bs9rO70ElKbQq3Lti&token=9Y-9WfXBgAHbAOMSKK-aISO44ipsToyDoaEmBgpYu44&tvf=rLiu-0Gw3RhkMTExLnJuZGZuay5jb20,MP3,128,untested (plain http blocked from box),radio-browser.info (Radioeins)
+Rock Antenne,https://mp3channels.webradio.rockantenne.de/heavy-metal,MP3,128,working,radio-browser.info (Rock Antenne - Heavy Metal) [https variant]
+Rock Antenne,https://mp3channels.webradio.rockantenne.de/rockantenne,MP3,128,working,radio-browser.info (Rock Antenne) [https variant]
+Rock Antenne,https://mp3channels.webradio.rockantenne.de/classic-perlen,MP3,128,working,radio-browser.info (ROCK ANTENNE Classic Perlen) [https variant]
+Rock Antenne,https://mp3channels.webradio.rockantenne.de/punkrock.aac,AAC,0,working,radio-browser.info (Rock Antenne - Punk Rock) [https variant]
+Rock Antenne,http://mp3channels.webradio.rockantenne.de/heavy-metal,MP3,128,untested (plain http blocked from box),radio-browser.info (Rock Antenne - Heavy Metal)
+Rock Antenne,http://mp3channels.webradio.rockantenne.de/rockantenne,MP3,128,untested (plain http blocked from box),radio-browser.info (Rock Antenne)
+Rock Antenne,http://mp3channels.webradio.rockantenne.de/classic-perlen,MP3,128,untested (plain http blocked from box),radio-browser.info (ROCK ANTENNE Classic Perlen)
+Rock Antenne,http://mp3channels.webradio.rockantenne.de/punkrock.aac,AAC,0,untested (plain http blocked from box),radio-browser.info (Rock Antenne - Punk Rock)
+RPR1,https://streams.rpr1.de/rpr-hiphop-128-mp3,MP3,0,working,radio-browser.info (RPR1 Old School Hip Hop)
+RPR1,https://streams.rpr1.de/rpr-90ertrash-128-mp3?usid=0-0-H-M-D-60,MP3,0,working,radio-browser.info (RPR1. 90er Trash)
+RPR1,https://streams.rpr1.de/rpr-entspannung-128-mp3,MP3,0,working,radio-browser.info (RPR1. - Yoga Sounds) [https variant]
+RPR1,https://streams.rpr1.de/rpr-apresski-128-mp3?usid=0-0-H-M-D-50,MP3,0,working,radio-browser.info (RPR1. Apré Ski & Ballermann) [https variant]
+RPR1,http://streams.rpr1.de/rpr-entspannung-128-mp3,MP3,0,untested (plain http blocked from box),radio-browser.info (RPR1. - Yoga Sounds)
+RPR1,http://streams.rpr1.de/rpr-apresski-128-mp3?usid=0-0-H-M-D-50,MP3,0,untested (plain http blocked from box),radio-browser.info (RPR1. Apré Ski & Ballermann)
+Schlager Radio,https://addrad.io/4454rnz,MP3,192,working,radio-browser.info (schlager radio B2 - Berlin Brandenburg)
+Schlager Radio,https://addrad.io/4454r93,MP3,192,working,radio-browser.info (Schlager Radio- Hör auf dein herz)
+Schlager Radio,https://mp3.harmonyfm.de/hrmchannels/schlager.aac,AAC+,47,working,radio-browser.info (harmony.fm Schlager Radio) [https variant]
+Schlager Radio,https://rnrw.cast.addradio.de/rnrw-0185/deinschlager/high/stream.mp3,MP3,192,working,radio-browser.info (Dein Schlager Radio) [https variant]
+Schlager Radio,http://mp3.harmonyfm.de/hrmchannels/schlager.aac,AAC+,47,untested (plain http blocked from box),radio-browser.info (harmony.fm Schlager Radio)
+Schlager Radio,http://rnrw.cast.addradio.de/rnrw-0185/deinschlager/high/stream.mp3,MP3,192,untested (plain http blocked from box),radio-browser.info (Dein Schlager Radio)
+SR 1,https://liveradio.sr.de/sr/sr1/mp3/128/stream.mp3?aggregator=custom1,MP3,128,working,radio-browser.info (SR 1)
+SR 1,https://sr.audiostream.io/sr/1009/mp3/56/sr1,MP3,64,working,radio-browser.info (SR 1 Europawelle (56 kbit/s)) [https variant]
+SR 1,http://sr.audiostream.io/sr/1009/mp3/56/sr1,MP3,64,untested (plain http blocked from box),radio-browser.info (SR 1 Europawelle (56 kbit/s))
+SR 3 Saarlandwelle,https://sr.audiostream.io/sr/1011/mp3/56/sr3,MP3,64,working,radio-browser.info (SR 3 Saarlandwelle (56 kbit/s)) [https variant]
+SR 3 Saarlandwelle,https://liveradio.sr.de/sr/sr3/mp3/256/stream.mp3,MP3,256,working,radio-browser.info (SR 3) [https variant]
+SR 3 Saarlandwelle,http://sr.audiostream.io/sr/1011/mp3/56/sr3,MP3,64,untested (plain http blocked from box),radio-browser.info (SR 3 Saarlandwelle (56 kbit/s))
+SR 3 Saarlandwelle,http://liveradio.sr.de/sr/sr3/mp3/256/stream.mp3,MP3,256,untested (plain http blocked from box),radio-browser.info (SR 3)
+SR Kultur,https://liveradio.sr.de/sr/sr2/mp3/256/stream.mp3?aggregator=custom1,MP3,256,working,radio-browser.info (SR Kultur)
+Star FM,https://stream.starfm.de/ballads/mp3-192/iradio,MP3,0,working,radio-browser.info (Star FM - Rock Ballads)
+Star FM,https://stream.starfm.de/berlin/mp3-192/iradio,MP3,0,working,radio-browser.info (Star FM Maximum Rock Berlin 87.9)
+Star FM,https://stream.laut.fm/darkstarfm,MP3,128,working,radio-browser.info (Dark Star FM) [https variant]
+Star FM,http://stream.laut.fm/darkstarfm,MP3,128,untested (plain http blocked from box),radio-browser.info (Dark Star FM)
+Sunshine Live,https://stream.sunshine-live.de/90er/mp3-192/stream.sunshine-live.de,MP3,0,working,radio-browser.info (Sunshine Live - Die 90er) [https variant]
+Sunshine Live,https://stream.sunshine-live.de/techno/mp3-192/stream.sunshine-live.de/,MP3,0,working,radio-browser.info (Sunshine Live - Techno) [https variant]
+Sunshine Live,https://stream.sunshine-live.de/live/mp3-192/stream.sunshine-live.de/,MP3,0,working,radio-browser.info (Sunshine Live) [https variant]
+Sunshine Live,https://stream.sunshine-live.de/classics/mp3-192/stream.sunshine-live.de/,MP3,0,working,radio-browser.info (Sunshine Live - Classics) [https variant]
+Sunshine Live,http://stream.sunshine-live.de/90er/mp3-192/stream.sunshine-live.de,MP3,0,untested (plain http blocked from box),radio-browser.info (Sunshine Live - Die 90er)
+Sunshine Live,http://stream.sunshine-live.de/techno/mp3-192/stream.sunshine-live.de/,MP3,0,untested (plain http blocked from box),radio-browser.info (Sunshine Live - Techno)
+Sunshine Live,http://stream.sunshine-live.de/live/mp3-192/stream.sunshine-live.de/,MP3,0,untested (plain http blocked from box),radio-browser.info (Sunshine Live)
+Sunshine Live,http://stream.sunshine-live.de/classics/mp3-192/stream.sunshine-live.de/,MP3,0,untested (plain http blocked from box),radio-browser.info (Sunshine Live - Classics)
+SWR 1 Baden-Württemberg,https://liveradio.swr.de/sw282p3/swr1bw/play.mp3,MP3,128,working,radio-browser.info (SWR1 Baden-Württemberg)
+SWR 1 Rheinland-Pfalz,https://liveradio.swr.de/sw282p3/swr1rp/play.mp3,MP3,128,working,radio-browser.info (SWR1 Rheinland-Pfalz)
+SWR 1 Rheinland-Pfalz,https://liveradio.swr.de/sw331ch/swr1rp/,AAC,96,working,radio-browser.info (SWR1 Rheinland-Pfalz)
+SWR 3,https://liveradio.swr.de/sw282p3/swr3/play.mp3,MP3,128,working,radio-browser.info (SWR3)
+SWR 3,https://liveradio.swr.de/sw331ch/swr3/play.aac,AAC,96,working,radio-browser.info (SWR3 - 96K AAC)
+SWR 3,https://liveradio.swr.de/sw890cl/swr3/,AAC,96,working,radio-browser.info (SWR3 | 48k aac)
+SWR 3,https://swrswr3vr-hls.akamaized.net/hls/live/2018683/swr3vr/master.m3u8,AAC,2147,working,radio-browser.info (SWR3 Visual Radio)
+SWR 4 Mainz,https://liveradio.swr.de/sw282p3/swr4rp/,MP3,128,working,radio-browser.info (SWR4 Rheinland-Pfalz)
+SWR 4 Stuttgart,https://liveradio.swr.de/sw282p3/swr4bw/play.mp3,MP3,128,working,broadcaster stream URL (verified)
+SWR 4 Stuttgart,https://liveradio.swr.de/sw282p3/swr4st/play.mp3,MP3,128,working,broadcaster stream URL (verified)
+SWR Aktuell,https://liveradio.swr.de/sw282p3/swraktuell/play.aac,MP3,128,working,radio-browser.info (SWR Aktuell)
+SWR Aktuell,https://f131.rndfnk.com/ard/swr/swraktuell/live/aac/96/stream.aac?aggregator=web&sid=20OWw66vyEtL4iSzQDIYZxmbtaP&token=417rfsSDin95gYTgQbYGQU68OrUVw5SFCaOKSsmI1OA&tvf=WYsdueUEtBZmMTMxLnJuZGZuay5jb20,AAC,96,working,radio-browser.info (SWR aktuell)
+SWR Aktuell,https://liveradio.swr.de/sw890cl/swraktuell/,AAC,96,working,radio-browser.info (SWR Aktuell | 48k aac)
+SWR Aktuell,https://liveradio.swr.de/sw282p3/swraktuell/,MP3,128,working,radio-browser.info (SWR Aktuell)
+SWR Dasding,https://liveradio.swr.de/sw282p3/dasding/play.mp3,MP3,128,working,broadcaster stream URL (verified)
+SWR Kultur,https://f111.rndfnk.com/ard/swr/swr2/live/mp3/256/stream.mp3?aggregator=web&sid=28ew6Usq6cch83eglcsXwLlNRS3&token=Ip5bwQ_T81Lq_mqKc3HUjnxrk94ek2bDcfNyNHuqRGk&tvf=XFsRgyq06xZmMTExLnJuZGZuay5jb20,MP3,256,working,radio-browser.info (SWR Kultur)
+SWR4,https://liveradio.swr.de/sw890cl/swr4bw/,AAC,96,working,radio-browser.info (SWR4 BW [48 aac])
+SWR4,https://liveradio.swr.de/sw282p3/swr4ul/,MP3,128,working,radio-browser.info (SWR4 Ulm)
+SWR4,https://liveradio.swr.de/sw282p3/swr4ko/,MP3,128,working,radio-browser.info (swr4 koblenz)
+SWR4,https://liveradio.swr.de/sw282p3/swr4fr/,MP3,128,working,radio-browser.info (SWR4 Freiburg)
+Toggo Radio,https://radio.toggo.de/live/mp3-192,MP3,0,working,radio-browser.info (TOGGO Radio)
+Toggo Radio,https://radio.toggo.de/party/mp3-192,MP3,0,working,radio-browser.info (TOGGO Radio Party) [https variant]
+Toggo Radio,https://radio.toggo.de/deutsch/mp3-192,MP3,0,working,radio-browser.info (TOGGO Radio Deutsch-Pop) [https variant]
+Toggo Radio,http://radio.toggo.de/live/mp3-192,MP3,0,untested (plain http blocked from box),radio-browser.info (TOGGO Radio)
+Toggo Radio,http://radio.toggo.de/party/mp3-192,MP3,0,untested (plain http blocked from box),radio-browser.info (TOGGO Radio Party)
+Toggo Radio,http://radio.toggo.de/deutsch/mp3-192,MP3,0,untested (plain http blocked from box),radio-browser.info (TOGGO Radio Deutsch-Pop)
+WDR 1 Live,https://wdr-1live-live.icecast.wdr.de/wdr/1live/live/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (1LIVE) [https variant]
+WDR 1 Live,https://wdr-1live-diggi.icecast.wdr.de/wdr/1live/diggi/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (WDR 1Live Diggi) [https variant]
+WDR 1 Live,https://wdr-1live-djsession.icecast.wdr.de/wdr/1live/djsession/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (WDR 1Live - DJ Session) [https variant]
+WDR 1 Live,http://wdr-1live-live.icecast.wdr.de/wdr/1live/live/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (1LIVE)
+WDR 1 Live,http://wdr-1live-diggi.icecast.wdr.de/wdr/1live/diggi/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (WDR 1Live Diggi)
+WDR 1 Live,http://wdr-1live-djsession.icecast.wdr.de/wdr/1live/djsession/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (WDR 1Live - DJ Session)
+WDR 1 Live Diggi,https://wdr-1live-diggi.icecastssl.wdr.de/wdr/1live/diggi/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (1LIVE DIGGI -- (https))
+WDR 1 Live Diggi,https://wdr-radio.ard-mcdn.de/wdr/radio/1livediggi/hls/master.m3u8,AAC,102,working,radio-browser.info (1LIVE DIGGI)
+WDR 2 Rhein und Ruhr,https://wdr-wdr2-rheinland.icecast.wdr.de/wdr/wdr2/rheinland/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (WDR 2 Rheinland) [https variant]
+WDR 2 Rhein und Ruhr,https://wdr-wdr2-rheinruhr.icecast.wdr.de/wdr/wdr2/rheinruhr/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (WDR 2 Rhein und Ruhr) [https variant]
+WDR 2 Rhein und Ruhr,https://wdr-wdr2-ostwestfalenlippe.icecast.wdr.de/wdr/wdr2/ostwestfalenlippe/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (WDR 2 Ostwestfalen-Lippe) [https variant]
+WDR 2 Rhein und Ruhr,https://wdr-wdr2-muensterland.icecast.wdr.de/wdr/wdr2/muensterland/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (WDR 2 Münsterland) [https variant]
+WDR 2 Rhein und Ruhr,http://wdr-wdr2-rheinland.icecast.wdr.de/wdr/wdr2/rheinland/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (WDR 2 Rheinland)
+WDR 2 Rhein und Ruhr,http://wdr-wdr2-rheinruhr.icecast.wdr.de/wdr/wdr2/rheinruhr/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (WDR 2 Rhein und Ruhr)
+WDR 2 Rhein und Ruhr,http://wdr-wdr2-ostwestfalenlippe.icecast.wdr.de/wdr/wdr2/ostwestfalenlippe/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (WDR 2 Ostwestfalen-Lippe)
+WDR 2 Rhein und Ruhr,http://wdr-wdr2-muensterland.icecast.wdr.de/wdr/wdr2/muensterland/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (WDR 2 Münsterland)
+WDR 3,https://wdrhf.akamaized.net/hls/live/2027994/wdr3/master.m3u8,AAC,102,working,radio-browser.info (WDR 3 (adaptive bitrate))
+WDR 3,https://wdr-wdr3-klassik.icecast.wdr.de/wdr/wdr3/klassik/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (WDR 3 Klassik)
+WDR 3,https://wdr-wdr3-live.icecast.wdr.de/wdr/wdr3/live/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (WDR 3) [https variant]
+WDR 3,https://wdr-wdr3-live.icecast.wdr.de/wdr/wdr3/live/mp3/256/stream.mp3,MP3,256,working,radio-browser.info (WDR 3 HQ) [https variant]
+WDR 3,http://wdr-wdr3-live.icecast.wdr.de/wdr/wdr3/live/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (WDR 3)
+WDR 3,http://wdr-wdr3-live.icecast.wdr.de/wdr/wdr3/live/mp3/256/stream.mp3,MP3,256,untested (plain http blocked from box),radio-browser.info (WDR 3 HQ)
+WDR 4,https://wdr-wdr4-live.icecastssl.wdr.de/wdr/wdr4/live/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (WDR 4)
+WDR 4,https://wdr-wdr4-live.icecast.wdr.de/wdr/wdr4/live/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (WDR 4) [https variant]
+WDR 4,http://wdr-wdr4-live.icecast.wdr.de/wdr/wdr4/live/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (WDR 4)
+WDR 5,https://www.wdr.de/realaudio/radio/nachrichten/nachrichten_wdr5.mp3,MP3,0,working,radio-browser.info (WDR 5 Nachrichten)
+WDR 5,https://wdr-wdr5-live.icecastssl.wdr.de/wdr/wdr5/live/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (WDR 5)
+WDR 5,https://wdr-wdr5-live.icecast.wdr.de/wdr/wdr5/live/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (WDR 5) [https variant]
+WDR 5,http://wdr-wdr5-live.icecast.wdr.de/wdr/wdr5/live/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (WDR 5)
+WDR Die Maus,https://wdr-diemaus-live.icecastssl.wdr.de/wdr/diemaus/live/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (Die Maus)
+WDR Die Maus,https://wdr-diemaus-live.icecast.wdr.de/wdr/diemaus/live/mp3/128/stream.mp3?ar-distributor=ffa1,MP3,128,working,radio-browser.info (Die Maus) [https variant]
+WDR Die Maus,http://wdr-diemaus-live.icecast.wdr.de/wdr/diemaus/live/mp3/128/stream.mp3?ar-distributor=ffa1,MP3,128,untested (plain http blocked from box),radio-browser.info (Die Maus)
+WDR Event,https://wdrhf.akamaized.net/hls/live/2028169/wdrevent/192/seglist.m3u8,UNKNOWN,0,working,radio-browser.info (WDR Event)
+WDR Event,https://wdr-wdr-event.icecast.wdr.de/wdr/wdr/event/mp3/128/stream.mp3,MP3,128,working,radio-browser.info (WDR Event) [https variant]
+WDR Event,http://wdr-wdr-event.icecast.wdr.de/wdr/wdr/event/mp3/128/stream.mp3,MP3,128,untested (plain http blocked from box),radio-browser.info (WDR Event)
