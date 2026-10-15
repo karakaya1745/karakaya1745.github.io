@@ -64,8 +64,8 @@ Kategoriler adından çıkarılır (`tools/build.mjs` içindeki tablo):
 
 | Anahtar | Örnek |
 | --- | --- |
-| `public` | Das Erste, ZDF, 3sat, Deutschlandfunk |
-| `regional` | ARD eyalet kanalları, yerel TV, Antenne Bayern |
+| `public` | Das Erste, ZDF, 3sat, Deutsche Welle, Deutschlandfunk |
+| `regional` | ARD eyalet kanalları, yerel TV, h-eins.tv, Antenne Bayern |
 | `news` | Tagesschau 24, Welt, BR 24 |
 | `culture` | Bayern 2, Deutschlandfunk Kultur |
 | `music` | Deluxe Music, bigFM, Schlager Radio |
@@ -82,6 +82,12 @@ Kategoriler adından çıkarılır (`tools/build.mjs` içindeki tablo):
 Yalnızca durumu `working` veya `geo-blocked` (HTTP 403) olan linkler kalır. `failed` ve `untested` satırlar yayımlanmaz. Hiç canlı linki kalmayan kanallar kataloga girmez (örneğin Handystar, Schlager Deluxe, Sonnenklar TV, Radio Horeb, Radio NRW). Yeni kaynak eklenmez.
 
 Radyo CSV'sinde aynı istasyon adının altında kardeş yayınlar da `(1)`, `(2)` diye durur. Katalog bu gruplamayı bozmaz; yedek sıra kaynağın sırasıdır, çalışanlar öndedir.
+
+`sources/onay-2026-10-15.csv` sonradan onaylanan adaylardır. Betik bu dosyayı da okur. Etkinlik beslemeleri kataloğa girmez: `ARD Event`, `ARTE Event`, `BR Event`, `MDR+`, `rbb Event`, `SWR Event`, `ZDF Event`, `WDR Event`. `sadece Almanya` satırları 403 kabul edilir (`geo_de_only`). Katalogda zaten bulunan URL ikinci kez eklenmez. Yeni kanallar kategori tablosuna göre kendi grubunun sonuna yazılır.
+
+## Sıra
+
+Kanallar önce türe göre dizilir (TV, sonra radyo). Türün içinde kategori sırası şudur: `public`, `regional`, `news`, `culture`, `music`, `kids`, `religious`, `shopping`, `documentary`, `lifestyle`, `entertainment`, `other`. Aynı kategoride önceki göreli sıra korunur. Yayımlanan `tv.m3u` ve `radio.m3u` aynı sırayı kullanır; `group-title` kategoridir. Bir kanalın yedek linklerinde çalışan adresler, 403 adreslerden önce gelir.
 
 ## Nasıl güncellenir
 

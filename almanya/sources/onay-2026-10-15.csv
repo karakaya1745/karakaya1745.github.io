@@ -1,0 +1,87 @@
+kanal,link,durum,kaynak,tur
+ARD Event 2,https://ardevent2.akamaized.net/hls/live/681512/ardevent2_geo/master.m3u8,working,kodinerds extra,yeni_kanal
+ARTE Event 1,https://arteconcerthls.akamaized.net/hls/live/2025494/channel01/master.m3u8,working,kodinerds,yeni_kanal
+ARTE Event 2,https://arteconcerthls.akamaized.net/hls/live/2025495/channel02/master.m3u8,working,kodinerds extra,yeni_kanal
+ARTE Event 3,https://arteconcerthls.akamaized.net/hls/live/2025496/channel03/master.m3u8,working,kodinerds extra,yeni_kanal
+ARTE Event 4,https://arteconcerthls.akamaized.net/hls/live/2025497/channel04/master.m3u8,working,kodinerds extra,yeni_kanal
+ARTE Event 5,https://arteconcerthls.akamaized.net/hls/live/2025498/channel05/master.m3u8,working,kodinerds extra,yeni_kanal
+ARTE Event 6,https://arteconcerthls.akamaized.net/hls/live/2025499/channel06/master.m3u8,working,kodinerds extra,yeni_kanal
+Bibel TV Musik,https://bibeltv03.iptv-playoutcenter.de/bibeltv03/bibeltv03.stream_1/playlist.m3u8,working,Codeberg Free-IPTV DE.m3u,yeni_kanal
+Bibel TV Musik,https://bibeltv03.iptv-playoutcenter.de/bibeltv03/bibeltv03.stream_all/playlist.m3u8,working,Codeberg Free-IPTV / playoutcenter pattern,yeni_kanal
+BR Event 1,https://brevent.akamaized.net/hls/live/2028218/event_01/master.m3u8,sadece Almanya,kodinerds extra,yeni_kanal
+BR Event 2,https://brevent.akamaized.net/hls/live/2028219/event_02/master.m3u8,sadece Almanya,kodinerds extra,yeni_kanal
+BR Event 3,https://brevent.akamaized.net/hls/live/2028220/event_03/master.m3u8,sadece Almanya,kodinerds extra,yeni_kanal
+BR Event 4,https://brevent.akamaized.net/hls/live/2028221/event_04/master.m3u8,working,kodinerds extra,yeni_kanal
+Deutsche Welle,https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8,working,kodinerds,yeni_kanal
+Deutsche Welle,https://dwamdstream111.akamaized.net/hls/live/2017972/dwstream111/index.m3u8,working,GitHub H3rby7,yeni_kanal
+Deutsche Welle+,https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/index.m3u8,working,kodinerds,yeni_kanal
+DW Deutsch,https://dwamdstream106.akamaized.net/hls/live/2017965/dwstream106/master.m3u8,working,Codeberg Free-IPTV / DW CDN,yeni_kanal
+DW Deutsch+,https://dwamdstream105.akamaized.net/hls/live/2015531/dwstream105/master.m3u8,working,Codeberg Free-IPTV / DW CDN,yeni_kanal
+Franken Fernsehen,https://frankentv.iptv-playoutcenter.de/frankentv/frankentv.stream_1/chunks.m3u8,working,Codeberg Free-IPTV,yeni_kanal
+h-eins.tv,https://5857499ee635b.streamlock.net/heinstv-live/_definst_/smil:livestream.smil/playlist.m3u8,working,kodinerds,yeni_kanal
+MDR+ 1,https://mdrevent1wwhls.akamaized.net/hls/live/2025205/mdrevent1ww/master.m3u8,working,kodinerds,yeni_kanal
+MDR+ 2,https://mdrevent2wwhls.akamaized.net/hls/live/2025367/mdrevent2ww/master.m3u8,working,kodinerds extra,yeni_kanal
+MDR+ 3,https://mdrevent3wwhls.akamaized.net/hls/live/2025368/mdrevent3ww/master.m3u8,working,kodinerds extra,yeni_kanal
+MDR+ 4,https://mdrevent4wwhls.akamaized.net/hls/live/2025369/mdrevent4ww/master.m3u8,working,kodinerds extra,yeni_kanal
+MDR+ 5,https://mdrevent5wwhls.akamaized.net/hls/live/2025370/mdrevent5ww/master.m3u8,working,kodinerds extra,yeni_kanal
+Melodie TV,https://live20.bozztv.com/akamaissh101/ssh101/melodietvlive/chunks.m3u8,working,kodinerds,yeni_kanal
+rbb Event 1,https://rbbevent01-hls.akamaized.net/hls/live/685984/rbbevent01/master.m3u8,working,kodinerds extra,yeni_kanal
+rbb Event 2,https://rbbevent02-hls.akamaized.net/hls/live/685985/rbbevent02/master.m3u8,working,kodinerds extra,yeni_kanal
+SWR Event 1,https://swrevent01hls.akamaized.net/hls/live/2016766/event01/master.m3u8,working,kodinerds extra,yeni_kanal
+SWR Event 2,https://swrevent02hls.akamaized.net/hls/live/2016767/event02/master.m3u8,working,kodinerds extra,yeni_kanal
+SWR Event 3,https://swrevent03hls.akamaized.net/hls/live/2016768/event03/master.m3u8,sadece Almanya,kodinerds extra,yeni_kanal
+SWR Event 4,https://swrevent04hls.akamaized.net/hls/live/2016769/event04/master.m3u8,sadece Almanya,kodinerds extra,yeni_kanal
+WDR Studio Köln,https://wdrlokalzeit.akamaized.net/hls/live/2023550-b/wdrlz_koeln/master.m3u8,working,GitHub H3rby7 m3u-lists,yeni_kanal
+ZDF Event 10,https://zdf-hls-10.akamaized.net/hls/live/2016305/de/high/master.m3u8,sadece Almanya,kodinerds extra,yeni_kanal
+ZDF Event 3,https://zdf-hls-03.akamaized.net/hls/live/2016213/de/high/master.m3u8,sadece Almanya,kodinerds,yeni_kanal
+ZDF Event 5,https://zdf-hls-05.akamaized.net/hls/live/2016300/de/high/master.m3u8,sadece Almanya,kodinerds,yeni_kanal
+ZDF Event 7,https://zdf-hls-07.akamaized.net/hls/live/2016302/de/high/master.m3u8,sadece Almanya,kodinerds extra,yeni_kanal
+ZDF Event 9,https://zdf-hls-09.akamaized.net/hls/live/2016304/de/high/master.m3u8,sadece Almanya,kodinerds extra,yeni_kanal
+WDR Event 10,https://wdrevent.akamaized.net/hls/live/2020360/wdr_msl4_wdrevent10/master.m3u8,working,kodinerds extra,yeni_link
+WDR Event 3,https://wdrevent.akamaized.net/hls/live/2016698/wdr_msl4_wdrevent3/master.m3u8,working,kodinerds extra,yeni_link
+WDR Event 7,https://wdrevent.akamaized.net/hls/live/2020357/wdr_msl4_wdrevent7/master.m3u8,sadece Almanya,kodinerds extra,yeni_link
+WDR Event 8,https://wdrevent.akamaized.net/hls/live/2020358/wdr_msl4_wdrevent8/master.m3u8,sadece Almanya,kodinerds extra,yeni_link
+WDR Event 9,https://wdrevent.akamaized.net/hls/live/2020359/wdr_msl4_wdrevent9/master.m3u8,sadece Almanya,kodinerds extra,yeni_link
+WDR Studio Aachen,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master.m3u8,working,kodinerds / ARD mcdn,yeni_link
+WDR Studio Aachen,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/int/master.m3u8,sadece Almanya,ARD mcdn int variant,yeni_link
+WDR Studio Bielefeld,https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master.m3u8,working,kodinerds / ARD mcdn,yeni_link
+WDR Studio Bielefeld,https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/int/master.m3u8,sadece Almanya,ARD mcdn int variant,yeni_link
+WDR Studio Bonn,https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master.m3u8,working,kodinerds / ARD mcdn,yeni_link
+WDR Studio Dortmund,https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master.m3u8,working,kodinerds / ARD mcdn,yeni_link
+WDR Studio Duisburg,https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master.m3u8,working,kodinerds / ARD mcdn,yeni_link
+WDR Studio Duisburg,https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/int/master.m3u8,sadece Almanya,ARD mcdn int variant,yeni_link
+WDR Studio Düsseldorf,https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master.m3u8,working,kodinerds / ARD mcdn,yeni_link
+WDR Studio Düsseldorf,https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/int/master.m3u8,sadece Almanya,ARD mcdn int variant,yeni_link
+WDR Studio Essen,https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master.m3u8,working,kodinerds / ARD mcdn,yeni_link
+WDR Studio Essen,https://wdr-live.ard-mcdn.de/wdr/essen/hls/int/master.m3u8,sadece Almanya,ARD mcdn int variant,yeni_link
+WDR Studio Münster,https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master.m3u8,working,kodinerds / ARD mcdn,yeni_link
+WDR Studio Münster,https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/int/master.m3u8,sadece Almanya,ARD mcdn int variant,yeni_link
+WDR Studio Siegen,https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master.m3u8,working,kodinerds / ARD mcdn,yeni_link
+WDR Studio Siegen,https://wdr-live.ard-mcdn.de/wdr/siegen/hls/int/master.m3u8,sadece Almanya,ARD mcdn int variant,yeni_link
+WDR Studio Wuppertal,https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master.m3u8,working,kodinerds / ARD mcdn,yeni_link
+WDR Studio Wuppertal,https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/int/master.m3u8,sadece Almanya,ARD mcdn int variant,yeni_link
+0nlineradio 70s,https://stream.0nlineradio.com/70s?ref=radiobrowser,working,radio-browser.info,radyo
+100'5 Alemannia,https://stream.dashitradio.de/alemannia/mp3-128/stream.mp3,working,kodinerds radio_de,radyo
+100'5 DAS HITRADIO,https://stream.dashitradio.de/dashitradio/mp3-128/stream.mp3,working,kodinerds radio_de,radyo
+Absolut Radio,https://absolut-top.live-sm.absolutradio.de/absolut-top/stream/mp3,working,kodinerds radio_de,radyo
+Antenne Brandenburg,https://dispatcher.rndfnk.com/rbb/antennebrandenburg/live/mp3/mid,working,kodinerds radio_de,radyo
+Bayern 1 Mainfranken,https://dispatcher.rndfnk.com/br/br1/mainfranken/mp3/mid,working,kodinerds radio_de,radyo
+bigFM,https://streams.bigfm.de/bigfm-deutschland-128-mp3,working,radio-browser.info (backup for bigFM),radyo
+Campusradio Ilmenau,https://stream.radio-hsf.de/hsf.mp3,working,kodinerds radio_de,radyo
+Campusradio Köln (Kölncampus),https://live.koelncampus.com/live,working,kodinerds radio_de,radyo
+Campusradio Mannheim (Radioaktiv),https://stream.radioaktiv.org/VeryHiFi,working,kodinerds radio_de,radyo
+Campusradio Münster (Radio Q),https://rqstream.radioq.de/stream/192.mp3,working,kodinerds radio_de,radyo
+Campusradio Regensburg (Studentenfunk),https://studentenfunk.out.airtime.pro/studentenfunk_a#,working,kodinerds radio_de,radyo
+Campusradio Universität Duisburg-Essen (CampusFM),https://www.campusfm.info/stream?x=y,working,kodinerds radio_de,radyo
+DELUXE EASY,https://audiostreams.deluxemusic.tv/easy/mp3-192,working,kodinerds radio_de,radyo
+DELUXE LOUNGE RADIO,https://audiostreams.deluxemusic.tv/lounge/mp3-192,working,kodinerds radio_de,radyo
+DELUXE MUSIC RADIO,https://audiostreams.deluxemusic.tv/music/mp3-192,working,kodinerds radio_de,radyo
+domradio.de,https://dom.audiostream.io/domradio/1000/mp3/128/domradio-rp.mp3,working,kodinerds radio_de,radyo
+DONAU 3 FM,https://frontend.streamonkey.net/donau3fm-live/stream/mp3,working,kodinerds radio_de,radyo
+ERF Jess,https://stream.erf.de/erfpop.m3u,working,kodinerds radio_de,radyo
+ERF Plus,https://stream.erf.de/erfplus.m3u,working,kodinerds radio_de,radyo
+JAM FM Black Label,https://stream.jam.fm/jamfm-bl/mp3-128,working,radio-browser.info,radyo
+Ostseewelle,https://addrad.io/4454pjf,working,radio-browser.info,radyo
+Radio 7,https://streams.radio7.de/dab/mp3-192/web/,working,radio-browser.info,radyo
+Schlagerparadies,https://webstream.schlagerparadies.de/schlager30842,working,radio-browser.info,radyo
+YOU FM (mp3/high),https://dispatcher.rndfnk.com/hr/youfm/live/mp3/high,working,radio-browser.info,radyo

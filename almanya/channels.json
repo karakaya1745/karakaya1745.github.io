@@ -1,21 +1,8 @@
 {
-  "_revision": 1,
-  "updatedAt": "2026-10-14T12:56:32.862Z",
+  "_revision": 2,
+  "updatedAt": "2026-10-15T06:15:31.835Z",
   "app": "ZapIt TV",
   "channels": [
-    {
-      "id": "tv-123-live-tv",
-      "name": "123 Live TV",
-      "type": "tv",
-      "category": "shopping",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://123tv-mx1.flex-cdn.net/index.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
     {
       "id": "tv-3sat",
       "name": "3sat",
@@ -37,40 +24,6 @@
         },
         {
           "url": "https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/low/master.m3u8",
-          "geo_de_only": true
-        }
-      ]
-    },
-    {
-      "id": "tv-anixe",
-      "name": "Anixe +",
-      "type": "tv",
-      "category": "entertainment",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://wow.anixa.tv/live/anixesd/playlist.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://ma.anixa.tv/clips/stream/anixesd/index.m3u8",
-          "geo_de_only": true
-        }
-      ]
-    },
-    {
-      "id": "tv-anixe-hd-serie",
-      "name": "Anixe HD Serie",
-      "type": "tv",
-      "category": "entertainment",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://wow.anixa.tv/live/anixehd2/playlist.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://ma.anixa.tv/clips/stream/anixehd/index.m3u8",
           "geo_de_only": true
         }
       ]
@@ -101,19 +54,6 @@
       ]
     },
     {
-      "id": "tv-aristo-tv",
-      "name": "Aristo TV",
-      "type": "tv",
-      "category": "entertainment",
-      "geo_de_only": true,
-      "streams": [
-        {
-          "url": "https://ma.anixa.tv/clips/stream/aristo/index.m3u8",
-          "geo_de_only": true
-        }
-      ]
-    },
-    {
       "id": "tv-arte-deutsch",
       "name": "ARTE Deutsch",
       "type": "tv",
@@ -131,6 +71,239 @@
         {
           "url": "https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/master_v720.m3u8",
           "geo_de_only": true
+        }
+      ]
+    },
+    {
+      "id": "tv-das-erste",
+      "name": "Das Erste",
+      "type": "tv",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master360p1200.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master1080p5000.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master720p3200.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master360p1200.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master1080p5000.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master720p3200.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-one",
+      "name": "One",
+      "type": "tv",
+      "category": "public",
+      "geo_de_only": true,
+      "streams": [
+        {
+          "url": "https://mcdn-one.ard.de/ardone/hls/master.m3u8",
+          "geo_de_only": true
+        }
+      ]
+    },
+    {
+      "id": "tv-phoenix",
+      "name": "Phoenix",
+      "type": "tv",
+      "category": "public",
+      "geo_de_only": true,
+      "streams": [
+        {
+          "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/de/veryhigh/master.m3u8",
+          "geo_de_only": true
+        },
+        {
+          "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/de/high/master.m3u8",
+          "geo_de_only": true
+        },
+        {
+          "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/de/med/master.m3u8",
+          "geo_de_only": true
+        },
+        {
+          "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/de/low/master.m3u8",
+          "geo_de_only": true
+        },
+        {
+          "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/veryhigh/master.m3u8",
+          "geo_de_only": true
+        },
+        {
+          "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/high/master.m3u8",
+          "geo_de_only": true
+        },
+        {
+          "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/med/master.m3u8",
+          "geo_de_only": true
+        },
+        {
+          "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/low/master.m3u8",
+          "geo_de_only": true
+        }
+      ]
+    },
+    {
+      "id": "tv-zdf",
+      "name": "ZDF",
+      "type": "tv",
+      "category": "public",
+      "geo_de_only": true,
+      "streams": [
+        {
+          "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/de/veryhigh/master.m3u8",
+          "geo_de_only": true
+        },
+        {
+          "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8",
+          "geo_de_only": true
+        },
+        {
+          "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/de/med/master.m3u8",
+          "geo_de_only": true
+        },
+        {
+          "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/de/low/master.m3u8",
+          "geo_de_only": true
+        },
+        {
+          "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/veryhigh/master.m3u8",
+          "geo_de_only": true
+        },
+        {
+          "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/high/master.m3u8",
+          "geo_de_only": true
+        },
+        {
+          "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/med/master.m3u8",
+          "geo_de_only": true
+        },
+        {
+          "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/low/master.m3u8",
+          "geo_de_only": true
+        }
+      ]
+    },
+    {
+      "id": "tv-zdf-neo",
+      "name": "ZDF Neo",
+      "type": "tv",
+      "category": "public",
+      "geo_de_only": true,
+      "streams": [
+        {
+          "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/de/veryhigh/master.m3u8",
+          "geo_de_only": true
+        },
+        {
+          "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8",
+          "geo_de_only": true
+        },
+        {
+          "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/de/med/master.m3u8",
+          "geo_de_only": true
+        },
+        {
+          "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/de/low/master.m3u8",
+          "geo_de_only": true
+        },
+        {
+          "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/veryhigh/master.m3u8",
+          "geo_de_only": true
+        },
+        {
+          "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/high/master.m3u8",
+          "geo_de_only": true
+        },
+        {
+          "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/med/master.m3u8",
+          "geo_de_only": true
+        },
+        {
+          "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/low/master.m3u8",
+          "geo_de_only": true
+        }
+      ]
+    },
+    {
+      "id": "tv-deutsche-welle",
+      "name": "Deutsche Welle",
+      "type": "tv",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://dwamdstream111.akamaized.net/hls/live/2017972/dwstream111/index.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-deutsche-welle-plus",
+      "name": "Deutsche Welle+",
+      "type": "tv",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/index.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-dw-deutsch",
+      "name": "DW Deutsch",
+      "type": "tv",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dwamdstream106.akamaized.net/hls/live/2017965/dwstream106/master.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-dw-deutsch-plus",
+      "name": "DW Deutsch+",
+      "type": "tv",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dwamdstream105.akamaized.net/hls/live/2015531/dwstream105/master.m3u8",
+          "geo_de_only": false
         }
       ]
     },
@@ -227,203 +400,6 @@
       ]
     },
     {
-      "id": "tv-bibel-tv",
-      "name": "Bibel TV",
-      "type": "tv",
-      "category": "religious",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://bibint01.iptv-playoutcenter.de/bibint01/bibint01.stream_all/playlist.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://bibeltv01.iptv-playoutcenter.de/bibeltv01/bibeltv01.stream_all/playlist.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-das-erste",
-      "name": "Das Erste",
-      "type": "tv",
-      "category": "public",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master360p1200.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master1080p5000.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master720p3200.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master360p1200.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master1080p5000.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master720p3200.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-deluxe-dance-by-kontor",
-      "name": "Deluxe Dance by Kontor",
-      "type": "tv",
-      "category": "music",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/2646ace419595568_33669357_2610130235_1080p.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/2646ace419595568_33669357_2610130235_720p.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/2646ace419595568_33669357_2610130235_480p.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-deluxe-music",
-      "name": "Deluxe Music",
-      "type": "tv",
-      "category": "music",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/2646acd91d5391e3_13018905_2610130205_1.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/2646acd91d5391e3_13018905_2610130205_2.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/2646acd91d5391e3_13018905_2610130205_3.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-deluxe-rap",
-      "name": "Deluxe Rap",
-      "type": "tv",
-      "category": "music",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/2646ace1f474593f_33669365_2610131208_5.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/2646ace1f474593f_33669365_2610131208_1.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/2646ace1f474593f_33669365_2610131208_2.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-df1",
-      "name": "DF1",
-      "type": "tv",
-      "category": "entertainment",
-      "geo_de_only": true,
-      "streams": [
-        {
-          "url": "https://d287776cjxyfeq.cloudfront.net/out/v1/08823cd7fba74508a5a577fd51dc41f6/index.m3u8",
-          "geo_de_only": true
-        }
-      ]
-    },
-    {
-      "id": "tv-dmf",
-      "name": "DMF",
-      "type": "tv",
-      "category": "music",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://d-m-f.iptv-playoutcenter.de/dmf/dmf1/playlist.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-dokusat",
-      "name": "Dokusat",
-      "type": "tv",
-      "category": "documentary",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://muc3.iptv-playoutcenter.de/dokusat/dokusat1/playlist.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-ewtn-auf-deutsch",
-      "name": "EWTN auf Deutsch",
-      "type": "tv",
-      "category": "religious",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://cdn3.wowza.com/1/ZUkxSDBrZHlMbjVn/ZkhNRFNZ/hls/live/playlist.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://cdn3.wowza.com/1/ZUkxSDBrZHlMbjVn/ZkhNRFNZ/hls/ppbbrj4k/720/chunklist.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://cdn3.wowza.com/1/ZUkxSDBrZHlMbjVn/ZkhNRFNZ/hls/ppbbrj4k/480/chunklist.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://cdn3.wowza.com/1/ZUkxSDBrZHlMbjVn/ZkhNRFNZ/hls/ppbbrj4k/360/chunklist.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
       "id": "tv-franken-plus",
       "name": "Franken Plus",
       "type": "tv",
@@ -444,23 +420,6 @@
         },
         {
           "url": "https://stream01.welocal.stream/stream/fhd-frankenplus_119/ngrp:stream_all/chunklist_b446000.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-hope-tv-deutsch",
-      "name": "Hope TV Deutsch",
-      "type": "tv",
-      "category": "religious",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://jstre.am/live/jsl:AQfP7b5HoTM.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://cdn-de-fra.b-cdn.net/hcorg_Lmro4tmzOp1/s/jsl_AQfP7b5HoTM/master.m3u8",
           "geo_de_only": false
         }
       ]
@@ -495,215 +454,6 @@
       ]
     },
     {
-      "id": "tv-hse",
-      "name": "HSE",
-      "type": "tv",
-      "category": "shopping",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://hse24.akamaized.net/hls/live/2006663/hse24/playlist.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://hse24.akamaized.net/hls/live/2006663/hse24/master_1080p25.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://hse24.akamaized.net/hls/live/2006663-b/hse24/master_1080p25.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://hse24.akamaized.net/hls/live/2006663/hse24/master_900p25.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-hse-extra",
-      "name": "HSE Extra",
-      "type": "tv",
-      "category": "shopping",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/playlist.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/master_1080p25.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://hse24extra.akamaized.net/hls/live/2006596-b/hse24extra/master_1080p25.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/master_900p25.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-hse-trend",
-      "name": "HSE Trend",
-      "type": "tv",
-      "category": "shopping",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/playlist.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/master_576_1p25.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://hse24trend.akamaized.net/hls/live/2006597-b/hse24trend/master_576_1p25.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/master_576_2p25.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-hoehenrausch",
-      "name": "Höhenrausch",
-      "type": "tv",
-      "category": "music",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/5d398d83-c54c-11ec-967f-401ac48a6867/0/master.m3u8?country=DE&vendor=samsung&coppa=1",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/f769642d-5984-11ef-a2df-87241c204d22/0/master.m3u8?country=DE&vendor=samsung&coppa=1",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-just-cooking",
-      "name": "Just Cooking",
-      "type": "tv",
-      "category": "lifestyle",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/44bf4cd7-7cd5-11eb-908d-533d39655269/0/master.m3u8?country=DE&vendor=samsung&coppa=1",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-just-fishing",
-      "name": "Just Fishing",
-      "type": "tv",
-      "category": "lifestyle",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/3d1508f1-c5ff-11ec-967f-401ac48a6867/0/master.m3u8?country=DE&vendor=samsung&coppa=1",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-juwelo",
-      "name": "Juwelo",
-      "type": "tv",
-      "category": "shopping",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/2646acd5413662e9_12812347_2610120941_3_3.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/2646acd5413662e9_12812347_2610120941_2_2.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/2646acd5413662e9_12812347_2610120941_1_1.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-k-tv",
-      "name": "K-TV",
-      "type": "tv",
-      "category": "religious",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://d1pz8zear993v8.cloudfront.net/hlsme/kathtv.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://d1pz8zear993v8.cloudfront.net/hlsme/stream_0.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://d1pz8zear993v8.cloudfront.net/hlsme/stream_1.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://d1pz8zear993v8.cloudfront.net/hlsme/stream_2.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-kika",
-      "name": "KIKA",
-      "type": "tv",
-      "category": "kids",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master-360p-1200.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master-1080p-5000.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master-720p-3200.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master-360p-1200.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master-1080p-5000.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master-720p-3200.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
       "id": "tv-l-tv",
       "name": "L TV",
       "type": "tv",
@@ -712,27 +462,6 @@
       "streams": [
         {
           "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/130321/130321_264_live.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-lilo-tv",
-      "name": "Lilo TV",
-      "type": "tv",
-      "category": "kids",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://lilo.iptv-playoutcenter.de/lilo/lilo-sat1/playlist.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://lilo.iptv-playoutcenter.de/lilo/lilo-all/playlist.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://lilo.iptv-playoutcenter.de/lilo/lilo1/playlist.m3u8",
           "geo_de_only": false
         }
       ]
@@ -814,23 +543,6 @@
         {
           "url": "https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist.m3u8",
           "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-n24-doku",
-      "name": "N24 Doku",
-      "type": "tv",
-      "category": "documentary",
-      "geo_de_only": true,
-      "streams": [
-        {
-          "url": "https://broadcast.n24-doku.personalstream.tv/ses/hls/live/2107300/n24-doku-live/master.m3u8",
-          "geo_de_only": true
-        },
-        {
-          "url": "https://w-n24doku2weltcms.akamaized.net/hls/live/2106400/N24Doku-SES/master.m3u8",
-          "geo_de_only": true
         }
       ]
     },
@@ -988,32 +700,6 @@
       ]
     },
     {
-      "id": "tv-one",
-      "name": "One",
-      "type": "tv",
-      "category": "public",
-      "geo_de_only": true,
-      "streams": [
-        {
-          "url": "https://mcdn-one.ard.de/ardone/hls/master.m3u8",
-          "geo_de_only": true
-        }
-      ]
-    },
-    {
-      "id": "tv-one-terra",
-      "name": "One Terra",
-      "type": "tv",
-      "category": "documentary",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/0d7ddc61-818f-11eb-908d-533d39655269/0/master.m3u8?country=DE&vendor=samsung&coppa=1",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
       "id": "tv-otva",
       "name": "OTVA",
       "type": "tv",
@@ -1022,98 +708,6 @@
       "streams": [
         {
           "url": "https://stream02.welocal.stream/stream/fhd-otva_6546/ngrp:stream_all/playlist.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-phoenix",
-      "name": "Phoenix",
-      "type": "tv",
-      "category": "public",
-      "geo_de_only": true,
-      "streams": [
-        {
-          "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/de/veryhigh/master.m3u8",
-          "geo_de_only": true
-        },
-        {
-          "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/de/high/master.m3u8",
-          "geo_de_only": true
-        },
-        {
-          "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/de/med/master.m3u8",
-          "geo_de_only": true
-        },
-        {
-          "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/de/low/master.m3u8",
-          "geo_de_only": true
-        },
-        {
-          "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/veryhigh/master.m3u8",
-          "geo_de_only": true
-        },
-        {
-          "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/high/master.m3u8",
-          "geo_de_only": true
-        },
-        {
-          "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/med/master.m3u8",
-          "geo_de_only": true
-        },
-        {
-          "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/low/master.m3u8",
-          "geo_de_only": true
-        }
-      ]
-    },
-    {
-      "id": "tv-qvc-deutschland",
-      "name": "QVC Deutschland",
-      "type": "tv",
-      "category": "shopping",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://qvcde-live.akamaized.net/hls/live/2097104/qvc/master.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://qvcde-live.akamaized.net/hls/live/2097104/qvc/1/1.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://qvcde-live.akamaized.net/hls/live/2097104/qvc/2/2.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://qvcde-live.akamaized.net/hls/live/2097104/qvc/3/3.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-qvc-style-deutschland",
-      "name": "QVC Style Deutschland",
-      "type": "tv",
-      "category": "shopping",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://qvcde-live.akamaized.net/hls/live/2097104/qby/master.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-qvc-zwei",
-      "name": "QVC Zwei",
-      "type": "tv",
-      "category": "shopping",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://qvcde-live.akamaized.net/hls/live/2097104/qps/master.m3u8",
           "geo_de_only": false
         }
       ]
@@ -1187,19 +781,6 @@
       ]
     },
     {
-      "id": "tv-ric",
-      "name": "RiC",
-      "type": "tv",
-      "category": "kids",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://rictv.iptv-playoutcenter.de/rictv/rictv-web/playlist.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
       "id": "tv-sachsen-eins",
       "name": "Sachsen Eins",
       "type": "tv",
@@ -1212,56 +793,6 @@
         },
         {
           "url": "https://sachsen1.iptv-playoutcenter.de/sachsen1/sachsen1.stream_1/chunks.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-sender-neu-jerusalem",
-      "name": "Sender Neu Jerusalem",
-      "type": "tv",
-      "category": "religious",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://bild-und-ton.stream/snj-de/snj-de.smil/.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://bild-und-ton.stream/snj-de/snj-de.smil/chunklist_w1024417188_b105000_slde.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://bild-und-ton.stream/snj-de/snj-de.smil/chunklist_w1024417188_b145000_slde.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://bild-und-ton.stream/snj-de/snj-de.smil/chunklist_w1024417188_b365000_slde.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-shop-lc-deutschland",
-      "name": "Shop LC Deutschland",
-      "type": "tv",
-      "category": "shopping",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel(LCGERMANYWEB)/master.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel(LCGERMANYWEB)/01.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel(LCGERMANYWEB)/02.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel(LCGERMANYWEB)/03.m3u8",
           "geo_de_only": false
         }
       ]
@@ -1287,19 +818,6 @@
         },
         {
           "url": "https://srfs.akamaized.net/hls/live/689649/srfsgeo/master-720p-3328.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-stimmungsgarten-tv",
-      "name": "Stimmungsgarten TV",
-      "type": "tv",
-      "category": "music",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://stimmungsgartentv.iptv-playoutcenter.de/stimmungsgartentv/stimmungsgartentv-all/playlist.m3u8",
           "geo_de_only": false
         }
       ]
@@ -1339,48 +857,6 @@
       ]
     },
     {
-      "id": "tv-tagesschau-24",
-      "name": "Tagesschau 24",
-      "type": "tv",
-      "category": "news",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master-360p-1328.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master-720p-3328.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master-540p-1728.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-telegold",
-      "name": "Telegold",
-      "type": "tv",
-      "category": "shopping",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://telegold.iptv-playoutcenter.de/telegold/telegold-all/playlist.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://telegold.iptv-playoutcenter.de/telegold/telegold1/playlist.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
       "id": "tv-tv-ingolstadt",
       "name": "TV Ingolstadt",
       "type": "tv",
@@ -1401,19 +877,6 @@
         },
         {
           "url": "https://stream01.welocal.stream/stream/fhd-tvingolstadt_44349/ngrp:stream_all/chunklist_b446000.m3u8",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-volksmusik-tv",
-      "name": "Volksmusik TV",
-      "type": "tv",
-      "category": "music",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://vmtv.iptv-playoutcenter.de/vmtv/vmtv1/playlist.m3u8",
           "geo_de_only": false
         }
       ]
@@ -1485,6 +948,14 @@
         {
           "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018019-b/wdrlz_aachen/master.m3u8",
           "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-live.ard-mcdn.de/wdr/aachen/hls/int/master.m3u8",
+          "geo_de_only": true
         }
       ]
     },
@@ -1498,6 +969,14 @@
         {
           "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018026-b/wdrlz_bielefeld/master.m3u8",
           "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/int/master.m3u8",
+          "geo_de_only": true
         }
       ]
     },
@@ -1510,6 +989,10 @@
       "streams": [
         {
           "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018021-b/wdrlz_bonn/master.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master.m3u8",
           "geo_de_only": false
         }
       ]
@@ -1524,6 +1007,10 @@
         {
           "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018022-b/wdrlz_dortmund/master.m3u8",
           "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master.m3u8",
+          "geo_de_only": false
         }
       ]
     },
@@ -1537,6 +1024,14 @@
         {
           "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018024-b/wdrlz_duisburg/master.m3u8",
           "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/int/master.m3u8",
+          "geo_de_only": true
         }
       ]
     },
@@ -1550,6 +1045,14 @@
         {
           "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018023-b/wdrlz_duesseldorf/master.m3u8",
           "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/int/master.m3u8",
+          "geo_de_only": true
         }
       ]
     },
@@ -1563,6 +1066,14 @@
         {
           "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018027-b/wdrlz_essen/master.m3u8",
           "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-live.ard-mcdn.de/wdr/essen/hls/int/master.m3u8",
+          "geo_de_only": true
         }
       ]
     },
@@ -1576,6 +1087,14 @@
         {
           "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018025-b/wdrlz_muensterland/master.m3u8",
           "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/int/master.m3u8",
+          "geo_de_only": true
         }
       ]
     },
@@ -1589,6 +1108,14 @@
         {
           "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018020-b/wdrlz_siegen/master.m3u8",
           "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-live.ard-mcdn.de/wdr/siegen/hls/int/master.m3u8",
+          "geo_de_only": true
         }
       ]
     },
@@ -1601,6 +1128,78 @@
       "streams": [
         {
           "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018028-b/wdrlz_wuppertal/master.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/int/master.m3u8",
+          "geo_de_only": true
+        }
+      ]
+    },
+    {
+      "id": "tv-franken-fernsehen",
+      "name": "Franken Fernsehen",
+      "type": "tv",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://frankentv.iptv-playoutcenter.de/frankentv/frankentv.stream_1/chunks.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-h-eins-tv",
+      "name": "h-eins.tv",
+      "type": "tv",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://5857499ee635b.streamlock.net/heinstv-live/_definst_/smil:livestream.smil/playlist.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-wdr-studio-koeln",
+      "name": "WDR Studio Köln",
+      "type": "tv",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://wdrlokalzeit.akamaized.net/hls/live/2023550-b/wdrlz_koeln/master.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-tagesschau-24",
+      "name": "Tagesschau 24",
+      "type": "tv",
+      "category": "news",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master-360p-1328.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master-720p-3328.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master-540p-1728.m3u8",
           "geo_de_only": false
         }
       ]
@@ -1622,60 +1221,6 @@
         },
         {
           "url": "https://broadcast.welt.personalstream.tv/ses/hls/live/2040228/welttv-broadcast/index.m3u8",
-          "geo_de_only": true
-        }
-      ]
-    },
-    {
-      "id": "tv-xplore",
-      "name": "Xplore",
-      "type": "tv",
-      "category": "documentary",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/bab21a88-7cd4-11eb-908d-533d39655269/0/master.m3u8?country=DE&vendor=samsung&coppa=1",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "tv-zdf",
-      "name": "ZDF",
-      "type": "tv",
-      "category": "public",
-      "geo_de_only": true,
-      "streams": [
-        {
-          "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/de/veryhigh/master.m3u8",
-          "geo_de_only": true
-        },
-        {
-          "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8",
-          "geo_de_only": true
-        },
-        {
-          "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/de/med/master.m3u8",
-          "geo_de_only": true
-        },
-        {
-          "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/de/low/master.m3u8",
-          "geo_de_only": true
-        },
-        {
-          "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/veryhigh/master.m3u8",
-          "geo_de_only": true
-        },
-        {
-          "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/high/master.m3u8",
-          "geo_de_only": true
-        },
-        {
-          "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/med/master.m3u8",
-          "geo_de_only": true
-        },
-        {
-          "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/low/master.m3u8",
           "geo_de_only": true
         }
       ]
@@ -1722,92 +1267,761 @@
       ]
     },
     {
-      "id": "tv-zdf-neo",
-      "name": "ZDF Neo",
+      "id": "tv-deluxe-dance-by-kontor",
+      "name": "Deluxe Dance by Kontor",
       "type": "tv",
-      "category": "public",
+      "category": "music",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/2646ace419595568_33669357_2610130235_1080p.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/2646ace419595568_33669357_2610130235_720p.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/2646ace419595568_33669357_2610130235_480p.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-deluxe-music",
+      "name": "Deluxe Music",
+      "type": "tv",
+      "category": "music",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/2646acd91d5391e3_13018905_2610130205_1.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/2646acd91d5391e3_13018905_2610130205_2.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/2646acd91d5391e3_13018905_2610130205_3.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-deluxe-rap",
+      "name": "Deluxe Rap",
+      "type": "tv",
+      "category": "music",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/2646ace1f474593f_33669365_2610131208_5.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/2646ace1f474593f_33669365_2610131208_1.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/2646ace1f474593f_33669365_2610131208_2.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-dmf",
+      "name": "DMF",
+      "type": "tv",
+      "category": "music",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://d-m-f.iptv-playoutcenter.de/dmf/dmf1/playlist.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-hoehenrausch",
+      "name": "Höhenrausch",
+      "type": "tv",
+      "category": "music",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/5d398d83-c54c-11ec-967f-401ac48a6867/0/master.m3u8?country=DE&vendor=samsung&coppa=1",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/f769642d-5984-11ef-a2df-87241c204d22/0/master.m3u8?country=DE&vendor=samsung&coppa=1",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-stimmungsgarten-tv",
+      "name": "Stimmungsgarten TV",
+      "type": "tv",
+      "category": "music",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://stimmungsgartentv.iptv-playoutcenter.de/stimmungsgartentv/stimmungsgartentv-all/playlist.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-volksmusik-tv",
+      "name": "Volksmusik TV",
+      "type": "tv",
+      "category": "music",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://vmtv.iptv-playoutcenter.de/vmtv/vmtv1/playlist.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-melodie-tv",
+      "name": "Melodie TV",
+      "type": "tv",
+      "category": "music",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://live20.bozztv.com/akamaissh101/ssh101/melodietvlive/chunks.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-kika",
+      "name": "KIKA",
+      "type": "tv",
+      "category": "kids",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master-360p-1200.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master-1080p-5000.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master-720p-3200.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master-360p-1200.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master-1080p-5000.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master-720p-3200.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-lilo-tv",
+      "name": "Lilo TV",
+      "type": "tv",
+      "category": "kids",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://lilo.iptv-playoutcenter.de/lilo/lilo-sat1/playlist.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://lilo.iptv-playoutcenter.de/lilo/lilo-all/playlist.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://lilo.iptv-playoutcenter.de/lilo/lilo1/playlist.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-ric",
+      "name": "RiC",
+      "type": "tv",
+      "category": "kids",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://rictv.iptv-playoutcenter.de/rictv/rictv-web/playlist.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-bibel-tv",
+      "name": "Bibel TV",
+      "type": "tv",
+      "category": "religious",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://bibint01.iptv-playoutcenter.de/bibint01/bibint01.stream_all/playlist.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://bibeltv01.iptv-playoutcenter.de/bibeltv01/bibeltv01.stream_all/playlist.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-ewtn-auf-deutsch",
+      "name": "EWTN auf Deutsch",
+      "type": "tv",
+      "category": "religious",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://cdn3.wowza.com/1/ZUkxSDBrZHlMbjVn/ZkhNRFNZ/hls/live/playlist.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://cdn3.wowza.com/1/ZUkxSDBrZHlMbjVn/ZkhNRFNZ/hls/ppbbrj4k/720/chunklist.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://cdn3.wowza.com/1/ZUkxSDBrZHlMbjVn/ZkhNRFNZ/hls/ppbbrj4k/480/chunklist.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://cdn3.wowza.com/1/ZUkxSDBrZHlMbjVn/ZkhNRFNZ/hls/ppbbrj4k/360/chunklist.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-hope-tv-deutsch",
+      "name": "Hope TV Deutsch",
+      "type": "tv",
+      "category": "religious",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://jstre.am/live/jsl:AQfP7b5HoTM.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://cdn-de-fra.b-cdn.net/hcorg_Lmro4tmzOp1/s/jsl_AQfP7b5HoTM/master.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-k-tv",
+      "name": "K-TV",
+      "type": "tv",
+      "category": "religious",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://d1pz8zear993v8.cloudfront.net/hlsme/kathtv.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://d1pz8zear993v8.cloudfront.net/hlsme/stream_0.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://d1pz8zear993v8.cloudfront.net/hlsme/stream_1.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://d1pz8zear993v8.cloudfront.net/hlsme/stream_2.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-sender-neu-jerusalem",
+      "name": "Sender Neu Jerusalem",
+      "type": "tv",
+      "category": "religious",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://bild-und-ton.stream/snj-de/snj-de.smil/.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://bild-und-ton.stream/snj-de/snj-de.smil/chunklist_w1024417188_b105000_slde.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://bild-und-ton.stream/snj-de/snj-de.smil/chunklist_w1024417188_b145000_slde.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://bild-und-ton.stream/snj-de/snj-de.smil/chunklist_w1024417188_b365000_slde.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-bibel-tv-musik",
+      "name": "Bibel TV Musik",
+      "type": "tv",
+      "category": "religious",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://bibeltv03.iptv-playoutcenter.de/bibeltv03/bibeltv03.stream_1/playlist.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://bibeltv03.iptv-playoutcenter.de/bibeltv03/bibeltv03.stream_all/playlist.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-123-live-tv",
+      "name": "123 Live TV",
+      "type": "tv",
+      "category": "shopping",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://123tv-mx1.flex-cdn.net/index.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-hse",
+      "name": "HSE",
+      "type": "tv",
+      "category": "shopping",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://hse24.akamaized.net/hls/live/2006663/hse24/playlist.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://hse24.akamaized.net/hls/live/2006663/hse24/master_1080p25.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://hse24.akamaized.net/hls/live/2006663-b/hse24/master_1080p25.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://hse24.akamaized.net/hls/live/2006663/hse24/master_900p25.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-hse-extra",
+      "name": "HSE Extra",
+      "type": "tv",
+      "category": "shopping",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/playlist.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/master_1080p25.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://hse24extra.akamaized.net/hls/live/2006596-b/hse24extra/master_1080p25.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/master_900p25.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-hse-trend",
+      "name": "HSE Trend",
+      "type": "tv",
+      "category": "shopping",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/playlist.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/master_576_1p25.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://hse24trend.akamaized.net/hls/live/2006597-b/hse24trend/master_576_1p25.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/master_576_2p25.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-juwelo",
+      "name": "Juwelo",
+      "type": "tv",
+      "category": "shopping",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/2646acd5413662e9_12812347_2610120941_3_3.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/2646acd5413662e9_12812347_2610120941_2_2.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/2646acd5413662e9_12812347_2610120941_1_1.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-qvc-deutschland",
+      "name": "QVC Deutschland",
+      "type": "tv",
+      "category": "shopping",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://qvcde-live.akamaized.net/hls/live/2097104/qvc/master.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://qvcde-live.akamaized.net/hls/live/2097104/qvc/1/1.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://qvcde-live.akamaized.net/hls/live/2097104/qvc/2/2.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://qvcde-live.akamaized.net/hls/live/2097104/qvc/3/3.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-qvc-style-deutschland",
+      "name": "QVC Style Deutschland",
+      "type": "tv",
+      "category": "shopping",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://qvcde-live.akamaized.net/hls/live/2097104/qby/master.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-qvc-zwei",
+      "name": "QVC Zwei",
+      "type": "tv",
+      "category": "shopping",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://qvcde-live.akamaized.net/hls/live/2097104/qps/master.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-shop-lc-deutschland",
+      "name": "Shop LC Deutschland",
+      "type": "tv",
+      "category": "shopping",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel(LCGERMANYWEB)/master.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel(LCGERMANYWEB)/01.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel(LCGERMANYWEB)/02.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel(LCGERMANYWEB)/03.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-telegold",
+      "name": "Telegold",
+      "type": "tv",
+      "category": "shopping",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://telegold.iptv-playoutcenter.de/telegold/telegold-all/playlist.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://telegold.iptv-playoutcenter.de/telegold/telegold1/playlist.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-dokusat",
+      "name": "Dokusat",
+      "type": "tv",
+      "category": "documentary",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://muc3.iptv-playoutcenter.de/dokusat/dokusat1/playlist.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-n24-doku",
+      "name": "N24 Doku",
+      "type": "tv",
+      "category": "documentary",
       "geo_de_only": true,
       "streams": [
         {
-          "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/de/veryhigh/master.m3u8",
+          "url": "https://broadcast.n24-doku.personalstream.tv/ses/hls/live/2107300/n24-doku-live/master.m3u8",
           "geo_de_only": true
         },
         {
-          "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8",
-          "geo_de_only": true
-        },
-        {
-          "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/de/med/master.m3u8",
-          "geo_de_only": true
-        },
-        {
-          "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/de/low/master.m3u8",
-          "geo_de_only": true
-        },
-        {
-          "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/veryhigh/master.m3u8",
-          "geo_de_only": true
-        },
-        {
-          "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/high/master.m3u8",
-          "geo_de_only": true
-        },
-        {
-          "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/med/master.m3u8",
-          "geo_de_only": true
-        },
-        {
-          "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/low/master.m3u8",
+          "url": "https://w-n24doku2weltcms.akamaized.net/hls/live/2106400/N24Doku-SES/master.m3u8",
           "geo_de_only": true
         }
       ]
     },
     {
-      "id": "radio-104-6-rtl",
-      "name": "104.6 RTL",
-      "type": "radio",
-      "category": "music",
+      "id": "tv-one-terra",
+      "name": "One Terra",
+      "type": "tv",
+      "category": "documentary",
       "geo_de_only": false,
       "streams": [
         {
-          "url": "https://stream.104.6rtl.com/rtl-live/mp3-192/radio-browser.info/",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://stream.104.6rtl.com/rtl-60er70er/mp3-128/radio-browser.info/",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://stream.104.6rtl.com/rtl-80er/mp3-128/radio-browser.info/",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://stream.104.6rtl.com/rtl-black/mp3-128/radio-browser.info/",
+          "url": "https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/0d7ddc61-818f-11eb-908d-533d39655269/0/master.m3u8?country=DE&vendor=samsung&coppa=1",
           "geo_de_only": false
         }
       ]
     },
     {
-      "id": "radio-absolut-relax",
-      "name": "Absolut relax",
-      "type": "radio",
-      "category": "music",
+      "id": "tv-xplore",
+      "name": "Xplore",
+      "type": "tv",
+      "category": "documentary",
       "geo_de_only": false,
       "streams": [
         {
-          "url": "https://absolut-relax.live-sm.absolutradio.de/absolut-relax?__cb=130270101023249",
+          "url": "https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/bab21a88-7cd4-11eb-908d-533d39655269/0/master.m3u8?country=DE&vendor=samsung&coppa=1",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-just-cooking",
+      "name": "Just Cooking",
+      "type": "tv",
+      "category": "lifestyle",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/44bf4cd7-7cd5-11eb-908d-533d39655269/0/master.m3u8?country=DE&vendor=samsung&coppa=1",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-just-fishing",
+      "name": "Just Fishing",
+      "type": "tv",
+      "category": "lifestyle",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/3d1508f1-c5ff-11ec-967f-401ac48a6867/0/master.m3u8?country=DE&vendor=samsung&coppa=1",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "tv-anixe",
+      "name": "Anixe +",
+      "type": "tv",
+      "category": "entertainment",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://wow.anixa.tv/live/anixesd/playlist.m3u8",
           "geo_de_only": false
         },
         {
-          "url": "https://absolut-relax.live-sm.absolutradio.de/absolut-relax/stream/mp3",
+          "url": "https://ma.anixa.tv/clips/stream/anixesd/index.m3u8",
+          "geo_de_only": true
+        }
+      ]
+    },
+    {
+      "id": "tv-anixe-hd-serie",
+      "name": "Anixe HD Serie",
+      "type": "tv",
+      "category": "entertainment",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://wow.anixa.tv/live/anixehd2/playlist.m3u8",
           "geo_de_only": false
         },
         {
-          "url": "https://absolut-relax.live-sm.absolutradio.de/absolut-relax?aggregator=website&companionAds=true&companion_zone_alias=31&aw_0_req.userConsentV2=undefined",
+          "url": "https://ma.anixa.tv/clips/stream/anixehd/index.m3u8",
+          "geo_de_only": true
+        }
+      ]
+    },
+    {
+      "id": "tv-aristo-tv",
+      "name": "Aristo TV",
+      "type": "tv",
+      "category": "entertainment",
+      "geo_de_only": true,
+      "streams": [
+        {
+          "url": "https://ma.anixa.tv/clips/stream/aristo/index.m3u8",
+          "geo_de_only": true
+        }
+      ]
+    },
+    {
+      "id": "tv-df1",
+      "name": "DF1",
+      "type": "tv",
+      "category": "entertainment",
+      "geo_de_only": true,
+      "streams": [
+        {
+          "url": "https://d287776cjxyfeq.cloudfront.net/out/v1/08823cd7fba74508a5a577fd51dc41f6/index.m3u8",
+          "geo_de_only": true
+        }
+      ]
+    },
+    {
+      "id": "radio-deutschlandfunk",
+      "name": "Deutschlandfunk",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3?aggregator=web",
           "geo_de_only": false
         },
         {
-          "url": "https://edge19.live-sm.absolutradio.de/absolut-relax/stream/aacp",
+          "url": "https://st02.sslstream.dlf.de/dlf/02/128/mp3/stream.mp3?aggregator=web",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://st01.sslstream.dlf.de/dlf/01/low/opus/stream.opus?aggregator=web",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://st01.sslstream.dlf.de/dlf/01/low/aac/stream.aac?aggregator=web",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-deutschlandfunk-nova",
+      "name": "Deutschlandfunk Nova",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://st03.sslstream.dlf.de/dlf/03/128/mp3/stream.mp3?aggregator=web",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://st03.sslstream.dlf.de/dlf/03/high/aac/stream.aac?aggregator=web",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://st03.sslstream.dlf.de/dlf/03/high/opus/stream.opus?aggregator=web",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://st03.sslstream.dlf.de/dlf/03/low/aac/stream.aac?aggregator=web",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-wdr-event",
+      "name": "WDR Event",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://wdrhf.akamaized.net/hls/live/2028169/wdrevent/192/seglist.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-wdr-event.icecast.wdr.de/wdr/wdr/event/mp3/128/stream.mp3",
           "geo_de_only": false
         }
       ]
@@ -1926,6 +2140,831 @@
       ]
     },
     {
+      "id": "radio-bremen-eins",
+      "name": "Bremen Eins",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://icecast.radiobremen.de/rb/bremeneins/live/mp3/128/stream.mp3?aggregator=surfmusik-de",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://icecast.radiobremen.de/rb/bremeneins/live/mp3/128/stream.mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://icecast.radiobremen.de/rb/webchannel6/mp3/128/stream.mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://icecast.radiobremen.de/rb/webchannel5/mp3/128/stream.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-ffn",
+      "name": "FFN",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://stream.ffn.de/ffn-80er/?ref=radio-browser",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-hr-1",
+      "name": "HR 1",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/hr/hr1/live/mp3/high",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://hlshr1.akamaized.net/hls/live/2016533/hr1/master.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://dispatcher.rndfnk.com/hr/hr1/live/mp3/128/stream.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-mdr-sachsen",
+      "name": "MDR Sachsen",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://mdr-284280-0.sslcast.mdr.de/mdr/284280/0/mp3/high/stream.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-mdr-sachsen-anhalt",
+      "name": "MDR Sachsen-Anhalt",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://mdr-radio-hls.akamaized.net/hls/live/2112894/mdr-284290-2-hls/index.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://mdr-284290-0.sslcast.mdr.de/mdr/284290/0/mp3/high/stream.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-mdr-thueringen-mitte-west",
+      "name": "MDR Thüringen Mitte/West",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://f111.rndfnk.com/ard/mdr/284300/0/mp3/128/stream.mp3?cid=01FBQ0VVNFY9PE18EJE73MJAYC&sid=3KahWlgtyLbqs2uGb2Oy6XtbYXN&token=PRchVKSyadq6xR6Qz9xC3gRZ0-ujZj2MznBKBBUCvyI&tvf=vOZhmbnV3RhmMTExLnJuZGZuay5jb20",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://f121.rndfnk.com/ard/mdr/284300/0/mp3/128/stream.mp3?cid=01FBQ0VVNFY9PE18EJE73MJAYC&sid=3Kau0Kb0Oilv3Zch0SLlykfhOdP&token=YL5W-PbADOpo9Dq-62AH5up_Ojh5sqv9NndBJo4zvtA&tvf=EAtT6lLb3RhmMTIxLnJuZGZuay5jb20",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://f141.rndfnk.com/ard/mdr/284300/0/mp3/128/stream.mp3?cid=01FBQ0VVNFY9PE18EJE73MJAYC&sid=3KafvB7V5fB7w4zqhb4KmK8cOV7&token=JbhTa0C9j-pcTgpFZrjU5N5Y7i8GVwx1ZieS5hEZMPM&tvf=dZaGEQHV3RhmMTQxLnJuZGZuay5jb20",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://d111.rndfnk.com/ard/mdr/284300/2/mp3/128/stream.mp3?cid=01FBQ0YB45T1Y0FY793WK4GDE7&sid=3Ka2h2e4FSxzjzIp1IC00JfICe7&token=n-LDYwam2jt9bGqpuLvNuPNYqG69hn52IK3WZPtLpW0&tvf=XAuB_WbD3RhkMTExLnJuZGZuay5jb20",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://mdr-284300-0.sslcast.mdr.de/mdr/284300/0/mp3/high/stream.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-ndr-1-niedersachsen-hannover",
+      "name": "NDR 1 Niedersachsen Hannover",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://icecast.ndr.de/ndr/ndr1niedersachsen/hannover/mp3/128/stream.mp3?1728424471708&aggregator=web",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://icecast.ndr.de/ndr/ndr1niedersachsen/oldenburg/mp3/128/stream.mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://icecast.ndr.de/ndr/ndr1niedersachsen/osnabrueck/mp3/128/stream.mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://icecast.ndr.de/ndr/ndr1niedersachsen/hannover/mp3/128/stream.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-ndr-1-radio-mv-schwerin",
+      "name": "NDR 1 Radio MV Schwerin",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://icecast.ndr.de/ndr/ndr1radiomv/schwerin/mp3/128/stream.mp3?1728424914112&aggregator=web",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://icecast.ndr.de/ndr/ndr1radiomv/schwerin/mp3/128/stream.mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://icecast.ndr.de/ndr/ndr1radiomv/greifswald/mp3/128/stream.mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://icecast.ndr.de/ndr/ndr1radiomv/rostock/mp3/128/stream.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-ndr-1-welle-nord-kiel",
+      "name": "NDR 1 Welle Nord Kiel",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://icecast.ndr.de/ndr/ndr1wellenord/kiel/mp3/128/stream.mp3?1728424684403&aggregator=web",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://icecast.ndr.de/ndr/ndr1wellenord/kiel/mp3/128/stream.mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://icecast.ndr.de/ndr/ndr1wellenord/luebeck/mp3/128/stream.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-ndr-90-3",
+      "name": "NDR 90.3",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://icecast.ndr.de/ndr/ndr903/hamburg/mp3/128/stream.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-r-sh",
+      "name": "R.SH",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://streams.rsh.de/rsh-live/mp3-192/mediaplayer",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://rsh.streamabc.net/regc-rshlive-mp3-128-7643923?sABC=6npq4s9o%230%23r30o443r1929r059s085628511796n57%23fgernzf.efu.qr&aw_0_1st.playerid=streams.rsh.de&amsparams=playerid:streams.rsh.de;skey:1791840155",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://streams.rsh.de/90er/mp3-192/homepage/",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://streams.rsh.de/dance/mp3-192/homepage/",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-radio-brocken",
+      "name": "Radio Brocken",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://stream.radiobrocken.de/live-hal-lei/mp3-256/",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://fhhalle.streamabc.net/fhhal-rblive-mp3-256-3654873?sABC=6npp4n11%230%23r30o443r1929r059s085628511796n57%23qverxgyvaxUC&aw_0_1st.playerid=direktlinkHP&amsparams=playerid:direktlinkHP;skey:1791773201",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://fhhalle.streamabc.net/fhhal-brocken80er-mp3-256-3155073?sABC=6npp0os4%230%23r30o443r1929r059s085628511796n57%23qverxgyvaxUC&aw_0_1st.playerid=direktlinkHP&amsparams=playerid:direktlinkHP;skey:1791757300",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-radio-hamburg",
+      "name": "Radio Hamburg",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://frontend.streamonkey.net/rhh-1036?aggregator=linkradiohamburgde",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://frontend.streamonkey.net/rhh-1036?",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://rhh.streamabc.net/rhh-rhhlive-mp3-192-9338172?sABC=6npp1433%230%23q280o0r09ns9qpq3889p9qqn13p5753s%23gharva&aw_0_1st.playerid=tunein&amsparams=playerid:tunein;skey:1791759411",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-radio-hbr",
+      "name": "Radio HBR",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://stream1.radiohbr.de/stream.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-radio-saw",
+      "name": "Radio SAW",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://stream.saw-musikwelt.de/saw-synthie-pop/stream.mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://stream.saw-musikwelt.de/saw-90er/mp3-128/radio-browser/stream.mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://stream.saw-musikwelt.de/saw-80er/mp3-128/radio-browser/stream.mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://stream.saw-musikwelt.de/saw-party/mp3-128/radio-browser/stream.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-rbb-88-8",
+      "name": "RBB 88.8",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://rbb888.akamaized.net/hls/live/2017003/rbb_rbb888/master.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://dispatcher.rndfnk.com/rbb/rbb888/live/mp3/mid",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-rbb-radio-eins",
+      "name": "RBB Radio Eins",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://f111.rndfnk.com/ard/rbb/radioeins/live/mp3/128/stream.mp3?cid=01FC1WH12KJ93TCQPDSE2E5PZ9&sid=3KaCZ6SITRJ2je2F4FlKm4iTGhL&token=AfwQazqHOz7Hq8hMxg3rlM1eiJCe9KujIKcALz-pPS4&tvf=JTQZBNXH3RhmMTExLnJuZGZuay5jb20",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://d141.rndfnk.com/ard/rbb/radioeins/live/mp3/128/stream.mp3?cid=01FC1WH12KJ93TCQPDSE2E5PZ9&sid=3KaEJKR2QRiDXa394Fhg5Z5Qgw8&token=EdCiV0gNjsqokTx-6z9il6BCks1BrjSu4HzChlAgODc&tvf=9zwygp3I3RhkMTQxLnJuZGZuay5jb20",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://d141.rndfnk.com/ard/rbb/radioeins/live/mp3/48/stream.mp3?cid=01FC1WH12KJ93TCQPDSE2E5PZ9&sid=3KZh8zTnwKViz6WlMMFbDv2Je9z&token=kXycRZo7Uoa8abUFPf5K-XWp1U445jfr_mLTyTVn6Xs&tvf=bEeMd7u53RhkMTQxLnJuZGZuay5jb20",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://d111.rndfnk.com/ard/rbb/radioeins/live/mp3/128/stream.mp3?cid=01FC1WH12KJ93TCQPDSE2E5PZ9&sid=3KZM1us1m4bs9rO70ElKbQq3Lti&token=9Y-9WfXBgAHbAOMSKK-aISO44ipsToyDoaEmBgpYu44&tvf=rLiu-0Gw3RhkMTExLnJuZGZuay5jb20",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-rpr1",
+      "name": "RPR1",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://streams.rpr1.de/rpr-hiphop-128-mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://streams.rpr1.de/rpr-90ertrash-128-mp3?usid=0-0-H-M-D-60",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://streams.rpr1.de/rpr-entspannung-128-mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://streams.rpr1.de/rpr-apresski-128-mp3?usid=0-0-H-M-D-50",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-sr-1",
+      "name": "SR 1",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://liveradio.sr.de/sr/sr1/mp3/128/stream.mp3?aggregator=custom1",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://sr.audiostream.io/sr/1009/mp3/56/sr1",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-sr-3-saarlandwelle",
+      "name": "SR 3 Saarlandwelle",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://sr.audiostream.io/sr/1011/mp3/56/sr3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://liveradio.sr.de/sr/sr3/mp3/256/stream.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-swr-1-baden-wuerttemberg",
+      "name": "SWR 1 Baden-Württemberg",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://liveradio.swr.de/sw282p3/swr1bw/play.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-swr-1-rheinland-pfalz",
+      "name": "SWR 1 Rheinland-Pfalz",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://liveradio.swr.de/sw282p3/swr1rp/play.mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://liveradio.swr.de/sw331ch/swr1rp/",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-swr-4-mainz",
+      "name": "SWR 4 Mainz",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://liveradio.swr.de/sw282p3/swr4rp/",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-swr-4-stuttgart",
+      "name": "SWR 4 Stuttgart",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://liveradio.swr.de/sw282p3/swr4bw/play.mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://liveradio.swr.de/sw282p3/swr4st/play.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-swr4",
+      "name": "SWR4",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://liveradio.swr.de/sw890cl/swr4bw/",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://liveradio.swr.de/sw282p3/swr4ul/",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://liveradio.swr.de/sw282p3/swr4ko/",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://liveradio.swr.de/sw282p3/swr4fr/",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-wdr-2-rhein-und-ruhr",
+      "name": "WDR 2 Rhein und Ruhr",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://wdr-wdr2-rheinland.icecast.wdr.de/wdr/wdr2/rheinland/mp3/128/stream.mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-wdr2-rheinruhr.icecast.wdr.de/wdr/wdr2/rheinruhr/mp3/128/stream.mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-wdr2-ostwestfalenlippe.icecast.wdr.de/wdr/wdr2/ostwestfalenlippe/mp3/128/stream.mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-wdr2-muensterland.icecast.wdr.de/wdr/wdr2/muensterland/mp3/128/stream.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-antenne-brandenburg",
+      "name": "Antenne Brandenburg",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/rbb/antennebrandenburg/live/mp3/mid",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-bayern-1-mainfranken",
+      "name": "Bayern 1 Mainfranken",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/br/br1/mainfranken/mp3/mid",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-campusradio-ilmenau",
+      "name": "Campusradio Ilmenau",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://stream.radio-hsf.de/hsf.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-campusradio-koeln-koelncampus",
+      "name": "Campusradio Köln (Kölncampus)",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://live.koelncampus.com/live",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-campusradio-mannheim-radioaktiv",
+      "name": "Campusradio Mannheim (Radioaktiv)",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://stream.radioaktiv.org/VeryHiFi",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-campusradio-muenster-radio-q",
+      "name": "Campusradio Münster (Radio Q)",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://rqstream.radioq.de/stream/192.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-campusradio-regensburg-studentenfunk",
+      "name": "Campusradio Regensburg (Studentenfunk)",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://studentenfunk.out.airtime.pro/studentenfunk_a#",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-campusradio-universitaet-duisburg-essen-campusfm",
+      "name": "Campusradio Universität Duisburg-Essen (CampusFM)",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://www.campusfm.info/stream?x=y",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-donau-3-fm",
+      "name": "DONAU 3 FM",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://frontend.streamonkey.net/donau3fm-live/stream/mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-ostseewelle",
+      "name": "Ostseewelle",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://addrad.io/4454pjf",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-radio-7",
+      "name": "Radio 7",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://streams.radio7.de/dab/mp3-192/web/",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-br-24",
+      "name": "BR 24",
+      "type": "radio",
+      "category": "news",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/br/br24/live/mp3/mid",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://br-radio.ard-mcdn.de/br/radio/br24/hls/96/seglist.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://br-radio.ard-mcdn.de/br/radio/br24/hls/192/seglist.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-dokumente-und-debatten",
+      "name": "Dokumente und Debatten",
+      "type": "radio",
+      "category": "news",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://st04.sslstream.dlf.de/dlf/04/mid/aac/stream.aac?aggregator=web",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://st04.sslstream.dlf.de/dlf/04/128/mp3/stream.mp3?aggregator=web",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://st04.sslstream.dlf.de/dlf/04/low/aac/stream.aac?aggregator=web",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://st04.sslstream.dlf.de/dlf/04/high/aac/stream.aac?aggregator=web",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-hr-info",
+      "name": "HR Info",
+      "type": "radio",
+      "category": "news",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/hr/hrinfo/live/mp3/high",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://dispatcher.rndfnk.com/hr/hrinfo-sued/mp3/high",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://dispatcher.rndfnk.com/hr/hrinfo/live/high",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-mdr-aktuell",
+      "name": "MDR Aktuell",
+      "type": "radio",
+      "category": "news",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://mdr-284340-0.sslcast.mdr.de/mdr/284340/0/mp3/high/stream.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-ndr-info-niedersachsen",
+      "name": "NDR Info Niedersachsen",
+      "type": "radio",
+      "category": "news",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://icecast.ndr.de/ndr/ndrinfo/schleswigholstein/mp3/128/stream.mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://icecast.ndr.de/ndr/ndrinfo/hamburg/mp3/128/stream.mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://icecast.ndr.de/ndr/ndrinfo/live/mp3/128/stream.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-ndr-info-spezial",
+      "name": "NDR Info Spezial",
+      "type": "radio",
+      "category": "news",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://icecast.ndr.de/ndr/ndrinfospezial/live/mp3/128/stream.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-rbb-24-inforadio",
+      "name": "RBB 24 Inforadio",
+      "type": "radio",
+      "category": "news",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/rbb/inforadio/live/mp3/mid?aggregator=tunein",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://f121.rndfnk.com/ard/rbb/inforadio/live/mp3/128/stream.mp3?cid=01FC1WYDPN76K6HSCD8QCR9D3S&sid=2QcLzffN32wHfW1lVCzlxHze7qi&token=pGWtFx8DdsdTygJQfppoygwrmQAJ9neXn-Oapylzh_E&tvf=RIPifb2zZBdmMTIxLnJuZGZuay5jb20",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://dispatcher.rndfnk.com/rbb/inforadio/live/mp3/mid",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://dispatcher.rndfnk.com/rbb/inforadio/live/mp3/low",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-swr-aktuell",
+      "name": "SWR Aktuell",
+      "type": "radio",
+      "category": "news",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://liveradio.swr.de/sw282p3/swraktuell/play.aac",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://f131.rndfnk.com/ard/swr/swraktuell/live/aac/96/stream.aac?aggregator=web&sid=20OWw66vyEtL4iSzQDIYZxmbtaP&token=417rfsSDin95gYTgQbYGQU68OrUVw5SFCaOKSsmI1OA&tvf=WYsdueUEtBZmMTMxLnJuZGZuay5jb20",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://liveradio.swr.de/sw890cl/swraktuell/",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://liveradio.swr.de/sw282p3/swraktuell/",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
       "id": "radio-bayern-2",
       "name": "Bayern 2",
       "type": "radio",
@@ -1942,6 +2981,238 @@
         },
         {
           "url": "https://br-radio.ard-mcdn.de/br/radio/b2/hls/96/seglist.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-bremen-zwei",
+      "name": "Bremen Zwei",
+      "type": "radio",
+      "category": "culture",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://icecast.radiobremen.de/rb/bremenzwei/live/mp3/128/stream.mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://f111.rndfnk.com/ard/rb/webchannel4/mp3/128/stream.mp3?cid=01FC1WBDEZX7N1AXVXJMP19PFM&sid=3KbhzoTQJxIzPXVAvgWZ1cWOTXw&token=-c3ee2A2Y7txqsF5_wC_KRjrwXfDOgkOeR4OhdKSpnA&tvf=7o3sYsHx3RhmMTExLnJuZGZuay5jb20",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://icecast.radiobremen.de/rb/webchannel7/mp3/128/stream.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-deutschlandfunk-kultur",
+      "name": "Deutschlandfunk Kultur",
+      "type": "radio",
+      "category": "culture",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://st02.sslstream.dlf.de/dlf/02/mid/aac/stream.aac?aggregator=web",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://st02.sslstream.dlf.de/dlf/02/high/aac/stream.aac?aggregator=web",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://st02.sslstream.dlf.de/dlf/02/low/opus/stream.opus?aggregator=web",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-hr-2-kultur",
+      "name": "HR 2 Kultur",
+      "type": "radio",
+      "category": "culture",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/hr/hr2/live/mp3/high",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://hlshr2.akamaized.net/hls/live/2016534/hr2/master.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://dispatcher.rndfnk.com/hr/hr2/live/medium",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-mdr-kultur",
+      "name": "MDR Kultur",
+      "type": "radio",
+      "category": "culture",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://mdr-284310-0.sslcast.mdr.de/mdr/284310/0/mp3/high/stream.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-ndr-kultur",
+      "name": "NDR Kultur",
+      "type": "radio",
+      "category": "culture",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://f131.rndfnk.com/ard/ndr/ndrkultur/live/aac/192/stream.aac?aggregator=web&cid=01FBQ2EJ6T7QK3WENQ5KT9S2FB&sid=2aWrl15TtQvWg6RQ9hvrVfdh99E&token=cgylLQKukz6c0ajNCSHCboafG1Q474A1QN0WA3_K3Hg&tvf=4vGFz6J7pxdmMTMxLnJuZGZuay5jb20",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://icecast.ndr.de/ndr/ndrkultur/live/mp3/128/stream.mp3?1728425224079&aggregator=web",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://icecast.ndr.de/ndr/ndrkultur/live/aac/192/stream.aac",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-rbb-radio-3",
+      "name": "RBB Radio 3",
+      "type": "radio",
+      "category": "culture",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://stream.radio38.de/",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-sr-kultur",
+      "name": "SR Kultur",
+      "type": "radio",
+      "category": "culture",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://liveradio.sr.de/sr/sr2/mp3/256/stream.mp3?aggregator=custom1",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-swr-kultur",
+      "name": "SWR Kultur",
+      "type": "radio",
+      "category": "culture",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://f111.rndfnk.com/ard/swr/swr2/live/mp3/256/stream.mp3?aggregator=web&sid=28ew6Usq6cch83eglcsXwLlNRS3&token=Ip5bwQ_T81Lq_mqKc3HUjnxrk94ek2bDcfNyNHuqRGk&tvf=XFsRgyq06xZmMTExLnJuZGZuay5jb20",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-wdr-3",
+      "name": "WDR 3",
+      "type": "radio",
+      "category": "culture",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://wdrhf.akamaized.net/hls/live/2027994/wdr3/master.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-wdr3-klassik.icecast.wdr.de/wdr/wdr3/klassik/mp3/128/stream.mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-wdr3-live.icecast.wdr.de/wdr/wdr3/live/mp3/128/stream.mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-wdr3-live.icecast.wdr.de/wdr/wdr3/live/mp3/256/stream.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-wdr-5",
+      "name": "WDR 5",
+      "type": "radio",
+      "category": "culture",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://www.wdr.de/realaudio/radio/nachrichten/nachrichten_wdr5.mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-wdr5-live.icecastssl.wdr.de/wdr/wdr5/live/mp3/128/stream.mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-wdr5-live.icecast.wdr.de/wdr/wdr5/live/mp3/128/stream.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-104-6-rtl",
+      "name": "104.6 RTL",
+      "type": "radio",
+      "category": "music",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://stream.104.6rtl.com/rtl-live/mp3-192/radio-browser.info/",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://stream.104.6rtl.com/rtl-60er70er/mp3-128/radio-browser.info/",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://stream.104.6rtl.com/rtl-80er/mp3-128/radio-browser.info/",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://stream.104.6rtl.com/rtl-black/mp3-128/radio-browser.info/",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-absolut-relax",
+      "name": "Absolut relax",
+      "type": "radio",
+      "category": "music",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://absolut-relax.live-sm.absolutradio.de/absolut-relax?__cb=130270101023249",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://absolut-relax.live-sm.absolutradio.de/absolut-relax/stream/mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://absolut-relax.live-sm.absolutradio.de/absolut-relax?aggregator=website&companionAds=true&companion_zone_alias=31&aw_0_req.userConsentV2=undefined",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://edge19.live-sm.absolutradio.de/absolut-relax/stream/aacp",
           "geo_de_only": false
         }
       ]
@@ -2010,26 +3281,9 @@
         {
           "url": "https://streams.bigfm.de/bigfm-sunsetlounge-128-mp3?usid=0-0-H-M-D-12",
           "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-br-24",
-      "name": "BR 24",
-      "type": "radio",
-      "category": "news",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://dispatcher.rndfnk.com/br/br24/live/mp3/mid",
-          "geo_de_only": false
         },
         {
-          "url": "https://br-radio.ard-mcdn.de/br/radio/br24/hls/96/seglist.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://br-radio.ard-mcdn.de/br/radio/br24/hls/192/seglist.m3u8",
+          "url": "https://streams.bigfm.de/bigfm-deutschland-128-mp3",
           "geo_de_only": false
         }
       ]
@@ -2074,31 +3328,6 @@
       ]
     },
     {
-      "id": "radio-bremen-eins",
-      "name": "Bremen Eins",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://icecast.radiobremen.de/rb/bremeneins/live/mp3/128/stream.mp3?aggregator=surfmusik-de",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://icecast.radiobremen.de/rb/bremeneins/live/mp3/128/stream.mp3",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://icecast.radiobremen.de/rb/webchannel6/mp3/128/stream.mp3",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://icecast.radiobremen.de/rb/webchannel5/mp3/128/stream.mp3",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
       "id": "radio-bremen-next",
       "name": "Bremen Next",
       "type": "radio",
@@ -2128,27 +3357,6 @@
         },
         {
           "url": "https://icecast.radiobremen.de/rb/webchannel3/mp3/128/stream.mp3",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-bremen-zwei",
-      "name": "Bremen Zwei",
-      "type": "radio",
-      "category": "culture",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://icecast.radiobremen.de/rb/bremenzwei/live/mp3/128/stream.mp3",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://f111.rndfnk.com/ard/rb/webchannel4/mp3/128/stream.mp3?cid=01FC1WBDEZX7N1AXVXJMP19PFM&sid=3KbhzoTQJxIzPXVAvgWZ1cWOTXw&token=-c3ee2A2Y7txqsF5_wC_KRjrwXfDOgkOeR4OhdKSpnA&tvf=7o3sYsHx3RhmMTExLnJuZGZuay5jb20",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://icecast.radiobremen.de/rb/webchannel7/mp3/128/stream.mp3",
           "geo_de_only": false
         }
       ]
@@ -2200,102 +3408,6 @@
       ]
     },
     {
-      "id": "radio-deutschlandfunk",
-      "name": "Deutschlandfunk",
-      "type": "radio",
-      "category": "public",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3?aggregator=web",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://st02.sslstream.dlf.de/dlf/02/128/mp3/stream.mp3?aggregator=web",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://st01.sslstream.dlf.de/dlf/01/low/opus/stream.opus?aggregator=web",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://st01.sslstream.dlf.de/dlf/01/low/aac/stream.aac?aggregator=web",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-deutschlandfunk-kultur",
-      "name": "Deutschlandfunk Kultur",
-      "type": "radio",
-      "category": "culture",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://st02.sslstream.dlf.de/dlf/02/mid/aac/stream.aac?aggregator=web",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://st02.sslstream.dlf.de/dlf/02/high/aac/stream.aac?aggregator=web",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://st02.sslstream.dlf.de/dlf/02/low/opus/stream.opus?aggregator=web",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-deutschlandfunk-nova",
-      "name": "Deutschlandfunk Nova",
-      "type": "radio",
-      "category": "public",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://st03.sslstream.dlf.de/dlf/03/128/mp3/stream.mp3?aggregator=web",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://st03.sslstream.dlf.de/dlf/03/high/aac/stream.aac?aggregator=web",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://st03.sslstream.dlf.de/dlf/03/high/opus/stream.opus?aggregator=web",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://st03.sslstream.dlf.de/dlf/03/low/aac/stream.aac?aggregator=web",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-dokumente-und-debatten",
-      "name": "Dokumente und Debatten",
-      "type": "radio",
-      "category": "news",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://st04.sslstream.dlf.de/dlf/04/mid/aac/stream.aac?aggregator=web",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://st04.sslstream.dlf.de/dlf/04/128/mp3/stream.mp3?aggregator=web",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://st04.sslstream.dlf.de/dlf/04/low/aac/stream.aac?aggregator=web",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://st04.sslstream.dlf.de/dlf/04/high/aac/stream.aac?aggregator=web",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
       "id": "radio-energy",
       "name": "ENERGY",
       "type": "radio",
@@ -2316,19 +3428,6 @@
         },
         {
           "url": "https://nrj.de/germanytop40",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-ffn",
-      "name": "FFN",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://stream.ffn.de/ffn-80er/?ref=radio-browser",
           "geo_de_only": false
         }
       ]
@@ -2371,48 +3470,6 @@
         },
         {
           "url": "https://edge70.streamonkey.net/fho-hitradioohr90er/stream/aacp?aggregator=smk-m3u-aac",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-hr-1",
-      "name": "HR 1",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://dispatcher.rndfnk.com/hr/hr1/live/mp3/high",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://hlshr1.akamaized.net/hls/live/2016533/hr1/master.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://dispatcher.rndfnk.com/hr/hr1/live/mp3/128/stream.mp3",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-hr-2-kultur",
-      "name": "HR 2 Kultur",
-      "type": "radio",
-      "category": "culture",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://dispatcher.rndfnk.com/hr/hr2/live/mp3/high",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://hlshr2.akamaized.net/hls/live/2016534/hr2/master.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://dispatcher.rndfnk.com/hr/hr2/live/medium",
           "geo_de_only": false
         }
       ]
@@ -2497,27 +3554,6 @@
       ]
     },
     {
-      "id": "radio-hr-info",
-      "name": "HR Info",
-      "type": "radio",
-      "category": "news",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://dispatcher.rndfnk.com/hr/hrinfo/live/mp3/high",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://dispatcher.rndfnk.com/hr/hrinfo-sued/mp3/high",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://dispatcher.rndfnk.com/hr/hrinfo/live/high",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
       "id": "radio-kiss-fm",
       "name": "KISS FM",
       "type": "radio",
@@ -2568,19 +3604,6 @@
       ]
     },
     {
-      "id": "radio-mdr-aktuell",
-      "name": "MDR Aktuell",
-      "type": "radio",
-      "category": "news",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://mdr-284340-0.sslcast.mdr.de/mdr/284340/0/mp3/high/stream.mp3",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
       "id": "radio-mdr-jump",
       "name": "MDR Jump",
       "type": "radio",
@@ -2615,49 +3638,6 @@
       ]
     },
     {
-      "id": "radio-mdr-kultur",
-      "name": "MDR Kultur",
-      "type": "radio",
-      "category": "culture",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://mdr-284310-0.sslcast.mdr.de/mdr/284310/0/mp3/high/stream.mp3",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-mdr-sachsen",
-      "name": "MDR Sachsen",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://mdr-284280-0.sslcast.mdr.de/mdr/284280/0/mp3/high/stream.mp3",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-mdr-sachsen-anhalt",
-      "name": "MDR Sachsen-Anhalt",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://mdr-radio-hls.akamaized.net/hls/live/2112894/mdr-284290-2-hls/index.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://mdr-284290-0.sslcast.mdr.de/mdr/284290/0/mp3/high/stream.mp3",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
       "id": "radio-mdr-sputnik",
       "name": "MDR Sputnik",
       "type": "radio",
@@ -2671,35 +3651,6 @@
       ]
     },
     {
-      "id": "radio-mdr-thueringen-mitte-west",
-      "name": "MDR Thüringen Mitte/West",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://f111.rndfnk.com/ard/mdr/284300/0/mp3/128/stream.mp3?cid=01FBQ0VVNFY9PE18EJE73MJAYC&sid=3KahWlgtyLbqs2uGb2Oy6XtbYXN&token=PRchVKSyadq6xR6Qz9xC3gRZ0-ujZj2MznBKBBUCvyI&tvf=vOZhmbnV3RhmMTExLnJuZGZuay5jb20",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://f121.rndfnk.com/ard/mdr/284300/0/mp3/128/stream.mp3?cid=01FBQ0VVNFY9PE18EJE73MJAYC&sid=3Kau0Kb0Oilv3Zch0SLlykfhOdP&token=YL5W-PbADOpo9Dq-62AH5up_Ojh5sqv9NndBJo4zvtA&tvf=EAtT6lLb3RhmMTIxLnJuZGZuay5jb20",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://f141.rndfnk.com/ard/mdr/284300/0/mp3/128/stream.mp3?cid=01FBQ0VVNFY9PE18EJE73MJAYC&sid=3KafvB7V5fB7w4zqhb4KmK8cOV7&token=JbhTa0C9j-pcTgpFZrjU5N5Y7i8GVwx1ZieS5hEZMPM&tvf=dZaGEQHV3RhmMTQxLnJuZGZuay5jb20",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://d111.rndfnk.com/ard/mdr/284300/2/mp3/128/stream.mp3?cid=01FBQ0YB45T1Y0FY793WK4GDE7&sid=3Ka2h2e4FSxzjzIp1IC00JfICe7&token=n-LDYwam2jt9bGqpuLvNuPNYqG69hn52IK3WZPtLpW0&tvf=XAuB_WbD3RhkMTExLnJuZGZuay5jb20",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://mdr-284300-0.sslcast.mdr.de/mdr/284300/0/mp3/high/stream.mp3",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
       "id": "radio-n-joy",
       "name": "N-Joy",
       "type": "radio",
@@ -2708,77 +3659,6 @@
       "streams": [
         {
           "url": "https://icecast.ndr.de/ndr/njoy/live/mp3/128/stream.mp3",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-ndr-1-niedersachsen-hannover",
-      "name": "NDR 1 Niedersachsen Hannover",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://icecast.ndr.de/ndr/ndr1niedersachsen/hannover/mp3/128/stream.mp3?1728424471708&aggregator=web",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://icecast.ndr.de/ndr/ndr1niedersachsen/oldenburg/mp3/128/stream.mp3",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://icecast.ndr.de/ndr/ndr1niedersachsen/osnabrueck/mp3/128/stream.mp3",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://icecast.ndr.de/ndr/ndr1niedersachsen/hannover/mp3/128/stream.mp3",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-ndr-1-radio-mv-schwerin",
-      "name": "NDR 1 Radio MV Schwerin",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://icecast.ndr.de/ndr/ndr1radiomv/schwerin/mp3/128/stream.mp3?1728424914112&aggregator=web",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://icecast.ndr.de/ndr/ndr1radiomv/schwerin/mp3/128/stream.mp3",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://icecast.ndr.de/ndr/ndr1radiomv/greifswald/mp3/128/stream.mp3",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://icecast.ndr.de/ndr/ndr1radiomv/rostock/mp3/128/stream.mp3",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-ndr-1-welle-nord-kiel",
-      "name": "NDR 1 Welle Nord Kiel",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://icecast.ndr.de/ndr/ndr1wellenord/kiel/mp3/128/stream.mp3?1728424684403&aggregator=web",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://icecast.ndr.de/ndr/ndr1wellenord/kiel/mp3/128/stream.mp3",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://icecast.ndr.de/ndr/ndr1wellenord/luebeck/mp3/128/stream.mp3",
           "geo_de_only": false
         }
       ]
@@ -2805,19 +3685,6 @@
       ]
     },
     {
-      "id": "radio-ndr-90-3",
-      "name": "NDR 90.3",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://icecast.ndr.de/ndr/ndr903/hamburg/mp3/128/stream.mp3",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
       "id": "radio-ndr-blue",
       "name": "NDR Blue",
       "type": "radio",
@@ -2830,61 +3697,6 @@
         },
         {
           "url": "https://icecast.ndr.de/ndr/ndrblue/live/mp3/128/stream.mp3",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-ndr-info-niedersachsen",
-      "name": "NDR Info Niedersachsen",
-      "type": "radio",
-      "category": "news",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://icecast.ndr.de/ndr/ndrinfo/schleswigholstein/mp3/128/stream.mp3",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://icecast.ndr.de/ndr/ndrinfo/hamburg/mp3/128/stream.mp3",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://icecast.ndr.de/ndr/ndrinfo/live/mp3/128/stream.mp3",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-ndr-info-spezial",
-      "name": "NDR Info Spezial",
-      "type": "radio",
-      "category": "news",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://icecast.ndr.de/ndr/ndrinfospezial/live/mp3/128/stream.mp3",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-ndr-kultur",
-      "name": "NDR Kultur",
-      "type": "radio",
-      "category": "culture",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://f131.rndfnk.com/ard/ndr/ndrkultur/live/aac/192/stream.aac?aggregator=web&cid=01FBQ2EJ6T7QK3WENQ5KT9S2FB&sid=2aWrl15TtQvWg6RQ9hvrVfdh99E&token=cgylLQKukz6c0ajNCSHCboafG1Q474A1QN0WA3_K3Hg&tvf=4vGFz6J7pxdmMTMxLnJuZGZuay5jb20",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://icecast.ndr.de/ndr/ndrkultur/live/mp3/128/stream.mp3?1728425224079&aggregator=web",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://icecast.ndr.de/ndr/ndrkultur/live/aac/192/stream.aac",
           "geo_de_only": false
         }
       ]
@@ -2923,31 +3735,6 @@
         },
         {
           "url": "https://stream.oldie-antenne.de/oldie-antenne/stream/aacp",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-r-sh",
-      "name": "R.SH",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://streams.rsh.de/rsh-live/mp3-192/mediaplayer",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://rsh.streamabc.net/regc-rshlive-mp3-128-7643923?sABC=6npq4s9o%230%23r30o443r1929r059s085628511796n57%23fgernzf.efu.qr&aw_0_1st.playerid=streams.rsh.de&amsparams=playerid:streams.rsh.de;skey:1791840155",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://streams.rsh.de/90er/mp3-192/homepage/",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://streams.rsh.de/dance/mp3-192/homepage/",
           "geo_de_only": false
         }
       ]
@@ -3020,27 +3807,6 @@
       ]
     },
     {
-      "id": "radio-radio-brocken",
-      "name": "Radio Brocken",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://stream.radiobrocken.de/live-hal-lei/mp3-256/",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://fhhalle.streamabc.net/fhhal-rblive-mp3-256-3654873?sABC=6npp4n11%230%23r30o443r1929r059s085628511796n57%23qverxgyvaxUC&aw_0_1st.playerid=direktlinkHP&amsparams=playerid:direktlinkHP;skey:1791773201",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://fhhalle.streamabc.net/fhhal-brocken80er-mp3-256-3155073?sABC=6npp0os4%230%23r30o443r1929r059s085628511796n57%23qverxgyvaxUC&aw_0_1st.playerid=direktlinkHP&amsparams=playerid:direktlinkHP;skey:1791757300",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
       "id": "radio-radio-gong-96-3",
       "name": "Radio Gong 96.3",
       "type": "radio",
@@ -3053,40 +3819,6 @@
         },
         {
           "url": "https://radiogong-channel08.cast.addradio.de/radiogong/channel08/mp3/high",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-radio-hamburg",
-      "name": "Radio Hamburg",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://frontend.streamonkey.net/rhh-1036?aggregator=linkradiohamburgde",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://frontend.streamonkey.net/rhh-1036?",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://rhh.streamabc.net/rhh-rhhlive-mp3-192-9338172?sABC=6npp1433%230%23q280o0r09ns9qpq3889p9qqn13p5753s%23gharva&aw_0_1st.playerid=tunein&amsparams=playerid:tunein;skey:1791759411",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-radio-hbr",
-      "name": "Radio HBR",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://stream1.radiohbr.de/stream.mp3",
           "geo_de_only": false
         }
       ]
@@ -3167,98 +3899,6 @@
       ]
     },
     {
-      "id": "radio-radio-saw",
-      "name": "Radio SAW",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://stream.saw-musikwelt.de/saw-synthie-pop/stream.mp3",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://stream.saw-musikwelt.de/saw-90er/mp3-128/radio-browser/stream.mp3",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://stream.saw-musikwelt.de/saw-80er/mp3-128/radio-browser/stream.mp3",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://stream.saw-musikwelt.de/saw-party/mp3-128/radio-browser/stream.mp3",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-radio-teddy",
-      "name": "Radio Teddy",
-      "type": "radio",
-      "category": "kids",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://streamtdy.ir-media-tec.com/live/mp3-128/web/play.mp3",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://streamtdy.ir-media-tec.com/disco/mp3-128/web/play.mp3",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://streamtdy.ir-media-tec.com/kinderlieder/mp3-128/web/play.mp3",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://streamtdy.ir-media-tec.com/weihnachtslieder/mp3-128/web/play.mp3",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-rbb-24-inforadio",
-      "name": "RBB 24 Inforadio",
-      "type": "radio",
-      "category": "news",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://dispatcher.rndfnk.com/rbb/inforadio/live/mp3/mid?aggregator=tunein",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://f121.rndfnk.com/ard/rbb/inforadio/live/mp3/128/stream.mp3?cid=01FC1WYDPN76K6HSCD8QCR9D3S&sid=2QcLzffN32wHfW1lVCzlxHze7qi&token=pGWtFx8DdsdTygJQfppoygwrmQAJ9neXn-Oapylzh_E&tvf=RIPifb2zZBdmMTIxLnJuZGZuay5jb20",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://dispatcher.rndfnk.com/rbb/inforadio/live/mp3/mid",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://dispatcher.rndfnk.com/rbb/inforadio/live/mp3/low",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-rbb-88-8",
-      "name": "RBB 88.8",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://rbb888.akamaized.net/hls/live/2017003/rbb_rbb888/master.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://dispatcher.rndfnk.com/rbb/rbb888/live/mp3/mid",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
       "id": "radio-rbb-fritz",
       "name": "RBB Fritz",
       "type": "radio",
@@ -3267,44 +3907,6 @@
       "streams": [
         {
           "url": "https://dispatcher.rndfnk.com/rbb/fritz/live/mp3/mid",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-rbb-radio-3",
-      "name": "RBB Radio 3",
-      "type": "radio",
-      "category": "culture",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://stream.radio38.de/",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-rbb-radio-eins",
-      "name": "RBB Radio Eins",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://f111.rndfnk.com/ard/rbb/radioeins/live/mp3/128/stream.mp3?cid=01FC1WH12KJ93TCQPDSE2E5PZ9&sid=3KaCZ6SITRJ2je2F4FlKm4iTGhL&token=AfwQazqHOz7Hq8hMxg3rlM1eiJCe9KujIKcALz-pPS4&tvf=JTQZBNXH3RhmMTExLnJuZGZuay5jb20",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://d141.rndfnk.com/ard/rbb/radioeins/live/mp3/128/stream.mp3?cid=01FC1WH12KJ93TCQPDSE2E5PZ9&sid=3KaEJKR2QRiDXa394Fhg5Z5Qgw8&token=EdCiV0gNjsqokTx-6z9il6BCks1BrjSu4HzChlAgODc&tvf=9zwygp3I3RhkMTQxLnJuZGZuay5jb20",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://d141.rndfnk.com/ard/rbb/radioeins/live/mp3/48/stream.mp3?cid=01FC1WH12KJ93TCQPDSE2E5PZ9&sid=3KZh8zTnwKViz6WlMMFbDv2Je9z&token=kXycRZo7Uoa8abUFPf5K-XWp1U445jfr_mLTyTVn6Xs&tvf=bEeMd7u53RhkMTQxLnJuZGZuay5jb20",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://d111.rndfnk.com/ard/rbb/radioeins/live/mp3/128/stream.mp3?cid=01FC1WH12KJ93TCQPDSE2E5PZ9&sid=3KZM1us1m4bs9rO70ElKbQq3Lti&token=9Y-9WfXBgAHbAOMSKK-aISO44ipsToyDoaEmBgpYu44&tvf=rLiu-0Gw3RhkMTExLnJuZGZuay5jb20",
           "geo_de_only": false
         }
       ]
@@ -3335,31 +3937,6 @@
       ]
     },
     {
-      "id": "radio-rpr1",
-      "name": "RPR1",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://streams.rpr1.de/rpr-hiphop-128-mp3",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://streams.rpr1.de/rpr-90ertrash-128-mp3?usid=0-0-H-M-D-60",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://streams.rpr1.de/rpr-entspannung-128-mp3",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://streams.rpr1.de/rpr-apresski-128-mp3?usid=0-0-H-M-D-50",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
       "id": "radio-schlager-radio",
       "name": "Schlager Radio",
       "type": "radio",
@@ -3380,53 +3957,6 @@
         },
         {
           "url": "https://rnrw.cast.addradio.de/rnrw-0185/deinschlager/high/stream.mp3",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-sr-1",
-      "name": "SR 1",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://liveradio.sr.de/sr/sr1/mp3/128/stream.mp3?aggregator=custom1",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://sr.audiostream.io/sr/1009/mp3/56/sr1",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-sr-3-saarlandwelle",
-      "name": "SR 3 Saarlandwelle",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://sr.audiostream.io/sr/1011/mp3/56/sr3",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://liveradio.sr.de/sr/sr3/mp3/256/stream.mp3",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-sr-kultur",
-      "name": "SR Kultur",
-      "type": "radio",
-      "category": "culture",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://liveradio.sr.de/sr/sr2/mp3/256/stream.mp3?aggregator=custom1",
           "geo_de_only": false
         }
       ]
@@ -3478,36 +4008,6 @@
       ]
     },
     {
-      "id": "radio-swr-1-baden-wuerttemberg",
-      "name": "SWR 1 Baden-Württemberg",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://liveradio.swr.de/sw282p3/swr1bw/play.mp3",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-swr-1-rheinland-pfalz",
-      "name": "SWR 1 Rheinland-Pfalz",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://liveradio.swr.de/sw282p3/swr1rp/play.mp3",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://liveradio.swr.de/sw331ch/swr1rp/",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
       "id": "radio-swr-3",
       "name": "SWR 3",
       "type": "radio",
@@ -3533,61 +4033,6 @@
       ]
     },
     {
-      "id": "radio-swr-4-mainz",
-      "name": "SWR 4 Mainz",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://liveradio.swr.de/sw282p3/swr4rp/",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-swr-4-stuttgart",
-      "name": "SWR 4 Stuttgart",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://liveradio.swr.de/sw282p3/swr4bw/play.mp3",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://liveradio.swr.de/sw282p3/swr4st/play.mp3",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-swr-aktuell",
-      "name": "SWR Aktuell",
-      "type": "radio",
-      "category": "news",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://liveradio.swr.de/sw282p3/swraktuell/play.aac",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://f131.rndfnk.com/ard/swr/swraktuell/live/aac/96/stream.aac?aggregator=web&sid=20OWw66vyEtL4iSzQDIYZxmbtaP&token=417rfsSDin95gYTgQbYGQU68OrUVw5SFCaOKSsmI1OA&tvf=WYsdueUEtBZmMTMxLnJuZGZuay5jb20",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://liveradio.swr.de/sw890cl/swraktuell/",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://liveradio.swr.de/sw282p3/swraktuell/",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
       "id": "radio-swr-dasding",
       "name": "SWR Dasding",
       "type": "radio",
@@ -3596,65 +4041,6 @@
       "streams": [
         {
           "url": "https://liveradio.swr.de/sw282p3/dasding/play.mp3",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-swr-kultur",
-      "name": "SWR Kultur",
-      "type": "radio",
-      "category": "culture",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://f111.rndfnk.com/ard/swr/swr2/live/mp3/256/stream.mp3?aggregator=web&sid=28ew6Usq6cch83eglcsXwLlNRS3&token=Ip5bwQ_T81Lq_mqKc3HUjnxrk94ek2bDcfNyNHuqRGk&tvf=XFsRgyq06xZmMTExLnJuZGZuay5jb20",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-swr4",
-      "name": "SWR4",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://liveradio.swr.de/sw890cl/swr4bw/",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://liveradio.swr.de/sw282p3/swr4ul/",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://liveradio.swr.de/sw282p3/swr4ko/",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://liveradio.swr.de/sw282p3/swr4fr/",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-toggo-radio",
-      "name": "Toggo Radio",
-      "type": "radio",
-      "category": "kids",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://radio.toggo.de/live/mp3-192",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://radio.toggo.de/party/mp3-192",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://radio.toggo.de/deutsch/mp3-192",
           "geo_de_only": false
         }
       ]
@@ -3698,56 +4084,6 @@
       ]
     },
     {
-      "id": "radio-wdr-2-rhein-und-ruhr",
-      "name": "WDR 2 Rhein und Ruhr",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://wdr-wdr2-rheinland.icecast.wdr.de/wdr/wdr2/rheinland/mp3/128/stream.mp3",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://wdr-wdr2-rheinruhr.icecast.wdr.de/wdr/wdr2/rheinruhr/mp3/128/stream.mp3",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://wdr-wdr2-ostwestfalenlippe.icecast.wdr.de/wdr/wdr2/ostwestfalenlippe/mp3/128/stream.mp3",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://wdr-wdr2-muensterland.icecast.wdr.de/wdr/wdr2/muensterland/mp3/128/stream.mp3",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
-      "id": "radio-wdr-3",
-      "name": "WDR 3",
-      "type": "radio",
-      "category": "culture",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://wdrhf.akamaized.net/hls/live/2027994/wdr3/master.m3u8",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://wdr-wdr3-klassik.icecast.wdr.de/wdr/wdr3/klassik/mp3/128/stream.mp3",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://wdr-wdr3-live.icecast.wdr.de/wdr/wdr3/live/mp3/128/stream.mp3",
-          "geo_de_only": false
-        },
-        {
-          "url": "https://wdr-wdr3-live.icecast.wdr.de/wdr/wdr3/live/mp3/256/stream.mp3",
-          "geo_de_only": false
-        }
-      ]
-    },
-    {
       "id": "radio-wdr-4",
       "name": "WDR 4",
       "type": "radio",
@@ -3765,22 +4101,177 @@
       ]
     },
     {
-      "id": "radio-wdr-5",
-      "name": "WDR 5",
+      "id": "radio-0nlineradio-70s",
+      "name": "0nlineradio 70s",
       "type": "radio",
-      "category": "culture",
+      "category": "music",
       "geo_de_only": false,
       "streams": [
         {
-          "url": "https://www.wdr.de/realaudio/radio/nachrichten/nachrichten_wdr5.mp3",
+          "url": "https://stream.0nlineradio.com/70s?ref=radiobrowser",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-100-5-alemannia",
+      "name": "100'5 Alemannia",
+      "type": "radio",
+      "category": "music",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://stream.dashitradio.de/alemannia/mp3-128/stream.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-100-5-das-hitradio",
+      "name": "100'5 DAS HITRADIO",
+      "type": "radio",
+      "category": "music",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://stream.dashitradio.de/dashitradio/mp3-128/stream.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-absolut-radio",
+      "name": "Absolut Radio",
+      "type": "radio",
+      "category": "music",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://absolut-top.live-sm.absolutradio.de/absolut-top/stream/mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-deluxe-easy",
+      "name": "DELUXE EASY",
+      "type": "radio",
+      "category": "music",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://audiostreams.deluxemusic.tv/easy/mp3-192",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-deluxe-lounge-radio",
+      "name": "DELUXE LOUNGE RADIO",
+      "type": "radio",
+      "category": "music",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://audiostreams.deluxemusic.tv/lounge/mp3-192",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-deluxe-music-radio",
+      "name": "DELUXE MUSIC RADIO",
+      "type": "radio",
+      "category": "music",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://audiostreams.deluxemusic.tv/music/mp3-192",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-jam-fm-black-label",
+      "name": "JAM FM Black Label",
+      "type": "radio",
+      "category": "music",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://stream.jam.fm/jamfm-bl/mp3-128",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-schlagerparadies",
+      "name": "Schlagerparadies",
+      "type": "radio",
+      "category": "music",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://webstream.schlagerparadies.de/schlager30842",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-you-fm-mp3-high",
+      "name": "YOU FM (mp3/high)",
+      "type": "radio",
+      "category": "music",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/hr/youfm/live/mp3/high",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-radio-teddy",
+      "name": "Radio Teddy",
+      "type": "radio",
+      "category": "kids",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://streamtdy.ir-media-tec.com/live/mp3-128/web/play.mp3",
           "geo_de_only": false
         },
         {
-          "url": "https://wdr-wdr5-live.icecastssl.wdr.de/wdr/wdr5/live/mp3/128/stream.mp3",
+          "url": "https://streamtdy.ir-media-tec.com/disco/mp3-128/web/play.mp3",
           "geo_de_only": false
         },
         {
-          "url": "https://wdr-wdr5-live.icecast.wdr.de/wdr/wdr5/live/mp3/128/stream.mp3",
+          "url": "https://streamtdy.ir-media-tec.com/kinderlieder/mp3-128/web/play.mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://streamtdy.ir-media-tec.com/weihnachtslieder/mp3-128/web/play.mp3",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-toggo-radio",
+      "name": "Toggo Radio",
+      "type": "radio",
+      "category": "kids",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://radio.toggo.de/live/mp3-192",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://radio.toggo.de/party/mp3-192",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://radio.toggo.de/deutsch/mp3-192",
           "geo_de_only": false
         }
       ]
@@ -3803,18 +4294,40 @@
       ]
     },
     {
-      "id": "radio-wdr-event",
-      "name": "WDR Event",
+      "id": "radio-domradio-de",
+      "name": "domradio.de",
       "type": "radio",
-      "category": "public",
+      "category": "religious",
       "geo_de_only": false,
       "streams": [
         {
-          "url": "https://wdrhf.akamaized.net/hls/live/2028169/wdrevent/192/seglist.m3u8",
+          "url": "https://dom.audiostream.io/domradio/1000/mp3/128/domradio-rp.mp3",
           "geo_de_only": false
-        },
+        }
+      ]
+    },
+    {
+      "id": "radio-erf-jess",
+      "name": "ERF Jess",
+      "type": "radio",
+      "category": "religious",
+      "geo_de_only": false,
+      "streams": [
         {
-          "url": "https://wdr-wdr-event.icecast.wdr.de/wdr/wdr/event/mp3/128/stream.mp3",
+          "url": "https://stream.erf.de/erfpop.m3u",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-erf-plus",
+      "name": "ERF Plus",
+      "type": "radio",
+      "category": "religious",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://stream.erf.de/erfplus.m3u",
           "geo_de_only": false
         }
       ]

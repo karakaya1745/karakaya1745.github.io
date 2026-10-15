@@ -1,10 +1,10 @@
 {
-  "revision": 1,
-  "updatedAt": "2026-10-14T12:56:32.862Z",
-  "channelCount": 184,
+  "revision": 2,
+  "updatedAt": "2026-10-15T06:15:31.835Z",
+  "channelCount": 217,
   "files": {
     "channels.json": {
-      "sha256": "54c0cbf3b55a7d390fdcc7bf3f5d0c4a6f6c05141d56aed8f581e3e44e05d5ba"
+      "sha256": "25987fab309544064886eeb3aeb1a7be67f12f6a7d875c34000bf70e0895367c"
     }
   }
 }
