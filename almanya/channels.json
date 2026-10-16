@@ -1,6 +1,6 @@
 {
-  "_revision": 2,
-  "updatedAt": "2026-10-15T06:15:31.835Z",
+  "_revision": 3,
+  "updatedAt": "2026-10-16T08:08:51.796Z",
   "app": "ZapIt TV",
   "channels": [
     {
@@ -111,6 +111,10 @@
         },
         {
           "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master720p3200.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://derste247liveint.akamaized.net/hls/live/662735/daserste_int/master.m3u8",
           "geo_de_only": false
         }
       ]
@@ -450,6 +454,18 @@
         {
           "url": "https://hrhlsde.akamaized.net/hls/live/2024526/hrhlsde/master.m3u8",
           "geo_de_only": false
+        },
+        {
+          "url": "https://hr-live.ard-mcdn.de/hr/live/hls/de/master.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://hrhls.akamaized.net/hls/live/2024525/hrhls/master.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://hrhlsde.akamaized.net/hls/live/2024526/hrhlsde/index.m3u8",
+          "geo_de_only": false
         }
       ]
     },
@@ -605,6 +621,10 @@
         {
           "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master-720p-3200.m3u8",
           "geo_de_only": false
+        },
+        {
+          "url": "https://mcdn-ndr.akamaized.net/ndr/hls/ndr_fs/ndr_mv/master_720.m3u8",
+          "geo_de_only": false
         }
       ]
     },
@@ -629,6 +649,10 @@
         },
         {
           "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master-720p-3200.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master_720.m3u8",
           "geo_de_only": false
         }
       ]
@@ -952,10 +976,6 @@
         {
           "url": "https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master.m3u8",
           "geo_de_only": false
-        },
-        {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/aachen/hls/int/master.m3u8",
-          "geo_de_only": true
         }
       ]
     },
@@ -973,10 +993,6 @@
         {
           "url": "https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master.m3u8",
           "geo_de_only": false
-        },
-        {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/int/master.m3u8",
-          "geo_de_only": true
         }
       ]
     },
@@ -1028,10 +1044,6 @@
         {
           "url": "https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master.m3u8",
           "geo_de_only": false
-        },
-        {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/int/master.m3u8",
-          "geo_de_only": true
         }
       ]
     },
@@ -1049,10 +1061,6 @@
         {
           "url": "https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master.m3u8",
           "geo_de_only": false
-        },
-        {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/int/master.m3u8",
-          "geo_de_only": true
         }
       ]
     },
@@ -1070,10 +1078,6 @@
         {
           "url": "https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master.m3u8",
           "geo_de_only": false
-        },
-        {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/essen/hls/int/master.m3u8",
-          "geo_de_only": true
         }
       ]
     },
@@ -1091,10 +1095,6 @@
         {
           "url": "https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master.m3u8",
           "geo_de_only": false
-        },
-        {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/int/master.m3u8",
-          "geo_de_only": true
         }
       ]
     },
@@ -1112,10 +1112,6 @@
         {
           "url": "https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master.m3u8",
           "geo_de_only": false
-        },
-        {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/siegen/hls/int/master.m3u8",
-          "geo_de_only": true
         }
       ]
     },
@@ -1133,10 +1129,6 @@
         {
           "url": "https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master.m3u8",
           "geo_de_only": false
-        },
-        {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/int/master.m3u8",
-          "geo_de_only": true
         }
       ]
     },
@@ -1406,6 +1398,10 @@
       "streams": [
         {
           "url": "https://live20.bozztv.com/akamaissh101/ssh101/melodietvlive/chunks.m3u8",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://live20.bozztv.com/akamaissh101/ssh101/melodietvlive/playlist.m3u8",
           "geo_de_only": false
         }
       ]
@@ -1960,12 +1956,29 @@
       ]
     },
     {
+      "id": "tv-kanal-avrupa",
+      "name": "Kanal Avrupa",
+      "type": "tv",
+      "category": "international",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://api-tv27.yayin.com.tr/kanalavrupa/index.m3u8",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
       "id": "radio-deutschlandfunk",
       "name": "Deutschlandfunk",
       "type": "radio",
       "category": "public",
       "geo_de_only": false,
       "streams": [
+        {
+          "url": "https://st01.sslstream.dlf.de/dlf/01/high/aac/stream.aac?aggregator=web",
+          "geo_de_only": false
+        },
         {
           "url": "https://st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3?aggregator=web",
           "geo_de_only": false
@@ -2166,7 +2179,7 @@
     },
     {
       "id": "radio-ffn",
-      "name": "FFN",
+      "name": "ffn 80er",
       "type": "radio",
       "category": "regional",
       "geo_de_only": false,
@@ -2796,6 +2809,19 @@
       "streams": [
         {
           "url": "https://streams.radio7.de/dab/mp3-192/web/",
+          "geo_de_only": false
+        }
+      ]
+    },
+    {
+      "id": "radio-radio-ffn",
+      "name": "radio ffn",
+      "type": "radio",
+      "category": "regional",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://stream.ffn.de/ffn/mp3-192/",
           "geo_de_only": false
         }
       ]
@@ -4062,6 +4088,10 @@
         },
         {
           "url": "https://wdr-1live-djsession.icecast.wdr.de/wdr/1live/djsession/mp3/128/stream.mp3",
+          "geo_de_only": false
+        },
+        {
+          "url": "https://wdr-1live-live.icecastssl.wdr.de/wdr/1live/live/mp3/128/stream.mp3",
           "geo_de_only": false
         }
       ]

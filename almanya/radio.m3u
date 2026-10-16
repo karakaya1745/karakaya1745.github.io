@@ -1,12 +1,14 @@
 #EXTM3U
 # ZapIt TV — Almanya radyo (kategoriye göre, ölü linkler çıkarıldı)
 #EXTINF:-1 tvg-id="radio-deutschlandfunk" tvg-name="Deutschlandfunk" group-title="public",Deutschlandfunk (1)
-https://st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3?aggregator=web
+https://st01.sslstream.dlf.de/dlf/01/high/aac/stream.aac?aggregator=web
 #EXTINF:-1 tvg-id="radio-deutschlandfunk" tvg-name="Deutschlandfunk" group-title="public",Deutschlandfunk (2)
-https://st02.sslstream.dlf.de/dlf/02/128/mp3/stream.mp3?aggregator=web
+https://st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3?aggregator=web
 #EXTINF:-1 tvg-id="radio-deutschlandfunk" tvg-name="Deutschlandfunk" group-title="public",Deutschlandfunk (3)
-https://st01.sslstream.dlf.de/dlf/01/low/opus/stream.opus?aggregator=web
+https://st02.sslstream.dlf.de/dlf/02/128/mp3/stream.mp3?aggregator=web
 #EXTINF:-1 tvg-id="radio-deutschlandfunk" tvg-name="Deutschlandfunk" group-title="public",Deutschlandfunk (4)
+https://st01.sslstream.dlf.de/dlf/01/low/opus/stream.opus?aggregator=web
+#EXTINF:-1 tvg-id="radio-deutschlandfunk" tvg-name="Deutschlandfunk" group-title="public",Deutschlandfunk (5)
 https://st01.sslstream.dlf.de/dlf/01/low/aac/stream.aac?aggregator=web
 #EXTINF:-1 tvg-id="radio-deutschlandfunk-nova" tvg-name="Deutschlandfunk Nova" group-title="public",Deutschlandfunk Nova (1)
 https://st03.sslstream.dlf.de/dlf/03/128/mp3/stream.mp3?aggregator=web
@@ -62,7 +64,7 @@ https://icecast.radiobremen.de/rb/bremeneins/live/mp3/128/stream.mp3
 https://icecast.radiobremen.de/rb/webchannel6/mp3/128/stream.mp3
 #EXTINF:-1 tvg-id="radio-bremen-eins" tvg-name="Bremen Eins" group-title="regional",Bremen Eins (4)
 https://icecast.radiobremen.de/rb/webchannel5/mp3/128/stream.mp3
-#EXTINF:-1 tvg-id="radio-ffn" tvg-name="FFN" group-title="regional",FFN (1)
+#EXTINF:-1 tvg-id="radio-ffn" tvg-name="ffn 80er" group-title="regional",ffn 80er (1)
 https://stream.ffn.de/ffn-80er/?ref=radio-browser
 #EXTINF:-1 tvg-id="radio-hr-1" tvg-name="HR 1" group-title="regional",HR 1 (1)
 https://dispatcher.rndfnk.com/hr/hr1/live/mp3/high
@@ -218,6 +220,8 @@ https://frontend.streamonkey.net/donau3fm-live/stream/mp3
 https://addrad.io/4454pjf
 #EXTINF:-1 tvg-id="radio-radio-7" tvg-name="Radio 7" group-title="regional",Radio 7 (1)
 https://streams.radio7.de/dab/mp3-192/web/
+#EXTINF:-1 tvg-id="radio-radio-ffn" tvg-name="radio ffn" group-title="regional",radio ffn (1)
+https://stream.ffn.de/ffn/mp3-192/
 #EXTINF:-1 tvg-id="radio-br-24" tvg-name="BR 24" group-title="news",BR 24 (1)
 https://dispatcher.rndfnk.com/br/br24/live/mp3/mid
 #EXTINF:-1 tvg-id="radio-br-24" tvg-name="BR 24" group-title="news",BR 24 (2)
@@ -572,6 +576,8 @@ https://wdr-1live-live.icecast.wdr.de/wdr/1live/live/mp3/128/stream.mp3
 https://wdr-1live-diggi.icecast.wdr.de/wdr/1live/diggi/mp3/128/stream.mp3
 #EXTINF:-1 tvg-id="radio-wdr-1-live" tvg-name="WDR 1 Live" group-title="music",WDR 1 Live (3)
 https://wdr-1live-djsession.icecast.wdr.de/wdr/1live/djsession/mp3/128/stream.mp3
+#EXTINF:-1 tvg-id="radio-wdr-1-live" tvg-name="WDR 1 Live" group-title="music",WDR 1 Live (4)
+https://wdr-1live-live.icecastssl.wdr.de/wdr/1live/live/mp3/128/stream.mp3
 #EXTINF:-1 tvg-id="radio-wdr-1-live-diggi" tvg-name="WDR 1 Live Diggi" group-title="music",WDR 1 Live Diggi (1)
 https://wdr-1live-diggi.icecastssl.wdr.de/wdr/1live/diggi/mp3/128/stream.mp3
 #EXTINF:-1 tvg-id="radio-wdr-1-live-diggi" tvg-name="WDR 1 Live Diggi" group-title="music",WDR 1 Live Diggi (2)

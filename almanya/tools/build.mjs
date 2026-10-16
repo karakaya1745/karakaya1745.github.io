@@ -11,6 +11,7 @@
  *
  * Girdi: almanya/sources/{tv,radio}.{csv,m3u}
  *        almanya/sources/onay-2026-10-15.csv (onaylı ekler; etkinlik yayınları atlanır)
+ *        almanya/sources/onay-2026-10-16.csv (yedekler, Kanal Avrupa, ffn, ölü int linkler)
  * Ölü (failed) ve denenmemiş (untested) linkler yayınlanmaz.
  * geo-blocked (403) ve "sadece Almanya" linkler kalır; geo_de_only ile işaretlenir.
  * Katalogda olan URL yeniden eklenmez. Yeni link uydurulmaz.
@@ -35,6 +36,7 @@ const CATEGORY_ORDER = [
   "documentary",
   "lifestyle",
   "entertainment",
+  "international",
   "other",
 ];
 
@@ -83,6 +85,7 @@ const TV_CATEGORY = {
   "Just Cooking": "lifestyle",
   "Just Fishing": "lifestyle",
   Juwelo: "shopping",
+  "Kanal Avrupa": "international",
   "K-TV": "religious",
   KIKA: "kids",
   "L TV": "regional",
@@ -186,6 +189,8 @@ const RADIO_CATEGORY = {
   "Dokumente und Debatten": "news",
   ENERGY: "music",
   FFN: "regional",
+  "ffn 80er": "regional",
+  "radio ffn": "regional",
   "Hit Radio FFH": "music",
   "JAM FM Black Label": "music",
   "Hitradio Ohr": "music",
@@ -281,19 +286,60 @@ function readText(file) {
 }
 
 function parseCsv(text) {
-  const lines = text.split(/\r?\n/).filter((line) => line.length > 0);
-  if (!lines.length) throw new Error("boş CSV");
-  const header = lines[0].split(",");
-  return lines.slice(1).map((line, i) => {
-    const cols = line.split(",");
-    if (cols.length !== header.length) {
-      throw new Error(`CSV sütun sayısı uyuşmuyor (satır ${i + 2}): ${line}`);
+  const rows = [];
+  let row = [];
+  let field = "";
+  let inQuotes = false;
+  const src = text.replace(/^\uFEFF/, "");
+  for (let i = 0; i < src.length; i++) {
+    const char = src[i];
+    if (inQuotes) {
+      if (char === '"') {
+        if (src[i + 1] === '"') {
+          field += '"';
+          i += 1;
+        } else {
+          inQuotes = false;
+        }
+      } else {
+        field += char;
+      }
+      continue;
     }
-    const row = {};
-    header.forEach((key, index) => {
-      row[key] = cols[index];
+    if (char === '"') {
+      inQuotes = true;
+      continue;
+    }
+    if (char === ",") {
+      row.push(field);
+      field = "";
+      continue;
+    }
+    if (char === "\n" || char === "\r") {
+      if (char === "\r" && src[i + 1] === "\n") i += 1;
+      row.push(field);
+      field = "";
+      if (row.some((cell) => cell.length > 0)) rows.push(row);
+      row = [];
+      continue;
+    }
+    field += char;
+  }
+  if (field.length > 0 || row.length > 0) {
+    row.push(field);
+    if (row.some((cell) => cell.length > 0)) rows.push(row);
+  }
+  if (!rows.length) throw new Error("boş CSV");
+  const header = rows[0];
+  return rows.slice(1).map((cols, index) => {
+    if (cols.length !== header.length) {
+      throw new Error(`CSV sütun sayısı uyuşmuyor (satır ${index + 2}): ${cols.join("|")}`);
+    }
+    const record = {};
+    header.forEach((key, column) => {
+      record[key] = cols[column];
     });
-    return row;
+    return record;
   });
 }
 
@@ -495,20 +541,122 @@ function mergeApproval(channels) {
     stats.addedLinks += 1;
   }
 
+  for (const channel of channels) sortChannelStreams(channel);
+
+  return stats;
+}
+
+function sortChannelStreams(channel) {
+  channel.streams.forEach((stream, index) => {
+    if (stream._ord == null) stream._ord = index;
+  });
+  channel.streams.sort((a, b) => {
+    const byGeo = Number(a.geo_de_only) - Number(b.geo_de_only);
+    if (byGeo !== 0) return byGeo;
+    return a._ord - b._ord;
+  });
+  for (const stream of channel.streams) delete stream._ord;
+  channel.geo_de_only = channel.streams.every((stream) => stream.geo_de_only);
+  channel.groups = channel.streams.map(() => channel.category);
+}
+
+/** Katalog adı değişir; id önceki addan korunur (assignIds). */
+const RENAMES = [{ type: "radio", from: "FFN", to: "ffn 80er" }];
+
+function applyRenames(channels) {
+  for (const rename of RENAMES) {
+    const channel = channels.find((item) => item.type === rename.type && item.name === rename.from);
+    if (!channel) throw new Error(`yeniden adlandırılacak kanal yok: ${rename.from}`);
+    channel.previousName = channel.name;
+    channel.name = rename.to;
+  }
+}
+
+const ONAY_16_NAME = {
+  "FFN (radio ffn ana yayın)": "radio ffn",
+};
+
+/** Daha yüksek kalite olduğu için mevcut çalışan linklerin önüne alınır. */
+const PREPEND_URLS = new Set([
+  "https://st01.sslstream.dlf.de/dlf/01/high/aac/stream.aac?aggregator=web",
+]);
+
+const REMOVE_TURS = new Set(["olu_mevcut_link", "olu_mevcut_link_supheli"]);
+
+function applyOnay20261016(channels) {
+  const file = path.join(SOURCES, "onay-2026-10-16.csv");
+  const stats = { addedChannels: 0, addedLinks: 0, removedLinks: 0 };
+  if (!fs.existsSync(file)) return stats;
+
+  const rows = parseCsv(readText(file));
+  const byKey = new Map(channels.map((channel) => [`${channel.type}\0${channel.name}`, channel]));
+  const urls = new Set();
   for (const channel of channels) {
-    channel.streams.forEach((stream, index) => {
-      if (stream._ord == null) stream._ord = index;
-    });
-    channel.streams.sort((a, b) => {
-      const byGeo = Number(a.geo_de_only) - Number(b.geo_de_only);
-      if (byGeo !== 0) return byGeo;
-      return a._ord - b._ord;
-    });
-    for (const stream of channel.streams) delete stream._ord;
-    channel.geo_de_only = channel.streams.every((stream) => stream.geo_de_only);
-    channel.groups = channel.streams.map(() => channel.category);
+    for (const stream of channel.streams) urls.add(stream.url);
   }
 
+  let ordinal = 2_000_000;
+  for (const row of rows) {
+    const rawName = row.kanal?.trim();
+    const url = row.link?.trim();
+    const tur = row.tur?.trim();
+    if (!rawName || !url || !tur) throw new Error("onay-2026-10-16 satırı eksik");
+    if (!/^https:\/\/\S+$/.test(url)) throw new Error(`geçersiz onay URL (${rawName}): ${url}`);
+
+    if (REMOVE_TURS.has(tur)) {
+      const channel = byKey.get(`tv\0${rawName}`) || byKey.get(`radio\0${rawName}`);
+      if (!channel) throw new Error(`silinecek kanal yok: ${rawName}`);
+      const before = channel.streams.length;
+      channel.streams = channel.streams.filter((stream) => stream.url !== url);
+      if (channel.streams.length !== before - 1) {
+        throw new Error(`silinecek link bulunamadı (${rawName}): ${url}`);
+      }
+      urls.delete(url);
+      stats.removedLinks += 1;
+      continue;
+    }
+
+    const name = ONAY_16_NAME[rawName] || rawName;
+    const type = tur.startsWith("radyo") ? "radio" : "tv";
+    const status = approvalStatus(row.durum);
+    if (!status) throw new Error(`bilinmeyen onay durumu (${rawName}): ${row.durum}`);
+    if (urls.has(url)) {
+      throw new Error(`onay linki zaten katalogda (${name}): ${url}`);
+    }
+
+    const key = `${type}\0${name}`;
+    let channel = byKey.get(key);
+    if (!channel) {
+      const categories = type === "tv" ? TV_CATEGORY : RADIO_CATEGORY;
+      const category = categories[name];
+      if (!category || !ALLOWED_CATEGORIES.has(category)) {
+        throw new Error(`kategori yok veya geçersiz: ${type} "${name}"`);
+      }
+      channel = {
+        id: "",
+        name,
+        type,
+        category,
+        geo_de_only: false,
+        streams: [],
+        groups: [],
+      };
+      channels.push(channel);
+      byKey.set(key, channel);
+      stats.addedChannels += 1;
+    }
+
+    channel.streams.push({
+      url,
+      geo_de_only: isGeo(status),
+      _ord: PREPEND_URLS.has(url) ? -1 : ordinal,
+    });
+    ordinal += 1;
+    urls.add(url);
+    stats.addedLinks += 1;
+  }
+
+  for (const channel of channels) sortChannelStreams(channel);
   return stats;
 }
 
@@ -533,7 +681,8 @@ function assignIds(channels, previousChannels) {
   const used = new Set();
   for (const channel of channels) {
     const key = `${channel.type}\0${channel.name}`;
-    let id = previous.get(key);
+    const previousKey = channel.previousName ? `${channel.type}\0${channel.previousName}` : "";
+    let id = previous.get(key) || (previousKey ? previous.get(previousKey) : "");
     if (!id) {
       const plus = /\+\s*$/.test(channel.name);
       const stem = plus ? channel.name.replace(/\+\s*$/, "") : channel.name;
@@ -640,6 +789,8 @@ function loadCatalog() {
   const radio = buildChannels("radio", radioRows, "station", RADIO_CATEGORY, radioGroups);
   const channels = [...tv.channels, ...radio.channels];
   const approval = mergeApproval(channels);
+  applyRenames(channels);
+  const onay16 = applyOnay20261016(channels);
   const grouped = groupByCategory(channels);
   const previous = readJsonIfExists(path.join(DIR, "channels.json"));
   assignIds(grouped, previous?.channels);
@@ -656,6 +807,7 @@ function loadCatalog() {
     tvCount: grouped.filter((channel) => channel.type === "tv").length,
     radioCount: grouped.filter((channel) => channel.type === "radio").length,
     approval,
+    onay16,
   };
 }
 
@@ -760,6 +912,11 @@ function main() {
   console.log(
     `[almanya] onay: +${approval.addedChannels || 0} kanal, +${approval.addedLinks || 0} link, ` +
       `etkinlik atlandı ${approval.skippedEvents || 0}, yinelenen URL ${approval.skippedDupes || 0}`,
+  );
+  const onay16 = catalog.onay16 || {};
+  console.log(
+    `[almanya] onay-2026-10-16: +${onay16.addedChannels || 0} kanal, ` +
+      `+${onay16.addedLinks || 0} link, -${onay16.removedLinks || 0} link`,
   );
   console.log(`[almanya] sha256=${hash}`);
   if (catalog.dropped.length) {
