@@ -75,6 +75,7 @@ Kategoriler adından çıkarılır (`tools/build.mjs` içindeki tablo):
 | `documentary` | Dokusat, N24 Doku |
 | `lifestyle` | Just Cooking, Just Fishing |
 | `entertainment` | Anixe, DF1 |
+| `international` | Kanal Avrupa (Türkçe yayın) |
 | `other` | adı bir sınıfa oturmayanlar |
 
 ## Neler çıkarılır
@@ -85,9 +86,11 @@ Radyo CSV'sinde aynı istasyon adının altında kardeş yayınlar da `(1)`, `(2
 
 `sources/onay-2026-10-15.csv` sonradan onaylanan adaylardır. Betik bu dosyayı da okur. Etkinlik beslemeleri kataloğa girmez: `ARD Event`, `ARTE Event`, `BR Event`, `MDR+`, `rbb Event`, `SWR Event`, `ZDF Event`, `WDR Event`. `sadece Almanya` satırları 403 kabul edilir (`geo_de_only`). Katalogda zaten bulunan URL ikinci kez eklenmez. Yeni kanallar kategori tablosuna göre kendi grubunun sonuna yazılır.
 
+`sources/onay-2026-10-16.csv` bir sonraki onaydır. Yedek linkler ilgili kanala eklenir. `olu_mevcut_link` satırları (WDR Lokalzeit `hls/int`) katalogdan silinir; çalışan `de` linkler kalır. Eski `FFN` kaydı `ffn 80er` olur ve id'si `radio-ffn` olarak kalır. Ana yayın ayrı kanal olarak `radio ffn` adıyla eklenir. Deutschlandfunk AAC 192k linki, daha yüksek kalite olduğu için o kanalın ilk adresidir.
+
 ## Sıra
 
-Kanallar önce türe göre dizilir (TV, sonra radyo). Türün içinde kategori sırası şudur: `public`, `regional`, `news`, `culture`, `music`, `kids`, `religious`, `shopping`, `documentary`, `lifestyle`, `entertainment`, `other`. Aynı kategoride önceki göreli sıra korunur. Yayımlanan `tv.m3u` ve `radio.m3u` aynı sırayı kullanır; `group-title` kategoridir. Bir kanalın yedek linklerinde çalışan adresler, 403 adreslerden önce gelir.
+Kanallar önce türe göre dizilir (TV, sonra radyo). Türün içinde kategori sırası şudur: `public`, `regional`, `news`, `culture`, `music`, `kids`, `religious`, `shopping`, `documentary`, `lifestyle`, `entertainment`, `international`, `other`. Aynı kategoride önceki göreli sıra korunur. Yayımlanan `tv.m3u` ve `radio.m3u` aynı sırayı kullanır; `group-title` kategoridir. Bir kanalın yedek linklerinde çalışan adresler, 403 adreslerden önce gelir.
 
 ## Nasıl güncellenir
 

@@ -1,0 +1,20 @@
+kanal,link,durum,kaynak,tur
+Das Erste,https://derste247liveint.akamaized.net/hls/live/662735/daserste_int/master.m3u8,"working (200, canlı segment)",GitHub kod araması: kilirushi/iptv,yeni_link
+HR Fernsehen,https://hr-live.ard-mcdn.de/hr/live/hls/de/master.m3u8,"working (200, canlı segment)",GitHub kod araması: WildContagion/TV,yeni_link
+HR Fernsehen,https://hrhls.akamaized.net/hls/live/2024525/hrhls/master.m3u8,"working (200, canlı segment)",GitHub kod araması: junguler/m3u-radio-music-playlists,yeni_link
+HR Fernsehen,https://hrhlsde.akamaized.net/hls/live/2024526/hrhlsde/index.m3u8,"working (200, canlı segment)",GitHub kod araması: junguler/m3u-radio-music-playlists,yeni_link
+NDR Fernsehen Niedersachsen,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master_720.m3u8,"working (200, canlı segment)",GitHub kod araması: PrinzMichiDE/iptv-kodi-german,yeni_link
+NDR Fernsehen Mecklenburg-Vorpommern,https://mcdn-ndr.akamaized.net/ndr/hls/ndr_fs/ndr_mv/master_720.m3u8,"working (200, canlı segment)",GitHub kod araması: PrinzMichiDE/iptv-kodi-german,yeni_link
+Melodie TV,https://live20.bozztv.com/akamaissh101/ssh101/melodietvlive/playlist.m3u8,"working (200, canlı segment)",GitHub kod araması: WildContagion/TV,yeni_link
+Kanal Avrupa,https://api-tv27.yayin.com.tr/kanalavrupa/index.m3u8,"working (200, canlı segment; resmi kaynak doğrulanamadı)",GitHub kod araması: kilirushi/iptv + LyngSat Astra 19.2 FTA,yeni_kanal
+FFN (radio ffn ana yayın),https://stream.ffn.de/ffn/mp3-192/,working (302 -> audio/mpeg 200),radio-browser.info / resmi ffn.de,radyo_yeni_link
+WDR 1 Live,https://wdr-1live-live.icecastssl.wdr.de/wdr/1live/live/mp3/128/stream.mp3,working (200 audio/mpeg),radio-browser.info / resmi wdr.de,radyo_yeni_link
+Deutschlandfunk,https://st01.sslstream.dlf.de/dlf/01/high/aac/stream.aac?aggregator=web,"working (200 audio/aac, 192k)",radio-browser.info / resmi dlf.de,radyo_yeni_link
+WDR Studio Aachen,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/int/master.m3u8,"olu (404, iki testte)",katalog yeniden testi,olu_mevcut_link
+WDR Studio Düsseldorf,https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/int/master.m3u8,"olu (404, iki testte)",katalog yeniden testi,olu_mevcut_link
+WDR Studio Essen,https://wdr-live.ard-mcdn.de/wdr/essen/hls/int/master.m3u8,"olu (404, iki testte)",katalog yeniden testi,olu_mevcut_link
+WDR Studio Münster,https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/int/master.m3u8,"olu (404, iki testte)",katalog yeniden testi,olu_mevcut_link
+WDR Studio Siegen,https://wdr-live.ard-mcdn.de/wdr/siegen/hls/int/master.m3u8,"olu (404, iki testte)",katalog yeniden testi,olu_mevcut_link
+WDR Studio Wuppertal,https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/int/master.m3u8,"olu (404, iki testte)",katalog yeniden testi,olu_mevcut_link
+WDR Studio Bielefeld,https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/int/master.m3u8,kararsiz (404/403 arasinda gidip geliyor),katalog yeniden testi,olu_mevcut_link_supheli
+WDR Studio Duisburg,https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/int/master.m3u8,kararsiz (404/403 arasinda gidip geliyor),katalog yeniden testi,olu_mevcut_link_supheli
