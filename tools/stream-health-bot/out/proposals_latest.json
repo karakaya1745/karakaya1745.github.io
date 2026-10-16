@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-13T12:25:54.327Z",
+  "generatedAt": "2026-10-16T09:27:35.173Z",
   "mode": "proposal-only",
   "applied": false,
   "catalogTouched": false,
   "summary": {
     "add_url": 6,
     "add_channel": 0,
-    "remove_url": 257
+    "remove_url": 369
   },
   "runs": [
     {
@@ -32,24 +32,40 @@
     }
   ],
   "sources": {
-    "health": "2026-10-13T12:25:54.369Z",
-    "enrich": "2026-10-13T12:45:42.823Z",
-    "discover": "2026-10-13T12:51:40.490Z"
+    "health": "2026-10-16T09:27:35.205Z",
+    "enrich": "2026-10-16T10:26:12.884Z",
+    "discover": "2026-10-16T10:32:11.581Z"
   },
   "adds": [
     {
       "action": "add_url",
-      "channelName": "Cartoon Network",
-      "channelKey": "cartoonnetwork",
-      "url": "http://tvsen7.aynascope.net/cartoonnetwork/index.m3u8",
+      "channelName": "TRT Belgesel",
+      "channelKey": "trtbelgesel",
+      "url": "https://tv-trtbelgesel-dai.medya.trt.com.tr/master.m3u8",
       "source": "stream-health-bot",
       "reason": "M3U/health dry-run: yeni canli URL"
     },
     {
       "action": "add_url",
-      "channelName": "Tabii TV",
-      "channelKey": "tabiitv",
-      "url": "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.m3u8",
+      "channelName": "Cartoon Network",
+      "channelKey": "cartoonnetwork",
+      "url": "https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "Cartoon Network",
+      "channelKey": "cartoonnetwork",
+      "url": "https://drk6xq0vhn.gpcdn.net/live/cn_hd_abr/index.m3u8",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "Baby TV",
+      "channelKey": "babytv",
+      "url": "http://57.128.231.171:8080/310/index.m3u8",
       "source": "stream-health-bot",
       "reason": "M3U/health dry-run: yeni canli URL"
     },
@@ -68,25 +84,33 @@
       "url": "http://stream.mcquack.net/136/index.m3u8",
       "source": "stream-health-bot",
       "reason": "M3U/health dry-run: yeni canli URL"
-    },
-    {
-      "action": "add_url",
-      "channelName": "Rize Turk",
-      "channelKey": "rizeturk",
-      "url": "https://yayin.rizeturk.com:3777/multi_web/play.m3u8",
-      "source": "stream-health-bot",
-      "reason": "M3U/health dry-run: yeni canli URL"
-    },
-    {
-      "action": "add_url",
-      "channelName": "Cine1",
-      "channelKey": "cine1",
-      "url": "https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8",
-      "source": "stream-health-bot",
-      "reason": "M3U/health dry-run: yeni canli URL"
     }
   ],
   "removes": [
+    {
+      "action": "remove_url",
+      "channelName": "TRT 1",
+      "channelKey": "trt1",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196699&extension=ts&play_token=vmAan78Qyz",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT 1",
+      "channelKey": "trt1",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196683&extension=ts&play_token=YUIm1DgYqE",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT 1",
+      "channelKey": "trt1",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196715&extension=ts&play_token=aTmHKjHujY",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
     {
       "action": "remove_url",
       "channelName": "TRT 1",
@@ -137,9 +161,57 @@
     },
     {
       "action": "remove_url",
+      "channelName": "ATV",
+      "channelKey": "atv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196698&extension=ts&play_token=6k77AngOgl",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "ATV",
+      "channelKey": "atv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196682&extension=ts&play_token=bdFA2u0of1",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "ATV",
+      "channelKey": "atv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196714&extension=ts&play_token=DWNCFJZrjl",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "ATV",
+      "channelKey": "atv",
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
       "channelName": "Kanal D",
       "channelKey": "kanald",
-      "url": "https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/kanald/kanald_1080p.m3u8",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196696&extension=ts&play_token=DYgtNp28Es",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kanal D",
+      "channelKey": "kanald",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196680&extension=ts&play_token=RfWrMzD0aA",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kanal D",
+      "channelKey": "kanald",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196712&extension=ts&play_token=D1bUuDAgZw",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -153,9 +225,105 @@
     },
     {
       "action": "remove_url",
+      "channelName": "Show TV",
+      "channelKey": "showtv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196697&extension=ts&play_token=S05dySmbjf",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Show TV",
+      "channelKey": "showtv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196681&extension=ts&play_token=D1bWjTr6uO",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Show TV",
+      "channelKey": "showtv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196713&extension=ts&play_token=xhxHbZR2QZ",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Star TV",
+      "channelKey": "startv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196695&extension=ts&play_token=9rZyNWfIPX",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Star TV",
+      "channelKey": "startv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196679&extension=ts&play_token=wIZQXtaEUX",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Star TV",
+      "channelKey": "startv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196711&extension=ts&play_token=nggIpK8Ukz",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
       "channelName": "Star TV",
       "channelKey": "startv",
       "url": "https://dogus-live.daioncdn.net/startv/startv.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "NOW",
+      "channelKey": "now",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196710&extension=ts&play_token=Vinm127vDi",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "NOW",
+      "channelKey": "now",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196694&extension=ts&play_token=lSQRFJi5TM",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "NOW",
+      "channelKey": "now",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196678&extension=ts&play_token=p5hwUyOLoj",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TV8",
+      "channelKey": "tv8",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196693&extension=ts&play_token=b5WpiwQiiH",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TV8",
+      "channelKey": "tv8",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196677&extension=ts&play_token=zLN7npODPH",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TV8",
+      "channelKey": "tv8",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196709&extension=ts&play_token=BxLJEjUKpG",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -185,9 +353,305 @@
     },
     {
       "action": "remove_url",
+      "channelName": "TV8,5",
+      "channelKey": "tv85",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196692&extension=ts&play_token=021Y7YSYE8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TV8,5",
+      "channelKey": "tv85",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196676&extension=ts&play_token=Y0BUC14soU",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TV8,5",
+      "channelKey": "tv85",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196708&extension=ts&play_token=Pwjmuok1N0",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "A2",
+      "channelKey": "a2",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196687&extension=ts&play_token=DGJnc2zcvx",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "A2",
+      "channelKey": "a2",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196671&extension=ts&play_token=9oLEqeVHKo",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "A2",
+      "channelKey": "a2",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196703&extension=ts&play_token=UppNkUMero",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "teve2",
+      "channelKey": "teve2",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196689&extension=ts&play_token=7u6BNeQHj0",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "teve2",
+      "channelKey": "teve2",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196673&extension=ts&play_token=FAWownG5Xe",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "teve2",
+      "channelKey": "teve2",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196705&extension=ts&play_token=xANzQNS7IG",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kanal 7",
+      "channelKey": "kanal7",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196690&extension=ts&play_token=PndCKJQB2u",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kanal 7",
+      "channelKey": "kanal7",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196674&extension=ts&play_token=9BpPqEg56T",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kanal 7",
+      "channelKey": "kanal7",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196706&extension=ts&play_token=WrJLqZWz8L",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Beyaz TV",
+      "channelKey": "beyaztv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196675&extension=ts&play_token=MB5iIE85Ro",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Beyaz TV",
+      "channelKey": "beyaztv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196691&extension=ts&play_token=8QiYAaqw7G",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Beyaz TV",
+      "channelKey": "beyaztv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196707&extension=ts&play_token=c1bLsSRIBi",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Show Max",
+      "channelKey": "showmax",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196700&extension=ts&play_token=fc6mDNoLp1",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Show Max",
+      "channelKey": "showmax",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196669&extension=ts&play_token=rjNedbCxUR",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Show Max",
+      "channelKey": "showmax",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196701&extension=ts&play_token=0WeM5XSl3Q",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TV100",
+      "channelKey": "tv100",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197273&extension=ts&play_token=fIy9sX6ocp",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TV100",
+      "channelKey": "tv100",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197299&extension=ts&play_token=l2Hmj6xyse",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
       "channelName": "TYT Türk",
       "channelKey": "tytturk",
       "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/244eb57d-660d-4896-8abc-06e119f6f701.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Haber",
+      "channelKey": "trthaber",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197262&extension=ts&play_token=VItI33IyP6",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Haber",
+      "channelKey": "trthaber",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197249&extension=ts&play_token=qj1ZGcBagQ",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "NTV",
+      "channelKey": "ntv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197266&extension=ts&play_token=4Nw50op3di",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "NTV",
+      "channelKey": "ntv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197247&extension=ts&play_token=sTEEqg3kAh",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "NTV",
+      "channelKey": "ntv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197291&extension=ts&play_token=bpMCEGuEgT",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "CNN Turk",
+      "channelKey": "cnnturk",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197287&extension=ts&play_token=mqO3Ga5TwL",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Haberturk",
+      "channelKey": "haberturk",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197264&extension=ts&play_token=Iw60S9KlXh",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Haberturk",
+      "channelKey": "haberturk",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197251&extension=ts&play_token=sCjQ33s91W",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Haberturk",
+      "channelKey": "haberturk",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197283&extension=ts&play_token=4rvpCu6PHT",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "A Haber",
+      "channelKey": "ahaber",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197252&extension=ts&play_token=VNVj1xnbYU",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "A Haber",
+      "channelKey": "ahaber",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197288&extension=ts&play_token=5Ikrg2T6or",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Haber Global",
+      "channelKey": "haberglobal",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197268&extension=ts&play_token=tGkC8erhpz",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Haber Global",
+      "channelKey": "haberglobal",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197244&extension=ts&play_token=om2rV48Tfv",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Haber Global",
+      "channelKey": "haberglobal",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197294&extension=ts&play_token=jUY2fYSa3k",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "T24",
+      "channelKey": "t24",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197270&extension=ts&play_token=kbSCfqIRQ7",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "T24",
+      "channelKey": "t24",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197241&extension=ts&play_token=Wu0UZQvCRI",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "T24",
+      "channelKey": "t24",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197296&extension=ts&play_token=8fhywOE3Qq",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -227,7 +691,87 @@
       "action": "remove_url",
       "channelName": "Halk TV",
       "channelKey": "halktv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197274&extension=ts&play_token=hmqcrCTD7p",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Halk TV",
+      "channelKey": "halktv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197235&extension=ts&play_token=OG8Ro26N9C",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Halk TV",
+      "channelKey": "halktv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197301&extension=ts&play_token=h3FZ99syXZ",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Halk TV",
+      "channelKey": "halktv",
       "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/af351190-a379-4283-a52c-32e704f87ccd.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Bengu Turk",
+      "channelKey": "benguturk",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197227&extension=ts&play_token=BIkfp6yMim",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TGRT Haber",
+      "channelKey": "tgrthaber",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197263&extension=ts&play_token=c53adoDCo6",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TGRT Haber",
+      "channelKey": "tgrthaber",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197255&extension=ts&play_token=FI3uV5gIam",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TGRT Haber",
+      "channelKey": "tgrthaber",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197284&extension=ts&play_token=MjTL8rPnjA",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Ulke TV",
+      "channelKey": "ulketv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197258&extension=ts&play_token=kT246ZR7mz",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Ulke TV",
+      "channelKey": "ulketv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197250&extension=ts&play_token=s00psMICfR",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Ulke TV",
+      "channelKey": "ulketv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197289&extension=ts&play_token=Qpw9dbSFxv",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -236,6 +780,30 @@
       "channelName": "Ulke TV",
       "channelKey": "ulketv",
       "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197250&extension=ts&play_token=s00psMICfR",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Flash Haber",
+      "channelKey": "flashhaber",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197265&extension=ts&play_token=QkFNXps4SM",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Flash Haber",
+      "channelKey": "flashhaber",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197246&extension=ts&play_token=R9EJPhxijn",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Flash Haber",
+      "channelKey": "flashhaber",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197292&extension=ts&play_token=9wExa5OryA",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -315,6 +883,14 @@
       "action": "remove_url",
       "channelName": "Cem TV",
       "channelKey": "cemtv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197223&extension=ts&play_token=fqcWcqBS9Q",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Cem TV",
+      "channelKey": "cemtv",
       "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197223&extension=ts&play_token=fqcWcqBS9Q",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
@@ -387,7 +963,55 @@
       "action": "remove_url",
       "channelName": "TRT Spor",
       "channelKey": "trtspor",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=709&extension=ts&play_token=AN3cSmXfyI",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor",
+      "channelKey": "trtspor",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=701&extension=ts&play_token=otMelKJIPh",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor",
+      "channelKey": "trtspor",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=615826&extension=ts&play_token=NKaM9BVBIs",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor",
+      "channelKey": "trtspor",
       "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/74255873-8072-4f0f-884d-3a603072bdb3.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "A Spor",
+      "channelKey": "aspor",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=710&extension=ts&play_token=oaWDTNLbEj",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "A Spor",
+      "channelKey": "aspor",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=702&extension=ts&play_token=CmHPqiusmm",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "A Spor",
+      "channelKey": "aspor",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=615828&extension=ts&play_token=B4wXrecpVY",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -507,6 +1131,14 @@
       "action": "remove_url",
       "channelName": "TJK TV",
       "channelKey": "tjktv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=18648&extension=ts&play_token=35ATmf7mxn",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TJK TV",
+      "channelKey": "tjktv",
       "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/06de9582-b624-4cb7-be89-4a8a1ce4ea43.ts",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
@@ -545,6 +1177,30 @@
     },
     {
       "action": "remove_url",
+      "channelName": "TRT Spor Yildiz",
+      "channelKey": "trtsporyildiz",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=18644&extension=ts&play_token=6fextF0Ovq",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor Yildiz",
+      "channelKey": "trtsporyildiz",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=18645&extension=ts&play_token=hg6kFiym3N",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor Yildiz",
+      "channelKey": "trtsporyildiz",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=615827&extension=ts&play_token=xGWV8Z6zFD",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
       "channelName": "FB TV",
       "channelKey": "fbtv",
       "url": "https://fbtv.fenerbahce.org/fenerbahcetv.stream/chunklist.m3u8",
@@ -556,6 +1212,22 @@
       "channelName": "FB TV",
       "channelKey": "fbtv",
       "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/97ba701b-a891-42fd-82d4-301d5d29bad4.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Tay TV",
+      "channelKey": "taytv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=18646&extension=ts&play_token=pyzC9TZWFz",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Tay TV",
+      "channelKey": "taytv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=18647&extension=ts&play_token=0mS3sQtpPM",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -635,6 +1307,14 @@
       "action": "remove_url",
       "channelName": "DMAX",
       "channelKey": "dmax",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197428&extension=ts&play_token=AmK9aorYxN",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "DMAX",
+      "channelKey": "dmax",
       "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197428&extension=ts&play_token=AmK9aorYxN",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
@@ -668,6 +1348,14 @@
       "channelName": "DMAX",
       "channelKey": "dmax",
       "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/90390b89-6f14-41c5-9028-ad0334e47258.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TLC",
+      "channelKey": "tlc",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197429&extension=ts&play_token=K6dnYNtVcu",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -843,6 +1531,14 @@
       "action": "remove_url",
       "channelName": "Minika GO",
       "channelKey": "minikago",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197415&extension=ts&play_token=jZU8XkX5Bq",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Minika GO",
+      "channelKey": "minikago",
       "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197415&extension=ts&play_token=jZU8XkX5Bq",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
@@ -923,6 +1619,14 @@
       "action": "remove_url",
       "channelName": "TRT Muzik",
       "channelKey": "trtmuzik",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197363&extension=ts&play_token=bHBz9ZRpwX",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Muzik",
+      "channelKey": "trtmuzik",
       "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/ed328250-059a-4ee6-890c-5fd46f7f4bd2.ts",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
@@ -932,6 +1636,14 @@
       "channelName": "Dream Türk",
       "channelKey": "dreamturk",
       "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/d4500390-758d-40b5-be0a-3973c9cceb57.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Power TV",
+      "channelKey": "powertv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197362&extension=ts&play_token=7LuoOPyioR",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -1004,6 +1716,14 @@
       "channelName": "Power Türk Slow",
       "channelKey": "powerturkslow",
       "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/19521a2f-bc9c-40ae-b59d-10ac0495bd7c.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Lalegul TV",
+      "channelKey": "lalegultv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=210470&extension=ts&play_token=Zrn51zyy62",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -1116,6 +1836,14 @@
       "channelName": "Semerkand TV",
       "channelKey": "semerkandtv",
       "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=210473&extension=ts&play_token=kw7nx0fWGJ",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Dost TV",
+      "channelKey": "dosttv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=210465&extension=ts&play_token=Wl1AzaWqzv",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -1291,6 +2019,14 @@
       "action": "remove_url",
       "channelName": "TV5",
       "channelKey": "tv5",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=210462&extension=ts&play_token=KSZIvDyc2v",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TV5",
+      "channelKey": "tv5",
       "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=210462&extension=ts&play_token=KSZIvDyc2v",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
@@ -1300,6 +2036,14 @@
       "channelName": "TV5",
       "channelKey": "tv5",
       "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=210462&extension=ts&play_token=KSZIvDyc2v",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Sat7 Türk",
+      "channelKey": "sat7turk",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197177&extension=ts&play_token=lky5iwkG54",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -1449,6 +2193,86 @@
     },
     {
       "action": "remove_url",
+      "channelName": "TRT 2",
+      "channelKey": "trt2",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196688&extension=ts&play_token=xSvgymKo8X",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT 2",
+      "channelKey": "trt2",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196672&extension=ts&play_token=nlEsVtlBA5",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT 2",
+      "channelKey": "trt2",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196704&extension=ts&play_token=fjDkUPg1W8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT 2",
+      "channelKey": "trt2",
+      "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/58e211f5-109b-45ef-a331-61bde172676d.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Turk",
+      "channelKey": "trtturk",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197240&extension=ts&play_token=KJkY5hTnHv",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Turk",
+      "channelKey": "trtturk",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197236&extension=ts&play_token=apQFkisjWE",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Turk",
+      "channelKey": "trtturk",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197300&extension=ts&play_token=J5AS5QwnuL",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT World",
+      "channelKey": "trtworld",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197261&extension=ts&play_token=cdx7DrYc71",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT World",
+      "channelKey": "trtworld",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197254&extension=ts&play_token=0rlkSsz2j9",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT World",
+      "channelKey": "trtworld",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197286&extension=ts&play_token=IjEhbs1E9U",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
       "channelName": "Diyanet TV",
       "channelKey": "diyanettv",
       "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=210472&extension=ts&play_token=qR0E9dxlC3",
@@ -1481,14 +2305,6 @@
     },
     {
       "action": "remove_url",
-      "channelName": "Ada TV",
-      "channelKey": "adatv",
-      "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/870532a4-b957-43a1-8697-9f8b39a09273.ts",
-      "source": "stream-health-bot",
-      "reason": "2-strike olu link (fail streak >= 2), dry-run"
-    },
-    {
-      "action": "remove_url",
       "channelName": "Koza TV",
       "channelKey": "kozatv",
       "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/14f62dc6-afae-46e6-bc93-459edb88ef7d.ts",
@@ -1516,6 +2332,14 @@
       "channelName": "Kanal 3",
       "channelKey": "kanal3",
       "url": "http://stream.taksimbilisim.com:1935/kanal3/bant1/playlist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kanal 7 Avrupa",
+      "channelKey": "kanal7avrupa",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196661&extension=ts&play_token=t2EsW8HHSU",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -1596,6 +2420,14 @@
       "channelName": "Kanal 7 Avrupa",
       "channelKey": "kanal7avrupa",
       "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=196661&extension=ts&play_token=t2EsW8HHSU",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kanal Firat",
+      "channelKey": "kanalfirat",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196660&extension=ts&play_token=pTDH5wP4Or",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -1684,6 +2516,14 @@
       "channelName": "Kanal Firat",
       "channelKey": "kanalfirat",
       "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/75111400-bd72-4038-a362-52f0dd8ff2b3.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Mavi Karadeniz",
+      "channelKey": "mavikaradeniz",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197183&extension=ts&play_token=18GX0jcvL1",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -1817,9 +2657,25 @@
     },
     {
       "action": "remove_url",
+      "channelName": "Edessa TV",
+      "channelKey": "edessatv",
+      "url": "https://tv.digitalbox.xyz:19360/edessatv/edessatv.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
       "channelName": "Er TV",
       "channelKey": "ertv",
       "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/8601ef1d-a353-4456-8681-f510905df0b8.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Euro D",
+      "channelKey": "eurod",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196663&extension=ts&play_token=Xly1dUUni8",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -1971,6 +2827,30 @@
       "action": "remove_url",
       "channelName": "Bloomberg HT",
       "channelKey": "bloomberght",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197269&extension=ts&play_token=jj4KLPIkkc",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Bloomberg HT",
+      "channelKey": "bloomberght",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197243&extension=ts&play_token=T1dId3f8j8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Bloomberg HT",
+      "channelKey": "bloomberght",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197295&extension=ts&play_token=uLGHcqJiiA",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Bloomberg HT",
+      "channelKey": "bloomberght",
       "url": "https://vavoo.biz-az.workers.dev/play/236989031fa418a7e8a17",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
@@ -1980,6 +2860,22 @@
       "channelName": "Ciftci TV",
       "channelKey": "ciftcitv",
       "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/2e09378d-9a30-4c6a-909c-c41b585ec495.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Meltem TV",
+      "channelKey": "meltemtv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=210463&extension=ts&play_token=H63cTrLCxx",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Meltem TV",
+      "channelKey": "meltemtv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197182&extension=ts&play_token=GckvrhtdF2",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -2147,17 +3043,33 @@
   "proposals": [
     {
       "action": "add_url",
-      "channelName": "Cartoon Network",
-      "channelKey": "cartoonnetwork",
-      "url": "http://tvsen7.aynascope.net/cartoonnetwork/index.m3u8",
+      "channelName": "TRT Belgesel",
+      "channelKey": "trtbelgesel",
+      "url": "https://tv-trtbelgesel-dai.medya.trt.com.tr/master.m3u8",
       "source": "stream-health-bot",
       "reason": "M3U/health dry-run: yeni canli URL"
     },
     {
       "action": "add_url",
-      "channelName": "Tabii TV",
-      "channelKey": "tabiitv",
-      "url": "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.m3u8",
+      "channelName": "Cartoon Network",
+      "channelKey": "cartoonnetwork",
+      "url": "https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "Cartoon Network",
+      "channelKey": "cartoonnetwork",
+      "url": "https://drk6xq0vhn.gpcdn.net/live/cn_hd_abr/index.m3u8",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "Baby TV",
+      "channelKey": "babytv",
+      "url": "http://57.128.231.171:8080/310/index.m3u8",
       "source": "stream-health-bot",
       "reason": "M3U/health dry-run: yeni canli URL"
     },
@@ -2178,20 +3090,28 @@
       "reason": "M3U/health dry-run: yeni canli URL"
     },
     {
-      "action": "add_url",
-      "channelName": "Rize Turk",
-      "channelKey": "rizeturk",
-      "url": "https://yayin.rizeturk.com:3777/multi_web/play.m3u8",
+      "action": "remove_url",
+      "channelName": "TRT 1",
+      "channelKey": "trt1",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196699&extension=ts&play_token=vmAan78Qyz",
       "source": "stream-health-bot",
-      "reason": "M3U/health dry-run: yeni canli URL"
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
     {
-      "action": "add_url",
-      "channelName": "Cine1",
-      "channelKey": "cine1",
-      "url": "https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8",
+      "action": "remove_url",
+      "channelName": "TRT 1",
+      "channelKey": "trt1",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196683&extension=ts&play_token=YUIm1DgYqE",
       "source": "stream-health-bot",
-      "reason": "M3U/health dry-run: yeni canli URL"
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT 1",
+      "channelKey": "trt1",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196715&extension=ts&play_token=aTmHKjHujY",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
     {
       "action": "remove_url",
@@ -2243,9 +3163,57 @@
     },
     {
       "action": "remove_url",
+      "channelName": "ATV",
+      "channelKey": "atv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196698&extension=ts&play_token=6k77AngOgl",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "ATV",
+      "channelKey": "atv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196682&extension=ts&play_token=bdFA2u0of1",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "ATV",
+      "channelKey": "atv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196714&extension=ts&play_token=DWNCFJZrjl",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "ATV",
+      "channelKey": "atv",
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
       "channelName": "Kanal D",
       "channelKey": "kanald",
-      "url": "https://ackaxsqacw.turknet.ercdn.net/ozfkfbbjba/kanald/kanald_1080p.m3u8",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196696&extension=ts&play_token=DYgtNp28Es",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kanal D",
+      "channelKey": "kanald",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196680&extension=ts&play_token=RfWrMzD0aA",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kanal D",
+      "channelKey": "kanald",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196712&extension=ts&play_token=D1bUuDAgZw",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -2259,9 +3227,105 @@
     },
     {
       "action": "remove_url",
+      "channelName": "Show TV",
+      "channelKey": "showtv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196697&extension=ts&play_token=S05dySmbjf",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Show TV",
+      "channelKey": "showtv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196681&extension=ts&play_token=D1bWjTr6uO",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Show TV",
+      "channelKey": "showtv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196713&extension=ts&play_token=xhxHbZR2QZ",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Star TV",
+      "channelKey": "startv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196695&extension=ts&play_token=9rZyNWfIPX",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Star TV",
+      "channelKey": "startv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196679&extension=ts&play_token=wIZQXtaEUX",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Star TV",
+      "channelKey": "startv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196711&extension=ts&play_token=nggIpK8Ukz",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
       "channelName": "Star TV",
       "channelKey": "startv",
       "url": "https://dogus-live.daioncdn.net/startv/startv.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "NOW",
+      "channelKey": "now",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196710&extension=ts&play_token=Vinm127vDi",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "NOW",
+      "channelKey": "now",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196694&extension=ts&play_token=lSQRFJi5TM",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "NOW",
+      "channelKey": "now",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196678&extension=ts&play_token=p5hwUyOLoj",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TV8",
+      "channelKey": "tv8",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196693&extension=ts&play_token=b5WpiwQiiH",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TV8",
+      "channelKey": "tv8",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196677&extension=ts&play_token=zLN7npODPH",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TV8",
+      "channelKey": "tv8",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196709&extension=ts&play_token=BxLJEjUKpG",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -2291,9 +3355,305 @@
     },
     {
       "action": "remove_url",
+      "channelName": "TV8,5",
+      "channelKey": "tv85",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196692&extension=ts&play_token=021Y7YSYE8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TV8,5",
+      "channelKey": "tv85",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196676&extension=ts&play_token=Y0BUC14soU",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TV8,5",
+      "channelKey": "tv85",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196708&extension=ts&play_token=Pwjmuok1N0",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "A2",
+      "channelKey": "a2",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196687&extension=ts&play_token=DGJnc2zcvx",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "A2",
+      "channelKey": "a2",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196671&extension=ts&play_token=9oLEqeVHKo",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "A2",
+      "channelKey": "a2",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196703&extension=ts&play_token=UppNkUMero",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "teve2",
+      "channelKey": "teve2",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196689&extension=ts&play_token=7u6BNeQHj0",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "teve2",
+      "channelKey": "teve2",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196673&extension=ts&play_token=FAWownG5Xe",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "teve2",
+      "channelKey": "teve2",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196705&extension=ts&play_token=xANzQNS7IG",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kanal 7",
+      "channelKey": "kanal7",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196690&extension=ts&play_token=PndCKJQB2u",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kanal 7",
+      "channelKey": "kanal7",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196674&extension=ts&play_token=9BpPqEg56T",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kanal 7",
+      "channelKey": "kanal7",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196706&extension=ts&play_token=WrJLqZWz8L",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Beyaz TV",
+      "channelKey": "beyaztv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196675&extension=ts&play_token=MB5iIE85Ro",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Beyaz TV",
+      "channelKey": "beyaztv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196691&extension=ts&play_token=8QiYAaqw7G",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Beyaz TV",
+      "channelKey": "beyaztv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196707&extension=ts&play_token=c1bLsSRIBi",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Show Max",
+      "channelKey": "showmax",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196700&extension=ts&play_token=fc6mDNoLp1",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Show Max",
+      "channelKey": "showmax",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196669&extension=ts&play_token=rjNedbCxUR",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Show Max",
+      "channelKey": "showmax",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196701&extension=ts&play_token=0WeM5XSl3Q",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TV100",
+      "channelKey": "tv100",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197273&extension=ts&play_token=fIy9sX6ocp",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TV100",
+      "channelKey": "tv100",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197299&extension=ts&play_token=l2Hmj6xyse",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
       "channelName": "TYT Türk",
       "channelKey": "tytturk",
       "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/244eb57d-660d-4896-8abc-06e119f6f701.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Haber",
+      "channelKey": "trthaber",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197262&extension=ts&play_token=VItI33IyP6",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Haber",
+      "channelKey": "trthaber",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197249&extension=ts&play_token=qj1ZGcBagQ",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "NTV",
+      "channelKey": "ntv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197266&extension=ts&play_token=4Nw50op3di",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "NTV",
+      "channelKey": "ntv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197247&extension=ts&play_token=sTEEqg3kAh",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "NTV",
+      "channelKey": "ntv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197291&extension=ts&play_token=bpMCEGuEgT",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "CNN Turk",
+      "channelKey": "cnnturk",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197287&extension=ts&play_token=mqO3Ga5TwL",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Haberturk",
+      "channelKey": "haberturk",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197264&extension=ts&play_token=Iw60S9KlXh",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Haberturk",
+      "channelKey": "haberturk",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197251&extension=ts&play_token=sCjQ33s91W",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Haberturk",
+      "channelKey": "haberturk",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197283&extension=ts&play_token=4rvpCu6PHT",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "A Haber",
+      "channelKey": "ahaber",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197252&extension=ts&play_token=VNVj1xnbYU",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "A Haber",
+      "channelKey": "ahaber",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197288&extension=ts&play_token=5Ikrg2T6or",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Haber Global",
+      "channelKey": "haberglobal",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197268&extension=ts&play_token=tGkC8erhpz",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Haber Global",
+      "channelKey": "haberglobal",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197244&extension=ts&play_token=om2rV48Tfv",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Haber Global",
+      "channelKey": "haberglobal",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197294&extension=ts&play_token=jUY2fYSa3k",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "T24",
+      "channelKey": "t24",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197270&extension=ts&play_token=kbSCfqIRQ7",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "T24",
+      "channelKey": "t24",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197241&extension=ts&play_token=Wu0UZQvCRI",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "T24",
+      "channelKey": "t24",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197296&extension=ts&play_token=8fhywOE3Qq",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -2333,7 +3693,87 @@
       "action": "remove_url",
       "channelName": "Halk TV",
       "channelKey": "halktv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197274&extension=ts&play_token=hmqcrCTD7p",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Halk TV",
+      "channelKey": "halktv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197235&extension=ts&play_token=OG8Ro26N9C",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Halk TV",
+      "channelKey": "halktv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197301&extension=ts&play_token=h3FZ99syXZ",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Halk TV",
+      "channelKey": "halktv",
       "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/af351190-a379-4283-a52c-32e704f87ccd.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Bengu Turk",
+      "channelKey": "benguturk",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197227&extension=ts&play_token=BIkfp6yMim",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TGRT Haber",
+      "channelKey": "tgrthaber",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197263&extension=ts&play_token=c53adoDCo6",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TGRT Haber",
+      "channelKey": "tgrthaber",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197255&extension=ts&play_token=FI3uV5gIam",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TGRT Haber",
+      "channelKey": "tgrthaber",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197284&extension=ts&play_token=MjTL8rPnjA",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Ulke TV",
+      "channelKey": "ulketv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197258&extension=ts&play_token=kT246ZR7mz",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Ulke TV",
+      "channelKey": "ulketv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197250&extension=ts&play_token=s00psMICfR",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Ulke TV",
+      "channelKey": "ulketv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197289&extension=ts&play_token=Qpw9dbSFxv",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -2342,6 +3782,30 @@
       "channelName": "Ulke TV",
       "channelKey": "ulketv",
       "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197250&extension=ts&play_token=s00psMICfR",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Flash Haber",
+      "channelKey": "flashhaber",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197265&extension=ts&play_token=QkFNXps4SM",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Flash Haber",
+      "channelKey": "flashhaber",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197246&extension=ts&play_token=R9EJPhxijn",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Flash Haber",
+      "channelKey": "flashhaber",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197292&extension=ts&play_token=9wExa5OryA",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -2421,6 +3885,14 @@
       "action": "remove_url",
       "channelName": "Cem TV",
       "channelKey": "cemtv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197223&extension=ts&play_token=fqcWcqBS9Q",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Cem TV",
+      "channelKey": "cemtv",
       "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197223&extension=ts&play_token=fqcWcqBS9Q",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
@@ -2493,7 +3965,55 @@
       "action": "remove_url",
       "channelName": "TRT Spor",
       "channelKey": "trtspor",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=709&extension=ts&play_token=AN3cSmXfyI",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor",
+      "channelKey": "trtspor",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=701&extension=ts&play_token=otMelKJIPh",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor",
+      "channelKey": "trtspor",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=615826&extension=ts&play_token=NKaM9BVBIs",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor",
+      "channelKey": "trtspor",
       "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/74255873-8072-4f0f-884d-3a603072bdb3.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "A Spor",
+      "channelKey": "aspor",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=710&extension=ts&play_token=oaWDTNLbEj",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "A Spor",
+      "channelKey": "aspor",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=702&extension=ts&play_token=CmHPqiusmm",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "A Spor",
+      "channelKey": "aspor",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=615828&extension=ts&play_token=B4wXrecpVY",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -2613,6 +4133,14 @@
       "action": "remove_url",
       "channelName": "TJK TV",
       "channelKey": "tjktv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=18648&extension=ts&play_token=35ATmf7mxn",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TJK TV",
+      "channelKey": "tjktv",
       "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/06de9582-b624-4cb7-be89-4a8a1ce4ea43.ts",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
@@ -2651,6 +4179,30 @@
     },
     {
       "action": "remove_url",
+      "channelName": "TRT Spor Yildiz",
+      "channelKey": "trtsporyildiz",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=18644&extension=ts&play_token=6fextF0Ovq",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor Yildiz",
+      "channelKey": "trtsporyildiz",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=18645&extension=ts&play_token=hg6kFiym3N",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor Yildiz",
+      "channelKey": "trtsporyildiz",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=615827&extension=ts&play_token=xGWV8Z6zFD",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
       "channelName": "FB TV",
       "channelKey": "fbtv",
       "url": "https://fbtv.fenerbahce.org/fenerbahcetv.stream/chunklist.m3u8",
@@ -2662,6 +4214,22 @@
       "channelName": "FB TV",
       "channelKey": "fbtv",
       "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/97ba701b-a891-42fd-82d4-301d5d29bad4.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Tay TV",
+      "channelKey": "taytv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=18646&extension=ts&play_token=pyzC9TZWFz",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Tay TV",
+      "channelKey": "taytv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=18647&extension=ts&play_token=0mS3sQtpPM",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -2741,6 +4309,14 @@
       "action": "remove_url",
       "channelName": "DMAX",
       "channelKey": "dmax",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197428&extension=ts&play_token=AmK9aorYxN",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "DMAX",
+      "channelKey": "dmax",
       "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197428&extension=ts&play_token=AmK9aorYxN",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
@@ -2774,6 +4350,14 @@
       "channelName": "DMAX",
       "channelKey": "dmax",
       "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/90390b89-6f14-41c5-9028-ad0334e47258.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TLC",
+      "channelKey": "tlc",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197429&extension=ts&play_token=K6dnYNtVcu",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -2949,6 +4533,14 @@
       "action": "remove_url",
       "channelName": "Minika GO",
       "channelKey": "minikago",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197415&extension=ts&play_token=jZU8XkX5Bq",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Minika GO",
+      "channelKey": "minikago",
       "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197415&extension=ts&play_token=jZU8XkX5Bq",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
@@ -3029,6 +4621,14 @@
       "action": "remove_url",
       "channelName": "TRT Muzik",
       "channelKey": "trtmuzik",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197363&extension=ts&play_token=bHBz9ZRpwX",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Muzik",
+      "channelKey": "trtmuzik",
       "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/ed328250-059a-4ee6-890c-5fd46f7f4bd2.ts",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
@@ -3038,6 +4638,14 @@
       "channelName": "Dream Türk",
       "channelKey": "dreamturk",
       "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/d4500390-758d-40b5-be0a-3973c9cceb57.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Power TV",
+      "channelKey": "powertv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197362&extension=ts&play_token=7LuoOPyioR",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -3110,6 +4718,14 @@
       "channelName": "Power Türk Slow",
       "channelKey": "powerturkslow",
       "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/19521a2f-bc9c-40ae-b59d-10ac0495bd7c.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Lalegul TV",
+      "channelKey": "lalegultv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=210470&extension=ts&play_token=Zrn51zyy62",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -3222,6 +4838,14 @@
       "channelName": "Semerkand TV",
       "channelKey": "semerkandtv",
       "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=210473&extension=ts&play_token=kw7nx0fWGJ",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Dost TV",
+      "channelKey": "dosttv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=210465&extension=ts&play_token=Wl1AzaWqzv",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -3397,6 +5021,14 @@
       "action": "remove_url",
       "channelName": "TV5",
       "channelKey": "tv5",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=210462&extension=ts&play_token=KSZIvDyc2v",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TV5",
+      "channelKey": "tv5",
       "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=210462&extension=ts&play_token=KSZIvDyc2v",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
@@ -3406,6 +5038,14 @@
       "channelName": "TV5",
       "channelKey": "tv5",
       "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=210462&extension=ts&play_token=KSZIvDyc2v",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Sat7 Türk",
+      "channelKey": "sat7turk",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197177&extension=ts&play_token=lky5iwkG54",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -3555,6 +5195,86 @@
     },
     {
       "action": "remove_url",
+      "channelName": "TRT 2",
+      "channelKey": "trt2",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196688&extension=ts&play_token=xSvgymKo8X",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT 2",
+      "channelKey": "trt2",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196672&extension=ts&play_token=nlEsVtlBA5",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT 2",
+      "channelKey": "trt2",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196704&extension=ts&play_token=fjDkUPg1W8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT 2",
+      "channelKey": "trt2",
+      "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/58e211f5-109b-45ef-a331-61bde172676d.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Turk",
+      "channelKey": "trtturk",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197240&extension=ts&play_token=KJkY5hTnHv",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Turk",
+      "channelKey": "trtturk",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197236&extension=ts&play_token=apQFkisjWE",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Turk",
+      "channelKey": "trtturk",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197300&extension=ts&play_token=J5AS5QwnuL",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT World",
+      "channelKey": "trtworld",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197261&extension=ts&play_token=cdx7DrYc71",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT World",
+      "channelKey": "trtworld",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197254&extension=ts&play_token=0rlkSsz2j9",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT World",
+      "channelKey": "trtworld",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197286&extension=ts&play_token=IjEhbs1E9U",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
       "channelName": "Diyanet TV",
       "channelKey": "diyanettv",
       "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=210472&extension=ts&play_token=qR0E9dxlC3",
@@ -3587,14 +5307,6 @@
     },
     {
       "action": "remove_url",
-      "channelName": "Ada TV",
-      "channelKey": "adatv",
-      "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/870532a4-b957-43a1-8697-9f8b39a09273.ts",
-      "source": "stream-health-bot",
-      "reason": "2-strike olu link (fail streak >= 2), dry-run"
-    },
-    {
-      "action": "remove_url",
       "channelName": "Koza TV",
       "channelKey": "kozatv",
       "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/14f62dc6-afae-46e6-bc93-459edb88ef7d.ts",
@@ -3622,6 +5334,14 @@
       "channelName": "Kanal 3",
       "channelKey": "kanal3",
       "url": "http://stream.taksimbilisim.com:1935/kanal3/bant1/playlist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kanal 7 Avrupa",
+      "channelKey": "kanal7avrupa",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196661&extension=ts&play_token=t2EsW8HHSU",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -3702,6 +5422,14 @@
       "channelName": "Kanal 7 Avrupa",
       "channelKey": "kanal7avrupa",
       "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=196661&extension=ts&play_token=t2EsW8HHSU",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kanal Firat",
+      "channelKey": "kanalfirat",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196660&extension=ts&play_token=pTDH5wP4Or",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -3790,6 +5518,14 @@
       "channelName": "Kanal Firat",
       "channelKey": "kanalfirat",
       "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/75111400-bd72-4038-a362-52f0dd8ff2b3.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Mavi Karadeniz",
+      "channelKey": "mavikaradeniz",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197183&extension=ts&play_token=18GX0jcvL1",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -3923,9 +5659,25 @@
     },
     {
       "action": "remove_url",
+      "channelName": "Edessa TV",
+      "channelKey": "edessatv",
+      "url": "https://tv.digitalbox.xyz:19360/edessatv/edessatv.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
       "channelName": "Er TV",
       "channelKey": "ertv",
       "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/8601ef1d-a353-4456-8681-f510905df0b8.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Euro D",
+      "channelKey": "eurod",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=196663&extension=ts&play_token=Xly1dUUni8",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },
@@ -4077,6 +5829,30 @@
       "action": "remove_url",
       "channelName": "Bloomberg HT",
       "channelKey": "bloomberght",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197269&extension=ts&play_token=jj4KLPIkkc",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Bloomberg HT",
+      "channelKey": "bloomberght",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197243&extension=ts&play_token=T1dId3f8j8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Bloomberg HT",
+      "channelKey": "bloomberght",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197295&extension=ts&play_token=uLGHcqJiiA",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Bloomberg HT",
+      "channelKey": "bloomberght",
       "url": "https://vavoo.biz-az.workers.dev/play/236989031fa418a7e8a17",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
@@ -4086,6 +5862,22 @@
       "channelName": "Ciftci TV",
       "channelKey": "ciftcitv",
       "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/2e09378d-9a30-4c6a-909c-c41b585ec495.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Meltem TV",
+      "channelKey": "meltemtv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=210463&extension=ts&play_token=H63cTrLCxx",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Meltem TV",
+      "channelKey": "meltemtv",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197182&extension=ts&play_token=GckvrhtdF2",
       "source": "stream-health-bot",
       "reason": "2-strike olu link (fail streak >= 2), dry-run"
     },

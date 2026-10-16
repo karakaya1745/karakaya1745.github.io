@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T12:45:42.823Z",
+  "generatedAt": "2026-10-16T10:26:12.884Z",
   "dryRun": true,
   "skipProbe": false,
   "targetCount": 1027,
@@ -60,17 +60,24 @@
     },
     {
       "key": "cartoonnetwork",
-      "added": 1,
+      "added": 2,
       "urls": [
-        "http://tvsen7.aynascope.net/cartoonnetwork/index.m3u8"
+        "https://drk6xq0vhn.gpcdn.net/live/cn_hd_abr/index.m3u8",
+        "https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8"
       ],
-      "total": 7,
+      "total": 9,
       "probeResults": [
         {
-          "url": "http://tvsen7.aynascope.net/cartoonnetwork/index.m3u8",
+          "url": "https://drk6xq0vhn.gpcdn.net/live/cn_hd_abr/index.m3u8",
           "live": true,
           "reason": "hls-manifest",
-          "status": 200
+          "status": 206
+        },
+        {
+          "url": "https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
         },
         {
           "url": "http://ch.canlitvlive.io/cartoonnetwork/live.m3u8",
@@ -112,29 +119,6 @@
           "live": true,
           "reason": "hls-manifest",
           "status": 200
-        }
-      ]
-    },
-    {
-      "key": "dreamtv",
-      "added": 2,
-      "urls": [
-        "https://xykt-fix.github.io/play/a02j/index.m3u8",
-        "https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8"
-      ],
-      "total": 3,
-      "probeResults": [
-        {
-          "url": "https://xykt-fix.github.io/play/a02j/index.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 206
-        },
-        {
-          "url": "https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 206
         }
       ]
     },
@@ -399,69 +383,40 @@
       ]
     },
     {
-      "key": "tabiitv",
+      "key": "babytv",
       "added": 1,
       "urls": [
-        "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.m3u8"
+        "http://57.128.231.171:8080/310/index.m3u8"
       ],
       "total": 2,
       "probeResults": [
         {
-          "url": "https://ceokzokgtd.erbvr.com/tabiitv/tabiitv.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 200
-        }
-      ]
-    },
-    {
-      "key": "rizeturk",
-      "added": 1,
-      "urls": [
-        "https://yayin.rizeturk.com:3777/multi_web/play.m3u8"
-      ],
-      "total": 2,
-      "probeResults": [
-        {
-          "url": "https://yayin.rizeturk.com:3777/multi_web/play.m3u8",
+          "url": "http://57.128.231.171:8080/310/index.m3u8",
           "live": true,
           "reason": "hls-manifest",
           "status": 206
-        }
-      ]
-    },
-    {
-      "key": "cine1",
-      "added": 1,
-      "urls": [
-        "https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8"
-      ],
-      "total": 2,
-      "probeResults": [
-        {
-          "url": "https://live.artidijitalmedya.com/artidijital_cine1/cine1/playlist.m3u8",
-          "live": false,
-          "reason": "http-404",
-          "status": 404
         },
         {
-          "url": "https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 200
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197418&extension=ts&play_token=pFntdTqMqE",
+          "live": false,
+          "reason": "timeout"
         },
         {
-          "url": "https://live.artidijitalmedya.com/artidijital_cine1/cine1/chunks.m3u8",
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197418&extension=ts&play_token=pFntdTqMqE",
           "live": false,
-          "reason": "http-404",
-          "status": 404
+          "reason": "timeout"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197418&extension=ts&play_token=pFntdTqMqE",
+          "live": false,
+          "reason": "timeout"
         }
       ]
     }
   ],
   "skippedFull": [],
-  "totalNewUrls": 25,
-  "enrichedCount": 20,
-  "streamMapRevision": 195,
+  "totalNewUrls": 22,
+  "enrichedCount": 17,
+  "streamMapRevision": 196,
   "mapChanged": true
 }
