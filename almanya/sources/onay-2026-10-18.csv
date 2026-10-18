@@ -1,0 +1,159 @@
+kanal,link,durum,kaynak,tur
+Tagesschau 24,https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master.m3u8,"working (200, canlı segment)",ARD Mediathek API (resmi),yeni_link
+KIKA,https://kika-live.ard-mcdn.de/kika/live/hls/de/master.m3u8,"working (200, canlı segment)",ARD Mediathek API (resmi),yeni_link
+KIKA,https://kikageohls.akamaized.net/hls/live/2022693-b/livetvkika_de/master.m3u8,"working (206, canlı segment)",GitHub: Axel-Erfurt/ARD-Livestreams-for-Roku-Express,yeni_link
+SR Fernsehen,https://srfs.akamaized.net/hls/live/689649/srfsgeo/master.m3u8,"working (200, canlı segment)",Zapp (mediathekview/zapp) channels.json,yeni_link
+SR Fernsehen,https://sr-live.ard-mcdn.de/sr/live/hls/de/master.m3u8,sadece Almanya (403),ARD Mediathek API (resmi),yeni_link
+ARTE Deutsch,https://arteliveext.akamaized.net/hls/live/2030993/artelive_de/index.m3u8,sadece Almanya (403),ARD Mediathek API (resmi),yeni_link
+RBB Brandenburg,https://rbb-live.ard-mcdn.de/rbb/brandenburg/hls/de/master.m3u8,sadece Almanya (403),ARD Mediathek API (resmi),yeni_link
+RBB Brandenburg,https://rbb-hls-brandenburg.akamaized.net/hls/live/2017825/rbb_brandenburg/index.m3u8,sadece Almanya (403),Zapp (mediathekview/zapp) channels.json,yeni_link
+MDR Fernsehen Sachsen-Anhalt,https://mdr-live.ard-mcdn.de/mdr/sa/hls/de/master.m3u8,sadece Almanya (403),ARD Mediathek API (resmi),yeni_link
+MDR Fernsehen Thüringen,https://mdr-live.ard-mcdn.de/mdr/th/hls/de/master.m3u8,sadece Almanya (403),ARD Mediathek API (resmi),yeni_link
+Bayerisches Fernsehen Süd,https://mcdn.br.de/br/fs/bfs_sued/hls/int/master.m3u8,"working (206, canlı segment)",GitHub: LaQuay/TDTChannels,yeni_link
+Bayerisches Fernsehen Nord,https://mcdn.br.de/br/fs/bfs_nord/hls/int/master.m3u8,olu (404),resmi BR CDN deseni (bfs_sued/int ile aynı yapı),denendi_olu_onerilmiyor
+WDR Fernsehen Köln,https://wdrfs247.akamaized.net/hls/live/681509/wdr_msl4_fs247/master.m3u8,"working (200, canlı segment)",GitHub: CloneTV/VLC-TV-Remote,yeni_link
+WDR Fernsehen Köln,https://wdrfsww247.akamaized.net/hls/live/2009628/wdr_msl4_fs247ww/master.m3u8,"working (200, canlı segment)",iptv-org API streams.json,yeni_link
+WDR Studio Aachen,https://wdrlokalzeit.akamaized.net/hls/live/2018019/wdrlz_aachen/index.m3u8,"working (200, canlı segment)",GitHub: Kral-Turk/Kral-Turk-TV,yeni_link
+WDR Studio Siegen,https://wdrlokalzeit.akamaized.net/hls/live/2018020/wdrlz_siegen/index.m3u8,"working (200, canlı segment)",GitHub: Kral-Turk/Kral-Turk-TV,yeni_link
+WDR Studio Bonn,https://wdrlokalzeit.akamaized.net/hls/live/2018021/wdrlz_bonn/index.m3u8,"working (200, canlı segment)",GitHub: Kral-Turk/Kral-Turk-TV,yeni_link
+WDR Studio Dortmund,https://wdrlokalzeit.akamaized.net/hls/live/2018022/wdrlz_dortmund/index.m3u8,"working (200, canlı segment)",GitHub: Kral-Turk/Kral-Turk-TV,yeni_link
+WDR Studio Düsseldorf,https://wdrlokalzeit.akamaized.net/hls/live/2018023/wdrlz_duesseldorf/index.m3u8,"working (200, canlı segment)",GitHub: Kral-Turk/Kral-Turk-TV,yeni_link
+WDR Studio Duisburg,https://wdrlokalzeit.akamaized.net/hls/live/2018024/wdrlz_duisburg/index.m3u8,"working (200, canlı segment)",GitHub: Kral-Turk/Kral-Turk-TV,yeni_link
+WDR Studio Münster,https://wdrlokalzeit.akamaized.net/hls/live/2018025/wdrlz_muensterland/index.m3u8,"working (200, canlı segment)",GitHub: Kral-Turk/Kral-Turk-TV,yeni_link
+WDR Studio Bielefeld,https://wdrlokalzeit.akamaized.net/hls/live/2018026/wdrlz_bielefeld/index.m3u8,"working (200, canlı segment)",GitHub: Kral-Turk/Kral-Turk-TV,yeni_link
+WDR Studio Essen,https://wdrlokalzeit.akamaized.net/hls/live/2018027/wdrlz_essen/index.m3u8,"working (200, canlı segment)",GitHub: Kral-Turk/Kral-Turk-TV,yeni_link
+WDR Studio Wuppertal,https://wdrlokalzeit.akamaized.net/hls/live/2018028/wdrlz_wuppertal/index.m3u8,"working (200, canlı segment)",GitHub: Kral-Turk/Kral-Turk-TV,yeni_link
+WDR Studio Köln,https://wdrlokalzeit.akamaized.net/hls/live/2023550/wdrlz_koeln/index.m3u8,"working (200, canlı segment)",GitHub: Kral-Turk/Kral-Turk-TV,yeni_link
+Franken Fernsehen,https://stream03.welocal.stream/stream/fhd-frankenfernsehen_199261/ngrp:stream_all/playlist.m3u8,"working (206, canlı segment)",GitHub: josxha/german-tv-m3u,yeni_link
+Franken Fernsehen,https://frankentv.iptv-playoutcenter.de/frankentv/frankentv.stream_1/playlist.m3u8,"sadece Almanya (403; liste açılıyor, yayın parçaları 403)",iptv-org countries/de,yeni_link
+Bibel TV,https://bibeltv02.iptv-playoutcenter.de/bibeltv01/bibeltv01.stream_1/playlist.m3u8,"sadece Almanya (403; liste açılıyor, yayın parçaları 403)",GitHub: ekiptv/Depo,yeni_link
+Volksmusik TV,https://muc.iptv-playoutcenter.de/volksmusik/volksmusik.stream_1/playlist.m3u8,"sadece Almanya (403; liste açılıyor, yayın parçaları 403)",GitHub: PABLOPOM/m3u,yeni_link
+RiC,https://rictv.iptv-playoutcenter.de/rictv/rictv-web/chunks.m3u8,"sadece Almanya (403; liste açılıyor, yayın parçaları 403)",iptv-org API streams.json,yeni_link
+K-TV,https://streamcdnf34-a19bf41486254a3485a864c8b0c14fe1.msvdn.net/live/S28743697/LpD0q2aoyujI/playlist.m3u8,"working (206, canlı segment)",kodinerds clean_tv,yeni_link
+EWTN auf Deutsch,https://1775071782.rsc.cdn77.org/1775071782/tracks-v1a1/mono.m3u8,"working (206, canlı segment)",kodinerds clean_tv,yeni_link
+DW Arabic,https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8,"working (200, canlı segment)","iptv-org API + LyngSat (DW Arabia, Astra FTA)",yeni_kanal
+DW Español,https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8,"working (200, canlı segment)","kodinerds + LyngSat (DW Español, Astra FTA)",yeni_kanal
+Parlamentsfernsehen 1 (Bundestag),https://cldf-hlsgw.r53.cdn.tv1.eu/1000153copo/hk1.m3u8,"working (206, canlı segment)",iptv-org countries/de (resmi Bundestag CDN),yeni_kanal
+Parlamentsfernsehen 2 (Bundestag),https://cldf-hlsgw.r53.cdn.tv1.eu/1000153copo/hk2.m3u8,"working (206, canlı segment)",Zapp (mediathekview/zapp) channels.json,yeni_kanal
+Bibel TV Impuls,https://bibeltv02.iptv-playoutcenter.de/bibeltv02/bibeltv02.stream_1/playlist.m3u8,"sadece Almanya (403; liste açılıyor, yayın parçaları 403)",iptv-org countries/de + kodinerds,yeni_kanal
+Welt der Wunder TV,https://wdw.iptv-playoutcenter.de/wdw/wdw1/playlist.m3u8,"sadece Almanya (403; liste açılıyor, yayın parçaları 403)",iptv-org countries/de,yeni_kanal
+Sophia TV,https://bild-und-ton.stream/sophiatv-en/smil:sophia-tv-en.smil/playlist.m3u8,"working (206, canlı segment)","iptv-org countries/de + LyngSat (Sophia TV, Astra FTA)",yeni_kanal
+Die Neue Zeit TV,https://bild-und-ton.stream/die-neue-zeit-tv-live/smil:dnz-de.smil/playlist.m3u8,"working (206, canlı segment)",iptv-org countries/de,yeni_kanal
+Light Channel Deutschland,https://streamer1.streamhost.org/salive/lctvde/playlist.m3u8,"working (200, canlı segment)",iptv-org countries/de (https sürümü),yeni_kanal
+MC TV (MC EU),https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=https&service=wowza&type=live,"sadece Almanya (403; liste açılıyor, yayın parçaları 403)","iptv-org countries/de + LyngSat (MC EU, Astra FTA)",yeni_kanal
+Adria Music TV,https://adriaapp.b-cdn.net/1080p/index.m3u8,olu (000),"iptv-org countries/de + LyngSat (Adria Music TV, Astra FTA)",denendi_olu_onerilmiyor
+Çira TV,https://hlspackager.akamaized.net/live/DB/CIRA_TV/HLS/CIRA_TV.m3u8,"working (200, canlı segment)","iptv-org countries/de + LyngSat (Çira TV, Astra FTA)",yeni_kanal
+NRWision,https://fms.nrwision.de/live/ngrp:livestreamHD.stream/playlist.m3u8,"working (206, canlı segment)",iptv-org countries/de,yeni_kanal_yerel
+Hamburg 1,https://stream.hamburg1.de/live_abr/hamburg1_abr/playlist.m3u8,olu (000),iptv-org countries/de,denendi_olu_onerilmiyor
+Sachsen Fernsehen Leipzig,https://leipzig.iptv-playoutcenter.de/leipzig/leipzigfernsehen.stream_1/playlist.m3u8,"sadece Almanya (403; liste açılıyor, yayın parçaları 403)",iptv-org countries/de,yeni_kanal_yerel
+Sachsen Fernsehen Dresden,https://dresden.iptv-playoutcenter.de/dresden/dresdenfernsehen.stream_1/playlist.m3u8,"sadece Almanya (403; liste açılıyor, yayın parçaları 403)",iptv-org countries/de,yeni_kanal_yerel
+Sachsen Fernsehen Chemnitz,https://chemnitz.iptv-playoutcenter.de/chemnitz/chemnitzfernsehen.stream_1/playlist.m3u8,"sadece Almanya (403; liste açılıyor, yayın parçaları 403)",iptv-org countries/de,yeni_kanal_yerel
+Saarland Fernsehen 1,https://saarland1.iptv-playoutcenter.de/saarland1/saarland1.stream_1/playlist.m3u8,"sadece Almanya (403; liste açılıyor, yayın parçaları 403)",iptv-org countries/de,yeni_kanal_yerel
+Saarland Fernsehen 2,https://saarland2.iptv-playoutcenter.de/saarland2/saarland2.stream_2/playlist.m3u8,"sadece Almanya (403; liste açılıyor, yayın parçaları 403)",iptv-org countries/de,yeni_kanal_yerel
+Oberpfalz TV,https://oberpfalztv.iptv-playoutcenter.de/oberpfalztv/oberpfalztv.stream_1/playlist.m3u8,"sadece Almanya (403; liste açılıyor, yayın parçaları 403)",iptv-org countries/de,yeni_kanal_yerel
+TV Oberfranken,https://tvoberfranken.iptv-playoutcenter.de/tvoberfranken/tvoberfranken.stream_1/playlist.m3u8,"sadece Almanya (403; liste açılıyor, yayın parçaları 403)",iptv-org countries/de,yeni_kanal_yerel
+TV Mainfranken,https://stream01.welocal.stream/stream/fhd-tvmainfranken_255661/ngrp:stream_all/playlist.m3u8,"working (206, canlı segment)",kodinerds clean_tv,yeni_kanal_yerel
+TVA Ostbayern,https://tvaktuellr.iptv-playoutcenter.de/tvaktuellr/tvaktuellr.stream_1/playlist.m3u8,"sadece Almanya (403; liste açılıyor, yayın parçaları 403)",iptv-org countries/de,yeni_kanal_yerel
+Niederbayern TV Deggendorf-Straubing,https://stream03.welocal.stream/stream/fhd-nbydeggendorf_99148/ngrp:stream_all/index.m3u8,"working (206, canlı segment)",iptv-org countries/de,yeni_kanal_yerel
+Niederbayern TV Landshut,https://stream03.welocal.stream/stream/fhd-nbylandshut_75262/ngrp:stream_all/index.m3u8,"working (206, canlı segment)",iptv-org countries/de,yeni_kanal_yerel
+Niederbayern TV Passau,https://stream03.welocal.stream/stream/fhd-nbypassau_49171/ngrp:stream_all/index.m3u8,"working (206, canlı segment)",iptv-org countries/de,yeni_kanal_yerel
+Allgäu TV,https://stream01.welocal.stream/stream/fhd-allgaeutv_25679/ngrp:stream_all/playlist.m3u8,"working (206, canlı segment)",iptv-org countries/de,yeni_kanal_yerel
+RFO Regional Fernsehen Oberbayern,https://stream01.welocal.stream/stream/fhd-rfo_66876/ngrp:stream_all/playlist.m3u8,"working (206, canlı segment)",iptv-org countries/de + kodinerds,yeni_kanal_yerel
+ALEX Berlin,https://alex-stream.rosebud-media.de/bounce/alexlivetv50.smil/index.m3u8,"working (206, canlı segment)",iptv-org countries/de,yeni_kanal_yerel
+Tide TV Hamburg,https://h058.video-stream-hosting.de/tide-live/_definst_/smil:livestream.smil/playlist.m3u8,olu (200 pl404),kodinerds clean_tv,denendi_olu_onerilmiyor
+noa4 Hamburg,https://hls1.wtnet.de/noa4hh/apple/wifi6500.m3u8,"working (206, canlı segment)",iptv-org countries/de,yeni_kanal_yerel
+noa4 Norderstedt,https://hls1.wtnet.de/noa4/apple/wifi6500.m3u8,"working (206, canlı segment)",iptv-org countries/de,yeni_kanal_yerel
+oldenburg eins,https://cdn.oeins.de/index.m3u8,"working (206, canlı segment)",kodinerds clean_tv,yeni_kanal_yerel
+OK Kiel,https://live-cdn.oksh.de/play/hls/kieltv/index.m3u8,"working (200, canlı segment)",iptv-org countries/de,yeni_kanal_yerel
+OK Flensburg,https://live-cdn.oksh.de/play/hls/flensburgtv/index.m3u8,"working (200, canlı segment)",iptv-org countries/de,yeni_kanal_yerel
+Sylt1,https://h056.video-stream-hosting.de/easycast9-live/_definst_/mp4:livestream999/playlist.m3u8,"working (206, canlı segment)",kodinerds clean_tv,yeni_kanal_yerel
+Ems TV,https://h058.video-stream-hosting.de/ev1tv-live/_definst_/mp4:stream1.stream/playlist.m3u8,"working (206, canlı segment)",kodinerds clean_tv,yeni_kanal_yerel
+TV38 Südost-Niedersachsen,https://h057.video-stream-hosting.de/tv38-live/_definst_/smil:livestream.smil/playlist.m3u8,"working (206, canlı segment)",iptv-org countries/de,yeni_kanal_yerel
+Radio Weser TV Bremen,https://5857499ee635b.streamlock.net/radiowesertv-live/mp4:livestreamTV/playlist.m3u8,"working (206, canlı segment)",iptv-org API streams.json,yeni_kanal_yerel
+Filstalwelle,https://h055.video-stream-hosting.de/filstalwelle-live/_definst_/mp4:livestream/playlist.m3u8,"working (206, canlı segment)",iptv-org countries/de,yeni_kanal_yerel
+Lausitzwelle,https://h056.video-stream-hosting.de/easycast11-live/_definst_/mp4:livestreamhd2/playlist.m3u8,"working (206, canlı segment)",iptv-org countries/de,yeni_kanal_yerel
+Seenluft24,https://h056.video-stream-hosting.de/easycast7-live/_definst_/mp4:livestreamhd20/playlist.m3u8,"working (206, canlı segment)",kodinerds clean_tv,yeni_kanal_yerel
+MyTVplus,https://h056.video-stream-hosting.de/easycast10-live/_definst_/mp4:livestreamhd82/playlist.m3u8,"working (206, canlı segment)",kodinerds clean_tv,yeni_kanal_yerel
+Erz-TV Stollberg,https://5acade5fc0c29.streamlock.net/kabeljournal/live2020.stream/playlist.m3u8,"working (206, canlı segment)",iptv-org countries/de,yeni_kanal_yerel
+Altenburg TV,https://sdn-global-live-streaming-packager-cache.3qsdn.com/132661/132661_264_live.m3u8,"working (200, canlı segment)",iptv-org API streams.json,yeni_kanal_yerel
+labor14 Gera,https://5acade5fc0c29.streamlock.net/OKGera/tmbz_live_high.stream/playlist.m3u8,sadece Almanya (403),iptv-org countries/de,yeni_kanal_yerel
+MDF.1,https://h056.video-stream-hosting.de/medienasa-live/_definst_/mdf1_high/playlist.m3u8,"working (206, canlı segment)",kodinerds clean_tv,yeni_kanal_yerel
+RAN1,https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:ran1_high/playlist.m3u8,"working (206, canlı segment)",kodinerds clean_tv,yeni_kanal_yerel
+RBW,https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:rbw_high/playlist.m3u8,"working (206, canlı segment)",kodinerds clean_tv,yeni_kanal_yerel
+RFH Harz,https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:RFH_high/playlist.m3u8,"working (206, canlı segment)",kodinerds clean_tv,yeni_kanal_yerel
+PUNKTum Fernsehen,https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:punktum_high/playlist.m3u8,"working (206, canlı segment)",kodinerds clean_tv,yeni_kanal_yerel
+BLK Regional TV,https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:BLKonline_high/playlist.m3u8,"working (206, canlı segment)",kodinerds clean_tv,yeni_kanal_yerel
+KulturMD,https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:kulturmd_high/playlist.m3u8,"working (206, canlı segment)",iptv-org (https sürümü),yeni_kanal_yerel
+OK Dessau,https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:ok-dessau_high/playlist.m3u8,"working (206, canlı segment)",kodinerds clean_tv,yeni_kanal_yerel
+OK Magdeburg,https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:ok-magdeburg_high/playlist.m3u8,"working (206, canlı segment)",kodinerds clean_tv,yeni_kanal_yerel
+OK Merseburg-Querfurt,https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:ok-merseburg_high/playlist.m3u8,"working (206, canlı segment)",kodinerds clean_tv,yeni_kanal_yerel
+OK Salzwedel,https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:ok-salzwedel_high/playlist.m3u8,"working (206, canlı segment)",kodinerds clean_tv,yeni_kanal_yerel
+OK Stendal,https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:ok-stendal_high/playlist.m3u8,"working (206, canlı segment)",iptv-org (https sürümü),yeni_kanal_yerel
+OK Wernigerode,https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:ok-wernigerode_high/playlist.m3u8,"working (206, canlı segment)",iptv-org (https sürümü),yeni_kanal_yerel
+WTV (OK Wettin),https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:ok-wettin_high/playlist.m3u8,"working (206, canlı segment)",kodinerds clean_tv,yeni_kanal_yerel
+teltOwkanal,https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd8/playlist.m3u8,sadece Almanya (403),iptv-org countries/de,yeni_kanal_yerel
+OK Kaiserslautern,https://s.ok54.de/abr_okkl/webstream/playlist.m3u8,sadece Almanya (403),iptv-org countries/de,yeni_kanal_yerel
+OK Kassel,https://s.ok54.de/mok-ks/kassel/playlist.m3u8,sadece Almanya (403),iptv-org countries/de,yeni_kanal_yerel
+OK Rhein-Main,https://s.ok54.de/mok-rm/mok-rm/playlist.m3u8,sadece Almanya (403),iptv-org countries/de,yeni_kanal_yerel
+OK54 Trier,https://s.ok54.de/ott/webstream/tv/webstream_720p/playlist.m3u8,sadece Almanya (403),iptv-org countries/de,yeni_kanal_yerel
+OK4,https://s.ok54.de/abr_ok4/live/playlist.m3u8,sadece Almanya (403),iptv-org countries/de,yeni_kanal_yerel
+OK Weinstraße,https://s.ok54.de/abr_okwstr/live/playlist.m3u8,sadece Almanya (403),kodinerds clean_tv,yeni_kanal_yerel
+OK RheinLokal Worms,https://s.ok54.de/abr_rheinlokal/webstream/playlist.m3u8,sadece Almanya (403),kodinerds clean_tv,yeni_kanal_yerel
+OK Südwestpfalz,https://s.ok54.de/abr_okswp/webstream/playlist.m3u8,sadece Almanya (403),kodinerds clean_tv,yeni_kanal_yerel
+OK naheTV,https://s.ok54.de/abr_nahetv/webstream/playlist.m3u8,sadece Almanya (403),kodinerds clean_tv,yeni_kanal_yerel
+OK-TV Ludwigshafen,https://s.ok54.de/oklu/livestream/playlist.m3u8,olu (404),iptv-org countries/de,denendi_olu_onerilmiyor
+Radio 21 TV,https://live.creacast.com/radio21/smil:radio21.smil/playlist.m3u8,sadece Almanya (403),iptv-org countries/de,yeni_kanal_yerel
+NDR 90.3,https://dispatcher.rndfnk.com/ndr/ndr903/hamburg/mp3/128/stream.mp3,working (200 audio/mpeg),kodinerds clean_radio (resmi ARD dispatcher),radyo_yeni_link
+N-Joy,https://dispatcher.rndfnk.com/ndr/njoy/live/mp3/128/stream.mp3,working (200 audio/mpeg),kodinerds clean_radio (resmi ARD dispatcher),radyo_yeni_link
+NDR Schlager,https://dispatcher.rndfnk.com/ndr/ndrschlager/live/mp3/128/stream.mp3,working (200 audio/mpeg),kodinerds clean_radio (resmi ARD dispatcher),radyo_yeni_link
+NDR Info Spezial,https://dispatcher.rndfnk.com/ndr/ndrinfospezial/live/mp3/128/stream.mp3,working (200 audio/mpeg),kodinerds clean_radio (resmi ARD dispatcher),radyo_yeni_link
+NDR Blue,https://dispatcher.rndfnk.com/ndr/ndrblue/live/mp3/128/stream.mp3,working (200 audio/mpeg),kodinerds clean_radio (resmi ARD dispatcher),radyo_yeni_link
+SWR 1 Baden-Württemberg,https://dispatcher.rndfnk.com/swr/swr1/bw/mp3/128/stream.mp3,working (200 audio/mpeg),kodinerds clean_radio (resmi ARD dispatcher),radyo_yeni_link
+SWR 4 Mainz,https://dispatcher.rndfnk.com/swr/swr4/rp/mp3/128/stream.mp3,working (200 audio/mpeg),kodinerds clean_radio (resmi ARD dispatcher),radyo_yeni_link
+SWR Dasding,https://dispatcher.rndfnk.com/swr/dasding/live/mp3/128/stream.mp3,working (200 audio/mpeg),kodinerds clean_radio (resmi ARD dispatcher),radyo_yeni_link
+SWR Kultur,https://dispatcher.rndfnk.com/swr/swr2/live/mp3/256/stream.mp3,working (200 audio/mpeg),kodinerds clean_radio (resmi ARD dispatcher),radyo_yeni_link
+SR Kultur,https://liveradio.sr.de/sr/sr2/mp3/128/stream.mp3,working (200 audio/mpeg),kodinerds clean_radio (resmi sr.de),radyo_yeni_link
+YOU FM (mp3/high),https://dispatcher.rndfnk.com/hr/youfm/live/mp3/128/stream.mp3,working (200 audio/mpeg),kodinerds clean_radio (resmi ARD dispatcher),radyo_yeni_link
+Bremen Next,https://dispatcher.rndfnk.com/rb/bremennext/live/mp3/128/stream.mp3,working (200 audio/mpeg),resmi ARD dispatcher deseni (Bremen Eins/Vier ile aynı),radyo_yeni_link
+Radio 7,https://streams.radio7.de/dab/aac-128/,working (200 audio/aac),kodinerds clean_radio (resmi radio7.de),radyo_yeni_link
+Schlagerparadies,https://webstream.schlagerparadies.de/schlagerparadies128.mp3,working (200 audio/mpeg),kodinerds clean_radio (resmi),radyo_yeni_link
+radio ffn,https://ffn-de-hz-fal-stream04-cluster01.radiohost.de/ffn_mp3-192,working (200 audio/mpeg),radio-browser API,radyo_yeni_link
+Cosmo,https://wdr-cosmo-live.icecastssl.wdr.de/wdr/cosmo/live/mp3/128/stream.mp3,working (200 audio/mpeg),"radio-browser API (resmi wdr.de, ana yayın)",radyo_yeni_link
+WDR 1 Live,https://wdr-radio.ard-mcdn.de/wdr/radio/1live/hls/master.m3u8,working (200 application/x-mpegURL),"radio-browser API (resmi ARD CDN, HLS)",radyo_yeni_link
+WDR 5,https://wdr-radio.ard-mcdn.de/wdr/radio/wdr5/hls/master.m3u8,working (200 application/x-mpegURL),"radio-browser API (resmi ARD CDN, HLS)",radyo_yeni_link
+WDR 2 Rhein und Ruhr,https://wdr-wdr2-rheinruhr.icecastssl.wdr.de/wdr/wdr2/rheinruhr/mp3/128/stream.mp3,working (200 audio/mpeg),radio-browser API (resmi wdr.de),radyo_yeni_link
+HR Info,https://hlshrinfo.akamaized.net/hls/live/2016539/hrinfo/master.m3u8,working (200 application/x-mpegURL),"radio-browser API (resmi hr CDN, HLS)",radyo_yeni_link
+MDR Thüringen Mitte/West,https://mdr-radio-hls.akamaized.net/hls/live/2112899/mdr-284300-1-hls/index.m3u8,working (200 application/x-mpegURL),"radio-browser API (resmi MDR CDN, HLS)",radyo_yeni_link
+Antenne Bayern,https://stream.antenne.de/antenne/stream/mp3,working (200 audio/mpeg),radio-browser API (resmi antenne.de),radyo_yeni_link
+Antenne Niedersachsen,https://stream.antenne.com/antenne-nds/mp3-192,working (200 audio/mpeg),"radio-browser API (resmi, ana yayın)",radyo_yeni_link
+Hit Radio FFH,https://mp3.ffh.de/radioffh/hqlivestream.aac,working (200 audio/aacp),radio-browser API (resmi ffh.de),radyo_yeni_link
+Radio Bob,https://streams.radiobob.de/bob-national/mp3-192/mediaplayer,working (200 audio/mpeg),"kodinerds clean_radio (resmi, ana yayın)",radyo_yeni_link
+bigFM,https://stream.bigfm.de/deutschland/aac-128,working (200 audio/aac),"kodinerds clean_radio (resmi, ana yayın)",radyo_yeni_link
+rbbKultur,https://dispatcher.rndfnk.com/rbb/rbbkultur/live/mp3/high,working (200 audio/mpeg),kodinerds clean_radio (resmi ARD dispatcher),radyo_yeni_kanal
+1LIVE Chillout,https://wdr-1live-chillout.icecast.wdr.de/wdr/1live/chillout/mp3/128/stream.mp3,working (200 audio/mpeg),radio-browser API (resmi wdr.de),radyo_yeni_kanal
+1LIVE Top Hits,https://wdr-1live-tophits.icecast.wdr.de/wdr/1live/tophits/mp3/128/stream.mp3,working (200 audio/mpeg),radio-browser API (resmi wdr.de),radyo_yeni_kanal
+egoFM,https://cast.egofm.de/egofm.mp3,working (200 audio/mpeg),radio-browser API (resmi egofm.de),radyo_yeni_kanal
+ByteFM,https://bytefm.cast.addradio.de/bytefm/main/high/stream,working (200 audio/mpeg),radio-browser API,radyo_yeni_kanal
+Schwarzwaldradio,https://frontend.streamonkey.net/fho-schwarzwaldradiohifi,working (200 audio/aac),radio-browser API,radyo_yeni_kanal
+Radio Bollerwagen,https://stream.ffn.de/radiobollerwagen/mp3-192/stream.mp3,working (200 audio/mpeg),radio-browser API (resmi ffn.de),radyo_yeni_kanal
+95.5 Charivari,https://live.stream.charivari.de/955charivari-webradio,working (200 audio/aac),radio-browser API (resmi),radyo_yeni_kanal
+Radio Dresden,https://hermes.bcs-systems.de/radio-dresden_simulcast_192k_mp3,working (200 audio/aac),radio-browser API,radyo_yeni_kanal
+Antenne Niederrhein,https://antennenr--di--nacs-ais-lgc--05--cdn.cast.addradio.de/antennenr/live/mp3/high,working (200 audio/mpeg),radio-browser API,radyo_yeni_kanal
+Radio Köln,https://stream.lokalradio.nrw/444z7kb,working (200 audio/mpeg),kodinerds clean_radio (NRW Lokalradio resmi),radyo_yeni_kanal
+Radio Duisburg,https://stream.lokalradio.nrw/444zbw3,working (200 audio/mpeg),radio-browser API (NRW Lokalradio resmi),radyo_yeni_kanal
+Antenne Schlager,https://stream.antenne-schlager.de/schlager-live/mp3-192/hoerer/,working (200 audio/mpeg),radio-browser API,radyo_yeni_kanal
+harmony.fm,https://mp3.harmonyfm.de/harmonyfm/hqlivestream.mp3,working (200 audio/mpeg),kodinerds clean_radio (resmi),radyo_yeni_kanal
+radio B2,https://stream.schlagerradio.de/b2-schlagerradio-national/mp3-192/,working (200 audio/mpeg),kodinerds clean_radio,radyo_yeni_kanal
+Rockland Radio,https://streams.rockland.de/dab/mp3-192/streams.rockland.de/,working (200 audio/mpeg),kodinerds clean_radio,radyo_yeni_kanal
+90s90s Eurodance,https://streams.90s90s.de/eurodance/mp3-192/streams.90s90s.de/,working (200 audio/mpeg),radio-browser API,radyo_yeni_kanal
+Klassik Radio Movie,https://live.streams.klassikradio.de/klassikradio-movie,working (200 audio/aac),radio-browser API (resmi klassikradio.de),radyo_yeni_kanal
+reboot.fm,https://stream.reboot.fm/listen/reboot.fm/radio.mp3,working (206 audio/mpeg),kodinerds clean_radio,radyo_yeni_kanal
+Querfunk Karlsruhe,https://stream.querfunk.de/qfhi,working (200 audio/mpeg),radio-browser API,radyo_yeni_kanal
+DW Deutsch,https://dwamdstream106.akamaized.net/hls/live/2017965/dwstream106/master.m3u8,"olu (master 200 ama tüm alt yayınlar 404, 3 testte)",katalog yeniden testi (segment düzeyi),olu_mevcut_link
+DW Deutsch+,https://dwamdstream105.akamaized.net/hls/live/2015531/dwstream105/master.m3u8,"olu (master 200 ama tüm alt yayınlar 404, 3 testte)",katalog yeniden testi (segment düzeyi),olu_mevcut_link
+Deutsche Welle,https://dwamdstream111.akamaized.net/hls/live/2017972/dwstream111/index.m3u8,olu (alt yayınlar 404; kanalın diğer linki çalışıyor),katalog yeniden testi (segment düzeyi),olu_mevcut_link
+123 Live TV,https://123tv-mx1.flex-cdn.net/index.m3u8,"olu (master ""invalidurlstream"" yer tutucularına yönleniyor)",katalog yeniden testi (segment düzeyi),olu_mevcut_link
+WDR Fernsehen Köln,https://wdrfsww247.akamaized.net/hls/live/2009628-b/wdr_msl4_fs247ww/master_1328.m3u8,"olu (liste 200, segmentler 404, 2 testte)",katalog yeniden testi (segment düzeyi),olu_mevcut_link
+Campusradio Münster (Radio Q),https://rqstream.radioq.de/stream/192.mp3,olu (3 testte yanıt yok; 16 Ekimde çalışıyordu),katalog yeniden testi,olu_mevcut_link
+QVC Style Deutschland,https://qvcde-live.akamaized.net/hls/live/2097104/qby/master.m3u8,"supheli (master 200, alt yayınlar 404; gece yayın dışı olabilir)",katalog yeniden testi (segment düzeyi),olu_mevcut_link_supheli
+QVC Zwei,https://qvcde-live.akamaized.net/hls/live/2097104/qps/master.m3u8,"supheli (master 200, alt yayınlar 404; gece yayın dışı olabilir)",katalog yeniden testi (segment düzeyi),olu_mevcut_link_supheli
