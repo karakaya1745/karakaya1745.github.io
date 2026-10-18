@@ -12,6 +12,8 @@
  * Girdi: almanya/sources/{tv,radio}.{csv,m3u}
  *        almanya/sources/onay-2026-10-15.csv (onaylı ekler; etkinlik yayınları atlanır)
  *        almanya/sources/onay-2026-10-16.csv (yedekler, Kanal Avrupa, ffn, ölü int linkler)
+ *        almanya/sources/onay-2026-10-18.csv (18 Ekim onayı)
+ *        almanya/sources/catalog-retest-2026-10-18.json (ölü, statik, şüpheli yeniden test)
  * Ölü (failed) ve denenmemiş (untested) linkler yayınlanmaz.
  * geo-blocked (403) ve "sadece Almanya" linkler kalır; geo_de_only ile işaretlenir.
  * Katalogda olan URL yeniden eklenmez. Yeni link uydurulmaz.
@@ -20,6 +22,7 @@ import crypto from "crypto";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { applyOctober18, orderCatalog, FINAL_CATEGORY_ORDER } from "./apply-2026-10-18.mjs";
 
 const DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SOURCES = path.join(DIR, "sources");
@@ -377,6 +380,10 @@ function slugify(name) {
     .replace(/ö/g, "oe")
     .replace(/ü/g, "ue")
     .replace(/ß/g, "ss")
+    .replace(/ç/g, "c")
+    .replace(/ş/g, "s")
+    .replace(/ğ/g, "g")
+    .replace(/ı/g, "i")
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
   if (!slug) throw new Error(`boş id: ${name}`);
@@ -660,19 +667,6 @@ function applyOnay20261016(channels) {
   return stats;
 }
 
-function groupByCategory(channels) {
-  const rank = new Map(CATEGORY_ORDER.map((category, index) => [category, index]));
-  return channels
-    .map((channel, index) => ({ channel, index }))
-    .sort((a, b) => {
-      if (a.channel.type !== b.channel.type) return a.channel.type === "tv" ? -1 : 1;
-      const byCategory = (rank.get(a.channel.category) ?? 99) - (rank.get(b.channel.category) ?? 99);
-      if (byCategory !== 0) return byCategory;
-      return a.index - b.index;
-    })
-    .map((entry) => entry.channel);
-}
-
 function assignIds(channels, previousChannels) {
   const previous = new Map();
   for (const channel of previousChannels || []) {
@@ -695,7 +689,7 @@ function assignIds(channels, previousChannels) {
 }
 
 function assertGrouped(channels) {
-  const rank = new Map(CATEGORY_ORDER.map((category, index) => [category, index]));
+  const rank = new Map(FINAL_CATEGORY_ORDER.map((category, index) => [category, index]));
   let lastType = "";
   let lastRank = -1;
   for (const channel of channels) {
@@ -791,7 +785,8 @@ function loadCatalog() {
   const approval = mergeApproval(channels);
   applyRenames(channels);
   const onay16 = applyOnay20261016(channels);
-  const grouped = groupByCategory(channels);
+  const onay18 = applyOctober18(channels);
+  const grouped = orderCatalog(channels);
   const previous = readJsonIfExists(path.join(DIR, "channels.json"));
   assignIds(grouped, previous?.channels);
   assertInvariants(
@@ -808,6 +803,7 @@ function loadCatalog() {
     radioCount: grouped.filter((channel) => channel.type === "radio").length,
     approval,
     onay16,
+    onay18,
   };
 }
 
@@ -918,6 +914,15 @@ function main() {
     `[almanya] onay-2026-10-16: +${onay16.addedChannels || 0} kanal, ` +
       `+${onay16.addedLinks || 0} link, -${onay16.removedLinks || 0} link`,
   );
+  const onay18 = catalog.onay18 || {};
+  console.log(
+    `[almanya] onay-2026-10-18: +${onay18.addedChannels || 0} kanal, ` +
+      `+${onay18.addedLinks || 0} link, -${onay18.removedLinks || 0} link, ` +
+      `-${onay18.removedChannels || 0} kanal, ölü aday atlandı ${onay18.skippedDead || 0}`,
+  );
+  if (onay18.removedChannelNames?.length) {
+    console.log(`[almanya] akışı kalmayan kanallar: ${onay18.removedChannelNames.join(", ")}`);
+  }
   console.log(`[almanya] sha256=${hash}`);
   if (catalog.dropped.length) {
     console.log(`[almanya] canlı linki kalmadığı için çıkarılanlar: ${catalog.dropped.join(", ")}`);

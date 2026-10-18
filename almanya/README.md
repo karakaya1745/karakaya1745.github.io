@@ -23,6 +23,8 @@ Uygulama önce `metadata.json` indirir. `revision` veya `channels.json` sha256 d
 | --- | --- |
 | `sources/tv.csv`, `sources/tv.m3u` | Ham TV ölçümü. CSV'de ölü (`failed`) satırlar da durur. |
 | `sources/radio.csv`, `sources/radio.m3u` | Ham radyo ölçümü. CSV'de denenmemiş düz `http` satırları da durur. |
+| `sources/onay-2026-10-15.csv`, `onay-2026-10-16.csv`, `onay-2026-10-18.csv` | Onaylanan ekler ve silinecek linkler. |
+| `sources/catalog-retest-2026-10-18.json` | 18 Ekim yeniden testi (ölü, statik, şüpheli). |
 | `tv.m3u`, `radio.m3u` | Yayımlanan, temizlenmiş listeler. Ölü ve denenmemiş link yoktur. |
 | `channels.json` | Uygulamanın indirdiği katalog. |
 | `metadata.json` | `revision`, `channelCount`, `updatedAt` ve `channels.json` sha256. |
@@ -60,23 +62,20 @@ Her kanal:
 
 Karışık kanalda (örneğin Anixe) `geo_de_only` kanaldaki bayrak `false` olur, çünkü çalışan bir link vardır. Uygulama `streams` dizisini baştan dener; açılmayan adresten sonrakine geçer. `streams[].geo_de_only` hangi yedeğin yalnızca Almanya'da açıldığını söyler.
 
-Kategoriler adından çıkarılır (`tools/build.mjs` içindeki tablo):
+Kategoriler `tools/apply-2026-10-18.mjs` içinde ada göre verilir. Eski `kids`, `culture`, `lifestyle` ve `entertainment` anahtarları bu sıraya katlandı (KiKA ulusal kamu, Lilo TV ve RiC `other`, Just Cooking `other`).
 
 | Anahtar | Örnek |
 | --- | --- |
-| `public` | Das Erste, ZDF, 3sat, Deutsche Welle, Deutschlandfunk |
-| `regional` | ARD eyalet kanalları, yerel TV, h-eins.tv, Antenne Bayern |
-| `news` | Tagesschau 24, Welt, BR 24 |
-| `culture` | Bayern 2, Deutschlandfunk Kultur |
-| `music` | Deluxe Music, bigFM, Schlager Radio |
-| `kids` | KiKA, Lilo TV, Radio Teddy |
-| `religious` | Bibel TV, K-TV, Hope TV |
-| `shopping` | HSE, QVC, Juwelo |
-| `documentary` | Dokusat, N24 Doku |
-| `lifestyle` | Just Cooking, Just Fishing |
-| `entertainment` | Anixe, DF1 |
-| `international` | Kanal Avrupa (Türkçe yayın) |
-| `other` | adı bir sınıfa oturmayanlar |
+| `public` | Das Erste, ZDF, 3sat, KiKA, Tagesschau 24; radyoda ARD ağları ve Deutschlandradio |
+| `regional` | ARD eyalet televizyonu ve WDR stüdyoları; radyoda özel istasyonlar, eyalete göre |
+| `news` | Deutsche Welle, DW Arabic, Welt, Bundestag |
+| `religious` | Bibel TV, K-TV, Hope TV, domradio |
+| `music` | Deluxe Music, Melodie TV; radyoda Klassik Radio ve temalı web radyolar |
+| `shopping` | QVC, HSE, Juwelo |
+| `documentary` | N24 Doku, Dokusat, Welt der Wunder |
+| `other` | Anixe, DF1, Just Cooking, Lilo TV |
+| `international` | Kanal Avrupa, Çira TV |
+| `yerel` | Yerel televizyon. Eyalete göre, eyaletin içinde ada göre |
 
 ## Neler çıkarılır
 
@@ -88,14 +87,16 @@ Radyo CSV'sinde aynı istasyon adının altında kardeş yayınlar da `(1)`, `(2
 
 `sources/onay-2026-10-16.csv` bir sonraki onaydır. Yedek linkler ilgili kanala eklenir. `olu_mevcut_link` satırları (WDR Lokalzeit `hls/int`) katalogdan silinir; çalışan `de` linkler kalır. Eski `FFN` kaydı `ffn 80er` olur ve id'si `radio-ffn` olarak kalır. Ana yayın ayrı kanal olarak `radio ffn` adıyla eklenir. Deutschlandfunk AAC 192k linki, daha yüksek kalite olduğu için o kanalın ilk adresidir.
 
+`sources/onay-2026-10-18.csv` 18 Ekim onayının tamamıdır. `denendi_olu_onerilmiyor` satırları eklenmez. `olu_mevcut_link` adresleri silinir; geride çalışan veya 403 link kalmayan kanal katalogdan çıkar (DW Deutsch, DW Deutsch+, 123 Live TV, Radio Q). QVC Style ve QVC Zwei durur; şüpheli linkleri kendi kanalında en sona yazılır. `iptv-playoutcenter.de` linkleri, listesi açılıp parçaları 403 dönen 13 kanalda `geo_de_only` olur. Eski `RBB Radio 3` kaydı aslında Radio 38'dir: adı Radio 38 olur, id'si `radio-rbb-radio-3` kalır. rbbKultur ayrı istasyon olarak eklenir. R.SH, Radio Brocken, Radio Hamburg, delta radio ve Radio PSR üzerindeki oturum parametreli adresler (`?sABC=` ve benzeri) silinir. Deluxe Music'in üç statik linki ve Deluxe Rap'in iki statik linki silinir; canlı ana listeler kalır. Radio SAW'ın ana yayını bu onayda yoktur; temalı yayınlarının sırası korunur.
+
 ## Sıra
 
-Kanallar önce türe göre dizilir (TV, sonra radyo). Türün içinde kategori sırası şudur: `public`, `regional`, `news`, `culture`, `music`, `kids`, `religious`, `shopping`, `documentary`, `lifestyle`, `entertainment`, `international`, `other`. Aynı kategoride önceki göreli sıra korunur. Yayımlanan `tv.m3u` ve `radio.m3u` aynı sırayı kullanır; `group-title` kategoridir. Bir kanalın yedek linklerinde çalışan adresler, 403 adreslerden önce gelir.
+Kanallar önce türe göre dizilir (bütün TV, sonra bütün radyo). TV kategori sırası: `public`, `regional`, `news`, `religious`, `music`, `shopping`, `documentary`, `other`, `international`, `yerel`. Radyo aynı anahtarları kullanır: ARD kamu ağları, sonra Deutschlandradio, sonra özel istasyonlar eyalete göre (`regional`), sonra dinî istasyonlar, sonra temalı ve web radyolar (`music`). Bilinen kanallar grubun başında durur; `yerel` içinde sıra eyalet, sonra addır. Yayımlanan `tv.m3u` ve `radio.m3u` aynı sırayı kullanır; `group-title` kategoridir. Bir kanalın yedeklerinde çalışan adresler, `geo_de_only` adreslerden önce gelir. bigFM, Radio Bob, Rock Antenne ve Cosmo'da ana yayın temalı yayınlardan öndedir.
 
 ## Nasıl güncellenir
 
 1. Yeni ölçümü `almanya/sources/` altındaki CSV ve M3U dosyalarına işleyin. Linki kaynakta yoksa eklemeyin.
-2. Yeni bir kanal adı varsa `almanya/tools/build.mjs` içindeki kategori tablosuna bir satır ekleyin. Tablo dışı ad üretimi durdurur.
+2. Yeni bir kanal adı varsa `almanya/tools/apply-2026-10-18.mjs` içindeki sınıf listesine ekleyin. Listede olmayan ad üretimi durdurur.
 3. Üretin:
 
 ```bash
