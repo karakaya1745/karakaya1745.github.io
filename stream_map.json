@@ -1,5 +1,5 @@
 {
-  "_revision": 196,
+  "_revision": 197,
   "duyuru": [
     "https://karakaya1745.github.io/guncelleme_duyuru.m3u8"
   ],
@@ -3284,5 +3284,41 @@
   "cine1": [
     "http://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8",
     "https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8"
+  ],
+  "ulusalkanal": [
+    "https://internettv.guventechnology.com/hls/ulusaltv/index.m3u8"
+  ],
+  "akittv": [
+    "https://raw.githubusercontent.com/umitm0d/-mittube/refs/heads/main/Umittube/Akit.m3u8"
+  ],
+  "dreamtv": [
+    "https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8",
+    "https://live.duhnet.tv//S2/HLS_LIVE/dreamturknp/track_4_1250/playlist.m3u8"
+  ],
+  "kudustv": [
+    "https://yayin3.haber100.com/kudustvapp/kudustv/chunklist_w216821945.m3u"
+  ],
+  "krt": [
+    "https://raw.githubusercontent.com/umitm0d/-mittube/refs/heads/main/Umittube/Krt.m3u8"
+  ],
+  "brt1": [
+    "https://edge.kuzeykibrissmart.tv/brt1hd/bant1/playlist.m3u8?hash=575af483b73a7e1874add233dc58aae1"
+  ],
+  "brt2": [
+    "https://edge.kuzeykibrissmart.tv/brt2hd/bant1/playlist.m3u8"
+  ],
+  "adatv": [
+    "https://edge1.socialsmart.tv/adatv/bant1/chunks.m3u8"
+  ],
+  "fashiononetv": [
+    "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8",
+    "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/chunklist_b400000.m3u8"
+  ],
+  "atvavrupa": [
+    "https://raw.githubusercontent.com/ardifyxmotion/iptv-kanal/refs/heads/main/streams/atvavrupa.m3u8"
+  ],
+  "kanalb": [
+    "https://tv.kanalb.tr/hls/kanalb/index.m3u8",
+    "https://tv.kanalb.tr/hls/kanalb/index.m3u8?hash=1e7f7c25715b4f6cc40301f29e8b501d"
   ]
 }
