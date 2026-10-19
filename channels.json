@@ -312,6 +312,12 @@
     "streamUrl": "https://raw.githubusercontent.com/umitm0d/-mittube/refs/heads/main/Umittube/Akit.m3u8"
   },
   {
+    "name": "A News",
+    "url": "https://www.anews.com.tr/webtv/live-broadcast",
+    "category": "Haber",
+    "streamUrl": "https://trkvz-live.ercdn.net/anewshd/anewshd.m3u8?st=GFevWQvi_blRZb6lbcSgnw&e=1792442115"
+  },
+  {
     "name": "TRT Spor",
     "url": "https://www.trtizle.com/canli/tv/trt-spor",
     "category": "Spor",
@@ -562,6 +568,12 @@
     "url": "",
     "category": "Muzik",
     "streamUrl": "https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8"
+  },
+  {
+    "name": "Damar Türk",
+    "url": "",
+    "category": "Muzik",
+    "streamUrl": "https://yayin.santraltr.com/hls/damar.m3u8"
   },
   {
     "name": "Lalegul TV",
@@ -1096,6 +1108,12 @@
     "url": "https://yayin30.haber100.com/live/finansturk/playlist.m3u8",
     "category": "Ekonomi",
     "streamUrl": "https://yayin30.haber100.com/live/finansturk/playlist.m3u8"
+  },
+  {
+    "name": "A Para",
+    "url": "https://vavo.sayezec.workers.dev/ID=389201701482a8da622d92",
+    "category": "Ekonomi",
+    "streamUrl": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/apara/apara.m3u8"
   },
   {
     "name": "Ciftci TV",

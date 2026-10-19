@@ -1,5 +1,5 @@
 {
-  "_revision": 198,
+  "_revision": 199,
   "duyuru": [
     "https://karakaya1745.github.io/guncelleme_duyuru.m3u8"
   ],
@@ -3174,7 +3174,8 @@
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197439&extension=ts&play_token=TfLVZnUFoE",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197439&extension=ts&play_token=TfLVZnUFoE",
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197439&extension=ts&play_token=TfLVZnUFoE",
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/e112125c-9be4-4b93-8e60-5850d865bff1.ts"
+    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/e112125c-9be4-4b93-8e60-5850d865bff1.ts",
+    "https://yayin1.canlitv.fun/canlitv/yabantv.stream/playlist.m3u8?hash=a6c3ccc58b9f43520fe87f8517cc3667"
   ],
   "yalovagozdefm": [
     "https://gozdefm.80.yayin.com.tr/;stream.mp3"
@@ -3322,10 +3323,31 @@
     "https://tv.kanalb.tr/hls/kanalb/index.m3u8?hash=1e7f7c25715b4f6cc40301f29e8b501d"
   ],
   "kibrisgenctv": [
-    "https://edge.kuzeykibrissmart.tv/kibrisgenctv/bant1/playlist.m3u8"
+    "https://edge.kuzeykibrissmart.tv/kibrisgenctv/bant1/playlist.m3u8",
+    "https://yayin1.canlitv.fun/canlitv/genctv.stream/playlist.m3u8?hash=a6c3ccc58b9f43520fe87f8517cc3667",
+    "https://edge.kuzeykibrissmart.tv/kibrisgenctv/bant1/chunks.m3u8",
+    "https://edge1.socialsmart.tv/kibrisgenctv/bant1/playlist.m3u8",
+    "https://edge.socialsmart.tv/kibrisgenctv/bant1/playlist.m3u8",
+    "https://edge1.taksimbilisim.com/kibrisgenctv/bant1/playlist.m3u8",
+    "https://edge.taksimbilisim.com/kibrisgenctv/bant1/playlist.m3u8"
   ],
   "kibristv": [
     "https://edge.kuzeykibrissmart.tv/kibristv/bant1/playlist.m3u8",
-    "https://edge.kuzeykibrissmart.tv/kibristv/bant1/chunks.m3u8"
+    "https://edge.kuzeykibrissmart.tv/kibristv/bant1/chunks.m3u8",
+    "https://play.kibristv.com/stream/hls/stream.m3u8",
+    "https://edge1.socialsmart.tv/kibristv/bant1/playlist.m3u8",
+    "https://edge.socialsmart.tv/kibristv/bant1/playlist.m3u8",
+    "https://edge1.taksimbilisim.com/kibristv/bant1/playlist.m3u8",
+    "https://edge.taksimbilisim.com/kibristv/bant1/playlist.m3u8"
+  ],
+  "anews": [
+    "https://trkvz-live.ercdn.net/anewshd/anewshd.m3u8?st=GFevWQvi_blRZb6lbcSgnw&e=1792442115"
+  ],
+  "apara": [
+    "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/apara/apara.m3u8",
+    "https://trkvz-live.ercdn.net/aparahd/aparahd.m3u8?st=tl3ck93nNUp_DG40IDeH8A&e=1792442116"
+  ],
+  "damarturk": [
+    "https://yayin.santraltr.com/hls/damar.m3u8"
   ]
 }
