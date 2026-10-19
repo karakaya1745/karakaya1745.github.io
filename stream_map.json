@@ -1,5 +1,5 @@
 {
-  "_revision": 200,
+  "_revision": 201,
   "duyuru": [
     "https://karakaya1745.github.io/guncelleme_duyuru.m3u8"
   ],
@@ -447,9 +447,9 @@
     "https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8"
   ],
   "cnnturk": [
-    "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6926/index.m3u8",
     "https://trn03.tulix.tv/gt-cnnturk-tv/index.m3u8?token=canlitvtr",
-    "https://raw.githubusercontent.com/umitm0d/-mittube/refs/heads/main/Umittube/Cnn.m3u8"
+    "https://raw.githubusercontent.com/umitm0d/-mittube/refs/heads/main/Umittube/Cnn.m3u8",
+    "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6926/index.m3u8"
   ],
   "cnnturkradyo": [
     "https://moondigitaledge2.radyotvonline.net/cnnturk/playlist.m3u8"
@@ -2728,6 +2728,7 @@
     "https://live.kwikmotion.com/qmcslkrradiolive/slkrradio/playlist.m3u8"
   ],
   "sozcutv": [
+    "https://raw.githubusercontent.com/pinkisso/mored/refs/heads/main/res/ytbe/szcytbe.m3u8",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=540949&extension=ts&play_token=JOFxL2wUlR",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=540949&extension=ts&play_token=JOFxL2wUlR",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=540949&extension=ts&play_token=JOFxL2wUlR",
@@ -2737,8 +2738,7 @@
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=540949&extension=ts&play_token=JOFxL2wUlR",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=540949&extension=ts&play_token=JOFxL2wUlR",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=540949&extension=ts&play_token=JOFxL2wUlR",
-    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=540949&extension=ts&play_token=JOFxL2wUlR",
-    "https://raw.githubusercontent.com/pinkisso/mored/refs/heads/main/res/ytbe/szcytbe.m3u8"
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=540949&extension=ts&play_token=JOFxL2wUlR"
   ],
   "sperfm": [
     "https://playerservices.streamtheworld.com/api/livestream-redirect/SUPER_FM_ITUNES.mp3"

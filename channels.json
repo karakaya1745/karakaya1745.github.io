@@ -117,7 +117,7 @@
     "name": "CNN Turk",
     "url": "https://www.cnnturk.com/canli-yayin",
     "category": "Haber",
-    "streamUrl": "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6926/index.m3u8"
+    "streamUrl": "https://trn03.tulix.tv/gt-cnnturk-tv/index.m3u8?token=canlitvtr"
   },
   {
     "name": "Haberturk",
@@ -153,7 +153,7 @@
     "name": "Sözcü TV",
     "url": "https://www.szctv.com.tr/canli-yayin-izle",
     "category": "Haber",
-    "streamUrl": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=540949&extension=ts&play_token=JOFxL2wUlR"
+    "streamUrl": "https://raw.githubusercontent.com/pinkisso/mored/refs/heads/main/res/ytbe/szcytbe.m3u8"
   },
   {
     "name": "TVNET",
