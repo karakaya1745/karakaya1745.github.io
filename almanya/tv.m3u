@@ -18,6 +18,8 @@ https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master1080p5000.m3u8
 https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master720p3200.m3u8
 #EXTINF:-1 tvg-id="tv-das-erste" tvg-name="Das Erste" group-title="public",Das Erste (9)
 https://derste247liveint.akamaized.net/hls/live/662735/daserste_int/master.m3u8
+#EXTINF:-1 tvg-id="tv-das-erste" tvg-name="Das Erste" group-title="public",Das Erste (10)
+https://derste247livede.akamaized.net/hls/live/658317/daserste_de/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf" tvg-name="ZDF" group-title="public",ZDF (1)
 https://zdf-hls-15.akamaized.net/hls/live/2016498/de/veryhigh/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf" tvg-name="ZDF" group-title="public",ZDF (2)
@@ -76,6 +78,10 @@ https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master
 https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master-540p-1728.m3u8
 #EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (5)
 https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master.m3u8
+#EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (6)
+https://tagesschau.akamaized.net/hls/live/2020116/tagesschau/tagesschau_2/master-720p-3328.m3u8
+#EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (7)
+https://tagesschau.akamaized.net/hls/live/2020117/tagesschau/tagesschau_3/master.m3u8
 #EXTINF:-1 tvg-id="tv-kika" tvg-name="KIKA" group-title="public",KIKA (1)
 https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8
 #EXTINF:-1 tvg-id="tv-kika" tvg-name="KIKA" group-title="public",KIKA (2)
@@ -138,6 +144,8 @@ https://mcdn.br.de/br/fs/ard_alpha/hls/de/master360p1200.m3u8
 https://mcdn.br.de/br/fs/ard_alpha/hls/de/master1080p5000.m3u8
 #EXTINF:-1 tvg-id="tv-ard-alpha" tvg-name="ARD Alpha" group-title="public",ARD Alpha (4)
 https://mcdn.br.de/br/fs/ard_alpha/hls/de/master720p3200.m3u8
+#EXTINF:-1 tvg-id="tv-ard-alpha" tvg-name="ARD Alpha" group-title="public",ARD Alpha (5)
+https://mcdn.br.de/br/fs/ard_alpha/hls/int/master.m3u8
 #EXTINF:-1 tvg-id="tv-bayerisches-fernsehen-nord" tvg-name="Bayerisches Fernsehen Nord" group-title="regional",Bayerisches Fernsehen Nord (1)
 https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="tv-bayerisches-fernsehen-nord" tvg-name="Bayerisches Fernsehen Nord" group-title="regional",Bayerisches Fernsehen Nord (2)
@@ -210,6 +218,8 @@ https://ndrint.akamaized.net/hls/live/2020766/ndr_int/index.m3u8
 https://ndrint.akamaized.net/hls/live/2020766/ndr_int/master-360p-1200.m3u8
 #EXTINF:-1 tvg-id="tv-ndr-fernsehen-hamburg" tvg-name="NDR Fernsehen Hamburg" group-title="regional",NDR Fernsehen Hamburg (7)
 https://ndrint.akamaized.net/hls/live/2020766/ndr_int/master-1080p-5000.m3u8
+#EXTINF:-1 tvg-id="tv-ndr-fernsehen-hamburg" tvg-name="NDR Fernsehen Hamburg" group-title="regional",NDR Fernsehen Hamburg (8)
+https://ndrint.akamaized.net/hls/live/2020766/ndr_int/master.m3u8
 #EXTINF:-1 tvg-id="tv-ndr-fernsehen-mecklenburg-vorpommern" tvg-name="NDR Fernsehen Mecklenburg-Vorpommern" group-title="regional",NDR Fernsehen Mecklenburg-Vorpommern (1)
 https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master.m3u8
 #EXTINF:-1 tvg-id="tv-ndr-fernsehen-mecklenburg-vorpommern" tvg-name="NDR Fernsehen Mecklenburg-Vorpommern" group-title="regional",NDR Fernsehen Mecklenburg-Vorpommern (2)
@@ -252,6 +262,8 @@ https://rbb-live.ard-mcdn.de/rbb/brandenburg/hls/de/master.m3u8
 https://rbb-hls-brandenburg.akamaized.net/hls/live/2017825/rbb_brandenburg/index.m3u8
 #EXTINF:-1 tvg-id="tv-radio-bremen-fernsehen" tvg-name="Radio Bremen Fernsehen" group-title="regional",Radio Bremen Fernsehen (1)
 https://rbhlslive.akamaized.net/hls/live/2020435/rbfs/master.m3u8
+#EXTINF:-1 tvg-id="tv-radio-bremen-fernsehen" tvg-name="Radio Bremen Fernsehen" group-title="regional",Radio Bremen Fernsehen (2)
+https://rbdashlive.akamaized.net/dash/live/2020436/rbfs/dash.mpd
 #EXTINF:-1 tvg-id="tv-sr-fernsehen" tvg-name="SR Fernsehen" group-title="regional",SR Fernsehen (1)
 https://srfs.akamaized.net/hls/live/689649/srfsgeo/index.m3u8
 #EXTINF:-1 tvg-id="tv-sr-fernsehen" tvg-name="SR Fernsehen" group-title="regional",SR Fernsehen (2)
@@ -272,6 +284,8 @@ https://mcdn.swr.de/swr/swrbwd/master.m3u8
 https://swrbwd-hls.akamaized.net/hls/live/2018672/swrbwd/master-720p-3628.m3u8
 #EXTINF:-1 tvg-id="tv-swr-fernsehen-rheinland-pfalz" tvg-name="SWR Fernsehen Rheinland-Pfalz" group-title="regional",SWR Fernsehen Rheinland-Pfalz (1)
 https://swrrpd-hls.akamaized.net/hls/live/2018676/swrrpd/master.m3u8
+#EXTINF:-1 tvg-id="tv-swr-fernsehen-rheinland-pfalz" tvg-name="SWR Fernsehen Rheinland-Pfalz" group-title="regional",SWR Fernsehen Rheinland-Pfalz (2)
+https://mcdn.swr.de/swr/swrrpd/master.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-fernsehen-koeln" tvg-name="WDR Fernsehen Köln" group-title="regional",WDR Fernsehen Köln (1)
 https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-fernsehen-koeln" tvg-name="WDR Fernsehen Köln" group-title="regional",WDR Fernsehen Köln (2)
@@ -368,6 +382,8 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/index.m3u8
 #EXTINF:-1 tvg-id="tv-dw-arabic" tvg-name="DW Arabic" group-title="news",DW Arabic (1)
 https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8
+#EXTINF:-1 tvg-id="tv-dw-arabic" tvg-name="DW Arabic" group-title="news",DW Arabic (2)
+https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8
 #EXTINF:-1 tvg-id="tv-dw-espa-ol" tvg-name="DW Español" group-title="news",DW Español (1)
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
 #EXTINF:-1 tvg-id="tv-parlamentsfernsehen-1-bundestag" tvg-name="Parlamentsfernsehen 1 (Bundestag)" group-title="news",Parlamentsfernsehen 1 (Bundestag) (1)
@@ -390,8 +406,12 @@ https://bibeltv02.iptv-playoutcenter.de/bibeltv01/bibeltv01.stream_1/playlist.m3
 https://bibeltv03.iptv-playoutcenter.de/bibeltv03/bibeltv03.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-bibel-tv-musik" tvg-name="Bibel TV Musik" group-title="religious",Bibel TV Musik (2)
 https://bibeltv03.iptv-playoutcenter.de/bibeltv03/bibeltv03.stream_all/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-bibel-tv-musik" tvg-name="Bibel TV Musik" group-title="religious",Bibel TV Musik (3)
+https://bibeltv03.iptv-playoutcenter.de/bibeltv03/bibeltv03.stream_all/bibeltv03/bibeltv03.stream_1/chunks.m3u8
 #EXTINF:-1 tvg-id="tv-bibel-tv-impuls" tvg-name="Bibel TV Impuls" group-title="religious",Bibel TV Impuls (1)
 https://bibeltv02.iptv-playoutcenter.de/bibeltv02/bibeltv02.stream_1/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-bibel-tv-impuls" tvg-name="Bibel TV Impuls" group-title="religious",Bibel TV Impuls (2)
+https://bibeltv02.iptv-playoutcenter.de/bibeltv02/bibeltv02.stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-k-tv" tvg-name="K-TV" group-title="religious",K-TV (1)
 https://d1pz8zear993v8.cloudfront.net/hlsme/kathtv.m3u8
 #EXTINF:-1 tvg-id="tv-k-tv" tvg-name="K-TV" group-title="religious",K-TV (2)
@@ -518,6 +538,8 @@ https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel(LCGERMANYWEB)/0
 https://telegold.iptv-playoutcenter.de/telegold/telegold-all/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-telegold" tvg-name="Telegold" group-title="shopping",Telegold (2)
 https://telegold.iptv-playoutcenter.de/telegold/telegold1/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-telegold" tvg-name="Telegold" group-title="shopping",Telegold (3)
+https://telegold.iptv-playoutcenter.de/telegold/telegold-sat1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-n24-doku" tvg-name="N24 Doku" group-title="documentary",N24 Doku (1)
 https://broadcast.n24-doku.personalstream.tv/ses/hls/live/2107300/n24-doku-live/master.m3u8
 #EXTINF:-1 tvg-id="tv-n24-doku" tvg-name="N24 Doku" group-title="documentary",N24 Doku (2)
@@ -526,6 +548,8 @@ https://w-n24doku2weltcms.akamaized.net/hls/live/2106400/N24Doku-SES/master.m3u8
 https://wdw.iptv-playoutcenter.de/wdw/wdw1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-dokusat" tvg-name="Dokusat" group-title="documentary",Dokusat (1)
 https://muc3.iptv-playoutcenter.de/dokusat/dokusat1/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-dokusat" tvg-name="Dokusat" group-title="documentary",Dokusat (2)
+https://dokusat.iptv-playoutcenter.de/dokusat/dokusat1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-one-terra" tvg-name="One Terra" group-title="documentary",One Terra (1)
 https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/0d7ddc61-818f-11eb-908d-533d39655269/0/master.m3u8?country=DE&vendor=samsung&coppa=1
 #EXTINF:-1 tvg-id="tv-xplore" tvg-name="Xplore" group-title="documentary",Xplore (1)
@@ -600,8 +624,12 @@ https://stream01.welocal.stream/stream/fhd-frankenplus_119/ngrp:stream_all/chunk
 https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-niederbayern-tv-deggendorf-straubing" tvg-name="Niederbayern TV Deggendorf-Straubing" group-title="yerel",Niederbayern TV Deggendorf-Straubing (1)
 https://stream03.welocal.stream/stream/fhd-nbydeggendorf_99148/ngrp:stream_all/index.m3u8
+#EXTINF:-1 tvg-id="tv-niederbayern-tv-deggendorf-straubing" tvg-name="Niederbayern TV Deggendorf-Straubing" group-title="yerel",Niederbayern TV Deggendorf-Straubing (2)
+https://donautv.iptv-playoutcenter.de/donautv/donautv.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-niederbayern-tv-landshut" tvg-name="Niederbayern TV Landshut" group-title="yerel",Niederbayern TV Landshut (1)
 https://stream03.welocal.stream/stream/fhd-nbylandshut_75262/ngrp:stream_all/index.m3u8
+#EXTINF:-1 tvg-id="tv-niederbayern-tv-landshut" tvg-name="Niederbayern TV Landshut" group-title="yerel",Niederbayern TV Landshut (2)
+https://isar-tv.iptv-playoutcenter.de/isar-tv/isar-tv.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-niederbayern-tv-passau" tvg-name="Niederbayern TV Passau" group-title="yerel",Niederbayern TV Passau (1)
 https://stream03.welocal.stream/stream/fhd-nbypassau_49171/ngrp:stream_all/index.m3u8
 #EXTINF:-1 tvg-id="tv-niederbayern-tv-satellit" tvg-name="Niederbayern TV Satellit" group-title="yerel",Niederbayern TV Satellit (1)
@@ -620,6 +648,8 @@ https://stream03.welocal.stream/stream/fhd-nbypassau_49171/ngrp:stream_all/chunk
 https://stream03.welocal.stream/stream/fhd-nbypassau_49171/ngrp:stream_all/chunklist_b946000.m3u8
 #EXTINF:-1 tvg-id="tv-niederbayern-tv-satellit" tvg-name="Niederbayern TV Satellit" group-title="yerel",Niederbayern TV Satellit (8)
 https://stream03.welocal.stream/stream/fhd-nbypassau_49171/ngrp:stream_all/chunklist_b446000.m3u8
+#EXTINF:-1 tvg-id="tv-niederbayern-tv-satellit" tvg-name="Niederbayern TV Satellit" group-title="yerel",Niederbayern TV Satellit (9)
+https://stream03.welocal.stream/stream/sat-nby/ngrp:sat-nby.stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-oberpfalz-tv" tvg-name="Oberpfalz TV" group-title="yerel",Oberpfalz TV (1)
 https://oberpfalztv.iptv-playoutcenter.de/oberpfalztv/oberpfalztv.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-rfo-regional-fernsehen-oberbayern" tvg-name="RFO Regional Fernsehen Oberbayern" group-title="yerel",RFO Regional Fernsehen Oberbayern (1)
@@ -634,6 +664,8 @@ https://stream01.welocal.stream/stream/fhd-tvingolstadt_44349/ngrp:stream_all/ch
 https://stream01.welocal.stream/stream/fhd-tvingolstadt_44349/ngrp:stream_all/chunklist_b446000.m3u8
 #EXTINF:-1 tvg-id="tv-tv-mainfranken" tvg-name="TV Mainfranken" group-title="yerel",TV Mainfranken (1)
 https://stream01.welocal.stream/stream/fhd-tvmainfranken_255661/ngrp:stream_all/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-tv-mainfranken" tvg-name="TV Mainfranken" group-title="yerel",TV Mainfranken (2)
+https://tvtouringw.iptv-playoutcenter.de/tvtouringw/tvtouringw.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-tv-oberfranken" tvg-name="TV Oberfranken" group-title="yerel",TV Oberfranken (1)
 https://tvoberfranken.iptv-playoutcenter.de/tvoberfranken/tvoberfranken.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-tva-ostbayern" tvg-name="TVA Ostbayern" group-title="yerel",TVA Ostbayern (1)
@@ -648,6 +680,10 @@ https://h056.video-stream-hosting.de/easycast7-live/_definst_/mp4:livestreamhd20
 https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd8/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-radio-weser-tv-bremen" tvg-name="Radio Weser TV Bremen" group-title="yerel",Radio Weser TV Bremen (1)
 https://5857499ee635b.streamlock.net/radiowesertv-live/mp4:livestreamTV/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-radio-weser-tv-bremen" tvg-name="Radio Weser TV Bremen" group-title="yerel",Radio Weser TV Bremen (2)
+https://5857499ee635b.streamlock.net/radiowesertv-live/_definst_/mp4:livestreamTV/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-radio-weser-tv-bremen" tvg-name="Radio Weser TV Bremen" group-title="yerel",Radio Weser TV Bremen (3)
+https://5857499ee635b.streamlock.net/radiowesertv-live/_definst_/mp4:livestreamHFHB/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-noa4-hamburg" tvg-name="noa4 Hamburg" group-title="yerel",noa4 Hamburg (1)
 https://hls1.wtnet.de/noa4hh/apple/wifi6500.m3u8
 #EXTINF:-1 tvg-id="tv-ok-kassel" tvg-name="OK Kassel" group-title="yerel",OK Kassel (1)
@@ -666,8 +702,18 @@ https://live.creacast.com/radio21/smil:radio21.smil/playlist.m3u8
 https://h057.video-stream-hosting.de/tv38-live/_definst_/smil:livestream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-nrwision" tvg-name="NRWision" group-title="yerel",NRWision (1)
 https://fms.nrwision.de/live/ngrp:livestreamHD.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-nrwision" tvg-name="NRWision" group-title="yerel",NRWision (2)
+https://fms.nrwision.de/live/livestreamHD.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-nrwision" tvg-name="NRWision" group-title="yerel",NRWision (3)
+https://fms.nrwision.de/live/livestreamHD.stream_source/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-nrwision" tvg-name="NRWision" group-title="yerel",NRWision (4)
+https://fms.nrwision.de/live/livestreamHD.stream_1080p/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-nrwision" tvg-name="NRWision" group-title="yerel",NRWision (5)
+https://fms.nrwision.de/live/livestreamHD.stream_360p/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-ok-kaiserslautern" tvg-name="OK Kaiserslautern" group-title="yerel",OK Kaiserslautern (1)
 https://s.ok54.de/abr_okkl/webstream/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-ok-kaiserslautern" tvg-name="OK Kaiserslautern" group-title="yerel",OK Kaiserslautern (2)
+https://s.ok54.de/abr_okkl/webstream/okkl/webstream_720p/chunks.m3u8
 #EXTINF:-1 tvg-id="tv-ok-nahetv" tvg-name="OK naheTV" group-title="yerel",OK naheTV (1)
 https://s.ok54.de/abr_nahetv/webstream/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-ok-rheinlokal-worms" tvg-name="OK RheinLokal Worms" group-title="yerel",OK RheinLokal Worms (1)
@@ -678,8 +724,12 @@ https://s.ok54.de/abr_okswp/webstream/playlist.m3u8
 https://s.ok54.de/abr_okwstr/live/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-ok4" tvg-name="OK4" group-title="yerel",OK4 (1)
 https://s.ok54.de/abr_ok4/live/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-ok4" tvg-name="OK4" group-title="yerel",OK4 (2)
+https://s.ok54.de/abr_ok4/live/ok4/live_720p/chunks.m3u8
 #EXTINF:-1 tvg-id="tv-ok54-trier" tvg-name="OK54 Trier" group-title="yerel",OK54 Trier (1)
 https://s.ok54.de/ott/webstream/tv/webstream_720p/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-ok54-trier" tvg-name="OK54 Trier" group-title="yerel",OK54 Trier (2)
+https://s.ok54.de/ott/webstream/tv/webstream_720p/chunks.m3u8
 #EXTINF:-1 tvg-id="tv-saarland-fernsehen-1" tvg-name="Saarland Fernsehen 1" group-title="yerel",Saarland Fernsehen 1 (1)
 https://saarland1.iptv-playoutcenter.de/saarland1/saarland1.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-saarland-fernsehen-2" tvg-name="Saarland Fernsehen 2" group-title="yerel",Saarland Fernsehen 2 (1)
@@ -708,6 +758,8 @@ https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:BLKonline_high
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:kulturmd_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-mdf-1" tvg-name="MDF.1" group-title="yerel",MDF.1 (1)
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mdf1_high/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-mdf-1" tvg-name="MDF.1" group-title="yerel",MDF.1 (2)
+https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:mdf1_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-ok-dessau" tvg-name="OK Dessau" group-title="yerel",OK Dessau (1)
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:ok-dessau_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-ok-magdeburg" tvg-name="OK Magdeburg" group-title="yerel",OK Magdeburg (1)
@@ -732,6 +784,8 @@ https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:RFH_high/playl
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:ok-wettin_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-noa4-norderstedt" tvg-name="noa4 Norderstedt" group-title="yerel",noa4 Norderstedt (1)
 https://hls1.wtnet.de/noa4/apple/wifi6500.m3u8
+#EXTINF:-1 tvg-id="tv-noa4-norderstedt" tvg-name="noa4 Norderstedt" group-title="yerel",noa4 Norderstedt (2)
+https://hls1.wtnet.de/noa4/apple/wifi.m3u8
 #EXTINF:-1 tvg-id="tv-ok-flensburg" tvg-name="OK Flensburg" group-title="yerel",OK Flensburg (1)
 https://live-cdn.oksh.de/play/hls/flensburgtv/index.m3u8
 #EXTINF:-1 tvg-id="tv-ok-kiel" tvg-name="OK Kiel" group-title="yerel",OK Kiel (1)

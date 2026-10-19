@@ -23,7 +23,7 @@ Uygulama önce `metadata.json` indirir. `revision` veya `channels.json` sha256 d
 | --- | --- |
 | `sources/tv.csv`, `sources/tv.m3u` | Ham TV ölçümü. CSV'de ölü (`failed`) satırlar da durur. |
 | `sources/radio.csv`, `sources/radio.m3u` | Ham radyo ölçümü. CSV'de denenmemiş düz `http` satırları da durur. |
-| `sources/onay-2026-10-15.csv`, `onay-2026-10-16.csv`, `onay-2026-10-18.csv` | Onaylanan ekler ve silinecek linkler. |
+| `sources/onay-2026-10-15.csv`, `onay-2026-10-16.csv`, `onay-2026-10-18.csv`, `onay-2026-10-19.csv` | Onaylanan ekler ve silinecek linkler. |
 | `sources/catalog-retest-2026-10-18.json` | 18 Ekim yeniden testi (ölü, statik, şüpheli). |
 | `tv.m3u`, `radio.m3u` | Yayımlanan, temizlenmiş listeler. Ölü ve denenmemiş link yoktur. |
 | `channels.json` | Uygulamanın indirdiği katalog. |
@@ -46,6 +46,7 @@ Her kanal:
 | `category` | Aşağıdaki süzgeç anahtarlarından biri. |
 | `geo_de_only` | `true` ise kanalın bütün linkleri Almanya dışından 403 döner. |
 | `streams` | Yedek sırası. Önce çalışan linkler, sonra 403 linkler. Adresler kaynakta nasıl verildiyse öyle durur. |
+| `streams[].format` | Oynatıcı seçimi. Adresin uzantısından çıkarılır: `hls` (`.m3u8`), `dash` (`.mpd`), `mp3`, `aac`, `opus`. Uzantı yoksa `audio`. |
 
 ```json
 {
@@ -55,12 +56,12 @@ Her kanal:
   "category": "public",
   "geo_de_only": true,
   "streams": [
-    { "url": "https://…/veryhigh/master.m3u8", "geo_de_only": true }
+    { "url": "https://…/veryhigh/master.m3u8", "geo_de_only": true, "format": "hls" }
   ]
 }
 ```
 
-Karışık kanalda (örneğin Anixe) `geo_de_only` kanaldaki bayrak `false` olur, çünkü çalışan bir link vardır. Uygulama `streams` dizisini baştan dener; açılmayan adresten sonrakine geçer. `streams[].geo_de_only` hangi yedeğin yalnızca Almanya'da açıldığını söyler.
+Karışık kanalda (örneğin Anixe) `geo_de_only` kanaldaki bayrak `false` olur, çünkü çalışan bir link vardır. Uygulama `streams` dizisini baştan dener; açılmayan adresten sonrakine geçer. `streams[].geo_de_only` hangi yedeğin yalnızca Almanya'da açıldığını söyler. `streams[].format` hangi oynatıcının kullanılacağını söyler. Radio Bremen TV'nin ikinci adresi DASH'tir (`format: "dash"`, `geo_de_only: true`); HLS yedeği öndedir. DASH adresi bir HLS oynatıcıyla açılmaz.
 
 Kategoriler `tools/apply-2026-10-18.mjs` içinde ada göre verilir. Eski `kids`, `culture`, `lifestyle` ve `entertainment` anahtarları bu sıraya katlandı (KiKA ulusal kamu, Lilo TV ve RiC `other`, Just Cooking `other`).
 
@@ -88,6 +89,8 @@ Radyo CSV'sinde aynı istasyon adının altında kardeş yayınlar da `(1)`, `(2
 `sources/onay-2026-10-16.csv` bir sonraki onaydır. Yedek linkler ilgili kanala eklenir. `olu_mevcut_link` satırları (WDR Lokalzeit `hls/int`) katalogdan silinir; çalışan `de` linkler kalır. Eski `FFN` kaydı `ffn 80er` olur ve id'si `radio-ffn` olarak kalır. Ana yayın ayrı kanal olarak `radio ffn` adıyla eklenir. Deutschlandfunk AAC 192k linki, daha yüksek kalite olduğu için o kanalın ilk adresidir.
 
 `sources/onay-2026-10-18.csv` 18 Ekim onayının tamamıdır. `denendi_olu_onerilmiyor` satırları eklenmez. `olu_mevcut_link` adresleri silinir; geride çalışan veya 403 link kalmayan kanal katalogdan çıkar (DW Deutsch, DW Deutsch+, 123 Live TV, Radio Q). QVC Style ve QVC Zwei durur; şüpheli linkleri kendi kanalında en sona yazılır. `iptv-playoutcenter.de` linkleri, listesi açılıp parçaları 403 dönen 13 kanalda `geo_de_only` olur. Eski `RBB Radio 3` kaydı aslında Radio 38'dir: adı Radio 38 olur, id'si `radio-rbb-radio-3` kalır. rbbKultur ayrı istasyon olarak eklenir. R.SH, Radio Brocken, Radio Hamburg, delta radio ve Radio PSR üzerindeki oturum parametreli adresler (`?sABC=` ve benzeri) silinir. Deluxe Music'in üç statik linki ve Deluxe Rap'in iki statik linki silinir; canlı ana listeler kalır. Radio SAW'ın ana yayını bu onayda yoktur; temalı yayınlarının sırası korunur.
+
+`sources/onay-2026-10-19.csv` 19 Ekim onaydır. Sonnenklar TV (`euvia.cdn.ses-ps.com`, jetonlu yönlendirme) eklenmez. Diğer satırlar yedek veya yeni istasyon olarak girer. `çalışıyor` çalışan, `sadece Almanya` ise `geo_de_only` sayılır. OK4 ve OK54 Trier zaten `yerel` / Rheinland-Pfalz altındadır; yeni 720p adresleri o kanallara geo yedek yazılır. NDR'nin uluslararası `master.m3u8` adresi, aynı `ndr_int` ailesini taşıyan NDR Fernsehen Hamburg kaydına eklenir. MDR Thüringen'in dört bölgesel HLS adresi (Mitte/West, Ost, Nord, Süd), bu varyantları zaten bir arada tutan MDR Thüringen Mitte/West istasyonuna eklenir. Yeni istasyonlar Bayernwelle SüdOst (Bayern) ve baden.fm'dir (Baden-Württemberg).
 
 ## Sıra
 
