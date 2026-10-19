@@ -1,42 +1,16 @@
 {
-  "generatedAt": "2026-10-16T10:26:12.884Z",
+  "generatedAt": "2026-10-19T10:45:55.467Z",
   "dryRun": true,
   "skipProbe": false,
-  "targetCount": 1027,
+  "targetCount": 1010,
   "enriched": [
-    {
-      "key": "adatv",
-      "added": 1,
-      "urls": [
-        "https://live-evg10.tv360.bitel.com.pe/bitel/alasdeaguilaSRT/playlist.m3u8"
-      ],
-      "total": 3,
-      "probeResults": [
-        {
-          "url": "https://sc-kuzeykibrissmarttv.ercdn.net/adatv/bant1/playlist.m3u8",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "https://live-evg10.tv360.bitel.com.pe/bitel/alasdeaguilaSRT/playlist.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 206
-        },
-        {
-          "url": "https://spor.kuzeykibris.tv/m3u8/tv_ada.m3u8",
-          "live": false,
-          "reason": "timeout"
-        }
-      ]
-    },
     {
       "key": "bloomberght",
       "added": 1,
       "urls": [
         "https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8"
       ],
-      "total": 9,
+      "total": 5,
       "probeResults": [
         {
           "url": "https://ciner-live.daioncdn.net/bloomberght/bloomberght_720p.m3u8",
@@ -65,7 +39,7 @@
         "https://drk6xq0vhn.gpcdn.net/live/cn_hd_abr/index.m3u8",
         "https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8"
       ],
-      "total": 9,
+      "total": 3,
       "probeResults": [
         {
           "url": "https://drk6xq0vhn.gpcdn.net/live/cn_hd_abr/index.m3u8",
@@ -95,7 +69,7 @@
           "reason": "timeout"
         },
         {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
           "live": false,
           "reason": "timeout"
         }
@@ -107,7 +81,7 @@
       "urls": [
         "https://tvsms.club/tvz.php?kanal=dost&file=.m3u8"
       ],
-      "total": 14,
+      "total": 2,
       "probeResults": [
         {
           "url": "http://137.74.150.14:8080/permabil/DOSTtv/index.m3u8",
@@ -119,6 +93,21 @@
           "live": true,
           "reason": "hls-manifest",
           "status": 200
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=210465&extension=ts&play_token=Wl1AzaWqzv",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=210465&extension=ts&play_token=Wl1AzaWqzv",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=210465&extension=ts&play_token=Wl1AzaWqzv",
+          "live": false,
+          "reason": "timeout"
         }
       ]
     },
@@ -144,7 +133,7 @@
       "urls": [
         "https://raw.githubusercontent.com/rideordie16/YouTube/main/ch/kanal7eu.m3u8"
       ],
-      "total": 14,
+      "total": 3,
       "probeResults": [
         {
           "url": "https://raw.githubusercontent.com/UzunMuhalefet/yayinlar/main/streams/kanal7avrupa.m3u8",
@@ -162,6 +151,21 @@
           "live": true,
           "reason": "hls-manifest",
           "status": 206
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=196661&extension=ts&play_token=t2EsW8HHSU",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=196661&extension=ts&play_token=t2EsW8HHSU",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=196661&extension=ts&play_token=t2EsW8HHSU",
+          "live": false,
+          "reason": "timeout"
         }
       ]
     },
@@ -183,18 +187,19 @@
     },
     {
       "key": "lifetv",
-      "added": 2,
+      "added": 3,
       "urls": [
+        "http://88.212.15.17/live/lifetv/index.m3u8",
         "http://lifetv.bitflip.ee/live/stream1_1/index.m3u8",
         "https://lifetv.livebox.co.in/lifetvhls/lifetv.m3u8"
       ],
-      "total": 4,
+      "total": 5,
       "probeResults": [
         {
-          "url": "http://88.212.15.19/live/lifetv/index.m3u8",
-          "live": false,
-          "reason": "http-503",
-          "status": 503
+          "url": "http://88.212.15.17/live/lifetv/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
         },
         {
           "url": "http://lifetv.bitflip.ee/live/stream1_1/index.m3u8",
@@ -207,28 +212,6 @@
           "live": true,
           "reason": "hls-manifest",
           "status": 206
-        }
-      ]
-    },
-    {
-      "key": "neotv",
-      "added": 1,
-      "urls": [
-        "https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8"
-      ],
-      "total": 3,
-      "probeResults": [
-        {
-          "url": "https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 200
-        },
-        {
-          "url": "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/DigitalTV/playlist.m3u8",
-          "live": false,
-          "reason": "http-404",
-          "status": 404
         }
       ]
     },
@@ -254,7 +237,7 @@
       "urls": [
         "https://listen.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8"
       ],
-      "total": 5,
+      "total": 4,
       "probeResults": [
         {
           "url": "https://listen.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8",
@@ -265,34 +248,12 @@
       ]
     },
     {
-      "key": "tgrtbelgesel",
-      "added": 1,
-      "urls": [
-        "https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8"
-      ],
-      "total": 6,
-      "probeResults": [
-        {
-          "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 206
-        },
-        {
-          "url": "https://tgn.bozztv.com/dvrfl05/gin-tgrtbelgesel/tracks-v1a1/mono.m3u8",
-          "live": false,
-          "reason": "http-403",
-          "status": 403
-        }
-      ]
-    },
-    {
       "key": "tgrthaber",
       "added": 1,
       "urls": [
         "https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe4598be8e5d.smil/playlist.m3u8"
       ],
-      "total": 8,
+      "total": 5,
       "probeResults": [
         {
           "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe4598be8e5d.smil/playlist.m3u8",
@@ -313,13 +274,28 @@
       "urls": [
         "https://live.tv1.rw/index.m3u8"
       ],
-      "total": 14,
+      "total": 2,
       "probeResults": [
         {
           "url": "https://live.tv1.rw/index.m3u8",
           "live": true,
           "reason": "hls-manifest",
           "status": 206
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=196659&extension=ts&play_token=9d3LgPUiM1",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=196659&extension=ts&play_token=9d3LgPUiM1",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=196659&extension=ts&play_token=9d3LgPUiM1",
+          "live": false,
+          "reason": "timeout"
         }
       ]
     },
@@ -415,8 +391,8 @@
     }
   ],
   "skippedFull": [],
-  "totalNewUrls": 22,
-  "enrichedCount": 17,
-  "streamMapRevision": 196,
+  "totalNewUrls": 20,
+  "enrichedCount": 14,
+  "streamMapRevision": 202,
   "mapChanged": true
 }

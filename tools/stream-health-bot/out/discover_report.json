@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-16T10:32:11.581Z",
+  "generatedAt": "2026-10-19T10:53:02.674Z",
   "dryRun": true,
-  "pending": 24,
+  "pending": 25,
   "skippedExists": [
     "TRT Spor 2",
     "TRT Genç",
@@ -9,7 +9,6 @@
     "Kon TV",
     "Kanal B",
     "Gonca TV",
-    "Rumeli TV",
     "Kocaeli TV",
     "Türkmeneli TV"
   ],
@@ -178,6 +177,42 @@
           "live": false,
           "reason": "http-404",
           "status": 404
+        }
+      ]
+    },
+    {
+      "name": "Rumeli TV",
+      "candidates": 12,
+      "probeResults": [
+        {
+          "url": "https://rumelitv-live.ercdn.net/rumelitv/rumelitv.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://yayin3.canlitv.com:1935/live/rumelitv/iptvdelisi.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197188&extension=ts&play_token=PaNAKhTAov",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197188&extension=ts&play_token=PaNAKhTAov",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197188&extension=ts&play_token=PaNAKhTAov",
+          "live": false,
+          "reason": "timeout"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197188&extension=ts&play_token=PaNAKhTAov",
+          "live": false,
+          "reason": "timeout"
         }
       ]
     },
@@ -356,5 +391,5 @@
     "FM TV",
     "Süper TV"
   ],
-  "streamMapRevision": 196
+  "streamMapRevision": 202
 }

@@ -1,12 +1,34 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="trtbelgesel" group-title="Ekleme Teklifleri",TRT Belgesel
-https://tv-trtbelgesel-dai.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="tv8" group-title="Ekleme Teklifleri",TV8
+http://315e5a5d.ottrast.com/iptv/8KSD5KFDXA6H88/2454/index.m3u8
+#EXTINF:-1 tvg-id="lifetv" group-title="Ekleme Teklifleri",Life TV
+http://88.212.15.17/live/lifetv/index.m3u8
 #EXTINF:-1 tvg-id="cartoonnetwork" group-title="Ekleme Teklifleri",Cartoon Network
 https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8
 #EXTINF:-1 tvg-id="cartoonnetwork" group-title="Ekleme Teklifleri",Cartoon Network
 https://drk6xq0vhn.gpcdn.net/live/cn_hd_abr/index.m3u8
+#EXTINF:-1 tvg-id="cartoonnetwork" group-title="Ekleme Teklifleri",Cartoon Network
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197411&extension=ts&play_token=6Vh9e7AwnI
+#EXTINF:-1 tvg-id="cartoonnetwork" group-title="Ekleme Teklifleri",Cartoon Network
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197411&extension=ts&play_token=6Vh9e7AwnI
+#EXTINF:-1 tvg-id="cartoonnetwork" group-title="Ekleme Teklifleri",Cartoon Network
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197411&extension=ts&play_token=6Vh9e7AwnI
+#EXTINF:-1 tvg-id="cartoonnetwork" group-title="Ekleme Teklifleri",Cartoon Network
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197411&extension=ts&play_token=6Vh9e7AwnI
 #EXTINF:-1 tvg-id="babytv" group-title="Ekleme Teklifleri",Baby TV
 http://57.128.231.171:8080/310/index.m3u8
+#EXTINF:-1 tvg-id="kontv" group-title="Ekleme Teklifleri",Kon TV
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197191&extension=ts&play_token=PM2eb119cV
+#EXTINF:-1 tvg-id="kontv" group-title="Ekleme Teklifleri",Kon TV
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197191&extension=ts&play_token=PM2eb119cV
+#EXTINF:-1 tvg-id="kontv" group-title="Ekleme Teklifleri",Kon TV
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197191&extension=ts&play_token=PM2eb119cV
+#EXTINF:-1 tvg-id="kontv" group-title="Ekleme Teklifleri",Kon TV
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197191&extension=ts&play_token=PM2eb119cV
+#EXTINF:-1 tvg-id="kontv" group-title="Ekleme Teklifleri",Kon TV
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197191&extension=ts&play_token=PM2eb119cV
+#EXTINF:-1 tvg-id="kontv" group-title="Ekleme Teklifleri",Kon TV
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197191&extension=ts&play_token=PM2eb119cV
 #EXTINF:-1 tvg-id="tv3" group-title="Ekleme Teklifleri",TV 3
 http://flussonic.linkintel.ru/tv-3/index.m3u8
 #EXTINF:-1 tvg-id="tv3" group-title="Ekleme Teklifleri",TV 3
