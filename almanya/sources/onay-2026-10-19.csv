@@ -1,0 +1,39 @@
+kanal,link,durum,kaynak,tur
+ARD Alpha,https://mcdn.br.de/br/fs/ard_alpha/hls/int/master.m3u8,"çalışıyor (200, canlı segment)",GitHub: junguler/m3u-radio-music-playlists,yeni_link
+Das Erste,https://derste247livede.akamaized.net/hls/live/658317/daserste_de/master.m3u8,"çalışıyor (200, canlı segment)",GitHub: Dimonovich/TV,yeni_link
+NDR Fernsehen,https://ndrint.akamaized.net/hls/live/2020766/ndr_int/master.m3u8,"çalışıyor (200, canlı segment)",GitHub: Duartegame/listas,yeni_link
+SWR Fernsehen Rheinland-Pfalz,https://mcdn.swr.de/swr/swrrpd/master.m3u8,sadece Almanya (403),GitHub: Artur-400/TVIP,yeni_link
+Tagesschau 24,https://tagesschau.akamaized.net/hls/live/2020116/tagesschau/tagesschau_2/master-720p-3328.m3u8,"çalışıyor (200, canlı segment)",GitHub: proefem/titel1,yeni_link
+Tagesschau 24,https://tagesschau.akamaized.net/hls/live/2020117/tagesschau/tagesschau_3/master.m3u8,sadece Almanya (403),GitHub: WirusDev/MusikPlayer,yeni_link
+Radio Bremen Fernsehen,https://rbdashlive.akamaized.net/dash/live/2020436/rbfs/dash.mpd,sadece Almanya (403),kodinerds dash.m3u,yeni_link
+DW Arabic,https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8,"çalışıyor (200, canlı segment)",GitHub: AdeelWajid/iptv_validated_list,yeni_link
+Sonnenklar TV,https://euvia.cdn.ses-ps.com/secure/HLS-Live/index.m3u8,sadece Almanya muhtemel (CDN 403 sayfasına yönlendiriyor),GitHub: WildContagion/TV + LyngSat FTA,yeni_kanal
+Telegold,https://telegold.iptv-playoutcenter.de/telegold/telegold-sat1/playlist.m3u8,"sadece Almanya (master 200, alt liste 403 (sadece Almanya))",GitHub: WildContagion/TV,yeni_link
+Dokusat,https://dokusat.iptv-playoutcenter.de/dokusat/dokusat1/playlist.m3u8,"sadece Almanya (master 200, alt liste 403 (sadece Almanya))",GitHub: WildContagion/TV,yeni_link
+Bibel TV Impuls,https://bibeltv02.iptv-playoutcenter.de/bibeltv02/bibeltv02.stream_all/playlist.m3u8,"sadece Almanya (master 200, alt liste 403 (sadece Almanya))",GitHub: jbkunama1/hAI.iptv_List,yeni_link
+Bibel TV Musik,https://bibeltv03.iptv-playoutcenter.de/bibeltv03/bibeltv03.stream_all/bibeltv03/bibeltv03.stream_1/chunks.m3u8,"sadece Almanya (liste 200, segment 403 (sadece Almanya))",GitHub: junguler/m3u-radio-music-playlists,yeni_link
+TV Mainfranken,https://tvtouringw.iptv-playoutcenter.de/tvtouringw/tvtouringw.stream_1/playlist.m3u8,"sadece Almanya (master 200, alt liste 403 (sadece Almanya))",GitHub: AdeelWajid/iptv_validated_list,yeni_link
+Niederbayern TV Deggendorf-Straubing,https://donautv.iptv-playoutcenter.de/donautv/donautv.stream_1/playlist.m3u8,"sadece Almanya (master 200, alt liste 403 (sadece Almanya))",GitHub: UzunMuhalefet/Free-IPTV,yeni_link
+Niederbayern TV Landshut,https://isar-tv.iptv-playoutcenter.de/isar-tv/isar-tv.stream_1/playlist.m3u8,"sadece Almanya (master 200, alt liste 403 (sadece Almanya))",GitHub: Fotosimic/iptv,yeni_link
+Niederbayern TV Satellit,https://stream03.welocal.stream/stream/sat-nby/ngrp:sat-nby.stream_all/playlist.m3u8,"çalışıyor (200, canlı segment)",GitHub: WildContagion/TV,yeni_link
+NRWision,https://fms.nrwision.de/live/livestreamHD.stream/playlist.m3u8,"çalışıyor (200, canlı segment)",GitHub: Fotosimic/iptv,yeni_link
+NRWision,https://fms.nrwision.de/live/livestreamHD.stream_source/playlist.m3u8,"çalışıyor (200, canlı segment)",GitHub: Fotosimic/iptv,yeni_link
+NRWision,https://fms.nrwision.de/live/livestreamHD.stream_1080p/playlist.m3u8,"çalışıyor (200, canlı segment)",GitHub: Fotosimic/iptv,yeni_link
+NRWision,https://fms.nrwision.de/live/livestreamHD.stream_360p/playlist.m3u8,"çalışıyor (200, canlı segment)",GitHub: ASMASAM/iptv,yeni_link
+Radio Weser TV Bremen,https://5857499ee635b.streamlock.net/radiowesertv-live/_definst_/mp4:livestreamTV/playlist.m3u8,"çalışıyor (200, canlı segment)",GitHub: ASMASAM/iptv,yeni_link
+Radio Weser TV (HFHB),https://5857499ee635b.streamlock.net/radiowesertv-live/_definst_/mp4:livestreamHFHB/playlist.m3u8,"çalışıyor (200, canlı segment)",GitHub: junguler/m3u-radio-music-playlists,yeni_link
+noa4 Norderstedt,https://hls1.wtnet.de/noa4/apple/wifi.m3u8,"çalışıyor (200, canlı segment)",GitHub: holgerkoser/tv,yeni_link
+MDF.1,https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:mdf1_high/playlist.m3u8,"çalışıyor (200, canlı segment)",GitHub: junguler/m3u-radio-music-playlists,yeni_link
+OK Kaiserslautern,https://s.ok54.de/abr_okkl/webstream/okkl/webstream_720p/chunks.m3u8,sadece Almanya (403),GitHub: UzunMuhalefet/Free-IPTV,yeni_link
+OK4,https://s.ok54.de/abr_ok4/live/ok4/live_720p/chunks.m3u8,sadece Almanya (403),GitHub: UzunMuhalefet/Free-IPTV,yeni_kanal
+OK54 Trier,https://s.ok54.de/ott/webstream/tv/webstream_720p/chunks.m3u8,sadece Almanya (403),GitHub: Artur-400/TVIP,yeni_kanal
+MDR Thüringen Mitte/West (radyo),https://radio-hls.mdr.de/hls/live/2112898/mdr-284300-0-hls/index.m3u8,"çalışıyor (200, canlı segment)",GitHub: junguler/m3u-radio-music-playlists,radyo_yeni_link
+MDR Thüringen Ost (radyo),https://radio-hls.mdr.de/hls/live/2112899/mdr-284300-1-hls/index.m3u8,"çalışıyor (200, canlı segment)",GitHub: junguler/m3u-radio-music-playlists,radyo_yeni_link
+MDR Thüringen Nord (radyo),https://radio-hls.mdr.de/hls/live/2112900/mdr-284300-2-hls/index.m3u8,"çalışıyor (200, canlı segment)",GitHub: junguler/m3u-radio-music-playlists,radyo_yeni_link
+MDR Thüringen Süd (radyo),https://radio-hls.mdr.de/hls/live/2112902/mdr-284300-3-hls/index.m3u8,"çalışıyor (200, canlı segment)",GitHub: junguler/m3u-radio-music-playlists,radyo_yeni_link
+Deutschlandfunk (radyo),https://st01.sslstream.dlf.de/dlf/01/mid/aac/stream.aac?aggregator=web,"çalışıyor (200, ses akışı)",radio-browser API (resmi dlf.de),radyo_yeni_link
+Deutschlandfunk (radyo),https://st01.sslstream.dlf.de/dlf/01/high/opus/stream.opus?aggregator=web,"çalışıyor (200, ses akışı)",radio-browser API (resmi dlf.de),radyo_yeni_link
+Deutschlandfunk Kultur (radyo),https://st02.sslstream.dlf.de/dlf/02/high/opus/stream.opus?aggregator=web,"çalışıyor (200, ses akışı)",radio-browser API (resmi dlf.de),radyo_yeni_link
+Deutschlandfunk Nova (radyo),https://st03.sslstream.dlf.de/dlf/03/mid/aac/stream.aac?aggregator=web,"çalışıyor (200, ses akışı)",radio-browser API (resmi dlf.de),radyo_yeni_link
+Bayernwelle SüdOst (radyo),https://bayernwelle-live.cast.addradio.de/bayernwelle/live/mp3/high?ar-distributor=f0b7,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists,radyo_yeni_kanal
+baden.fm (radyo),https://edge17.streamonkey.net/badenfm-onair/stream/mp3?aggregator=hofmeir,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists,radyo_yeni_kanal

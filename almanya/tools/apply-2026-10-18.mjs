@@ -519,6 +519,7 @@ const RADIO_REGIONAL = radioRegional([
       "Querfunk Karlsruhe",
       "Campusradio Mannheim (Radioaktiv)",
       "Sunshine Live",
+      "baden.fm",
     ],
   ],
   [
@@ -532,6 +533,7 @@ const RADIO_REGIONAL = radioRegional([
       "Radio Arabella",
       "DONAU 3 FM",
       "Campusradio Regensburg (Studentenfunk)",
+      "Bayernwelle SüdOst",
     ],
   ],
   ["Berlin", ["104.6 RTL", "Berliner Rundfunk 91.4", "KISS FM", "Star FM", "reboot.fm"]],

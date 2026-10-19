@@ -126,6 +126,14 @@ https://d111.rndfnk.com/ard/mdr/284300/2/mp3/128/stream.mp3?cid=01FBQ0YB45T1Y0FY
 https://mdr-284300-0.sslcast.mdr.de/mdr/284300/0/mp3/high/stream.mp3
 #EXTINF:-1 tvg-id="radio-mdr-thueringen-mitte-west" tvg-name="MDR Thüringen Mitte/West" group-title="public",MDR Thüringen Mitte/West (6)
 https://mdr-radio-hls.akamaized.net/hls/live/2112899/mdr-284300-1-hls/index.m3u8
+#EXTINF:-1 tvg-id="radio-mdr-thueringen-mitte-west" tvg-name="MDR Thüringen Mitte/West" group-title="public",MDR Thüringen Mitte/West (7)
+https://radio-hls.mdr.de/hls/live/2112898/mdr-284300-0-hls/index.m3u8
+#EXTINF:-1 tvg-id="radio-mdr-thueringen-mitte-west" tvg-name="MDR Thüringen Mitte/West" group-title="public",MDR Thüringen Mitte/West (8)
+https://radio-hls.mdr.de/hls/live/2112899/mdr-284300-1-hls/index.m3u8
+#EXTINF:-1 tvg-id="radio-mdr-thueringen-mitte-west" tvg-name="MDR Thüringen Mitte/West" group-title="public",MDR Thüringen Mitte/West (9)
+https://radio-hls.mdr.de/hls/live/2112900/mdr-284300-2-hls/index.m3u8
+#EXTINF:-1 tvg-id="radio-mdr-thueringen-mitte-west" tvg-name="MDR Thüringen Mitte/West" group-title="public",MDR Thüringen Mitte/West (10)
+https://radio-hls.mdr.de/hls/live/2112902/mdr-284300-3-hls/index.m3u8
 #EXTINF:-1 tvg-id="radio-mdr-aktuell" tvg-name="MDR Aktuell" group-title="public",MDR Aktuell (1)
 https://mdr-284340-0.sslcast.mdr.de/mdr/284340/0/mp3/high/stream.mp3
 #EXTINF:-1 tvg-id="radio-mdr-jump" tvg-name="MDR Jump" group-title="public",MDR Jump (1)
@@ -362,12 +370,18 @@ https://st02.sslstream.dlf.de/dlf/02/128/mp3/stream.mp3?aggregator=web
 https://st01.sslstream.dlf.de/dlf/01/low/opus/stream.opus?aggregator=web
 #EXTINF:-1 tvg-id="radio-deutschlandfunk" tvg-name="Deutschlandfunk" group-title="public",Deutschlandfunk (5)
 https://st01.sslstream.dlf.de/dlf/01/low/aac/stream.aac?aggregator=web
+#EXTINF:-1 tvg-id="radio-deutschlandfunk" tvg-name="Deutschlandfunk" group-title="public",Deutschlandfunk (6)
+https://st01.sslstream.dlf.de/dlf/01/mid/aac/stream.aac?aggregator=web
+#EXTINF:-1 tvg-id="radio-deutschlandfunk" tvg-name="Deutschlandfunk" group-title="public",Deutschlandfunk (7)
+https://st01.sslstream.dlf.de/dlf/01/high/opus/stream.opus?aggregator=web
 #EXTINF:-1 tvg-id="radio-deutschlandfunk-kultur" tvg-name="Deutschlandfunk Kultur" group-title="public",Deutschlandfunk Kultur (1)
 https://st02.sslstream.dlf.de/dlf/02/mid/aac/stream.aac?aggregator=web
 #EXTINF:-1 tvg-id="radio-deutschlandfunk-kultur" tvg-name="Deutschlandfunk Kultur" group-title="public",Deutschlandfunk Kultur (2)
 https://st02.sslstream.dlf.de/dlf/02/high/aac/stream.aac?aggregator=web
 #EXTINF:-1 tvg-id="radio-deutschlandfunk-kultur" tvg-name="Deutschlandfunk Kultur" group-title="public",Deutschlandfunk Kultur (3)
 https://st02.sslstream.dlf.de/dlf/02/low/opus/stream.opus?aggregator=web
+#EXTINF:-1 tvg-id="radio-deutschlandfunk-kultur" tvg-name="Deutschlandfunk Kultur" group-title="public",Deutschlandfunk Kultur (4)
+https://st02.sslstream.dlf.de/dlf/02/high/opus/stream.opus?aggregator=web
 #EXTINF:-1 tvg-id="radio-deutschlandfunk-nova" tvg-name="Deutschlandfunk Nova" group-title="public",Deutschlandfunk Nova (1)
 https://st03.sslstream.dlf.de/dlf/03/128/mp3/stream.mp3?aggregator=web
 #EXTINF:-1 tvg-id="radio-deutschlandfunk-nova" tvg-name="Deutschlandfunk Nova" group-title="public",Deutschlandfunk Nova (2)
@@ -376,6 +390,8 @@ https://st03.sslstream.dlf.de/dlf/03/high/aac/stream.aac?aggregator=web
 https://st03.sslstream.dlf.de/dlf/03/high/opus/stream.opus?aggregator=web
 #EXTINF:-1 tvg-id="radio-deutschlandfunk-nova" tvg-name="Deutschlandfunk Nova" group-title="public",Deutschlandfunk Nova (4)
 https://st03.sslstream.dlf.de/dlf/03/low/aac/stream.aac?aggregator=web
+#EXTINF:-1 tvg-id="radio-deutschlandfunk-nova" tvg-name="Deutschlandfunk Nova" group-title="public",Deutschlandfunk Nova (5)
+https://st03.sslstream.dlf.de/dlf/03/mid/aac/stream.aac?aggregator=web
 #EXTINF:-1 tvg-id="radio-dokumente-und-debatten" tvg-name="Dokumente und Debatten" group-title="public",Dokumente und Debatten (1)
 https://st04.sslstream.dlf.de/dlf/04/mid/aac/stream.aac?aggregator=web
 #EXTINF:-1 tvg-id="radio-dokumente-und-debatten" tvg-name="Dokumente und Debatten" group-title="public",Dokumente und Debatten (2)
@@ -428,6 +444,8 @@ https://stream.sunshine-live.de/techno/mp3-192/stream.sunshine-live.de/
 https://stream.sunshine-live.de/live/mp3-192/stream.sunshine-live.de/
 #EXTINF:-1 tvg-id="radio-sunshine-live" tvg-name="Sunshine Live" group-title="regional",Sunshine Live (4)
 https://stream.sunshine-live.de/classics/mp3-192/stream.sunshine-live.de/
+#EXTINF:-1 tvg-id="radio-baden-fm" tvg-name="baden.fm" group-title="regional",baden.fm (1)
+https://edge17.streamonkey.net/badenfm-onair/stream/mp3?aggregator=hofmeir
 #EXTINF:-1 tvg-id="radio-antenne-bayern" tvg-name="Antenne Bayern" group-title="regional",Antenne Bayern (1)
 https://mp3channels.webradio.antenne.de/antenne
 #EXTINF:-1 tvg-id="radio-antenne-bayern" tvg-name="Antenne Bayern" group-title="regional",Antenne Bayern (2)
@@ -462,6 +480,8 @@ https://live.stream.radioarabella.de/radioarabella-bayern/stream/mp3?aggregator=
 https://frontend.streamonkey.net/donau3fm-live/stream/mp3
 #EXTINF:-1 tvg-id="radio-campusradio-regensburg-studentenfunk" tvg-name="Campusradio Regensburg (Studentenfunk)" group-title="regional",Campusradio Regensburg (Studentenfunk) (1)
 https://studentenfunk.out.airtime.pro/studentenfunk_a#
+#EXTINF:-1 tvg-id="radio-bayernwelle-suedost" tvg-name="Bayernwelle SüdOst" group-title="regional",Bayernwelle SüdOst (1)
+https://bayernwelle-live.cast.addradio.de/bayernwelle/live/mp3/high?ar-distributor=f0b7
 #EXTINF:-1 tvg-id="radio-104-6-rtl" tvg-name="104.6 RTL" group-title="regional",104.6 RTL (1)
 https://stream.104.6rtl.com/rtl-live/mp3-192/radio-browser.info/
 #EXTINF:-1 tvg-id="radio-104-6-rtl" tvg-name="104.6 RTL" group-title="regional",104.6 RTL (2)

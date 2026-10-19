@@ -14,6 +14,7 @@
  *        almanya/sources/onay-2026-10-16.csv (yedekler, Kanal Avrupa, ffn, ölü int linkler)
  *        almanya/sources/onay-2026-10-18.csv (18 Ekim onayı)
  *        almanya/sources/catalog-retest-2026-10-18.json (ölü, statik, şüpheli yeniden test)
+ *        almanya/sources/onay-2026-10-19.csv (19 Ekim onayı; Sonnenklar TV hariç)
  * Ölü (failed) ve denenmemiş (untested) linkler yayınlanmaz.
  * geo-blocked (403) ve "sadece Almanya" linkler kalır; geo_de_only ile işaretlenir.
  * Katalogda olan URL yeniden eklenmez. Yeni link uydurulmaz.
@@ -23,6 +24,7 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import { applyOctober18, orderCatalog, FINAL_CATEGORY_ORDER } from "./apply-2026-10-18.mjs";
+import { applyOctober19 } from "./apply-2026-10-19.mjs";
 
 const DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SOURCES = path.join(DIR, "sources");
@@ -709,6 +711,16 @@ function assertGrouped(channels) {
   }
 }
 
+function streamFormat(url) {
+  const path = url.split("?")[0].split("#")[0].toLowerCase();
+  if (path.endsWith(".mpd")) return "dash";
+  if (path.endsWith(".m3u8")) return "hls";
+  if (path.endsWith(".mp3")) return "mp3";
+  if (path.endsWith(".aac")) return "aac";
+  if (path.endsWith(".opus")) return "opus";
+  return "audio";
+}
+
 function publicChannel(channel) {
   return {
     id: channel.id,
@@ -719,6 +731,7 @@ function publicChannel(channel) {
     streams: channel.streams.map((stream) => ({
       url: stream.url,
       geo_de_only: stream.geo_de_only,
+      format: streamFormat(stream.url),
     })),
   };
 }
@@ -786,6 +799,7 @@ function loadCatalog() {
   applyRenames(channels);
   const onay16 = applyOnay20261016(channels);
   const onay18 = applyOctober18(channels);
+  const onay19 = applyOctober19(channels);
   const grouped = orderCatalog(channels);
   const previous = readJsonIfExists(path.join(DIR, "channels.json"));
   assignIds(grouped, previous?.channels);
@@ -804,6 +818,7 @@ function loadCatalog() {
     approval,
     onay16,
     onay18,
+    onay19,
   };
 }
 
@@ -923,6 +938,12 @@ function main() {
   if (onay18.removedChannelNames?.length) {
     console.log(`[almanya] akışı kalmayan kanallar: ${onay18.removedChannelNames.join(", ")}`);
   }
+  const onay19 = catalog.onay19 || {};
+  console.log(
+    `[almanya] onay-2026-10-19: +${onay19.addedChannels || 0} kanal, ` +
+      `+${onay19.addedLinks || 0} link, Sonnenklar atlandı ${onay19.skippedSonnenklar || 0}` +
+      (onay19.addedChannelNames?.length ? ` (${onay19.addedChannelNames.join(", ")})` : ""),
+  );
   console.log(`[almanya] sha256=${hash}`);
   if (catalog.dropped.length) {
     console.log(`[almanya] canlı linki kalmadığı için çıkarılanlar: ${catalog.dropped.join(", ")}`);
