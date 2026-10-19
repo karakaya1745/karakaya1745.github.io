@@ -1,5 +1,5 @@
 {
-  "_revision": 197,
+  "_revision": 198,
   "duyuru": [
     "https://karakaya1745.github.io/guncelleme_duyuru.m3u8"
   ],
@@ -3320,5 +3320,12 @@
   "kanalb": [
     "https://tv.kanalb.tr/hls/kanalb/index.m3u8",
     "https://tv.kanalb.tr/hls/kanalb/index.m3u8?hash=1e7f7c25715b4f6cc40301f29e8b501d"
+  ],
+  "kibrisgenctv": [
+    "https://edge.kuzeykibrissmart.tv/kibrisgenctv/bant1/playlist.m3u8"
+  ],
+  "kibristv": [
+    "https://edge.kuzeykibrissmart.tv/kibristv/bant1/playlist.m3u8",
+    "https://edge.kuzeykibrissmart.tv/kibristv/bant1/chunks.m3u8"
   ]
 }
