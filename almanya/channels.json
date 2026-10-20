@@ -1,6 +1,6 @@
 {
-  "_revision": 5,
-  "updatedAt": "2026-10-19T06:08:30.717Z",
+  "_revision": 6,
+  "updatedAt": "2026-10-20T12:54:26.687Z",
   "app": "ZapIt TV",
   "channels": [
     {
@@ -59,6 +59,11 @@
           "url": "https://derste247livede.akamaized.net/hls/live/658317/daserste_de/master.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://derste247liveint.akamaized.net/hls/live/662735/daserste_int/master720p3200.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -108,6 +113,11 @@
           "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/low/master.m3u8",
           "geo_de_only": true,
           "format": "hls"
+        },
+        {
+          "url": "https://zdf-hls-01.akamaized.net/hls/live/2016498/de/de/master.m3u8",
+          "geo_de_only": true,
+          "format": "hls"
         }
       ]
     },
@@ -137,6 +147,11 @@
           "url": "https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/low/master.m3u8",
           "geo_de_only": true,
           "format": "hls"
+        },
+        {
+          "url": "https://zdf-hls-15.akamaized.net/hls/live/2016527/3sat/master.m3u8",
+          "geo_de_only": true,
+          "format": "hls"
         }
       ]
     },
@@ -164,6 +179,11 @@
         },
         {
           "url": "https://arteliveext.akamaized.net/hls/live/2030993/artelive_de/index.m3u8",
+          "geo_de_only": true,
+          "format": "hls"
+        },
+        {
+          "url": "https://arteliveext.akamaized.net/hls/live/2030993/artelive_de/master_v720.m3u8",
           "geo_de_only": true,
           "format": "hls"
         }
@@ -259,6 +279,11 @@
           "url": "https://tagesschau.akamaized.net/hls/live/2020117/tagesschau/tagesschau_3/master.m3u8",
           "geo_de_only": true,
           "format": "hls"
+        },
+        {
+          "url": "https://tagesschau.akamaized.net/hls/live/2020117/tagesschau/tagesschau_3/master-720p-3328.m3u8",
+          "geo_de_only": true,
+          "format": "hls"
         }
       ]
     },
@@ -316,6 +341,21 @@
         },
         {
           "url": "https://kikageohls.akamaized.net/hls/live/2022693-b/livetvkika_de/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master-540p-1600.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master-360p-1328.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master-720p-3628.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -464,6 +504,11 @@
           "url": "https://mcdn.br.de/br/fs/ard_alpha/hls/int/master.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://mcdn.br.de/br/fs/ard_alpha/hls/de/master_960p_1600.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -526,6 +571,11 @@
         {
           "url": "https://mcdn.br.de/br/fs/bfs_sued/hls/int/master.m3u8",
           "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://mcdn.br.de/bfs_sued/de/master.m3u8",
+          "geo_de_only": true,
           "format": "hls"
         }
       ]
@@ -833,6 +883,11 @@
           "url": "https://rbb-live.ard-mcdn.de/rbb/berlin/hls/de/master.m3u8",
           "geo_de_only": true,
           "format": "hls"
+        },
+        {
+          "url": "https://rbb-hls-berlin.akamaized.net/hls/live/2017824/rbb_berlin/master-360p-1328.m3u8",
+          "geo_de_only": true,
+          "format": "hls"
         }
       ]
     },
@@ -876,6 +931,11 @@
           "url": "https://rbdashlive.akamaized.net/dash/live/2020436/rbfs/dash.mpd",
           "geo_de_only": true,
           "format": "dash"
+        },
+        {
+          "url": "https://rbhlslive.akamaized.net/hls/live/2020435/rbfs/master-720p-3200.m3u8",
+          "geo_de_only": true,
+          "format": "hls"
         }
       ]
     },
@@ -1030,6 +1090,11 @@
         },
         {
           "url": "https://wdrfsww247.akamaized.net/hls/live/2009628/wdr_msl4_fs247ww/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://wdrfsww247.akamaized.net/hls/live/2009628/wdr_msl4_fs247ww/master_1728.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -1319,6 +1384,16 @@
           "url": "https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/index.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/stream02/streamPlaylist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/stream05/streamPlaylist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -1338,6 +1413,11 @@
           "url": "https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/stream04/streamPlaylist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -1350,6 +1430,16 @@
       "streams": [
         {
           "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream04/streamPlaylist.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -1404,6 +1494,11 @@
           "url": "https://broadcast.welt.personalstream.tv/ses/hls/live/2040228/welttv-broadcast/index.m3u8",
           "geo_de_only": true,
           "format": "hls"
+        },
+        {
+          "url": "https://welt.personalstream.tv/v1/master.m3u8?ads.country=de&ads.pf=welttv",
+          "geo_de_only": true,
+          "format": "hls"
         }
       ]
     },
@@ -1426,6 +1521,11 @@
         },
         {
           "url": "https://bibeltv02.iptv-playoutcenter.de/bibeltv01/bibeltv01.stream_1/playlist.m3u8",
+          "geo_de_only": true,
+          "format": "hls"
+        },
+        {
+          "url": "https://bibeltv01.iptv-playoutcenter.de/bibeltv01/bibeltv01.stream_1/playlist.m3u8",
           "geo_de_only": true,
           "format": "hls"
         }
@@ -1505,6 +1605,11 @@
           "url": "https://streamcdnf34-a19bf41486254a3485a864c8b0c14fe1.msvdn.net/live/S28743697/LpD0q2aoyujI/playlist.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://streamcdnm1-a19bf41486254a3485a864c8b0c14fe1.msvdn.net/live/S28743697/LpD0q2aoyujI/chunklist_b3392000.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -1570,6 +1675,11 @@
       "streams": [
         {
           "url": "https://bild-und-ton.stream/die-neue-zeit-tv-live/smil:dnz-de.smil/playlist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://bild-und-ton.stream/die-neue-zeit-tv-live/smil:dnz-de.smil/manifest.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -1710,6 +1820,11 @@
           "url": "https://live20.bozztv.com/akamaissh101/ssh101/melodietvlive/playlist.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://183.bozztv.com/ssh101/ssh101/melodietvlive/playlist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -1789,6 +1904,48 @@
         {
           "url": "https://muc.iptv-playoutcenter.de/volksmusik/volksmusik.stream_1/playlist.m3u8",
           "geo_de_only": true,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "tv-folx-music-television",
+      "name": "Folx Music Television",
+      "type": "tv",
+      "category": "music",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://folxapp.b-cdn.net/1080p/index.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "tv-one-music-television",
+      "name": "One Music Television",
+      "type": "tv",
+      "category": "music",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://oneapp.b-cdn.net/1080p/index.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "tv-zwei-music-television",
+      "name": "Zwei Music Television",
+      "type": "tv",
+      "category": "music",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://zweiapp.b-cdn.net/1080p/index.m3u8",
+          "geo_de_only": false,
           "format": "hls"
         }
       ]
@@ -1874,6 +2031,11 @@
         },
         {
           "url": "https://hse24.akamaized.net/hls/live/2006663/hse24/master_900p25.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://hse24.akamaized.net/hls/live/2006663/hse24/master_576p25.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -2020,6 +2182,34 @@
       ]
     },
     {
+      "id": "tv-kaufbei-tv",
+      "name": "KaufBei TV",
+      "type": "tv",
+      "category": "shopping",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://elephant.t62a.com/hls/8103/index.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "tv-meietv",
+      "name": "MeieTV",
+      "type": "tv",
+      "category": "shopping",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://stream.meietv.de/live/meietv.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
       "id": "tv-n24-doku",
       "name": "N24 Doku",
       "type": "tv",
@@ -2047,6 +2237,11 @@
       "streams": [
         {
           "url": "https://wdw.iptv-playoutcenter.de/wdw/wdw1/playlist.m3u8",
+          "geo_de_only": true,
+          "format": "hls"
+        },
+        {
+          "url": "https://wdw.iptv-playoutcenter.de/wdw/wdw1/chunks.m3u8",
           "geo_de_only": true,
           "format": "hls"
         }
@@ -2214,6 +2409,11 @@
           "url": "https://lilo.iptv-playoutcenter.de/lilo/lilo1/playlist.m3u8",
           "geo_de_only": true,
           "format": "hls"
+        },
+        {
+          "url": "https://muc2.iptv-playoutcenter.de/volksmusik/volksmusik-sat1/playlist.m3u8",
+          "geo_de_only": true,
+          "format": "hls"
         }
       ]
     },
@@ -2232,6 +2432,34 @@
         {
           "url": "https://rictv.iptv-playoutcenter.de/rictv/rictv-web/chunks.m3u8",
           "geo_de_only": true,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "tv-finest-tv",
+      "name": "Finest TV",
+      "type": "tv",
+      "category": "other",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://media.finest.tv/hls/live.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "tv-qs24-tv",
+      "name": "QS24.TV",
+      "type": "tv",
+      "category": "other",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/126101/126101_264_live.m3u8",
+          "geo_de_only": false,
           "format": "hls"
         }
       ]
@@ -2287,6 +2515,20 @@
       "streams": [
         {
           "url": "https://h055.video-stream-hosting.de/filstalwelle-live/_definst_/mp4:livestream/playlist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "tv-metropol-region-tv-rhein-neckar",
+      "name": "Metropol Region TV Rhein-Neckar",
+      "type": "tv",
+      "category": "yerel",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://h057.video-stream-hosting.de/metropolregiontv-live/_definst_/mp4:livestream/playlist.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -2444,6 +2686,11 @@
           "format": "hls"
         },
         {
+          "url": "https://stream03.welocal.stream/stream/fhd-nbydeggendorf_99148/ngrp:stream_all/chunklist_b946000.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
           "url": "https://donautv.iptv-playoutcenter.de/donautv/donautv.stream_1/playlist.m3u8",
           "geo_de_only": true,
           "format": "hls"
@@ -2459,6 +2706,11 @@
       "streams": [
         {
           "url": "https://stream03.welocal.stream/stream/fhd-nbylandshut_75262/ngrp:stream_all/index.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://stream03.welocal.stream/stream/fhd-nbylandshut_75262/ngrp:stream_all/chunklist_b946000.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
@@ -2562,6 +2814,11 @@
           "url": "https://stream01.welocal.stream/stream/fhd-rfo_66876/ngrp:stream_all/playlist.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://stream01.welocal.stream/stream/fhd-rfo_66876/ngrp:stream_all/chunklist_b3628000.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -2607,6 +2864,11 @@
           "format": "hls"
         },
         {
+          "url": "https://stream01.welocal.stream/stream/fhd-tvmainfranken_255661/ngrp:stream_all/chunklist_b946000.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
           "url": "https://tvtouringw.iptv-playoutcenter.de/tvtouringw/tvtouringw.stream_1/playlist.m3u8",
           "geo_de_only": true,
           "format": "hls"
@@ -2618,8 +2880,13 @@
       "name": "TV Oberfranken",
       "type": "tv",
       "category": "yerel",
-      "geo_de_only": true,
+      "geo_de_only": false,
       "streams": [
+        {
+          "url": "https://stream02.welocal.stream/stream/fhd-tvo_480355/ngrp:stream_all/playlist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
         {
           "url": "https://tvoberfranken.iptv-playoutcenter.de/tvoberfranken/tvoberfranken.stream_1/playlist.m3u8",
           "geo_de_only": true,
@@ -2652,6 +2919,11 @@
           "url": "https://alex-stream.rosebud-media.de/bounce/alexlivetv50.smil/index.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://alex-stream.rosebud-media.de/bounce/alexlivetv50.smil/manifest.mpd",
+          "geo_de_only": false,
+          "format": "dash"
         }
       ]
     },
@@ -2864,6 +3136,21 @@
           "url": "https://fms.nrwision.de/live/livestreamHD.stream_360p/playlist.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://fms.nrwision.de/live/livestreamHD.stream_360p/chunklist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://fms.nrwision.de/live/livestreamHD.stream_1080p/chunklist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://fms.nrwision.de/live/livestreamHD.stream_source/chunklist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3045,6 +3332,20 @@
       "streams": [
         {
           "url": "https://h056.video-stream-hosting.de/easycast10-live/_definst_/mp4:livestreamhd82/playlist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "tv-oberlausitz-tv",
+      "name": "Oberlausitz TV",
+      "type": "tv",
+      "category": "yerel",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd4/playlist.m3u8?ref=",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -3309,6 +3610,11 @@
           "url": "https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:RFH_high/playlist.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:RFH_high/index.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3321,6 +3627,11 @@
       "streams": [
         {
           "url": "https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:ok-wettin_high/playlist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://wtvlive.b-cdn.net/playlist.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -3368,6 +3679,11 @@
       "streams": [
         {
           "url": "https://live-cdn.oksh.de/play/hls/kieltv/index.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://live.oksh.de/play/hls/kieltv/index.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -3441,6 +3757,21 @@
           "url": "https://dispatcher.rndfnk.com/br/br1/schwaben/mp3/mid",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://br-radio.ard-mcdn.de/br/radio/b1obb/hls/96/seglist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://br-radio.ard-mcdn.de/br/radio/b1obb/hls/192/seglist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://br-radio.ard-mcdn.de/br/radio/b1obb/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3455,6 +3786,53 @@
           "url": "https://dispatcher.rndfnk.com/br/br1/mainfranken/mp3/mid",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://br-radio.ard-mcdn.de/br/radio/b1main/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-bayern-1-franken",
+      "name": "Bayern 1 - Franken",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://br-radio.ard-mcdn.de/br/radio/b1franken/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-bayern-1-niederbayern-oberpfalz",
+      "name": "Bayern 1 - Niederbayern/Oberpfalz",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://br-radio.ard-mcdn.de/br/radio/b1nbopf/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-bayern-1-schwaben",
+      "name": "Bayern 1 - Schwaben",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://br-radio.ard-mcdn.de/br/radio/b1schw/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3477,6 +3855,11 @@
         },
         {
           "url": "https://br-radio.ard-mcdn.de/br/radio/b2/hls/96/seglist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://br-radio.ard-mcdn.de/br/radio/b2/hls/master.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -3503,6 +3886,11 @@
           "url": "https://br-radio.ard-mcdn.de/br/radio/b3/hls/96/seglist.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://br-radio.ard-mcdn.de/br/radio/b3/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3527,6 +3915,16 @@
           "url": "https://br-radio.ard-mcdn.de/br/radio/br24/hls/192/seglist.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://dispatcher.rndfnk.com/br/br24/live/mp3/low",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://br-radio.ard-mcdn.de/br/radio/br24/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3541,6 +3939,16 @@
           "url": "https://dispatcher.rndfnk.com/br/brheimat/live/mp3/mid",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://dispatcher.rndfnk.com/br/brheimat/live/mp3/low",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://br-radio.ard-mcdn.de/br/radio/brheimat/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3553,6 +3961,26 @@
       "streams": [
         {
           "url": "https://dispatcher.rndfnk.com/br/brklassik/live/mp3/high",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://br-radio.ard-mcdn.de/br/radio/brklassik/hls/96/seglist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://br-radio.ard-mcdn.de/br/radio/brklassik/hls/192/seglist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://br-radio.ard-mcdn.de/br/radio/brklassik/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://dispatcher.rndfnk.com/br/brklassik/live/mp3/mid?aggregator=ard-at",
           "geo_de_only": false,
           "format": "audio"
         }
@@ -3569,6 +3997,11 @@
           "url": "https://dispatcher.rndfnk.com/br/brschlager/live/mp3/mid",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://br-radio.ard-mcdn.de/br/radio/brschlager/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3598,6 +4031,11 @@
           "url": "https://icecast.radiobremen.de/rb/webchannel5/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://rb-radio.ard-mcdn.de/rb/radio/bremeneins/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3622,6 +4060,16 @@
           "url": "https://icecast.radiobremen.de/rb/webchannel7/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://icecast.radiobremen.de/rb/webchannel4/mp3/128/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://rb-radio.ard-mcdn.de/rb/radio/bremenzwei/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3646,6 +4094,11 @@
           "url": "https://icecast.radiobremen.de/rb/webchannel3/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://rb-radio.ard-mcdn.de/rb/radio/bremenvier/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3665,6 +4118,11 @@
           "url": "https://dispatcher.rndfnk.com/rb/bremennext/live/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://rb-radio.ard-mcdn.de/rb/radio/bremennext/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3676,7 +4134,27 @@
       "geo_de_only": false,
       "streams": [
         {
+          "url": "https://hr-radio.ard-mcdn.de/hr/radio/hr1rm/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
           "url": "https://dispatcher.rndfnk.com/hr/hr1/live/mp3/high",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://dispatcher.rndfnk.com/hr/hr1/live/mp3/128/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://dispatcher.rndfnk.com/hr/hr1/live/mp3/low",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://dispatcher.rndfnk.com/hr/hr1/rheinmain/high",
           "geo_de_only": false,
           "format": "audio"
         },
@@ -3684,11 +4162,82 @@
           "url": "https://hlshr1.akamaized.net/hls/live/2016533/hr1/master.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-hr1-mittelhessen",
+      "name": "hr1 - Mittelhessen",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/hr/hr1/mittelhessen/high",
+          "geo_de_only": false,
+          "format": "audio"
         },
         {
-          "url": "https://dispatcher.rndfnk.com/hr/hr1/live/mp3/128/stream.mp3",
+          "url": "https://hr-radio.ard-mcdn.de/hr/radio/hr1mh/hls/master.m3u8",
           "geo_de_only": false,
-          "format": "mp3"
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-hr1-nordhessen",
+      "name": "hr1 - Nordhessen",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/hr/hr1/nordhessen/high",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://hr-radio.ard-mcdn.de/hr/radio/hr1nh/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-hr1-osthessen",
+      "name": "hr1 - Osthessen",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/hr/hr1/osthessen/high",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://hr-radio.ard-mcdn.de/hr/radio/hr1oh/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-hr1-suedhessen",
+      "name": "hr1 - Südhessen",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/hr/hr1/suedhessen/high",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://hr-radio.ard-mcdn.de/hr/radio/hr1sh/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3713,6 +4262,16 @@
           "url": "https://dispatcher.rndfnk.com/hr/hr2/live/medium",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://dispatcher.rndfnk.com/hr/hr2/live/mp3/128/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://hr-radio.ard-mcdn.de/hr/radio/hr2/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3742,6 +4301,87 @@
           "url": "https://dispatcher.rndfnk.com/hr/hr3/live/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://dispatcher.rndfnk.com/hr/hr3/rheinmain/high",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://hr-radio.ard-mcdn.de/hr/radio/hr3rm/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-hr3-mittelhessen",
+      "name": "hr3 - Mittelhessen",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/hr/hr3/mittelhessen/high",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://hr-radio.ard-mcdn.de/hr/radio/hr3mh/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-hr3-nordhessen",
+      "name": "hr3 - Nordhessen",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://hr-radio.ard-mcdn.de/hr/radio/hr3nh/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-hr3-osthessen",
+      "name": "hr3 - Osthessen",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/hr/hr3/osthessen/high",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://hr-radio.ard-mcdn.de/hr/radio/hr3oh/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-hr3-suedhessen",
+      "name": "hr3 - Südhessen",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/hr/hr3/suedhessen/high",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://hr-radio.ard-mcdn.de/hr/radio/hr3sh/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3771,6 +4411,82 @@
           "url": "https://dispatcher.rndfnk.com/hr/hr4/suedhessen/high",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://dispatcher.rndfnk.com/hr/hr4/rheinmain/high",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://hr-radio.ard-mcdn.de/hr/radio/hr4rm/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-hr4-mittelhessen",
+      "name": "hr4 - Mittelhessen",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://hr-radio.ard-mcdn.de/hr/radio/hr4mh/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-hr4-nordhessen",
+      "name": "hr4 - Nordhessen",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/hr/hr4/nordhessen/high",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://hr-radio.ard-mcdn.de/hr/radio/hr4nh/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-hr4-osthessen",
+      "name": "hr4 - Osthessen",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/hr/hr4/osthessen/high",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://hr-radio.ard-mcdn.de/hr/radio/hr4oh/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-hr4-suedhessen",
+      "name": "hr4 - Südhessen",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://hr-radio.ard-mcdn.de/hr/radio/hr4sh/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3800,6 +4516,11 @@
           "url": "https://hlshrinfo.akamaized.net/hls/live/2016539/hrinfo/master.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://hr-radio.ard-mcdn.de/hr/radio/hrinfo/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3819,6 +4540,11 @@
           "url": "https://dispatcher.rndfnk.com/hr/youfm/live/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://hlsyoufm.akamaized.net/hls/live/2016538/youfm/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3853,6 +4579,16 @@
           "url": "https://liveradio.swr.de/sw282p3/dasding/play.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://dispatcher.rndfnk.com/hr/dasding/mp3/128/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://hr-radio.ard-mcdn.de/hr/radio/dasding/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3867,6 +4603,68 @@
           "url": "https://mdr-284280-0.sslcast.mdr.de/mdr/284280/0/mp3/high/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsachsendd/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-mdr-sachsen-bautzen",
+      "name": "MDR SACHSEN Bautzen",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://mdr-284280-1.sslcast.mdr.de/mdr/284280/1/mp3/high/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsachsenbz/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-mdr-sachsen-chemnitz",
+      "name": "MDR SACHSEN Chemnitz",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://mdr-284280-2.sslcast.mdr.de/mdr/284280/2/mp3/high/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsachsenc/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-mdr-sachsen-leipzig",
+      "name": "MDR SACHSEN Leipzig",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://mdr-284280-3.sslcast.mdr.de/mdr/284280/3/mp3/high/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsachsenl/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3886,6 +4684,68 @@
           "url": "https://mdr-284290-0.sslcast.mdr.de/mdr/284290/0/mp3/high/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsachsenanhaltmd/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-mdr-sachsen-anhalt-dessau",
+      "name": "MDR SACHSEN-ANHALT Dessau",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://mdr-284290-1.sslcast.mdr.de/mdr/284290/1/mp3/high/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsachsenanhaltde/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-mdr-sachsen-anhalt-halle",
+      "name": "MDR SACHSEN-ANHALT Halle",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://mdr-284290-2.sslcast.mdr.de/mdr/284290/2/mp3/high/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsachsenanhalthal/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-mdr-sachsen-anhalt-stendal",
+      "name": "MDR SACHSEN-ANHALT Stendal",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://mdr-284290-3.sslcast.mdr.de/mdr/284290/3/mp3/high/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsachsenanhaltsdl/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3945,6 +4805,68 @@
           "url": "https://radio-hls.mdr.de/hls/live/2112902/mdr-284300-3-hls/index.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://mdr-radio.ard-mcdn.de/mdr/radio/mdrthueringenmwth/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-mdr-thueringen-nordthueringen",
+      "name": "MDR THÜRINGEN Nordthüringen",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://mdr-284300-2.sslcast.mdr.de/mdr/284300/2/mp3/high/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://mdr-radio.ard-mcdn.de/mdr/radio/mdrthueringennth/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-mdr-thueringen-ostthueringen",
+      "name": "MDR THÜRINGEN Ostthüringen",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://mdr-284300-1.sslcast.mdr.de/mdr/284300/1/mp3/high/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://mdr-radio.ard-mcdn.de/mdr/radio/mdrthueringenoth/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-mdr-thueringen-suedthueringen",
+      "name": "MDR THÜRINGEN Südthüringen",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://mdr-284300-3.sslcast.mdr.de/mdr/284300/3/mp3/high/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://mdr-radio.ard-mcdn.de/mdr/radio/mdrthueringensth/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3959,6 +4881,16 @@
           "url": "https://mdr-284340-0.sslcast.mdr.de/mdr/284340/0/mp3/high/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://radio-hls.mdr.de/hls/live/2112901/mdr-284340-0-hls/index.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://mdr-radio.ard-mcdn.de/mdr/radio/mdraktuell/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3978,6 +4910,16 @@
           "url": "https://mdr-284320-0.sslcast.mdr.de/mdr/284320/0/mp3/high/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://radio-hls.mdr.de/hls/live/2112904/mdr-284320-0-hls/index.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://mdr-radio.ard-mcdn.de/mdr/radio/mdrjump/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4011,6 +4953,16 @@
           "url": "https://mdr-284310-0.sslcast.mdr.de/mdr/284310/0/mp3/high/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://radio-hls.mdr.de/hls/live/2112903/mdr-284310-0-hls/index.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://mdr-radio.ard-mcdn.de/mdr/radio/mdrkultur/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4025,6 +4977,54 @@
           "url": "https://mdr-284330-0.sslcast.mdr.de/mdr/284330/0/mp3/high/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://radio-hls.mdr.de/hls/live/2112905/mdr-284330-0-hls/index.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsputnik/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-mdr-schlagerwelt",
+      "name": "MDR Schlagerwelt",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://mdr-990801-0.sslcast.mdr.de/mdr/990801/0/mp3/high/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://mdr-radio.ard-mcdn.de/mdr/radio/mdrschlagerweltsn/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-mdr-tweens",
+      "name": "MDR Tweens",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://mdr-991101-0.sslcast.mdr.de/mdr/991101/0/mp3/high/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://mdr-radio.ard-mcdn.de/mdr/radio/mdrtweens/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4054,6 +5054,77 @@
           "url": "https://icecast.ndr.de/ndr/ndr1niedersachsen/hannover/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1ndsh/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-ndr-1-niedersachsen-braunschweig",
+      "name": "NDR 1 Niedersachsen (Braunschweig)",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://icecast.ndr.de/ndr/ndr1niedersachsen/braunschweig/mp3/128/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1ndsbs/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-ndr-1-niedersachsen-lueneburg",
+      "name": "NDR 1 Niedersachsen (Lüneburg)",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://icecast.ndr.de/ndr/ndr1niedersachsen/lueneburg/mp3/128/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1ndslg/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-ndr-1-niedersachsen-oldenburg",
+      "name": "NDR 1 Niedersachsen (Oldenburg)",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1ndsol/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-ndr-1-niedersachsen-osnabrueck",
+      "name": "NDR 1 Niedersachsen (Osnabrück)",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1ndsos/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4083,6 +5154,58 @@
           "url": "https://icecast.ndr.de/ndr/ndr1radiomv/rostock/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1mvsn/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-ndr-1-radio-mv-greifswald",
+      "name": "NDR 1 Radio MV (Greifswald)",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1mvhgw/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-ndr-1-radio-mv-neubrandenburg",
+      "name": "NDR 1 Radio MV (Neubrandenburg)",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://icecast.ndr.de/ndr/ndr1radiomv/neubrandenburg/mp3/128/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1mvnb/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-ndr-1-radio-mv-rostock",
+      "name": "NDR 1 Radio MV (Rostock)",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1mvhro/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4107,6 +5230,82 @@
           "url": "https://icecast.ndr.de/ndr/ndr1wellenord/luebeck/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1wnki/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-ndr-1-welle-nord-flensburg",
+      "name": "NDR 1 Welle Nord (Flensburg)",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://icecast.ndr.de/ndr/ndr1wellenord/flensburg/mp3/128/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1wnfl/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-ndr-1-welle-nord-heide",
+      "name": "NDR 1 Welle Nord (Heide)",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://icecast.ndr.de/ndr/ndr1wellenord/heide/mp3/128/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1wnhei/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-ndr-1-welle-nord-luebeck",
+      "name": "NDR 1 Welle Nord (Lübeck)",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1wnhl/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-ndr-1-welle-nord-norderstedt",
+      "name": "NDR 1 Welle Nord (Norderstedt)",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://icecast.ndr.de/ndr/ndr1wellenord/norderstedt/mp3/128/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1wnno/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4126,6 +5325,11 @@
           "url": "https://dispatcher.rndfnk.com/ndr/ndr903/hamburg/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndr903/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4150,6 +5354,63 @@
           "url": "https://icecast.ndr.de/ndr/ndr2/hamburg/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndr2nds/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-ndr-2-hamburg",
+      "name": "NDR 2 (Hamburg)",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndr2hh/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-ndr-2-mecklenburg-vorpommern",
+      "name": "NDR 2 (Mecklenburg-Vorpommern)",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://icecast.ndr.de/ndr/ndr2/mecklenburgvorpommern/mp3/128/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndr2mv/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-ndr-2-schleswig-holstein",
+      "name": "NDR 2 (Schleswig-Holstein)",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://icecast.ndr.de/ndr/ndr2/schleswigholstein/mp3/128/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndr2sh/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4169,6 +5430,11 @@
           "url": "https://dispatcher.rndfnk.com/ndr/njoy/live/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/njoy/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4193,6 +5459,16 @@
           "url": "https://icecast.ndr.de/ndr/ndrkultur/live/aac/192/stream.aac",
           "geo_de_only": false,
           "format": "aac"
+        },
+        {
+          "url": "https://icecast.ndr.de/ndr/ndrkultur/live/mp3/256/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndrkultur/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4217,6 +5493,16 @@
           "url": "https://icecast.ndr.de/ndr/ndrinfo/live/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://icecast.ndr.de/ndr/ndrinfo/niedersachsen/mp3/128/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndrinfo/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4236,6 +5522,11 @@
           "url": "https://dispatcher.rndfnk.com/ndr/ndrinfospezial/live/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndrinfospezial/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4260,6 +5551,11 @@
           "url": "https://dispatcher.rndfnk.com/ndr/ndrblue/live/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndrblue/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4279,6 +5575,11 @@
           "url": "https://dispatcher.rndfnk.com/ndr/ndrschlager/live/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndrschlager/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4312,6 +5613,87 @@
           "url": "https://dispatcher.rndfnk.com/rbb/antennebrandenburg/live/mp3/mid",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://antbrb.akamaized.net/hls/live/2016998/rbb_antbrb/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-antenne-brandenburg-cottbus",
+      "name": "Antenne Brandenburg Cottbus",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/rbb/antennebrandenburg/cottbus/mp3/mid",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://antbrb-cottbus.akamaized.net/hls/live/2016999/rbb_antbrb-cottbus/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-antenne-brandenburg-frankfurt-oder",
+      "name": "Antenne Brandenburg Frankfurt (Oder)",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/rbb/antennebrandenburg/frankfurt/mp3/mid",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://antbrb-frankfurt.akamaized.net/hls/live/2017000/rbb_antbrb-frankfurt/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-antenne-brandenburg-perleberg",
+      "name": "Antenne Brandenburg Perleberg",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/rbb/antennebrandenburg/perleberg/mp3/mid",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://antbrb-perleberg.akamaized.net/hls/live/2017001/rbb_antbrb-perleberg/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-antenne-brandenburg-prenzlau",
+      "name": "Antenne Brandenburg Prenzlau",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/rbb/antennebrandenburg/prenzlau/mp3/mid",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://antbrb-prenzlau.akamaized.net/hls/live/2017002/rbb_antbrb-prenzlau/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4341,6 +5723,54 @@
           "url": "https://d111.rndfnk.com/ard/rbb/radioeins/live/mp3/128/stream.mp3?cid=01FC1WH12KJ93TCQPDSE2E5PZ9&sid=3KZM1us1m4bs9rO70ElKbQq3Lti&token=9Y-9WfXBgAHbAOMSKK-aISO44ipsToyDoaEmBgpYu44&tvf=rLiu-0Gw3RhkMTExLnJuZGZuay5jb20",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://dispatcher.rndfnk.com/rbb/radioeins/live/mp3/mid",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://radioeins.akamaized.net/hls/live/2016930/rbb_radioeins/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-radioeins-cottbus",
+      "name": "Radioeins Cottbus",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/rbb/radioeins/cottbus/mp3/mid",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://radioeins-cottbus.akamaized.net/hls/live/2016995/rbb_radioeins-cottbus/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-radioeins-frankfurt-oder",
+      "name": "Radioeins Frankfurt (Oder)",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/rbb/radioeins/frankfurt/mp3/mid",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://radioeins-frankfurt.akamaized.net/hls/live/2016996/rbb_radioeins-frankfurt/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4355,6 +5785,11 @@
           "url": "https://dispatcher.rndfnk.com/rbb/fritz/live/mp3/mid",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://fritz.akamaized.net/hls/live/2016997/rbb_fritz/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4369,6 +5804,16 @@
           "url": "https://dispatcher.rndfnk.com/rbb/rbbkultur/live/mp3/high",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://dispatcher.rndfnk.com/rbb/rbbkultur/live/mp3/mid",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://rbbkultur.akamaized.net/hls/live/2017006/rbb_rbbkultur/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4398,6 +5843,11 @@
           "url": "https://dispatcher.rndfnk.com/rbb/inforadio/live/mp3/low",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://inforadio.akamaized.net/hls/live/2017004/rbb_inforadio/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4417,6 +5867,16 @@
           "url": "https://sr.audiostream.io/sr/1009/mp3/56/sr1",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://sr.audiostream.io/sr/1009/mp3/128/sr1.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://sr-radio.ard-mcdn.de/sr/radio/sr1/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4434,6 +5894,21 @@
         },
         {
           "url": "https://liveradio.sr.de/sr/sr3/mp3/256/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://sr.audiostream.io/sr/1011/mp3/128/sr3.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://sr-radio.ard-mcdn.de/sr/radio/sr3/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://liveradio.sr.de/sr/sr3/mp3/128/stream.mp3?aggregator=ard-at",
           "geo_de_only": false,
           "format": "mp3"
         }
@@ -4455,6 +5930,49 @@
           "url": "https://liveradio.sr.de/sr/sr2/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://sr-radio.ard-mcdn.de/sr/radio/srkultur/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-antennesaar-sr",
+      "name": "AntenneSaar (SR)",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://sr-radio.ard-mcdn.de/sr/radio/as/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://liveradio.sr.de/sr/as/mp3/128/stream.mp3?aggregator=ard-at",
+          "geo_de_only": false,
+          "format": "mp3"
+        }
+      ]
+    },
+    {
+      "id": "radio-dasding-vom-sr",
+      "name": "DASDING vom SR",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://sr-radio.ard-mcdn.de/sr/radio/dasding/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://liveradio.sr.de/sr/ud/mp3/128/stream.mp3?aggregator=ard-at",
+          "geo_de_only": false,
+          "format": "mp3"
         }
       ]
     },
@@ -4474,6 +5992,16 @@
           "url": "https://dispatcher.rndfnk.com/swr/swr1/bw/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw73hl2/swr1bw/play.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw331ch/swr1bw/play.aac",
+          "geo_de_only": false,
+          "format": "aac"
         }
       ]
     },
@@ -4493,6 +6021,16 @@
           "url": "https://liveradio.swr.de/sw331ch/swr1rp/",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw73hl2/swr1rp/play.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw331ch/swr1rp/play.aac",
+          "geo_de_only": false,
+          "format": "aac"
         }
       ]
     },
@@ -4522,6 +6060,16 @@
           "url": "https://swrswr3vr-hls.akamaized.net/hls/live/2018683/swr3vr/master.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://dispatcher.rndfnk.com/swr/swr3/live/mp3/128/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw73hl2/swr3/play.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4541,6 +6089,16 @@
           "url": "https://dispatcher.rndfnk.com/swr/swr4/rp/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw73hl2/swr4rp/play.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw331ch/swr4rp/play.aac",
+          "geo_de_only": false,
+          "format": "aac"
         }
       ]
     },
@@ -4560,6 +6118,16 @@
           "url": "https://liveradio.swr.de/sw282p3/swr4st/play.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw73hl2/swr4bw/play.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw331ch/swr4bw/play.aac",
+          "geo_de_only": false,
+          "format": "aac"
         }
       ]
     },
@@ -4589,6 +6157,255 @@
           "url": "https://liveradio.swr.de/sw282p3/swr4fr/",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw282p3/swr4kl/play.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        }
+      ]
+    },
+    {
+      "id": "radio-swr4-freiburg",
+      "name": "SWR4 Freiburg",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://liveradio.swr.de/sw73hl2/swr4fr/play.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw331ch/swr4fr/play.aac",
+          "geo_de_only": false,
+          "format": "aac"
+        }
+      ]
+    },
+    {
+      "id": "radio-swr4-friedrichshafen",
+      "name": "SWR4 Friedrichshafen",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://liveradio.swr.de/sw282p3/swr4fn/play.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw73hl2/swr4fn/play.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw331ch/swr4fn/play.aac",
+          "geo_de_only": false,
+          "format": "aac"
+        }
+      ]
+    },
+    {
+      "id": "radio-swr4-heilbronn",
+      "name": "SWR4 Heilbronn",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://liveradio.swr.de/sw282p3/swr4hn/play.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw73hl2/swr4hn/play.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw331ch/swr4hn/play.aac",
+          "geo_de_only": false,
+          "format": "aac"
+        }
+      ]
+    },
+    {
+      "id": "radio-swr4-kaiserslautern",
+      "name": "SWR4 Kaiserslautern",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://liveradio.swr.de/sw73hl2/swr4kl/play.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw331ch/swr4kl/play.aac",
+          "geo_de_only": false,
+          "format": "aac"
+        }
+      ]
+    },
+    {
+      "id": "radio-swr4-karlsruhe",
+      "name": "SWR4 Karlsruhe",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://liveradio.swr.de/sw282p3/swr4ka/play.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw73hl2/swr4ka/play.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw331ch/swr4ka/play.aac",
+          "geo_de_only": false,
+          "format": "aac"
+        }
+      ]
+    },
+    {
+      "id": "radio-swr4-koblenz",
+      "name": "SWR4 Koblenz",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://liveradio.swr.de/sw73hl2/swr4ko/play.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw331ch/swr4ko/play.aac",
+          "geo_de_only": false,
+          "format": "aac"
+        }
+      ]
+    },
+    {
+      "id": "radio-swr4-ludwigshafen",
+      "name": "SWR4 Ludwigshafen",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://liveradio.swr.de/sw282p3/swr4lu/play.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw73hl2/swr4lu/play.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw331ch/swr4lu/play.aac",
+          "geo_de_only": false,
+          "format": "aac"
+        }
+      ]
+    },
+    {
+      "id": "radio-swr4-mannheim",
+      "name": "SWR4 Mannheim",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://liveradio.swr.de/sw282p3/swr4ma/play.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw73hl2/swr4ma/play.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw331ch/swr4ma/play.aac",
+          "geo_de_only": false,
+          "format": "aac"
+        }
+      ]
+    },
+    {
+      "id": "radio-swr4-trier",
+      "name": "SWR4 Trier",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://liveradio.swr.de/sw282p3/swr4tr/play.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw73hl2/swr4tr/play.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw331ch/swr4tr/play.aac",
+          "geo_de_only": false,
+          "format": "aac"
+        }
+      ]
+    },
+    {
+      "id": "radio-swr4-tuebingen",
+      "name": "SWR4 Tübingen",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://liveradio.swr.de/sw282p3/swr4tu/play.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw73hl2/swr4tu/play.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw331ch/swr4tu/play.aac",
+          "geo_de_only": false,
+          "format": "aac"
+        }
+      ]
+    },
+    {
+      "id": "radio-swr4-ulm",
+      "name": "SWR4 Ulm",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://liveradio.swr.de/sw73hl2/swr4ul/play.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw331ch/swr4ul/play.aac",
+          "geo_de_only": false,
+          "format": "aac"
         }
       ]
     },
@@ -4618,6 +6435,16 @@
           "url": "https://liveradio.swr.de/sw282p3/swraktuell/",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw73hl2/swraktuell/play.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw331ch/swraktuell/play.aac",
+          "geo_de_only": false,
+          "format": "aac"
         }
       ]
     },
@@ -4637,6 +6464,21 @@
           "url": "https://dispatcher.rndfnk.com/swr/dasding/live/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://swrdasdingvr-hls.akamaized.net/hls/live/2018681/dasdingvr/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw73hl2/dasding/play.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw331ch/dasding/play.aac",
+          "geo_de_only": false,
+          "format": "aac"
         }
       ]
     },
@@ -4656,6 +6498,21 @@
           "url": "https://dispatcher.rndfnk.com/swr/swr2/live/mp3/256/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw282p3/swr2/play.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw73hl2/swr2/play.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw331ch/swr2/play.aac",
+          "geo_de_only": false,
+          "format": "aac"
         }
       ]
     },
@@ -4771,6 +6628,144 @@
           "url": "https://wdr-wdr2-rheinruhr.icecastssl.wdr.de/wdr/wdr2/rheinruhr/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://wdr-radio.ard-mcdn.de/wdr/radio/wdr2rr/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-wdr-2-aachen-und-region",
+      "name": "WDR 2 Aachen und Region",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://wdr-radio.ard-mcdn.de/wdr/radio/wdr2ac/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://wdr-wdr2-aachenundregion.icecastssl.wdr.de/wdr/wdr2/aachenundregion/mp3/128/stream.mp3?aggregator=web",
+          "geo_de_only": false,
+          "format": "mp3"
+        }
+      ]
+    },
+    {
+      "id": "radio-wdr-2-bergisches-land",
+      "name": "WDR 2 Bergisches Land",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://wdr-radio.ard-mcdn.de/wdr/radio/wdr2bld/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://wdr-wdr2-bergischesland.icecastssl.wdr.de/wdr/wdr2/bergischesland/mp3/128/stream.mp3?aggregator=web",
+          "geo_de_only": false,
+          "format": "mp3"
+        }
+      ]
+    },
+    {
+      "id": "radio-wdr-2-muensterland",
+      "name": "WDR 2 Münsterland",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://wdr-radio.ard-mcdn.de/wdr/radio/wdr2mld/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://wdr-wdr2-muensterland.icecastssl.wdr.de/wdr/wdr2/muensterland/mp3/128/stream.mp3?aggregator=web",
+          "geo_de_only": false,
+          "format": "mp3"
+        }
+      ]
+    },
+    {
+      "id": "radio-wdr-2-ostwestfalen-lippe",
+      "name": "WDR 2 Ostwestfalen Lippe",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://wdr-radio.ard-mcdn.de/wdr/radio/wdr2owl/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://wdr-wdr2-ostwestfalenlippe.icecastssl.wdr.de/wdr/wdr2/ostwestfalenlippe/mp3/128/stream.mp3?aggregator=web",
+          "geo_de_only": false,
+          "format": "mp3"
+        }
+      ]
+    },
+    {
+      "id": "radio-wdr-2-rheinland",
+      "name": "WDR 2 Rheinland",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://wdr-radio.ard-mcdn.de/wdr/radio/wdr2rhld/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://wdr-wdr2-rheinland.icecastssl.wdr.de/wdr/wdr2/rheinland/mp3/128/stream.mp3?aggregator=web",
+          "geo_de_only": false,
+          "format": "mp3"
+        }
+      ]
+    },
+    {
+      "id": "radio-wdr-2-ruhrgebiet",
+      "name": "WDR 2 Ruhrgebiet",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://wdr-wdr2-ruhrgebiet.icecast.wdr.de/wdr/wdr2/ruhrgebiet/mp3/128/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://wdr-radio.ard-mcdn.de/wdr/radio/wdr2ruhrgb/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-wdr-2-suedwestfalen",
+      "name": "WDR 2 Südwestfalen",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://wdr-radio.ard-mcdn.de/wdr/radio/wdr2swf/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://wdr-wdr2-suedwestfalen.icecastssl.wdr.de/wdr/wdr2/suedwestfalen/mp3/128/stream.mp3?aggregator=web",
+          "geo_de_only": false,
+          "format": "mp3"
         }
       ]
     },
@@ -4800,6 +6795,26 @@
           "url": "https://wdr-wdr3-live.icecast.wdr.de/wdr/wdr3/live/mp3/256/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://wdr-radio.ard-mcdn.de/wdr/radio/wdr3/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://wdr-radio.ard-mcdn.de/wdr/radio/wdr3hd/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://wdr-wdr3-live.icecastssl.wdr.de/wdr/wdr3/live/mp3/128/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://wdr-wdr3-live.icecastssl.wdr.de/wdr/wdr3/live/mp3/256/stream.mp3?aggregator=web",
+          "geo_de_only": false,
+          "format": "mp3"
         }
       ]
     },
@@ -4819,6 +6834,125 @@
           "url": "https://wdr-wdr4-live.icecast.wdr.de/wdr/wdr4/live/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://icecast.wdr.de/wdr/wdr4/rheinruhr/mp3/128/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://wdr-radio.ard-mcdn.de/wdr/radio/wdr4rr/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-wdr-4-aachen-und-region",
+      "name": "WDR 4 Aachen und Region",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://icecast.wdr.de/wdr/wdr4/aachenundregion/mp3/128/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://wdr-radio.ard-mcdn.de/wdr/radio/wdr4ac/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-wdr-4-muensterland",
+      "name": "WDR 4 Münsterland",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://icecast.wdr.de/wdr/wdr4/muensterland/mp3/128/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://wdr-radio.ard-mcdn.de/wdr/radio/wdr4mld/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-wdr-4-ostwestfalen-lippe",
+      "name": "WDR 4 Ostwestfalen-Lippe",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://icecast.wdr.de/wdr/wdr4/ostwestfalenlippe/mp3/128/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://wdr-radio.ard-mcdn.de/wdr/radio/wdr4owl/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-wdr-4-rheinland",
+      "name": "WDR 4 Rheinland",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://icecast.wdr.de/wdr/wdr4/rheinland/mp3/128/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://wdr-radio.ard-mcdn.de/wdr/radio/wdr4rhld/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-wdr-4-ruhrgebiet",
+      "name": "WDR 4 Ruhrgebiet",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://wdr-radio.ard-mcdn.de/wdr/radio/wdr4ruhrgb/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-wdr-4-suedwestfalen",
+      "name": "WDR 4 Südwestfalen",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://icecast.wdr.de/wdr/wdr4/suedwestfalen/mp3/128/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://wdr-radio.ard-mcdn.de/wdr/radio/wdr4swf/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4846,6 +6980,11 @@
         },
         {
           "url": "https://wdr-radio.ard-mcdn.de/wdr/radio/wdr5/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://wdrhf.akamaized.net/hls/live/2027996-b/wdr5/192/seglist.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -4877,6 +7016,11 @@
           "url": "https://wdr-cosmo-coslive.icecast.wdr.de/wdr/cosmo/coslive/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://wdr-radio.ard-mcdn.de/wdr/radio/cosmo/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4896,6 +7040,11 @@
           "url": "https://wdr-diemaus-live.icecast.wdr.de/wdr/diemaus/live/mp3/128/stream.mp3?ar-distributor=ffa1",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://wdr-radio.ard-mcdn.de/wdr/radio/diemaus/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4913,6 +7062,11 @@
         },
         {
           "url": "https://wdr-wdr-event.icecast.wdr.de/wdr/wdr/event/mp3/128/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://wdr-wdr-event.icecastssl.wdr.de/wdr/wdr/event/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
         }
@@ -4959,6 +7113,11 @@
           "url": "https://st01.sslstream.dlf.de/dlf/01/high/opus/stream.opus?aggregator=web",
           "geo_de_only": false,
           "format": "opus"
+        },
+        {
+          "url": "https://dist.deutschlandfunk.de/dlf/hls-ard/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4988,6 +7147,16 @@
           "url": "https://st02.sslstream.dlf.de/dlf/02/high/opus/stream.opus?aggregator=web",
           "geo_de_only": false,
           "format": "opus"
+        },
+        {
+          "url": "https://dist.deutschlandfunk.de/dlfkultur/hls-ard/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://st02.sslstream.dlf.de/dlf/02/low/aac/stream.aac?aggregator=web",
+          "geo_de_only": false,
+          "format": "aac"
         }
       ]
     },
@@ -5022,6 +7191,16 @@
           "url": "https://st03.sslstream.dlf.de/dlf/03/mid/aac/stream.aac?aggregator=web",
           "geo_de_only": false,
           "format": "aac"
+        },
+        {
+          "url": "https://st03.sslstream.dlf.de/dlf/03/low/opus/stream.opus",
+          "geo_de_only": false,
+          "format": "opus"
+        },
+        {
+          "url": "https://dist.deutschlandfunk.de/dlfnova/hls-ard/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -5075,6 +7254,11 @@
           "url": "https://stream.antenne1.de/sommerhits/livestream2.mp3?usid=H-M-09-0-0",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://stream.antenne1.de/a1gp/livestream1.aac",
+          "geo_de_only": false,
+          "format": "aac"
         }
       ]
     },
@@ -5114,6 +7298,16 @@
           "url": "https://streams.bigfm.de/bigfm-sunsetlounge-128-mp3?usid=0-0-H-M-D-12",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://streams.bigfm.de/bigfm-deutschland-128-aac",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://stream.bigfm.de/deutschland/mp3-128/radiofm",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -5141,6 +7335,16 @@
         },
         {
           "url": "https://streams.regenbogen.de/rr-kinderlieder-128-mp3",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://stream.regenbogen.de/mannheim/aac-128/tunein",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://stream.regenbogen.de/mannheim/mp3-128/onlineradiobox",
           "geo_de_only": false,
           "format": "audio"
         }
@@ -5174,6 +7378,11 @@
       "streams": [
         {
           "url": "https://frontend.streamonkey.net/fho-schwarzwaldradiohifi",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://frontend.streamonkey.net/fho-schwarzwaldradiolive/stream/mp3?aggregator=mytuner-radiocom",
           "geo_de_only": false,
           "format": "audio"
         }
@@ -5281,6 +7490,16 @@
           "url": "https://stream.antenne.de/antenne/stream/mp3",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://stream.antenne.de/antenne/stream/aacp",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://s6-webradio.antenne.de/antenne/stream/aacp",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -5310,6 +7529,11 @@
           "url": "https://mp3channels.webradio.rockantenne.de/punkrock.aac",
           "geo_de_only": false,
           "format": "aac"
+        },
+        {
+          "url": "https://stream.rockantenne.de/rockantenne/stream/mp3",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -5324,6 +7548,16 @@
           "url": "https://cast.egofm.de/egofm.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://streams.egofm.de/egoFM-hq",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://streams.egofm.de/egoFM-lq",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -5500,6 +7734,11 @@
           "url": "https://topradio-de-hz-fal-stream03-cluster01.radiohost.de/kissfm-hiphop_aac-64?",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://stream.kissfm.de/kissfm/mp3-192",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -5538,6 +7777,11 @@
           "url": "https://stream.reboot.fm/listen/reboot.fm/radio.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://stream.reboot.fm/listen/reboot.fm/radio.opus",
+          "geo_de_only": false,
+          "format": "opus"
         }
       ]
     },
@@ -5586,6 +7830,11 @@
           "url": "https://mp3.ffh.de/radioffh/hqlivestream.aac",
           "geo_de_only": false,
           "format": "aac"
+        },
+        {
+          "url": "https://streams.ffh.de/radioffh/mp3/hqlivestream.mp3?amsparams=playerid:RTFFHRadioDE",
+          "geo_de_only": false,
+          "format": "mp3"
         }
       ]
     },
@@ -5632,6 +7881,11 @@
         },
         {
           "url": "https://streams.radiobob.de/bob-bestofrock/mp3-192/streams.radiobob.de/",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://streams.radiobob.de/bob-live/mp3-192",
           "geo_de_only": false,
           "format": "audio"
         }
@@ -5824,6 +8078,11 @@
           "url": "https://edge70.streamonkey.net/fho-hitradioohr90er/stream/aacp?aggregator=smk-m3u-aac",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://frontend.streamonkey.net/fho-hitradioohrlive/stream/mp3",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -5895,6 +8154,16 @@
           "url": "https://antennenr--di--nacs-ais-lgc--05--cdn.cast.addradio.de/antennenr/live/mp3/high",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://stream.lokalradio.nrw/444z5pt",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://antennenr--di--nacs-ais-lgc--0c--cdn.cast.addradio.de/antennenr/live/mp3/high",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -5921,6 +8190,11 @@
       "streams": [
         {
           "url": "https://stream.lokalradio.nrw/444zbw3",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://edge24.streamonkey.net/wf-radioduisburg/stream/mp3",
           "geo_de_only": false,
           "format": "audio"
         }
@@ -5980,6 +8254,11 @@
           "url": "https://nrj.de/germanytop40",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://edge59.streamonkey.net/energy-berlin/stream/mp3",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -6009,6 +8288,16 @@
           "url": "https://streams.rpr1.de/rpr-apresski-128-mp3?usid=0-0-H-M-D-50",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://streams.rpr1.de/rpr-simulcast-128-mp3",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://stream.rpr1.de/webradio/128-mp3/raddio",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -6023,6 +8312,16 @@
           "url": "https://streams.rockland.de/dab/mp3-192/streams.rockland.de/",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://streams.rockland.de/mainz/mp3-192/onlineradiobox/",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://stream.rockland-digital.de/rockland/mp3-128/mytuner-radio/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
         }
       ]
     },
@@ -6085,6 +8384,11 @@
           "url": "https://stream.saw-musikwelt.de/saw-party/mp3-128/radio-browser/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://stream.radiosaw.de/saw/mp3-128/radiode/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
         }
       ]
     },
@@ -6123,6 +8427,11 @@
           "url": "https://streams.rsh.de/dance/mp3-192/homepage/",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://streams.rsh.de/rsh-live/aac-64/streams.rsh.de/",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -6145,6 +8454,11 @@
         },
         {
           "url": "https://streams.deltaradio.de/delta-alternative/mp3-192/mediaplayer",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://streams.deltaradio.de/delta-live/mp3-192/homepage",
           "geo_de_only": false,
           "format": "audio"
         }
@@ -6175,6 +8489,11 @@
           "url": "https://dom.audiostream.io/domradio/1000/mp3/128/domradio-rp.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://dom.audiostream.io/domradio/1000/mp3/128/domradio.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
         }
       ]
     },
@@ -6189,6 +8508,11 @@
           "url": "https://stream.erf.de/erfpop.m3u",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://erf1068--di--nacs-ice-01--02--cdn.cast.addradio.de/erf1068/live/mp3/high",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -6201,6 +8525,21 @@
       "streams": [
         {
           "url": "https://stream.erf.de/erfplus.m3u",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://erf1a64--di--nacs-ice-01--01--cdn.cast.addradio.de/erf1a64/live/mp3/high",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://stream.erfplus.de/erf-1a64/aac-64?ar-distributor=ffa5",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://erf1a64-live.cast.addradio.de/erf1a64/live/aac/low?ar-distributor=f0d1",
           "geo_de_only": false,
           "format": "audio"
         }
@@ -6230,6 +8569,11 @@
         },
         {
           "url": "https://stream.klassikradio.de/opera/mp3-128/www.klassikradio.de/",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://stream.klassikradio.de/live/mp3-128/Miquido",
           "geo_de_only": false,
           "format": "audio"
         }
@@ -6345,6 +8689,11 @@
           "url": "https://bytefm.cast.addradio.de/bytefm/main/high/stream",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://streams.byte.fm/live/mp3-128/",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -6415,6 +8764,11 @@
           "url": "https://stream.schlagerradio.de/b2-schlagerradio-national/mp3-192/",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://radiob2-national.cast.addradio.de/radiob2/national/mp3/high/stream.mp3?ar-distributor=f0b7",
+          "geo_de_only": false,
+          "format": "mp3"
         }
       ]
     },
@@ -6444,6 +8798,11 @@
           "url": "https://pool.radiopaloma.de/RP-Partyschlager.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://pool.radiopaloma.de/RADIOPALOMA.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
         }
       ]
     },
@@ -6471,6 +8830,11 @@
         },
         {
           "url": "https://streamtdy.ir-media-tec.com/weihnachtslieder/mp3-128/web/play.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://streamtdy.ir-media-tec.com/live/mp3-128/radioplayer_web/play.mp3",
           "geo_de_only": false,
           "format": "mp3"
         }
@@ -6519,6 +8883,11 @@
         },
         {
           "url": "https://webstream.schlagerparadies.de/schlagerparadies128.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://webstream.schlagerparadies.de/schlagerparadies128k.mp3",
           "geo_de_only": false,
           "format": "mp3"
         }

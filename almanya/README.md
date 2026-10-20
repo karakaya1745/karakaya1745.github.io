@@ -23,7 +23,7 @@ Uygulama önce `metadata.json` indirir. `revision` veya `channels.json` sha256 d
 | --- | --- |
 | `sources/tv.csv`, `sources/tv.m3u` | Ham TV ölçümü. CSV'de ölü (`failed`) satırlar da durur. |
 | `sources/radio.csv`, `sources/radio.m3u` | Ham radyo ölçümü. CSV'de denenmemiş düz `http` satırları da durur. |
-| `sources/onay-2026-10-15.csv`, `onay-2026-10-16.csv`, `onay-2026-10-18.csv`, `onay-2026-10-19.csv` | Onaylanan ekler ve silinecek linkler. |
+| `sources/onay-2026-10-15.csv` … `onay-2026-10-20.csv` | Onaylanan ekler ve silinecek veya sona alınan linkler. |
 | `sources/catalog-retest-2026-10-18.json` | 18 Ekim yeniden testi (ölü, statik, şüpheli). |
 | `tv.m3u`, `radio.m3u` | Yayımlanan, temizlenmiş listeler. Ölü ve denenmemiş link yoktur. |
 | `channels.json` | Uygulamanın indirdiği katalog. |
@@ -91,6 +91,8 @@ Radyo CSV'sinde aynı istasyon adının altında kardeş yayınlar da `(1)`, `(2
 `sources/onay-2026-10-18.csv` 18 Ekim onayının tamamıdır. `denendi_olu_onerilmiyor` satırları eklenmez. `olu_mevcut_link` adresleri silinir; geride çalışan veya 403 link kalmayan kanal katalogdan çıkar (DW Deutsch, DW Deutsch+, 123 Live TV, Radio Q). QVC Style ve QVC Zwei durur; şüpheli linkleri kendi kanalında en sona yazılır. `iptv-playoutcenter.de` linkleri, listesi açılıp parçaları 403 dönen 13 kanalda `geo_de_only` olur. Eski `RBB Radio 3` kaydı aslında Radio 38'dir: adı Radio 38 olur, id'si `radio-rbb-radio-3` kalır. rbbKultur ayrı istasyon olarak eklenir. R.SH, Radio Brocken, Radio Hamburg, delta radio ve Radio PSR üzerindeki oturum parametreli adresler (`?sABC=` ve benzeri) silinir. Deluxe Music'in üç statik linki ve Deluxe Rap'in iki statik linki silinir; canlı ana listeler kalır. Radio SAW'ın ana yayını bu onayda yoktur; temalı yayınlarının sırası korunur.
 
 `sources/onay-2026-10-19.csv` 19 Ekim onaydır. Sonnenklar TV (`euvia.cdn.ses-ps.com`, jetonlu yönlendirme) eklenmez. Diğer satırlar yedek veya yeni istasyon olarak girer. `çalışıyor` çalışan, `sadece Almanya` ise `geo_de_only` sayılır. OK4 ve OK54 Trier zaten `yerel` / Rheinland-Pfalz altındadır; yeni 720p adresleri o kanallara geo yedek yazılır. NDR'nin uluslararası `master.m3u8` adresi, aynı `ndr_int` ailesini taşıyan NDR Fernsehen Hamburg kaydına eklenir. MDR Thüringen'in dört bölgesel HLS adresi (Mitte/West, Ost, Nord, Süd), bu varyantları zaten bir arada tutan MDR Thüringen Mitte/West istasyonuna eklenir. Yeni istasyonlar Bayernwelle SüdOst (Bayern) ve baden.fm'dir (Baden-Württemberg).
+
+`sources/onay-2026-10-20.csv` 20 Ekim onayının tamamıdır. ARD'nin bölgesel radyo varyantları ana istasyonun hemen ardına yazılır. Oberlausitz TV Sachsen, Metropol Region TV Rhein-Neckar Baden-Württemberg `yerel` grubundadır. KaufBei TV ve MeieTV `shopping`, Folx / One / Zwei Music Television `music`, Finest TV ve QS24.TV `other` grubundadır. 20 Ekim yeniden testinde düşen 7 link silinmez; kanalın sonuna alınır (Radio Weser TV'nin üç adresi, h-eins.tv, QVC Style, QVC Zwei, HR 1 `hlshr1`). HR 1'de yeni Audiothek `hr1rm` adresi ilk sıradadır.
 
 ## Sıra
 
