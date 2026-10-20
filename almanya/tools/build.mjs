@@ -15,6 +15,7 @@
  *        almanya/sources/onay-2026-10-18.csv (18 Ekim onayı)
  *        almanya/sources/catalog-retest-2026-10-18.json (ölü, statik, şüpheli yeniden test)
  *        almanya/sources/onay-2026-10-19.csv (19 Ekim onayı; Sonnenklar TV hariç)
+ *        almanya/sources/onay-2026-10-20.csv (20 Ekim onayı; ölü linkler sonda)
  * Ölü (failed) ve denenmemiş (untested) linkler yayınlanmaz.
  * geo-blocked (403) ve "sadece Almanya" linkler kalır; geo_de_only ile işaretlenir.
  * Katalogda olan URL yeniden eklenmez. Yeni link uydurulmaz.
@@ -25,6 +26,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { applyOctober18, orderCatalog, FINAL_CATEGORY_ORDER } from "./apply-2026-10-18.mjs";
 import { applyOctober19 } from "./apply-2026-10-19.mjs";
+import { applyOctober20 } from "./apply-2026-10-20.mjs";
 
 const DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SOURCES = path.join(DIR, "sources");
@@ -800,6 +802,7 @@ function loadCatalog() {
   const onay16 = applyOnay20261016(channels);
   const onay18 = applyOctober18(channels);
   const onay19 = applyOctober19(channels);
+  const onay20 = applyOctober20(channels);
   const grouped = orderCatalog(channels);
   const previous = readJsonIfExists(path.join(DIR, "channels.json"));
   assignIds(grouped, previous?.channels);
@@ -819,6 +822,7 @@ function loadCatalog() {
     onay16,
     onay18,
     onay19,
+    onay20,
   };
 }
 
@@ -943,6 +947,11 @@ function main() {
     `[almanya] onay-2026-10-19: +${onay19.addedChannels || 0} kanal, ` +
       `+${onay19.addedLinks || 0} link, Sonnenklar atlandı ${onay19.skippedSonnenklar || 0}` +
       (onay19.addedChannelNames?.length ? ` (${onay19.addedChannelNames.join(", ")})` : ""),
+  );
+  const onay20 = catalog.onay20 || {};
+  console.log(
+    `[almanya] onay-2026-10-20: +${onay20.addedChannels || 0} kanal, ` +
+      `+${onay20.addedLinks || 0} link, sonda ${onay20.demotedLinks || 0} ölü link`,
   );
   console.log(`[almanya] sha256=${hash}`);
   if (catalog.dropped.length) {

@@ -1,0 +1,336 @@
+kanal,link,durum,kaynak,tur
+Antenne Brandenburg Cottbus,https://dispatcher.rndfnk.com/rbb/antennebrandenburg/cottbus/mp3/mid,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+Antenne Brandenburg Cottbus,https://antbrb-cottbus.akamaized.net/hls/live/2016999/rbb_antbrb-cottbus/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+Antenne Brandenburg Frankfurt (Oder),https://dispatcher.rndfnk.com/rbb/antennebrandenburg/frankfurt/mp3/mid,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+Antenne Brandenburg Frankfurt (Oder),https://antbrb-frankfurt.akamaized.net/hls/live/2017000/rbb_antbrb-frankfurt/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+Antenne Brandenburg Perleberg,https://dispatcher.rndfnk.com/rbb/antennebrandenburg/perleberg/mp3/mid,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+Antenne Brandenburg Perleberg,https://antbrb-perleberg.akamaized.net/hls/live/2017001/rbb_antbrb-perleberg/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+Antenne Brandenburg Prenzlau,https://dispatcher.rndfnk.com/rbb/antennebrandenburg/prenzlau/mp3/mid,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+Antenne Brandenburg Prenzlau,https://antbrb-prenzlau.akamaized.net/hls/live/2017002/rbb_antbrb-prenzlau/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+AntenneSaar (SR),https://sr-radio.ard-mcdn.de/sr/radio/as/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_kanal
+AntenneSaar (SR),https://liveradio.sr.de/sr/as/mp3/128/stream.mp3?aggregator=ard-at,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi),yeni_kanal
+Bayern 1 - Franken,https://br-radio.ard-mcdn.de/br/radio/b1franken/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+Bayern 1 - Niederbayern/Oberpfalz,https://br-radio.ard-mcdn.de/br/radio/b1nbopf/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+Bayern 1 - Schwaben,https://br-radio.ard-mcdn.de/br/radio/b1schw/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+DASDING vom SR,https://sr-radio.ard-mcdn.de/sr/radio/dasding/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_kanal
+DASDING vom SR,https://liveradio.sr.de/sr/ud/mp3/128/stream.mp3?aggregator=ard-at,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi),yeni_kanal
+Finest TV,https://media.finest.tv/hls/live.m3u8,"çalışıyor (200, canlı segment)",GitHub: iptv-org/iptv/streams/de.m3u (iptv-org; 7/24 değil),yeni_kanal
+Folx Music Television,https://folxapp.b-cdn.net/1080p/index.m3u8,"çalışıyor (200, canlı segment)",GitHub: iptv-org/iptv/streams/de.m3u (iptv-org; FTA uydu durumu doğrulanmadı),yeni_kanal
+hr1 - Mittelhessen,https://dispatcher.rndfnk.com/hr/hr1/mittelhessen/high,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+hr1 - Mittelhessen,https://hr-radio.ard-mcdn.de/hr/radio/hr1mh/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+hr1 - Nordhessen,https://dispatcher.rndfnk.com/hr/hr1/nordhessen/high,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+hr1 - Nordhessen,https://hr-radio.ard-mcdn.de/hr/radio/hr1nh/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+hr1 - Osthessen,https://dispatcher.rndfnk.com/hr/hr1/osthessen/high,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+hr1 - Osthessen,https://hr-radio.ard-mcdn.de/hr/radio/hr1oh/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+hr1 - Südhessen,https://dispatcher.rndfnk.com/hr/hr1/suedhessen/high,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+hr1 - Südhessen,https://hr-radio.ard-mcdn.de/hr/radio/hr1sh/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+hr3 - Mittelhessen,https://dispatcher.rndfnk.com/hr/hr3/mittelhessen/high,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+hr3 - Mittelhessen,https://hr-radio.ard-mcdn.de/hr/radio/hr3mh/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+hr3 - Nordhessen,https://hr-radio.ard-mcdn.de/hr/radio/hr3nh/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+hr3 - Osthessen,https://dispatcher.rndfnk.com/hr/hr3/osthessen/high,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+hr3 - Osthessen,https://hr-radio.ard-mcdn.de/hr/radio/hr3oh/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+hr3 - Südhessen,https://dispatcher.rndfnk.com/hr/hr3/suedhessen/high,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+hr3 - Südhessen,https://hr-radio.ard-mcdn.de/hr/radio/hr3sh/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+hr4 - Mittelhessen,https://hr-radio.ard-mcdn.de/hr/radio/hr4mh/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+hr4 - Nordhessen,https://dispatcher.rndfnk.com/hr/hr4/nordhessen/high,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+hr4 - Nordhessen,https://hr-radio.ard-mcdn.de/hr/radio/hr4nh/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+hr4 - Osthessen,https://dispatcher.rndfnk.com/hr/hr4/osthessen/high,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+hr4 - Osthessen,https://hr-radio.ard-mcdn.de/hr/radio/hr4oh/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+hr4 - Südhessen,https://hr-radio.ard-mcdn.de/hr/radio/hr4sh/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+KaufBei TV,https://elephant.t62a.com/hls/8103/index.m3u8,"çalışıyor (200, canlı segment)",GitHub: iptv-org/iptv/streams/de.m3u (iptv-org; önceki taramalarda görülmüş olabilir),yeni_kanal
+MDR SACHSEN Bautzen,https://mdr-284280-1.sslcast.mdr.de/mdr/284280/1/mp3/high/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+MDR SACHSEN Bautzen,https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsachsenbz/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+MDR SACHSEN Chemnitz,https://mdr-284280-2.sslcast.mdr.de/mdr/284280/2/mp3/high/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+MDR SACHSEN Chemnitz,https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsachsenc/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+MDR SACHSEN Leipzig,https://mdr-284280-3.sslcast.mdr.de/mdr/284280/3/mp3/high/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+MDR SACHSEN Leipzig,https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsachsenl/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+MDR SACHSEN-ANHALT Dessau,https://mdr-284290-1.sslcast.mdr.de/mdr/284290/1/mp3/high/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+MDR SACHSEN-ANHALT Dessau,https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsachsenanhaltde/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+MDR SACHSEN-ANHALT Halle,https://mdr-284290-2.sslcast.mdr.de/mdr/284290/2/mp3/high/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+MDR SACHSEN-ANHALT Halle,https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsachsenanhalthal/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+MDR SACHSEN-ANHALT Stendal,https://mdr-284290-3.sslcast.mdr.de/mdr/284290/3/mp3/high/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+MDR SACHSEN-ANHALT Stendal,https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsachsenanhaltsdl/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+MDR Schlagerwelt,https://mdr-990801-0.sslcast.mdr.de/mdr/990801/0/mp3/high/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi),yeni_kanal
+MDR Schlagerwelt,https://mdr-radio.ard-mcdn.de/mdr/radio/mdrschlagerweltsn/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_kanal
+MDR THÜRINGEN Nordthüringen,https://mdr-284300-2.sslcast.mdr.de/mdr/284300/2/mp3/high/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+MDR THÜRINGEN Nordthüringen,https://mdr-radio.ard-mcdn.de/mdr/radio/mdrthueringennth/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+MDR THÜRINGEN Ostthüringen,https://mdr-284300-1.sslcast.mdr.de/mdr/284300/1/mp3/high/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+MDR THÜRINGEN Ostthüringen,https://mdr-radio.ard-mcdn.de/mdr/radio/mdrthueringenoth/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+MDR THÜRINGEN Südthüringen,https://mdr-284300-3.sslcast.mdr.de/mdr/284300/3/mp3/high/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+MDR THÜRINGEN Südthüringen,https://mdr-radio.ard-mcdn.de/mdr/radio/mdrthueringensth/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+MDR Tweens,https://mdr-991101-0.sslcast.mdr.de/mdr/991101/0/mp3/high/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi),yeni_kanal
+MDR Tweens,https://mdr-radio.ard-mcdn.de/mdr/radio/mdrtweens/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_kanal
+MeieTV,https://stream.meietv.de/live/meietv.m3u8,"çalışıyor (200, canlı segment)",GitHub: iptv-o114/iptv/streams/de.m3u (iptv-org; yerel web TV),yeni_kanal
+Metropol Region TV Rhein-Neckar,https://h057.video-stream-hosting.de/metropolregiontv-live/_definst_/mp4:livestream/playlist.m3u8,"çalışıyor (200, canlı segment)",GitHub: appeloper/contents/iptv/Germany.m3u,yeni_kanal
+NDR 1 Niedersachsen (Braunschweig),https://icecast.ndr.de/ndr/ndr1niedersachsen/braunschweig/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+NDR 1 Niedersachsen (Braunschweig),https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1ndsbs/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+NDR 1 Niedersachsen (Lüneburg),https://icecast.ndr.de/ndr/ndr1niedersachsen/lueneburg/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+NDR 1 Niedersachsen (Lüneburg),https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1ndslg/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+NDR 1 Niedersachsen (Oldenburg),https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1ndsol/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+NDR 1 Niedersachsen (Osnabrück),https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1ndsos/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+NDR 1 Radio MV (Greifswald),https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1mvhgw/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+NDR 1 Radio MV (Neubrandenburg),https://icecast.ndr.de/ndr/ndr1radiomv/neubrandenburg/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+NDR 1 Radio MV (Neubrandenburg),https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1mvnb/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+NDR 1 Radio MV (Rostock),https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1mvhro/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+NDR 1 Welle Nord (Flensburg),https://icecast.ndr.de/ndr/ndr1wellenord/flensburg/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+NDR 1 Welle Nord (Flensburg),https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1wnfl/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+NDR 1 Welle Nord (Heide),https://icecast.ndr.de/ndr/ndr1wellenord/heide/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+NDR 1 Welle Nord (Heide),https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1wnhei/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+NDR 1 Welle Nord (Lübeck),https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1wnhl/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+NDR 1 Welle Nord (Norderstedt),https://icecast.ndr.de/ndr/ndr1wellenord/norderstedt/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+NDR 1 Welle Nord (Norderstedt),https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1wnno/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+NDR 2 (Hamburg),https://ndr-radio.ard-mcdn.de/ndr/radio/ndr2hh/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+NDR 2 (Mecklenburg-Vorpommern),https://icecast.ndr.de/ndr/ndr2/mecklenburgvorpommern/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+NDR 2 (Mecklenburg-Vorpommern),https://ndr-radio.ard-mcdn.de/ndr/radio/ndr2mv/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+NDR 2 (Schleswig-Holstein),https://icecast.ndr.de/ndr/ndr2/schleswigholstein/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+NDR 2 (Schleswig-Holstein),https://ndr-radio.ard-mcdn.de/ndr/radio/ndr2sh/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+Oberlausitz TV,https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd4/playlist.m3u8?ref=,"çalışıyor (200, canlı segment)",GitHub: sacuar/MyIPTV/deu.m3u,yeni_kanal
+One Music Television,https://oneapp.b-cdn.net/1080p/index.m3u8,"çalışıyor (200, canlı segment)",GitHub: iptv-org/iptv/streams/de.m3u (iptv-org; FTA uydu durumu doğrulanmadı),yeni_kanal
+QS24.TV,https://sdn-global-live-streaming-packager-cache.3qsdn.com/126101/126101_264_live.m3u8,"çalışıyor (200, canlı segment)",GitHub: iptv-ch/iptv-ch.github.io/webtv.m3u (İsviçre kaynaklı Almanca sağlık kanalı),yeni_kanal
+Radioeins Cottbus,https://dispatcher.rndfnk.com/rbb/radioeins/cottbus/mp3/mid,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+Radioeins Cottbus,https://radioeins-cottbus.akamaized.net/hls/live/2016995/rbb_radioeins-cottbus/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+Radioeins Frankfurt (Oder),https://dispatcher.rndfnk.com/rbb/radioeins/frankfurt/mp3/mid,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+Radioeins Frankfurt (Oder),https://radioeins-frankfurt.akamaized.net/hls/live/2016996/rbb_radioeins-frankfurt/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Freiburg,https://liveradio.swr.de/sw73hl2/swr4fr/play.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Freiburg,https://liveradio.swr.de/sw331ch/swr4fr/play.aac,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Friedrichshafen,https://liveradio.swr.de/sw282p3/swr4fn/play.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Friedrichshafen,https://liveradio.swr.de/sw73hl2/swr4fn/play.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Friedrichshafen,https://liveradio.swr.de/sw331ch/swr4fn/play.aac,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Heilbronn,https://liveradio.swr.de/sw282p3/swr4hn/play.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Heilbronn,https://liveradio.swr.de/sw73hl2/swr4hn/play.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Heilbronn,https://liveradio.swr.de/sw331ch/swr4hn/play.aac,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Kaiserslautern,https://liveradio.swr.de/sw73hl2/swr4kl/play.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Kaiserslautern,https://liveradio.swr.de/sw331ch/swr4kl/play.aac,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Karlsruhe,https://liveradio.swr.de/sw282p3/swr4ka/play.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Karlsruhe,https://liveradio.swr.de/sw73hl2/swr4ka/play.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Karlsruhe,https://liveradio.swr.de/sw331ch/swr4ka/play.aac,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Koblenz,https://liveradio.swr.de/sw73hl2/swr4ko/play.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Koblenz,https://liveradio.swr.de/sw331ch/swr4ko/play.aac,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Ludwigshafen,https://liveradio.swr.de/sw282p3/swr4lu/play.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Ludwigshafen,https://liveradio.swr.de/sw73hl2/swr4lu/play.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Ludwigshafen,https://liveradio.swr.de/sw331ch/swr4lu/play.aac,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Mannheim,https://liveradio.swr.de/sw282p3/swr4ma/play.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Mannheim,https://liveradio.swr.de/sw73hl2/swr4ma/play.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Mannheim,https://liveradio.swr.de/sw331ch/swr4ma/play.aac,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Trier,https://liveradio.swr.de/sw282p3/swr4tr/play.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Trier,https://liveradio.swr.de/sw73hl2/swr4tr/play.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Trier,https://liveradio.swr.de/sw331ch/swr4tr/play.aac,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Tübingen,https://liveradio.swr.de/sw282p3/swr4tu/play.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Tübingen,https://liveradio.swr.de/sw73hl2/swr4tu/play.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Tübingen,https://liveradio.swr.de/sw331ch/swr4tu/play.aac,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Ulm,https://liveradio.swr.de/sw73hl2/swr4ul/play.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+SWR4 Ulm,https://liveradio.swr.de/sw331ch/swr4ul/play.aac,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+WDR 2 Aachen und Region,https://wdr-radio.ard-mcdn.de/wdr/radio/wdr2ac/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+WDR 2 Aachen und Region,https://wdr-wdr2-aachenundregion.icecastssl.wdr.de/wdr/wdr2/aachenundregion/mp3/128/stream.mp3?aggregator=web,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+WDR 2 Bergisches Land,https://wdr-radio.ard-mcdn.de/wdr/radio/wdr2bld/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+WDR 2 Bergisches Land,https://wdr-wdr2-bergischesland.icecastssl.wdr.de/wdr/wdr2/bergischesland/mp3/128/stream.mp3?aggregator=web,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+WDR 2 Münsterland,https://wdr-radio.ard-mcdn.de/wdr/radio/wdr2mld/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+WDR 2 Münsterland,https://wdr-wdr2-muensterland.icecastssl.wdr.de/wdr/wdr2/muensterland/mp3/128/stream.mp3?aggregator=web,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+WDR 2 Ostwestfalen Lippe,https://wdr-radio.ard-mcdn.de/wdr/radio/wdr2owl/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+WDR 2 Ostwestfalen Lippe,https://wdr-wdr2-ostwestfalenlippe.icecastssl.wdr.de/wdr/wdr2/ostwestfalenlippe/mp3/128/stream.mp3?aggregator=web,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+WDR 2 Rheinland,https://wdr-radio.ard-mcdn.de/wdr/radio/wdr2rhld/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+WDR 2 Rheinland,https://wdr-wdr2-rheinland.icecastssl.wdr.de/wdr/wdr2/rheinland/mp3/128/stream.mp3?aggregator=web,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+WDR 2 Ruhrgebiet,https://wdr-wdr2-ruhrgebiet.icecast.wdr.de/wdr/wdr2/ruhrgebiet/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+WDR 2 Ruhrgebiet,https://wdr-radio.ard-mcdn.de/wdr/radio/wdr2ruhrgb/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+WDR 2 Südwestfalen,https://wdr-radio.ard-mcdn.de/wdr/radio/wdr2swf/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+WDR 2 Südwestfalen,https://wdr-wdr2-suedwestfalen.icecastssl.wdr.de/wdr/wdr2/suedwestfalen/mp3/128/stream.mp3?aggregator=web,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+WDR 4 Aachen und Region,https://icecast.wdr.de/wdr/wdr4/aachenundregion/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+WDR 4 Aachen und Region,https://wdr-radio.ard-mcdn.de/wdr/radio/wdr4ac/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+WDR 4 Münsterland,https://icecast.wdr.de/wdr/wdr4/muensterland/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+WDR 4 Münsterland,https://wdr-radio.ard-mcdn.de/wdr/radio/wdr4mld/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+WDR 4 Ostwestfalen-Lippe,https://icecast.wdr.de/wdr/wdr4/ostwestfalenlippe/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+WDR 4 Ostwestfalen-Lippe,https://wdr-radio.ard-mcdn.de/wdr/radio/wdr4owl/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+WDR 4 Rheinland,https://icecast.wdr.de/wdr/wdr4/rheinland/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+WDR 4 Rheinland,https://wdr-radio.ard-mcdn.de/wdr/radio/wdr4rhld/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+WDR 4 Ruhrgebiet,https://wdr-radio.ard-mcdn.de/wdr/radio/wdr4ruhrgb/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+WDR 4 Südwestfalen,https://icecast.wdr.de/wdr/wdr4/suedwestfalen/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+WDR 4 Südwestfalen,https://wdr-radio.ard-mcdn.de/wdr/radio/wdr4swf/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi) – bölgesel varyant,yeni_kanal
+Zwei Music Television,https://zweiapp.b-cdn.net/1080p/index.m3u8,"çalışıyor (200, canlı segment)",GitHub: iptv-org/iptv/streams/de.m3u (iptv-org; FTA uydu durumu doğrulanmadı),yeni_kanal
+3sat,https://zdf-hls-15.akamaized.net/hls/live/2016527/3sat/master.m3u8,sadece Almanya (403),GitHub: Sia812/iptv-listr/iptv_de_ir_pl.m3u,yeni_link
+ALEX Berlin,https://alex-stream.rosebud-media.de/bounce/alexlivetv50.smil/manifest.mpd,"çalışıyor (200, DASH manifest)",GitHub: jbkunama1/hAI.iptv_List/de.m3u,yeni_link
+Antenne 1,https://stream.antenne1.de/a1gp/livestream1.aac,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/+merged+/g/ger.m3u,yeni_link
+Antenne Bayern,https://stream.antenne.de/antenne/stream/aacp,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/+merged+/g/ger.m3u,yeni_link
+Antenne Bayern,https://s6-webradio.antenne.de/antenne/stream/aacp,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/my.world_tuner/checked/pop.m3u,yeni_link
+Antenne Brandenburg,https://antbrb.akamaized.net/hls/live/2016998/rbb_antbrb/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+Antenne Niederrhein,https://stream.lokalradio.nrw/444z5pt,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/non-stop-radio/de.m3u,yeni_link
+Antenne Niederrhein,https://antennenr--di--nacs-ais-lgc--0c--cdn.cast.addradio.de/antennenr/live/mp3/high,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/radio.garden/K/Kleve.m3u,yeni_link
+ARD Alpha,https://mcdn.br.de/br/fs/ard_alpha/hls/de/master_960p_1600.m3u8,"çalışıyor (200, canlı segment)",GitHub: shiheb/iptv-player/bilty/iptv,yeni_link
+ARTE Deutsch,https://arteliveext.akamaized.net/hls/live/2030993/artelive_de/master_v720.m3u8,sadece Almanya (403),GitHub: shiheb/iptv-player/bilty/iptv,yeni_link
+Bayerisches Fernsehen Süd,https://mcdn.br.de/bfs_sued/de/master.m3u8,sadece Almanya (403),GitHub: sectia22/Countries/DE01_GERMANY.m3u,yeni_link
+Bayern 1 Mainfranken,https://br-radio.ard-mcdn.de/br/radio/b1main/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+Bayern 1 Oberbayern,https://br-radio.ard-mcdn.de/br/radio/b1obb/hls/96/seglist.m3u8,"çalışıyor (200, canlı segment)",GitHub: junguler/m3u-radio-music-playlists/my.world_tuner/oldies.m3u,yeni_link
+Bayern 1 Oberbayern,https://br-radio.ard-mcdn.de/br/radio/b1obb/hls/192/seglist.m3u8,"çalışıyor (200, canlı segment)",GitHub: junguler/m3u-radio-music-playlists/+merged+/g/ger.m3u,yeni_link
+Bayern 1 Oberbayern,https://br-radio.ard-mcdn.de/br/radio/b1obb/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+Bayern 2,https://br-radio.ard-mcdn.de/br/radio/b2/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+Bayern 3,https://br-radio.ard-mcdn.de/br/radio/b3/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+Bibel TV,https://bibeltv01.iptv-playoutcenter.de/bibeltv01/bibeltv01.stream_1/playlist.m3u8,"master 200, alt liste 403 (sadece Almanya)",GitHub: appeloper/contents/iptv/Germany.m3u,yeni_link
+bigFM,https://streams.bigfm.de/bigfm-deutschland-128-aac,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/web-radio_directory/Germany.m3u,yeni_link
+bigFM,https://stream.bigfm.de/deutschland/mp3-128/radiofm,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/non-stop-radio/de.m3u,yeni_link
+BR 24,https://dispatcher.rndfnk.com/br/br24/live/mp3/low,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/allradio.net/Germany.m3u,yeni_link
+BR 24,https://br-radio.ard-mcdn.de/br/radio/br24/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+BR Heimat,https://dispatcher.rndfnk.com/br/brheimat/live/mp3/low,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/zeno.fm/German.m3u,yeni_link
+BR Heimat,https://br-radio.ard-mcdn.de/br/radio/brheimat/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+BR Klassik,https://br-radio.ard-mcdn.de/br/radio/brklassik/hls/96/seglist.m3u8,"çalışıyor (200, canlı segment)",GitHub: junguler/m3u-radio-music-playlists/+merged+/g/ger.m3u,yeni_link
+BR Klassik,https://br-radio.ard-mcdn.de/br/radio/brklassik/hls/192/seglist.m3u8,"çalışıyor (200, canlı segment)",GitHub: junguler/m3u-radio-music-playlists/+merged+/g/ger.m3u,yeni_link
+BR Klassik,https://br-radio.ard-mcdn.de/br/radio/brklassik/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+BR Klassik,https://dispatcher.rndfnk.com/br/brklassik/live/mp3/mid?aggregator=ard-at,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi),yeni_link
+BR Schlager,https://br-radio.ard-mcdn.de/br/radio/brschlager/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+Bremen Eins,https://rb-radio.ard-mcdn.de/rb/radio/bremeneins/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+Bremen Next,https://rb-radio.ard-mcdn.de/rb/radio/bremennext/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+Bremen Vier,https://rb-radio.ard-mcdn.de/rb/radio/bremenvier/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+Bremen Zwei,https://icecast.radiobremen.de/rb/webchannel4/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/allradio.net/German.m3u,yeni_link
+Bremen Zwei,https://rb-radio.ard-mcdn.de/rb/radio/bremenzwei/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+ByteFM,https://streams.byte.fm/live/mp3-128/,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/+merged+/g/ger.m3u,yeni_link
+Cosmo,https://wdr-radio.ard-mcdn.de/wdr/radio/cosmo/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+Das Erste,https://derste247liveint.akamaized.net/hls/live/662735/daserste_int/master720p3200.m3u8,"çalışıyor (200, canlı segment)",GitHub: zovik209/Bibel-Goku/gokutv.m3u,yeni_link
+delta radio,https://streams.deltaradio.de/delta-live/mp3-192/homepage,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/non-stop-radio/de.m3u,yeni_link
+Deutsche Welle+,https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/stream02/streamPlaylist.m3u8,"çalışıyor (200, canlı segment)",GitHub: arkina1234-undenified/IPTV/locals/nj.m3u,yeni_link
+Deutsche Welle+,https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/stream05/streamPlaylist.m3u8,"çalışıyor (200, canlı segment)",GitHub: shiheb/iptv-player/bilty/iptv,yeni_link
+Deutschlandfunk,https://dist.deutschlandfunk.de/dlf/hls-ard/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+Deutschlandfunk Kultur,https://dist.deutschlandfunk.de/dlfkultur/hls-ard/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+Deutschlandfunk Kultur,https://st02.sslstream.dlf.de/dlf/02/low/aac/stream.aac?aggregator=web,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/wavely_radio/Culture.m3u,yeni_link
+Deutschlandfunk Nova,https://st03.sslstream.dlf.de/dlf/03/low/opus/stream.opus,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/allradio.net/German.m3u,yeni_link
+Deutschlandfunk Nova,https://dist.deutschlandfunk.de/dlfnova/hls-ard/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+Die Neue Zeit TV,https://bild-und-ton.stream/die-neue-zeit-tv-live/smil:dnz-de.smil/manifest.m3u8,"çalışıyor (200, canlı segment)",GitHub: iptv-ch/iptv-ch.github.io/webtv.m3u,yeni_link
+domradio.de,https://dom.audiostream.io/domradio/1000/mp3/128/domradio.mp3,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/non-stop-radio/de.m3u,yeni_link
+DW Arabic,https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/stream04/streamPlaylist.m3u8,"çalışıyor (200, canlı segment)",GitHub: appeloper/contents/iptv/Germany.m3u,yeni_link
+DW Español,https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8,"çalışıyor (200, canlı segment)",GitHub: Shahrukhalid/nexonic-iptv/playlists/countries/de.m3u,yeni_link
+DW Español,https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream04/streamPlaylist.m3u8,"çalışıyor (200, canlı segment)",GitHub: HasBahCa/IPTV-LIST-OLD/Amerika_ARGENTINA.m3u,yeni_link
+egoFM,https://streams.egofm.de/egoFM-hq,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/radio-to_live/germany.m3u,yeni_link
+egoFM,https://streams.egofm.de/egoFM-lq,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/raddio.net/germany.m3u,yeni_link
+ENERGY,https://edge59.streamonkey.net/energy-berlin/stream/mp3,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/+merged+/b/berlin.m3u,yeni_link
+ERF Jess,https://erf1068--di--nacs-ice-01--02--cdn.cast.addradio.de/erf1068/live/mp3/high,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/+merged+/b/bible.m3u,yeni_link
+ERF Plus,https://erf1a64--di--nacs-ice-01--01--cdn.cast.addradio.de/erf1a64/live/mp3/high,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/zeno.fm/German.m3u,yeni_link
+ERF Plus,https://stream.erfplus.de/erf-1a64/aac-64?ar-distributor=ffa5,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/+merged+/g/ger.m3u,yeni_link
+ERF Plus,https://erf1a64-live.cast.addradio.de/erf1a64/live/aac/low?ar-distributor=f0d1,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/openradio.app/loca-de.m3u,yeni_link
+Hit Radio FFH,https://streams.ffh.de/radioffh/mp3/hqlivestream.mp3?amsparams=playerid:RTFFHRadioDE,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/radio.net/top-40-and-charts.m3u,yeni_link
+Hitradio Ohr,https://frontend.streamonkey.net/fho-hitradioohrlive/stream/mp3,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/radio-to_live/germany.m3u,yeni_link
+HR 1,https://dispatcher.rndfnk.com/hr/hr1/live/mp3/low,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/allradio.net/German.m3u,yeni_link
+HR 1,https://dispatcher.rndfnk.com/hr/hr1/rheinmain/high,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi),yeni_link
+HR 1,https://hr-radio.ard-mcdn.de/hr/radio/hr1rm/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+HR 2 Kultur,https://dispatcher.rndfnk.com/hr/hr2/live/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/pcradio_app/culture.m3u,yeni_link
+HR 2 Kultur,https://hr-radio.ard-mcdn.de/hr/radio/hr2/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+HR 3,https://dispatcher.rndfnk.com/hr/hr3/rheinmain/high,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi),yeni_link
+HR 3,https://hr-radio.ard-mcdn.de/hr/radio/hr3rm/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+HR 4,https://dispatcher.rndfnk.com/hr/hr4/rheinmain/high,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi),yeni_link
+HR 4,https://hr-radio.ard-mcdn.de/hr/radio/hr4rm/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+HR Dasding,https://dispatcher.rndfnk.com/hr/dasding/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi),yeni_link
+HR Dasding,https://hr-radio.ard-mcdn.de/hr/radio/dasding/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+HR Info,https://hr-radio.ard-mcdn.de/hr/radio/hrinfo/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+HSE,https://hse24.akamaized.net/hls/live/2006663/hse24/master_576p25.m3u8,"çalışıyor (200, canlı segment)",GitHub: appeloper/contents/iptv/Germany.m3u,yeni_link
+K-TV,https://streamcdnm1-a19bf41486254a3485a864c8b0c14fe1.msvdn.net/live/S28743697/LpD0q2aoyujI/chunklist_b3392000.m3u8,"çalışıyor (200, canlı segment)",GitHub: iptv-ch/iptv-ch.github.io/webtv.m3u,yeni_link
+KIKA,https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master-540p-1600.m3u8,"çalışıyor (200, canlı segment)",GitHub: zovik209/Bibel-Goku/gokutv.m3u,yeni_link
+KIKA,https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master-360p-1328.m3u8,"çalışıyor (200, canlı segment)",GitHub: appeloper/contents/iptv/Germany.m3u,yeni_link
+KIKA,https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master-720p-3628.m3u8,"çalışıyor (200, canlı segment)",GitHub: mmserverspeicher/MMiptvLIST/iptv2.m3u,yeni_link
+KISS FM,https://stream.kissfm.de/kissfm/mp3-192,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/radio-mixer/Germany.m3u,yeni_link
+Klassik Radio,https://stream.klassikradio.de/live/mp3-128/Miquido,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/allradio.net/German.m3u,yeni_link
+Lilo TV,https://muc2.iptv-playoutcenter.de/volksmusik/volksmusik-sat1/playlist.m3u8,"master 200, alt liste 403 (sadece Almanya)",GitHub: iptv-ch/iptv-ch.github.io/webtv.m3u,yeni_link
+MDR Aktuell,https://radio-hls.mdr.de/hls/live/2112901/mdr-284340-0-hls/index.m3u8,"çalışıyor (200, canlı segment)",GitHub: junguler/m3u-radio-music-playlists/+merged+/g/ger.m3u,yeni_link
+MDR Aktuell,https://mdr-radio.ard-mcdn.de/mdr/radio/mdraktuell/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+MDR Jump,https://radio-hls.mdr.de/hls/live/2112904/mdr-284320-0-hls/index.m3u8,"çalışıyor (200, canlı segment)",GitHub: junguler/m3u-radio-music-playlists/+merged+/g/ger.m3u,yeni_link
+MDR Jump,https://mdr-radio.ard-mcdn.de/mdr/radio/mdrjump/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+MDR Kultur,https://radio-hls.mdr.de/hls/live/2112903/mdr-284310-0-hls/index.m3u8,"çalışıyor (200, canlı segment)",GitHub: junguler/m3u-radio-music-playlists/+merged+/g/ger.m3u,yeni_link
+MDR Kultur,https://mdr-radio.ard-mcdn.de/mdr/radio/mdrkultur/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+MDR Sachsen,https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsachsendd/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+MDR Sachsen-Anhalt,https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsachsenanhaltmd/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+MDR Sputnik,https://radio-hls.mdr.de/hls/live/2112905/mdr-284330-0-hls/index.m3u8,"çalışıyor (200, canlı segment)",GitHub: junguler/m3u-radio-music-playlists/+merged+/g/ger.m3u,yeni_link
+MDR Sputnik,https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsputnik/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+MDR Thüringen Mitte/West,https://mdr-radio.ard-mcdn.de/mdr/radio/mdrthueringenmwth/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+Melodie TV,https://183.bozztv.com/ssh101/ssh101/melodietvlive/playlist.m3u8,"çalışıyor (200, canlı segment)",GitHub: DEvmIb/famelack-channels-m3u/m3u/_dach.m3u,yeni_link
+N-Joy,https://ndr-radio.ard-mcdn.de/ndr/radio/njoy/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+NDR 1 Niedersachsen Hannover,https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1ndsh/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+NDR 1 Radio MV Schwerin,https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1mvsn/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+NDR 1 Welle Nord Kiel,https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1wnki/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+NDR 2,https://ndr-radio.ard-mcdn.de/ndr/radio/ndr2nds/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+NDR 90.3,https://ndr-radio.ard-mcdn.de/ndr/radio/ndr903/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+NDR Blue,https://ndr-radio.ard-mcdn.de/ndr/radio/ndrblue/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+NDR Info Niedersachsen,https://icecast.ndr.de/ndr/ndrinfo/niedersachsen/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/radio-to_live/germany.m3u,yeni_link
+NDR Info Niedersachsen,https://ndr-radio.ard-mcdn.de/ndr/radio/ndrinfo/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+NDR Info Spezial,https://ndr-radio.ard-mcdn.de/ndr/radio/ndrinfospezial/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+NDR Kultur,https://icecast.ndr.de/ndr/ndrkultur/live/mp3/256/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi),yeni_link
+NDR Kultur,https://ndr-radio.ard-mcdn.de/ndr/radio/ndrkultur/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+NDR Schlager,https://ndr-radio.ard-mcdn.de/ndr/radio/ndrschlager/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+Niederbayern TV Deggendorf-Straubing,https://stream03.welocal.stream/stream/fhd-nbydeggendorf_99148/ngrp:stream_all/chunklist_b946000.m3u8,"çalışıyor (200, canlı segment)",GitHub: appeloper/contents/iptv/Germany.m3u,yeni_link
+Niederbayern TV Landshut,https://stream03.welocal.stream/stream/fhd-nbylandshut_75262/ngrp:stream_all/chunklist_b946000.m3u8,"çalışıyor (200, canlı segment)",GitHub: appeloper/contents/iptv/Germany.m3u,yeni_link
+NRWision,https://fms.nrwision.de/live/livestreamHD.stream_360p/chunklist.m3u8,"çalışıyor (200, canlı segment)",GitHub: shiheb/iptv-player/World/Deutsch/deutsch.m3u,yeni_link
+NRWision,https://fms.nrwision.de/live/livestreamHD.stream_1080p/chunklist.m3u8,"çalışıyor (200, canlı segment)",GitHub: shiheb/iptv-player/World/Deutsch/deutsch.m3u,yeni_link
+NRWision,https://fms.nrwision.de/live/livestreamHD.stream_source/chunklist.m3u8,"çalışıyor (200, canlı segment)",GitHub: jbkunama1/hAI.iptv_List/de.m3u,yeni_link
+OK Kiel,https://live.oksh.de/play/hls/kieltv/index.m3u8,"çalışıyor (200, canlı segment)","GitHub: appeloper/contents/iptv/Germany.m3u (kanal 10-18de önerildi, onay bekliyor)",yeni_link
+R.SH,https://streams.rsh.de/rsh-live/aac-64/streams.rsh.de/,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/+merged+/g/ger.m3u,yeni_link
+radio B2,https://radiob2-national.cast.addradio.de/radiob2/national/mp3/high/stream.mp3?ar-distributor=f0b7,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/allradio.net/German.m3u,yeni_link
+Radio Bob,https://streams.radiobob.de/bob-live/mp3-192,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/radio-mixer/Germany.m3u,yeni_link
+Radio Bremen Fernsehen,https://rbhlslive.akamaized.net/hls/live/2020435/rbfs/master-720p-3200.m3u8,sadece Almanya (403),GitHub: shiheb/iptv-player/bilty/iptv,yeni_link
+Radio Duisburg,https://edge24.streamonkey.net/wf-radioduisburg/stream/mp3,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/my.world_tuner/checked/pop.m3u,yeni_link
+Radio Paloma,https://pool.radiopaloma.de/RADIOPALOMA.mp3,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/radio-mixer/Germany.m3u,yeni_link
+Radio Regenbogen,https://stream.regenbogen.de/mannheim/aac-128/tunein,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/raddio.net/germany.m3u,yeni_link
+Radio Regenbogen,https://stream.regenbogen.de/mannheim/mp3-128/onlineradiobox,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/non-stop-radio/de.m3u,yeni_link
+Radio SAW,https://stream.radiosaw.de/saw/mp3-128/radiode/stream.mp3,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/radio.net/top-40-and-charts.m3u,yeni_link
+Radio Teddy,https://streamtdy.ir-media-tec.com/live/mp3-128/radioplayer_web/play.mp3,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/web-radio_directory/Germany.m3u,yeni_link
+RBB 24 Inforadio,https://inforadio.akamaized.net/hls/live/2017004/rbb_inforadio/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+RBB Berlin,https://rbb-hls-berlin.akamaized.net/hls/live/2017824/rbb_berlin/master-360p-1328.m3u8,sadece Almanya (403),GitHub: shiheb/iptv-player/bilty/iptv,yeni_link
+RBB Fritz,https://fritz.akamaized.net/hls/live/2016997/rbb_fritz/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+RBB Radio Eins,https://dispatcher.rndfnk.com/rbb/radioeins/live/mp3/mid,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/streema/Germany.m3u,yeni_link
+RBB Radio Eins,https://radioeins.akamaized.net/hls/live/2016930/rbb_radioeins/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+rbbKultur,https://dispatcher.rndfnk.com/rbb/rbbkultur/live/mp3/mid,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/radio-to_live/germany.m3u,yeni_link
+rbbKultur,https://rbbkultur.akamaized.net/hls/live/2017006/rbb_rbbkultur/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+reboot.fm,https://stream.reboot.fm/listen/reboot.fm/radio.opus,"çalışıyor (206, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/wavely_radio/Culture.m3u,yeni_link
+RFH Harz,https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:RFH_high/index.m3u8,"çalışıyor (200, canlı segment)",GitHub: iptv-org/iptv/streams/de.m3u,yeni_link
+RFO Regional Fernsehen Oberbayern,https://stream01.welocal.stream/stream/fhd-rfo_66876/ngrp:stream_all/chunklist_b3628000.m3u8,"çalışıyor (200, canlı segment)",GitHub: appeloper/contents/iptv/Germany.m3u,yeni_link
+Rock Antenne,https://stream.rockantenne.de/rockantenne/stream/mp3,"çalışıyor (200, ses akışı)",GitHub: iptv-org/iptv/streams/de.m3u,yeni_link
+Rockland Radio,https://streams.rockland.de/mainz/mp3-192/onlineradiobox/,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/live-radio-24/germany.m3u,yeni_link
+Rockland Radio,https://stream.rockland-digital.de/rockland/mp3-128/mytuner-radio/stream.mp3,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/live-radio-24/germany.m3u,yeni_link
+RPR1,https://streams.rpr1.de/rpr-simulcast-128-mp3,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/openradio.app/loca-de.m3u,yeni_link
+RPR1,https://stream.rpr1.de/webradio/128-mp3/raddio,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/raddio.net/germany.m3u,yeni_link
+Schlagerparadies,https://webstream.schlagerparadies.de/schlagerparadies128k.mp3,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/app_radio-fm/locations/0-9/_Berlin_Germany.m3u,yeni_link
+Schwarzwaldradio,https://frontend.streamonkey.net/fho-schwarzwaldradiolive/stream/mp3?aggregator=mytuner-radiocom,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/non-stop-radio/de.m3u,yeni_link
+SR 1,https://sr.audiostream.io/sr/1009/mp3/128/sr1.mp3,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/radio-to_live/germany.m3u,yeni_link
+SR 1,https://sr-radio.ard-mcdn.de/sr/radio/sr1/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+SR 3 Saarlandwelle,https://sr.audiostream.io/sr/1011/mp3/128/sr3.mp3,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/radio-to_live/germany.m3u,yeni_link
+SR 3 Saarlandwelle,https://sr-radio.ard-mcdn.de/sr/radio/sr3/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+SR 3 Saarlandwelle,https://liveradio.sr.de/sr/sr3/mp3/128/stream.mp3?aggregator=ard-at,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi),yeni_link
+SR Kultur,https://sr-radio.ard-mcdn.de/sr/radio/srkultur/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+SWR 1 Baden-Württemberg,https://liveradio.swr.de/sw73hl2/swr1bw/play.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+SWR 1 Baden-Württemberg,https://liveradio.swr.de/sw331ch/swr1bw/play.aac,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi),yeni_link
+SWR 1 Rheinland-Pfalz,https://liveradio.swr.de/sw73hl2/swr1rp/play.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+SWR 1 Rheinland-Pfalz,https://liveradio.swr.de/sw331ch/swr1rp/play.aac,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi),yeni_link
+SWR 3,https://dispatcher.rndfnk.com/swr/swr3/live/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/non-stop-radio/de.m3u,yeni_link
+SWR 3,https://liveradio.swr.de/sw73hl2/swr3/play.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+SWR 4 Mainz,https://liveradio.swr.de/sw73hl2/swr4rp/play.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+SWR 4 Mainz,https://liveradio.swr.de/sw331ch/swr4rp/play.aac,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi),yeni_link
+SWR 4 Stuttgart,https://liveradio.swr.de/sw73hl2/swr4bw/play.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+SWR 4 Stuttgart,https://liveradio.swr.de/sw331ch/swr4bw/play.aac,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi),yeni_link
+SWR Aktuell,https://liveradio.swr.de/sw73hl2/swraktuell/play.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+SWR Aktuell,https://liveradio.swr.de/sw331ch/swraktuell/play.aac,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi),yeni_link
+SWR Dasding,https://swrdasdingvr-hls.akamaized.net/hls/live/2018681/dasdingvr/master.m3u8,"çalışıyor (200, canlı segment)",GitHub: iptv-ch/iptv-ch.github.io/webtv.m3u,yeni_link
+SWR Dasding,https://liveradio.swr.de/sw73hl2/dasding/play.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+SWR Dasding,https://liveradio.swr.de/sw331ch/dasding/play.aac,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi),yeni_link
+SWR Kultur,https://liveradio.swr.de/sw282p3/swr2/play.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi),yeni_link
+SWR Kultur,https://liveradio.swr.de/sw73hl2/swr2/play.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+SWR Kultur,https://liveradio.swr.de/sw331ch/swr2/play.aac,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi),yeni_link
+SWR4,https://liveradio.swr.de/sw282p3/swr4kl/play.mp3,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/non-stop-radio/de.m3u,yeni_link
+Tagesschau 24,https://tagesschau.akamaized.net/hls/live/2020117/tagesschau/tagesschau_3/master-720p-3328.m3u8,sadece Almanya (403),GitHub: shiheb/iptv-player/bilty/iptv,yeni_link
+TV Mainfranken,https://stream01.welocal.stream/stream/fhd-tvmainfranken_255661/ngrp:stream_all/chunklist_b946000.m3u8,"çalışıyor (200, canlı segment)",GitHub: appeloper/contents/iptv/Germany.m3u,yeni_link
+TV Oberfranken,https://stream02.welocal.stream/stream/fhd-tvo_480355/ngrp:stream_all/playlist.m3u8,"çalışıyor (200, canlı segment)",GitHub: mmserverspeicher/MMiptvLIST/MMiptvLIST.m3u,yeni_link
+WDR 2 Rhein und Ruhr,https://wdr-radio.ard-mcdn.de/wdr/radio/wdr2rr/hls/master.m3u8,"çalışıyor (200, canlı segment)",GitHub: junguler/m3u-radio-music-playlists/+merged+/g/ger.m3u,yeni_link
+WDR 3,https://wdr-radio.ard-mcdn.de/wdr/radio/wdr3/hls/master.m3u8,"çalışıyor (200, canlı segment)",GitHub: junguler/m3u-radio-music-playlists/+merged+/g/ger.m3u,yeni_link
+WDR 3,https://wdr-radio.ard-mcdn.de/wdr/radio/wdr3hd/hls/master.m3u8,"çalışıyor (200, canlı segment)",GitHub: junguler/m3u-radio-music-playlists/+merged+/g/ger.m3u,yeni_link
+WDR 3,https://wdr-wdr3-live.icecastssl.wdr.de/wdr/wdr3/live/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/radio-to_live/germany.m3u,yeni_link
+WDR 3,https://wdr-wdr3-live.icecastssl.wdr.de/wdr/wdr3/live/mp3/256/stream.mp3?aggregator=web,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi),yeni_link
+WDR 4,https://icecast.wdr.de/wdr/wdr4/rheinruhr/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",ARD Audiothek API (resmi),yeni_link
+WDR 4,https://wdr-radio.ard-mcdn.de/wdr/radio/wdr4rr/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+WDR 5,https://wdrhf.akamaized.net/hls/live/2027996-b/wdr5/192/seglist.m3u8,"çalışıyor (200, canlı segment)",GitHub: junguler/m3u-radio-music-playlists/+merged+/g/ger.m3u,yeni_link
+WDR Die Maus,https://wdr-radio.ard-mcdn.de/wdr/radio/diemaus/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD Audiothek API (resmi),yeni_link
+WDR Event,https://wdr-wdr-event.icecastssl.wdr.de/wdr/wdr/event/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",GitHub: junguler/m3u-radio-music-playlists/radio-to_live/germany.m3u,yeni_link
+WDR Fernsehen Köln,https://wdrfsww247.akamaized.net/hls/live/2009628/wdr_msl4_fs247ww/master_1728.m3u8,"çalışıyor (200, canlı segment)",GitHub: appeloper/contents/iptv/Germany.m3u,yeni_link
+Welt,https://welt.personalstream.tv/v1/master.m3u8?ads.country=de&ads.pf=welttv,"sadece Almanya (401, yanıt: ""geo restricted"")",Resmi: welt.de/tv-programm-live-stream sayfası,yeni_link
+Welt der Wunder TV,https://wdw.iptv-playoutcenter.de/wdw/wdw1/chunks.m3u8,"liste 200, segment 403 (sadece Almanya)",GitHub: PrinzMichiDE/iptv-germany/iptv4.m3u,yeni_link
+WTV (OK Wettin),https://wtvlive.b-cdn.net/playlist.m3u8,"çalışıyor (200, canlı segment)",GitHub: hst1189/m3u-iptv/m3u/1_iptv-org_iptv/regions/wer.m3u,yeni_link
+YOU FM (mp3/high),https://hlsyoufm.akamaized.net/hls/live/2016538/youfm/master.m3u8,"çalışıyor (200, canlı segment)",GitHub: junguler/m3u-radio-music-playlists/allradio.net/Germany.m3u,yeni_link
+ZDF,https://zdf-hls-01.akamaized.net/hls/live/2016498/de/de/master.m3u8,sadece Almanya (403),GitHub: Sia812/iptv-listr/iptv_de_ir_pl.m3u,yeni_link
+h-eins.tv,https://5857499ee635b.streamlock.net/heinstv-live/_definst_/smil:livestream.smil/playlist.m3u8,olu (TLS bağlantı hatası x3; WebFetch HTTP 500),katalog yeniden testi (3 deneme),olu_link
+HR 1,https://hlshr1.akamaized.net/hls/live/2016533/hr1/master.m3u8,"olu (bayat yayın: ENDLIST, son segment tarihi 2026-02-16)",katalog yeniden testi (3 deneme); resmi yedek: ARD Audiothek hr1 HLS (yeni_link olarak listede),olu_link
+QVC Style Deutschland,https://qvcde-live.akamaized.net/hls/live/2097104/qby/master.m3u8,"olu (master 200, tüm varyantlar 404)",katalog yeniden testi (3 deneme),olu_link
+QVC Zwei,https://qvcde-live.akamaized.net/hls/live/2097104/qps/master.m3u8,"olu (master 200, tüm varyantlar 404)",katalog yeniden testi (3 deneme),olu_link
+Radio Weser TV Bremen,https://5857499ee635b.streamlock.net/radiowesertv-live/mp4:livestreamTV/playlist.m3u8,olu (TLS bağlantı hatası x3; WebFetch HTTP 500),katalog yeniden testi (3 deneme),olu_link
+Radio Weser TV Bremen,https://5857499ee635b.streamlock.net/radiowesertv-live/_definst_/mp4:livestreamTV/playlist.m3u8,olu (TLS bağlantı hatası x3; WebFetch HTTP 500),katalog yeniden testi (3 deneme),olu_link
+Radio Weser TV Bremen,https://5857499ee635b.streamlock.net/radiowesertv-live/_definst_/mp4:livestreamHFHB/playlist.m3u8,olu (TLS bağlantı hatası x3; WebFetch HTTP 500),katalog yeniden testi (3 deneme),olu_link
