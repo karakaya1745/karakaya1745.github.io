@@ -854,12 +854,16 @@ https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:ok-dessau_high
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:ok-magdeburg_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-ok-merseburg-querfurt" tvg-name="OK Merseburg-Querfurt" group-title="yerel",OK Merseburg-Querfurt (1)
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:ok-merseburg_high/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-ok-merseburg-querfurt" tvg-name="OK Merseburg-Querfurt" group-title="yerel",OK Merseburg-Querfurt (2)
+https://h056.video-stream-hosting.de/medienasa-live/ok-merseburg_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-ok-salzwedel" tvg-name="OK Salzwedel" group-title="yerel",OK Salzwedel (1)
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:ok-salzwedel_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-ok-stendal" tvg-name="OK Stendal" group-title="yerel",OK Stendal (1)
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:ok-stendal_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-ok-wernigerode" tvg-name="OK Wernigerode" group-title="yerel",OK Wernigerode (1)
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:ok-wernigerode_high/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-ok-wernigerode" tvg-name="OK Wernigerode" group-title="yerel",OK Wernigerode (2)
+https://h056.video-stream-hosting.de/medienasa-live/_definst_/ok-wernigerode_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-punktum-fernsehen" tvg-name="PUNKTum Fernsehen" group-title="yerel",PUNKTum Fernsehen (1)
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:punktum_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-ran1" tvg-name="RAN1" group-title="yerel",RAN1 (1)

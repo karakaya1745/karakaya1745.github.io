@@ -1,0 +1,52 @@
+kanal,link,durum,kaynak,tur
+OK Wernigerode,https://h056.video-stream-hosting.de/medienasa-live/_definst_/ok-wernigerode_high/playlist.m3u8,"çalışıyor (200, canlı segment)",GitHub kod araması: crossplatformdev/freetuxtvwall,yeni_link
+OK Merseburg-Querfurt,https://h056.video-stream-hosting.de/medienasa-live/ok-merseburg_high/playlist.m3u8,"çalışıyor (200, canlı segment)",GitHub kod araması: junguler/m3u-radio-music-playlists,yeni_link
+MDR Schlagerwelt,https://mdr-radio-hls.akamaized.net/hls/live/2112911/mdr-990701-0-hls/index.m3u8,"çalışıyor (200, canlı segment)",GitHub kod araması: junguler/m3u-radio-music-playlists,yeni_link
+MDR Schlagerwelt,https://avw.mdr.de/streams/990701-0_aac_high.m3u,"çalışıyor (200, canlı segment)",GitHub kod araması (resmi MDR avw),yeni_link
+MDR Kultur,https://mdr-284311-0.sslcast.mdr.de/mdr/284311/0/mp3/max/stream.mp3,"çalışıyor (200, ses akışı)",radio-browser API,yeni_link
+MDR Kultur,https://avw.mdr.de/streams/284310-0_aac_high.m3u,"çalışıyor (200, canlı segment)",GitHub kod araması (resmi MDR avw),yeni_link
+MDR Sachsen-Anhalt,https://avw.mdr.de/streams/284290-2_aac_high.m3u,"çalışıyor (200, canlı segment)",GitHub kod araması (resmi MDR avw),yeni_link
+MDR Sputnik,https://avw.mdr.de/streams/284330-0_aac_high.m3u,"çalışıyor (200, canlı segment)",GitHub kod araması (resmi MDR avw),yeni_link
+MDR Jump,https://avw.mdr.de/streams/284320-0_aac_high.m3u,"çalışıyor (200, canlı segment)",GitHub kod araması (resmi MDR avw),yeni_link
+SWR 1 Baden-Württemberg,https://liveradio.swr.de/sw890cl/swr1bw/,"çalışıyor (200, ses akışı)",radio-browser API,yeni_link
+SWR 1 Baden-Württemberg,https://liveradio.swr.de/sw331ch/swr1bw/,"çalışıyor (200, ses akışı)",radio-browser API,yeni_link
+SWR 1 Rheinland-Pfalz,https://liveradio.swr.de/sw890cl/swr1rp/,"çalışıyor (200, ses akışı)",radio-browser API,yeni_link
+SWR4,https://liveradio.swr.de/sw331ch/swr4bw/,"çalışıyor (200, ses akışı)",radio-browser API,yeni_link
+SWR4 Freiburg,https://liveradio.swr.de/myt11m3/swr4fr/play.mp3,"çalışıyor (200, ses akışı)",GitHub kod araması: junguler/m3u-radio-music-playlists,yeni_link
+WDR 2 Ruhrgebiet,https://wdr-wdr2-ruhrgebiet.icecastssl.wdr.de/wdr/wdr2/ruhrgebiet/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",radio-browser API + GitHub,yeni_link
+WDR 2 Ostwestfalen Lippe,https://wdrhf.akamaized.net/hls/live/2027967/wdr2ostwestfalenlippe/192/seglist.m3u8,"çalışıyor (200, canlı segment)",radio-browser API,yeni_link
+Schwarzwaldradio,https://edge05.streamonkey.net/fho-schwarzwaldradiolive/stream/mp3,"çalışıyor (200, ses akışı)",GitHub kod araması: junguler/m3u-radio-music-playlists,yeni_link
+Schwarzwaldradio,https://frontend.streamonkey.net/fho-schwarzwaldradiolive/stream/aacp,"çalışıyor (200, ses akışı)",radio-browser API,yeni_link
+Antenne Niedersachsen,https://stream.antenne.com/reg01/mp3-192/Web/,"çalışıyor (200, ses akışı)",radio-browser API,yeni_link
+DONAU 3 FM,https://frontend.streamonkey.net/donau3fm-live,"çalışıyor (200, ses akışı)",GitHub kod araması: junguler/m3u-radio-music-playlists,yeni_link
+Hitradio Ohr,https://frontend.streamonkey.net/fho-hitradioohrlive/aac-stream.m3u,"çalışıyor (200, canlı segment)",GitHub kod araması: junguler/m3u-radio-music-playlists,yeni_link
+Klassik Radio,https://stream.klassikradio.de/klassikradio/aac-64/stream.klassikradio.de,"çalışıyor (200, ses akışı)",GitHub kod araması: junguler/m3u-radio-music-playlists,yeni_link
+Radio 7,https://streams.radio7.de/ulm/mp3-192/web/play.m3u,"çalışıyor (200, ses akışı)",GitHub kod araması: junguler/m3u-radio-music-playlists,yeni_link
+Querfunk Karlsruhe,https://stream.querfunk.de/qfhi/hls.m3u8,"çalışıyor (200, canlı segment)",GitHub kod araması: junguler/m3u-radio-music-playlists,yeni_link
+Ostseewelle,https://ostseewelle-hhsh.cast.addradio.de/ostseewelle/hhsh/mp3/high,"çalışıyor (200, ses akışı)",GitHub kod araması: junguler/m3u-radio-music-playlists,yeni_link
+Radio Köln,https://radiokoeln-live.cast.addradio.de/radiokoeln/live/mp3/high,"çalışıyor (200, ses akışı)",GitHub kod araması: junguler/m3u-radio-music-playlists,yeni_link
+Star*Sat Radio,https://starsat-live.cast.addradio.de/starsat/live/mp3/high/stream.mp3,"çalışıyor (200, ses akışı)",GitHub kod araması: junguler/m3u-radio-music-playlists,yeni_kanal
+Radio Bonn/Rhein-Sieg,https://rbrs-live.cast.addradio.de/rbrs/live/mp3/high,"çalışıyor (200, ses akışı)",radio-browser API + GitHub,yeni_kanal
+Radio Berg,https://radioberg-live.cast.addradio.de/radioberg/live/mp3/high,"çalışıyor (200, ses akışı)",GitHub kod araması: junguler/m3u-radio-music-playlists,yeni_kanal
+Radio Erft,https://radioerft-live.cast.addradio.de/radioerft/live/mp3/high,"çalışıyor (200, ses akışı)",GitHub kod araması: junguler/m3u-radio-music-playlists,yeni_kanal
+Radio Euskirchen,https://radioeuskirchen-live.cast.addradio.de/radioeuskirchen/live/mp3/high,"çalışıyor (200, ses akışı)",GitHub kod araması: junguler/m3u-radio-music-playlists,yeni_kanal
+Radio Gütersloh,https://radioguetersloh-live.cast.addradio.de/radioguetersloh/live/mp3/high,"çalışıyor (200, ses akışı)",GitHub kod araması: junguler/m3u-radio-music-playlists,yeni_kanal
+Radio Neandertal,https://neandertal-live.cast.addradio.de/neandertal/live/mp3/high,"çalışıyor (200, ses akışı)",GitHub kod araması: junguler/m3u-radio-music-playlists,yeni_kanal
+Radio Lippe,https://radiolippe-live.cast.addradio.de/radiolippe/live/mp3/high,"çalışıyor (200, ses akışı)",radio-browser API + GitHub,yeni_kanal
+Radio WAF,https://radiowaf--di--nacs-ais-lgc--05--cdn.cast.addradio.de/radiowaf/live/mp3/high,"çalışıyor (200, ses akışı)",radio-browser API + GitHub,yeni_kanal
+Radio 91.2 Dortmund,https://radio912--di--nacs-ais-lgc--0c--cdn.cast.addradio.de/radio912/live/mp3/high,"çalışıyor (200, ses akışı)",radio-browser API,yeni_kanal
+Antenne Unna,https://antenneunna--di--nacs-ais-lgc--07--cdn.cast.addradio.de/antenneunna/live/mp3/high,"çalışıyor (200, ses akışı)",GitHub kod araması: junguler/m3u-radio-music-playlists,yeni_kanal
+Radio MK,https://radiomk--di--nacs-ais-lgc--05--cdn.cast.addradio.de/radiomk/live/mp3/high,"çalışıyor (200, ses akışı)",GitHub kod araması: junguler/m3u-radio-music-playlists,yeni_kanal
+NE-WS 89.4,https://news894--di--nacs-ais-lgc--0a--cdn.cast.addradio.de/news894/live/mp3/high,"çalışıyor (200, ses akışı)",GitHub kod araması: junguler/m3u-radio-music-playlists,yeni_kanal
+Radio Gold,https://radiogold-live.cast.addradio.de/radiogold/live/mp3/high/stream.mp3,"çalışıyor (200, ses akışı)",GitHub kod araması: junguler/m3u-radio-music-playlists,yeni_kanal
+Antenne Mainz,https://antennemainz-live.cast.addradio.de/antennemainz/live/mp3/high,"çalışıyor (200, ses akışı)",GitHub kod araması: junguler/m3u-radio-music-playlists,yeni_kanal
+Radio Galaxy Weiden,https://radiogalaxyweiden-live.cast.addradio.de/radiogalaxyweiden/live/mp3/high,"çalışıyor (200, ses akışı)",GitHub kod araması: junguler/m3u-radio-music-playlists,yeni_kanal
+Radio Trausnitz,https://radiotrausnitz.cast.addradio.de/radiotrausnitz/live/aac/low,"çalışıyor (200, ses akışı)",GitHub kod araması: junguler/m3u-radio-music-playlists,yeni_kanal
+Welt,https://welt.personalstream.tv/v1/master.m3u8?ads.country=de&ads.pf=welttv,ölü (401),katalog rev 6 yeniden test,olu_mevcut
+QVC Style Deutschland,https://qvcde-live.akamaized.net/hls/live/2097104/qby/master.m3u8,"master 200, alt liste 404",katalog rev 6 yeniden test,olu_mevcut
+QVC Zwei,https://qvcde-live.akamaized.net/hls/live/2097104/qps/master.m3u8,"master 200, alt liste 404",katalog rev 6 yeniden test,olu_mevcut
+Radio Weser TV Bremen,https://5857499ee635b.streamlock.net/radiowesertv-live/mp4:livestreamTV/playlist.m3u8,ölü (000),katalog rev 6 yeniden test,olu_mevcut
+Radio Weser TV Bremen,https://5857499ee635b.streamlock.net/radiowesertv-live/_definst_/mp4:livestreamTV/playlist.m3u8,ölü (000),katalog rev 6 yeniden test,olu_mevcut
+Radio Weser TV Bremen,https://5857499ee635b.streamlock.net/radiowesertv-live/_definst_/mp4:livestreamHFHB/playlist.m3u8,ölü (000),katalog rev 6 yeniden test,olu_mevcut
+h-eins.tv,https://5857499ee635b.streamlock.net/heinstv-live/_definst_/smil:livestream.smil/playlist.m3u8,ölü (000),katalog rev 6 yeniden test,olu_mevcut
+HR 1,https://hlshr1.akamaized.net/hls/live/2016533/hr1/master.m3u8,"şüpheli (ENDLIST, canlı değil)",katalog rev 6 yeniden test,olu_mevcut
