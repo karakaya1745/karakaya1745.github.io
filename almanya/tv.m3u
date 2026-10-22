@@ -22,6 +22,8 @@ https://derste247liveint.akamaized.net/hls/live/662735/daserste_int/master.m3u8
 https://derste247livede.akamaized.net/hls/live/658317/daserste_de/master.m3u8
 #EXTINF:-1 tvg-id="tv-das-erste" tvg-name="Das Erste" group-title="public",Das Erste (11)
 https://derste247liveint.akamaized.net/hls/live/662735/daserste_int/master720p3200.m3u8
+#EXTINF:-1 tvg-id="tv-das-erste" tvg-name="Das Erste" group-title="public",Das Erste (12)
+https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master540p1800.m3u8
 #EXTINF:-1 tvg-id="tv-zdf" tvg-name="ZDF" group-title="public",ZDF (1)
 https://zdf-hls-15.akamaized.net/hls/live/2016498/de/veryhigh/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf" tvg-name="ZDF" group-title="public",ZDF (2)
@@ -89,9 +91,27 @@ https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (6)
 https://tagesschau.akamaized.net/hls/live/2020116/tagesschau/tagesschau_2/master-720p-3328.m3u8
 #EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (7)
-https://tagesschau.akamaized.net/hls/live/2020117/tagesschau/tagesschau_3/master.m3u8
+https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master1080p5000.m3u8
 #EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (8)
+https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master720p3200.m3u8
+#EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (9)
+https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master540p1800.m3u8
+#EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (10)
+https://icecast.tagesschau.de/ndr/tagesschau24/live/mp3/128/stream.mp3
+#EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (11)
+https://tagesschau.akamaized.net/hls/live/2020117/tagesschau/tagesschau_3/master.m3u8
+#EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (12)
 https://tagesschau.akamaized.net/hls/live/2020117/tagesschau/tagesschau_3/master-720p-3328.m3u8
+#EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (13)
+https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/int/master.m3u8
+#EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (14)
+https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/int/master1080p5000.m3u8
+#EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (15)
+https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/int/master720p3200.m3u8
+#EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (16)
+https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/int/master540p1800.m3u8
+#EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (17)
+https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/int/master360p1200.m3u8
 #EXTINF:-1 tvg-id="tv-kika" tvg-name="KIKA" group-title="public",KIKA (1)
 https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8
 #EXTINF:-1 tvg-id="tv-kika" tvg-name="KIKA" group-title="public",KIKA (2)
@@ -118,6 +138,16 @@ https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master-540p-1600.m3
 https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master-360p-1328.m3u8
 #EXTINF:-1 tvg-id="tv-kika" tvg-name="KIKA" group-title="public",KIKA (13)
 https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master-720p-3628.m3u8
+#EXTINF:-1 tvg-id="tv-kika" tvg-name="KIKA" group-title="public",KIKA (14)
+https://kika-live.ard-mcdn.de/kika/live/hls/de/master1080p5000.m3u8
+#EXTINF:-1 tvg-id="tv-kika" tvg-name="KIKA" group-title="public",KIKA (15)
+https://kika-live.ard-mcdn.de/kika/live/hls/de/master720p3200.m3u8
+#EXTINF:-1 tvg-id="tv-kika" tvg-name="KIKA" group-title="public",KIKA (16)
+https://kika-live.ard-mcdn.de/kika/live/hls/de/master540p1800.m3u8
+#EXTINF:-1 tvg-id="tv-kika" tvg-name="KIKA" group-title="public",KIKA (17)
+https://kika-live.ard-mcdn.de/kika/live/hls/de/master360p1200.m3u8
+#EXTINF:-1 tvg-id="tv-kika" tvg-name="KIKA" group-title="public",KIKA (18)
+https://kika-live.ard-mcdn.de/kika/live/hls/int/master1080p5000.m3u8
 #EXTINF:-1 tvg-id="tv-zdf-neo" tvg-name="ZDF Neo" group-title="public",ZDF Neo (1)
 https://zdf-hls-16.akamaized.net/hls/live/2016499/de/veryhigh/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf-neo" tvg-name="ZDF Neo" group-title="public",ZDF Neo (2)
@@ -200,6 +230,14 @@ https://hr-live.ard-mcdn.de/hr/live/hls/de/master.m3u8
 https://hrhls.akamaized.net/hls/live/2024525/hrhls/master.m3u8
 #EXTINF:-1 tvg-id="tv-hr-fernsehen" tvg-name="HR Fernsehen" group-title="regional",HR Fernsehen (8)
 https://hrhlsde.akamaized.net/hls/live/2024526/hrhlsde/index.m3u8
+#EXTINF:-1 tvg-id="tv-hr-fernsehen" tvg-name="HR Fernsehen" group-title="regional",HR Fernsehen (9)
+https://hr-live.ard-mcdn.de/hr/live/hls/de/master1080p5000.m3u8
+#EXTINF:-1 tvg-id="tv-hr-fernsehen" tvg-name="HR Fernsehen" group-title="regional",HR Fernsehen (10)
+https://hr-live.ard-mcdn.de/hr/live/hls/de/master720p3200.m3u8
+#EXTINF:-1 tvg-id="tv-hr-fernsehen" tvg-name="HR Fernsehen" group-title="regional",HR Fernsehen (11)
+https://hr-live.ard-mcdn.de/hr/live/hls/de/master540p1800.m3u8
+#EXTINF:-1 tvg-id="tv-hr-fernsehen" tvg-name="HR Fernsehen" group-title="regional",HR Fernsehen (12)
+https://hr-live.ard-mcdn.de/hr/live/hls/de/master360p1200.m3u8
 #EXTINF:-1 tvg-id="tv-mdr-fernsehen-sachsen" tvg-name="MDR Fernsehen Sachsen" group-title="regional",MDR Fernsehen Sachsen (1)
 https://mdrtvsnhls.akamaized.net/hls/live/2016928/mdrtvsn/master.m3u8
 #EXTINF:-1 tvg-id="tv-mdr-fernsehen-sachsen" tvg-name="MDR Fernsehen Sachsen" group-title="regional",MDR Fernsehen Sachsen (2)
@@ -208,6 +246,16 @@ https://mdrtvsnhls.akamaized.net/hls/live/2016928/mdrtvsn/index.m3u8
 https://mdr-live.ard-mcdn.de/mdr/live/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="tv-mdr-fernsehen-sachsen" tvg-name="MDR Fernsehen Sachsen" group-title="regional",MDR Fernsehen Sachsen (4)
 https://mdrtvsnhls.akamaized.net/hls/live/2016928/mdrtvsn/master_1280x720.m3u8
+#EXTINF:-1 tvg-id="tv-mdr-fernsehen-sachsen" tvg-name="MDR Fernsehen Sachsen" group-title="regional",MDR Fernsehen Sachsen (5)
+https://mdr-live.ard-mcdn.de/mdr/live/hls/de/master1080p5000.m3u8
+#EXTINF:-1 tvg-id="tv-mdr-fernsehen-sachsen" tvg-name="MDR Fernsehen Sachsen" group-title="regional",MDR Fernsehen Sachsen (6)
+https://mdr-live.ard-mcdn.de/mdr/live/hls/de/master720p3200.m3u8
+#EXTINF:-1 tvg-id="tv-mdr-fernsehen-sachsen" tvg-name="MDR Fernsehen Sachsen" group-title="regional",MDR Fernsehen Sachsen (7)
+https://mdr-live.ard-mcdn.de/mdr/live/hls/de/master540p1800.m3u8
+#EXTINF:-1 tvg-id="tv-mdr-fernsehen-sachsen" tvg-name="MDR Fernsehen Sachsen" group-title="regional",MDR Fernsehen Sachsen (8)
+https://mdr-live.ard-mcdn.de/mdr/live/hls/de/master360p1200.m3u8
+#EXTINF:-1 tvg-id="tv-mdr-fernsehen-sachsen" tvg-name="MDR Fernsehen Sachsen" group-title="regional",MDR Fernsehen Sachsen (9)
+https://mdr-live.ard-mcdn.de/mdr/live/hls/int/master360p1200.m3u8
 #EXTINF:-1 tvg-id="tv-mdr-fernsehen-sachsen-anhalt" tvg-name="MDR Fernsehen Sachsen-Anhalt" group-title="regional",MDR Fernsehen Sachsen-Anhalt (1)
 https://mdrtvsahls.akamaized.net/hls/live/2016879/mdrtvsa/master.m3u8
 #EXTINF:-1 tvg-id="tv-mdr-fernsehen-sachsen-anhalt" tvg-name="MDR Fernsehen Sachsen-Anhalt" group-title="regional",MDR Fernsehen Sachsen-Anhalt (2)
@@ -300,6 +348,24 @@ https://srfs.akamaized.net/hls/live/689649/srfsgeo/master-720p-3328.m3u8
 https://srfs.akamaized.net/hls/live/689649/srfsgeo/master.m3u8
 #EXTINF:-1 tvg-id="tv-sr-fernsehen" tvg-name="SR Fernsehen" group-title="regional",SR Fernsehen (6)
 https://sr-live.ard-mcdn.de/sr/live/hls/de/master.m3u8
+#EXTINF:-1 tvg-id="tv-sr-fernsehen" tvg-name="SR Fernsehen" group-title="regional",SR Fernsehen (7)
+https://sr-live.ard-mcdn.de/sr/live/hls/de/master1080p5000.m3u8
+#EXTINF:-1 tvg-id="tv-sr-fernsehen" tvg-name="SR Fernsehen" group-title="regional",SR Fernsehen (8)
+https://sr-live.ard-mcdn.de/sr/live/hls/de/master720p3200.m3u8
+#EXTINF:-1 tvg-id="tv-sr-fernsehen" tvg-name="SR Fernsehen" group-title="regional",SR Fernsehen (9)
+https://sr-live.ard-mcdn.de/sr/live/hls/de/master540p1800.m3u8
+#EXTINF:-1 tvg-id="tv-sr-fernsehen" tvg-name="SR Fernsehen" group-title="regional",SR Fernsehen (10)
+https://sr-live.ard-mcdn.de/sr/live/hls/de/master360p1200.m3u8
+#EXTINF:-1 tvg-id="tv-sr-fernsehen" tvg-name="SR Fernsehen" group-title="regional",SR Fernsehen (11)
+https://sr-live.ard-mcdn.de/sr/live/hls/int/master.m3u8
+#EXTINF:-1 tvg-id="tv-sr-fernsehen" tvg-name="SR Fernsehen" group-title="regional",SR Fernsehen (12)
+https://sr-live.ard-mcdn.de/sr/live/hls/int/master1080p5000.m3u8
+#EXTINF:-1 tvg-id="tv-sr-fernsehen" tvg-name="SR Fernsehen" group-title="regional",SR Fernsehen (13)
+https://sr-live.ard-mcdn.de/sr/live/hls/int/master720p3200.m3u8
+#EXTINF:-1 tvg-id="tv-sr-fernsehen" tvg-name="SR Fernsehen" group-title="regional",SR Fernsehen (14)
+https://sr-live.ard-mcdn.de/sr/live/hls/int/master540p1800.m3u8
+#EXTINF:-1 tvg-id="tv-sr-fernsehen" tvg-name="SR Fernsehen" group-title="regional",SR Fernsehen (15)
+https://sr-live.ard-mcdn.de/sr/live/hls/int/master360p1200.m3u8
 #EXTINF:-1 tvg-id="tv-swr-fernsehen-baden-wuerttemberg" tvg-name="SWR Fernsehen Baden-Württemberg" group-title="regional",SWR Fernsehen Baden-Württemberg (1)
 https://swrbwd-hls.akamaized.net/hls/live/2018672/swrbwd/master.m3u8
 #EXTINF:-1 tvg-id="tv-swr-fernsehen-baden-wuerttemberg" tvg-name="SWR Fernsehen Baden-Württemberg" group-title="regional",SWR Fernsehen Baden-Württemberg (2)
@@ -338,6 +404,14 @@ https://wdrfs247.akamaized.net/hls/live/681509/wdr_msl4_fs247/master.m3u8
 https://wdrfsww247.akamaized.net/hls/live/2009628/wdr_msl4_fs247ww/master.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-fernsehen-koeln" tvg-name="WDR Fernsehen Köln" group-title="regional",WDR Fernsehen Köln (14)
 https://wdrfsww247.akamaized.net/hls/live/2009628/wdr_msl4_fs247ww/master_1728.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-fernsehen-koeln" tvg-name="WDR Fernsehen Köln" group-title="regional",WDR Fernsehen Köln (15)
+https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master1080p5000.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-fernsehen-koeln" tvg-name="WDR Fernsehen Köln" group-title="regional",WDR Fernsehen Köln (16)
+https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master720p3200.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-fernsehen-koeln" tvg-name="WDR Fernsehen Köln" group-title="regional",WDR Fernsehen Köln (17)
+https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master540p1800.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-fernsehen-koeln" tvg-name="WDR Fernsehen Köln" group-title="regional",WDR Fernsehen Köln (18)
+https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master360p1200.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-koeln" tvg-name="WDR Studio Köln" group-title="regional",WDR Studio Köln (1)
 https://wdrlokalzeit.akamaized.net/hls/live/2023550-b/wdrlz_koeln/master.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-koeln" tvg-name="WDR Studio Köln" group-title="regional",WDR Studio Köln (2)
@@ -404,6 +478,12 @@ https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master.m3u8
 https://wdrlokalzeit.akamaized.net/hls/live/2018028/wdrlz_wuppertal/index.m3u8
 #EXTINF:-1 tvg-id="tv-deutsche-welle" tvg-name="Deutsche Welle" group-title="news",Deutsche Welle (1)
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+#EXTINF:-1 tvg-id="tv-deutsche-welle" tvg-name="Deutsche Welle" group-title="news",Deutsche Welle (2)
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8
+#EXTINF:-1 tvg-id="tv-deutsche-welle" tvg-name="Deutsche Welle" group-title="news",Deutsche Welle (3)
+https://dw.audiostream.io/dw/1027/mp3/64/dw08
+#EXTINF:-1 tvg-id="tv-deutsche-welle" tvg-name="Deutsche Welle" group-title="news",Deutsche Welle (4)
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
 #EXTINF:-1 tvg-id="tv-deutsche-welle-plus" tvg-name="Deutsche Welle+" group-title="news",Deutsche Welle+ (1)
 https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/index.m3u8
 #EXTINF:-1 tvg-id="tv-deutsche-welle-plus" tvg-name="Deutsche Welle+" group-title="news",Deutsche Welle+ (2)
@@ -834,6 +914,8 @@ https://stream02.welocal.stream/stream/fhd-otva_6546/ngrp:stream_all/playlist.m3
 https://sachsen1.iptv-playoutcenter.de/sachsen1/sachsen1.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-sachsen-eins" tvg-name="Sachsen Eins" group-title="yerel",Sachsen Eins (2)
 https://sachsen1.iptv-playoutcenter.de/sachsen1/sachsen1.stream_1/chunks.m3u8
+#EXTINF:-1 tvg-id="tv-sachsen-eins" tvg-name="Sachsen Eins" group-title="yerel",Sachsen Eins (3)
+https://stream.sachsen-media.de/sachsen-media-sachseneins/mp3-192?ref=radio-browser
 #EXTINF:-1 tvg-id="tv-sachsen-fernsehen-chemnitz" tvg-name="Sachsen Fernsehen Chemnitz" group-title="yerel",Sachsen Fernsehen Chemnitz (1)
 https://chemnitz.iptv-playoutcenter.de/chemnitz/chemnitzfernsehen.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-sachsen-fernsehen-dresden" tvg-name="Sachsen Fernsehen Dresden" group-title="yerel",Sachsen Fernsehen Dresden (1)

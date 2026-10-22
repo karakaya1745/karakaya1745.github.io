@@ -23,7 +23,7 @@ Uygulama önce `metadata.json` indirir. `revision` veya `channels.json` sha256 d
 | --- | --- |
 | `sources/tv.csv`, `sources/tv.m3u` | Ham TV ölçümü. CSV'de ölü (`failed`) satırlar da durur. |
 | `sources/radio.csv`, `sources/radio.m3u` | Ham radyo ölçümü. CSV'de denenmemiş düz `http` satırları da durur. |
-| `sources/onay-2026-10-15.csv` … `onay-2026-10-21.csv` | Onaylanan ekler ve silinecek veya sona alınan linkler. |
+| `sources/onay-2026-10-15.csv` … `onay-2026-10-22.csv` | Onaylanan ekler ve silinecek veya sona alınan linkler. |
 | `sources/catalog-retest-2026-10-18.json` | 18 Ekim yeniden testi (ölü, statik, şüpheli). |
 | `tv.m3u`, `radio.m3u` | Yayımlanan, temizlenmiş listeler. Ölü ve denenmemiş link yoktur. |
 | `channels.json` | Uygulamanın indirdiği katalog. |
@@ -95,6 +95,8 @@ Radyo CSV'sinde aynı istasyon adının altında kardeş yayınlar da `(1)`, `(2
 `sources/onay-2026-10-20.csv` 20 Ekim onayının tamamıdır. ARD'nin bölgesel radyo varyantları ana istasyonun hemen ardına yazılır. Oberlausitz TV Sachsen, Metropol Region TV Rhein-Neckar Baden-Württemberg `yerel` grubundadır. KaufBei TV ve MeieTV `shopping`, Folx / One / Zwei Music Television `music`, Finest TV ve QS24.TV `other` grubundadır. 20 Ekim yeniden testinde düşen 7 link silinmez; kanalın sonuna alınır (Radio Weser TV'nin üç adresi, h-eins.tv, QVC Style, QVC Zwei, HR 1 `hlshr1`). HR 1'de yeni Audiothek `hr1rm` adresi ilk sıradadır.
 
 `sources/onay-2026-10-21.csv` 21 Ekim onayıdır. İki yerel TV yedeği ve 24 radyo yedeği ilgili kanala eklenir. Yeni özel radyolar, eyalet gruplarındaki mevcut düzene girer (NRW, Rheinland-Pfalz, Bayern, Berlin). `yerel` yerel televizyon içindir; yerel radyolar `regional` kalır. Star*Sat Radio temalı `music` grubundadır. Radio Gold Berlin'dedir. 21 Ekim yeniden testindeki ölü linkler silinmez; kanalın sonuna alınır. Buna Welt'in `personalstream` adresi de dahildir.
+
+`sources/onay-2026-10-22.csv` 22 Ekim yedekleridir; yeni kanal yoktur. ARD `ard-mcdn` kalite varyantları ve bir Deutsche Welle TV yedeği ilgili kanala eklenir. CSV'de `tip=radio` olan iki Deutsche Welle ses adresi de ayrı istasyon açılmadan mevcut TV kanalına yazılır. `sadece Almanya` adresleri `geo_de_only` olur. HR 1 sırası: `hr1rm`, sonra `hr1suedhessen`, `hlshr1` en sonda. ERF Plus'ta `stream.erfplus.de/erf-1a64/mp3-128` ilk sıradadır; HTML dönen `erfplus.m3u` sondadır. `avw.mdr.de` üzerindeki `aac_high.m3u` adresleri 503 verdiği için silinmez, kanalın sonuna alınır.
 
 ## Sıra
 

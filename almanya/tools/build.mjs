@@ -17,6 +17,7 @@
  *        almanya/sources/onay-2026-10-19.csv (19 Ekim onayı; Sonnenklar TV hariç)
  *        almanya/sources/onay-2026-10-20.csv (20 Ekim onayı; ölü linkler sonda)
  *        almanya/sources/onay-2026-10-21.csv (21 Ekim onayı)
+ *        almanya/sources/onay-2026-10-22.csv (22 Ekim yedekleri)
  * Ölü (failed) ve denenmemiş (untested) linkler yayınlanmaz.
  * geo-blocked (403) ve "sadece Almanya" linkler kalır; geo_de_only ile işaretlenir.
  * Katalogda olan URL yeniden eklenmez. Yeni link uydurulmaz.
@@ -29,6 +30,7 @@ import { applyOctober18, orderCatalog, FINAL_CATEGORY_ORDER } from "./apply-2026
 import { applyOctober19 } from "./apply-2026-10-19.mjs";
 import { applyOctober20 } from "./apply-2026-10-20.mjs";
 import { applyOctober21 } from "./apply-2026-10-21.mjs";
+import { applyOctober22 } from "./apply-2026-10-22.mjs";
 
 const DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SOURCES = path.join(DIR, "sources");
@@ -806,6 +808,7 @@ function loadCatalog() {
   const onay19 = applyOctober19(channels);
   const onay20 = applyOctober20(channels);
   const onay21 = applyOctober21(channels);
+  const onay22 = applyOctober22(channels);
   const grouped = orderCatalog(channels);
   const previous = readJsonIfExists(path.join(DIR, "channels.json"));
   assignIds(grouped, previous?.channels);
@@ -827,6 +830,7 @@ function loadCatalog() {
     onay19,
     onay20,
     onay21,
+    onay22,
   };
 }
 
@@ -961,6 +965,12 @@ function main() {
   console.log(
     `[almanya] onay-2026-10-21: +${onay21.addedChannels || 0} kanal, ` +
       `+${onay21.addedLinks || 0} link, sonda ${onay21.demotedLinks || 0} ölü link`,
+  );
+  const onay22 = catalog.onay22 || {};
+  console.log(
+    `[almanya] onay-2026-10-22: +${onay22.addedChannels || 0} kanal, ` +
+      `+${onay22.addedLinks || 0} link, yinelenen ${onay22.skippedDupes || 0}, ` +
+      `sonda ${onay22.demotedLinks || 0} link`,
   );
   console.log(`[almanya] sha256=${hash}`);
   if (catalog.dropped.length) {
