@@ -1,11 +1,11 @@
 # Stream Health — Onay Bekleyen Teklifler
 
-Olusturulma: 2026-10-19T10:27:58.322Z
-Toplam teklif: **37** (17 ekleme, 20 kaldirma)
+Olusturulma: 2026-10-22T09:48:42.764Z
+Toplam teklif: **40** (16 ekleme, 24 kaldirma)
 
 | action | add_url | add_channel | remove_url |
 | --- | ---: | ---: | ---: |
-| adet | 17 | 0 | 20 |
+| adet | 16 | 0 | 24 |
 
 > Bu dosya **yalnizca teklif** icerir. `channels.json` / `stream_map.json` otomatik degistirilmez.
 
@@ -27,20 +27,19 @@ Toplam teklif: **37** (17 ekleme, 20 kaldirma)
 | 1 | add_url | TV8 | tv8 | http://315e5a5d.ottrast.com/iptv/8KSD5KFDXA6H88/2454/index.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
 | 2 | add_url | Life TV | lifetv | http://88.212.15.17/live/lifetv/index.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
 | 3 | add_url | Cartoon Network | cartoonnetwork | https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 4 | add_url | Cartoon Network | cartoonnetwork | https://drk6xq0vhn.gpcdn.net/live/cn_hd_abr/index.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
+| 4 | add_url | Cartoon Network | cartoonnetwork | https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/live/87H/chunks.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
 | 5 | add_url | Cartoon Network | cartoonnetwork | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197411&extension=ts&play_token=6Vh9e7AwnI | stream-health-bot | M3U/health dry-run: yeni canli URL |
 | 6 | add_url | Cartoon Network | cartoonnetwork | http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197411&extension=ts&play_token=6Vh9e7AwnI | stream-health-bot | M3U/health dry-run: yeni canli URL |
 | 7 | add_url | Cartoon Network | cartoonnetwork | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197411&extension=ts&play_token=6Vh9e7AwnI | stream-health-bot | M3U/health dry-run: yeni canli URL |
 | 8 | add_url | Cartoon Network | cartoonnetwork | http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197411&extension=ts&play_token=6Vh9e7AwnI | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 9 | add_url | Baby TV | babytv | http://57.128.231.171:8080/310/index.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 10 | add_url | Kon TV | kontv | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197191&extension=ts&play_token=PM2eb119cV | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 11 | add_url | Kon TV | kontv | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197191&extension=ts&play_token=PM2eb119cV | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 12 | add_url | Kon TV | kontv | http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197191&extension=ts&play_token=PM2eb119cV | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 13 | add_url | Kon TV | kontv | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197191&extension=ts&play_token=PM2eb119cV | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 14 | add_url | Kon TV | kontv | http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197191&extension=ts&play_token=PM2eb119cV | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 15 | add_url | Kon TV | kontv | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197191&extension=ts&play_token=PM2eb119cV | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 16 | add_url | TV 3 | tv3 | http://flussonic.linkintel.ru/tv-3/index.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
-| 17 | add_url | TV 3 | tv3 | http://stream.mcquack.net/136/index.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
+| 9 | add_url | Kon TV | kontv | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197191&extension=ts&play_token=PM2eb119cV | stream-health-bot | M3U/health dry-run: yeni canli URL |
+| 10 | add_url | Kon TV | kontv | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197191&extension=ts&play_token=PM2eb119cV | stream-health-bot | M3U/health dry-run: yeni canli URL |
+| 11 | add_url | Kon TV | kontv | http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197191&extension=ts&play_token=PM2eb119cV | stream-health-bot | M3U/health dry-run: yeni canli URL |
+| 12 | add_url | Kon TV | kontv | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197191&extension=ts&play_token=PM2eb119cV | stream-health-bot | M3U/health dry-run: yeni canli URL |
+| 13 | add_url | Kon TV | kontv | http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197191&extension=ts&play_token=PM2eb119cV | stream-health-bot | M3U/health dry-run: yeni canli URL |
+| 14 | add_url | Kon TV | kontv | http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197191&extension=ts&play_token=PM2eb119cV | stream-health-bot | M3U/health dry-run: yeni canli URL |
+| 15 | add_url | TV 3 | tv3 | http://flussonic.linkintel.ru/tv-3/index.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
+| 16 | add_url | TV 3 | tv3 | http://stream.mcquack.net/136/index.m3u8 | stream-health-bot | M3U/health dry-run: yeni canli URL |
 
 ## Kaldırılacak linkler
 
@@ -58,12 +57,16 @@ Toplam teklif: **37** (17 ekleme, 20 kaldirma)
 | 10 | remove_url | FB TV | fbtv | https://fbtv.fenerbahce.org/fenerbahcetv.stream/chunklist.m3u8 | stream-health-bot | 2-strike olu link (fail streak >= 2), dry-run |
 | 11 | remove_url | Yaban TV | yabantv | http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197439&extension=ts&play_token=TfLVZnUFoE | stream-health-bot | 2-strike olu link (fail streak >= 2), dry-run |
 | 12 | remove_url | Yaban TV | yabantv | http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/e112125c-9be4-4b93-8e60-5850d865bff1.ts | stream-health-bot | 2-strike olu link (fail streak >= 2), dry-run |
-| 13 | remove_url | Urfanatik TV | urfanatiktv | https://edge1.socialsmart.tv/urfanatiktv/bant1/chunks.m3u8 | stream-health-bot | 2-strike olu link (fail streak >= 2), dry-run |
-| 14 | remove_url | Bir TV | birtv | https://edge1.socialsmart.tv/birtv/bant1/playlist.m3u8 | stream-health-bot | 2-strike olu link (fail streak >= 2), dry-run |
-| 15 | remove_url | Bir TV | birtv | https://edge1.socialsmart.tv/birtv/bant1/chunks.m3u8 | stream-health-bot | 2-strike olu link (fail streak >= 2), dry-run |
-| 16 | remove_url | Bir TV | birtv | https://edge.socialsmart.tv/birtv/bant1/chunks.m3u8 | stream-health-bot | 2-strike olu link (fail streak >= 2), dry-run |
-| 17 | remove_url | Edessa TV | edessatv | http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/579db75f-f409-43d8-af30-fd1f1b3ac5df.ts | stream-health-bot | 2-strike olu link (fail streak >= 2), dry-run |
-| 18 | remove_url | Fortuna TV | fortunatv | https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8 | stream-health-bot | 2-strike olu link (fail streak >= 2), dry-run |
-| 19 | remove_url | Kocaeli TV | kocaelitv | https://edge1.socialsmart.tv/kocaelitv/bant1/chunks.m3u8 | stream-health-bot | 2-strike olu link (fail streak >= 2), dry-run |
-| 20 | remove_url | Kocaeli TV | kocaelitv | https://edge1.socialsmart.tv/kocaelitv/bant1/playlist.m3u8 | stream-health-bot | 2-strike olu link (fail streak >= 2), dry-run |
+| 13 | remove_url | Yaban TV | yabantv | https://yayin1.canlitv.fun/canlitv/yabantv.stream/playlist.m3u8?hash=a6c3ccc58b9f43520fe87f8517cc3667 | stream-health-bot | 2-strike olu link (fail streak >= 2), dry-run |
+| 14 | remove_url | Urfanatik TV | urfanatiktv | https://edge1.socialsmart.tv/urfanatiktv/bant1/chunks.m3u8 | stream-health-bot | 2-strike olu link (fail streak >= 2), dry-run |
+| 15 | remove_url | Edessa TV | edessatv | http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/579db75f-f409-43d8-af30-fd1f1b3ac5df.ts | stream-health-bot | 2-strike olu link (fail streak >= 2), dry-run |
+| 16 | remove_url | A Para | apara | https://trkvz-live.ercdn.net/aparahd/aparahd.m3u8?st=tl3ck93nNUp_DG40IDeH8A&e=1792442116 | stream-health-bot | 2-strike olu link (fail streak >= 2), dry-run |
+| 17 | remove_url | Fortuna TV | fortunatv | https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8 | stream-health-bot | 2-strike olu link (fail streak >= 2), dry-run |
+| 18 | remove_url | Kocaeli TV | kocaelitv | https://edge1.socialsmart.tv/kocaelitv/bant1/chunks.m3u8 | stream-health-bot | 2-strike olu link (fail streak >= 2), dry-run |
+| 19 | remove_url | Kocaeli TV | kocaelitv | https://edge1.socialsmart.tv/kocaelitv/bant1/playlist.m3u8 | stream-health-bot | 2-strike olu link (fail streak >= 2), dry-run |
+| 20 | remove_url | Kıbrıs Genç TV | kibrisgenctv | https://yayin1.canlitv.fun/canlitv/genctv.stream/playlist.m3u8?hash=a6c3ccc58b9f43520fe87f8517cc3667 | stream-health-bot | 2-strike olu link (fail streak >= 2), dry-run |
+| 21 | remove_url | Kıbrıs Genç TV | kibrisgenctv | https://edge1.socialsmart.tv/kibrisgenctv/bant1/playlist.m3u8 | stream-health-bot | 2-strike olu link (fail streak >= 2), dry-run |
+| 22 | remove_url | Kıbrıs Genç TV | kibrisgenctv | https://edge.socialsmart.tv/kibrisgenctv/bant1/playlist.m3u8 | stream-health-bot | 2-strike olu link (fail streak >= 2), dry-run |
+| 23 | remove_url | Kıbrıs TV | kibristv | https://edge1.socialsmart.tv/kibristv/bant1/playlist.m3u8 | stream-health-bot | 2-strike olu link (fail streak >= 2), dry-run |
+| 24 | remove_url | Kıbrıs TV | kibristv | https://edge.socialsmart.tv/kibristv/bant1/playlist.m3u8 | stream-health-bot | 2-strike olu link (fail streak >= 2), dry-run |
 

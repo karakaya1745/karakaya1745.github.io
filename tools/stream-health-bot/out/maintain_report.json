@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:27:58.349Z",
+  "generatedAt": "2026-10-22T09:48:42.933Z",
   "mode": "all-tv",
   "targetCount": 218,
   "changed": [
@@ -23,8 +23,8 @@
       "key": "kanald",
       "added": 1,
       "removed": 0,
-      "live": 8,
-      "keptDead": 0,
+      "live": 7,
+      "keptDead": 1,
       "addedUrls": [
         "https://stream1.kanald.ro/iphone/knd-live.m3u8"
       ],
@@ -41,12 +41,11 @@
     },
     {
       "key": "now",
-      "added": 2,
+      "added": 1,
       "removed": 0,
-      "live": 9,
+      "live": 8,
       "keptDead": 0,
       "addedUrls": [
-        "http://57.128.231.171:8080/249/index.m3u8",
         "http://stream.mcquack.net/182/index.m3u8"
       ],
       "removedUrls": []
@@ -118,6 +117,15 @@
       "removedUrls": []
     },
     {
+      "key": "cnnturk",
+      "added": 0,
+      "removed": 0,
+      "live": 2,
+      "keptDead": 1,
+      "addedUrls": [],
+      "removedUrls": []
+    },
+    {
       "key": "haberturk",
       "added": 0,
       "removed": 0,
@@ -170,14 +178,15 @@
     },
     {
       "key": "lifetv",
-      "added": 3,
+      "added": 4,
       "removed": 0,
-      "live": 5,
+      "live": 6,
       "keptDead": 0,
       "addedUrls": [
         "http://88.212.15.17/live/lifetv/index.m3u8",
         "http://lifetv.bitflip.ee/live/stream1_1/index.m3u8",
-        "https://lifetv.livebox.co.in/lifetvhls/lifetv.m3u8"
+        "https://lifetv.livebox.co.in/lifetvhls/lifetv.m3u8",
+        "https://lifetv.mpks.sk/s.m3u8"
       ],
       "removedUrls": []
     },
@@ -206,15 +215,6 @@
         "https://tv-trtspor1.medya.trt.com.tr/master_1440.m3u8",
         "https://tv-trtspor1.medya.trt.com.tr/master.m3u8"
       ]
-    },
-    {
-      "key": "aspor",
-      "added": 0,
-      "removed": 0,
-      "live": 4,
-      "keptDead": 0,
-      "addedUrls": [],
-      "removedUrls": []
     },
     {
       "key": "trtsporyildiz",
@@ -262,13 +262,14 @@
     {
       "key": "yabantv",
       "added": 0,
-      "removed": 2,
+      "removed": 3,
       "live": 4,
-      "keptDead": 1,
+      "keptDead": 0,
       "addedUrls": [],
       "removedUrls": [
         "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197439&extension=ts&play_token=TfLVZnUFoE",
-        "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/e112125c-9be4-4b93-8e60-5850d865bff1.ts"
+        "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/e112125c-9be4-4b93-8e60-5850d865bff1.ts",
+        "https://yayin1.canlitv.fun/canlitv/yabantv.stream/playlist.m3u8?hash=a6c3ccc58b9f43520fe87f8517cc3667"
       ]
     },
     {
@@ -284,26 +285,15 @@
       "key": "cartoonnetwork",
       "added": 6,
       "removed": 0,
-      "live": 7,
-      "keptDead": 0,
+      "live": 6,
+      "keptDead": 1,
       "addedUrls": [
         "https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8",
-        "https://drk6xq0vhn.gpcdn.net/live/cn_hd_abr/index.m3u8",
+        "https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/live/87H/chunks.m3u8",
         "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
         "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
         "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
         "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197411&extension=ts&play_token=6Vh9e7AwnI"
-      ],
-      "removedUrls": []
-    },
-    {
-      "key": "babytv",
-      "added": 1,
-      "removed": 0,
-      "live": 1,
-      "keptDead": 1,
-      "addedUrls": [
-        "http://57.128.231.171:8080/310/index.m3u8"
       ],
       "removedUrls": []
     },
@@ -337,6 +327,17 @@
       "keptDead": 0,
       "addedUrls": [
         "https://listen.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8"
+      ],
+      "removedUrls": []
+    },
+    {
+      "key": "dreamtv",
+      "added": 1,
+      "removed": 0,
+      "live": 3,
+      "keptDead": 0,
+      "addedUrls": [
+        "https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8"
       ],
       "removedUrls": []
     },
@@ -399,19 +400,6 @@
       ]
     },
     {
-      "key": "birtv",
-      "added": 0,
-      "removed": 3,
-      "live": 1,
-      "keptDead": 0,
-      "addedUrls": [],
-      "removedUrls": [
-        "https://edge1.socialsmart.tv/birtv/bant1/playlist.m3u8",
-        "https://edge1.socialsmart.tv/birtv/bant1/chunks.m3u8",
-        "https://edge.socialsmart.tv/birtv/bant1/chunks.m3u8"
-      ]
-    },
-    {
       "key": "edessatv",
       "added": 0,
       "removed": 1,
@@ -456,6 +444,17 @@
       "removedUrls": []
     },
     {
+      "key": "apara",
+      "added": 0,
+      "removed": 1,
+      "live": 1,
+      "keptDead": 0,
+      "addedUrls": [],
+      "removedUrls": [
+        "https://trkvz-live.ercdn.net/aparahd/aparahd.m3u8?st=tl3ck93nNUp_DG40IDeH8A&e=1792442116"
+      ]
+    },
+    {
       "key": "fortunatv",
       "added": 0,
       "removed": 1,
@@ -491,26 +490,44 @@
       "removedUrls": []
     },
     {
+      "key": "adatv",
+      "added": 1,
+      "removed": 0,
+      "live": 1,
+      "keptDead": 1,
+      "addedUrls": [
+        "https://live-evg10.tv360.bitel.com.pe/bitel/alasdeaguilaSRT/playlist.m3u8"
+      ],
+      "removedUrls": []
+    },
+    {
       "key": "kibrisgenctv",
       "added": 0,
-      "removed": 0,
+      "removed": 3,
       "live": 4,
-      "keptDead": 3,
+      "keptDead": 0,
       "addedUrls": [],
-      "removedUrls": []
+      "removedUrls": [
+        "https://yayin1.canlitv.fun/canlitv/genctv.stream/playlist.m3u8?hash=a6c3ccc58b9f43520fe87f8517cc3667",
+        "https://edge1.socialsmart.tv/kibrisgenctv/bant1/playlist.m3u8",
+        "https://edge.socialsmart.tv/kibrisgenctv/bant1/playlist.m3u8"
+      ]
     },
     {
       "key": "kibristv",
       "added": 0,
-      "removed": 0,
+      "removed": 2,
       "live": 5,
-      "keptDead": 2,
+      "keptDead": 0,
       "addedUrls": [],
-      "removedUrls": []
+      "removedUrls": [
+        "https://edge1.socialsmart.tv/kibristv/bant1/playlist.m3u8",
+        "https://edge.socialsmart.tv/kibristv/bant1/playlist.m3u8"
+      ]
     }
   ],
-  "removedUrls": 20,
-  "addedUrls": 46,
+  "removedUrls": 24,
+  "addedUrls": 47,
   "warnings": [],
   "streamMapRevision": 202,
   "mapChanged": true

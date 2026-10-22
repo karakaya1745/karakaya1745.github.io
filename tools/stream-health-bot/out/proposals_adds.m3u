@@ -6,7 +6,7 @@ http://88.212.15.17/live/lifetv/index.m3u8
 #EXTINF:-1 tvg-id="cartoonnetwork" group-title="Ekleme Teklifleri",Cartoon Network
 https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8
 #EXTINF:-1 tvg-id="cartoonnetwork" group-title="Ekleme Teklifleri",Cartoon Network
-https://drk6xq0vhn.gpcdn.net/live/cn_hd_abr/index.m3u8
+https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/live/87H/chunks.m3u8
 #EXTINF:-1 tvg-id="cartoonnetwork" group-title="Ekleme Teklifleri",Cartoon Network
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197411&extension=ts&play_token=6Vh9e7AwnI
 #EXTINF:-1 tvg-id="cartoonnetwork" group-title="Ekleme Teklifleri",Cartoon Network
@@ -15,8 +15,6 @@ http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197411&exte
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197411&extension=ts&play_token=6Vh9e7AwnI
 #EXTINF:-1 tvg-id="cartoonnetwork" group-title="Ekleme Teklifleri",Cartoon Network
 http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197411&extension=ts&play_token=6Vh9e7AwnI
-#EXTINF:-1 tvg-id="babytv" group-title="Ekleme Teklifleri",Baby TV
-http://57.128.231.171:8080/310/index.m3u8
 #EXTINF:-1 tvg-id="kontv" group-title="Ekleme Teklifleri",Kon TV
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197191&extension=ts&play_token=PM2eb119cV
 #EXTINF:-1 tvg-id="kontv" group-title="Ekleme Teklifleri",Kon TV
