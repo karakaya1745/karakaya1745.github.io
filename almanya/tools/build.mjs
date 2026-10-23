@@ -19,6 +19,7 @@
  *        almanya/sources/onay-2026-10-21.csv (21 Ekim onayı)
  *        almanya/sources/onay-2026-10-22.csv (22 Ekim yedekleri)
  *        almanya/sources/onay-2026-10-23.csv (23 Ekim yedekleri, silinen Samsung ve 404)
+ *        24 Ekim temizliği: ölü TV, shopping sonda, bölgesel radyo birleşimi, DASDING
  * Ölü (failed) ve denenmemiş (untested) linkler yayınlanmaz.
  * geo-blocked (403) ve "sadece Almanya" linkler kalır; geo_de_only ile işaretlenir.
  * Katalogda olan URL yeniden eklenmez. Yeni link uydurulmaz.
@@ -33,6 +34,7 @@ import { applyOctober20 } from "./apply-2026-10-20.mjs";
 import { applyOctober21 } from "./apply-2026-10-21.mjs";
 import { applyOctober22 } from "./apply-2026-10-22.mjs";
 import { applyOctober23 } from "./apply-2026-10-23.mjs";
+import { applyOctober24 } from "./apply-2026-10-24-cleanup.mjs";
 
 const DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SOURCES = path.join(DIR, "sources");
@@ -812,6 +814,7 @@ function loadCatalog() {
   const onay21 = applyOctober21(channels);
   const onay22 = applyOctober22(channels);
   const onay23 = applyOctober23(channels);
+  const onay24 = applyOctober24(channels);
   const grouped = orderCatalog(channels);
   const previous = readJsonIfExists(path.join(DIR, "channels.json"));
   assignIds(grouped, previous?.channels);
@@ -835,6 +838,7 @@ function loadCatalog() {
     onay21,
     onay22,
     onay23,
+    onay24,
   };
 }
 
@@ -984,6 +988,15 @@ function main() {
   );
   if (onay23.removedChannelNames?.length) {
     console.log(`[almanya] çıkarılan kanallar: ${onay23.removedChannelNames.join(", ")}`);
+  }
+  const onay24 = catalog.onay24 || {};
+  console.log(
+    `[almanya] temizlik-2026-10-24: -${onay24.removedChannels || 0} kanal, ` +
+      `-${onay24.removedLinks || 0} link, -${onay24.removedUrls || 0} URL, ` +
+      `yeniden adlandırılan ${onay24.renamed?.length || 0}`,
+  );
+  if (onay24.removedChannelNames?.length) {
+    console.log(`[almanya] temizlikte çıkanlar: ${onay24.removedChannelNames.join(", ")}`);
   }
   console.log(`[almanya] sha256=${hash}`);
   if (catalog.dropped.length) {
