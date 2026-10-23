@@ -1,0 +1,53 @@
+kanal,link,durum,kaynak,tur,tip
+WDR 2 Aachen und Region,https://wdrhf.akamaized.net/hls/live/2027973/wdr2aachenundregion/master.m3u8,"çalışıyor (200, canlı segment)",GitHub kod araması: junguler_m3u-radio-music-playlists__checked__n_national_news.m3u,yeni_link,radio
+WDR 2 Bergisches Land,https://wdrhf.akamaized.net/hls/live/2027971/wdr2bergischesland/master.m3u8,"çalışıyor (200, canlı segment)",GitHub kod araması: junguler_m3u-radio-music-playlists__checked__n_national_news.m3u,yeni_link,radio
+WDR 2 Münsterland,https://wdrhf.akamaized.net/hls/live/2027968/wdr2muensterland/master.m3u8,"çalışıyor (200, canlı segment)",GitHub kod araması: junguler_m3u-radio-music-playlists__checked__n_national_news.m3u,yeni_link,radio
+WDR 2 Ostwestfalen Lippe,https://wdrhf.akamaized.net/hls/live/2027967/wdr2ostwestfalenlippe/master.m3u8,"çalışıyor (200, canlı segment)",GitHub kod araması: junguler_m3u-radio-music-playlists__checked__n_national_news.m3u,yeni_link,radio
+WDR 2 Rhein und Ruhr,https://wdrhf.akamaized.net/hls/live/2027970/wdr2rheinruhr/master.m3u8,"çalışıyor (200, canlı segment)",GitHub kod araması: junguler_m3u-radio-music-playlists__checked__n_national_news.m3u,yeni_link,radio
+WDR 2 Rheinland,https://wdrhf.akamaized.net/hls/live/2027966/wdr2rheinland/master.m3u8,"çalışıyor (200, canlı segment)",GitHub kod araması: junguler_m3u-radio-music-playlists__checked__n_national_news.m3u,yeni_link,radio
+WDR 2 Ruhrgebiet,https://wdrhf.akamaized.net/hls/live/2027969/wdr2ruhrgebiet/master.m3u8,"çalışıyor (200, canlı segment)",GitHub kod araması: junguler_m3u-radio-music-playlists__checked__n_national_news.m3u,yeni_link,radio
+WDR 2 Südwestfalen,https://wdrhf.akamaized.net/hls/live/2027972/wdr2suedwestfalen/master.m3u8,"çalışıyor (200, canlı segment)",GitHub kod araması: junguler_m3u-radio-music-playlists__checked__n_national_news.m3u,yeni_link,radio
+Schlagerparadies,https://aacplus.schlagerparadies.de/schlagerparadies.aac,"çalışıyor (200, ses akışı)",GitHub kod araması: junguler_m3u-radio-music-playlists_raddio.net_germany.m3u,yeni_link,radio
+SWR 1 Rheinland-Pfalz,https://liveradio.swr.de/tn2d2ac/swr1rp/,"çalışıyor (200, ses akışı)",GitHub kod araması: junguler_m3u-radio-music-playlists_raddio.net_germany.m3u,yeni_link,radio
+HSE Extra,https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/master_576p25.m3u8,"çalışıyor (200, canlı segment)",GitHub kod araması: appeloper_contents_iptv_Germany.m3u,yeni_link,tv
+More Than Sports TV,https://mts1.iptv-playoutcenter.de/mts/mts-web/mts/mtsw3/chunks.m3u8,"çalışıyor (200, canlı segment)",GitHub kod araması: appeloper_contents_iptv_Germany.m3u,yeni_kanal,tv
+ALEX Berlin,https://alex-stream.rosebud-media.de/bounce/alexlivetv50.smil/chunklist_b2128000_slGER.m3u8,"çalışıyor (200, canlı segment)",GitHub kod araması: appeloper_contents_iptv_Germany.m3u,yeni_link,tv
+DELUXE EASY,https://audiostreams.deluxemusic.tv/easy/mp3-192/tunein/,"çalışıyor (200, ses akışı)",GitHub kod araması: appeloper_contents_iptv_Germany.m3u,yeni_link,radio
+DELUXE LOUNGE RADIO,https://audiostreams.deluxemusic.tv/lounge/mp3-192/tunein/,"çalışıyor (200, ses akışı)",GitHub kod araması: appeloper_contents_iptv_Germany.m3u,yeni_link,radio
+DELUXE MUSIC RADIO,https://audiostreams.deluxemusic.tv/music/mp3-192/tunein/,"çalışıyor (200, ses akışı)",GitHub kod araması: appeloper_contents_iptv_Germany.m3u,yeni_link,radio
+Rock Antenne,https://s5-webradio.antenne.de/rockantenne,"çalışıyor (200, ses akışı)",GitHub kod araması: appeloper_contents_iptv_Germany.m3u,yeni_link,radio
+Antenne Bayern,https://mp3channels.webradio.de/antenne,"çalışıyor (200, ses akışı)",GitHub kod araması: junguler_m3u-radio-music-playlists_radio-to_live_germany.m3u,yeni_link,radio
+Rock Antenne,https://mp3channels.webradio.de/rockantenne,"çalışıyor (200, ses akışı)",GitHub kod araması: junguler_m3u-radio-music-playlists_radio-to_live_germany.m3u,yeni_link,radio
+Radio Teddy,https://irmedia.streamabc.net/irm-rtlive-mp3-128-6306268,"çalışıyor (200, ses akışı)",GitHub kod araması: junguler_m3u-radio-music-playlists_radio-to_live_germany.m3u,yeni_link,radio
+MDR Sachsen,https://radio-hls.mdr.de/hls/live/2112887/mdr-284280-0-hls/index.m3u8,"çalışıyor (200, canlı segment)",Resmi MDR radio-hls (GitHub kod araması + ID taraması),yeni_link,radio
+MDR SACHSEN Bautzen,https://radio-hls.mdr.de/hls/live/2112888/mdr-284280-1-hls/index.m3u8,"çalışıyor (200, canlı segment)",Resmi MDR radio-hls (GitHub kod araması + ID taraması),yeni_link,radio
+MDR SACHSEN Chemnitz,https://radio-hls.mdr.de/hls/live/2112889/mdr-284280-2-hls/index.m3u8,"çalışıyor (200, canlı segment)",Resmi MDR radio-hls (GitHub kod araması + ID taraması),yeni_link,radio
+MDR SACHSEN Leipzig,https://radio-hls.mdr.de/hls/live/2112890/mdr-284280-3-hls/index.m3u8,"çalışıyor (200, canlı segment)",Resmi MDR radio-hls (GitHub kod araması + ID taraması),yeni_link,radio
+MDR Sachsen-Anhalt,https://radio-hls.mdr.de/hls/live/2112893/mdr-284290-0-hls/index.m3u8,"çalışıyor (200, canlı segment)",Resmi MDR radio-hls (GitHub kod araması + ID taraması),yeni_link,radio
+MDR SACHSEN-ANHALT Stendal,https://radio-hls.mdr.de/hls/live/2112895/mdr-284290-3-hls/index.m3u8,"çalışıyor (200, canlı segment)",Resmi MDR radio-hls (GitHub kod araması + ID taraması),yeni_link,radio
+MDR Klassik,https://radio-hls.mdr.de/hls/live/2112906/mdr-284350-0-hls/index.m3u8,"şüpheli (ENDLIST, canlı değil)",Resmi MDR radio-hls (GitHub kod araması + ID taraması),yeni_link,radio
+MDR Tweens,https://radio-hls.mdr.de/hls/live/2112913/mdr-991101-0-hls/index.m3u8,"çalışıyor (200, canlı segment)",Resmi MDR radio-hls (GitHub kod araması + ID taraması),yeni_link,radio
+Radio Rüsselsheim,https://streaming.radio-r.net/radio-r,"çalışıyor (200, ses akışı)",radio-browser API (son değişiklikler),yeni_kanal,radio
+Tagesschau 24,https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/int/master.m3u8,ölü (404),mevcut katalog (rev 8),olu_link,tv
+Tagesschau 24,https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/int/master720p3200.m3u8,ölü (404),mevcut katalog (rev 8),olu_link,tv
+MDR Fernsehen Sachsen,https://mdr-live.ard-mcdn.de/mdr/live/hls/int/master360p1200.m3u8,ölü (404),mevcut katalog (rev 8),olu_link,tv
+Welt,https://welt.personalstream.tv/v1/master.m3u8?ads.country=de&ads.pf=welttv,ölü (401),mevcut katalog (rev 8),olu_link,tv
+Höhenrausch,https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/5d398d83-c54c-11ec-967f-401ac48a6867/0/master.m3u8?country=DE&vendor=samsung&coppa=1,ölü (504),mevcut katalog (rev 8),olu_link,tv
+Höhenrausch,https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/f769642d-5984-11ef-a2df-87241c204d22/0/master.m3u8?country=DE&vendor=samsung&coppa=1,ölü (504),mevcut katalog (rev 8),olu_link,tv
+QVC Style Deutschland,https://qvcde-live.akamaized.net/hls/live/2097104/qby/master.m3u8,"master 200, alt liste 404",mevcut katalog (rev 8),olu_link,tv
+QVC Zwei,https://qvcde-live.akamaized.net/hls/live/2097104/qps/master.m3u8,"master 200, alt liste 404",mevcut katalog (rev 8),olu_link,tv
+One Terra,https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/0d7ddc61-818f-11eb-908d-533d39655269/0/master.m3u8?country=DE&vendor=samsung&coppa=1,ölü (504),mevcut katalog (rev 8),olu_link,tv
+Xplore,https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/bab21a88-7cd4-11eb-908d-533d39655269/0/master.m3u8?country=DE&vendor=samsung&coppa=1,ölü (504),mevcut katalog (rev 8),olu_link,tv
+Just Cooking,https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/44bf4cd7-7cd5-11eb-908d-533d39655269/0/master.m3u8?country=DE&vendor=samsung&coppa=1,ölü (504),mevcut katalog (rev 8),olu_link,tv
+Just Fishing,https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/3d1508f1-c5ff-11ec-967f-401ac48a6867/0/master.m3u8?country=DE&vendor=samsung&coppa=1,ölü (504),mevcut katalog (rev 8),olu_link,tv
+Finest TV,https://media.finest.tv/hls/live.m3u8,ölü (000),mevcut katalog (rev 8),olu_link,tv
+Radio Weser TV Bremen,https://5857499ee635b.streamlock.net/radiowesertv-live/mp4:livestreamTV/playlist.m3u8,ölü (000),mevcut katalog (rev 8),olu_link,tv
+Radio Weser TV Bremen,https://5857499ee635b.streamlock.net/radiowesertv-live/_definst_/mp4:livestreamTV/playlist.m3u8,ölü (000),mevcut katalog (rev 8),olu_link,tv
+Radio Weser TV Bremen,https://5857499ee635b.streamlock.net/radiowesertv-live/_definst_/mp4:livestreamHFHB/playlist.m3u8,ölü (000),mevcut katalog (rev 8),olu_link,tv
+h-eins.tv,https://5857499ee635b.streamlock.net/heinstv-live/_definst_/smil:livestream.smil/playlist.m3u8,ölü (000),mevcut katalog (rev 8),olu_link,tv
+HR 1,https://hlshr1.akamaized.net/hls/live/2016533/hr1/master.m3u8,"şüpheli (ENDLIST, canlı değil)",mevcut katalog (rev 8),olu_link,radio
+MDR Sachsen-Anhalt,https://avw.mdr.de/streams/284290-2_aac_high.m3u,ölü (503),mevcut katalog (rev 8),olu_link,radio
+MDR Jump,https://avw.mdr.de/streams/284320-0_aac_high.m3u,ölü (503),mevcut katalog (rev 8),olu_link,radio
+MDR Kultur,https://avw.mdr.de/streams/284310-0_aac_high.m3u,ölü (503),mevcut katalog (rev 8),olu_link,radio
+MDR Sputnik,https://avw.mdr.de/streams/284330-0_aac_high.m3u,ölü (503),mevcut katalog (rev 8),olu_link,radio
+MDR Schlagerwelt,https://avw.mdr.de/streams/990701-0_aac_high.m3u,ölü (503),mevcut katalog (rev 8),olu_link,radio

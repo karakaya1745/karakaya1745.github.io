@@ -277,7 +277,6 @@ const TV_MUSIC = pinList("TV music", [
   "Deluxe Rap",
   "Melodie TV",
   "DMF",
-  "Höhenrausch",
   "MC TV (MC EU)",
   "Stimmungsgarten TV",
   "Volksmusik TV",
@@ -304,8 +303,6 @@ const TV_DOCUMENTARY = pinList("TV documentary", [
   "N24 Doku",
   "Welt der Wunder TV",
   "Dokusat",
-  "One Terra",
-  "Xplore",
 ]);
 
 const TV_OTHER = pinList("TV other", [
@@ -313,12 +310,11 @@ const TV_OTHER = pinList("TV other", [
   "Anixe HD Serie",
   "DF1",
   "Aristo TV",
-  "Just Cooking",
-  "Just Fishing",
   "Lilo TV",
   "RiC",
   "Finest TV",
   "QS24.TV",
+  "More Than Sports TV",
 ]);
 
 const TV_INTERNATIONAL = pinList("TV international", ["Kanal Avrupa", "Çira TV"]);
@@ -633,7 +629,7 @@ const RADIO_REGIONAL = radioRegional([
   ],
   ["Berlin", ["104.6 RTL", "Berliner Rundfunk 91.4", "KISS FM", "Star FM", "reboot.fm", "Radio Gold"]],
   ["Hamburg", ["Radio Hamburg"]],
-  ["Hessen", ["Hit Radio FFH", "harmony.fm", "Radio Bob"]],
+  ["Hessen", ["Hit Radio FFH", "harmony.fm", "Radio Bob", "Radio Rüsselsheim"]],
   ["Mecklenburg-Vorpommern", ["Antenne MV", "Ostseewelle"]],
   [
     "Niedersachsen",
