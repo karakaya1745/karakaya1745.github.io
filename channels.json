@@ -39,7 +39,7 @@
     "name": "NOW",
     "url": "https://www.nowtv.com.tr/canli-yayin",
     "category": "Ulusal",
-    "streamUrl": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=196710&extension=ts&play_token=Vinm127vDi"
+    "streamUrl": "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_480p.m3u8"
   },
   {
     "name": "TV8",
@@ -1114,6 +1114,12 @@
     "url": "https://vavo.sayezec.workers.dev/ID=389201701482a8da622d92",
     "category": "Ekonomi",
     "streamUrl": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/apara/apara.m3u8"
+  },
+  {
+    "name": "Ekol TV",
+    "url": "https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8",
+    "category": "Ekonomi",
+    "streamUrl": "https://ekoltv-live.ercdn.net/ekoltv/ekoltv_1080p.m3u8"
   },
   {
     "name": "Ciftci TV",
@@ -6680,5 +6686,17 @@
     "url": "https://vavo.sayezec.workers.dev/ID=6319306667939f9fe7402",
     "category": "Ulusal",
     "streamUrl": "https://edge.kuzeykibrissmart.tv/kibristv/bant1/playlist.m3u8"
+  },
+  {
+    "name": "ARAS TV",
+    "url": "http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8",
+    "category": "Ulusal",
+    "streamUrl": "https://2.rtmp.org/tv217/yayin.stream/playlist.m3u8"
+  },
+  {
+    "name": "Kuzey Kibris TV",
+    "url": "http://old.kuzeykibris.tv/m3u8/kktv.m3u8",
+    "category": "Ulusal",
+    "streamUrl": "https://kuzeykibris.tv/m3u8/kktv.m3u8"
   }
 ]
