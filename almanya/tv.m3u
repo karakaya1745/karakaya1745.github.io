@@ -570,14 +570,6 @@ https://bild-und-ton.stream/snj-de/snj-de.smil/chunklist_w1024417188_b365000_sld
 https://bild-und-ton.stream/sophiatv-en/smil:sophia-tv-en.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-deluxe-music" tvg-name="Deluxe Music" group-title="music",Deluxe Music (1)
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8
-#EXTINF:-1 tvg-id="tv-deluxe-dance-by-kontor" tvg-name="Deluxe Dance by Kontor" group-title="music",Deluxe Dance by Kontor (1)
-https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8
-#EXTINF:-1 tvg-id="tv-deluxe-dance-by-kontor" tvg-name="Deluxe Dance by Kontor" group-title="music",Deluxe Dance by Kontor (2)
-https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/2646ace419595568_33669357_2610130235_1080p.m3u8
-#EXTINF:-1 tvg-id="tv-deluxe-dance-by-kontor" tvg-name="Deluxe Dance by Kontor" group-title="music",Deluxe Dance by Kontor (3)
-https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/2646ace419595568_33669357_2610130235_720p.m3u8
-#EXTINF:-1 tvg-id="tv-deluxe-dance-by-kontor" tvg-name="Deluxe Dance by Kontor" group-title="music",Deluxe Dance by Kontor (4)
-https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/2646ace419595568_33669357_2610130235_480p.m3u8
 #EXTINF:-1 tvg-id="tv-deluxe-rap" tvg-name="Deluxe Rap" group-title="music",Deluxe Rap (1)
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8
 #EXTINF:-1 tvg-id="tv-deluxe-rap" tvg-name="Deluxe Rap" group-title="music",Deluxe Rap (2)
@@ -604,72 +596,6 @@ https://folxapp.b-cdn.net/1080p/index.m3u8
 https://oneapp.b-cdn.net/1080p/index.m3u8
 #EXTINF:-1 tvg-id="tv-zwei-music-television" tvg-name="Zwei Music Television" group-title="music",Zwei Music Television (1)
 https://zweiapp.b-cdn.net/1080p/index.m3u8
-#EXTINF:-1 tvg-id="tv-qvc-deutschland" tvg-name="QVC Deutschland" group-title="shopping",QVC Deutschland (1)
-https://qvcde-live.akamaized.net/hls/live/2097104/qvc/master.m3u8
-#EXTINF:-1 tvg-id="tv-qvc-deutschland" tvg-name="QVC Deutschland" group-title="shopping",QVC Deutschland (2)
-https://qvcde-live.akamaized.net/hls/live/2097104/qvc/1/1.m3u8
-#EXTINF:-1 tvg-id="tv-qvc-deutschland" tvg-name="QVC Deutschland" group-title="shopping",QVC Deutschland (3)
-https://qvcde-live.akamaized.net/hls/live/2097104/qvc/2/2.m3u8
-#EXTINF:-1 tvg-id="tv-qvc-deutschland" tvg-name="QVC Deutschland" group-title="shopping",QVC Deutschland (4)
-https://qvcde-live.akamaized.net/hls/live/2097104/qvc/3/3.m3u8
-#EXTINF:-1 tvg-id="tv-qvc-style-deutschland" tvg-name="QVC Style Deutschland" group-title="shopping",QVC Style Deutschland (1)
-https://qvcde-live.akamaized.net/hls/live/2097104/qby/master.m3u8
-#EXTINF:-1 tvg-id="tv-qvc-zwei" tvg-name="QVC Zwei" group-title="shopping",QVC Zwei (1)
-https://qvcde-live.akamaized.net/hls/live/2097104/qps/master.m3u8
-#EXTINF:-1 tvg-id="tv-hse" tvg-name="HSE" group-title="shopping",HSE (1)
-https://hse24.akamaized.net/hls/live/2006663/hse24/playlist.m3u8
-#EXTINF:-1 tvg-id="tv-hse" tvg-name="HSE" group-title="shopping",HSE (2)
-https://hse24.akamaized.net/hls/live/2006663/hse24/master_1080p25.m3u8
-#EXTINF:-1 tvg-id="tv-hse" tvg-name="HSE" group-title="shopping",HSE (3)
-https://hse24.akamaized.net/hls/live/2006663-b/hse24/master_1080p25.m3u8
-#EXTINF:-1 tvg-id="tv-hse" tvg-name="HSE" group-title="shopping",HSE (4)
-https://hse24.akamaized.net/hls/live/2006663/hse24/master_900p25.m3u8
-#EXTINF:-1 tvg-id="tv-hse" tvg-name="HSE" group-title="shopping",HSE (5)
-https://hse24.akamaized.net/hls/live/2006663/hse24/master_576p25.m3u8
-#EXTINF:-1 tvg-id="tv-hse-extra" tvg-name="HSE Extra" group-title="shopping",HSE Extra (1)
-https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/playlist.m3u8
-#EXTINF:-1 tvg-id="tv-hse-extra" tvg-name="HSE Extra" group-title="shopping",HSE Extra (2)
-https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/master_1080p25.m3u8
-#EXTINF:-1 tvg-id="tv-hse-extra" tvg-name="HSE Extra" group-title="shopping",HSE Extra (3)
-https://hse24extra.akamaized.net/hls/live/2006596-b/hse24extra/master_1080p25.m3u8
-#EXTINF:-1 tvg-id="tv-hse-extra" tvg-name="HSE Extra" group-title="shopping",HSE Extra (4)
-https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/master_900p25.m3u8
-#EXTINF:-1 tvg-id="tv-hse-extra" tvg-name="HSE Extra" group-title="shopping",HSE Extra (5)
-https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/master_576p25.m3u8
-#EXTINF:-1 tvg-id="tv-hse-trend" tvg-name="HSE Trend" group-title="shopping",HSE Trend (1)
-https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/playlist.m3u8
-#EXTINF:-1 tvg-id="tv-hse-trend" tvg-name="HSE Trend" group-title="shopping",HSE Trend (2)
-https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/master_576_1p25.m3u8
-#EXTINF:-1 tvg-id="tv-hse-trend" tvg-name="HSE Trend" group-title="shopping",HSE Trend (3)
-https://hse24trend.akamaized.net/hls/live/2006597-b/hse24trend/master_576_1p25.m3u8
-#EXTINF:-1 tvg-id="tv-hse-trend" tvg-name="HSE Trend" group-title="shopping",HSE Trend (4)
-https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/master_576_2p25.m3u8
-#EXTINF:-1 tvg-id="tv-juwelo" tvg-name="Juwelo" group-title="shopping",Juwelo (1)
-https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3u8
-#EXTINF:-1 tvg-id="tv-juwelo" tvg-name="Juwelo" group-title="shopping",Juwelo (2)
-https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/2646acd5413662e9_12812347_2610120941_3_3.m3u8
-#EXTINF:-1 tvg-id="tv-juwelo" tvg-name="Juwelo" group-title="shopping",Juwelo (3)
-https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/2646acd5413662e9_12812347_2610120941_2_2.m3u8
-#EXTINF:-1 tvg-id="tv-juwelo" tvg-name="Juwelo" group-title="shopping",Juwelo (4)
-https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/2646acd5413662e9_12812347_2610120941_1_1.m3u8
-#EXTINF:-1 tvg-id="tv-shop-lc-deutschland" tvg-name="Shop LC Deutschland" group-title="shopping",Shop LC Deutschland (1)
-https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel(LCGERMANYWEB)/master.m3u8
-#EXTINF:-1 tvg-id="tv-shop-lc-deutschland" tvg-name="Shop LC Deutschland" group-title="shopping",Shop LC Deutschland (2)
-https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel(LCGERMANYWEB)/01.m3u8
-#EXTINF:-1 tvg-id="tv-shop-lc-deutschland" tvg-name="Shop LC Deutschland" group-title="shopping",Shop LC Deutschland (3)
-https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel(LCGERMANYWEB)/02.m3u8
-#EXTINF:-1 tvg-id="tv-shop-lc-deutschland" tvg-name="Shop LC Deutschland" group-title="shopping",Shop LC Deutschland (4)
-https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel(LCGERMANYWEB)/03.m3u8
-#EXTINF:-1 tvg-id="tv-telegold" tvg-name="Telegold" group-title="shopping",Telegold (1)
-https://telegold.iptv-playoutcenter.de/telegold/telegold-all/playlist.m3u8
-#EXTINF:-1 tvg-id="tv-telegold" tvg-name="Telegold" group-title="shopping",Telegold (2)
-https://telegold.iptv-playoutcenter.de/telegold/telegold1/playlist.m3u8
-#EXTINF:-1 tvg-id="tv-telegold" tvg-name="Telegold" group-title="shopping",Telegold (3)
-https://telegold.iptv-playoutcenter.de/telegold/telegold-sat1/playlist.m3u8
-#EXTINF:-1 tvg-id="tv-kaufbei-tv" tvg-name="KaufBei TV" group-title="shopping",KaufBei TV (1)
-https://elephant.t62a.com/hls/8103/index.m3u8
-#EXTINF:-1 tvg-id="tv-meietv" tvg-name="MeieTV" group-title="shopping",MeieTV (1)
-https://stream.meietv.de/live/meietv.m3u8
 #EXTINF:-1 tvg-id="tv-n24-doku" tvg-name="N24 Doku" group-title="documentary",N24 Doku (1)
 https://broadcast.n24-doku.personalstream.tv/ses/hls/live/2107300/n24-doku-live/master.m3u8
 #EXTINF:-1 tvg-id="tv-n24-doku" tvg-name="N24 Doku" group-title="documentary",N24 Doku (2)
@@ -682,14 +608,6 @@ https://wdw.iptv-playoutcenter.de/wdw/wdw1/chunks.m3u8
 https://muc3.iptv-playoutcenter.de/dokusat/dokusat1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-dokusat" tvg-name="Dokusat" group-title="documentary",Dokusat (2)
 https://dokusat.iptv-playoutcenter.de/dokusat/dokusat1/playlist.m3u8
-#EXTINF:-1 tvg-id="tv-anixe" tvg-name="Anixe +" group-title="other",Anixe + (1)
-https://wow.anixa.tv/live/anixesd/playlist.m3u8
-#EXTINF:-1 tvg-id="tv-anixe" tvg-name="Anixe +" group-title="other",Anixe + (2)
-https://ma.anixa.tv/clips/stream/anixesd/index.m3u8
-#EXTINF:-1 tvg-id="tv-anixe-hd-serie" tvg-name="Anixe HD Serie" group-title="other",Anixe HD Serie (1)
-https://wow.anixa.tv/live/anixehd2/playlist.m3u8
-#EXTINF:-1 tvg-id="tv-anixe-hd-serie" tvg-name="Anixe HD Serie" group-title="other",Anixe HD Serie (2)
-https://ma.anixa.tv/clips/stream/anixehd/index.m3u8
 #EXTINF:-1 tvg-id="tv-df1" tvg-name="DF1" group-title="other",DF1 (1)
 https://d287776cjxyfeq.cloudfront.net/out/v1/08823cd7fba74508a5a577fd51dc41f6/index.m3u8
 #EXTINF:-1 tvg-id="tv-aristo-tv" tvg-name="Aristo TV" group-title="other",Aristo TV (1)
@@ -826,12 +744,6 @@ https://h056.video-stream-hosting.de/easycast11-live/_definst_/mp4:livestreamhd2
 https://h056.video-stream-hosting.de/easycast7-live/_definst_/mp4:livestreamhd20/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-teltowkanal" tvg-name="teltOwkanal" group-title="yerel",teltOwkanal (1)
 https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd8/playlist.m3u8
-#EXTINF:-1 tvg-id="tv-radio-weser-tv-bremen" tvg-name="Radio Weser TV Bremen" group-title="yerel",Radio Weser TV Bremen (1)
-https://5857499ee635b.streamlock.net/radiowesertv-live/mp4:livestreamTV/playlist.m3u8
-#EXTINF:-1 tvg-id="tv-radio-weser-tv-bremen" tvg-name="Radio Weser TV Bremen" group-title="yerel",Radio Weser TV Bremen (2)
-https://5857499ee635b.streamlock.net/radiowesertv-live/_definst_/mp4:livestreamTV/playlist.m3u8
-#EXTINF:-1 tvg-id="tv-radio-weser-tv-bremen" tvg-name="Radio Weser TV Bremen" group-title="yerel",Radio Weser TV Bremen (3)
-https://5857499ee635b.streamlock.net/radiowesertv-live/_definst_/mp4:livestreamHFHB/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-noa4-hamburg" tvg-name="noa4 Hamburg" group-title="yerel",noa4 Hamburg (1)
 https://hls1.wtnet.de/noa4hh/apple/wifi6500.m3u8
 #EXTINF:-1 tvg-id="tv-ok-kassel" tvg-name="OK Kassel" group-title="yerel",OK Kassel (1)
@@ -840,8 +752,6 @@ https://s.ok54.de/mok-ks/kassel/playlist.m3u8
 https://s.ok54.de/mok-rm/mok-rm/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-ems-tv" tvg-name="Ems TV" group-title="yerel",Ems TV (1)
 https://h058.video-stream-hosting.de/ev1tv-live/_definst_/mp4:stream1.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="tv-h-eins-tv" tvg-name="h-eins.tv" group-title="yerel",h-eins.tv (1)
-https://5857499ee635b.streamlock.net/heinstv-live/_definst_/smil:livestream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-oldenburg-eins" tvg-name="oldenburg eins" group-title="yerel",oldenburg eins (1)
 https://cdn.oeins.de/index.m3u8
 #EXTINF:-1 tvg-id="tv-radio-21-tv" tvg-name="Radio 21 TV" group-title="yerel",Radio 21 TV (1)
@@ -964,3 +874,65 @@ https://h056.video-stream-hosting.de/easycast9-live/_definst_/mp4:livestream999/
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/132661/132661_264_live.m3u8
 #EXTINF:-1 tvg-id="tv-labor14-gera" tvg-name="labor14 Gera" group-title="yerel",labor14 Gera (1)
 https://5acade5fc0c29.streamlock.net/OKGera/tmbz_live_high.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-qvc-deutschland" tvg-name="QVC Deutschland" group-title="shopping",QVC Deutschland (1)
+https://qvcde-live.akamaized.net/hls/live/2097104/qvc/master.m3u8
+#EXTINF:-1 tvg-id="tv-qvc-deutschland" tvg-name="QVC Deutschland" group-title="shopping",QVC Deutschland (2)
+https://qvcde-live.akamaized.net/hls/live/2097104/qvc/1/1.m3u8
+#EXTINF:-1 tvg-id="tv-qvc-deutschland" tvg-name="QVC Deutschland" group-title="shopping",QVC Deutschland (3)
+https://qvcde-live.akamaized.net/hls/live/2097104/qvc/2/2.m3u8
+#EXTINF:-1 tvg-id="tv-qvc-deutschland" tvg-name="QVC Deutschland" group-title="shopping",QVC Deutschland (4)
+https://qvcde-live.akamaized.net/hls/live/2097104/qvc/3/3.m3u8
+#EXTINF:-1 tvg-id="tv-hse" tvg-name="HSE" group-title="shopping",HSE (1)
+https://hse24.akamaized.net/hls/live/2006663/hse24/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-hse" tvg-name="HSE" group-title="shopping",HSE (2)
+https://hse24.akamaized.net/hls/live/2006663/hse24/master_1080p25.m3u8
+#EXTINF:-1 tvg-id="tv-hse" tvg-name="HSE" group-title="shopping",HSE (3)
+https://hse24.akamaized.net/hls/live/2006663-b/hse24/master_1080p25.m3u8
+#EXTINF:-1 tvg-id="tv-hse" tvg-name="HSE" group-title="shopping",HSE (4)
+https://hse24.akamaized.net/hls/live/2006663/hse24/master_900p25.m3u8
+#EXTINF:-1 tvg-id="tv-hse" tvg-name="HSE" group-title="shopping",HSE (5)
+https://hse24.akamaized.net/hls/live/2006663/hse24/master_576p25.m3u8
+#EXTINF:-1 tvg-id="tv-hse-extra" tvg-name="HSE Extra" group-title="shopping",HSE Extra (1)
+https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-hse-extra" tvg-name="HSE Extra" group-title="shopping",HSE Extra (2)
+https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/master_1080p25.m3u8
+#EXTINF:-1 tvg-id="tv-hse-extra" tvg-name="HSE Extra" group-title="shopping",HSE Extra (3)
+https://hse24extra.akamaized.net/hls/live/2006596-b/hse24extra/master_1080p25.m3u8
+#EXTINF:-1 tvg-id="tv-hse-extra" tvg-name="HSE Extra" group-title="shopping",HSE Extra (4)
+https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/master_900p25.m3u8
+#EXTINF:-1 tvg-id="tv-hse-extra" tvg-name="HSE Extra" group-title="shopping",HSE Extra (5)
+https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/master_576p25.m3u8
+#EXTINF:-1 tvg-id="tv-hse-trend" tvg-name="HSE Trend" group-title="shopping",HSE Trend (1)
+https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-hse-trend" tvg-name="HSE Trend" group-title="shopping",HSE Trend (2)
+https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/master_576_1p25.m3u8
+#EXTINF:-1 tvg-id="tv-hse-trend" tvg-name="HSE Trend" group-title="shopping",HSE Trend (3)
+https://hse24trend.akamaized.net/hls/live/2006597-b/hse24trend/master_576_1p25.m3u8
+#EXTINF:-1 tvg-id="tv-hse-trend" tvg-name="HSE Trend" group-title="shopping",HSE Trend (4)
+https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/master_576_2p25.m3u8
+#EXTINF:-1 tvg-id="tv-juwelo" tvg-name="Juwelo" group-title="shopping",Juwelo (1)
+https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3u8
+#EXTINF:-1 tvg-id="tv-juwelo" tvg-name="Juwelo" group-title="shopping",Juwelo (2)
+https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/2646acd5413662e9_12812347_2610120941_3_3.m3u8
+#EXTINF:-1 tvg-id="tv-juwelo" tvg-name="Juwelo" group-title="shopping",Juwelo (3)
+https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/2646acd5413662e9_12812347_2610120941_2_2.m3u8
+#EXTINF:-1 tvg-id="tv-juwelo" tvg-name="Juwelo" group-title="shopping",Juwelo (4)
+https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/2646acd5413662e9_12812347_2610120941_1_1.m3u8
+#EXTINF:-1 tvg-id="tv-shop-lc-deutschland" tvg-name="Shop LC Deutschland" group-title="shopping",Shop LC Deutschland (1)
+https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel(LCGERMANYWEB)/master.m3u8
+#EXTINF:-1 tvg-id="tv-shop-lc-deutschland" tvg-name="Shop LC Deutschland" group-title="shopping",Shop LC Deutschland (2)
+https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel(LCGERMANYWEB)/01.m3u8
+#EXTINF:-1 tvg-id="tv-shop-lc-deutschland" tvg-name="Shop LC Deutschland" group-title="shopping",Shop LC Deutschland (3)
+https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel(LCGERMANYWEB)/02.m3u8
+#EXTINF:-1 tvg-id="tv-shop-lc-deutschland" tvg-name="Shop LC Deutschland" group-title="shopping",Shop LC Deutschland (4)
+https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel(LCGERMANYWEB)/03.m3u8
+#EXTINF:-1 tvg-id="tv-telegold" tvg-name="Telegold" group-title="shopping",Telegold (1)
+https://telegold.iptv-playoutcenter.de/telegold/telegold-all/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-telegold" tvg-name="Telegold" group-title="shopping",Telegold (2)
+https://telegold.iptv-playoutcenter.de/telegold/telegold1/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-telegold" tvg-name="Telegold" group-title="shopping",Telegold (3)
+https://telegold.iptv-playoutcenter.de/telegold/telegold-sat1/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-kaufbei-tv" tvg-name="KaufBei TV" group-title="shopping",KaufBei TV (1)
+https://elephant.t62a.com/hls/8103/index.m3u8
+#EXTINF:-1 tvg-id="tv-meietv" tvg-name="MeieTV" group-title="shopping",MeieTV (1)
+https://stream.meietv.de/live/meietv.m3u8
