@@ -23,7 +23,7 @@ Uygulama önce `metadata.json` indirir. `revision` veya `channels.json` sha256 d
 | --- | --- |
 | `sources/tv.csv`, `sources/tv.m3u` | Ham TV ölçümü. CSV'de ölü (`failed`) satırlar da durur. |
 | `sources/radio.csv`, `sources/radio.m3u` | Ham radyo ölçümü. CSV'de denenmemiş düz `http` satırları da durur. |
-| `sources/onay-2026-10-15.csv` … `onay-2026-10-22.csv` | Onaylanan ekler ve silinecek veya sona alınan linkler. |
+| `sources/onay-2026-10-15.csv` … `onay-2026-10-23.csv` | Onaylanan ekler ve silinecek veya sona alınan linkler. |
 | `sources/catalog-retest-2026-10-18.json` | 18 Ekim yeniden testi (ölü, statik, şüpheli). |
 | `tv.m3u`, `radio.m3u` | Yayımlanan, temizlenmiş listeler. Ölü ve denenmemiş link yoktur. |
 | `channels.json` | Uygulamanın indirdiği katalog. |
@@ -74,7 +74,7 @@ Kategoriler `tools/apply-2026-10-18.mjs` içinde ada göre verilir. Eski `kids`,
 | `music` | Deluxe Music, Melodie TV; radyoda Klassik Radio ve temalı web radyolar |
 | `shopping` | QVC, HSE, Juwelo |
 | `documentary` | N24 Doku, Dokusat, Welt der Wunder |
-| `other` | Anixe, DF1, Just Cooking, Lilo TV |
+| `other` | Anixe, DF1, Lilo TV, More Than Sports TV |
 | `international` | Kanal Avrupa, Çira TV |
 | `yerel` | Yerel televizyon. Eyalete göre, eyaletin içinde ada göre |
 
@@ -97,6 +97,8 @@ Radyo CSV'sinde aynı istasyon adının altında kardeş yayınlar da `(1)`, `(2
 `sources/onay-2026-10-21.csv` 21 Ekim onayıdır. İki yerel TV yedeği ve 24 radyo yedeği ilgili kanala eklenir. Yeni özel radyolar, eyalet gruplarındaki mevcut düzene girer (NRW, Rheinland-Pfalz, Bayern, Berlin). `yerel` yerel televizyon içindir; yerel radyolar `regional` kalır. Star*Sat Radio temalı `music` grubundadır. Radio Gold Berlin'dedir. 21 Ekim yeniden testindeki ölü linkler silinmez; kanalın sonuna alınır. Buna Welt'in `personalstream` adresi de dahildir.
 
 `sources/onay-2026-10-22.csv` 22 Ekim yedekleridir; yeni kanal yoktur. ARD `ard-mcdn` kalite varyantları ve bir Deutsche Welle TV yedeği ilgili kanala eklenir. CSV'de `tip=radio` olan iki Deutsche Welle ses adresi de ayrı istasyon açılmadan mevcut TV kanalına yazılır. `sadece Almanya` adresleri `geo_de_only` olur. HR 1 sırası: `hr1rm`, sonra `hr1suedhessen`, `hlshr1` en sonda. ERF Plus'ta `stream.erfplus.de/erf-1a64/mp3-128` ilk sıradadır; HTML dönen `erfplus.m3u` sondadır. `avw.mdr.de` üzerindeki `aac_high.m3u` adresleri 503 verdiği için silinmez, kanalın sonuna alınır.
+
+`sources/onay-2026-10-23.csv` 23 Ekim onayının tamamıdır. WDR 2 bölgesel HLS yedekleri, MDR'nin resmi `radio-hls` adresleri, HSE Extra 576p, ALEX Berlin chunklist ve radyo yedekleri ilgili kanallara eklenir. MDR Klassik'in ENDLIST adayı eklenmez. More Than Sports TV `other` grubundadır; ayrı spor kategorisi yoktur. Radio Rüsselsheim Hessen içinde `regional` durur. İki gündür 503 veren beş `avw.mdr.de` `aac_high.m3u` adresi silinir. Tagesschau 24'ün `hls/int/master.m3u8` ve `master720p3200.m3u8` adresleri ile MDR Fernsehen Sachsen'in `hls/int/master360p1200.m3u8` adresi silinir; diğer yedekler kalır. Samsung TV Plus kanalları (Höhenrausch, One Terra, Xplore, Just Cooking, Just Fishing) katalogdan çıkar. Welt `personalstream`, QVC Style, QVC Zwei, Radio Weser TV, h-eins.tv, Finest TV ve HR 1 `hlshr1` silinmez.
 
 ## Sıra
 

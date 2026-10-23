@@ -238,18 +238,26 @@ https://hr-radio.ard-mcdn.de/hr/radio/dasding/hls/master.m3u8
 https://mdr-284280-0.sslcast.mdr.de/mdr/284280/0/mp3/high/stream.mp3
 #EXTINF:-1 tvg-id="radio-mdr-sachsen" tvg-name="MDR Sachsen" group-title="public",MDR Sachsen (2)
 https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsachsendd/hls/master.m3u8
+#EXTINF:-1 tvg-id="radio-mdr-sachsen" tvg-name="MDR Sachsen" group-title="public",MDR Sachsen (3)
+https://radio-hls.mdr.de/hls/live/2112887/mdr-284280-0-hls/index.m3u8
 #EXTINF:-1 tvg-id="radio-mdr-sachsen-bautzen" tvg-name="MDR SACHSEN Bautzen" group-title="public",MDR SACHSEN Bautzen (1)
 https://mdr-284280-1.sslcast.mdr.de/mdr/284280/1/mp3/high/stream.mp3
 #EXTINF:-1 tvg-id="radio-mdr-sachsen-bautzen" tvg-name="MDR SACHSEN Bautzen" group-title="public",MDR SACHSEN Bautzen (2)
 https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsachsenbz/hls/master.m3u8
+#EXTINF:-1 tvg-id="radio-mdr-sachsen-bautzen" tvg-name="MDR SACHSEN Bautzen" group-title="public",MDR SACHSEN Bautzen (3)
+https://radio-hls.mdr.de/hls/live/2112888/mdr-284280-1-hls/index.m3u8
 #EXTINF:-1 tvg-id="radio-mdr-sachsen-chemnitz" tvg-name="MDR SACHSEN Chemnitz" group-title="public",MDR SACHSEN Chemnitz (1)
 https://mdr-284280-2.sslcast.mdr.de/mdr/284280/2/mp3/high/stream.mp3
 #EXTINF:-1 tvg-id="radio-mdr-sachsen-chemnitz" tvg-name="MDR SACHSEN Chemnitz" group-title="public",MDR SACHSEN Chemnitz (2)
 https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsachsenc/hls/master.m3u8
+#EXTINF:-1 tvg-id="radio-mdr-sachsen-chemnitz" tvg-name="MDR SACHSEN Chemnitz" group-title="public",MDR SACHSEN Chemnitz (3)
+https://radio-hls.mdr.de/hls/live/2112889/mdr-284280-2-hls/index.m3u8
 #EXTINF:-1 tvg-id="radio-mdr-sachsen-leipzig" tvg-name="MDR SACHSEN Leipzig" group-title="public",MDR SACHSEN Leipzig (1)
 https://mdr-284280-3.sslcast.mdr.de/mdr/284280/3/mp3/high/stream.mp3
 #EXTINF:-1 tvg-id="radio-mdr-sachsen-leipzig" tvg-name="MDR SACHSEN Leipzig" group-title="public",MDR SACHSEN Leipzig (2)
 https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsachsenl/hls/master.m3u8
+#EXTINF:-1 tvg-id="radio-mdr-sachsen-leipzig" tvg-name="MDR SACHSEN Leipzig" group-title="public",MDR SACHSEN Leipzig (3)
+https://radio-hls.mdr.de/hls/live/2112890/mdr-284280-3-hls/index.m3u8
 #EXTINF:-1 tvg-id="radio-mdr-sachsen-anhalt" tvg-name="MDR Sachsen-Anhalt" group-title="public",MDR Sachsen-Anhalt (1)
 https://mdr-radio-hls.akamaized.net/hls/live/2112894/mdr-284290-2-hls/index.m3u8
 #EXTINF:-1 tvg-id="radio-mdr-sachsen-anhalt" tvg-name="MDR Sachsen-Anhalt" group-title="public",MDR Sachsen-Anhalt (2)
@@ -257,7 +265,7 @@ https://mdr-284290-0.sslcast.mdr.de/mdr/284290/0/mp3/high/stream.mp3
 #EXTINF:-1 tvg-id="radio-mdr-sachsen-anhalt" tvg-name="MDR Sachsen-Anhalt" group-title="public",MDR Sachsen-Anhalt (3)
 https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsachsenanhaltmd/hls/master.m3u8
 #EXTINF:-1 tvg-id="radio-mdr-sachsen-anhalt" tvg-name="MDR Sachsen-Anhalt" group-title="public",MDR Sachsen-Anhalt (4)
-https://avw.mdr.de/streams/284290-2_aac_high.m3u
+https://radio-hls.mdr.de/hls/live/2112893/mdr-284290-0-hls/index.m3u8
 #EXTINF:-1 tvg-id="radio-mdr-sachsen-anhalt-dessau" tvg-name="MDR SACHSEN-ANHALT Dessau" group-title="public",MDR SACHSEN-ANHALT Dessau (1)
 https://mdr-284290-1.sslcast.mdr.de/mdr/284290/1/mp3/high/stream.mp3
 #EXTINF:-1 tvg-id="radio-mdr-sachsen-anhalt-dessau" tvg-name="MDR SACHSEN-ANHALT Dessau" group-title="public",MDR SACHSEN-ANHALT Dessau (2)
@@ -272,6 +280,8 @@ https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsachsenanhalthal/hls/master.m3u8
 https://mdr-284290-3.sslcast.mdr.de/mdr/284290/3/mp3/high/stream.mp3
 #EXTINF:-1 tvg-id="radio-mdr-sachsen-anhalt-stendal" tvg-name="MDR SACHSEN-ANHALT Stendal" group-title="public",MDR SACHSEN-ANHALT Stendal (2)
 https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsachsenanhaltsdl/hls/master.m3u8
+#EXTINF:-1 tvg-id="radio-mdr-sachsen-anhalt-stendal" tvg-name="MDR SACHSEN-ANHALT Stendal" group-title="public",MDR SACHSEN-ANHALT Stendal (3)
+https://radio-hls.mdr.de/hls/live/2112895/mdr-284290-3-hls/index.m3u8
 #EXTINF:-1 tvg-id="radio-mdr-thueringen-mitte-west" tvg-name="MDR Thüringen Mitte/West" group-title="public",MDR Thüringen Mitte/West (1)
 https://f111.rndfnk.com/ard/mdr/284300/0/mp3/128/stream.mp3?cid=01FBQ0VVNFY9PE18EJE73MJAYC&sid=3KahWlgtyLbqs2uGb2Oy6XtbYXN&token=PRchVKSyadq6xR6Qz9xC3gRZ0-ujZj2MznBKBBUCvyI&tvf=vOZhmbnV3RhmMTExLnJuZGZuay5jb20
 #EXTINF:-1 tvg-id="radio-mdr-thueringen-mitte-west" tvg-name="MDR Thüringen Mitte/West" group-title="public",MDR Thüringen Mitte/West (2)
@@ -320,8 +330,6 @@ https://mdr-284320-0.sslcast.mdr.de/mdr/284320/0/mp3/high/stream.mp3
 https://radio-hls.mdr.de/hls/live/2112904/mdr-284320-0-hls/index.m3u8
 #EXTINF:-1 tvg-id="radio-mdr-jump" tvg-name="MDR Jump" group-title="public",MDR Jump (4)
 https://mdr-radio.ard-mcdn.de/mdr/radio/mdrjump/hls/master.m3u8
-#EXTINF:-1 tvg-id="radio-mdr-jump" tvg-name="MDR Jump" group-title="public",MDR Jump (5)
-https://avw.mdr.de/streams/284320-0_aac_high.m3u
 #EXTINF:-1 tvg-id="radio-mdr-klassik" tvg-name="MDR Klassik" group-title="public",MDR Klassik (1)
 https://mdr-284350-0.sslcast.mdr.de/mdr/284350/0/mp3/max/stream.mp3
 #EXTINF:-1 tvg-id="radio-mdr-klassik" tvg-name="MDR Klassik" group-title="public",MDR Klassik (2)
@@ -334,28 +342,24 @@ https://radio-hls.mdr.de/hls/live/2112903/mdr-284310-0-hls/index.m3u8
 https://mdr-radio.ard-mcdn.de/mdr/radio/mdrkultur/hls/master.m3u8
 #EXTINF:-1 tvg-id="radio-mdr-kultur" tvg-name="MDR Kultur" group-title="public",MDR Kultur (4)
 https://mdr-284311-0.sslcast.mdr.de/mdr/284311/0/mp3/max/stream.mp3
-#EXTINF:-1 tvg-id="radio-mdr-kultur" tvg-name="MDR Kultur" group-title="public",MDR Kultur (5)
-https://avw.mdr.de/streams/284310-0_aac_high.m3u
 #EXTINF:-1 tvg-id="radio-mdr-sputnik" tvg-name="MDR Sputnik" group-title="public",MDR Sputnik (1)
 https://mdr-284330-0.sslcast.mdr.de/mdr/284330/0/mp3/high/stream.mp3
 #EXTINF:-1 tvg-id="radio-mdr-sputnik" tvg-name="MDR Sputnik" group-title="public",MDR Sputnik (2)
 https://radio-hls.mdr.de/hls/live/2112905/mdr-284330-0-hls/index.m3u8
 #EXTINF:-1 tvg-id="radio-mdr-sputnik" tvg-name="MDR Sputnik" group-title="public",MDR Sputnik (3)
 https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsputnik/hls/master.m3u8
-#EXTINF:-1 tvg-id="radio-mdr-sputnik" tvg-name="MDR Sputnik" group-title="public",MDR Sputnik (4)
-https://avw.mdr.de/streams/284330-0_aac_high.m3u
 #EXTINF:-1 tvg-id="radio-mdr-schlagerwelt" tvg-name="MDR Schlagerwelt" group-title="public",MDR Schlagerwelt (1)
 https://mdr-990801-0.sslcast.mdr.de/mdr/990801/0/mp3/high/stream.mp3
 #EXTINF:-1 tvg-id="radio-mdr-schlagerwelt" tvg-name="MDR Schlagerwelt" group-title="public",MDR Schlagerwelt (2)
 https://mdr-radio.ard-mcdn.de/mdr/radio/mdrschlagerweltsn/hls/master.m3u8
 #EXTINF:-1 tvg-id="radio-mdr-schlagerwelt" tvg-name="MDR Schlagerwelt" group-title="public",MDR Schlagerwelt (3)
 https://mdr-radio-hls.akamaized.net/hls/live/2112911/mdr-990701-0-hls/index.m3u8
-#EXTINF:-1 tvg-id="radio-mdr-schlagerwelt" tvg-name="MDR Schlagerwelt" group-title="public",MDR Schlagerwelt (4)
-https://avw.mdr.de/streams/990701-0_aac_high.m3u
 #EXTINF:-1 tvg-id="radio-mdr-tweens" tvg-name="MDR Tweens" group-title="public",MDR Tweens (1)
 https://mdr-991101-0.sslcast.mdr.de/mdr/991101/0/mp3/high/stream.mp3
 #EXTINF:-1 tvg-id="radio-mdr-tweens" tvg-name="MDR Tweens" group-title="public",MDR Tweens (2)
 https://mdr-radio.ard-mcdn.de/mdr/radio/mdrtweens/hls/master.m3u8
+#EXTINF:-1 tvg-id="radio-mdr-tweens" tvg-name="MDR Tweens" group-title="public",MDR Tweens (3)
+https://radio-hls.mdr.de/hls/live/2112913/mdr-991101-0-hls/index.m3u8
 #EXTINF:-1 tvg-id="radio-ndr-1-niedersachsen-hannover" tvg-name="NDR 1 Niedersachsen Hannover" group-title="public",NDR 1 Niedersachsen Hannover (1)
 https://icecast.ndr.de/ndr/ndr1niedersachsen/hannover/mp3/128/stream.mp3?1728424471708&aggregator=web
 #EXTINF:-1 tvg-id="radio-ndr-1-niedersachsen-hannover" tvg-name="NDR 1 Niedersachsen Hannover" group-title="public",NDR 1 Niedersachsen Hannover (2)
@@ -656,6 +660,8 @@ https://liveradio.swr.de/sw331ch/swr1rp/play.aac
 https://liveradio.swr.de/sw890cl/swr1rp/
 #EXTINF:-1 tvg-id="radio-swr-1-rheinland-pfalz" tvg-name="SWR 1 Rheinland-Pfalz" group-title="public",SWR 1 Rheinland-Pfalz (6)
 https://dispatcher.rndfnk.com/swr/swr1/rp/mp3/128/stream.mp3
+#EXTINF:-1 tvg-id="radio-swr-1-rheinland-pfalz" tvg-name="SWR 1 Rheinland-Pfalz" group-title="public",SWR 1 Rheinland-Pfalz (7)
+https://liveradio.swr.de/tn2d2ac/swr1rp/
 #EXTINF:-1 tvg-id="radio-swr-3" tvg-name="SWR 3" group-title="public",SWR 3 (1)
 https://liveradio.swr.de/sw282p3/swr3/play.mp3
 #EXTINF:-1 tvg-id="radio-swr-3" tvg-name="SWR 3" group-title="public",SWR 3 (2)
@@ -822,44 +828,60 @@ https://wdr-wdr2-muensterland.icecast.wdr.de/wdr/wdr2/muensterland/mp3/128/strea
 https://wdr-wdr2-rheinruhr.icecastssl.wdr.de/wdr/wdr2/rheinruhr/mp3/128/stream.mp3
 #EXTINF:-1 tvg-id="radio-wdr-2-rhein-und-ruhr" tvg-name="WDR 2 Rhein und Ruhr" group-title="public",WDR 2 Rhein und Ruhr (6)
 https://wdr-radio.ard-mcdn.de/wdr/radio/wdr2rr/hls/master.m3u8
+#EXTINF:-1 tvg-id="radio-wdr-2-rhein-und-ruhr" tvg-name="WDR 2 Rhein und Ruhr" group-title="public",WDR 2 Rhein und Ruhr (7)
+https://wdrhf.akamaized.net/hls/live/2027970/wdr2rheinruhr/master.m3u8
 #EXTINF:-1 tvg-id="radio-wdr-2-aachen-und-region" tvg-name="WDR 2 Aachen und Region" group-title="public",WDR 2 Aachen und Region (1)
 https://wdr-radio.ard-mcdn.de/wdr/radio/wdr2ac/hls/master.m3u8
 #EXTINF:-1 tvg-id="radio-wdr-2-aachen-und-region" tvg-name="WDR 2 Aachen und Region" group-title="public",WDR 2 Aachen und Region (2)
 https://wdr-wdr2-aachenundregion.icecastssl.wdr.de/wdr/wdr2/aachenundregion/mp3/128/stream.mp3?aggregator=web
 #EXTINF:-1 tvg-id="radio-wdr-2-aachen-und-region" tvg-name="WDR 2 Aachen und Region" group-title="public",WDR 2 Aachen und Region (3)
 https://wdr-wdr2-aachenundregion.icecast.wdr.de/wdr/wdr2/aachenundregion/mp3/128/stream.mp3
+#EXTINF:-1 tvg-id="radio-wdr-2-aachen-und-region" tvg-name="WDR 2 Aachen und Region" group-title="public",WDR 2 Aachen und Region (4)
+https://wdrhf.akamaized.net/hls/live/2027973/wdr2aachenundregion/master.m3u8
 #EXTINF:-1 tvg-id="radio-wdr-2-bergisches-land" tvg-name="WDR 2 Bergisches Land" group-title="public",WDR 2 Bergisches Land (1)
 https://wdr-radio.ard-mcdn.de/wdr/radio/wdr2bld/hls/master.m3u8
 #EXTINF:-1 tvg-id="radio-wdr-2-bergisches-land" tvg-name="WDR 2 Bergisches Land" group-title="public",WDR 2 Bergisches Land (2)
 https://wdr-wdr2-bergischesland.icecastssl.wdr.de/wdr/wdr2/bergischesland/mp3/128/stream.mp3?aggregator=web
 #EXTINF:-1 tvg-id="radio-wdr-2-bergisches-land" tvg-name="WDR 2 Bergisches Land" group-title="public",WDR 2 Bergisches Land (3)
 https://wdr-wdr2-bergischesland.icecast.wdr.de/wdr/wdr2/bergischesland/mp3/128/stream.mp3
+#EXTINF:-1 tvg-id="radio-wdr-2-bergisches-land" tvg-name="WDR 2 Bergisches Land" group-title="public",WDR 2 Bergisches Land (4)
+https://wdrhf.akamaized.net/hls/live/2027971/wdr2bergischesland/master.m3u8
 #EXTINF:-1 tvg-id="radio-wdr-2-muensterland" tvg-name="WDR 2 Münsterland" group-title="public",WDR 2 Münsterland (1)
 https://wdr-radio.ard-mcdn.de/wdr/radio/wdr2mld/hls/master.m3u8
 #EXTINF:-1 tvg-id="radio-wdr-2-muensterland" tvg-name="WDR 2 Münsterland" group-title="public",WDR 2 Münsterland (2)
 https://wdr-wdr2-muensterland.icecastssl.wdr.de/wdr/wdr2/muensterland/mp3/128/stream.mp3?aggregator=web
+#EXTINF:-1 tvg-id="radio-wdr-2-muensterland" tvg-name="WDR 2 Münsterland" group-title="public",WDR 2 Münsterland (3)
+https://wdrhf.akamaized.net/hls/live/2027968/wdr2muensterland/master.m3u8
 #EXTINF:-1 tvg-id="radio-wdr-2-ostwestfalen-lippe" tvg-name="WDR 2 Ostwestfalen Lippe" group-title="public",WDR 2 Ostwestfalen Lippe (1)
 https://wdr-radio.ard-mcdn.de/wdr/radio/wdr2owl/hls/master.m3u8
 #EXTINF:-1 tvg-id="radio-wdr-2-ostwestfalen-lippe" tvg-name="WDR 2 Ostwestfalen Lippe" group-title="public",WDR 2 Ostwestfalen Lippe (2)
 https://wdr-wdr2-ostwestfalenlippe.icecastssl.wdr.de/wdr/wdr2/ostwestfalenlippe/mp3/128/stream.mp3?aggregator=web
 #EXTINF:-1 tvg-id="radio-wdr-2-ostwestfalen-lippe" tvg-name="WDR 2 Ostwestfalen Lippe" group-title="public",WDR 2 Ostwestfalen Lippe (3)
 https://wdrhf.akamaized.net/hls/live/2027967/wdr2ostwestfalenlippe/192/seglist.m3u8
+#EXTINF:-1 tvg-id="radio-wdr-2-ostwestfalen-lippe" tvg-name="WDR 2 Ostwestfalen Lippe" group-title="public",WDR 2 Ostwestfalen Lippe (4)
+https://wdrhf.akamaized.net/hls/live/2027967/wdr2ostwestfalenlippe/master.m3u8
 #EXTINF:-1 tvg-id="radio-wdr-2-rheinland" tvg-name="WDR 2 Rheinland" group-title="public",WDR 2 Rheinland (1)
 https://wdr-radio.ard-mcdn.de/wdr/radio/wdr2rhld/hls/master.m3u8
 #EXTINF:-1 tvg-id="radio-wdr-2-rheinland" tvg-name="WDR 2 Rheinland" group-title="public",WDR 2 Rheinland (2)
 https://wdr-wdr2-rheinland.icecastssl.wdr.de/wdr/wdr2/rheinland/mp3/128/stream.mp3?aggregator=web
+#EXTINF:-1 tvg-id="radio-wdr-2-rheinland" tvg-name="WDR 2 Rheinland" group-title="public",WDR 2 Rheinland (3)
+https://wdrhf.akamaized.net/hls/live/2027966/wdr2rheinland/master.m3u8
 #EXTINF:-1 tvg-id="radio-wdr-2-ruhrgebiet" tvg-name="WDR 2 Ruhrgebiet" group-title="public",WDR 2 Ruhrgebiet (1)
 https://wdr-wdr2-ruhrgebiet.icecast.wdr.de/wdr/wdr2/ruhrgebiet/mp3/128/stream.mp3
 #EXTINF:-1 tvg-id="radio-wdr-2-ruhrgebiet" tvg-name="WDR 2 Ruhrgebiet" group-title="public",WDR 2 Ruhrgebiet (2)
 https://wdr-radio.ard-mcdn.de/wdr/radio/wdr2ruhrgb/hls/master.m3u8
 #EXTINF:-1 tvg-id="radio-wdr-2-ruhrgebiet" tvg-name="WDR 2 Ruhrgebiet" group-title="public",WDR 2 Ruhrgebiet (3)
 https://wdr-wdr2-ruhrgebiet.icecastssl.wdr.de/wdr/wdr2/ruhrgebiet/mp3/128/stream.mp3
+#EXTINF:-1 tvg-id="radio-wdr-2-ruhrgebiet" tvg-name="WDR 2 Ruhrgebiet" group-title="public",WDR 2 Ruhrgebiet (4)
+https://wdrhf.akamaized.net/hls/live/2027969/wdr2ruhrgebiet/master.m3u8
 #EXTINF:-1 tvg-id="radio-wdr-2-suedwestfalen" tvg-name="WDR 2 Südwestfalen" group-title="public",WDR 2 Südwestfalen (1)
 https://wdr-radio.ard-mcdn.de/wdr/radio/wdr2swf/hls/master.m3u8
 #EXTINF:-1 tvg-id="radio-wdr-2-suedwestfalen" tvg-name="WDR 2 Südwestfalen" group-title="public",WDR 2 Südwestfalen (2)
 https://wdr-wdr2-suedwestfalen.icecastssl.wdr.de/wdr/wdr2/suedwestfalen/mp3/128/stream.mp3?aggregator=web
 #EXTINF:-1 tvg-id="radio-wdr-2-suedwestfalen" tvg-name="WDR 2 Südwestfalen" group-title="public",WDR 2 Südwestfalen (3)
 https://wdr-wdr2-suedwestfalen.icecast.wdr.de/wdr/wdr2/suedwestfalen/mp3/128/stream.mp3
+#EXTINF:-1 tvg-id="radio-wdr-2-suedwestfalen" tvg-name="WDR 2 Südwestfalen" group-title="public",WDR 2 Südwestfalen (4)
+https://wdrhf.akamaized.net/hls/live/2027972/wdr2suedwestfalen/master.m3u8
 #EXTINF:-1 tvg-id="radio-wdr-3" tvg-name="WDR 3" group-title="public",WDR 3 (1)
 https://wdrhf.akamaized.net/hls/live/2027994/wdr3/master.m3u8
 #EXTINF:-1 tvg-id="radio-wdr-3" tvg-name="WDR 3" group-title="public",WDR 3 (2)
@@ -1086,6 +1108,8 @@ https://play.antenne.de/antenne.m3u
 https://stream.antenne.de/antenne
 #EXTINF:-1 tvg-id="radio-antenne-bayern" tvg-name="Antenne Bayern" group-title="regional",Antenne Bayern (10)
 https://mp3channels.webradio.antenne.de/antenne.aac
+#EXTINF:-1 tvg-id="radio-antenne-bayern" tvg-name="Antenne Bayern" group-title="regional",Antenne Bayern (11)
+https://mp3channels.webradio.de/antenne
 #EXTINF:-1 tvg-id="radio-rock-antenne" tvg-name="Rock Antenne" group-title="regional",Rock Antenne (1)
 https://mp3channels.webradio.rockantenne.de/rockantenne
 #EXTINF:-1 tvg-id="radio-rock-antenne" tvg-name="Rock Antenne" group-title="regional",Rock Antenne (2)
@@ -1098,6 +1122,10 @@ https://mp3channels.webradio.rockantenne.de/punkrock.aac
 https://stream.rockantenne.de/rockantenne/stream/mp3
 #EXTINF:-1 tvg-id="radio-rock-antenne" tvg-name="Rock Antenne" group-title="regional",Rock Antenne (6)
 https://stream.rockantenne.de/rockantenne.aac
+#EXTINF:-1 tvg-id="radio-rock-antenne" tvg-name="Rock Antenne" group-title="regional",Rock Antenne (7)
+https://s5-webradio.antenne.de/rockantenne
+#EXTINF:-1 tvg-id="radio-rock-antenne" tvg-name="Rock Antenne" group-title="regional",Rock Antenne (8)
+https://mp3channels.webradio.de/rockantenne
 #EXTINF:-1 tvg-id="radio-egofm" tvg-name="egoFM" group-title="regional",egoFM (1)
 https://cast.egofm.de/egofm.mp3
 #EXTINF:-1 tvg-id="radio-egofm" tvg-name="egoFM" group-title="regional",egoFM (2)
@@ -1202,6 +1230,8 @@ https://streams.radiobob.de/bob-classicrock/mp3-192/streams.radiobob.de/
 https://streams.radiobob.de/bob-bestofrock/mp3-192/streams.radiobob.de/
 #EXTINF:-1 tvg-id="radio-radio-bob" tvg-name="Radio Bob" group-title="regional",Radio Bob (6)
 https://streams.radiobob.de/bob-live/mp3-192
+#EXTINF:-1 tvg-id="radio-radio-ruesselsheim" tvg-name="Radio Rüsselsheim" group-title="regional",Radio Rüsselsheim (1)
+https://streaming.radio-r.net/radio-r
 #EXTINF:-1 tvg-id="radio-antenne-mv" tvg-name="Antenne MV" group-title="regional",Antenne MV (1)
 https://streams.antennemv.de/oldies/mp3-128/streams.antennemv.de/
 #EXTINF:-1 tvg-id="radio-antenne-mv" tvg-name="Antenne MV" group-title="regional",Antenne MV (2)
@@ -1476,10 +1506,16 @@ https://uplink.byte.fm/bytefm-main/mp3-128/
 https://audiostreams.deluxemusic.tv/easy/mp3-192
 #EXTINF:-1 tvg-id="radio-deluxe-easy" tvg-name="DELUXE EASY" group-title="music",DELUXE EASY (2)
 https://audiostreams.deluxemusic.tv/easy/mp3-128/audiostreams.deluxemusic.tv/
+#EXTINF:-1 tvg-id="radio-deluxe-easy" tvg-name="DELUXE EASY" group-title="music",DELUXE EASY (3)
+https://audiostreams.deluxemusic.tv/easy/mp3-192/tunein/
 #EXTINF:-1 tvg-id="radio-deluxe-lounge-radio" tvg-name="DELUXE LOUNGE RADIO" group-title="music",DELUXE LOUNGE RADIO (1)
 https://audiostreams.deluxemusic.tv/lounge/mp3-192
+#EXTINF:-1 tvg-id="radio-deluxe-lounge-radio" tvg-name="DELUXE LOUNGE RADIO" group-title="music",DELUXE LOUNGE RADIO (2)
+https://audiostreams.deluxemusic.tv/lounge/mp3-192/tunein/
 #EXTINF:-1 tvg-id="radio-deluxe-music-radio" tvg-name="DELUXE MUSIC RADIO" group-title="music",DELUXE MUSIC RADIO (1)
 https://audiostreams.deluxemusic.tv/music/mp3-192
+#EXTINF:-1 tvg-id="radio-deluxe-music-radio" tvg-name="DELUXE MUSIC RADIO" group-title="music",DELUXE MUSIC RADIO (2)
+https://audiostreams.deluxemusic.tv/music/mp3-192/tunein/
 #EXTINF:-1 tvg-id="radio-jam-fm-black-label" tvg-name="JAM FM Black Label" group-title="music",JAM FM Black Label (1)
 https://stream.jam.fm/jamfm-bl/mp3-128
 #EXTINF:-1 tvg-id="radio-jam-fm-black-label" tvg-name="JAM FM Black Label" group-title="music",JAM FM Black Label (2)
@@ -1510,6 +1546,8 @@ https://streamtdy.ir-media-tec.com/kinderlieder/mp3-128/web/play.mp3
 https://streamtdy.ir-media-tec.com/weihnachtslieder/mp3-128/web/play.mp3
 #EXTINF:-1 tvg-id="radio-radio-teddy" tvg-name="Radio Teddy" group-title="music",Radio Teddy (5)
 https://streamtdy.ir-media-tec.com/live/mp3-128/radioplayer_web/play.mp3
+#EXTINF:-1 tvg-id="radio-radio-teddy" tvg-name="Radio Teddy" group-title="music",Radio Teddy (6)
+https://irmedia.streamabc.net/irm-rtlive-mp3-128-6306268
 #EXTINF:-1 tvg-id="radio-schlager-radio" tvg-name="Schlager Radio" group-title="music",Schlager Radio (1)
 https://addrad.io/4454rnz
 #EXTINF:-1 tvg-id="radio-schlager-radio" tvg-name="Schlager Radio" group-title="music",Schlager Radio (2)
@@ -1524,6 +1562,8 @@ https://webstream.schlagerparadies.de/schlager30842
 https://webstream.schlagerparadies.de/schlagerparadies128.mp3
 #EXTINF:-1 tvg-id="radio-schlagerparadies" tvg-name="Schlagerparadies" group-title="music",Schlagerparadies (3)
 https://webstream.schlagerparadies.de/schlagerparadies128k.mp3
+#EXTINF:-1 tvg-id="radio-schlagerparadies" tvg-name="Schlagerparadies" group-title="music",Schlagerparadies (4)
+https://aacplus.schlagerparadies.de/schlagerparadies.aac
 #EXTINF:-1 tvg-id="radio-star-sat-radio" tvg-name="Star*Sat Radio" group-title="music",Star*Sat Radio (1)
 https://starsat-live.cast.addradio.de/starsat/live/mp3/high/stream.mp3
 #EXTINF:-1 tvg-id="radio-toggo-radio" tvg-name="Toggo Radio" group-title="music",Toggo Radio (1)
