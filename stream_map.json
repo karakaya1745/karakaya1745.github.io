@@ -1,5 +1,5 @@
 {
-  "_revision": 203,
+  "_revision": 204,
   "duyuru": [
     "https://karakaya1745.github.io/guncelleme_duyuru.m3u8"
   ],
@@ -482,7 +482,9 @@
     "https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e_1080p.m3u8"
   ],
   "cnnturk": [
+    "https://trn03.tulix.tv/gt-cnnturk-tv/index.m3u8?token=b3efebaa772494434d777e2a8c8efc43",
     "https://trn03.tulix.tv/gt-cnnturk-tv/index.m3u8?token=canlitvtr",
+    "https://trn03.tulix.tv/gt-cnnturk-tv/index.m3u8?token=10a5253f5ee4a368d5ffae3e332099c8",
     "https://raw.githubusercontent.com/umitm0d/-mittube/refs/heads/main/Umittube/Cnn.m3u8",
     "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6926/index.m3u8"
   ],
@@ -2915,16 +2917,12 @@
     "https://live.kwikmotion.com/qmcslkrradiolive/slkrradio/playlist.m3u8"
   ],
   "sozcutv": [
+    "https://sozcutv-live.daioncdn.net/sozcutv/sozcutv.m3u8",
+    "https://sozcutv-live.daioncdn.net/sozcutv/sozcutv_1080p.m3u8",
+    "https://sozcutv-live.daioncdn.net/sozcutv/sozcutv_720p.m3u8",
     "https://raw.githubusercontent.com/pinkisso/mored/refs/heads/main/res/ytbe/szcytbe.m3u8",
-    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=540949&extension=ts&play_token=JOFxL2wUlR",
-    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=540949&extension=ts&play_token=JOFxL2wUlR",
-    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=540949&extension=ts&play_token=JOFxL2wUlR",
-    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=540949&extension=ts&play_token=JOFxL2wUlR",
-    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=540949&extension=ts&play_token=JOFxL2wUlR",
-    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=540949&extension=ts&play_token=JOFxL2wUlR",
-    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=540949&extension=ts&play_token=JOFxL2wUlR",
-    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=540949&extension=ts&play_token=JOFxL2wUlR",
-    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=540949&extension=ts&play_token=JOFxL2wUlR",
+    "https://trn03.tulix.tv/gt-sozcu-livetv/index.m3u8?token=b9b136447f039cce5dab614e0d25c5e7",
+    "https://raw.githubusercontent.com/pinkisso/mored/refs/heads/main/res/26-3/szc0.m3u8",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=540949&extension=ts&play_token=JOFxL2wUlR"
   ],
   "sperfm": [
