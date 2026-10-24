@@ -20,6 +20,7 @@
  *        almanya/sources/onay-2026-10-22.csv (22 Ekim yedekleri)
  *        almanya/sources/onay-2026-10-23.csv (23 Ekim yedekleri, silinen Samsung ve 404)
  *        24 Ekim temizliği: ölü TV, shopping sonda, bölgesel radyo birleşimi, DASDING
+ *        almanya/sources/onay-2026-10-24.csv (24 Ekim onayı; tema ve etkinlik kanalları hariç)
  * Ölü (failed) ve denenmemiş (untested) linkler yayınlanmaz.
  * geo-blocked (403) ve "sadece Almanya" linkler kalır; geo_de_only ile işaretlenir.
  * Katalogda olan URL yeniden eklenmez. Yeni link uydurulmaz.
@@ -35,6 +36,7 @@ import { applyOctober21 } from "./apply-2026-10-21.mjs";
 import { applyOctober22 } from "./apply-2026-10-22.mjs";
 import { applyOctober23 } from "./apply-2026-10-23.mjs";
 import { applyOctober24 } from "./apply-2026-10-24-cleanup.mjs";
+import { applyOctober24Batch } from "./apply-2026-10-24.mjs";
 
 const DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SOURCES = path.join(DIR, "sources");
@@ -815,6 +817,7 @@ function loadCatalog() {
   const onay22 = applyOctober22(channels);
   const onay23 = applyOctober23(channels);
   const onay24 = applyOctober24(channels);
+  const onay24b = applyOctober24Batch(channels);
   const grouped = orderCatalog(channels);
   const previous = readJsonIfExists(path.join(DIR, "channels.json"));
   assignIds(grouped, previous?.channels);
@@ -839,6 +842,7 @@ function loadCatalog() {
     onay22,
     onay23,
     onay24,
+    onay24b,
   };
 }
 
@@ -997,6 +1001,17 @@ function main() {
   );
   if (onay24.removedChannelNames?.length) {
     console.log(`[almanya] temizlikte çıkanlar: ${onay24.removedChannelNames.join(", ")}`);
+  }
+  const onay24b = catalog.onay24b || {};
+  console.log(
+    `[almanya] onay-2026-10-24: +${onay24b.addedChannels || 0} kanal, ` +
+      `+${onay24b.addedLinks || 0} link, -${onay24b.removedLinks || 0} link, ` +
+      `parametre temizlenen ${onay24b.replacedLinks || 0}, ` +
+      `tema ${onay24b.skippedThemes || 0}, etkinlik ${onay24b.skippedEvents || 0}, ` +
+      `bölgesel ${onay24b.skippedRegional || 0}, yanlış istasyon ${onay24b.skippedWrong || 0}`,
+  );
+  if (onay24b.addedChannelNames?.length) {
+    console.log(`[almanya] eklenen kanallar: ${onay24b.addedChannelNames.join(", ")}`);
   }
   console.log(`[almanya] sha256=${hash}`);
   if (catalog.dropped.length) {

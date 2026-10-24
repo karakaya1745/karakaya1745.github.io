@@ -1,6 +1,6 @@
 {
-  "_revision": 10,
-  "updatedAt": "2026-10-23T21:23:56.394Z",
+  "_revision": 11,
+  "updatedAt": "2026-10-24T06:38:32.427Z",
   "app": "ZapIt TV",
   "channels": [
     {
@@ -69,6 +69,11 @@
           "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master540p1800.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://daserste-live.ard-mcdn.de/daserste/replay/dash/de/manifest.mpd",
+          "geo_de_only": true,
+          "format": "dash"
         }
       ]
     },
@@ -123,6 +128,11 @@
           "url": "https://zdf-hls-01.akamaized.net/hls/live/2016498/de/de/master.m3u8",
           "geo_de_only": true,
           "format": "hls"
+        },
+        {
+          "url": "https://zdf-dash-15.akamaized.net/dash/live/2016508/de/manifest.mpd",
+          "geo_de_only": true,
+          "format": "dash"
         }
       ]
     },
@@ -157,6 +167,11 @@
           "url": "https://zdf-hls-15.akamaized.net/hls/live/2016527/3sat/master.m3u8",
           "geo_de_only": true,
           "format": "hls"
+        },
+        {
+          "url": "https://zdf-dash-18.akamaized.net/dash/live/2016511/dach/manifest.mpd",
+          "geo_de_only": true,
+          "format": "dash"
         }
       ]
     },
@@ -191,6 +206,11 @@
           "url": "https://arteliveext.akamaized.net/hls/live/2030993/artelive_de/master_v720.m3u8",
           "geo_de_only": true,
           "format": "hls"
+        },
+        {
+          "url": "https://arteliveext.akamaized.net/dash/live/2031004/artelive_de/dash.mpd",
+          "geo_de_only": true,
+          "format": "dash"
         }
       ]
     },
@@ -240,6 +260,11 @@
           "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/low/master.m3u8",
           "geo_de_only": true,
           "format": "hls"
+        },
+        {
+          "url": "https://zdf-dash-19.akamaized.net/dash/live/2016512/de/manifest.mpd",
+          "geo_de_only": true,
+          "format": "dash"
         }
       ]
     },
@@ -301,6 +326,16 @@
           "format": "mp3"
         },
         {
+          "url": "https://ndr-audio.akamaized.net/hls/live/2110937/TS24/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://ndr-audio.akamaized.net/hls/live/2110937/TS24/192/seglist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
           "url": "https://tagesschau.akamaized.net/hls/live/2020117/tagesschau/tagesschau_3/master.m3u8",
           "geo_de_only": true,
           "format": "hls"
@@ -324,6 +359,11 @@
           "url": "https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/int/master360p1200.m3u8",
           "geo_de_only": true,
           "format": "hls"
+        },
+        {
+          "url": "https://tagesschau.akamaized.net/dash/live/2020098/tagesschau/tagesschau_3/tagesschau_3.mpd",
+          "geo_de_only": true,
+          "format": "dash"
         }
       ]
     },
@@ -338,6 +378,11 @@
           "url": "https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://kikadash.akamaized.net/dash/live/2022692/livetvkika_ww/manifest.mpd",
+          "geo_de_only": false,
+          "format": "dash"
         },
         {
           "url": "https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master-360p-1200.m3u8",
@@ -472,6 +517,11 @@
           "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/low/master.m3u8",
           "geo_de_only": true,
           "format": "hls"
+        },
+        {
+          "url": "https://zdf-dash-16.akamaized.net/dash/live/2016509/de/manifest.mpd",
+          "geo_de_only": true,
+          "format": "dash"
         }
       ]
     },
@@ -521,6 +571,11 @@
           "url": "https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/low/master.m3u8",
           "geo_de_only": true,
           "format": "hls"
+        },
+        {
+          "url": "https://zdf-dash-17.akamaized.net/dash/live/2016510/de/manifest.mpd",
+          "geo_de_only": true,
+          "format": "dash"
         }
       ]
     },
@@ -574,6 +629,11 @@
           "url": "https://mcdn.br.de/br/fs/ard_alpha/hls/de/master_960p_1600.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://ardalphadash.akamaized.net/dash/live/2016972/ard_alpha/dvbt2/manifest.mpd",
+          "geo_de_only": true,
+          "format": "dash"
         }
       ]
     },
@@ -642,6 +702,11 @@
           "url": "https://mcdn.br.de/bfs_sued/de/master.m3u8",
           "geo_de_only": true,
           "format": "hls"
+        },
+        {
+          "url": "https://bfrsueddash.akamaized.net/dash/live/2016970/bfs_sued_de/dvbt2/manifest.mpd",
+          "geo_de_only": true,
+          "format": "dash"
         }
       ]
     },
@@ -711,6 +776,11 @@
           "url": "https://hr-live.ard-mcdn.de/hr/live/hls/de/master360p1200.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://hrdash.akamaized.net/dash/live/2024543/hrdash/manifest.mpd",
+          "geo_de_only": true,
+          "format": "dash"
         }
       ]
     },
@@ -789,6 +859,11 @@
           "url": "https://mdr-live.ard-mcdn.de/mdr/sa/hls/de/master.m3u8",
           "geo_de_only": true,
           "format": "hls"
+        },
+        {
+          "url": "https://mdrtvsadash.akamaized.net/dash/live/2094116/mdrtvsa/dash.mpd",
+          "geo_de_only": true,
+          "format": "dash"
         }
       ]
     },
@@ -935,6 +1010,11 @@
           "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master_720.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://ndrfs.akamaized.net/dash/live/2020094/ndrfs-ebuttd/ndrfs-ebuttd-nds.mpd",
+          "geo_de_only": true,
+          "format": "dash"
         }
       ]
     },
@@ -993,6 +1073,11 @@
           "url": "https://rbb-hls-berlin.akamaized.net/hls/live/2017824/rbb_berlin/master-360p-1328.m3u8",
           "geo_de_only": true,
           "format": "hls"
+        },
+        {
+          "url": "https://rbb-dash-berlin.akamaized.net/dash/live/2017826/rbb_berlin/manifest.mpd",
+          "geo_de_only": true,
+          "format": "dash"
         }
       ]
     },
@@ -1125,6 +1210,11 @@
           "url": "https://sr-live.ard-mcdn.de/sr/live/hls/int/master360p1200.m3u8",
           "geo_de_only": true,
           "format": "hls"
+        },
+        {
+          "url": "https://swrsrfs-dash.akamaized.net/dash/live/2018687/srfsgeo/dash.mpd",
+          "geo_de_only": true,
+          "format": "dash"
         }
       ]
     },
@@ -1149,6 +1239,11 @@
           "url": "https://swrbwd-hls.akamaized.net/hls/live/2018672/swrbwd/master-720p-3628.m3u8",
           "geo_de_only": true,
           "format": "hls"
+        },
+        {
+          "url": "https://swrbw-dash.akamaized.net/dash/live/2018674/swrbwd/manifest.mpd",
+          "geo_de_only": true,
+          "format": "dash"
         }
       ]
     },
@@ -1182,6 +1277,11 @@
           "url": "https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://wdrfsww247.akamaized.net/dash/live/2016703/wdrfs247_weltweit/dash.mpd",
+          "geo_de_only": false,
+          "format": "dash"
         },
         {
           "url": "https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master-360p-1200.m3u8",
@@ -1267,6 +1367,11 @@
           "url": "https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master360p1200.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://wdrfs247.akamaized.net/dash/live/2016702/wdrfs247_geo/dash.mpd",
+          "geo_de_only": true,
+          "format": "dash"
         }
       ]
     },
@@ -1555,6 +1660,11 @@
           "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream02/streamPlaylist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -1679,11 +1789,6 @@
           "url": "https://broadcast.welt.personalstream.tv/ses/hls/live/2040228/welttv-broadcast/index.m3u8",
           "geo_de_only": true,
           "format": "hls"
-        },
-        {
-          "url": "https://welt.personalstream.tv/v1/master.m3u8?ads.country=de&ads.pf=welttv",
-          "geo_de_only": true,
-          "format": "hls"
         }
       ]
     },
@@ -1711,6 +1816,11 @@
         },
         {
           "url": "https://bibeltv01.iptv-playoutcenter.de/bibeltv01/bibeltv01.stream_1/playlist.m3u8",
+          "geo_de_only": true,
+          "format": "hls"
+        },
+        {
+          "url": "https://bibeltv01.iptv-playoutcenter.de/bibeltv01/bibeltv01.stream_all/bibeltv01/bibeltv01.stream_1/chunks.m3u8",
           "geo_de_only": true,
           "format": "hls"
         }
@@ -1938,6 +2048,11 @@
           "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://audiostreams.deluxemusic.tv/music/mp3-192/website",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -3889,6 +4004,11 @@
           "url": "https://br-radio.ard-mcdn.de/br/radio/brheimat/hls/master.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://br-radio.ard-mcdn.de/br/radio/brheimat/hls/192/seglist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3942,6 +4062,11 @@
           "url": "https://br-radio.ard-mcdn.de/br/radio/brschlager/hls/master.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://br-radio.ard-mcdn.de/br/radio/brschlager/hls/192/seglist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3993,11 +4118,6 @@
       "streams": [
         {
           "url": "https://icecast.radiobremen.de/rb/bremenzwei/live/mp3/128/stream.mp3",
-          "geo_de_only": false,
-          "format": "mp3"
-        },
-        {
-          "url": "https://f111.rndfnk.com/ard/rb/webchannel4/mp3/128/stream.mp3?cid=01FC1WBDEZX7N1AXVXJMP19PFM&sid=3KbhzoTQJxIzPXVAvgWZ1cWOTXw&token=-c3ee2A2Y7txqsF5_wC_KRjrwXfDOgkOeR4OhdKSpnA&tvf=7o3sYsHx3RhmMTExLnJuZGZuay5jb20",
           "geo_de_only": false,
           "format": "mp3"
         },
@@ -4114,7 +4234,7 @@
           "format": "audio"
         },
         {
-          "url": "https://hlshr1.akamaized.net/hls/live/2016533/hr1/master.m3u8",
+          "url": "https://hr-radio.ard-mcdn.de/hr/radio/hr1rm/hls/192/seglist.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -4156,6 +4276,11 @@
           "url": "https://dispatcher.rndfnk.com/hr/hr2/live/mp3/256/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://hr-radio.ard-mcdn.de/hr/radio/hr2/hls/192/seglist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4188,6 +4313,11 @@
         },
         {
           "url": "https://hr-radio.ard-mcdn.de/hr/radio/hr3rm/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://hr-radio.ard-mcdn.de/hr/radio/hr3rm/hls/192/seglist.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -4224,6 +4354,11 @@
           "url": "https://dispatcher.rndfnk.com/hr/hr4/live/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://hr-radio.ard-mcdn.de/hr/radio/hr4rm/hls/192/seglist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4251,6 +4386,11 @@
         },
         {
           "url": "https://hr-radio.ard-mcdn.de/hr/radio/hrinfo/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://hr-radio.ard-mcdn.de/hr/radio/hrinfo/hls/192/seglist.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -4301,6 +4441,35 @@
           "url": "https://radio-hls.mdr.de/hls/live/2112887/mdr-284280-0-hls/index.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://mdr-radio-hls.akamaized.net/hls/live/2112890/mdr-284280-3-hls/index.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://mdr-radio-hls.akamaized.net/hls/live/2112887/mdr-284280-0-hls/192/seglist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-mdr-sachsen-sorbisch",
+      "name": "MDR Sachsen Sorbisch",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://mdr-990100-0.sslcast.mdr.de/mdr/990100/0/mp3/high/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsachsensorb/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4323,6 +4492,11 @@
         },
         {
           "url": "https://radio-hls.mdr.de/hls/live/2112893/mdr-284290-0-hls/index.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://mdr-radio-hls.akamaized.net/hls/live/2112893/mdr-284290-0-hls/192/seglist.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -4349,6 +4523,11 @@
           "url": "https://mdr-radio.ard-mcdn.de/mdr/radio/mdrthueringenmwth/hls/master.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://mdr-radio-hls.akamaized.net/hls/live/2112898/mdr-284300-0-hls/192/seglist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4371,6 +4550,11 @@
         },
         {
           "url": "https://mdr-radio.ard-mcdn.de/mdr/radio/mdraktuell/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://mdr-radio-hls.akamaized.net/hls/live/2112901/mdr-284340-0-hls/192/seglist.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -4400,6 +4584,11 @@
         },
         {
           "url": "https://mdr-radio.ard-mcdn.de/mdr/radio/mdrjump/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://mdr-radio-hls.akamaized.net/hls/live/2112904/mdr-284320-0-hls/192/seglist.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -4450,6 +4639,11 @@
           "url": "https://mdr-284311-0.sslcast.mdr.de/mdr/284311/0/mp3/max/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://mdr-radio-hls.akamaized.net/hls/live/2112903/mdr-284310-0-hls/192/seglist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4472,6 +4666,16 @@
         },
         {
           "url": "https://mdr-radio.ard-mcdn.de/mdr/radio/mdrsputnik/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://mdr-radio-hls.akamaized.net/hls/live/2112905/mdr-284330-0-hls/192/seglist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://mdr-radio-hls.akamaized.net/hls/live/2112905/mdr-284330-0-hls/index.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -4498,6 +4702,21 @@
           "url": "https://mdr-radio-hls.akamaized.net/hls/live/2112911/mdr-990701-0-hls/index.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://radio-hls.mdr.de/hls/live/2112912/mdr-990801-0-hls/index.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://radio-hls.mdr.de/hls/live/2112910/mdr-990601-0-hls/index.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://radio-hls.mdr.de/hls/live/2112911/mdr-990701-0-hls/index.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4522,6 +4741,11 @@
           "url": "https://radio-hls.mdr.de/hls/live/2112913/mdr-991101-0-hls/index.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://mdr-radio-hls.akamaized.net/hls/live/2112913/mdr-991101-0-hls/192/seglist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4539,6 +4763,11 @@
         },
         {
           "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1ndsh/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://ndr-audio.akamaized.net/hls/live/2110916/NDR1NDSH/192/seglist.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -4560,6 +4789,11 @@
           "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1mvsn/hls/master.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://ndr-audio.akamaized.net/hls/live/2110922/NDR1MVSN/192/seglist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4577,6 +4811,11 @@
         },
         {
           "url": "https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1wnki/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://ndr-audio.akamaized.net/hls/live/2110911/NDR1WNOKI/192/seglist.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -4608,6 +4847,11 @@
           "url": "https://www.ndr.de/resources/metadaten/audio/m3u/ndr903.m3u",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://ndr-audio.akamaized.net/hls/live/2110910/NDR903/192/seglist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4642,6 +4886,11 @@
           "url": "https://www.ndr.de/resources/metadaten/audio/m3u/ndr2.m3u",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://ndr-audio.akamaized.net/hls/live/2110930/NDR2NDS/192/seglist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4671,6 +4920,11 @@
           "url": "https://www.ndr.de/resources/metadaten/audio/m3u/n-joy.m3u",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://ndr-audio.akamaized.net/hls/live/2110934/NJOY/192/seglist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4681,11 +4935,6 @@
       "category": "public",
       "geo_de_only": false,
       "streams": [
-        {
-          "url": "https://f131.rndfnk.com/ard/ndr/ndrkultur/live/aac/192/stream.aac?aggregator=web&cid=01FBQ2EJ6T7QK3WENQ5KT9S2FB&sid=2aWrl15TtQvWg6RQ9hvrVfdh99E&token=cgylLQKukz6c0ajNCSHCboafG1Q474A1QN0WA3_K3Hg&tvf=4vGFz6J7pxdmMTMxLnJuZGZuay5jb20",
-          "geo_de_only": false,
-          "format": "aac"
-        },
         {
           "url": "https://icecast.ndr.de/ndr/ndrkultur/live/mp3/128/stream.mp3?1728425224079&aggregator=web",
           "geo_de_only": false,
@@ -4715,6 +4964,11 @@
           "url": "https://www.ndr.de/resources/metadaten/audio/m3u/ndrkultur.m3u",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://ndr-audio.akamaized.net/hls/live/2110932/NDRKULTUR/192/seglist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4744,6 +4998,16 @@
           "url": "https://www.ndr.de/resources/metadaten/audio/m3u/ndrinfo.m3u",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://dispatcher.rndfnk.com/ndr/ndrinfo/niedersachsen/mp3/128/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://ndr-audio.akamaized.net/hls/live/2110933/NDRINFO/192/seglist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4807,6 +5071,11 @@
           "url": "https://www.ndr.de/resources/metadaten/audio/m3u/ndrblue.m3u",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://ndr-audio.akamaized.net/hls/live/2110936/NDRBLUE/192/seglist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4947,11 +5216,6 @@
           "format": "audio"
         },
         {
-          "url": "https://f121.rndfnk.com/ard/rbb/inforadio/live/mp3/128/stream.mp3?cid=01FC1WYDPN76K6HSCD8QCR9D3S&sid=2QcLzffN32wHfW1lVCzlxHze7qi&token=pGWtFx8DdsdTygJQfppoygwrmQAJ9neXn-Oapylzh_E&tvf=RIPifb2zZBdmMTIxLnJuZGZuay5jb20",
-          "geo_de_only": false,
-          "format": "mp3"
-        },
-        {
           "url": "https://dispatcher.rndfnk.com/rbb/inforadio/live/mp3/mid",
           "geo_de_only": false,
           "format": "audio"
@@ -4963,6 +5227,25 @@
         },
         {
           "url": "https://inforadio.akamaized.net/hls/live/2017004/rbb_inforadio/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "radio-rbb24-inforadio-sorbisch",
+      "name": "rbb24 Inforadio Sorbisch",
+      "type": "radio",
+      "category": "public",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://dispatcher.rndfnk.com/rbb/inforadio/sorb/mp3/mid",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://inforadio-sorb.akamaized.net/hls/live/2017005/rbb_inforadio-sorb/master.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -5129,6 +5412,11 @@
           "url": "https://liveradio.swr.de/sw331ch/swr1bw/",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw331ch/swr1bw/play.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
         }
       ]
     },
@@ -5246,6 +5534,16 @@
           "url": "https://liveradio.swr.de/sw331ch/swr4bw/",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://dispatcher.rndfnk.com/swr/swr4/bw/mp3/128/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://liveradio.swr.de/rddez3a/swr4bw/",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -5258,11 +5556,6 @@
       "streams": [
         {
           "url": "https://liveradio.swr.de/sw282p3/swraktuell/play.aac",
-          "geo_de_only": false,
-          "format": "aac"
-        },
-        {
-          "url": "https://f131.rndfnk.com/ard/swr/swraktuell/live/aac/96/stream.aac?aggregator=web&sid=20OWw66vyEtL4iSzQDIYZxmbtaP&token=417rfsSDin95gYTgQbYGQU68OrUVw5SFCaOKSsmI1OA&tvf=WYsdueUEtBZmMTMxLnJuZGZuay5jb20",
           "geo_de_only": false,
           "format": "aac"
         },
@@ -5285,6 +5578,16 @@
           "url": "https://liveradio.swr.de/sw331ch/swraktuell/play.aac",
           "geo_de_only": false,
           "format": "aac"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw282p3/swraktuell/play.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://liveradio.swr.de/myt11m3/swraktuell/",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -5319,6 +5622,21 @@
           "url": "https://liveradio.swr.de/sw331ch/dasding/play.aac",
           "geo_de_only": false,
           "format": "aac"
+        },
+        {
+          "url": "https://liveradio.swr.de/rddez3a/dasding/",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://hr-radio.ard-mcdn.de/hr/radio/dasding/hls/192/seglist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://liveradio.swr.de/myt11m3/dasding/",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -5329,11 +5647,6 @@
       "category": "public",
       "geo_de_only": false,
       "streams": [
-        {
-          "url": "https://f111.rndfnk.com/ard/swr/swr2/live/mp3/256/stream.mp3?aggregator=web&sid=28ew6Usq6cch83eglcsXwLlNRS3&token=Ip5bwQ_T81Lq_mqKc3HUjnxrk94ek2bDcfNyNHuqRGk&tvf=XFsRgyq06xZmMTExLnJuZGZuay5jb20",
-          "geo_de_only": false,
-          "format": "mp3"
-        },
         {
           "url": "https://dispatcher.rndfnk.com/swr/swr2/live/mp3/256/stream.mp3",
           "geo_de_only": false,
@@ -5353,6 +5666,21 @@
           "url": "https://liveradio.swr.de/sw331ch/swr2/play.aac",
           "geo_de_only": false,
           "format": "aac"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw331ch/swr2/",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw282p3/swr2/",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://liveradio.swr.de/sw890cl/swr2/",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -5387,6 +5715,11 @@
           "url": "https://wdr-radio.ard-mcdn.de/wdr/radio/1live/hls/master.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://wdrhf.akamaized.net/hls/live/2027955/1live/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -5404,6 +5737,11 @@
         },
         {
           "url": "https://wdr-radio.ard-mcdn.de/wdr/radio/1livediggi/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://wdrhf.akamaized.net/hls/live/2027963/1livediggi/master.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -5541,6 +5879,11 @@
           "url": "https://wdr-radio.ard-mcdn.de/wdr/radio/wdr4rr/hls/master.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://wdrhf.akamaized.net/hls/live/2027995/wdr4/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -5573,6 +5916,11 @@
         },
         {
           "url": "https://wdrhf.akamaized.net/hls/live/2027996-b/wdr5/192/seglist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://wdrhf.akamaized.net/hls/live/2027996/wdr5/master.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -5609,6 +5957,11 @@
           "url": "https://wdr-radio.ard-mcdn.de/wdr/radio/cosmo/hls/master.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://wdrhf.akamaized.net/hls/live/2027997/cosmo/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -5631,6 +5984,16 @@
         },
         {
           "url": "https://wdr-radio.ard-mcdn.de/wdr/radio/diemaus/hls/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://wdrhf.akamaized.net/hls/live/2028167/diemaus/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://wdrhf.akamaized.net/hls/live/2028167/diemaus/192/seglist.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -6888,7 +7251,7 @@
           "format": "audio"
         },
         {
-          "url": "https://s7-webradio.oldie-antenne.de/oldie-antenne-80er-hits/stream/mp3?aw_0_1st.playerid=OldieAntenneWebPlayer&aw_0_1st.skey=1706378427399&aw_0_req.userConsentV2=CP5CssAP5CssAAFADBDEAlEgAAAAAAAAAAYgAAAAAAEhIAMAAQL2DQAYAAgXsIgAwABAvYVABgACBewyADAAEC9h0AGAAIF7EIAMAAQL2JQAYAAgXsUgAwABAvYA.YAAAAAAAAAAA&companionAds=false&companion_zone_alias=41%2C42%2C40%2C731%2C752%2C756%2C768",
+          "url": "https://s7-webradio.oldie-antenne.de/oldie-antenne-80er-hits/stream/mp3?aw_0_1st.playerid=OldieAntenneWebPlayer&companionAds=false&companion_zone_alias=41%2C42%2C40%2C731%2C752%2C756%2C768",
           "geo_de_only": false,
           "format": "audio"
         },
@@ -6975,6 +7338,11 @@
         },
         {
           "url": "https://stream.lokalradio.nrw/444z7j4",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://stream.lokalradio.nrw/444z7k7",
           "geo_de_only": false,
           "format": "audio"
         }
@@ -7119,6 +7487,16 @@
           "url": "https://stream.lokalradio.nrw/444z6tb",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://radioberg--di--nacs-ais-lgc--0b--cdn.cast.addradio.de/radioberg/live/mp3/high?ar-distributor=ffa0&_art=dj0yJmlwPTIxMi4xODcuMjQ0LjgmaWQ9aWNzY3hsLWlxaGZhc2ltYiZ0PTE3MTA5NDMyNzQmcz03ODY2ZjI5YyNiODQwNGVlMjlkMDhmMGM4MDMzYTM0ZjM1YWZlZTFjOA",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://stream.lokalradio.nrw/444z6t7",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -7157,6 +7535,11 @@
           "url": "https://stream.lokalradio.nrw/444z76t",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://stream.lokalradio.nrw/444z76q",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -7169,6 +7552,11 @@
       "streams": [
         {
           "url": "https://radioeuskirchen-live.cast.addradio.de/radioeuskirchen/live/mp3/high",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://stream.lokalradio.nrw/444z7cy",
           "geo_de_only": false,
           "format": "audio"
         }
@@ -7324,6 +7712,11 @@
           "url": "https://stream.rockland-digital.de/rockland/mp3-128/mytuner-radio/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://stream.rockland-digital.de/rockland/mp3-192/radio-browser/",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -7579,6 +7972,11 @@
           "url": "https://stream.erfjess.de/erf-1068/aac-64?ar-distributor=ffa5",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://stream.erf.de/erfjess.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
         }
       ]
     },
@@ -7740,11 +8138,6 @@
         },
         {
           "url": "https://absolut-relax.live-sm.absolutradio.de/absolut-relax/stream/mp3",
-          "geo_de_only": false,
-          "format": "audio"
-        },
-        {
-          "url": "https://absolut-relax.live-sm.absolutradio.de/absolut-relax?aggregator=website&companionAds=true&companion_zone_alias=31&aw_0_req.userConsentV2=undefined",
           "geo_de_only": false,
           "format": "audio"
         },
