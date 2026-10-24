@@ -1,5 +1,5 @@
 {
-  "_revision": 202,
+  "_revision": 203,
   "duyuru": [
     "https://karakaya1745.github.io/guncelleme_duyuru.m3u8"
   ],
@@ -3703,5 +3703,14 @@
   ],
   "kuzeykibristv": [
     "https://kuzeykibris.tv/m3u8/kktv.m3u8"
+  ],
+  "ilketv": [
+    "https://stream.ilketv.com.tr/hls/ilkecanli.m3u8"
+  ],
+  "kentturk": [
+    "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8"
+  ],
+  "erciyestv": [
+    "https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/playlist.m3u8"
   ]
 }

@@ -6698,5 +6698,23 @@
     "url": "http://old.kuzeykibris.tv/m3u8/kktv.m3u8",
     "category": "Ulusal",
     "streamUrl": "https://kuzeykibris.tv/m3u8/kktv.m3u8"
+  },
+  {
+    "name": "Ilke TV",
+    "url": "https://stream.ilketv.com.tr/hls/ilkecanli.m3u8",
+    "category": "Ulusal",
+    "streamUrl": "https://stream.ilketv.com.tr/hls/ilkecanli.m3u8"
+  },
+  {
+    "name": "Kent Turk",
+    "url": "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8",
+    "category": "Ulusal",
+    "streamUrl": "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8"
+  },
+  {
+    "name": "Erciyes TV",
+    "url": "https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/chunks.m3u8",
+    "category": "Ulusal",
+    "streamUrl": "https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/playlist.m3u8"
   }
 ]
