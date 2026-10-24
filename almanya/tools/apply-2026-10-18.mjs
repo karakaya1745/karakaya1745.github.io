@@ -442,6 +442,7 @@ const RADIO_PUBLIC_NETWORKS = [
   ],
   [
     "MDR Sachsen",
+    "MDR Sachsen Sorbisch",
     "MDR Sachsen-Anhalt",
     "MDR Thüringen",
     "MDR Aktuell",
@@ -472,6 +473,7 @@ const RADIO_PUBLIC_NETWORKS = [
     "RBB Fritz",
     "rbbKultur",
     "RBB 24 Inforadio",
+    "rbb24 Inforadio Sorbisch",
   ],
   ["SR 1", "SR 3 Saarlandwelle", "SR Kultur", "AntenneSaar (SR)", "DASDING vom SR"],
   [
