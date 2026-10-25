@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T10:16:29.462Z",
+  "generatedAt": "2026-10-25T10:14:30.475Z",
   "dryRun": true,
   "pending": 25,
   "skippedExists": [
@@ -391,5 +391,5 @@
     "FM TV",
     "Süper TV"
   ],
-  "streamMapRevision": 202
+  "streamMapRevision": 205
 }
