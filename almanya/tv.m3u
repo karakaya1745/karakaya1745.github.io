@@ -119,10 +119,8 @@ https://tagesschau.akamaized.net/hls/live/2020117/tagesschau/tagesschau_3/master
 #EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (15)
 https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/int/master1080p5000.m3u8
 #EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (16)
-https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/int/master540p1800.m3u8
-#EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (17)
 https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/int/master360p1200.m3u8
-#EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (18)
+#EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (17)
 https://tagesschau.akamaized.net/dash/live/2020098/tagesschau/tagesschau_3/tagesschau_3.mpd
 #EXTINF:-1 tvg-id="tv-kika" tvg-name="KIKA" group-title="public",KIKA (1)
 https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8
@@ -160,8 +158,6 @@ https://kika-live.ard-mcdn.de/kika/live/hls/de/master720p3200.m3u8
 https://kika-live.ard-mcdn.de/kika/live/hls/de/master540p1800.m3u8
 #EXTINF:-1 tvg-id="tv-kika" tvg-name="KIKA" group-title="public",KIKA (18)
 https://kika-live.ard-mcdn.de/kika/live/hls/de/master360p1200.m3u8
-#EXTINF:-1 tvg-id="tv-kika" tvg-name="KIKA" group-title="public",KIKA (19)
-https://kika-live.ard-mcdn.de/kika/live/hls/int/master1080p5000.m3u8
 #EXTINF:-1 tvg-id="tv-zdf-neo" tvg-name="ZDF Neo" group-title="public",ZDF Neo (1)
 https://zdf-hls-16.akamaized.net/hls/live/2016499/de/veryhigh/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf-neo" tvg-name="ZDF Neo" group-title="public",ZDF Neo (2)
@@ -676,6 +672,8 @@ https://media.finest.tv/hls/live.m3u8
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/126101/126101_264_live.m3u8
 #EXTINF:-1 tvg-id="tv-more-than-sports-tv" tvg-name="More Than Sports TV" group-title="other",More Than Sports TV (1)
 https://mts1.iptv-playoutcenter.de/mts/mts-web/mts/mtsw3/chunks.m3u8
+#EXTINF:-1 tvg-id="tv-servustv-deutschland" tvg-name="ServusTV Deutschland" group-title="other",ServusTV Deutschland (1)
+https://stv-live.akamaized.net/hls/live/2031012/lingeoSTVDEwebPri/master_3392.m3u8
 #EXTINF:-1 tvg-id="tv-kanal-avrupa" tvg-name="Kanal Avrupa" group-title="international",Kanal Avrupa (1)
 https://api-tv27.yayin.com.tr/kanalavrupa/index.m3u8
 #EXTINF:-1 tvg-id="tv-cira-tv" tvg-name="Çira TV" group-title="international",Çira TV (1)
