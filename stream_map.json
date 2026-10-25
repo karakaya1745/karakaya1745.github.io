@@ -1,5 +1,5 @@
 {
-  "_revision": 204,
+  "_revision": 205,
   "duyuru": [
     "https://karakaya1745.github.io/guncelleme_duyuru.m3u8"
   ],
@@ -3693,7 +3693,9 @@
   ],
   "arastv": [
     "https://2.rtmp.org/tv217/yayin.stream/playlist.m3u8",
-    "http://1.rtmp.org/tv217/yayin.stream/chunklist.m3u8"
+    "http://1.rtmp.org/tv217/yayin.stream/chunklist.m3u8",
+    "http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8",
+    "https://2.rtmp.org/tv217/yayin.stream/chunklist.m3u8"
   ],
   "ekoltv": [
     "https://ekoltv-live.ercdn.net/ekoltv/ekoltv_1080p.m3u8",
@@ -3706,7 +3708,8 @@
     "https://stream.ilketv.com.tr/hls/ilkecanli.m3u8"
   ],
   "kentturk": [
-    "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8"
+    "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8",
+    "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/chunks.m3u8"
   ],
   "erciyestv": [
     "https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/playlist.m3u8"
