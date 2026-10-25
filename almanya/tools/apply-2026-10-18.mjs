@@ -310,6 +310,7 @@ const TV_OTHER = pinList("TV other", [
   "Finest TV",
   "QS24.TV",
   "More Than Sports TV",
+  "ServusTV Deutschland",
 ]);
 
 const TV_INTERNATIONAL = pinList("TV international", ["Kanal Avrupa", "Çira TV"]);

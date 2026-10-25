@@ -23,7 +23,7 @@ Uygulama önce `metadata.json` indirir. `revision` veya `channels.json` sha256 d
 | --- | --- |
 | `sources/tv.csv`, `sources/tv.m3u` | Ham TV ölçümü. CSV'de ölü (`failed`) satırlar da durur. |
 | `sources/radio.csv`, `sources/radio.m3u` | Ham radyo ölçümü. CSV'de denenmemiş düz `http` satırları da durur. |
-| `sources/onay-2026-10-15.csv` … `onay-2026-10-24.csv` | Onaylanan ekler ve silinecek veya sona alınan linkler. |
+| `sources/onay-2026-10-15.csv` … `onay-2026-10-25.csv` | Onaylanan ekler ve silinecek veya sona alınan linkler. |
 | `sources/catalog-retest-2026-10-18.json` | 18 Ekim yeniden testi (ölü, statik, şüpheli). |
 | `tv.m3u`, `radio.m3u` | Yayımlanan, temizlenmiş listeler. Ölü ve denenmemiş link yoktur. |
 | `channels.json` | Uygulamanın indirdiği katalog. |
@@ -103,6 +103,8 @@ Radyo CSV'sinde aynı istasyon adının altında kardeş yayınlar da `(1)`, `(2
 24 Ekim temizliği ayrı bir onay CSV'si değildir. Çalışan linki kalmayan yedi TV kanalı çıkar: Deluxe Dance by Kontor, QVC Style, QVC Zwei, Radio Weser TV Bremen, h-eins.tv, Anixe +, Anixe HD Serie. `shopping` TV listesinin sonuna alınır (`yerel`den sonra). Aynı istasyon ailesinin bölgesel radyo varyantları tek kanalda toplanır (örneğin WDR 2, Bayern 1, SWR4, hr1/hr3/hr4). WDR 2 ile WDR 4, MDR Jump ile MDR Kultur ve bölgesel televizyonlar ayrı kalır. Kardeş bölgeye ait URL'ler ana kanaldan silinir. HR Dasding çıkar; yayın SWR'deki DASDING kanalında kalır. DASDING vom SR ayrı istasyondur.
 
 `sources/onay-2026-10-24.csv` 24 Ekim onayıdır. Tema, etkinlik ve 10. revizyonda kaldırılan bölgesel varyant kanalları eklenmez. Yeni istasyonlar yalnızca MDR Sachsen Sorbisch ve rbb24 Inforadio Sorbisch'tir; ikisi de kendi ailesinin hemen ardındadır. Welt'in 401 veren `personalstream` adresi ve HR 1'in ENDLIST `hlshr1` adresi silinir; `hr1rm` ilk sırada kalır. `sid`, `token`, `skey` ve `userConsentV2` parametreli adresler kalkar. Oldie Antenne 80er adresinde yalnızca bu parametreler soyulur. KiKA ve WDR'nin dünya geneli DASH yedekleri çalışan HLS'in hemen ardına yazılır. Diğer resmi DASH TV yedekleri `geo_de_only` olur. MDR Schlagerwelt'in üç resmi HLS adresi mevcut kanala eklenir; Leipzig penceresi (`284280-3`) ayrı kanal açmadan MDR Sachsen'e yazılır.
+
+`sources/onay-2026-10-25.csv` 25 Ekim onayıdır. Tagesschau 24'ün 404 veren `hls/int/master540p1800.m3u8` adresi ve KiKA'nın 404 veren `hls/int/master1080p5000.m3u8` adresi silinir. Tagesschau 24'ün `int/master.m3u8` adresi 9. revizyonda zaten yoktu. 403 dönen diğer int yedekler kalır. Radio Berg'deki `_art` imzalı adres ve Berliner Rundfunk 91.4'teki `listenerid` oldies adresi silinir. ERF Jess'te `erfjess.mp3` ilk sıradadır; aralıklı HTML dönen `erfpop.m3u` sonda kalır. Kırk çalışan yedek mevcut kanallara eklenir. SWR 3 ve DASDING görüntülü radyo yayınları ayrı TV kanalı açmadan radyo kanalında durur. Yeni TV kanalı ServusTV Deutschland `other` grubundadır ve `geo_de_only` olur. `shopping` sonda kalır.
 
 ## Sıra
 

@@ -1,0 +1,47 @@
+kanal,link,durum,kaynak,tip
+Tagesschau 24,https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/int/master540p1800.m3u8,"ölü (404) – 1. gün (10-24’te 403 idi; int/master.m3u8 de 404, int 1080p/360p hâlâ 403)",katalog rev11 yeniden test (2x),olu_mevcut
+KIKA,https://kika-live.ard-mcdn.de/kika/live/hls/int/master1080p5000.m3u8,ölü (404) – 1. gün (10-24’te 403 idi),katalog rev11 yeniden test (2x),olu_mevcut
+ERF Jess,https://stream.erf.de/erfpop.m3u,şüpheli – aralıklı HTML (bot-koruma sayfası) / aralıklı geçerli #EXTM3U; erfjess.mp3 yedeği çalışıyor,katalog rev11 yeniden test (3x),olu_mevcut
+Radio Berg,https://radioberg--di--nacs-ais-lgc--0b--cdn.cast.addradio.de/radioberg/live/mp3/high?ar-distributor=ffa0&_art=dj0yJmlwPTIxMi4xODcuMjQ0LjgmaWQ9aWNzY3hsLWlxaGZhc2ltYiZ0PTE3MTA5NDMyNzQmcz03ODY2ZjI5YyNiODQwNGVlMjlkMDhmMGM4MDMzYTM0ZjM1YWZlZTFjOA,çalışıyor ama KURAL İHLALİ: _art imzalı parametre (IP+zaman damgası+imza) ve sabit node; kaldırılması önerilir,katalog rev11 token taraması,olu_mevcut
+Berliner Rundfunk 91.4,https://topradio-de-hz-fal-stream08-cluster01.radiohost.de/brf-oldies_mp3-128?ref=homepage&amsparams=homepage&listenerid=31363231303734323636-37372e32322e36382e3830-3439333932-4d6f7a696c6c612f352e30202857696e646f7773,çalışıyor ama KURAL İHLALİ: listenerid (zaman damgası+IP+UA) + oldies tema akışı; kaldırılması önerilir,katalog rev11 token taraması,olu_mevcut
+Antenne Brandenburg,https://antbrb.akamaized.net/hls/live/2016998/rbb_antbrb/192/seglist.m3u8,"çalışıyor (200, canlı segment)",fmstream.org (Antenne Brandenburg),yeni_link
+AntenneSaar (SR),https://ashlsaudio.akamaized.net/hls/live/2116037/as/192/seglist.m3u8,"çalışıyor (200, canlı segment)",fmstream.org (Antenne Saar),yeni_link
+AntenneSaar (SR),https://ashlsaudio.akamaized.net/hls/live/2116037/as/master.m3u8,"çalışıyor (200, canlı segment)",fmstream.org (Antenne Saar),yeni_link
+AntenneSaar (SR),https://sr.audiostream.io/sr/1013/mp3/128/as,"çalışıyor (200, ses akışı)",fmstream.org (Antenne Saar),yeni_link
+DASDING,https://liveradio.swr.de/sw331ch/dasding,"çalışıyor (200, ses akışı)",fmstream.org (Das Ding),yeni_link
+DASDING,https://mcdn.swr.de/swr/visualradiodasding/master.m3u8,"çalışıyor (200, canlı segment)",ARD Mediathek page-gateway (crid swr visualradio/dasding),yeni_link
+DASDING,https://swr-radio.ard-mcdn.de/swr/radio/dasding/hls/192/seglist.m3u8,"çalışıyor (200, canlı segment)",fmstream.org (Das Ding),yeni_link
+DASDING vom SR,https://sr.audiostream.io/sr/1012/mp3/128/ud,"çalışıyor (200, ses akışı)",fmstream.org (Das Ding),yeni_link
+DASDING vom SR,https://udhlsaudio.akamaized.net/hls/live/2116036/ud/192/seglist.m3u8,"çalışıyor (200, canlı segment)",fmstream.org (Das Ding),yeni_link
+DASDING vom SR,https://udhlsaudio.akamaized.net/hls/live/2116036/ud/master.m3u8,"çalışıyor (200, canlı segment)",fmstream.org (Das Ding),yeni_link
+DELUXE LOUNGE RADIO,https://audiostreams.deluxemusic.tv/lounge/aac-64,"çalışıyor (200, ses akışı)",fmstream.org (Deluxe Lounge Radio),yeni_link
+DELUXE LOUNGE RADIO,https://regiocast.streamabc.net/regc-deluxelounge1592295-aacplus-64-5676935,"çalışıyor (200, ses akışı)",fmstream.org (Deluxe Lounge Radio),yeni_link
+DELUXE MUSIC RADIO,https://regiocast.streamabc.net/regc-deluxemusic1636722-aacplus-64-8368771,"çalışıyor (200, ses akışı)",fmstream.org (Deluxe Music Radio),yeni_link
+RBB 88.8,https://rbb888.akamaized.net/hls/live/2017003/rbb_rbb888/192/seglist.m3u8,"çalışıyor (200, canlı segment)",fmstream.org (rbb 88.8),yeni_link
+RBB Fritz,https://fritz.akamaized.net/hls/live/2016997/rbb_fritz/192/seglist.m3u8,"çalışıyor (200, canlı segment)",fmstream.org (rbb Fritz),yeni_link
+RBB Radio Eins,https://radioeins.akamaized.net/hls/live/2016930/rbb_radioeins/192/seglist.m3u8,"çalışıyor (200, canlı segment)",fmstream.org (rbb radioeins),yeni_link
+Radio 38,https://stream.radio38.de/stream,"çalışıyor (200, ses akışı)",fmstream.org (Radio 38),yeni_link
+Radio Bollerwagen,https://ffn.stream36.radiohost.de/radiobollerwagen_mp3-192,"çalışıyor (200, ses akışı)",fmstream.org (Radio Bollerwagen),yeni_link
+Radio Bollerwagen,https://ffn.stream42.radiohost.de/radiobollerwagen_mp3-192,"çalışıyor (200, ses akışı)",fmstream.org (Radio Bollerwagen),yeni_link
+Radio Bollerwagen,https://stream.ffn.de/radiobollerwagen,"çalışıyor (200, ses akışı)",fmstream.org (radiobollerwagen),yeni_link
+Radio Dresden,https://hermes.bcs-systems.de/radio-dresden_simulcast_192k_fb_mp3,"çalışıyor (200, ses akışı)",fmstream.org (Radio Dresden),yeni_link
+Radio Dresden,https://hermes.bcs-systems.de/radio-dresden_simulcast_64k_aac,"çalışıyor (200, ses akışı)",fmstream.org (Radio Dresden),yeni_link
+Radio Dresden,https://streaming.radiodresden.de/radio-dresden_simulcast_192k_mp3,"çalışıyor (200, ses akışı)",fmstream.org (Radio Dresden),yeni_link
+Radio Dresden,https://streams.bcs-systems.de/slp/live/dresden/aac/web,"çalışıyor (200, ses akışı)",fmstream.org (Radio Dresden),yeni_link
+Radio Dresden,https://streams.bcs-systems.de/slp/live/dresden/mp3,"çalışıyor (200, ses akışı)",fmstream.org (Radio Dresden),yeni_link
+Radio Dresden,https://streams.bcs-systems.de/slp/live/dresden/mp3/tunein,"çalışıyor (200, ses akışı)",fmstream.org (Radio Dresden),yeni_link
+Radio Dresden,https://streams.bcs-systems.de/slp/live/dresden/mp3/web,"çalışıyor (200, ses akışı)",fmstream.org (Radio Dresden),yeni_link
+Radio HBR,https://stream1.radiohbr.de/stream.aac,"çalışıyor (200, ses akışı)",fmstream.org (Radio HBR),yeni_link
+Radio Hamburg,https://frontend.streamonkey.net/rhh-1036/stream,"çalışıyor (200, ses akışı)",fmstream.org (Radio Hamburg),yeni_link
+Radio Hamburg,https://frontend.streamonkey.net/rhh-1036/stream/mp3,"çalışıyor (200, ses akışı)",fmstream.org (Radio Hamburg),yeni_link
+Radio Hamburg,https://rhh.streamabc.net/rhh-rhhlive-aacplus-64-8950949,"çalışıyor (200, ses akışı)",fmstream.org (Radio Hamburg),yeni_link
+Radio Hamburg,https://rhh.streamabc.net/rhh-rhhlive-mp3-192-5818405,"çalışıyor (200, ses akışı)",fmstream.org (Radio Hamburg),yeni_link
+Radio Hamburg,https://stream.radiohamburg.de/live/mp3-128,"çalışıyor (200, ses akışı)",fmstream.org (Radio Hamburg),yeni_link
+Radio Trausnitz,https://radiotrausnitz.cast.addradio.de/radiotrausnitz/live/mp3/high,"çalışıyor (200, ses akışı)",fmstream.org (Radio Trausnitz),yeni_link
+Radio WAF,https://radiowaf-live.cast.addradio.de/radiowaf/live/mp3/high,"çalışıyor (200, ses akışı)",fmstream.org (Radio WAF),yeni_link
+SWR 3,https://mcdn.swr.de/swr/visualradio/master.m3u8,"çalışıyor (200, canlı segment)",ARD Mediathek page-gateway (SWR3 Video Livestream),yeni_link
+ffn 80er,https://player.ffn.de/ffn80er.mp3,"çalışıyor (200, ses akışı)",fmstream.org (ffn 80er Live),yeni_link
+radio ffn,https://ffn-de-hz-fal-stream06-cluster01.radiohost.de/ffn_mp3-192,"çalışıyor (200, ses akışı)",fmstream.org (Radio ffn),yeni_link
+radio ffn,https://ffn-stream22.radiohost.de/ffn_mp3-192,"çalışıyor (200, ses akışı)",fmstream.org (Radio ffn),yeni_link
+radio ffn,https://stream.ffn.de/ffn,"çalışıyor (200, ses akışı)",fmstream.org (Radio ffn),yeni_link
+ServusTV Deutschland,https://stv-live.akamaized.net/hls/live/2031012/lingeoSTVDEwebPri/master_3392.m3u8,"sadece Almanya (geo 403) – resmî ServusTV DE akışı, token yok; Astra 19.2°E FTA",GitHub kod araması (iptv-org/streams),yeni_kanal
