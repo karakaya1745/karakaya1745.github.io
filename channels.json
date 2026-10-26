@@ -378,6 +378,12 @@
     "streamUrl": "https://duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8"
   },
   {
+    "name": "beIN Sports Haber",
+    "url": "https://beinsports.com.tr/canli-yayin",
+    "category": "Spor",
+    "streamUrl": "https://trn03.tulix.tv/gt-beinsportshaber/index.m3u8?token=b3efebaa772494434d777e2a8c8efc43"
+  },
+  {
     "name": "TRT Belgesel",
     "url": "https://www.trtizle.com/canli/tv/trt-belgesel",
     "category": "Kamu",

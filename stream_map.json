@@ -1,5 +1,5 @@
 {
-  "_revision": 205,
+  "_revision": 206,
   "duyuru": [
     "https://karakaya1745.github.io/guncelleme_duyuru.m3u8"
   ],
@@ -31,8 +31,12 @@
   "894bizimradyo": [
     "https://sslyayin.netyayin.net/8162/stream/;stream.mp3"
   ],
-  "Beinsports Haber": [
-    "https://netspor.tecostream.xyz/bsh.m3u8"
+  "beinsportshaber": [
+    "https://trn03.tulix.tv/gt-beinsportshaber/index.m3u8?token=b3efebaa772494434d777e2a8c8efc43",
+    "https://trn03.tulix.tv/gt-beinsportshaber/index.m3u8?token=73a903b752079a086d0a7c5d932fb560",
+    "https://trn03.tulix.tv/gt-beinsportshaber/index.m3u8?token=6525058eb5c737d7b586fc057beed07f",
+    "https://trn03.tulix.tv/gt-beinsportshaber/index.m3u8?token=556f081bb611d808d282536aff83b9bb",
+    "https://trn03.tulix.tv/gt-beinsportshaber/index.m3u8?token=e6e924c0c4bad93c528d5e56a59b3aa7"
   ],
   "a2": [
     "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8",
