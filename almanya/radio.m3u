@@ -96,6 +96,10 @@ https://icecast.radiobremen.de/rb/bremennext/live/mp3/128/stream.mp3
 https://dispatcher.rndfnk.com/rb/bremennext/live/mp3/128/stream.mp3
 #EXTINF:-1 tvg-id="radio-bremen-next" tvg-name="Bremen Next" group-title="public",Bremen Next (3)
 https://rb-radio.ard-mcdn.de/rb/radio/bremennext/hls/master.m3u8
+#EXTINF:-1 tvg-id="radio-bremen-next" tvg-name="Bremen Next" group-title="public",Bremen Next (4)
+https://rbhlsaudio.akamaized.net/hls/live/2110513/bremennext/master.m3u8
+#EXTINF:-1 tvg-id="radio-bremen-next" tvg-name="Bremen Next" group-title="public",Bremen Next (5)
+https://rbhlsaudio.akamaized.net/hls/live/2110513/bremennext/192/seglist.m3u8
 #EXTINF:-1 tvg-id="radio-hr-1" tvg-name="HR 1" group-title="public",HR 1 (1)
 https://hr-radio.ard-mcdn.de/hr/radio/hr1rm/hls/master.m3u8
 #EXTINF:-1 tvg-id="radio-hr-1" tvg-name="HR 1" group-title="public",HR 1 (2)
@@ -162,6 +166,10 @@ https://dispatcher.rndfnk.com/hr/youfm/live/mp3/high
 https://dispatcher.rndfnk.com/hr/youfm/live/mp3/128/stream.mp3
 #EXTINF:-1 tvg-id="radio-you-fm-mp3-high" tvg-name="YOU FM (mp3/high)" group-title="public",YOU FM (mp3/high) (3)
 https://hlsyoufm.akamaized.net/hls/live/2016538/youfm/master.m3u8
+#EXTINF:-1 tvg-id="radio-you-fm-mp3-high" tvg-name="YOU FM (mp3/high)" group-title="public",YOU FM (mp3/high) (4)
+https://hr-radio.ard-mcdn.de/hr/radio/youfm/hls/master.m3u8
+#EXTINF:-1 tvg-id="radio-you-fm-mp3-high" tvg-name="YOU FM (mp3/high)" group-title="public",YOU FM (mp3/high) (5)
+https://hr-radio.ard-mcdn.de/hr/radio/youfm/hls/192/seglist.m3u8
 #EXTINF:-1 tvg-id="radio-mdr-sachsen" tvg-name="MDR Sachsen" group-title="public",MDR Sachsen (1)
 https://mdr-284280-0.sslcast.mdr.de/mdr/284280/0/mp3/high/stream.mp3
 #EXTINF:-1 tvg-id="radio-mdr-sachsen" tvg-name="MDR Sachsen" group-title="public",MDR Sachsen (2)
@@ -362,24 +370,40 @@ https://rbb888.akamaized.net/hls/live/2017003/rbb_rbb888/master.m3u8
 https://dispatcher.rndfnk.com/rbb/rbb888/live/mp3/mid
 #EXTINF:-1 tvg-id="radio-rbb-88-8" tvg-name="RBB 88.8" group-title="public",RBB 88.8 (3)
 https://rbb888.akamaized.net/hls/live/2017003/rbb_rbb888/192/seglist.m3u8
+#EXTINF:-1 tvg-id="radio-rbb-88-8" tvg-name="RBB 88.8" group-title="public",RBB 88.8 (4)
+https://rbb888.akamaized.net/hls/live/2017003/rbb_rbb888/96/seglist.m3u8
+#EXTINF:-1 tvg-id="radio-rbb-88-8" tvg-name="RBB 88.8" group-title="public",RBB 88.8 (5)
+https://dispatcher.rndfnk.com/rbb/rbb888/live/mp3/low
 #EXTINF:-1 tvg-id="radio-antenne-brandenburg" tvg-name="Antenne Brandenburg" group-title="public",Antenne Brandenburg (1)
 https://dispatcher.rndfnk.com/rbb/antennebrandenburg/live/mp3/mid
 #EXTINF:-1 tvg-id="radio-antenne-brandenburg" tvg-name="Antenne Brandenburg" group-title="public",Antenne Brandenburg (2)
 https://antbrb.akamaized.net/hls/live/2016998/rbb_antbrb/master.m3u8
 #EXTINF:-1 tvg-id="radio-antenne-brandenburg" tvg-name="Antenne Brandenburg" group-title="public",Antenne Brandenburg (3)
 https://antbrb.akamaized.net/hls/live/2016998/rbb_antbrb/192/seglist.m3u8
+#EXTINF:-1 tvg-id="radio-antenne-brandenburg" tvg-name="Antenne Brandenburg" group-title="public",Antenne Brandenburg (4)
+https://antbrb.akamaized.net/hls/live/2016998/rbb_antbrb/96/seglist.m3u8
+#EXTINF:-1 tvg-id="radio-antenne-brandenburg" tvg-name="Antenne Brandenburg" group-title="public",Antenne Brandenburg (5)
+https://dispatcher.rndfnk.com/rbb/antennebrandenburg/live/mp3/low
 #EXTINF:-1 tvg-id="radio-rbb-radio-eins" tvg-name="RBB Radio Eins" group-title="public",RBB Radio Eins (1)
 https://dispatcher.rndfnk.com/rbb/radioeins/live/mp3/mid
 #EXTINF:-1 tvg-id="radio-rbb-radio-eins" tvg-name="RBB Radio Eins" group-title="public",RBB Radio Eins (2)
 https://radioeins.akamaized.net/hls/live/2016930/rbb_radioeins/master.m3u8
 #EXTINF:-1 tvg-id="radio-rbb-radio-eins" tvg-name="RBB Radio Eins" group-title="public",RBB Radio Eins (3)
 https://radioeins.akamaized.net/hls/live/2016930/rbb_radioeins/192/seglist.m3u8
+#EXTINF:-1 tvg-id="radio-rbb-radio-eins" tvg-name="RBB Radio Eins" group-title="public",RBB Radio Eins (4)
+https://radioeins.akamaized.net/hls/live/2016930/rbb_radioeins/96/seglist.m3u8
+#EXTINF:-1 tvg-id="radio-rbb-radio-eins" tvg-name="RBB Radio Eins" group-title="public",RBB Radio Eins (5)
+https://dispatcher.rndfnk.com/rbb/radioeins/live/mp3/low
 #EXTINF:-1 tvg-id="radio-rbb-fritz" tvg-name="RBB Fritz" group-title="public",RBB Fritz (1)
 https://dispatcher.rndfnk.com/rbb/fritz/live/mp3/mid
 #EXTINF:-1 tvg-id="radio-rbb-fritz" tvg-name="RBB Fritz" group-title="public",RBB Fritz (2)
 https://fritz.akamaized.net/hls/live/2016997/rbb_fritz/master.m3u8
 #EXTINF:-1 tvg-id="radio-rbb-fritz" tvg-name="RBB Fritz" group-title="public",RBB Fritz (3)
 https://fritz.akamaized.net/hls/live/2016997/rbb_fritz/192/seglist.m3u8
+#EXTINF:-1 tvg-id="radio-rbb-fritz" tvg-name="RBB Fritz" group-title="public",RBB Fritz (4)
+https://fritz.akamaized.net/hls/live/2016997/rbb_fritz/96/seglist.m3u8
+#EXTINF:-1 tvg-id="radio-rbb-fritz" tvg-name="RBB Fritz" group-title="public",RBB Fritz (5)
+https://dispatcher.rndfnk.com/rbb/fritz/live/mp3/low
 #EXTINF:-1 tvg-id="radio-rbbkultur" tvg-name="rbbKultur" group-title="public",rbbKultur (1)
 https://dispatcher.rndfnk.com/rbb/rbbkultur/live/mp3/high
 #EXTINF:-1 tvg-id="radio-rbbkultur" tvg-name="rbbKultur" group-title="public",rbbKultur (2)
@@ -422,6 +446,12 @@ https://liveradio.sr.de/sr/sr2/mp3/256/stream.mp3?aggregator=custom1
 https://liveradio.sr.de/sr/sr2/mp3/128/stream.mp3
 #EXTINF:-1 tvg-id="radio-sr-kultur" tvg-name="SR Kultur" group-title="public",SR Kultur (3)
 https://sr-radio.ard-mcdn.de/sr/radio/srkultur/hls/master.m3u8
+#EXTINF:-1 tvg-id="radio-sr-kultur" tvg-name="SR Kultur" group-title="public",SR Kultur (4)
+https://sr2hlsaudio.akamaized.net/hls/live/2116034/sr2/master.m3u8
+#EXTINF:-1 tvg-id="radio-sr-kultur" tvg-name="SR Kultur" group-title="public",SR Kultur (5)
+https://sr2hlsaudio.akamaized.net/hls/live/2116034/sr2/192/seglist.m3u8
+#EXTINF:-1 tvg-id="radio-sr-kultur" tvg-name="SR Kultur" group-title="public",SR Kultur (6)
+https://sr.audiostream.io/sr/1010/mp3/128/sr2
 #EXTINF:-1 tvg-id="radio-antennesaar-sr" tvg-name="AntenneSaar (SR)" group-title="public",AntenneSaar (SR) (1)
 https://sr-radio.ard-mcdn.de/sr/radio/as/hls/master.m3u8
 #EXTINF:-1 tvg-id="radio-antennesaar-sr" tvg-name="AntenneSaar (SR)" group-title="public",AntenneSaar (SR) (2)
@@ -456,6 +486,10 @@ https://liveradio.swr.de/sw890cl/swr1bw/
 https://liveradio.swr.de/sw331ch/swr1bw/
 #EXTINF:-1 tvg-id="radio-swr-1-baden-wuerttemberg" tvg-name="SWR 1 Baden-Württemberg" group-title="public",SWR 1 Baden-Württemberg (7)
 https://liveradio.swr.de/sw331ch/swr1bw/play.mp3
+#EXTINF:-1 tvg-id="radio-swr-1-baden-wuerttemberg" tvg-name="SWR 1 Baden-Württemberg" group-title="public",SWR 1 Baden-Württemberg (8)
+https://swr-radio.ard-mcdn.de/swr/radio/swr1bw/hls/master.m3u8
+#EXTINF:-1 tvg-id="radio-swr-1-baden-wuerttemberg" tvg-name="SWR 1 Baden-Württemberg" group-title="public",SWR 1 Baden-Württemberg (9)
+https://swr-radio.ard-mcdn.de/swr/radio/swr1bw/hls/192/seglist.m3u8
 #EXTINF:-1 tvg-id="radio-swr-1-rheinland-pfalz" tvg-name="SWR 1 Rheinland-Pfalz" group-title="public",SWR 1 Rheinland-Pfalz (1)
 https://liveradio.swr.de/sw282p3/swr1rp/play.mp3
 #EXTINF:-1 tvg-id="radio-swr-1-rheinland-pfalz" tvg-name="SWR 1 Rheinland-Pfalz" group-title="public",SWR 1 Rheinland-Pfalz (2)
@@ -470,6 +504,10 @@ https://liveradio.swr.de/sw890cl/swr1rp/
 https://dispatcher.rndfnk.com/swr/swr1/rp/mp3/128/stream.mp3
 #EXTINF:-1 tvg-id="radio-swr-1-rheinland-pfalz" tvg-name="SWR 1 Rheinland-Pfalz" group-title="public",SWR 1 Rheinland-Pfalz (7)
 https://liveradio.swr.de/tn2d2ac/swr1rp/
+#EXTINF:-1 tvg-id="radio-swr-1-rheinland-pfalz" tvg-name="SWR 1 Rheinland-Pfalz" group-title="public",SWR 1 Rheinland-Pfalz (8)
+https://swr-radio.ard-mcdn.de/swr/radio/swr1rp/hls/master.m3u8
+#EXTINF:-1 tvg-id="radio-swr-1-rheinland-pfalz" tvg-name="SWR 1 Rheinland-Pfalz" group-title="public",SWR 1 Rheinland-Pfalz (9)
+https://swr-radio.ard-mcdn.de/swr/radio/swr1rp/hls/192/seglist.m3u8
 #EXTINF:-1 tvg-id="radio-swr-3" tvg-name="SWR 3" group-title="public",SWR 3 (1)
 https://liveradio.swr.de/sw282p3/swr3/play.mp3
 #EXTINF:-1 tvg-id="radio-swr-3" tvg-name="SWR 3" group-title="public",SWR 3 (2)
@@ -484,6 +522,10 @@ https://dispatcher.rndfnk.com/swr/swr3/live/mp3/128/stream.mp3
 https://liveradio.swr.de/sw73hl2/swr3/play.m3u8
 #EXTINF:-1 tvg-id="radio-swr-3" tvg-name="SWR 3" group-title="public",SWR 3 (7)
 https://mcdn.swr.de/swr/visualradio/master.m3u8
+#EXTINF:-1 tvg-id="radio-swr-3" tvg-name="SWR 3" group-title="public",SWR 3 (8)
+https://swr-radio.ard-mcdn.de/swr/radio/swr3/hls/master.m3u8
+#EXTINF:-1 tvg-id="radio-swr-3" tvg-name="SWR 3" group-title="public",SWR 3 (9)
+https://swr-radio.ard-mcdn.de/swr/radio/swr3/hls/192/seglist.m3u8
 #EXTINF:-1 tvg-id="radio-swr4" tvg-name="SWR4" group-title="public",SWR4 (1)
 https://liveradio.swr.de/sw73hl2/swr4bw/play.m3u8
 #EXTINF:-1 tvg-id="radio-swr4" tvg-name="SWR4" group-title="public",SWR4 (2)
@@ -498,6 +540,10 @@ https://liveradio.swr.de/sw331ch/swr4bw/
 https://dispatcher.rndfnk.com/swr/swr4/bw/mp3/128/stream.mp3
 #EXTINF:-1 tvg-id="radio-swr4" tvg-name="SWR4" group-title="public",SWR4 (7)
 https://liveradio.swr.de/rddez3a/swr4bw/
+#EXTINF:-1 tvg-id="radio-swr4" tvg-name="SWR4" group-title="public",SWR4 (8)
+https://swr-radio.ard-mcdn.de/swr/radio/swr4bw/hls/master.m3u8
+#EXTINF:-1 tvg-id="radio-swr4" tvg-name="SWR4" group-title="public",SWR4 (9)
+https://swr-radio.ard-mcdn.de/swr/radio/swr4bw/hls/192/seglist.m3u8
 #EXTINF:-1 tvg-id="radio-swr-aktuell" tvg-name="SWR Aktuell" group-title="public",SWR Aktuell (1)
 https://liveradio.swr.de/sw282p3/swraktuell/play.aac
 #EXTINF:-1 tvg-id="radio-swr-aktuell" tvg-name="SWR Aktuell" group-title="public",SWR Aktuell (2)
@@ -512,6 +558,10 @@ https://liveradio.swr.de/sw331ch/swraktuell/play.aac
 https://liveradio.swr.de/sw282p3/swraktuell/play.mp3
 #EXTINF:-1 tvg-id="radio-swr-aktuell" tvg-name="SWR Aktuell" group-title="public",SWR Aktuell (7)
 https://liveradio.swr.de/myt11m3/swraktuell/
+#EXTINF:-1 tvg-id="radio-swr-aktuell" tvg-name="SWR Aktuell" group-title="public",SWR Aktuell (8)
+https://swr-radio.ard-mcdn.de/swr/radio/swraktuell/hls/master.m3u8
+#EXTINF:-1 tvg-id="radio-swr-aktuell" tvg-name="SWR Aktuell" group-title="public",SWR Aktuell (9)
+https://swr-radio.ard-mcdn.de/swr/radio/swraktuell/hls/192/seglist.m3u8
 #EXTINF:-1 tvg-id="radio-swr-dasding" tvg-name="DASDING" group-title="public",DASDING (1)
 https://liveradio.swr.de/sw282p3/dasding/play.mp3
 #EXTINF:-1 tvg-id="radio-swr-dasding" tvg-name="DASDING" group-title="public",DASDING (2)
@@ -534,6 +584,8 @@ https://liveradio.swr.de/sw331ch/dasding
 https://mcdn.swr.de/swr/visualradiodasding/master.m3u8
 #EXTINF:-1 tvg-id="radio-swr-dasding" tvg-name="DASDING" group-title="public",DASDING (11)
 https://swr-radio.ard-mcdn.de/swr/radio/dasding/hls/192/seglist.m3u8
+#EXTINF:-1 tvg-id="radio-swr-dasding" tvg-name="DASDING" group-title="public",DASDING (12)
+https://swr-radio.ard-mcdn.de/swr/radio/dasding/hls/master.m3u8
 #EXTINF:-1 tvg-id="radio-swr-kultur" tvg-name="SWR Kultur" group-title="public",SWR Kultur (1)
 https://dispatcher.rndfnk.com/swr/swr2/live/mp3/256/stream.mp3
 #EXTINF:-1 tvg-id="radio-swr-kultur" tvg-name="SWR Kultur" group-title="public",SWR Kultur (2)
@@ -548,6 +600,10 @@ https://liveradio.swr.de/sw331ch/swr2/
 https://liveradio.swr.de/sw282p3/swr2/
 #EXTINF:-1 tvg-id="radio-swr-kultur" tvg-name="SWR Kultur" group-title="public",SWR Kultur (7)
 https://liveradio.swr.de/sw890cl/swr2/
+#EXTINF:-1 tvg-id="radio-swr-kultur" tvg-name="SWR Kultur" group-title="public",SWR Kultur (8)
+https://swr-radio.ard-mcdn.de/swr/radio/swrkultur/hls/master.m3u8
+#EXTINF:-1 tvg-id="radio-swr-kultur" tvg-name="SWR Kultur" group-title="public",SWR Kultur (9)
+https://swr-radio.ard-mcdn.de/swr/radio/swrkultur/hls/192/seglist.m3u8
 #EXTINF:-1 tvg-id="radio-wdr-1-live" tvg-name="WDR 1 Live" group-title="public",WDR 1 Live (1)
 https://wdr-1live-live.icecast.wdr.de/wdr/1live/live/mp3/128/stream.mp3
 #EXTINF:-1 tvg-id="radio-wdr-1-live" tvg-name="WDR 1 Live" group-title="public",WDR 1 Live (2)
@@ -694,31 +750,15 @@ https://st04.sslstream.dlf.de/dlf/04/128/mp3/stream.mp3?aggregator=web
 https://st04.sslstream.dlf.de/dlf/04/low/aac/stream.aac?aggregator=web
 #EXTINF:-1 tvg-id="radio-dokumente-und-debatten" tvg-name="Dokumente und Debatten" group-title="public",Dokumente und Debatten (4)
 https://st04.sslstream.dlf.de/dlf/04/high/aac/stream.aac?aggregator=web
-#EXTINF:-1 tvg-id="radio-antenne-1" tvg-name="Antenne 1" group-title="regional",Antenne 1 (1)
-https://stream.antenne1.de/a1nbg/livestream1.aac
-#EXTINF:-1 tvg-id="radio-antenne-1" tvg-name="Antenne 1" group-title="regional",Antenne 1 (2)
-https://stream.antenne1.de/a1stg/livestream2.mp3
-#EXTINF:-1 tvg-id="radio-antenne-1" tvg-name="Antenne 1" group-title="regional",Antenne 1 (3)
-https://stream.antenne1.de/sommerhits/livestream2.mp3?usid=H-M-09-0-0
-#EXTINF:-1 tvg-id="radio-antenne-1" tvg-name="Antenne 1" group-title="regional",Antenne 1 (4)
-https://stream.antenne1.de/a1gp/livestream1.aac
 #EXTINF:-1 tvg-id="radio-bigfm" tvg-name="bigFM" group-title="regional",bigFM (1)
 https://stream.bigfm.de/deutschland/aac-128
 #EXTINF:-1 tvg-id="radio-bigfm" tvg-name="bigFM" group-title="regional",bigFM (2)
 https://streams.bigfm.de/bigfm-deutschland-128-mp3
 #EXTINF:-1 tvg-id="radio-bigfm" tvg-name="bigFM" group-title="regional",bigFM (3)
-https://stream.bigfm.de/tomorrowland/mp3-128/radiobrowser
-#EXTINF:-1 tvg-id="radio-bigfm" tvg-name="bigFM" group-title="regional",bigFM (4)
-https://streams.bigfm.de/bigfm-deutschrap-128-aac
-#EXTINF:-1 tvg-id="radio-bigfm" tvg-name="bigFM" group-title="regional",bigFM (5)
-https://streams.bigfm.de/nitrox-128-mp3
-#EXTINF:-1 tvg-id="radio-bigfm" tvg-name="bigFM" group-title="regional",bigFM (6)
-https://streams.bigfm.de/bigfm-sunsetlounge-128-mp3?usid=0-0-H-M-D-12
-#EXTINF:-1 tvg-id="radio-bigfm" tvg-name="bigFM" group-title="regional",bigFM (7)
 https://streams.bigfm.de/bigfm-deutschland-128-aac
-#EXTINF:-1 tvg-id="radio-bigfm" tvg-name="bigFM" group-title="regional",bigFM (8)
+#EXTINF:-1 tvg-id="radio-bigfm" tvg-name="bigFM" group-title="regional",bigFM (4)
 https://stream.bigfm.de/deutschland/mp3-128/radiofm
-#EXTINF:-1 tvg-id="radio-bigfm" tvg-name="bigFM" group-title="regional",bigFM (9)
+#EXTINF:-1 tvg-id="radio-bigfm" tvg-name="bigFM" group-title="regional",bigFM (5)
 https://stream.bigfm.de/deutschland/mp3-128/radio-browser
 #EXTINF:-1 tvg-id="radio-radio-regenbogen" tvg-name="Radio Regenbogen" group-title="regional",Radio Regenbogen (1)
 https://streams.regenbogen.de/rr2-bw-128-mp3
@@ -727,10 +767,8 @@ https://streams.regenbogen.de/rr-mannheim-128-mp3
 #EXTINF:-1 tvg-id="radio-radio-regenbogen" tvg-name="Radio Regenbogen" group-title="regional",Radio Regenbogen (3)
 https://streams.regenbogen.de/rr-gunsnroses-128-mp3
 #EXTINF:-1 tvg-id="radio-radio-regenbogen" tvg-name="Radio Regenbogen" group-title="regional",Radio Regenbogen (4)
-https://streams.regenbogen.de/rr-kinderlieder-128-mp3
-#EXTINF:-1 tvg-id="radio-radio-regenbogen" tvg-name="Radio Regenbogen" group-title="regional",Radio Regenbogen (5)
 https://stream.regenbogen.de/mannheim/aac-128/tunein
-#EXTINF:-1 tvg-id="radio-radio-regenbogen" tvg-name="Radio Regenbogen" group-title="regional",Radio Regenbogen (6)
+#EXTINF:-1 tvg-id="radio-radio-regenbogen" tvg-name="Radio Regenbogen" group-title="regional",Radio Regenbogen (5)
 https://stream.regenbogen.de/mannheim/mp3-128/onlineradiobox
 #EXTINF:-1 tvg-id="radio-radio-7" tvg-name="Radio 7" group-title="regional",Radio 7 (1)
 https://streams.radio7.de/dab/mp3-192/web/
@@ -754,61 +792,51 @@ https://frontend.streamonkey.net/fho-schwarzwaldradiolive/mp3-stream.m3u
 https://stream.querfunk.de/qfhi
 #EXTINF:-1 tvg-id="radio-querfunk-karlsruhe" tvg-name="Querfunk Karlsruhe" group-title="regional",Querfunk Karlsruhe (2)
 https://stream.querfunk.de/qfhi/hls.m3u8
+#EXTINF:-1 tvg-id="radio-querfunk-karlsruhe" tvg-name="Querfunk Karlsruhe" group-title="regional",Querfunk Karlsruhe (3)
+https://mp3.querfunk.de/qfhi
 #EXTINF:-1 tvg-id="radio-campusradio-mannheim-radioaktiv" tvg-name="Campusradio Mannheim (Radioaktiv)" group-title="regional",Campusradio Mannheim (Radioaktiv) (1)
 https://stream.radioaktiv.org/VeryHiFi
 #EXTINF:-1 tvg-id="radio-sunshine-live" tvg-name="Sunshine Live" group-title="regional",Sunshine Live (1)
-https://stream.sunshine-live.de/90er/mp3-192/stream.sunshine-live.de
-#EXTINF:-1 tvg-id="radio-sunshine-live" tvg-name="Sunshine Live" group-title="regional",Sunshine Live (2)
-https://stream.sunshine-live.de/techno/mp3-192/stream.sunshine-live.de/
-#EXTINF:-1 tvg-id="radio-sunshine-live" tvg-name="Sunshine Live" group-title="regional",Sunshine Live (3)
 https://stream.sunshine-live.de/live/mp3-192/stream.sunshine-live.de/
-#EXTINF:-1 tvg-id="radio-sunshine-live" tvg-name="Sunshine Live" group-title="regional",Sunshine Live (4)
-https://stream.sunshine-live.de/classics/mp3-192/stream.sunshine-live.de/
-#EXTINF:-1 tvg-id="radio-sunshine-live" tvg-name="Sunshine Live" group-title="regional",Sunshine Live (5)
+#EXTINF:-1 tvg-id="radio-sunshine-live" tvg-name="Sunshine Live" group-title="regional",Sunshine Live (2)
 https://sunsl.streamabc.net/sunsl-sslsimulcast-mp3-192-4434053
-#EXTINF:-1 tvg-id="radio-sunshine-live" tvg-name="Sunshine Live" group-title="regional",Sunshine Live (6)
+#EXTINF:-1 tvg-id="radio-sunshine-live" tvg-name="Sunshine Live" group-title="regional",Sunshine Live (3)
 https://stream.sunshine-live.de/live/aac-64/radiosure/
-#EXTINF:-1 tvg-id="radio-sunshine-live" tvg-name="Sunshine Live" group-title="regional",Sunshine Live (7)
+#EXTINF:-1 tvg-id="radio-sunshine-live" tvg-name="Sunshine Live" group-title="regional",Sunshine Live (4)
 https://stream.sunshine-live.de/live/aac-64/stream.sunshine-live.de
 #EXTINF:-1 tvg-id="radio-baden-fm" tvg-name="baden.fm" group-title="regional",baden.fm (1)
 https://edge17.streamonkey.net/badenfm-onair/stream/mp3?aggregator=hofmeir
+#EXTINF:-1 tvg-id="radio-baden-fm" tvg-name="baden.fm" group-title="regional",baden.fm (2)
+https://frontend.streams.baden.fm/badenfm-onair
 #EXTINF:-1 tvg-id="radio-antenne-bayern" tvg-name="Antenne Bayern" group-title="regional",Antenne Bayern (1)
 https://mp3channels.webradio.antenne.de/antenne
 #EXTINF:-1 tvg-id="radio-antenne-bayern" tvg-name="Antenne Bayern" group-title="regional",Antenne Bayern (2)
-https://mp3channels.webradio.antenne.de/chillout
-#EXTINF:-1 tvg-id="radio-antenne-bayern" tvg-name="Antenne Bayern" group-title="regional",Antenne Bayern (3)
-https://mp3channels.webradio.antenne.de/classic-rock-live
-#EXTINF:-1 tvg-id="radio-antenne-bayern" tvg-name="Antenne Bayern" group-title="regional",Antenne Bayern (4)
-https://mp3channels.webradio.antenne.de/top-40
-#EXTINF:-1 tvg-id="radio-antenne-bayern" tvg-name="Antenne Bayern" group-title="regional",Antenne Bayern (5)
 https://stream.antenne.de/antenne/stream/mp3
-#EXTINF:-1 tvg-id="radio-antenne-bayern" tvg-name="Antenne Bayern" group-title="regional",Antenne Bayern (6)
+#EXTINF:-1 tvg-id="radio-antenne-bayern" tvg-name="Antenne Bayern" group-title="regional",Antenne Bayern (3)
 https://stream.antenne.de/antenne/stream/aacp
-#EXTINF:-1 tvg-id="radio-antenne-bayern" tvg-name="Antenne Bayern" group-title="regional",Antenne Bayern (7)
+#EXTINF:-1 tvg-id="radio-antenne-bayern" tvg-name="Antenne Bayern" group-title="regional",Antenne Bayern (4)
 https://s6-webradio.antenne.de/antenne/stream/aacp
-#EXTINF:-1 tvg-id="radio-antenne-bayern" tvg-name="Antenne Bayern" group-title="regional",Antenne Bayern (8)
+#EXTINF:-1 tvg-id="radio-antenne-bayern" tvg-name="Antenne Bayern" group-title="regional",Antenne Bayern (5)
 https://play.antenne.de/antenne.m3u
-#EXTINF:-1 tvg-id="radio-antenne-bayern" tvg-name="Antenne Bayern" group-title="regional",Antenne Bayern (9)
+#EXTINF:-1 tvg-id="radio-antenne-bayern" tvg-name="Antenne Bayern" group-title="regional",Antenne Bayern (6)
 https://stream.antenne.de/antenne
-#EXTINF:-1 tvg-id="radio-antenne-bayern" tvg-name="Antenne Bayern" group-title="regional",Antenne Bayern (10)
+#EXTINF:-1 tvg-id="radio-antenne-bayern" tvg-name="Antenne Bayern" group-title="regional",Antenne Bayern (7)
 https://mp3channels.webradio.antenne.de/antenne.aac
-#EXTINF:-1 tvg-id="radio-antenne-bayern" tvg-name="Antenne Bayern" group-title="regional",Antenne Bayern (11)
+#EXTINF:-1 tvg-id="radio-antenne-bayern" tvg-name="Antenne Bayern" group-title="regional",Antenne Bayern (8)
 https://mp3channels.webradio.de/antenne
 #EXTINF:-1 tvg-id="radio-rock-antenne" tvg-name="Rock Antenne" group-title="regional",Rock Antenne (1)
 https://mp3channels.webradio.rockantenne.de/rockantenne
 #EXTINF:-1 tvg-id="radio-rock-antenne" tvg-name="Rock Antenne" group-title="regional",Rock Antenne (2)
 https://mp3channels.webradio.rockantenne.de/heavy-metal
 #EXTINF:-1 tvg-id="radio-rock-antenne" tvg-name="Rock Antenne" group-title="regional",Rock Antenne (3)
-https://mp3channels.webradio.rockantenne.de/classic-perlen
-#EXTINF:-1 tvg-id="radio-rock-antenne" tvg-name="Rock Antenne" group-title="regional",Rock Antenne (4)
 https://mp3channels.webradio.rockantenne.de/punkrock.aac
-#EXTINF:-1 tvg-id="radio-rock-antenne" tvg-name="Rock Antenne" group-title="regional",Rock Antenne (5)
+#EXTINF:-1 tvg-id="radio-rock-antenne" tvg-name="Rock Antenne" group-title="regional",Rock Antenne (4)
 https://stream.rockantenne.de/rockantenne/stream/mp3
-#EXTINF:-1 tvg-id="radio-rock-antenne" tvg-name="Rock Antenne" group-title="regional",Rock Antenne (6)
+#EXTINF:-1 tvg-id="radio-rock-antenne" tvg-name="Rock Antenne" group-title="regional",Rock Antenne (5)
 https://stream.rockantenne.de/rockantenne.aac
-#EXTINF:-1 tvg-id="radio-rock-antenne" tvg-name="Rock Antenne" group-title="regional",Rock Antenne (7)
+#EXTINF:-1 tvg-id="radio-rock-antenne" tvg-name="Rock Antenne" group-title="regional",Rock Antenne (6)
 https://s5-webradio.antenne.de/rockantenne
-#EXTINF:-1 tvg-id="radio-rock-antenne" tvg-name="Rock Antenne" group-title="regional",Rock Antenne (8)
+#EXTINF:-1 tvg-id="radio-rock-antenne" tvg-name="Rock Antenne" group-title="regional",Rock Antenne (7)
 https://mp3channels.webradio.de/rockantenne
 #EXTINF:-1 tvg-id="radio-egofm" tvg-name="egoFM" group-title="regional",egoFM (1)
 https://cast.egofm.de/egofm.mp3
@@ -824,10 +852,16 @@ https://live.stream.charivari.de/955charivari-webradio
 https://radiogong-live.cast.addradio.de/radiogong/live/mp3/high
 #EXTINF:-1 tvg-id="radio-radio-gong-96-3" tvg-name="Radio Gong 96.3" group-title="regional",Radio Gong 96.3 (2)
 https://radiogong-channel08.cast.addradio.de/radiogong/channel08/mp3/high
+#EXTINF:-1 tvg-id="radio-radio-gong-96-3" tvg-name="Radio Gong 96.3" group-title="regional",Radio Gong 96.3 (3)
+https://radiogong-live.cast.addradio.de/radiogong/live/mp3/low
 #EXTINF:-1 tvg-id="radio-radio-arabella" tvg-name="Radio Arabella" group-title="regional",Radio Arabella (1)
 https://edge12.stream.radioarabella.de/radioarabella-muenchen?aggregator=RDs24_live_radioarabella_de-stream-aac
 #EXTINF:-1 tvg-id="radio-radio-arabella" tvg-name="Radio Arabella" group-title="regional",Radio Arabella (2)
 https://live.stream.radioarabella.de/radioarabella-bayern/stream/mp3?aggregator=araby
+#EXTINF:-1 tvg-id="radio-radio-arabella" tvg-name="Radio Arabella" group-title="regional",Radio Arabella (3)
+https://frontend.stream.radioarabella.de/radioarabella-muenchen
+#EXTINF:-1 tvg-id="radio-radio-arabella" tvg-name="Radio Arabella" group-title="regional",Radio Arabella (4)
+https://frontend.stream.radioarabella.de/radioarabella-muenchen/stream/mp3
 #EXTINF:-1 tvg-id="radio-donau-3-fm" tvg-name="DONAU 3 FM" group-title="regional",DONAU 3 FM (1)
 https://frontend.streamonkey.net/donau3fm-live/stream/mp3
 #EXTINF:-1 tvg-id="radio-donau-3-fm" tvg-name="DONAU 3 FM" group-title="regional",DONAU 3 FM (2)
@@ -849,26 +883,20 @@ https://radiotrausnitz.cast.addradio.de/radiotrausnitz/live/mp3/high
 #EXTINF:-1 tvg-id="radio-104-6-rtl" tvg-name="104.6 RTL" group-title="regional",104.6 RTL (1)
 https://stream.104.6rtl.com/rtl-live/mp3-192/radio-browser.info/
 #EXTINF:-1 tvg-id="radio-104-6-rtl" tvg-name="104.6 RTL" group-title="regional",104.6 RTL (2)
-https://stream.104.6rtl.com/rtl-60er70er/mp3-128/radio-browser.info/
-#EXTINF:-1 tvg-id="radio-104-6-rtl" tvg-name="104.6 RTL" group-title="regional",104.6 RTL (3)
-https://stream.104.6rtl.com/rtl-80er/mp3-128/radio-browser.info/
-#EXTINF:-1 tvg-id="radio-104-6-rtl" tvg-name="104.6 RTL" group-title="regional",104.6 RTL (4)
-https://stream.104.6rtl.com/rtl-black/mp3-128/radio-browser.info/
-#EXTINF:-1 tvg-id="radio-104-6-rtl" tvg-name="104.6 RTL" group-title="regional",104.6 RTL (5)
 https://rtlberlin.streamabc.net/rtlb-1046rtllive-mp3-192-4947175
 #EXTINF:-1 tvg-id="radio-berliner-rundfunk-91-4" tvg-name="Berliner Rundfunk 91.4" group-title="regional",Berliner Rundfunk 91.4 (1)
 https://topradio-de-hz-fal-stream10-cluster01.radiohost.de/brf_mp3-128
 #EXTINF:-1 tvg-id="radio-berliner-rundfunk-91-4" tvg-name="Berliner Rundfunk 91.4" group-title="regional",Berliner Rundfunk 91.4 (2)
 https://stream.berliner-rundfunk.de/brf/mp3-128/internetradio/
+#EXTINF:-1 tvg-id="radio-berliner-rundfunk-91-4" tvg-name="Berliner Rundfunk 91.4" group-title="regional",Berliner Rundfunk 91.4 (3)
+https://stream.berliner-rundfunk.de/brf/mp3-128/radiode/
+#EXTINF:-1 tvg-id="radio-berliner-rundfunk-91-4" tvg-name="Berliner Rundfunk 91.4" group-title="regional",Berliner Rundfunk 91.4 (4)
+https://stream.berliner-rundfunk.de/brf
 #EXTINF:-1 tvg-id="radio-kiss-fm" tvg-name="KISS FM" group-title="regional",KISS FM (1)
 https://stream.kissfm.de/kissfm/mp3-128/internetradio/
 #EXTINF:-1 tvg-id="radio-kiss-fm" tvg-name="KISS FM" group-title="regional",KISS FM (2)
 https://stream.kissfm.de/kissfm-sextime/mp3-128/internetradio/
 #EXTINF:-1 tvg-id="radio-kiss-fm" tvg-name="KISS FM" group-title="regional",KISS FM (3)
-https://stream.kissfm.de/kissfm-electro/mp3-128/internetradio/
-#EXTINF:-1 tvg-id="radio-kiss-fm" tvg-name="KISS FM" group-title="regional",KISS FM (4)
-https://topradio-de-hz-fal-stream03-cluster01.radiohost.de/kissfm-hiphop_aac-64?
-#EXTINF:-1 tvg-id="radio-kiss-fm" tvg-name="KISS FM" group-title="regional",KISS FM (5)
 https://stream.kissfm.de/kissfm/mp3-192
 #EXTINF:-1 tvg-id="radio-star-fm" tvg-name="Star FM" group-title="regional",Star FM (1)
 https://stream.starfm.de/ballads/mp3-192/iradio
@@ -876,6 +904,8 @@ https://stream.starfm.de/ballads/mp3-192/iradio
 https://stream.starfm.de/berlin/mp3-192/iradio
 #EXTINF:-1 tvg-id="radio-star-fm" tvg-name="Star FM" group-title="regional",Star FM (3)
 https://stream.laut.fm/darkstarfm
+#EXTINF:-1 tvg-id="radio-star-fm" tvg-name="Star FM" group-title="regional",Star FM (4)
+https://stream.starfm.de/national/mp3-192
 #EXTINF:-1 tvg-id="radio-reboot-fm" tvg-name="reboot.fm" group-title="regional",reboot.fm (1)
 https://stream.reboot.fm/listen/reboot.fm/radio.mp3
 #EXTINF:-1 tvg-id="radio-reboot-fm" tvg-name="reboot.fm" group-title="regional",reboot.fm (2)
@@ -899,19 +929,17 @@ https://stream.radiohamburg.de/live/mp3-128
 #EXTINF:-1 tvg-id="radio-hit-radio-ffh" tvg-name="Hit Radio FFH" group-title="regional",Hit Radio FFH (1)
 https://mp3.ffh.de/radioffh/hqlivestream.mp3
 #EXTINF:-1 tvg-id="radio-hit-radio-ffh" tvg-name="Hit Radio FFH" group-title="regional",Hit Radio FFH (2)
-https://mp3.ffh.de/ffhchannels/hq80er.mp3
-#EXTINF:-1 tvg-id="radio-hit-radio-ffh" tvg-name="Hit Radio FFH" group-title="regional",Hit Radio FFH (3)
-https://mp3.ffh.de/ffhchannels/hqeurodance.mp3?aw_0_req.gdpr=true
-#EXTINF:-1 tvg-id="radio-hit-radio-ffh" tvg-name="Hit Radio FFH" group-title="regional",Hit Radio FFH (4)
-https://mp3.ffh.de/ffhchannels/hqtop40.mp3
-#EXTINF:-1 tvg-id="radio-hit-radio-ffh" tvg-name="Hit Radio FFH" group-title="regional",Hit Radio FFH (5)
 https://mp3.ffh.de/radioffh/hqlivestream.aac
-#EXTINF:-1 tvg-id="radio-hit-radio-ffh" tvg-name="Hit Radio FFH" group-title="regional",Hit Radio FFH (6)
+#EXTINF:-1 tvg-id="radio-hit-radio-ffh" tvg-name="Hit Radio FFH" group-title="regional",Hit Radio FFH (3)
 https://streams.ffh.de/radioffh/mp3/hqlivestream.mp3?amsparams=playerid:RTFFHRadioDE
 #EXTINF:-1 tvg-id="radio-harmony-fm" tvg-name="harmony.fm" group-title="regional",harmony.fm (1)
 https://mp3.harmonyfm.de/harmonyfm/hqlivestream.mp3
 #EXTINF:-1 tvg-id="radio-harmony-fm" tvg-name="harmony.fm" group-title="regional",harmony.fm (2)
 https://streams.harmonyfm.de/harmonyfm/mp3/hqlivestream.m3u
+#EXTINF:-1 tvg-id="radio-harmony-fm" tvg-name="harmony.fm" group-title="regional",harmony.fm (3)
+https://mp3.harmonyfm.de/harmonyfm/hqlivestream.aac
+#EXTINF:-1 tvg-id="radio-harmony-fm" tvg-name="harmony.fm" group-title="regional",harmony.fm (4)
+https://streams.harmonyfm.de/harmonyfm/mp3/hqlivestream.mp3
 #EXTINF:-1 tvg-id="radio-radio-bob" tvg-name="Radio Bob" group-title="regional",Radio Bob (1)
 https://streams.radiobob.de/bob-national/mp3-192/mediaplayer
 #EXTINF:-1 tvg-id="radio-radio-bob" tvg-name="Radio Bob" group-title="regional",Radio Bob (2)
@@ -919,17 +947,9 @@ https://streams.radiobob.de/bob-metal/mp3-192/streams.radiobob.de/
 #EXTINF:-1 tvg-id="radio-radio-bob" tvg-name="Radio Bob" group-title="regional",Radio Bob (3)
 https://streams.radiobob.de/bob-alternative/mp3-192/streams.radiobob.de/
 #EXTINF:-1 tvg-id="radio-radio-bob" tvg-name="Radio Bob" group-title="regional",Radio Bob (4)
-https://streams.radiobob.de/bob-classicrock/mp3-192/streams.radiobob.de/
-#EXTINF:-1 tvg-id="radio-radio-bob" tvg-name="Radio Bob" group-title="regional",Radio Bob (5)
-https://streams.radiobob.de/bob-bestofrock/mp3-192/streams.radiobob.de/
-#EXTINF:-1 tvg-id="radio-radio-bob" tvg-name="Radio Bob" group-title="regional",Radio Bob (6)
 https://streams.radiobob.de/bob-live/mp3-192
 #EXTINF:-1 tvg-id="radio-radio-ruesselsheim" tvg-name="Radio Rüsselsheim" group-title="regional",Radio Rüsselsheim (1)
 https://streaming.radio-r.net/radio-r
-#EXTINF:-1 tvg-id="radio-antenne-mv" tvg-name="Antenne MV" group-title="regional",Antenne MV (1)
-https://streams.antennemv.de/oldies/mp3-128/streams.antennemv.de/
-#EXTINF:-1 tvg-id="radio-antenne-mv" tvg-name="Antenne MV" group-title="regional",Antenne MV (2)
-https://streams.antennemv.de/oldies/mp3-192
 #EXTINF:-1 tvg-id="radio-ostseewelle" tvg-name="Ostseewelle" group-title="regional",Ostseewelle (1)
 https://addrad.io/4454pjf
 #EXTINF:-1 tvg-id="radio-ostseewelle" tvg-name="Ostseewelle" group-title="regional",Ostseewelle (2)
@@ -948,17 +968,13 @@ https://stream.ffn.de/ffn
 https://stream.ffn.de/ffn-80er/?ref=radio-browser
 #EXTINF:-1 tvg-id="radio-ffn" tvg-name="ffn 80er" group-title="regional",ffn 80er (2)
 https://player.ffn.de/ffn80er.mp3
+#EXTINF:-1 tvg-id="radio-ffn" tvg-name="ffn 80er" group-title="regional",ffn 80er (3)
+https://stream.ffn.de/ffn-80er/mp3-192
 #EXTINF:-1 tvg-id="radio-antenne-niedersachsen" tvg-name="Antenne Niedersachsen" group-title="regional",Antenne Niedersachsen (1)
-https://stream.antenne.com/oldies/mp3-192/linux/
-#EXTINF:-1 tvg-id="radio-antenne-niedersachsen" tvg-name="Antenne Niedersachsen" group-title="regional",Antenne Niedersachsen (2)
 https://stream.antenne.com/antenne-nds/aac-64/stream.antenne.com/
-#EXTINF:-1 tvg-id="radio-antenne-niedersachsen" tvg-name="Antenne Niedersachsen" group-title="regional",Antenne Niedersachsen (3)
-https://stream.antenne.com/antenne-nds-80er/mp3-192/linux/
-#EXTINF:-1 tvg-id="radio-antenne-niedersachsen" tvg-name="Antenne Niedersachsen" group-title="regional",Antenne Niedersachsen (4)
-https://stream.antenne.com/deutsch/mp3-192/linux/
-#EXTINF:-1 tvg-id="radio-antenne-niedersachsen" tvg-name="Antenne Niedersachsen" group-title="regional",Antenne Niedersachsen (5)
+#EXTINF:-1 tvg-id="radio-antenne-niedersachsen" tvg-name="Antenne Niedersachsen" group-title="regional",Antenne Niedersachsen (2)
 https://stream.antenne.com/antenne-nds/mp3-192
-#EXTINF:-1 tvg-id="radio-antenne-niedersachsen" tvg-name="Antenne Niedersachsen" group-title="regional",Antenne Niedersachsen (6)
+#EXTINF:-1 tvg-id="radio-antenne-niedersachsen" tvg-name="Antenne Niedersachsen" group-title="regional",Antenne Niedersachsen (3)
 https://stream.antenne.com/reg01/mp3-192/Web/
 #EXTINF:-1 tvg-id="radio-radio-bollerwagen" tvg-name="Radio Bollerwagen" group-title="regional",Radio Bollerwagen (1)
 https://stream.ffn.de/radiobollerwagen/mp3-192/stream.mp3
@@ -982,6 +998,10 @@ https://radio21.streamabc.net/radio21-bremen-mp3-192-7011720
 https://stream.radio38.de/
 #EXTINF:-1 tvg-id="radio-rbb-radio-3" tvg-name="Radio 38" group-title="regional",Radio 38 (2)
 https://stream.radio38.de/stream
+#EXTINF:-1 tvg-id="radio-rbb-radio-3" tvg-name="Radio 38" group-title="regional",Radio 38 (3)
+https://stream.radio38.de/radio38-live/mp3-192
+#EXTINF:-1 tvg-id="radio-rbb-radio-3" tvg-name="Radio 38" group-title="regional",Radio 38 (4)
+https://radio38-stream26.radiohost.de/radio38-live_mp3-192
 #EXTINF:-1 tvg-id="radio-radio-hbr" tvg-name="Radio HBR" group-title="regional",Radio HBR (1)
 https://stream1.radiohbr.de/stream.mp3
 #EXTINF:-1 tvg-id="radio-radio-hbr" tvg-name="Radio HBR" group-title="regional",Radio HBR (2)
@@ -989,20 +1009,14 @@ https://stream1.radiohbr.de/stream.aac
 #EXTINF:-1 tvg-id="radio-hitradio-ohr" tvg-name="Hitradio Ohr" group-title="regional",Hitradio Ohr (1)
 https://edge67.streamonkey.net/fho-hitradioohrlive/stream/aacp?aggregator=smk-m3u-aac
 #EXTINF:-1 tvg-id="radio-hitradio-ohr" tvg-name="Hitradio Ohr" group-title="regional",Hitradio Ohr (2)
-https://edge70.streamonkey.net/fho-hitradioohr90er/stream/aacp?aggregator=smk-m3u-aac
-#EXTINF:-1 tvg-id="radio-hitradio-ohr" tvg-name="Hitradio Ohr" group-title="regional",Hitradio Ohr (3)
 https://frontend.streamonkey.net/fho-hitradioohrlive/stream/mp3
-#EXTINF:-1 tvg-id="radio-hitradio-ohr" tvg-name="Hitradio Ohr" group-title="regional",Hitradio Ohr (4)
+#EXTINF:-1 tvg-id="radio-hitradio-ohr" tvg-name="Hitradio Ohr" group-title="regional",Hitradio Ohr (3)
 https://frontend.streamonkey.net/fho-hitradioohrlive/aac-stream.m3u
-#EXTINF:-1 tvg-id="radio-hitradio-ohr" tvg-name="Hitradio Ohr" group-title="regional",Hitradio Ohr (5)
+#EXTINF:-1 tvg-id="radio-hitradio-ohr" tvg-name="Hitradio Ohr" group-title="regional",Hitradio Ohr (4)
 https://edge59.streamonkey.net/fho-hitradioohrlive/stream/aacp?aggregator=smk-m3u-aac
 #EXTINF:-1 tvg-id="radio-oldie-antenne" tvg-name="Oldie Antenne" group-title="regional",Oldie Antenne (1)
 https://s1-webradio.oldie-antenne.de/oldie-antenne?aw_0_1st.playerid=OldieAntenneWebPlayer
 #EXTINF:-1 tvg-id="radio-oldie-antenne" tvg-name="Oldie Antenne" group-title="regional",Oldie Antenne (2)
-https://s7-webradio.oldie-antenne.de/oldie-antenne-80er-hits/stream/mp3?aw_0_1st.playerid=OldieAntenneWebPlayer&companionAds=false&companion_zone_alias=41%2C42%2C40%2C731%2C752%2C756%2C768
-#EXTINF:-1 tvg-id="radio-oldie-antenne" tvg-name="Oldie Antenne" group-title="regional",Oldie Antenne (3)
-https://stream.oldie-antenne.de/oldie-antenne-60er-hits/stream/mp3
-#EXTINF:-1 tvg-id="radio-oldie-antenne" tvg-name="Oldie Antenne" group-title="regional",Oldie Antenne (4)
 https://stream.oldie-antenne.de/oldie-antenne/stream/aacp
 #EXTINF:-1 tvg-id="radio-100-5-das-hitradio" tvg-name="100'5 DAS HITRADIO" group-title="regional",100'5 DAS HITRADIO (1)
 https://stream.dashitradio.de/dashitradio/mp3-128/stream.mp3
@@ -1014,6 +1028,10 @@ https://antennenr--di--nacs-ais-lgc--05--cdn.cast.addradio.de/antennenr/live/mp3
 https://stream.lokalradio.nrw/444z5pt
 #EXTINF:-1 tvg-id="radio-antenne-niederrhein" tvg-name="Antenne Niederrhein" group-title="regional",Antenne Niederrhein (3)
 https://antennenr--di--nacs-ais-lgc--0c--cdn.cast.addradio.de/antennenr/live/mp3/high
+#EXTINF:-1 tvg-id="radio-antenne-niederrhein" tvg-name="Antenne Niederrhein" group-title="regional",Antenne Niederrhein (4)
+https://antennenr-live.cast.addradio.de/antennenr/live/mp3/high
+#EXTINF:-1 tvg-id="radio-antenne-niederrhein" tvg-name="Antenne Niederrhein" group-title="regional",Antenne Niederrhein (5)
+https://antennenr-live.cast.addradio.de/antennenr/live/aac/low
 #EXTINF:-1 tvg-id="radio-radio-koeln" tvg-name="Radio Köln" group-title="regional",Radio Köln (1)
 https://stream.lokalradio.nrw/444z7kb
 #EXTINF:-1 tvg-id="radio-radio-koeln" tvg-name="Radio Köln" group-title="regional",Radio Köln (2)
@@ -1026,6 +1044,8 @@ https://stream.lokalradio.nrw/444z7k7
 https://stream.lokalradio.nrw/444zbw3
 #EXTINF:-1 tvg-id="radio-radio-duisburg" tvg-name="Radio Duisburg" group-title="regional",Radio Duisburg (2)
 https://edge24.streamonkey.net/wf-radioduisburg/stream/mp3
+#EXTINF:-1 tvg-id="radio-radio-duisburg" tvg-name="Radio Duisburg" group-title="regional",Radio Duisburg (3)
+https://edge03.streamonkey.net/wf-radioduisburg
 #EXTINF:-1 tvg-id="radio-campusradio-koeln-koelncampus" tvg-name="Campusradio Köln (Kölncampus)" group-title="regional",Campusradio Köln (Kölncampus) (1)
 https://live.koelncampus.com/live
 #EXTINF:-1 tvg-id="radio-campusradio-universitaet-duisburg-essen-campusfm" tvg-name="Campusradio Universität Duisburg-Essen (CampusFM)" group-title="regional",Campusradio Universität Duisburg-Essen (CampusFM) (1)
@@ -1033,12 +1053,8 @@ https://www.campusfm.info/stream?x=y
 #EXTINF:-1 tvg-id="radio-energy" tvg-name="ENERGY" group-title="regional",ENERGY (1)
 https://edge85.streamonkey.net/energy-nuernberg?aggregator=shorty
 #EXTINF:-1 tvg-id="radio-energy" tvg-name="ENERGY" group-title="regional",ENERGY (2)
-https://edge06.streamonkey.net/energy-summerhits/stream/mp3?aggregator=shorty
-#EXTINF:-1 tvg-id="radio-energy" tvg-name="ENERGY" group-title="regional",ENERGY (3)
 https://stream.ffn.de/energybremen/mp3-192/livestream.mp3
-#EXTINF:-1 tvg-id="radio-energy" tvg-name="ENERGY" group-title="regional",ENERGY (4)
-https://nrj.de/germanytop40
-#EXTINF:-1 tvg-id="radio-energy" tvg-name="ENERGY" group-title="regional",ENERGY (5)
+#EXTINF:-1 tvg-id="radio-energy" tvg-name="ENERGY" group-title="regional",ENERGY (3)
 https://edge59.streamonkey.net/energy-berlin/stream/mp3
 #EXTINF:-1 tvg-id="radio-antenne-unna" tvg-name="Antenne Unna" group-title="regional",Antenne Unna (1)
 https://antenneunna--di--nacs-ais-lgc--07--cdn.cast.addradio.de/antenneunna/live/mp3/high
@@ -1052,6 +1068,8 @@ https://radioberg-live.cast.addradio.de/radioberg/live/mp3/high
 https://stream.lokalradio.nrw/444z6tb
 #EXTINF:-1 tvg-id="radio-radio-berg" tvg-name="Radio Berg" group-title="regional",Radio Berg (3)
 https://stream.lokalradio.nrw/444z6t7
+#EXTINF:-1 tvg-id="radio-radio-berg" tvg-name="Radio Berg" group-title="regional",Radio Berg (4)
+https://radioberg-live.cast.addradio.de/radioberg/live/aac/low
 #EXTINF:-1 tvg-id="radio-radio-bonn-rhein-sieg" tvg-name="Radio Bonn/Rhein-Sieg" group-title="regional",Radio Bonn/Rhein-Sieg (1)
 https://rbrs-live.cast.addradio.de/rbrs/live/mp3/high
 #EXTINF:-1 tvg-id="radio-radio-erft" tvg-name="Radio Erft" group-title="regional",Radio Erft (1)
@@ -1068,8 +1086,12 @@ https://radioeuskirchen-live.cast.addradio.de/radioeuskirchen/live/mp3/high
 https://stream.lokalradio.nrw/444z7cy
 #EXTINF:-1 tvg-id="radio-radio-guetersloh" tvg-name="Radio Gütersloh" group-title="regional",Radio Gütersloh (1)
 https://radioguetersloh-live.cast.addradio.de/radioguetersloh/live/mp3/high
+#EXTINF:-1 tvg-id="radio-radio-guetersloh" tvg-name="Radio Gütersloh" group-title="regional",Radio Gütersloh (2)
+https://ams.stream33.radiohost.de/ams-radioguetersloh_mp3-192
 #EXTINF:-1 tvg-id="radio-radio-lippe" tvg-name="Radio Lippe" group-title="regional",Radio Lippe (1)
 https://radiolippe-live.cast.addradio.de/radiolippe/live/mp3/high
+#EXTINF:-1 tvg-id="radio-radio-lippe" tvg-name="Radio Lippe" group-title="regional",Radio Lippe (2)
+https://radiolippe-live.cast.addradio.de/radiolippe/live/aac/low
 #EXTINF:-1 tvg-id="radio-radio-mk" tvg-name="Radio MK" group-title="regional",Radio MK (1)
 https://radiomk--di--nacs-ais-lgc--05--cdn.cast.addradio.de/radiomk/live/mp3/high
 #EXTINF:-1 tvg-id="radio-radio-mk" tvg-name="Radio MK" group-title="regional",Radio MK (2)
@@ -1078,26 +1100,20 @@ https://radiomk.stream51.radiohost.de/radiomk-live_mp3-192
 https://stream.lokalradio.nrw/44542bb
 #EXTINF:-1 tvg-id="radio-radio-neandertal" tvg-name="Radio Neandertal" group-title="regional",Radio Neandertal (1)
 https://neandertal-live.cast.addradio.de/neandertal/live/mp3/high
+#EXTINF:-1 tvg-id="radio-radio-neandertal" tvg-name="Radio Neandertal" group-title="regional",Radio Neandertal (2)
+https://neandertal-live.cast.addradio.de/neandertal/live/aac/low
 #EXTINF:-1 tvg-id="radio-radio-waf" tvg-name="Radio WAF" group-title="regional",Radio WAF (1)
 https://radiowaf--di--nacs-ais-lgc--05--cdn.cast.addradio.de/radiowaf/live/mp3/high
 #EXTINF:-1 tvg-id="radio-radio-waf" tvg-name="Radio WAF" group-title="regional",Radio WAF (2)
 https://radiowaf-live.cast.addradio.de/radiowaf/live/mp3/high
+#EXTINF:-1 tvg-id="radio-radio-waf" tvg-name="Radio WAF" group-title="regional",Radio WAF (3)
+https://radiowaf-live.cast.addradio.de/radiowaf/live/aac/low
 #EXTINF:-1 tvg-id="radio-rpr1" tvg-name="RPR1" group-title="regional",RPR1 (1)
-https://streams.rpr1.de/rpr-hiphop-128-mp3
-#EXTINF:-1 tvg-id="radio-rpr1" tvg-name="RPR1" group-title="regional",RPR1 (2)
-https://streams.rpr1.de/rpr-90ertrash-128-mp3?usid=0-0-H-M-D-60
-#EXTINF:-1 tvg-id="radio-rpr1" tvg-name="RPR1" group-title="regional",RPR1 (3)
-https://streams.rpr1.de/rpr-entspannung-128-mp3
-#EXTINF:-1 tvg-id="radio-rpr1" tvg-name="RPR1" group-title="regional",RPR1 (4)
-https://streams.rpr1.de/rpr-apresski-128-mp3?usid=0-0-H-M-D-50
-#EXTINF:-1 tvg-id="radio-rpr1" tvg-name="RPR1" group-title="regional",RPR1 (5)
 https://streams.rpr1.de/rpr-simulcast-128-mp3
-#EXTINF:-1 tvg-id="radio-rpr1" tvg-name="RPR1" group-title="regional",RPR1 (6)
+#EXTINF:-1 tvg-id="radio-rpr1" tvg-name="RPR1" group-title="regional",RPR1 (2)
 https://stream.rpr1.de/webradio/128-mp3/raddio
-#EXTINF:-1 tvg-id="radio-rpr1" tvg-name="RPR1" group-title="regional",RPR1 (7)
+#EXTINF:-1 tvg-id="radio-rpr1" tvg-name="RPR1" group-title="regional",RPR1 (3)
 https://stream.rpr1.de/webradio/mp3-128/private
-#EXTINF:-1 tvg-id="radio-rpr1" tvg-name="RPR1" group-title="regional",RPR1 (8)
-https://streams.rpr1.de/rpr-koeln-128-mp3
 #EXTINF:-1 tvg-id="radio-rockland-radio" tvg-name="Rockland Radio" group-title="regional",Rockland Radio (1)
 https://streams.rockland.de/dab/mp3-192/streams.rockland.de/
 #EXTINF:-1 tvg-id="radio-rockland-radio" tvg-name="Rockland Radio" group-title="regional",Rockland Radio (2)
@@ -1114,6 +1130,8 @@ https://streams.radiopsr.de/psr-live/mp3-192/mediaplayer
 https://streams.radiopsr.de/psr-live/aac-64/mediaplayer
 #EXTINF:-1 tvg-id="radio-radio-psr" tvg-name="Radio PSR" group-title="regional",Radio PSR (3)
 https://streams.radiopsr.de/psr-live/mp3-192/streams.radiopsr.de/play.m3u
+#EXTINF:-1 tvg-id="radio-radio-psr" tvg-name="Radio PSR" group-title="regional",Radio PSR (4)
+https://streams.radiopsr.de/psr-live/mp3-128
 #EXTINF:-1 tvg-id="radio-radio-dresden" tvg-name="Radio Dresden" group-title="regional",Radio Dresden (1)
 https://hermes.bcs-systems.de/radio-dresden_simulcast_192k_mp3
 #EXTINF:-1 tvg-id="radio-radio-dresden" tvg-name="Radio Dresden" group-title="regional",Radio Dresden (2)
@@ -1133,16 +1151,10 @@ https://streams.bcs-systems.de/slp/live/dresden/mp3/web
 #EXTINF:-1 tvg-id="radio-radio-saw" tvg-name="Radio SAW" group-title="regional",Radio SAW (1)
 https://stream.saw-musikwelt.de/saw-synthie-pop/stream.mp3
 #EXTINF:-1 tvg-id="radio-radio-saw" tvg-name="Radio SAW" group-title="regional",Radio SAW (2)
-https://stream.saw-musikwelt.de/saw-90er/mp3-128/radio-browser/stream.mp3
-#EXTINF:-1 tvg-id="radio-radio-saw" tvg-name="Radio SAW" group-title="regional",Radio SAW (3)
-https://stream.saw-musikwelt.de/saw-80er/mp3-128/radio-browser/stream.mp3
-#EXTINF:-1 tvg-id="radio-radio-saw" tvg-name="Radio SAW" group-title="regional",Radio SAW (4)
-https://stream.saw-musikwelt.de/saw-party/mp3-128/radio-browser/stream.mp3
-#EXTINF:-1 tvg-id="radio-radio-saw" tvg-name="Radio SAW" group-title="regional",Radio SAW (5)
 https://stream.radiosaw.de/saw/mp3-128/radiode/stream.mp3
-#EXTINF:-1 tvg-id="radio-radio-saw" tvg-name="Radio SAW" group-title="regional",Radio SAW (6)
+#EXTINF:-1 tvg-id="radio-radio-saw" tvg-name="Radio SAW" group-title="regional",Radio SAW (3)
 https://stream.radiosaw.de/saw/mp3-192/radio-browser/
-#EXTINF:-1 tvg-id="radio-radio-saw" tvg-name="Radio SAW" group-title="regional",Radio SAW (7)
+#EXTINF:-1 tvg-id="radio-radio-saw" tvg-name="Radio SAW" group-title="regional",Radio SAW (4)
 https://stream.1a-webradio.de/saw/aac-48/radiosure-1a/stream.mp3
 #EXTINF:-1 tvg-id="radio-radio-brocken" tvg-name="Radio Brocken" group-title="regional",Radio Brocken (1)
 https://stream.radiobrocken.de/live-hal-lei/mp3-256/
@@ -1150,15 +1162,15 @@ https://stream.radiobrocken.de/live-hal-lei/mp3-256/
 https://stream.radiobrocken.de/live/mp3-256
 #EXTINF:-1 tvg-id="radio-radio-brocken" tvg-name="Radio Brocken" group-title="regional",Radio Brocken (3)
 https://stream.radiobrocken.de/live/mp3-256/direktlinkHP/play.pls
+#EXTINF:-1 tvg-id="radio-radio-brocken" tvg-name="Radio Brocken" group-title="regional",Radio Brocken (4)
+https://stream.radiobrocken.de/live/mp3-128/radiode
+#EXTINF:-1 tvg-id="radio-radio-brocken" tvg-name="Radio Brocken" group-title="regional",Radio Brocken (5)
+https://fhhalle.streamabc.net/fhhal-rblive-mp3-128-7094006
 #EXTINF:-1 tvg-id="radio-r-sh" tvg-name="R.SH" group-title="regional",R.SH (1)
 https://streams.rsh.de/rsh-live/mp3-192/mediaplayer
 #EXTINF:-1 tvg-id="radio-r-sh" tvg-name="R.SH" group-title="regional",R.SH (2)
-https://streams.rsh.de/90er/mp3-192/homepage/
-#EXTINF:-1 tvg-id="radio-r-sh" tvg-name="R.SH" group-title="regional",R.SH (3)
-https://streams.rsh.de/dance/mp3-192/homepage/
-#EXTINF:-1 tvg-id="radio-r-sh" tvg-name="R.SH" group-title="regional",R.SH (4)
 https://streams.rsh.de/rsh-live/aac-64/streams.rsh.de/
-#EXTINF:-1 tvg-id="radio-r-sh" tvg-name="R.SH" group-title="regional",R.SH (5)
+#EXTINF:-1 tvg-id="radio-r-sh" tvg-name="R.SH" group-title="regional",R.SH (3)
 https://streams.rsh.de/rsh-live/mp3-128/streams.rsh.de/
 #EXTINF:-1 tvg-id="radio-delta-radio" tvg-name="delta radio" group-title="regional",delta radio (1)
 https://streams.deltaradio.de/delta-indie/mp3-192/mediaplayer
@@ -1178,6 +1190,10 @@ https://dom.audiostream.io/domradio/1000/mp3/128/domradio-rp.mp3
 https://dom.audiostream.io/domradio/1000/mp3/128/domradio.mp3
 #EXTINF:-1 tvg-id="radio-domradio-de" tvg-name="domradio.de" group-title="religious",domradio.de (3)
 https://dispatcher.rndfnk.com/domradio/1000/mp3/128/stream.mp3
+#EXTINF:-1 tvg-id="radio-domradio-de" tvg-name="domradio.de" group-title="religious",domradio.de (4)
+https://dom.audiostream.io/domradio/1000/mp3/128/domradio
+#EXTINF:-1 tvg-id="radio-domradio-de" tvg-name="domradio.de" group-title="religious",domradio.de (5)
+https://dispatcher.rndfnk.com/domradio/1000/mp3/64/stream.mp3?aggregator=radio-de
 #EXTINF:-1 tvg-id="radio-erf-jess" tvg-name="ERF Jess" group-title="religious",ERF Jess (1)
 https://stream.erf.de/erfjess.mp3
 #EXTINF:-1 tvg-id="radio-erf-jess" tvg-name="ERF Jess" group-title="religious",ERF Jess (2)
@@ -1201,29 +1217,35 @@ https://stream.erf.de/erfplus.m3u
 #EXTINF:-1 tvg-id="radio-klassik-radio" tvg-name="Klassik Radio" group-title="music",Klassik Radio (1)
 https://live.streams.klassikradio.de/klassikradio-deutschland/stream/mp3
 #EXTINF:-1 tvg-id="radio-klassik-radio" tvg-name="Klassik Radio" group-title="music",Klassik Radio (2)
-https://stream.klassikradio.de/mozart/mp3-128/vtuner/
-#EXTINF:-1 tvg-id="radio-klassik-radio" tvg-name="Klassik Radio" group-title="music",Klassik Radio (3)
-https://stream.klassikradio.de/lounge/mp3-128/www.klassikradio.de/
-#EXTINF:-1 tvg-id="radio-klassik-radio" tvg-name="Klassik Radio" group-title="music",Klassik Radio (4)
-https://stream.klassikradio.de/opera/mp3-128/www.klassikradio.de/
-#EXTINF:-1 tvg-id="radio-klassik-radio" tvg-name="Klassik Radio" group-title="music",Klassik Radio (5)
 https://stream.klassikradio.de/live/mp3-128/Miquido
-#EXTINF:-1 tvg-id="radio-klassik-radio" tvg-name="Klassik Radio" group-title="music",Klassik Radio (6)
+#EXTINF:-1 tvg-id="radio-klassik-radio" tvg-name="Klassik Radio" group-title="music",Klassik Radio (3)
 https://stream.klassikradio.de/klassikradio/aac-64/stream.klassikradio.de
-#EXTINF:-1 tvg-id="radio-klassik-radio" tvg-name="Klassik Radio" group-title="music",Klassik Radio (7)
+#EXTINF:-1 tvg-id="radio-klassik-radio" tvg-name="Klassik Radio" group-title="music",Klassik Radio (4)
 https://klassikr.streamabc.net/klr-krdnational-aac-128-3888428?sABC
+#EXTINF:-1 tvg-id="radio-klassik-radio" tvg-name="Klassik Radio" group-title="music",Klassik Radio (5)
+https://stream.klassikradio.de/live/mp3-192
 #EXTINF:-1 tvg-id="radio-klassik-radio-movie" tvg-name="Klassik Radio Movie" group-title="music",Klassik Radio Movie (1)
 https://live.streams.klassikradio.de/klassikradio-movie
+#EXTINF:-1 tvg-id="radio-klassik-radio-movie" tvg-name="Klassik Radio Movie" group-title="music",Klassik Radio Movie (2)
+https://klassikr.streamabc.net/klr-movienational-aac-128-2085172
 #EXTINF:-1 tvg-id="radio-0nlineradio-70s" tvg-name="0nlineradio 70s" group-title="music",0nlineradio 70s (1)
 https://stream.0nlineradio.com/70s?ref=radiobrowser
+#EXTINF:-1 tvg-id="radio-0nlineradio-70s" tvg-name="0nlineradio 70s" group-title="music",0nlineradio 70s (2)
+https://0nlineradio.radioho.st/0r-70s
+#EXTINF:-1 tvg-id="radio-0nlineradio-70s" tvg-name="0nlineradio 70s" group-title="music",0nlineradio 70s (3)
+https://stream1-0nlineradio.radiohost.de/70s
 #EXTINF:-1 tvg-id="radio-90s90s-eurodance" tvg-name="90s90s Eurodance" group-title="music",90s90s Eurodance (1)
 https://streams.90s90s.de/eurodance/mp3-192/streams.90s90s.de/
 #EXTINF:-1 tvg-id="radio-90s90s-eurodance" tvg-name="90s90s Eurodance" group-title="music",90s90s Eurodance (2)
 https://streams.90s90s.de/eurodance/mp3-192/streams.90s90s.de/play.m3u
+#EXTINF:-1 tvg-id="radio-90s90s-eurodance" tvg-name="90s90s Eurodance" group-title="music",90s90s Eurodance (3)
+https://streams.90s90s.de/eurodance/mp3-192/streams.90s90s.de/radiode/
 #EXTINF:-1 tvg-id="radio-absolut-radio" tvg-name="Absolut Radio" group-title="music",Absolut Radio (1)
 https://absolut-top.live-sm.absolutradio.de/absolut-top/stream/mp3
 #EXTINF:-1 tvg-id="radio-absolut-radio" tvg-name="Absolut Radio" group-title="music",Absolut Radio (2)
 https://absolut-germany.live-sm.absolutradio.de/absolut-germany/stream/mp3?aggregator
+#EXTINF:-1 tvg-id="radio-absolut-radio" tvg-name="Absolut Radio" group-title="music",Absolut Radio (3)
+https://absolut-germany.live-sm.absolutradio.de/absolut-germany
 #EXTINF:-1 tvg-id="radio-absolut-relax" tvg-name="Absolut relax" group-title="music",Absolut relax (1)
 https://absolut-relax.live-sm.absolutradio.de/absolut-relax?__cb=130270101023249
 #EXTINF:-1 tvg-id="radio-absolut-relax" tvg-name="Absolut relax" group-title="music",Absolut relax (2)
@@ -1246,6 +1268,10 @@ https://audiostreams.deluxemusic.tv/easy/mp3-192
 https://audiostreams.deluxemusic.tv/easy/mp3-128/audiostreams.deluxemusic.tv/
 #EXTINF:-1 tvg-id="radio-deluxe-easy" tvg-name="DELUXE EASY" group-title="music",DELUXE EASY (3)
 https://audiostreams.deluxemusic.tv/easy/mp3-192/tunein/
+#EXTINF:-1 tvg-id="radio-deluxe-easy" tvg-name="DELUXE EASY" group-title="music",DELUXE EASY (4)
+https://audiostreams.deluxemusic.tv/easy/aac-64
+#EXTINF:-1 tvg-id="radio-deluxe-easy" tvg-name="DELUXE EASY" group-title="music",DELUXE EASY (5)
+https://audiostreams.deluxemusic.tv/easy/mp3-128/website
 #EXTINF:-1 tvg-id="radio-deluxe-lounge-radio" tvg-name="DELUXE LOUNGE RADIO" group-title="music",DELUXE LOUNGE RADIO (1)
 https://audiostreams.deluxemusic.tv/lounge/mp3-192
 #EXTINF:-1 tvg-id="radio-deluxe-lounge-radio" tvg-name="DELUXE LOUNGE RADIO" group-title="music",DELUXE LOUNGE RADIO (2)
@@ -1260,12 +1286,18 @@ https://audiostreams.deluxemusic.tv/music/mp3-192
 https://audiostreams.deluxemusic.tv/music/mp3-192/tunein/
 #EXTINF:-1 tvg-id="radio-deluxe-music-radio" tvg-name="DELUXE MUSIC RADIO" group-title="music",DELUXE MUSIC RADIO (3)
 https://regiocast.streamabc.net/regc-deluxemusic1636722-aacplus-64-8368771
+#EXTINF:-1 tvg-id="radio-deluxe-music-radio" tvg-name="DELUXE MUSIC RADIO" group-title="music",DELUXE MUSIC RADIO (4)
+https://audiostreams.deluxemusic.tv/music/aac-64
 #EXTINF:-1 tvg-id="radio-jam-fm-black-label" tvg-name="JAM FM Black Label" group-title="music",JAM FM Black Label (1)
 https://stream.jam.fm/jamfm-bl/mp3-128
 #EXTINF:-1 tvg-id="radio-jam-fm-black-label" tvg-name="JAM FM Black Label" group-title="music",JAM FM Black Label (2)
 https://stream.jam.fm/jamfm-bl/mp3-128/konsole/
 #EXTINF:-1 tvg-id="radio-jam-fm-black-label" tvg-name="JAM FM Black Label" group-title="music",JAM FM Black Label (3)
 https://stream.jam.fm/jamfm-bl/mp3-128/radio-browser.info/
+#EXTINF:-1 tvg-id="radio-jam-fm-black-label" tvg-name="JAM FM Black Label" group-title="music",JAM FM Black Label (4)
+https://stream.jam.fm/jamfm-bl/mp3-192/radioDE/
+#EXTINF:-1 tvg-id="radio-jam-fm-black-label" tvg-name="JAM FM Black Label" group-title="music",JAM FM Black Label (5)
+https://stream.jam.fm/jamfm-bl/aac-64
 #EXTINF:-1 tvg-id="radio-radio-b2" tvg-name="radio B2" group-title="music",radio B2 (1)
 https://stream.schlagerradio.de/b2-schlagerradio-national/mp3-192/
 #EXTINF:-1 tvg-id="radio-radio-b2" tvg-name="radio B2" group-title="music",radio B2 (2)
@@ -1275,22 +1307,14 @@ https://stream.silvacast.com/RPLive/mp3-128/RadioPaloma_Homepage
 #EXTINF:-1 tvg-id="radio-radio-paloma" tvg-name="Radio Paloma" group-title="music",Radio Paloma (2)
 https://icepool.silvacast.com/RADIOPALOMA.mp3
 #EXTINF:-1 tvg-id="radio-radio-paloma" tvg-name="Radio Paloma" group-title="music",Radio Paloma (3)
-https://pool.radiopaloma.de/RP-Kultschlager.mp3
-#EXTINF:-1 tvg-id="radio-radio-paloma" tvg-name="Radio Paloma" group-title="music",Radio Paloma (4)
-https://pool.radiopaloma.de/RP-Partyschlager.mp3
-#EXTINF:-1 tvg-id="radio-radio-paloma" tvg-name="Radio Paloma" group-title="music",Radio Paloma (5)
 https://pool.radiopaloma.de/RADIOPALOMA.mp3
 #EXTINF:-1 tvg-id="radio-radio-teddy" tvg-name="Radio Teddy" group-title="music",Radio Teddy (1)
 https://streamtdy.ir-media-tec.com/live/mp3-128/web/play.mp3
 #EXTINF:-1 tvg-id="radio-radio-teddy" tvg-name="Radio Teddy" group-title="music",Radio Teddy (2)
 https://streamtdy.ir-media-tec.com/disco/mp3-128/web/play.mp3
 #EXTINF:-1 tvg-id="radio-radio-teddy" tvg-name="Radio Teddy" group-title="music",Radio Teddy (3)
-https://streamtdy.ir-media-tec.com/kinderlieder/mp3-128/web/play.mp3
-#EXTINF:-1 tvg-id="radio-radio-teddy" tvg-name="Radio Teddy" group-title="music",Radio Teddy (4)
-https://streamtdy.ir-media-tec.com/weihnachtslieder/mp3-128/web/play.mp3
-#EXTINF:-1 tvg-id="radio-radio-teddy" tvg-name="Radio Teddy" group-title="music",Radio Teddy (5)
 https://streamtdy.ir-media-tec.com/live/mp3-128/radioplayer_web/play.mp3
-#EXTINF:-1 tvg-id="radio-radio-teddy" tvg-name="Radio Teddy" group-title="music",Radio Teddy (6)
+#EXTINF:-1 tvg-id="radio-radio-teddy" tvg-name="Radio Teddy" group-title="music",Radio Teddy (4)
 https://irmedia.streamabc.net/irm-rtlive-mp3-128-6306268
 #EXTINF:-1 tvg-id="radio-schlager-radio" tvg-name="Schlager Radio" group-title="music",Schlager Radio (1)
 https://addrad.io/4454rnz
@@ -1310,9 +1334,9 @@ https://webstream.schlagerparadies.de/schlagerparadies128k.mp3
 https://aacplus.schlagerparadies.de/schlagerparadies.aac
 #EXTINF:-1 tvg-id="radio-star-sat-radio" tvg-name="Star*Sat Radio" group-title="music",Star*Sat Radio (1)
 https://starsat-live.cast.addradio.de/starsat/live/mp3/high/stream.mp3
+#EXTINF:-1 tvg-id="radio-star-sat-radio" tvg-name="Star*Sat Radio" group-title="music",Star*Sat Radio (2)
+https://starsat--di--nacs-ais-lgc--02--cdn.cast.addradio.de/starsat/live/mp3/high/stream.mp3
 #EXTINF:-1 tvg-id="radio-toggo-radio" tvg-name="Toggo Radio" group-title="music",Toggo Radio (1)
 https://radio.toggo.de/live/mp3-192
 #EXTINF:-1 tvg-id="radio-toggo-radio" tvg-name="Toggo Radio" group-title="music",Toggo Radio (2)
-https://radio.toggo.de/party/mp3-192
-#EXTINF:-1 tvg-id="radio-toggo-radio" tvg-name="Toggo Radio" group-title="music",Toggo Radio (3)
 https://radio.toggo.de/deutsch/mp3-192

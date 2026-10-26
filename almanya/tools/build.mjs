@@ -22,6 +22,7 @@
  *        24 Ekim temizliği: ölü TV, shopping sonda, bölgesel radyo birleşimi, DASDING
  *        almanya/sources/onay-2026-10-24.csv (24 Ekim onayı; tema ve etkinlik kanalları hariç)
  *        almanya/sources/onay-2026-10-25.csv (25 Ekim yedekleri, 404 int, ServusTV)
+ *        almanya/sources/onay-2026-10-26.csv (26 Ekim yedekleri, tema yedek temizliği)
  * Ölü (failed) ve denenmemiş (untested) linkler yayınlanmaz.
  * geo-blocked (403) ve "sadece Almanya" linkler kalır; geo_de_only ile işaretlenir.
  * Katalogda olan URL yeniden eklenmez. Yeni link uydurulmaz.
@@ -39,6 +40,7 @@ import { applyOctober23 } from "./apply-2026-10-23.mjs";
 import { applyOctober24 } from "./apply-2026-10-24-cleanup.mjs";
 import { applyOctober24Batch } from "./apply-2026-10-24.mjs";
 import { applyOctober25 } from "./apply-2026-10-25.mjs";
+import { applyOctober26 } from "./apply-2026-10-26.mjs";
 
 const DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SOURCES = path.join(DIR, "sources");
@@ -821,6 +823,7 @@ function loadCatalog() {
   const onay24 = applyOctober24(channels);
   const onay24b = applyOctober24Batch(channels);
   const onay25 = applyOctober25(channels);
+  const onay26 = applyOctober26(channels);
   const grouped = orderCatalog(channels);
   const previous = readJsonIfExists(path.join(DIR, "channels.json"));
   assignIds(grouped, previous?.channels);
@@ -847,6 +850,7 @@ function loadCatalog() {
     onay24,
     onay24b,
     onay25,
+    onay26,
   };
 }
 
@@ -1025,6 +1029,16 @@ function main() {
   );
   if (onay25.addedChannelNames?.length) {
     console.log(`[almanya] eklenen kanallar: ${onay25.addedChannelNames.join(", ")}`);
+  }
+  const onay26 = catalog.onay26 || {};
+  console.log(
+    `[almanya] onay-2026-10-26: +${onay26.addedChannels || 0} kanal, ` +
+      `+${onay26.addedLinks || 0} link, -${onay26.removedLinks || 0} link, ` +
+      `-${onay26.removedChannels || 0} kanal, Tagesschau durdu ${onay26.skippedFlaky || 0}, ` +
+      `UNSERDING atlandı ${onay26.skippedNot || 0}`,
+  );
+  if (onay26.removedChannelNames?.length) {
+    console.log(`[almanya] ana yayını kalmayanlar: ${onay26.removedChannelNames.join(", ")}`);
   }
   console.log(`[almanya] sha256=${hash}`);
   if (catalog.dropped.length) {

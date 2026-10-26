@@ -25,6 +25,10 @@ https://derste247liveint.akamaized.net/hls/live/662735/daserste_int/master720p32
 #EXTINF:-1 tvg-id="tv-das-erste" tvg-name="Das Erste" group-title="public",Das Erste (12)
 https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master540p1800.m3u8
 #EXTINF:-1 tvg-id="tv-das-erste" tvg-name="Das Erste" group-title="public",Das Erste (13)
+https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master540p1600.m3u8
+#EXTINF:-1 tvg-id="tv-das-erste" tvg-name="Das Erste" group-title="public",Das Erste (14)
+https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master270p700.m3u8
+#EXTINF:-1 tvg-id="tv-das-erste" tvg-name="Das Erste" group-title="public",Das Erste (15)
 https://daserste-live.ard-mcdn.de/daserste/replay/dash/de/manifest.mpd
 #EXTINF:-1 tvg-id="tv-zdf" tvg-name="ZDF" group-title="public",ZDF (1)
 https://zdf-hls-15.akamaized.net/hls/live/2016498/de/veryhigh/master.m3u8
@@ -610,8 +614,6 @@ https://bild-und-ton.stream/snj-de/snj-de.smil/chunklist_w1024417188_b365000_sld
 https://bild-und-ton.stream/sophiatv-en/smil:sophia-tv-en.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-deluxe-music" tvg-name="Deluxe Music" group-title="music",Deluxe Music (1)
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8
-#EXTINF:-1 tvg-id="tv-deluxe-music" tvg-name="Deluxe Music" group-title="music",Deluxe Music (2)
-https://audiostreams.deluxemusic.tv/music/mp3-192/website
 #EXTINF:-1 tvg-id="tv-deluxe-rap" tvg-name="Deluxe Rap" group-title="music",Deluxe Rap (1)
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8
 #EXTINF:-1 tvg-id="tv-deluxe-rap" tvg-name="Deluxe Rap" group-title="music",Deluxe Rap (2)

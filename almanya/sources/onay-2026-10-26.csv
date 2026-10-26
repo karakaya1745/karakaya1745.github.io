@@ -1,0 +1,126 @@
+tür,kanal,link,durum/test sonucu,kaynak
+olu_link,Tagesschau 24,https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/int/master1080p5000.m3u8,"şüpheli: segtest 2x 404, elle curl 2x 403 (404/403 dalgalanıyor) – 404 olarak 1. gün; 10-25 403 idi",katalog testi
+kural_ihlali,Antenne 1,https://stream.antenne1.de/sommerhits/livestream2.mp3?usid=H-M-09-0-0,tema/webradio alt akışı yedek olarak kayıtlı (sommerhits) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,bigFM,https://stream.bigfm.de/tomorrowland/mp3-128/radiobrowser,tema/webradio alt akışı yedek olarak kayıtlı (tomorrowland) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,bigFM,https://streams.bigfm.de/bigfm-deutschrap-128-aac,tema/webradio alt akışı yedek olarak kayıtlı (deutschrap) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,bigFM,https://streams.bigfm.de/nitrox-128-mp3,tema/webradio alt akışı yedek olarak kayıtlı (nitrox) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,bigFM,https://streams.bigfm.de/bigfm-sunsetlounge-128-mp3?usid=0-0-H-M-D-12,tema/webradio alt akışı yedek olarak kayıtlı (sunset) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Radio Regenbogen,https://streams.regenbogen.de/rr-kinderlieder-128-mp3,tema/webradio alt akışı yedek olarak kayıtlı (kinder) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Sunshine Live,https://stream.sunshine-live.de/90er/mp3-192/stream.sunshine-live.de,tema/webradio alt akışı yedek olarak kayıtlı (90er) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Sunshine Live,https://stream.sunshine-live.de/techno/mp3-192/stream.sunshine-live.de/,tema/webradio alt akışı yedek olarak kayıtlı (techno) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Sunshine Live,https://stream.sunshine-live.de/classics/mp3-192/stream.sunshine-live.de/,tema/webradio alt akışı yedek olarak kayıtlı (classic) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Antenne Bayern,https://mp3channels.webradio.antenne.de/chillout,tema/webradio alt akışı yedek olarak kayıtlı (chill) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Antenne Bayern,https://mp3channels.webradio.antenne.de/classic-rock-live,tema/webradio alt akışı yedek olarak kayıtlı (classic) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Antenne Bayern,https://mp3channels.webradio.antenne.de/top-40,tema/webradio alt akışı yedek olarak kayıtlı (top40) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Rock Antenne,https://mp3channels.webradio.rockantenne.de/classic-perlen,tema/webradio alt akışı yedek olarak kayıtlı (classic) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,104.6 RTL,https://stream.104.6rtl.com/rtl-60er70er/mp3-128/radio-browser.info/,tema/webradio alt akışı yedek olarak kayıtlı (60er) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,104.6 RTL,https://stream.104.6rtl.com/rtl-80er/mp3-128/radio-browser.info/,tema/webradio alt akışı yedek olarak kayıtlı (80er) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,104.6 RTL,https://stream.104.6rtl.com/rtl-black/mp3-128/radio-browser.info/,tema/webradio alt akışı yedek olarak kayıtlı (black) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,KISS FM,https://stream.kissfm.de/kissfm-electro/mp3-128/internetradio/,tema/webradio alt akışı yedek olarak kayıtlı (electro) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,KISS FM,https://topradio-de-hz-fal-stream03-cluster01.radiohost.de/kissfm-hiphop_aac-64?,tema/webradio alt akışı yedek olarak kayıtlı (hiphop) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Hit Radio FFH,https://mp3.ffh.de/ffhchannels/hq80er.mp3,tema/webradio alt akışı yedek olarak kayıtlı (80er) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Hit Radio FFH,https://mp3.ffh.de/ffhchannels/hqeurodance.mp3?aw_0_req.gdpr=true,tema/webradio alt akışı yedek olarak kayıtlı (eurodance) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Hit Radio FFH,https://mp3.ffh.de/ffhchannels/hqtop40.mp3,tema/webradio alt akışı yedek olarak kayıtlı (top40) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Radio Bob,https://streams.radiobob.de/bob-classicrock/mp3-192/streams.radiobob.de/,tema/webradio alt akışı yedek olarak kayıtlı (classic) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Radio Bob,https://streams.radiobob.de/bob-bestofrock/mp3-192/streams.radiobob.de/,tema/webradio alt akışı yedek olarak kayıtlı (rock) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Antenne MV,https://streams.antennemv.de/oldies/mp3-128/streams.antennemv.de/,tema/webradio alt akışı yedek olarak kayıtlı (oldies) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Antenne MV,https://streams.antennemv.de/oldies/mp3-192,tema/webradio alt akışı yedek olarak kayıtlı (oldies) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Antenne Niedersachsen,https://stream.antenne.com/oldies/mp3-192/linux/,tema/webradio alt akışı yedek olarak kayıtlı (oldies) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Antenne Niedersachsen,https://stream.antenne.com/antenne-nds-80er/mp3-192/linux/,tema/webradio alt akışı yedek olarak kayıtlı (80er) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Antenne Niedersachsen,https://stream.antenne.com/deutsch/mp3-192/linux/,tema/webradio alt akışı yedek olarak kayıtlı (deutsch) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Hitradio Ohr,https://edge70.streamonkey.net/fho-hitradioohr90er/stream/aacp?aggregator=smk-m3u-aac,tema/webradio alt akışı yedek olarak kayıtlı (90er) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Oldie Antenne,https://s7-webradio.oldie-antenne.de/oldie-antenne-80er-hits/stream/mp3?aw_0_1st.playerid=OldieAntenneWebPlayer&companionAds=false&companion_zone_alias=41%2C42%2C40%2C731%2C752%2C756%2C768,tema/webradio alt akışı yedek olarak kayıtlı (80er) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Oldie Antenne,https://stream.oldie-antenne.de/oldie-antenne-60er-hits/stream/mp3,tema/webradio alt akışı yedek olarak kayıtlı (60er) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,ENERGY,https://edge06.streamonkey.net/energy-summerhits/stream/mp3?aggregator=shorty,tema/webradio alt akışı yedek olarak kayıtlı (summer) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,ENERGY,https://nrj.de/germanytop40,tema/webradio alt akışı yedek olarak kayıtlı (top40) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,RPR1,https://streams.rpr1.de/rpr-hiphop-128-mp3,tema/webradio alt akışı yedek olarak kayıtlı (hiphop) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,RPR1,https://streams.rpr1.de/rpr-90ertrash-128-mp3?usid=0-0-H-M-D-60,tema/webradio alt akışı yedek olarak kayıtlı (90er) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,RPR1,https://streams.rpr1.de/rpr-entspannung-128-mp3,tema/webradio alt akışı yedek olarak kayıtlı (entspannung) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,RPR1,https://streams.rpr1.de/rpr-apresski-128-mp3?usid=0-0-H-M-D-50,tema/webradio alt akışı yedek olarak kayıtlı (apresski) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Radio SAW,https://stream.saw-musikwelt.de/saw-90er/mp3-128/radio-browser/stream.mp3,tema/webradio alt akışı yedek olarak kayıtlı (90er) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Radio SAW,https://stream.saw-musikwelt.de/saw-80er/mp3-128/radio-browser/stream.mp3,tema/webradio alt akışı yedek olarak kayıtlı (80er) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Radio SAW,https://stream.saw-musikwelt.de/saw-party/mp3-128/radio-browser/stream.mp3,tema/webradio alt akışı yedek olarak kayıtlı (party) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,R.SH,https://streams.rsh.de/90er/mp3-192/homepage/,tema/webradio alt akışı yedek olarak kayıtlı (90er) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,R.SH,https://streams.rsh.de/dance/mp3-192/homepage/,tema/webradio alt akışı yedek olarak kayıtlı (dance) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Klassik Radio,https://stream.klassikradio.de/mozart/mp3-128/vtuner/,tema/webradio alt akışı yedek olarak kayıtlı (mozart) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Klassik Radio,https://stream.klassikradio.de/lounge/mp3-128/www.klassikradio.de/,tema/webradio alt akışı yedek olarak kayıtlı (lounge) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Klassik Radio,https://stream.klassikradio.de/opera/mp3-128/www.klassikradio.de/,tema/webradio alt akışı yedek olarak kayıtlı (opera) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Radio Paloma,https://pool.radiopaloma.de/RP-Kultschlager.mp3,tema/webradio alt akışı yedek olarak kayıtlı (schlager) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Radio Paloma,https://pool.radiopaloma.de/RP-Partyschlager.mp3,tema/webradio alt akışı yedek olarak kayıtlı (party) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Radio Teddy,https://streamtdy.ir-media-tec.com/kinderlieder/mp3-128/web/play.mp3,tema/webradio alt akışı yedek olarak kayıtlı (kinder) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Radio Teddy,https://streamtdy.ir-media-tec.com/weihnachtslieder/mp3-128/web/play.mp3,tema/webradio alt akışı yedek olarak kayıtlı (weihnacht) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Toggo Radio,https://radio.toggo.de/party/mp3-192,tema/webradio alt akışı yedek olarak kayıtlı (party) – yalın katalog kuralı; ana kanal yerine farklı içerik çalar,katalog incelemesi
+kural_ihlali,Deluxe Music,https://audiostreams.deluxemusic.tv/music/mp3-192/website,TV kanalına yalnız-ses yedeği (görüntü yok),katalog incelemesi
+kural_ihlali,Antenne 1,https://stream.antenne1.de/a1nbg/livestream1.aac,bölgesel varyant yedek olarak kayıtlı,katalog incelemesi
+kural_ihlali,Antenne 1,https://stream.antenne1.de/a1stg/livestream2.mp3,bölgesel varyant yedek olarak kayıtlı,katalog incelemesi
+kural_ihlali,Antenne 1,https://stream.antenne1.de/a1gp/livestream1.aac,bölgesel varyant yedek olarak kayıtlı,katalog incelemesi
+kural_ihlali,RPR1,https://streams.rpr1.de/rpr-koeln-128-mp3,bölgesel varyant yedek olarak kayıtlı,katalog incelemesi
+yeni_link,SWR 1 Baden-Württemberg,https://swr-radio.ard-mcdn.de/swr/radio/swr1bw/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD mcdn desen yoklaması (resmî CDN)
+yeni_link,SWR 1 Baden-Württemberg,https://swr-radio.ard-mcdn.de/swr/radio/swr1bw/hls/192/seglist.m3u8,"çalışıyor (200, canlı segment)",ARD mcdn desen yoklaması (resmî CDN)
+yeni_link,SWR 1 Rheinland-Pfalz,https://swr-radio.ard-mcdn.de/swr/radio/swr1rp/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD mcdn desen yoklaması (resmî CDN)
+yeni_link,SWR 1 Rheinland-Pfalz,https://swr-radio.ard-mcdn.de/swr/radio/swr1rp/hls/192/seglist.m3u8,"çalışıyor (200, canlı segment)",ARD mcdn desen yoklaması (resmî CDN)
+yeni_link,SWR4,https://swr-radio.ard-mcdn.de/swr/radio/swr4bw/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD mcdn desen yoklaması (resmî CDN)
+yeni_link,SWR4,https://swr-radio.ard-mcdn.de/swr/radio/swr4bw/hls/192/seglist.m3u8,"çalışıyor (200, canlı segment)",ARD mcdn desen yoklaması (resmî CDN)
+yeni_link,SWR 3,https://swr-radio.ard-mcdn.de/swr/radio/swr3/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD mcdn desen yoklaması (resmî CDN) + GitHub titwr/ARD-Radio
+yeni_link,SWR 3,https://swr-radio.ard-mcdn.de/swr/radio/swr3/hls/192/seglist.m3u8,"çalışıyor (200, canlı segment)",ARD mcdn desen yoklaması (resmî CDN)
+yeni_link,SWR Kultur,https://swr-radio.ard-mcdn.de/swr/radio/swrkultur/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD mcdn desen yoklaması (resmî CDN) + GitHub titwr/ARD-Radio
+yeni_link,SWR Kultur,https://swr-radio.ard-mcdn.de/swr/radio/swrkultur/hls/192/seglist.m3u8,"çalışıyor (200, canlı segment)",ARD mcdn desen yoklaması (resmî CDN)
+yeni_link,SWR Aktuell,https://swr-radio.ard-mcdn.de/swr/radio/swraktuell/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD mcdn desen yoklaması (resmî CDN) + GitHub titwr/ARD-Radio
+yeni_link,SWR Aktuell,https://swr-radio.ard-mcdn.de/swr/radio/swraktuell/hls/192/seglist.m3u8,"çalışıyor (200, canlı segment)",ARD mcdn desen yoklaması (resmî CDN)
+yeni_link,DASDING,https://swr-radio.ard-mcdn.de/swr/radio/dasding/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD mcdn desen yoklaması (resmî CDN) + GitHub titwr/ARD-Radio
+yeni_link,YOU FM (mp3/high),https://hr-radio.ard-mcdn.de/hr/radio/youfm/hls/master.m3u8,"çalışıyor (200, canlı segment)",ARD mcdn desen yoklaması (resmî CDN)
+yeni_link,YOU FM (mp3/high),https://hr-radio.ard-mcdn.de/hr/radio/youfm/hls/192/seglist.m3u8,"çalışıyor (200, canlı segment)",ARD mcdn desen yoklaması (resmî CDN)
+yeni_link,Das Erste,https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master540p1600.m3u8,"çalışıyor (200, canlı segment)",GitHub kod araması: DoomMortal/IPTV
+yeni_link,Das Erste,https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master270p700.m3u8,"çalışıyor (200, canlı segment)",GitHub kod araması: DoomMortal/IPTV
+yeni_link,DELUXE EASY,https://audiostreams.deluxemusic.tv/easy/aac-64,"çalışıyor (200, ses akışı)",GitHub kod araması: DoomMortal/IPTV
+yeni_link,DELUXE EASY,https://audiostreams.deluxemusic.tv/easy/mp3-128/website,"çalışıyor (200, ses akışı)",radio.net API (YENİ kaynak sınıfı)
+yeni_link,DELUXE MUSIC RADIO,https://audiostreams.deluxemusic.tv/music/aac-64,"çalışıyor (200, ses akışı)",GitHub kod araması: DoomMortal/IPTV
+yeni_link,harmony.fm,https://mp3.harmonyfm.de/harmonyfm/hqlivestream.aac,"çalışıyor (200, ses akışı)",GitHub kod araması: DoomMortal/IPTV
+yeni_link,harmony.fm,https://streams.harmonyfm.de/harmonyfm/mp3/hqlivestream.mp3,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,Klassik Radio,https://stream.klassikradio.de/live/mp3-192,"çalışıyor (200, ses akışı)",GitHub kod araması: DoomMortal/IPTV
+yeni_link,Klassik Radio Movie,https://klassikr.streamabc.net/klr-movienational-aac-128-2085172,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,Antenne Brandenburg,https://antbrb.akamaized.net/hls/live/2016998/rbb_antbrb/96/seglist.m3u8,"çalışıyor (200, canlı segment)",fmstream.org
+yeni_link,Antenne Brandenburg,https://dispatcher.rndfnk.com/rbb/antennebrandenburg/live/mp3/low,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,RBB 88.8,https://rbb888.akamaized.net/hls/live/2017003/rbb_rbb888/96/seglist.m3u8,"çalışıyor (200, canlı segment)",fmstream.org
+yeni_link,RBB 88.8,https://dispatcher.rndfnk.com/rbb/rbb888/live/mp3/low,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,RBB Radio Eins,https://radioeins.akamaized.net/hls/live/2016930/rbb_radioeins/96/seglist.m3u8,"çalışıyor (200, canlı segment)",fmstream.org
+yeni_link,RBB Radio Eins,https://dispatcher.rndfnk.com/rbb/radioeins/live/mp3/low,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,RBB Fritz,https://fritz.akamaized.net/hls/live/2016997/rbb_fritz/96/seglist.m3u8,"çalışıyor (200, canlı segment)",fmstream.org
+yeni_link,RBB Fritz,https://dispatcher.rndfnk.com/rbb/fritz/live/mp3/low,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,Bremen Next,https://rbhlsaudio.akamaized.net/hls/live/2110513/bremennext/master.m3u8,"çalışıyor (200, canlı segment)",fmstream.org
+yeni_link,Bremen Next,https://rbhlsaudio.akamaized.net/hls/live/2110513/bremennext/192/seglist.m3u8,"çalışıyor (200, canlı segment)",fmstream.org
+yeni_link,SR Kultur,https://sr2hlsaudio.akamaized.net/hls/live/2116034/sr2/master.m3u8,"çalışıyor (200, canlı segment)",fmstream.org
+yeni_link,SR Kultur,https://sr2hlsaudio.akamaized.net/hls/live/2116034/sr2/192/seglist.m3u8,"çalışıyor (200, canlı segment)",fmstream.org
+yeni_link,SR Kultur,https://sr.audiostream.io/sr/1010/mp3/128/sr2,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,domradio.de,https://dom.audiostream.io/domradio/1000/mp3/128/domradio,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,domradio.de,https://dispatcher.rndfnk.com/domradio/1000/mp3/64/stream.mp3?aggregator=radio-de,"çalışıyor (200, ses akışı)",radio.net API (YENİ kaynak sınıfı)
+yeni_link,Berliner Rundfunk 91.4,https://stream.berliner-rundfunk.de/brf/mp3-128/radiode/,"çalışıyor (200, ses akışı)",radio.net API (YENİ kaynak sınıfı)
+yeni_link,Berliner Rundfunk 91.4,https://stream.berliner-rundfunk.de/brf,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,baden.fm,https://frontend.streams.baden.fm/badenfm-onair,"çalışıyor (200, ses akışı)",radio.net API (YENİ kaynak sınıfı) + fmstream.org
+yeni_link,ffn 80er,https://stream.ffn.de/ffn-80er/mp3-192,"çalışıyor (200, ses akışı)",radio.net API (YENİ kaynak sınıfı)
+yeni_link,Radio 38,https://stream.radio38.de/radio38-live/mp3-192,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,Radio 38,https://radio38-stream26.radiohost.de/radio38-live_mp3-192,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,Radio Duisburg,https://edge03.streamonkey.net/wf-radioduisburg,"çalışıyor (200, ses akışı)",radio.net API (YENİ kaynak sınıfı)
+yeni_link,Radio Gütersloh,https://ams.stream33.radiohost.de/ams-radioguetersloh_mp3-192,"çalışıyor (200, ses akışı)",radio.net API (YENİ kaynak sınıfı)
+yeni_link,Radio Brocken,https://stream.radiobrocken.de/live/mp3-128/radiode,"çalışıyor (200, ses akışı)",radio.net API (YENİ kaynak sınıfı)
+yeni_link,Radio Brocken,https://fhhalle.streamabc.net/fhhal-rblive-mp3-128-7094006,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,90s90s Eurodance,https://streams.90s90s.de/eurodance/mp3-192/streams.90s90s.de/radiode/,"çalışıyor (200, ses akışı)",radio.net API (YENİ kaynak sınıfı)
+yeni_link,JAM FM Black Label,https://stream.jam.fm/jamfm-bl/mp3-192/radioDE/,"çalışıyor (200, ses akışı)",radio.net API (YENİ kaynak sınıfı)
+yeni_link,JAM FM Black Label,https://stream.jam.fm/jamfm-bl/aac-64,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,Querfunk Karlsruhe,https://mp3.querfunk.de/qfhi,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,Radio Gong 96.3,https://radiogong-live.cast.addradio.de/radiogong/live/mp3/low,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,Radio Arabella,https://frontend.stream.radioarabella.de/radioarabella-muenchen,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,Radio Arabella,https://frontend.stream.radioarabella.de/radioarabella-muenchen/stream/mp3,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,Star FM,https://stream.starfm.de/national/mp3-192,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,Absolut Radio,https://absolut-germany.live-sm.absolutradio.de/absolut-germany,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,Antenne Niederrhein,https://antennenr-live.cast.addradio.de/antennenr/live/mp3/high,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,Antenne Niederrhein,https://antennenr-live.cast.addradio.de/antennenr/live/aac/low,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,Radio Berg,https://radioberg-live.cast.addradio.de/radioberg/live/aac/low,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,Radio Lippe,https://radiolippe-live.cast.addradio.de/radiolippe/live/aac/low,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,Radio Neandertal,https://neandertal-live.cast.addradio.de/neandertal/live/aac/low,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,Radio WAF,https://radiowaf-live.cast.addradio.de/radiowaf/live/aac/low,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,Radio PSR,https://streams.radiopsr.de/psr-live/mp3-128,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,Star*Sat Radio,https://starsat--di--nacs-ais-lgc--02--cdn.cast.addradio.de/starsat/live/mp3/high/stream.mp3,"çalışıyor (200, ses akışı)",fmstream.org (edge-düğüm adresi)
+yeni_link,0nlineradio 70s,https://0nlineradio.radioho.st/0r-70s,"çalışıyor (200, ses akışı)",fmstream.org
+yeni_link,0nlineradio 70s,https://stream1-0nlineradio.radiohost.de/70s,"çalışıyor (200, ses akışı)",fmstream.org
+not,UNSERDING (SR visual radio),https://srde.akamaized.net/hls/live/2031842/visualradio-unserding/master-540p-1728.m3u8,"sadece Almanya (geo) 403 – katalogda kanal yok; SR alt/gençlik programı, yalın kural gereği ÖNERİLMEDİ",GitHub sr2831/iptv
