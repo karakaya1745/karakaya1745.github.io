@@ -1034,6 +1034,7 @@ function main() {
   console.log(
     `[almanya] onay-2026-10-26: +${onay26.addedChannels || 0} kanal, ` +
       `+${onay26.addedLinks || 0} link, -${onay26.removedLinks || 0} link, ` +
+      `ek tema -${onay26.removedThemeExtra || 0}, ` +
       `-${onay26.removedChannels || 0} kanal, Tagesschau durdu ${onay26.skippedFlaky || 0}, ` +
       `UNSERDING atlandı ${onay26.skippedNot || 0}`,
   );

@@ -24,6 +24,34 @@ const DAS_ERSTE_540 = "https://daserste-live.ard-mcdn.de/daserste/live/hls/de/ma
 const DAS_ERSTE_270 = "https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master270p700.m3u8";
 const EMPTY_CHANNELS = ["Antenne 1", "Antenne MV"];
 
+/** Ana yayın olmayan tema / alt webradio yedekleri. Kanalın kendi ana akışı değildir. */
+const EXTRA_THEME_URLS = [
+  "https://wdr-1live-diggi.icecast.wdr.de/wdr/1live/diggi/mp3/128/stream.mp3",
+  "https://wdr-1live-djsession.icecast.wdr.de/wdr/1live/djsession/mp3/128/stream.mp3",
+  "https://wdr-wdr3-klassik.icecast.wdr.de/wdr/wdr3/klassik/mp3/128/stream.mp3",
+  "https://wdr-cosmo-afrobeat.icecastssl.wdr.de/wdr/cosmo/afrobeat/mp3/128/stream.mp3",
+  "https://mdr-284311-0.sslcast.mdr.de/mdr/284311/0/mp3/max/stream.mp3",
+  "https://streams.regenbogen.de/rr2-bw-128-mp3",
+  "https://streams.regenbogen.de/rr-gunsnroses-128-mp3",
+  "https://radiogong-channel08.cast.addradio.de/radiogong/channel08/mp3/high",
+  "https://stream.kissfm.de/kissfm-sextime/mp3-128/internetradio/",
+  "https://stream.starfm.de/ballads/mp3-192/iradio",
+  "https://stream.laut.fm/darkstarfm",
+  "https://streams.radiobob.de/bob-metal/mp3-192/streams.radiobob.de/",
+  "https://streams.radiobob.de/bob-alternative/mp3-192/streams.radiobob.de/",
+  "https://mp3channels.webradio.rockantenne.de/heavy-metal",
+  "https://mp3channels.webradio.rockantenne.de/punkrock.aac",
+  "https://stream.saw-musikwelt.de/saw-synthie-pop/stream.mp3",
+  "https://streams.deltaradio.de/delta-indie/mp3-192/mediaplayer",
+  "https://streams.deltaradio.de/delta-grunge/mp3-192/mediaplayer",
+  "https://streams.deltaradio.de/delta-alternative/mp3-192/mediaplayer",
+  "https://absolut-top.live-sm.absolutradio.de/absolut-top/stream/mp3",
+  "https://streamtdy.ir-media-tec.com/disco/mp3-128/web/play.mp3",
+  "https://radio.toggo.de/deutsch/mp3-192",
+  "https://mp3.harmonyfm.de/hrmchannels/schlager.aac",
+  "https://addrad.io/4454rnz",
+];
+
 function parseCsv(text) {
   const rows = [];
   let row = [];
@@ -152,6 +180,7 @@ export function applyOctober26(channels) {
     skippedFlaky: 0,
     skippedNot: 0,
     skippedDupes: 0,
+    removedThemeExtra: 0,
     addedChannelNames: [],
   };
 
@@ -160,6 +189,12 @@ export function applyOctober26(channels) {
     if (!/^https:\/\/\S+$/.test(row.link)) throw new Error(`geçersiz URL: ${row.link}`);
     deleteExact(channels, urls, row.link);
     stats.removedLinks += 1;
+  }
+
+  for (const url of EXTRA_THEME_URLS) {
+    deleteExact(channels, urls, url);
+    stats.removedLinks += 1;
+    stats.removedThemeExtra += 1;
   }
 
   for (let index = channels.length - 1; index >= 0; index -= 1) {
@@ -239,6 +274,23 @@ export function applyOctober26(channels) {
   if (big.streams[0].url !== BIG0 || big.streams[1].url !== BIG1) throw new Error("bigFM ana yayın yerinde değil");
   const bob = byName.get("Radio Bob");
   if (bob.streams[0].url !== BOB0) throw new Error("Radio Bob ana yayın yerinde değil");
+  if (!bob.streams.some((stream) => stream.url === "https://streams.radiobob.de/bob-live/mp3-192")) {
+    throw new Error("Radio Bob canlı ana yayın düştü");
+  }
+  if (bob.streams.some((stream) => /bob-metal|bob-alternative/.test(stream.url))) {
+    throw new Error("Radio Bob tema yedeği duruyor");
+  }
+  const rock = byName.get("Rock Antenne");
+  if (rock.streams.some((stream) => /heavy-metal|punkrock/.test(stream.url))) {
+    throw new Error("Rock Antenne tema yedeği duruyor");
+  }
+  const saw = byName.get("Radio SAW");
+  if (saw.streams.some((stream) => stream.url.includes("synthie-pop"))) {
+    throw new Error("Radio SAW synthie-pop duruyor");
+  }
+  if (!saw.streams.some((stream) => stream.url.includes("radiosaw.de/saw/"))) {
+    throw new Error("Radio SAW ana yayın düştü");
+  }
   const erste = byName.get("Das Erste");
   const ersteGeo = erste.streams.findIndex((stream) => stream.geo_de_only);
   for (const url of [DAS_ERSTE_540, DAS_ERSTE_270]) {
@@ -255,16 +307,17 @@ export function applyOctober26(channels) {
   const tv = channels.filter((channel) => channel.type === "tv").length;
   const radio = channels.filter((channel) => channel.type === "radio").length;
   if (tv !== 157 || radio !== 165) throw new Error(`kanal sayısı tv=${tv} radyo=${radio}`);
-  if (stats.addedChannels !== 0 || stats.addedLinks !== 68 || stats.removedLinks !== 55) {
+  if (stats.addedChannels !== 0 || stats.addedLinks !== 68 || stats.removedLinks !== 79) {
     throw new Error(`sayılar +${stats.addedLinks} -${stats.removedLinks} kanal ${stats.removedChannels}`);
   }
+  if (stats.removedThemeExtra !== 24) throw new Error(`ek tema ${stats.removedThemeExtra}`);
   if (stats.removedChannels !== 2 || stats.removedChannelNames.join("|") !== "Antenne 1|Antenne MV") {
     throw new Error(`çıkan kanallar: ${stats.removedChannelNames.join(", ")}`);
   }
   if (addChannels.size !== 43 || stats.skippedDupes !== 0 || stats.skippedFlaky !== 1 || stats.skippedNot !== 1) {
     throw new Error(`yedek kanal ${addChannels.size} yinelenen ${stats.skippedDupes}`);
   }
-  if (allUrls.length !== 1161) throw new Error(`link sayısı ${allUrls.length}`);
+  if (allUrls.length !== 1137) throw new Error(`link sayısı ${allUrls.length}`);
 
   return stats;
 }

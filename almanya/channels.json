@@ -1,6 +1,6 @@
 {
   "_revision": 13,
-  "updatedAt": "2026-10-26T06:02:58.442Z",
+  "updatedAt": "2026-10-26T06:07:00.731Z",
   "app": "ZapIt TV",
   "channels": [
     {
@@ -4665,11 +4665,6 @@
           "format": "hls"
         },
         {
-          "url": "https://mdr-284311-0.sslcast.mdr.de/mdr/284311/0/mp3/max/stream.mp3",
-          "geo_de_only": false,
-          "format": "mp3"
-        },
-        {
           "url": "https://mdr-radio-hls.akamaized.net/hls/live/2112903/mdr-284310-0-hls/192/seglist.m3u8",
           "geo_de_only": false,
           "format": "hls"
@@ -5916,16 +5911,6 @@
           "format": "mp3"
         },
         {
-          "url": "https://wdr-1live-diggi.icecast.wdr.de/wdr/1live/diggi/mp3/128/stream.mp3",
-          "geo_de_only": false,
-          "format": "mp3"
-        },
-        {
-          "url": "https://wdr-1live-djsession.icecast.wdr.de/wdr/1live/djsession/mp3/128/stream.mp3",
-          "geo_de_only": false,
-          "format": "mp3"
-        },
-        {
           "url": "https://wdr-1live-live.icecastssl.wdr.de/wdr/1live/live/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
@@ -6034,11 +6019,6 @@
           "url": "https://wdrhf.akamaized.net/hls/live/2027994/wdr3/master.m3u8",
           "geo_de_only": false,
           "format": "hls"
-        },
-        {
-          "url": "https://wdr-wdr3-klassik.icecast.wdr.de/wdr/wdr3/klassik/mp3/128/stream.mp3",
-          "geo_de_only": false,
-          "format": "mp3"
         },
         {
           "url": "https://wdr-wdr3-live.icecast.wdr.de/wdr/wdr3/live/mp3/128/stream.mp3",
@@ -6159,11 +6139,6 @@
         },
         {
           "url": "https://wdr-cosmo-live.icecast.wdr.de/wdr/cosmo/live/mp3/128/stream.mp3",
-          "geo_de_only": false,
-          "format": "mp3"
-        },
-        {
-          "url": "https://wdr-cosmo-afrobeat.icecastssl.wdr.de/wdr/cosmo/afrobeat/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
         },
@@ -6445,17 +6420,7 @@
       "geo_de_only": false,
       "streams": [
         {
-          "url": "https://streams.regenbogen.de/rr2-bw-128-mp3",
-          "geo_de_only": false,
-          "format": "audio"
-        },
-        {
           "url": "https://streams.regenbogen.de/rr-mannheim-128-mp3",
-          "geo_de_only": false,
-          "format": "audio"
-        },
-        {
-          "url": "https://streams.regenbogen.de/rr-gunsnroses-128-mp3",
           "geo_de_only": false,
           "format": "audio"
         },
@@ -6682,16 +6647,6 @@
           "format": "audio"
         },
         {
-          "url": "https://mp3channels.webradio.rockantenne.de/heavy-metal",
-          "geo_de_only": false,
-          "format": "audio"
-        },
-        {
-          "url": "https://mp3channels.webradio.rockantenne.de/punkrock.aac",
-          "geo_de_only": false,
-          "format": "aac"
-        },
-        {
           "url": "https://stream.rockantenne.de/rockantenne/stream/mp3",
           "geo_de_only": false,
           "format": "audio"
@@ -6765,11 +6720,6 @@
       "streams": [
         {
           "url": "https://radiogong-live.cast.addradio.de/radiogong/live/mp3/high",
-          "geo_de_only": false,
-          "format": "audio"
-        },
-        {
-          "url": "https://radiogong-channel08.cast.addradio.de/radiogong/channel08/mp3/high",
           "geo_de_only": false,
           "format": "audio"
         },
@@ -6960,11 +6910,6 @@
           "format": "audio"
         },
         {
-          "url": "https://stream.kissfm.de/kissfm-sextime/mp3-128/internetradio/",
-          "geo_de_only": false,
-          "format": "audio"
-        },
-        {
           "url": "https://stream.kissfm.de/kissfm/mp3-192",
           "geo_de_only": false,
           "format": "audio"
@@ -6979,17 +6924,7 @@
       "geo_de_only": false,
       "streams": [
         {
-          "url": "https://stream.starfm.de/ballads/mp3-192/iradio",
-          "geo_de_only": false,
-          "format": "audio"
-        },
-        {
           "url": "https://stream.starfm.de/berlin/mp3-192/iradio",
-          "geo_de_only": false,
-          "format": "audio"
-        },
-        {
-          "url": "https://stream.laut.fm/darkstarfm",
           "geo_de_only": false,
           "format": "audio"
         },
@@ -7139,16 +7074,6 @@
       "streams": [
         {
           "url": "https://streams.radiobob.de/bob-national/mp3-192/mediaplayer",
-          "geo_de_only": false,
-          "format": "audio"
-        },
-        {
-          "url": "https://streams.radiobob.de/bob-metal/mp3-192/streams.radiobob.de/",
-          "geo_de_only": false,
-          "format": "audio"
-        },
-        {
-          "url": "https://streams.radiobob.de/bob-alternative/mp3-192/streams.radiobob.de/",
           "geo_de_only": false,
           "format": "audio"
         },
@@ -7991,11 +7916,6 @@
       "geo_de_only": false,
       "streams": [
         {
-          "url": "https://stream.saw-musikwelt.de/saw-synthie-pop/stream.mp3",
-          "geo_de_only": false,
-          "format": "mp3"
-        },
-        {
           "url": "https://stream.radiosaw.de/saw/mp3-128/radiode/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
@@ -8077,21 +7997,6 @@
       "category": "regional",
       "geo_de_only": false,
       "streams": [
-        {
-          "url": "https://streams.deltaradio.de/delta-indie/mp3-192/mediaplayer",
-          "geo_de_only": false,
-          "format": "audio"
-        },
-        {
-          "url": "https://streams.deltaradio.de/delta-grunge/mp3-192/mediaplayer",
-          "geo_de_only": false,
-          "format": "audio"
-        },
-        {
-          "url": "https://streams.deltaradio.de/delta-alternative/mp3-192/mediaplayer",
-          "geo_de_only": false,
-          "format": "audio"
-        },
         {
           "url": "https://streams.deltaradio.de/delta-live/mp3-192/homepage",
           "geo_de_only": false,
@@ -8328,11 +8233,6 @@
       "category": "music",
       "geo_de_only": false,
       "streams": [
-        {
-          "url": "https://absolut-top.live-sm.absolutradio.de/absolut-top/stream/mp3",
-          "geo_de_only": false,
-          "format": "audio"
-        },
         {
           "url": "https://absolut-germany.live-sm.absolutradio.de/absolut-germany/stream/mp3?aggregator",
           "geo_de_only": false,
@@ -8594,11 +8494,6 @@
           "format": "mp3"
         },
         {
-          "url": "https://streamtdy.ir-media-tec.com/disco/mp3-128/web/play.mp3",
-          "geo_de_only": false,
-          "format": "mp3"
-        },
-        {
           "url": "https://streamtdy.ir-media-tec.com/live/mp3-128/radioplayer_web/play.mp3",
           "geo_de_only": false,
           "format": "mp3"
@@ -8618,19 +8513,9 @@
       "geo_de_only": false,
       "streams": [
         {
-          "url": "https://addrad.io/4454rnz",
-          "geo_de_only": false,
-          "format": "audio"
-        },
-        {
           "url": "https://addrad.io/4454r93",
           "geo_de_only": false,
           "format": "audio"
-        },
-        {
-          "url": "https://mp3.harmonyfm.de/hrmchannels/schlager.aac",
-          "geo_de_only": false,
-          "format": "aac"
         },
         {
           "url": "https://rnrw.cast.addradio.de/rnrw-0185/deinschlager/high/stream.mp3",
@@ -8696,11 +8581,6 @@
       "streams": [
         {
           "url": "https://radio.toggo.de/live/mp3-192",
-          "geo_de_only": false,
-          "format": "audio"
-        },
-        {
-          "url": "https://radio.toggo.de/deutsch/mp3-192",
           "geo_de_only": false,
           "format": "audio"
         }
