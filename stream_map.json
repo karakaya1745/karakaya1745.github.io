@@ -1,5 +1,5 @@
 {
-  "_revision": 206,
+  "_revision": 207,
   "duyuru": [
     "https://karakaya1745.github.io/guncelleme_duyuru.m3u8"
   ],
@@ -108,8 +108,12 @@
     "https://adyufm.adiyaman.edu.tr/yayin.ogg?"
   ],
   "afroturk": [
-    "https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8",
-    "https://edge1.socialsmart.tv/naturaltv/bant1/playlist.m3u8"
+    "https://edge.taksimbilisim.com/naturaltv/bant1/playlist.m3u8",
+    "https://edge.taksimbilisim.com/naturaltv/bant1/chunks.m3u8",
+    "https://edge1.taksimbilisim.com/naturaltv/bant1/playlist.m3u8",
+    "https://edge1.taksimbilisim.com/naturaltv/bant1/chunks.m3u8",
+    "https://edge2.taksimbilisim.com/naturaltv/bant1/playlist.m3u8",
+    "https://edge2.taksimbilisim.com/naturaltv/bant1/chunks.m3u8"
   ],
   "afsinfm": [
     "https://radyo.arkacadde.org/4646/afsinradyo.mp3?/;stream.mp3"
@@ -183,8 +187,12 @@
     "https://starmenajo.com/hls/almahriah/index.m3u8"
   ],
   "altastv": [
-    "https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8",
-    "https://edge1.socialsmart.tv/altastv/bant1/chunks.m3u8"
+    "https://edge.taksimbilisim.com/altastv/bant1/playlist.m3u8",
+    "https://edge.taksimbilisim.com/altastv/bant1/chunks.m3u8",
+    "https://edge1.taksimbilisim.com/altastv/bant1/playlist.m3u8",
+    "https://edge1.taksimbilisim.com/altastv/bant1/chunks.m3u8",
+    "https://edge2.taksimbilisim.com/altastv/bant1/playlist.m3u8",
+    "https://edge2.taksimbilisim.com/altastv/bant1/chunks.m3u8"
   ],
   "alzahratvturkic": [
     "https://live.al-zahratv.com/live/playlist.m3u8",
@@ -451,17 +459,13 @@
   "canradyo": [
     "https://radyo.yayindakiler.com:3124/;"
   ],
-  "cartoonnetwork": [
-    "http://tvsen7.aynascope.net/cartoonnetwork/index.m3u8"
-  ],
   "caytv": [
-    "https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8",
-    "https://edge1.socialsmart.tv/caytv/bant1/chunks.m3u8",
     "https://edge.taksimbilisim.com/caytv/bant1/playlist.m3u8",
-    "https://edge.socialsmart.tv/caytv/bant1/chunks.m3u8",
     "https://edge.taksimbilisim.com/caytv/bant1/chunks.m3u8",
     "https://edge1.taksimbilisim.com/caytv/bant1/chunks.m3u8",
-    "https://edge1.taksimbilisim.com/caytv/bant1/playlist.m3u8"
+    "https://edge1.taksimbilisim.com/caytv/bant1/playlist.m3u8",
+    "https://edge2.taksimbilisim.com/caytv/bant1/playlist.m3u8",
+    "https://edge2.taksimbilisim.com/caytv/bant1/chunks.m3u8"
   ],
   "cemradyo": [
     "https://erzincan.80.yayin.com.tr/;*.mp3"
@@ -744,13 +748,12 @@
     "https://live.artidijitalmedya.com/artidijital_etv/etv/chunks.m3u8"
   ],
   "etvmanisa": [
-    "https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8",
-    "https://clvd26.socialsmart.tv/manisaetv/bant1/chunks.m3u8",
     "https://edge.taksimbilisim.com/manisaetv/bant1/chunks.m3u8",
     "https://edge.taksimbilisim.com/manisaetv/bant1/playlist.m3u8",
     "https://edge1.taksimbilisim.com/manisaetv/bant1/chunks.m3u8",
     "https://edge1.taksimbilisim.com/manisaetv/bant1/playlist.m3u8",
-    "https://edge2.taksimbilisim.com/manisaetv/bant1/chunks.m3u8"
+    "https://edge2.taksimbilisim.com/manisaetv/bant1/chunks.m3u8",
+    "https://edge2.taksimbilisim.com/manisaetv/bant1/playlist.m3u8"
   ],
   "eurod": [
     "https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8",
@@ -898,14 +901,14 @@
     "https://sslyayin.netyayin.net/8912/stream/;stream.mp3"
   ],
   "goncatv": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/1413062b-8a59-4602-8a8c-8c40c3e2c428.ts",
-    "https://edge1.socialsmart.tv/goncatv/bant1/playlist.m3u8",
     "https://edge.taksimbilisim.com/goncatv/bant1/playlist.m3u8",
     "https://edge.taksimbilisim.com/goncatv/bant1/chunks.m3u8",
     "https://edge1.taksimbilisim.com/goncatv/bant1/chunks.m3u8",
     "https://edge1.taksimbilisim.com/goncatv/bant1/playlist.m3u8",
     "https://edge2.taksimbilisim.com/goncatv/bant1/chunks.m3u8",
-    "https://edge2.taksimbilisim.com/goncatv/bant1/playlist.m3u8"
+    "https://edge2.taksimbilisim.com/goncatv/bant1/playlist.m3u8",
+    "https://edge1.socialsmart.tv/goncatv/bant1/playlist.m3u8",
+    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/1413062b-8a59-4602-8a8c-8c40c3e2c428.ts"
   ],
   "gozdefm": [
     "https://stream.turkiyeradyolari.com:8190/stream"
@@ -917,7 +920,6 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/GHOAT_EN128AAC.aac?/;stream.mp3"
   ],
   "guneydogutv": [
-    "https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8",
     "https://edge.taksimbilisim.com/gtv/bant1/chunks.m3u8",
     "https://edge.taksimbilisim.com/gtv/bant1/playlist.m3u8",
     "https://edge1.taksimbilisim.com/gtv/bant1/chunks.m3u8",
@@ -1020,8 +1022,12 @@
     "https://tr2.socialsmart.tv/tepemedya/icelfm/icecast.audio?/;stream.mp3"
   ],
   "iceltv": [
-    "https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8",
-    "https://edge.socialsmart.tv/iceltv/bant1/chunks.m3u8"
+    "https://edge.taksimbilisim.com/iceltv/bant1/playlist.m3u8",
+    "https://edge.taksimbilisim.com/iceltv/bant1/chunks.m3u8",
+    "https://edge1.taksimbilisim.com/iceltv/bant1/playlist.m3u8",
+    "https://edge1.taksimbilisim.com/iceltv/bant1/chunks.m3u8",
+    "https://edge2.taksimbilisim.com/iceltv/bant1/playlist.m3u8",
+    "https://edge2.taksimbilisim.com/iceltv/bant1/chunks.m3u8"
   ],
   "igdirfm": [
     "https://radyo.yayindakiler.com:4158/;"
@@ -1172,8 +1178,6 @@
     "https://edge2.taksimbilisim.com/kanal3/bant1/chunks.m3u8"
   ],
   "kanal32": [
-    "https://edge1.socialsmart.tv/kanal32/bant1/chunks.m3u8",
-    "https://edge1.socialsmart.tv/kanal32/bant1/playlist.m3u8",
     "https://edge2.taksimbilisim.com/kanal32/bant1/chunks.m3u8",
     "https://edge.taksimbilisim.com/kanal32/bant1/chunks.m3u8",
     "https://edge.taksimbilisim.com/kanal32/bant1/playlist.m3u8",
@@ -1182,8 +1186,12 @@
     "https://edge2.taksimbilisim.com/kanal32/bant1/playlist.m3u8"
   ],
   "kanal33": [
-    "https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8",
-    "https://clvd26.socialsmart.tv/kanal33/bant1/chunks.m3u8"
+    "https://edge.taksimbilisim.com/kanal33/bant1/playlist.m3u8",
+    "https://edge.taksimbilisim.com/kanal33/bant1/chunks.m3u8",
+    "https://edge1.taksimbilisim.com/kanal33/bant1/playlist.m3u8",
+    "https://edge1.taksimbilisim.com/kanal33/bant1/chunks.m3u8",
+    "https://edge2.taksimbilisim.com/kanal33/bant1/playlist.m3u8",
+    "https://edge2.taksimbilisim.com/kanal33/bant1/chunks.m3u8"
   ],
   "kanal34": [
     "https://live.euromediacenter.com/kanal34/tracks-v1a1/mono.m3u8",
@@ -1237,8 +1245,7 @@
     "https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8"
   ],
   "kanalhayat": [
-    "https://livecdn.use1-0004.jwplive.com/live/sites/WpgVdplm/media/icNwL50b/live.isml/live.m3u8",
-    "https://cdn.jwplayer.com/live/broadcast/icNwL50b.m3u8"
+    "https://cdn.fast.jwp.services/v1/channel/1_tjBgzOoJ_sZe9EuIq/manifest.m3u8"
   ],
   "kanalplus": [
     "https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/playlist.m3u8",
@@ -1267,9 +1274,7 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/KARADENIZ128AAC.aac?/;stream.mp3"
   ],
   "kardelentv": [
-    "https://edge1.socialsmart.tv/kardelentv/bant1/playlist.m3u8",
     "https://edge2.taksimbilisim.com/kardelentv/bant1/chunks.m3u8",
-    "https://edge.socialsmart.tv/kardelentv/bant1/chunks.m3u8",
     "https://edge.taksimbilisim.com/kardelentv/bant1/chunks.m3u8",
     "https://edge.taksimbilisim.com/kardelentv/bant1/playlist.m3u8",
     "https://edge1.taksimbilisim.com/kardelentv/bant1/chunks.m3u8",
@@ -1487,8 +1492,12 @@
     "https://yayin1.canlitv.fun:8026/stream?/;stream.mp3"
   ],
   "linetv": [
-    "https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8",
-    "https://edge1.socialsmart.tv/linetv/bant1/chunks.m3u8"
+    "https://edge.taksimbilisim.com/linetv/bant1/playlist.m3u8",
+    "https://edge.taksimbilisim.com/linetv/bant1/chunks.m3u8",
+    "https://edge1.taksimbilisim.com/linetv/bant1/playlist.m3u8",
+    "https://edge1.taksimbilisim.com/linetv/bant1/chunks.m3u8",
+    "https://edge2.taksimbilisim.com/linetv/bant1/playlist.m3u8",
+    "https://edge2.taksimbilisim.com/linetv/bant1/chunks.m3u8"
   ],
   "literalradio": [
     "https://playerservices.streamtheworld.com/api/livestream-redirect/LITERAL128AAC.aac?/;stream.mp3"
@@ -1544,8 +1553,8 @@
     "https://rrr.sz.xlcdn.com/?account=mceutv&file=mc2&output=playlist.m3u8&protocol=https&service=wowza&type=live"
   ],
   "medinetv": [
-    "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/saudi_sunnah-avc1_600000=2-mp4a_145600_ara=3.m3u8",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=801067&extension=ts&play_token=1955JCRmy8",
+    "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/saudi_sunnah-avc1_600000=2-mp4a_145600_ara=3.m3u8",
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=801067&extension=ts&play_token=1955JCRmy8",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=801067&extension=ts&play_token=1955JCRmy8"
   ],
@@ -1617,8 +1626,13 @@
     "https://stream2.rtvtakip.com:7034/;"
   ],
   "metropoltv": [
-    "https://edge1.socialsmart.tv/metropoltv/smil/metropoltv/bant1/chunks.m3u8?app=supersatforum",
-    "https://edge1.socialsmart.tv/metropoltv/smil/metropoltv/bant1/chunks.m3u8"
+    "https://edge.taksimbilisim.com/metropoltv/bant1/playlist.m3u8",
+    "https://edge.taksimbilisim.com/metropoltv/bant1/chunks.m3u8",
+    "https://edge1.taksimbilisim.com/metropoltv/bant1/playlist.m3u8",
+    "https://edge1.taksimbilisim.com/metropoltv/bant1/chunks.m3u8",
+    "https://edge2.taksimbilisim.com/metropoltv/bant1/playlist.m3u8",
+    "https://edge2.taksimbilisim.com/metropoltv/bant1/chunks.m3u8",
+    "https://edge.taksimbilisim.com/metropoltv/smil/metropoltv/bant1/chunks.m3u8"
   ],
   "minikacocuk": [
     "http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8",
@@ -1644,12 +1658,6 @@
   ],
   "moralfm": [
     "https://stream-51.zeno.fm/0cfiqwdkobavv?zs=RptTdDEHQ2Wej62cArILjQ/;stream.mp3"
-  ],
-  "mturktv": [
-    "https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8"
-  ],
-  "muglaturk": [
-    "https://edge1.socialsmart.tv/muglaturk/bant1/chunks.m3u8"
   ],
   "muhtesemdortluradyosu": [
     "https://moondigitaledge2.radyotvonline.net/radyo7muhtesem4lu/playlist.m3u8"
@@ -2753,9 +2761,6 @@
   "rizegelisimradyo": [
     "https://radyo.yayindakiler.com:4008/;"
   ],
-  "rizetv": [
-    "https://yayin.rizeturk.com:3777/hybrid/play.m3u8"
-  ],
   "rockfm": [
     "https://rockfm.rockfm.com.tr:9450/stream"
   ],
@@ -2974,9 +2979,6 @@
     "https://turkmedya-live.ercdn.net/tv24/tv24.m3u8",
     "https://tv.ensonhaber.com/tv24/tv24.m3u8"
   ],
-  "tarimtv": [
-    "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/e00b8d1e-8f3b-46c0-8741-358beff7dbd5.ts"
-  ],
   "tarsusyarenfm": [
     "https://yarenfmn.80.yayin.com.tr/stream"
   ],
@@ -3049,8 +3051,6 @@
   ],
   "thturkhaber": [
     "https://edge1.taksimbilisim.com/turkhaber/bant1/chunks.m3u8",
-    "https://edge1.socialsmart.tv/turkhaber/bant1/chunks.m3u8",
-    "https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8",
     "https://edge.taksimbilisim.com/turkhaber/bant1/playlist.m3u8",
     "https://edge.taksimbilisim.com/turkhaber/bant1/chunks.m3u8",
     "https://edge1.taksimbilisim.com/turkhaber/bant1/playlist.m3u8",
@@ -3253,8 +3253,6 @@
     "https://sslyayin.netyayin.net/4848/stream/;stream.mp3"
   ],
   "turkhaber": [
-    "https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8",
-    "https://edge1.socialsmart.tv/turkhaber/bant1/chunks.m3u8",
     "https://edge2.taksimbilisim.com/turkhaber/bant1/playlist.m3u8",
     "https://edge.taksimbilisim.com/turkhaber/bant1/chunks.m3u8",
     "https://edge.taksimbilisim.com/turkhaber/bant1/playlist.m3u8",
@@ -3280,8 +3278,12 @@
     "https://stream.turkiyeradyolari.com:9460/stream"
   ],
   "tv1": [
-    "https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8",
-    "https://edge1.socialsmart.tv/tv1/bant1/chunks.m3u8"
+    "https://edge.taksimbilisim.com/tv1/bant1/playlist.m3u8",
+    "https://edge.taksimbilisim.com/tv1/bant1/chunks.m3u8",
+    "https://edge1.taksimbilisim.com/tv1/bant1/playlist.m3u8",
+    "https://edge1.taksimbilisim.com/tv1/bant1/chunks.m3u8",
+    "https://edge2.taksimbilisim.com/tv1/bant1/playlist.m3u8",
+    "https://edge2.taksimbilisim.com/tv1/bant1/chunks.m3u8"
   ],
   "tv100": [
     "https://ensonhaber-live.ercdn.net/tv100/tv100.m3u8",
@@ -3311,10 +3313,8 @@
     "https://ip252.ozelip.com:1936/protv5/protv5/playlist.m3u8"
   ],
   "tv52": [
-    "https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8",
     "https://edge2.taksimbilisim.com/tv52/bant1/chunks.m3u8",
     "http://canli.tvden.com.tr/hls/live.m3u8",
-    "https://edge1.socialsmart.tv/tv52/bant1/chunks.m3u8",
     "https://edge.taksimbilisim.com/tv52/bant1/chunks.m3u8",
     "https://edge.taksimbilisim.com/tv52/bant1/playlist.m3u8",
     "https://edge1.taksimbilisim.com/tv52/bant1/chunks.m3u8"
@@ -3450,8 +3450,6 @@
     "https://stream.xradio.com.tr:8770"
   ],
   "yabantv": [
-    "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197439&extension=ts&play_token=TfLVZnUFoE",
-    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197439&extension=ts&play_token=TfLVZnUFoE",
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197439&extension=ts&play_token=TfLVZnUFoE",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197439&extension=ts&play_token=TfLVZnUFoE",
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197439&extension=ts&play_token=TfLVZnUFoE",
@@ -3518,8 +3516,12 @@
     "https://sonic.dcnet.com.tr/8078/stream?"
   ],
   "kanalurfa": [
-    "https://edge1.socialsmart.tv/kanalurfa/bant1/playlist.m3u8",
-    "https://edge2.taksimbilisim.com/kanalurfa/bant1/chunks.m3u8"
+    "https://edge2.taksimbilisim.com/kanalurfa/bant1/chunks.m3u8",
+    "https://edge.taksimbilisim.com/kanalurfa/bant1/playlist.m3u8",
+    "https://edge.taksimbilisim.com/kanalurfa/bant1/chunks.m3u8",
+    "https://edge1.taksimbilisim.com/kanalurfa/bant1/playlist.m3u8",
+    "https://edge1.taksimbilisim.com/kanalurfa/bant1/chunks.m3u8",
+    "https://edge2.taksimbilisim.com/kanalurfa/bant1/playlist.m3u8"
   ],
   "bikanal": [
     "https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8",
@@ -3614,7 +3616,8 @@
     "https://live.duhnet.tv//S2/HLS_LIVE/dreamturknp/track_4_1250/playlist.m3u8"
   ],
   "kudustv": [
-    "https://yayin3.haber100.com/kudustvapp/kudustv/chunklist_w216821945.m3u"
+    "https://yayin3.haber100.com/kudustvapp/kudustv/playlist.m3u8",
+    "https://yayin3.haber100.com/kudustvapp/kudustv/chunklist.m3u8"
   ],
   "krt": [
     "https://raw.githubusercontent.com/umitm0d/-mittube/refs/heads/main/Umittube/Krt.m3u8"
@@ -3645,9 +3648,6 @@
     "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8",
     "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/chunklist_b400000.m3u8",
     "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8"
-  ],
-  "atvavrupa": [
-    "https://raw.githubusercontent.com/ardifyxmotion/iptv-kanal/refs/heads/main/streams/atvavrupa.m3u8"
   ],
   "kanalb": [
     "https://tv.kanalb.tr/hls/kanalb/index.m3u8",
@@ -3682,9 +3682,6 @@
     "https://edge2.taksimbilisim.com/kibristv/bant1/playlist.m3u8",
     "https://edge.socialsmart.tv/kibristv/bant1/chunks.m3u8",
     "https://edge1.socialsmart.tv/kibristv/bant1/chunks.m3u8"
-  ],
-  "anews": [
-    "https://trkvz-live.ercdn.net/anewshd/anewshd.m3u8?st=GFevWQvi_blRZb6lbcSgnw&e=1792442115"
   ],
   "apara": [
     "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/apara/apara.m3u8",

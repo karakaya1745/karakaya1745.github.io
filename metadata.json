@@ -1,13 +1,13 @@
 {
-  "revision": 206,
-  "updatedAt": "2026-10-26T08:34:44.007Z",
-  "channelCount": 1003,
+  "revision": 207,
+  "updatedAt": "2026-10-26T12:07:18.262Z",
+  "channelCount": 996,
   "files": {
     "channels.json": {
-      "sha256": "2347e08a4efb383fca7f2b1099375df09ce6fd79cb2981c4c01a884c0777458a"
+      "sha256": "574fc6b41d9c5f853937e87b98149db36ec4e0ea0be9b81fd2782955e912df76"
     },
     "stream_map.json": {
-      "sha256": "7ace08bf20062ee07b63f313ec711d68ae5cba00777970d0c414022100647275"
+      "sha256": "2b97372dc7a848b594c3da3a58e60d4dea41e33b23d94b52adcc6e4bd4fd1d7e"
     }
   }
 }

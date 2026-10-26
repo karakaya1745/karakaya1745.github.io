@@ -249,7 +249,7 @@
     "name": "Guneydogu TV",
     "url": "https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8",
     "category": "Haber",
-    "streamUrl": "https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8"
+    "streamUrl": "https://edge.taksimbilisim.com/gtv/bant1/chunks.m3u8"
   },
   {
     "name": "Life TV",
@@ -273,7 +273,7 @@
     "name": "Turk Haber",
     "url": "https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8",
     "category": "Haber",
-    "streamUrl": "https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8"
+    "streamUrl": "https://edge2.taksimbilisim.com/turkhaber/bant1/playlist.m3u8"
   },
   {
     "name": "DHA",
@@ -310,12 +310,6 @@
     "url": "https://www.akittv.com.tr/",
     "category": "Haber",
     "streamUrl": "https://raw.githubusercontent.com/umitm0d/-mittube/refs/heads/main/Umittube/Akit.m3u8"
-  },
-  {
-    "name": "A News",
-    "url": "https://www.anews.com.tr/webtv/live-broadcast",
-    "category": "Haber",
-    "streamUrl": "https://trkvz-live.ercdn.net/anewshd/anewshd.m3u8?st=GFevWQvi_blRZb6lbcSgnw&e=1792442115"
   },
   {
     "name": "TRT Spor",
@@ -405,7 +399,7 @@
     "name": "Yaban TV",
     "url": "https://www.yabantv.com/canli-yayin",
     "category": "Belgesel",
-    "streamUrl": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:BA:B0:ED&stream=197439&extension=ts&play_token=TfLVZnUFoE"
+    "streamUrl": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197439&extension=ts&play_token=TfLVZnUFoE"
   },
   {
     "name": "GZT",
@@ -448,12 +442,6 @@
     "url": "https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8",
     "category": "Cocuk",
     "streamUrl": "https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8"
-  },
-  {
-    "name": "Cartoon Network",
-    "url": "https://www.cartoonnetwork.com.tr/",
-    "category": "Cocuk",
-    "streamUrl": "http://tvsen7.aynascope.net/cartoonnetwork/index.m3u8"
   },
   {
     "name": "Spacetoon Turkey",
@@ -548,7 +536,7 @@
   {
     "name": "Afro Türk",
     "category": "Muzik",
-    "streamUrl": "https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8",
+    "streamUrl": "https://edge.taksimbilisim.com/naturaltv/bant1/playlist.m3u8",
     "url": ""
   },
   {
@@ -645,7 +633,7 @@
     "name": "Kardelen TV",
     "url": "https://vavo.sayezec.workers.dev/ID=127011060769330a43e05e",
     "category": "Dini",
-    "streamUrl": "https://edge1.socialsmart.tv/kardelentv/bant1/playlist.m3u8"
+    "streamUrl": "https://edge2.taksimbilisim.com/kardelentv/bant1/chunks.m3u8"
   },
   {
     "name": "Ikra TV",
@@ -663,7 +651,7 @@
     "name": "Medine TV",
     "url": "",
     "category": "Dini",
-    "streamUrl": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/saudi_sunnah-avc1_600000=2-mp4a_145600_ara=3.m3u8"
+    "streamUrl": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=801067&extension=ts&play_token=1955JCRmy8"
   },
   {
     "name": "Mukabele TV",
@@ -675,13 +663,13 @@
     "name": "GONCA TV",
     "url": "",
     "category": "Dini",
-    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/1413062b-8a59-4602-8a8c-8c40c3e2c428.ts"
+    "streamUrl": "https://edge.taksimbilisim.com/goncatv/bant1/playlist.m3u8"
   },
   {
     "name": "Kudüs TV",
     "url": "https://vavo.sayezec.workers.dev/ID=3035951797e8a56cf0ef58",
     "category": "Dini",
-    "streamUrl": "https://yayin3.haber100.com/kudustvapp/kudustv/chunklist_w216821945.m3u"
+    "streamUrl": "https://yayin3.haber100.com/kudustvapp/kudustv/playlist.m3u8"
   },
   {
     "name": "Kay TV",
@@ -747,7 +735,7 @@
     "name": "KANALURFA",
     "url": "https://www.fmtv.com.tr/",
     "category": "Ulusal",
-    "streamUrl": "https://edge1.socialsmart.tv/kanalurfa/bant1/playlist.m3u8"
+    "streamUrl": "https://edge2.taksimbilisim.com/kanalurfa/bant1/chunks.m3u8"
   },
   {
     "name": "Türkmeneli TV",
@@ -789,7 +777,7 @@
     "name": "Altas TV",
     "url": "https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8",
     "category": "Ulusal",
-    "streamUrl": "https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8"
+    "streamUrl": "https://edge.taksimbilisim.com/altastv/bant1/playlist.m3u8"
   },
   {
     "name": "Anadolu Net TV",
@@ -825,7 +813,7 @@
     "name": "Cay TV",
     "url": "https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8",
     "category": "Ulusal",
-    "streamUrl": "https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8"
+    "streamUrl": "https://edge.taksimbilisim.com/caytv/bant1/playlist.m3u8"
   },
   {
     "name": "Deniz Postasi",
@@ -879,13 +867,13 @@
     "name": "Kanal 32",
     "url": "https://edge1.socialsmart.tv/kanal32/bant1/playlist.m3u8",
     "category": "Ulusal",
-    "streamUrl": "https://edge1.socialsmart.tv/kanal32/bant1/chunks.m3u8"
+    "streamUrl": "https://edge2.taksimbilisim.com/kanal32/bant1/chunks.m3u8"
   },
   {
     "name": "Kanal 33",
     "url": "https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8",
     "category": "Ulusal",
-    "streamUrl": "https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8"
+    "streamUrl": "https://edge.taksimbilisim.com/kanal33/bant1/playlist.m3u8"
   },
   {
     "name": "Kanal 58",
@@ -927,7 +915,7 @@
     "name": "TV 52",
     "url": "https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8",
     "category": "Ulusal",
-    "streamUrl": "https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8"
+    "streamUrl": "https://edge2.taksimbilisim.com/tv52/bant1/chunks.m3u8"
   },
   {
     "name": "Urfanatik TV",
@@ -1011,7 +999,7 @@
     "name": "Kanal Hayat",
     "url": "https://tbn02a.ltnschedule.com/hls/nx21i.m3u8",
     "category": "Ulusal",
-    "streamUrl": "https://livecdn.use1-0004.jwplive.com/live/sites/WpgVdplm/media/icNwL50b/live.isml/live.m3u8"
+    "streamUrl": "https://cdn.fast.jwp.services/v1/channel/1_tjBgzOoJ_sZe9EuIq/manifest.m3u8"
   },
   {
     "name": "Kanal Plus",
@@ -1029,7 +1017,7 @@
     "name": "Line TV",
     "url": "https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8",
     "category": "Ulusal",
-    "streamUrl": "https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8"
+    "streamUrl": "https://edge.taksimbilisim.com/linetv/bant1/playlist.m3u8"
   },
   {
     "name": "Mercan TV",
@@ -1038,22 +1026,10 @@
     "streamUrl": "https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/chunks.m3u8"
   },
   {
-    "name": "Mugla Turk",
-    "url": "https://edge1.socialsmart.tv/muglaturk/bant1/chunks.m3u8",
-    "category": "Ulusal",
-    "streamUrl": "https://edge1.socialsmart.tv/muglaturk/bant1/chunks.m3u8"
-  },
-  {
     "name": "Persiana Turkiye",
     "url": "https://turkhls.persiana.live/hls/stream.m3u8",
     "category": "Ulusal",
     "streamUrl": "https://turkhls.persiana.live/hls/stream.m3u8"
-  },
-  {
-    "name": "Rize TV",
-    "url": "https://yayin.rizeturk.com:3777/hybrid/play.m3u8",
-    "category": "Ulusal",
-    "streamUrl": "https://yayin.rizeturk.com:3777/hybrid/play.m3u8"
   },
   {
     "name": "Sun RTV",
@@ -1077,7 +1053,7 @@
     "name": "TV 1",
     "url": "https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8",
     "category": "Ulusal",
-    "streamUrl": "https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8"
+    "streamUrl": "https://edge.taksimbilisim.com/tv1/bant1/playlist.m3u8"
   },
   {
     "name": "TV 6",
@@ -1155,7 +1131,7 @@
     "name": "ETV Manisa",
     "url": "https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8",
     "category": "Ulusal",
-    "streamUrl": "https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8"
+    "streamUrl": "https://edge.taksimbilisim.com/manisaetv/bant1/chunks.m3u8"
   },
   {
     "name": "Sercem TV",
@@ -1167,7 +1143,7 @@
     "name": "Icel TV",
     "url": "https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8",
     "category": "Ulusal",
-    "streamUrl": "https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8"
+    "streamUrl": "https://edge.taksimbilisim.com/iceltv/bant1/playlist.m3u8"
   },
   {
     "name": "Kanal 34",
@@ -1182,22 +1158,10 @@
     "streamUrl": "https://i41.ozelip.com:3269/hybrid/play.m3u8"
   },
   {
-    "name": "MTürk TV",
-    "url": "https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8",
-    "category": "Ulusal",
-    "streamUrl": "https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8"
-  },
-  {
     "name": "TV Den",
     "url": "http://canli.tvden.com.tr/hls/live.m3u8",
     "category": "Ulusal",
     "streamUrl": "http://canli.tvden.com.tr/hls/live.m3u8"
-  },
-  {
-    "name": "Tarim TV",
-    "url": "https://content.tvkur.com/l/c7e1da7mm25p552d9u9g/master.m3u8",
-    "category": "Yasam",
-    "streamUrl": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/e00b8d1e-8f3b-46c0-8741-358beff7dbd5.ts"
   },
   {
     "name": "Fashion One TV",
@@ -6595,7 +6559,7 @@
     "name": "Metropol TV",
     "url": "",
     "category": "Kultur",
-    "streamUrl": "https://edge1.socialsmart.tv/metropoltv/smil/metropoltv/bant1/chunks.m3u8?app=supersatforum"
+    "streamUrl": "https://edge.taksimbilisim.com/metropoltv/bant1/playlist.m3u8"
   },
   {
     "name": "MC TV",
@@ -6616,10 +6580,46 @@
     "streamUrl": "https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8"
   },
   {
+    "name": "BRT 1",
+    "url": "https://vavo.sayezec.workers.dev/ID=2793254316da8e310eaaf8",
+    "category": "Ulusal",
+    "streamUrl": "https://edge.kuzeykibrissmart.tv/brt1hd/bant1/playlist.m3u8?hash=575af483b73a7e1874add233dc58aae1"
+  },
+  {
+    "name": "BRT 2",
+    "url": "https://vavo.sayezec.workers.dev/ID=37894122206a5d105c20d3",
+    "category": "Ulusal",
+    "streamUrl": "https://edge.kuzeykibrissmart.tv/brt2hd/bant1/playlist.m3u8"
+  },
+  {
+    "name": "Kıbrıs TV",
+    "url": "https://vavo.sayezec.workers.dev/ID=6319306667939f9fe7402",
+    "category": "Ulusal",
+    "streamUrl": "https://edge.kuzeykibrissmart.tv/kibristv/bant1/playlist.m3u8"
+  },
+  {
+    "name": "Kıbrıs Genç TV",
+    "url": "https://vavo.sayezec.workers.dev/ID=311547741928e82131a818",
+    "category": "Ulusal",
+    "streamUrl": "https://edge.kuzeykibrissmart.tv/kibrisgenctv/bant1/playlist.m3u8"
+  },
+  {
+    "name": "Kuzey Kibris TV",
+    "url": "http://old.kuzeykibris.tv/m3u8/kktv.m3u8",
+    "category": "Ulusal",
+    "streamUrl": "https://kuzeykibris.tv/m3u8/kktv.m3u8"
+  },
+  {
     "name": "Kibris Kanal T",
     "url": "",
     "category": "Ulusal",
     "streamUrl": "https://edge.kuzeykibrissmart.tv/kanalt/bant1/playlist.m3u8"
+  },
+  {
+    "name": "Ada TV",
+    "url": "https://vavo.sayezec.workers.dev/ID=21347352852305a53dccfa",
+    "category": "Ulusal",
+    "streamUrl": "https://edge1.socialsmart.tv/adatv/bant1/chunks.m3u8"
   },
   {
     "name": "TV 3",
@@ -6652,58 +6652,16 @@
     "streamUrl": "https://raw.githubusercontent.com/umitm0d/-mittube/refs/heads/main/Umittube/Krt.m3u8"
   },
   {
-    "name": "BRT 1",
-    "url": "https://vavo.sayezec.workers.dev/ID=2793254316da8e310eaaf8",
-    "category": "Ulusal",
-    "streamUrl": "https://edge.kuzeykibrissmart.tv/brt1hd/bant1/playlist.m3u8?hash=575af483b73a7e1874add233dc58aae1"
-  },
-  {
-    "name": "BRT 2",
-    "url": "https://vavo.sayezec.workers.dev/ID=37894122206a5d105c20d3",
-    "category": "Ulusal",
-    "streamUrl": "https://edge.kuzeykibrissmart.tv/brt2hd/bant1/playlist.m3u8"
-  },
-  {
-    "name": "Ada TV",
-    "url": "https://vavo.sayezec.workers.dev/ID=21347352852305a53dccfa",
-    "category": "Ulusal",
-    "streamUrl": "https://edge1.socialsmart.tv/adatv/bant1/chunks.m3u8"
-  },
-  {
-    "name": "ATV Avrupa",
-    "url": "https://www.atvavrupa.tv/",
-    "category": "Ulusal",
-    "streamUrl": "https://raw.githubusercontent.com/ardifyxmotion/iptv-kanal/refs/heads/main/streams/atvavrupa.m3u8"
-  },
-  {
     "name": "Kanal B",
     "url": "https://www.kanalb.com.tr/",
     "category": "Ulusal",
     "streamUrl": "https://tv.kanalb.tr/hls/kanalb/index.m3u8"
   },
   {
-    "name": "Kıbrıs Genç TV",
-    "url": "https://vavo.sayezec.workers.dev/ID=311547741928e82131a818",
-    "category": "Ulusal",
-    "streamUrl": "https://edge.kuzeykibrissmart.tv/kibrisgenctv/bant1/playlist.m3u8"
-  },
-  {
-    "name": "Kıbrıs TV",
-    "url": "https://vavo.sayezec.workers.dev/ID=6319306667939f9fe7402",
-    "category": "Ulusal",
-    "streamUrl": "https://edge.kuzeykibrissmart.tv/kibristv/bant1/playlist.m3u8"
-  },
-  {
     "name": "ARAS TV",
     "url": "http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8",
     "category": "Ulusal",
     "streamUrl": "https://2.rtmp.org/tv217/yayin.stream/playlist.m3u8"
-  },
-  {
-    "name": "Kuzey Kibris TV",
-    "url": "http://old.kuzeykibris.tv/m3u8/kktv.m3u8",
-    "category": "Ulusal",
-    "streamUrl": "https://kuzeykibris.tv/m3u8/kktv.m3u8"
   },
   {
     "name": "Ilke TV",
