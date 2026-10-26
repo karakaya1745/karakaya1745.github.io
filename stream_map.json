@@ -1,5 +1,5 @@
 {
-  "_revision": 207,
+  "_revision": 208,
   "duyuru": [
     "https://karakaya1745.github.io/guncelleme_duyuru.m3u8"
   ],
@@ -1554,9 +1554,9 @@
   ],
   "medinetv": [
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=801067&extension=ts&play_token=1955JCRmy8",
-    "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/saudi_sunnah-avc1_600000=2-mp4a_145600_ara=3.m3u8",
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=801067&extension=ts&play_token=1955JCRmy8",
-    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=801067&extension=ts&play_token=1955JCRmy8"
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=801067&extension=ts&play_token=1955JCRmy8",
+    "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/saudi_sunnah-avc1_600000=2-mp4a_145600_ara=3.m3u8"
   ],
   "medyafm": [
     "https://live.radyositesihazir.com/live"
@@ -3641,7 +3641,9 @@
     "https://edge2.taksimbilisim.com/brt2hd/bant1/playlist.m3u8"
   ],
   "adatv": [
-    "https://edge1.socialsmart.tv/adatv/bant1/chunks.m3u8",
+    "https://edge.taksimbilisim.com/adatv/bant1/playlist.m3u8",
+    "https://edge1.taksimbilisim.com/adatv/bant1/playlist.m3u8",
+    "https://edge2.taksimbilisim.com/adatv/bant1/chunks.m3u8",
     "https://edge.kuzeykibrissmart.tv/adatv/bant1/chunks.m3u8"
   ],
   "fashiononetv": [
