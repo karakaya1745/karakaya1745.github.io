@@ -1,0 +1,181 @@
+kanal,link,durum,kaynak,tip
+Tagesschau 24,https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/int/master1080p5000.m3u8,ölü/kararsız 404 (2. gün),katalog yeniden test,olu_link
+Tagesschau 24,https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/int/master360p1200.m3u8,kararsız 404/403 (2. gün),katalog yeniden test,olu_link
+Bayerisches Fernsehen Süd,https://mcdn.br.de/bfs_sued/de/master.m3u8,ölü 404 (1. gün; dün 403) – diğer 6 BFS Süd linki çalışıyor,katalog yeniden test,olu_link
+Juwelo,https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/2646acd5413662e9_12812347_2610120941_3_3.m3u8,"ENDLIST (dönen oturum alt listesi, kalıcı ölü) – ana 7441_264_live.m3u8 çalışıyor",katalog yeniden test,olu_link
+Juwelo,https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/2646acd5413662e9_12812347_2610120941_2_2.m3u8,"ENDLIST (dönen oturum alt listesi, kalıcı ölü) – ana 7441_264_live.m3u8 çalışıyor",katalog yeniden test,olu_link
+Juwelo,https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/2646acd5413662e9_12812347_2610120941_1_1.m3u8,"ENDLIST (dönen oturum alt listesi, kalıcı ölü) – ana 7441_264_live.m3u8 çalışıyor",katalog yeniden test,olu_link
+SWR 1 Baden-Württemberg,https://dispatcher.rndfnk.com/swr/swr1/bw/aac/96/stream.aac?aggregator=tunein,çalışıyor,"TuneIn OPML API (s20291, SWR1 Baden-Württemberg)",yeni_link
+SWR 1 Rheinland-Pfalz,https://dispatcher.rndfnk.com/swr/swr1/rp/aac/96/stream.aac?aggregator=tunein,çalışıyor,"TuneIn OPML API (s1561, SWR1 Rheinland-Pfalz)",yeni_link
+SWR Aktuell,https://dispatcher.rndfnk.com/swr/swraktuell/live/aac/96/stream.aac?aggregator=tunein,çalışıyor,"TuneIn OPML API (s37126, SWR Aktuell)",yeni_link
+SWR Aktuell,https://dispatcher.rndfnk.com/swr/swraktuell/live/mp3/128/stream.mp3?aggregator=tunein,çalışıyor,"TuneIn OPML API (s37126, SWR Aktuell)",yeni_link
+DASDING,https://dispatcher.rndfnk.com/swr/dasding/live/aac/96/stream.aac?aggregator=tunein,çalışıyor,"TuneIn OPML API (s20295, DASDING)",yeni_link
+SWR Kultur,https://dispatcher.rndfnk.com/swr/swr2/live/aac/96/stream.aac?aggregator=tunein,çalışıyor,"TuneIn OPML API (s20292, SWR Kultur)",yeni_link
+bigFM,https://stream.bigfm.de/deutschland/aac-128/tunein,çalışıyor,"TuneIn OPML API (s84203, bigFM)",yeni_link
+bigFM,https://stream.bigfm.de/deutschland/aac-64/tunein,çalışıyor,"TuneIn OPML API (s84203, bigFM)",yeni_link
+bigFM,https://stream.bigfm.de/deutschland/mp3-128/tunein,çalışıyor,"TuneIn OPML API (s84203, bigFM)",yeni_link
+Schwarzwaldradio,https://frontend.streamonkey.net/fho-schwarzwaldradiolive,çalışıyor,"TuneIn OPML API (s96770, Schwarzwaldradio)",yeni_link
+baden.fm,https://frontend.streams.baden.fm/badenfm-onair/stream/mp3?aggregator=TuneIn,çalışıyor,"TuneIn OPML API (s96141, baden.fm)",yeni_link
+Rock Antenne,https://stream.rockantenne.de/rockantenne/stream/aacp?aw_0_1st.playerid=tunein.com,çalışıyor,"TuneIn OPML API (s25217, ROCK ANTENNE)",yeni_link
+Radio Gong 96.3,https://addrad.io/44559h5,çalışıyor,"TuneIn OPML API (s17494, Radio Gong 96.3)",yeni_link
+Bayernwelle SüdOst,https://addrad.io/44565c6,çalışıyor,"TuneIn OPML API (s96148, Bayernwelle Südost)",yeni_link
+Bayernwelle SüdOst,https://addrad.io/4456594,çalışıyor,"TuneIn OPML API (s96148, Bayernwelle Südost)",yeni_link
+Berliner Rundfunk 91.4,https://stream.berliner-rundfunk.de/brf/mp3-128/tunein/,çalışıyor,"TuneIn OPML API (s24950, BERLINER RUNDFUNK 91.4)",yeni_link
+Radio Gold,https://addrad.io/4454svj,çalışıyor,"TuneIn OPML API (s212945, radio GOLD)",yeni_link
+Radio Gold,https://addrad.io/4454sqw,çalışıyor,"TuneIn OPML API (s212945, radio GOLD)",yeni_link
+Radio Gold,https://addrad.io/4455f4q,çalışıyor,"TuneIn OPML API (s212945, radio GOLD)",yeni_link
+Hit Radio FFH,https://streams.ffh.de/radioffh/aac/playerid:RTFFHTunein/hqlivestream.aac,çalışıyor,"TuneIn OPML API (s17490, Hit Radio FFH)",yeni_link
+Hit Radio FFH,https://streams.ffh.de/radioffh/aac/playerid:RTFFHTunein/livestream.aac,çalışıyor,"TuneIn OPML API (s17490, Hit Radio FFH)",yeni_link
+Antenne Niedersachsen,https://stream.antenne.com/antenne-nds/mp3-192/tunein/,çalışıyor,"TuneIn OPML API (s116053, Antenne Niedersachsen)",yeni_link
+Antenne Niedersachsen,https://stream.antenne.com/antenne-nds/mp3-128/tunein/,çalışıyor,"TuneIn OPML API (s116053, Antenne Niedersachsen)",yeni_link
+Hitradio Ohr,https://frontend.streamonkey.net/fho-hitradioohrlive?aggregator=tunein,çalışıyor,"TuneIn OPML API (s8996, HITRADIO OHR)",yeni_link
+Antenne Niederrhein,https://stream.antenneniederrhein.de/444z5py,çalışıyor,"TuneIn OPML API (s84191, Antenne Niederrhein)",yeni_link
+Radio Köln,https://stream.lokalradio.nrw/444z7kg,çalışıyor,"TuneIn OPML API (s16252, Radio Köln)",yeni_link
+Radio Köln,https://stream.lokalradio.nrw/444z7hq,çalışıyor,"TuneIn OPML API (s16252, Radio Köln)",yeni_link
+Radio Duisburg,https://stream.lokalradio.nrw/444zbtg,çalışıyor,"TuneIn OPML API (s78341, Radio Duisburg)",yeni_link
+Radio Duisburg,https://stream.lokalradio.nrw/444zbw7,çalışıyor,"TuneIn OPML API (s78341, Radio Duisburg)",yeni_link
+Antenne Unna,https://stream.lokalradio.nrw/4453yxy,çalışıyor,"TuneIn OPML API (s48771, Antenne Unna)",yeni_link
+NE-WS 89.4,https://stream.news894.de/444z5xy,çalışıyor,"TuneIn OPML API (s47781, NE-WS 89.4)",yeni_link
+NE-WS 89.4,https://stream.news894.de/444z5tg,çalışıyor,"TuneIn OPML API (s47781, NE-WS 89.4)",yeni_link
+NE-WS 89.4,https://stream.news894.de/444z5w7,çalışıyor,"TuneIn OPML API (s47781, NE-WS 89.4)",yeni_link
+Radio Berg,https://stream.lokalradio.nrw/444z6rq,çalışıyor,"TuneIn OPML API (s84565, Radio Berg)",yeni_link
+Radio Bonn/Rhein-Sieg,https://stream.lokalradio.nrw/444z6zq,çalışıyor,"TuneIn OPML API (s6644, Radio Bonn/Rhein-Sieg)",yeni_link
+Radio Bonn/Rhein-Sieg,https://stream.lokalradio.nrw/444z6xy,çalışıyor,"TuneIn OPML API (s6644, Radio Bonn/Rhein-Sieg)",yeni_link
+Radio Bonn/Rhein-Sieg,https://stream.lokalradio.nrw/444z73g,çalışıyor,"TuneIn OPML API (s6644, Radio Bonn/Rhein-Sieg)",yeni_link
+Radio Erft,https://stream.lokalradio.nrw/444z757,çalışıyor,"TuneIn OPML API (s78352, Radio Erft)",yeni_link
+Radio Erft,https://stream.lokalradio.nrw/444z78q,çalışıyor,"TuneIn OPML API (s78352, Radio Erft)",yeni_link
+Radio Euskirchen,https://stream.lokalradio.nrw/444z7d7,çalışıyor,"TuneIn OPML API (s78363, Radio Euskirchen)",yeni_link
+Radio Euskirchen,https://stream.lokalradio.nrw/444z7bg,çalışıyor,"TuneIn OPML API (s78363, Radio Euskirchen)",yeni_link
+Radio Euskirchen,https://stream.lokalradio.nrw/444z7fy,çalışıyor,"TuneIn OPML API (s78363, Radio Euskirchen)",yeni_link
+Radio Gütersloh,https://stream.lokalradio.nrw/444z8fy,çalışıyor,"TuneIn OPML API (s47791, Radio Gütersloh)",yeni_link
+Radio Lippe,https://stream.lokalradio.nrw/444z9py,çalışıyor,"TuneIn OPML API (s96523, Radio Lippe)",yeni_link
+Radio MK,https://stream.lokalradio.nrw/44542d7,çalışıyor,"TuneIn OPML API (s8723, Radio MK)",yeni_link
+Radio MK,https://stream.lokalradio.nrw/44542bg,çalışıyor,"TuneIn OPML API (s8723, Radio MK)",yeni_link
+Radio MK,https://stream.lokalradio.nrw/445g24s,çalışıyor,"TuneIn OPML API (s8723, Radio MK)",yeni_link
+Radio Neandertal,https://stream.radioneandertal.de/444z657,çalışıyor,"TuneIn OPML API (s78909, Radio Neandertal)",yeni_link
+Radio Neandertal,https://stream.radioneandertal.de/444z5zq,çalışıyor,"TuneIn OPML API (s78909, Radio Neandertal)",yeni_link
+Radio Neandertal,https://stream.radioneandertal.de/444z63g,çalışıyor,"TuneIn OPML API (s78909, Radio Neandertal)",yeni_link
+Radio WAF,https://stream.lokalradio.nrw/444z9xy,çalışıyor,"TuneIn OPML API (s80160, Radio WAF)",yeni_link
+RPR1,https://stream.rpr1.de/webradio/aac-128/tunein,çalışıyor,"TuneIn OPML API (s9014, RPR1.)",yeni_link
+RPR1,https://stream.rpr1.de/webradio/aac-64/tunein,çalışıyor,"TuneIn OPML API (s9014, RPR1.)",yeni_link
+RPR1,https://stream.rpr1.de/webradio/mp3-128/tunein,çalışıyor,"TuneIn OPML API (s9014, RPR1.)",yeni_link
+Antenne Mainz,https://addrad.io/44556v5,çalışıyor,"TuneIn OPML API (s144765, Antenne Mainz)",yeni_link
+Radio PSR,https://streams.radiopsr.de/psr-live/mp3-192/tunein/,çalışıyor,"TuneIn OPML API (s6649, RADIO PSR)",yeni_link
+Radio Brocken,https://stream.radiobrocken.de/live/aac-64/tunein/play.m3u,çalışıyor,"TuneIn OPML API (s17231, Radio Brocken)",yeni_link
+Radio Brocken,https://stream.radiobrocken.de/live/mp3-256/tunein/play.m3u,çalışıyor,"TuneIn OPML API (s17231, Radio Brocken)",yeni_link
+Radio Brocken,https://stream.radiobrocken.de/live/mp3-128/tunein/play.m3u,çalışıyor,"TuneIn OPML API (s17231, Radio Brocken)",yeni_link
+R.SH,https://streams.rsh.de/rsh-live/mp3-192/tunein/,çalışıyor,"TuneIn OPML API (s18353, R.SH)",yeni_link
+delta radio,https://streams.deltaradio.de/delta-live/mp3-192/tunein/,çalışıyor,"TuneIn OPML API (s24973, delta radio)",yeni_link
+ERF Plus,https://addrad.io/44599hq,çalışıyor,"TuneIn OPML API (s24982, ERF Plus)",yeni_link
+Klassik Radio,https://stream.klassikradio.de/national/aac-128/tunein,çalışıyor,"TuneIn OPML API (s25028, Klassik Radio)",yeni_link
+Klassik Radio,https://stream.klassikradio.de/national/mp3-192/tunein,çalışıyor,"TuneIn OPML API (s25028, Klassik Radio)",yeni_link
+Antenne Schlager,https://stream.antenne-schlager.de/schlager-live/aac-64/tunein/,çalışıyor,"TuneIn OPML API (s326054, Antenne Schlager)",yeni_link
+Antenne Schlager,https://stream.antenne-schlager.de/schlager-live/mp3-192/tunein/,çalışıyor,"TuneIn OPML API (s326054, Antenne Schlager)",yeni_link
+Antenne Schlager,https://stream.antenne-schlager.de/schlager-live/mp3-128/tunein/,çalışıyor,"TuneIn OPML API (s326054, Antenne Schlager)",yeni_link
+ByteFM,https://addrad.io/4459jw3,çalışıyor,"TuneIn OPML API (s77934, ByteFM)",yeni_link
+DELUXE EASY,https://audiostreams.deluxemusic.tv/easy/aac-64/tunein/,çalışıyor,"TuneIn OPML API (s282005, DELUXE EASY)",yeni_link
+DELUXE EASY,https://audiostreams.deluxemusic.tv/easy/mp3-128/tunein/,çalışıyor,"TuneIn OPML API (s282005, DELUXE EASY)",yeni_link
+DELUXE LOUNGE RADIO,https://audiostreams.deluxemusic.tv/lounge/aac-64/tunein/,çalışıyor,"TuneIn OPML API (s125250, DELUXE LOUNGE RADIO)",yeni_link
+DELUXE LOUNGE RADIO,https://audiostreams.deluxemusic.tv/lounge/mp3-128/tunein/,çalışıyor,"TuneIn OPML API (s125250, DELUXE LOUNGE RADIO)",yeni_link
+DELUXE MUSIC RADIO,https://audiostreams.deluxemusic.tv/music/aac-64/tunein/,çalışıyor,"TuneIn OPML API (s282007, DELUXE MUSIC RADIO)",yeni_link
+DELUXE MUSIC RADIO,https://audiostreams.deluxemusic.tv/music/mp3-128/tunein/,çalışıyor,"TuneIn OPML API (s282007, DELUXE MUSIC RADIO)",yeni_link
+JAM FM Black Label,https://stream.jam.fm/jamfm-bl/mp3-192/tunein/,çalışıyor,"TuneIn OPML API (s237163, JAM FM Black Label)",yeni_link
+JAM FM Black Label,https://stream.jam.fm/jamfm-bl/aac-64/tunein/,çalışıyor,"TuneIn OPML API (s237163, JAM FM Black Label)",yeni_link
+JAM FM Black Label,https://stream.jam.fm/jamfm-bl/mp3-128/tunein/,çalışıyor,"TuneIn OPML API (s237163, JAM FM Black Label)",yeni_link
+Radio Paloma,https://stream.silvacast.com/RPLive/mp3-128/tunein_com/?s=tunein,çalışıyor,"TuneIn OPML API (s97169, Radio Paloma)",yeni_link
+Radio Paloma,https://stream.silvacast.com/RPLive/aac-48/tunein_com/?s=tunein,çalışıyor,"TuneIn OPML API (s97169, Radio Paloma)",yeni_link
+Radio Teddy,https://streamtdy.ir-media-tec.com/live/aac-64/tunein_web_aac,çalışıyor,"TuneIn OPML API (s80044, Radio TEDDY)",yeni_link
+Radio Teddy,https://streamtdy.ir-media-tec.com/live/mp3-128/tunein_web_mp3,çalışıyor,"TuneIn OPML API (s80044, Radio TEDDY)",yeni_link
+Schlager Radio,https://addrad.io/4454r7z,çalışıyor,"TuneIn OPML API (s141788, Schlager Radio)",yeni_link
+Toggo Radio,https://radio.toggo.de/live/aac-64/tunein/,çalışıyor,"TuneIn OPML API (s309345, TOGGO Radio)",yeni_link
+Toggo Radio,https://radio.toggo.de/live/mp3-192/tunein/,çalışıyor,"TuneIn OPML API (s309345, TOGGO Radio)",yeni_link
+Toggo Radio,https://radio.toggo.de/live/mp3-128/tunein/,çalışıyor,"TuneIn OPML API (s309345, TOGGO Radio)",yeni_link
+104.6 RTL,https://stream.104.6rtl.com/rtl-live/aac-64,çalışıyor,"radio.net API (1046rtl, 104.6 RTL)",yeni_link
+104.6 RTL,https://stream.104.6rtl.com/rtl-live/mp3-128,çalışıyor,"radio.net API (1046rtl, 104.6 RTL)",yeni_link
+Hit Radio FFH,https://streams.ffh.de/radioffh/aac/hqlivestream.aac?amsparams=playerid:RTFFHRadioDE,çalışıyor,"radio.net API (ffh, HIT RADIO FFH)",yeni_link
+Hit Radio FFH,https://streams.ffh.de/radioffh/aac/livestream.aac?amsparams=playerid:RTFFHRadioDE,çalışıyor,"radio.net API (ffh, HIT RADIO FFH)",yeni_link
+Antenne Niedersachsen,https://stream.antenne.com/antenne-nds/mp3-192/radiode/,çalışıyor,"radio.net API (antenneniedersachsen, Antenne Niedersachsen)",yeni_link
+NE-WS 89.4,https://addrad.io/444z5xx,çalışıyor,"radio.net API (news894, NE-WS 89.4)",yeni_link
+Antenne Mainz,https://addrad.io/44556v4,çalışıyor,"radio.net API (antennemainz, Antenne Mainz 106,6)",yeni_link
+Radio SAW,https://stream.radiosaw.de/saw/mp3-192/radiode/,çalışıyor,"radio.net API (radiosaw, radio SAW)",yeni_link
+Radio SAW,https://stream.radiosaw.de/saw/aac-48/radiode/stream.mp3,çalışıyor,"radio.net API (radiosaw, radio SAW)",yeni_link
+Star*Sat Radio,https://addrad.io/4454t6m,çalışıyor,"radio.net API (starsat, STAR*SAT RADIO)",yeni_link
+NDR 1 Niedersachsen,https://ndr-audio.akamaized.net/hls/live/2110916/NDR1NDSH/96/seglist.m3u8,çalışıyor,fmstream.org (NDR 1 Niedersachsen),yeni_link
+NDR 1 Niedersachsen,https://ndr-audio.akamaized.net/hls/live/2110916/NDR1NDSH/master.m3u8,çalışıyor,fmstream.org (NDR 1 Niedersachsen),yeni_link
+NDR Schlager,https://ndr-audio.akamaized.net/hls/live/2110938/NDRSCHLAGER/96/seglist.m3u8,çalışıyor,fmstream.org (NDR Schlager),yeni_link
+NDR Schlager,https://ndr-audio.akamaized.net/hls/live/2110938/NDRSCHLAGER/master.m3u8,çalışıyor,fmstream.org (NDR Schlager),yeni_link
+NDR Schlager,https://ndr-audio.akamaized.net/hls/live/2110938/NDRSCHLAGER/192/seglist.m3u8,çalışıyor,fmstream.org (NDR Schlager),yeni_link
+KISS FM,https://stream.kissfm.de/kissfm/aac-64,çalışıyor,fmstream.org (Kiss FM),yeni_link
+KISS FM,https://topradio-de-hz-fal-stream05-cluster01.radiohost.de/kissfm_128,çalışıyor,fmstream.org (Kiss FM),yeni_link
+KISS FM,https://topradio-stream01.radiohost.de/kissfm_mp3-128,çalışıyor,fmstream.org (Kiss FM),yeni_link
+KISS FM,https://topradio-de-hz-fal-stream01-cluster01.radiohost.de/kissfm_128,çalışıyor,fmstream.org (Kiss FM),yeni_link
+KISS FM,https://topradio-de-hz-fal-stream04-cluster01.radiohost.de/kissfm_mp3-192,çalışıyor,fmstream.org (Kiss FM),yeni_link
+Radio Gold,https://addrad.io/4454st4,çalışıyor,fmstream.org (Radio Gold),yeni_link
+Radio Gold,https://addrad.io/4454sv7,çalışıyor,fmstream.org (Radio Gold),yeni_link
+Hit Radio FFH,https://mp3.ffh.de/radioffh/livestream.aac,çalışıyor,fmstream.org (Hit Radio FFH),yeni_link
+Hit Radio FFH,https://streams.ffh.de/radioffh/mp3/playerid:RTFFHTunein/hqlivestream.mp3,çalışıyor,fmstream.org (Hit Radio FFH),yeni_link
+Hit Radio FFH,https://mp3.ffh.de/radioffh/livestream.mp3,çalışıyor,fmstream.org (Hit Radio FFH),yeni_link
+Radio Bob,https://streams.radiobob.de/bob-national/mp3-192,çalışıyor,fmstream.org (Radio BOB),yeni_link
+Antenne Niedersachsen,https://stream.antenne.com/antenne-nds/mp3-128,çalışıyor,fmstream.org (Antenne Niedersachsen),yeni_link
+Oldie Antenne,https://stream.antenne.de/oldie-antenne.aac,çalışıyor,fmstream.org (Oldie Antenne),yeni_link
+Oldie Antenne,https://stream.antenne.de/oldie-antenne/stream/aacp,çalışıyor,fmstream.org (Oldie Antenne),yeni_link
+Oldie Antenne,https://stream.oldie-antenne.de/oldie-antenne,çalışıyor,fmstream.org (Oldie Antenne),yeni_link
+Oldie Antenne,https://stream.antenne.de/oldie-antenne,çalışıyor,fmstream.org (Oldie Antenne),yeni_link
+Antenne Unna,https://addrad.io/4453yyc,çalışıyor,fmstream.org (Antenne Unna),yeni_link
+Antenne Unna,https://addrad.io/4453yzg,çalışıyor,fmstream.org (Antenne Unna),yeni_link
+Antenne Unna,https://addrad.io/4453yxy,çalışıyor,fmstream.org (Antenne Unna),yeni_link
+Antenne Unna,https://addrad.io/4453yyj,çalışıyor,fmstream.org (Antenne Unna),yeni_link
+Radio 91.2 Dortmund,https://addrad.io/4453z5m,çalışıyor,fmstream.org (Radio 91.2),yeni_link
+Radio 91.2 Dortmund,https://addrad.io/4453z57,çalışıyor,fmstream.org (Radio 91.2),yeni_link
+Radio Euskirchen,https://addrad.io/444z7bv,çalışıyor,fmstream.org (Radio Euskirchen),yeni_link
+Radio Euskirchen,https://addrad.io/444z7cy,çalışıyor,fmstream.org (Radio Euskirchen),yeni_link
+Radio Euskirchen,https://addrad.io/444z7bg,çalışıyor,fmstream.org (Radio Euskirchen),yeni_link
+Radio Gütersloh,https://addrad.io/444z8gc,çalışıyor,fmstream.org (Radio Gütersloh),yeni_link
+Radio Gütersloh,https://addrad.io/444z8my,çalışıyor,fmstream.org (Radio Gütersloh),yeni_link
+Radio Gütersloh,https://addrad.io/444z8kg,çalışıyor,fmstream.org (Radio Gütersloh),yeni_link
+Radio Lippe,https://addrad.io/444z9qc,çalışıyor,fmstream.org (Radio Lippe),yeni_link
+Radio Lippe,https://addrad.io/444z9rg,çalışıyor,fmstream.org (Radio Lippe),yeni_link
+Radio Lippe,https://addrad.io/444z9kg,çalışıyor,fmstream.org (Radio Lippe),yeni_link
+Radio MK,https://addrad.io/44542bb,çalışıyor,fmstream.org (Radio MK),yeni_link
+Radio MK,https://addrad.io/44542gc,çalışıyor,fmstream.org (Radio MK),yeni_link
+Radio MK,https://addrad.io/4454294,çalışıyor,fmstream.org (Radio MK),yeni_link
+Radio MK,https://addrad.io/445428q,çalışıyor,fmstream.org (Radio MK),yeni_link
+Radio Neandertal,https://addrad.io/444z637,çalışıyor,fmstream.org (Radio Neandertal),yeni_link
+Radio Neandertal,https://addrad.io/444z65m,çalışıyor,fmstream.org (Radio Neandertal),yeni_link
+Radio Neandertal,https://addrad.io/444z66t,çalışıyor,fmstream.org (Radio Neandertal),yeni_link
+Radio Neandertal,https://addrad.io/444z657,çalışıyor,fmstream.org (Radio Neandertal),yeni_link
+Radio WAF,https://addrad.io/444zb24,çalışıyor,fmstream.org (Radio WAF),yeni_link
+Radio WAF,https://addrad.io/444z9zg,çalışıyor,fmstream.org (Radio WAF),yeni_link
+Radio WAF,https://addrad.io/444zb3g,çalışıyor,fmstream.org (Radio WAF),yeni_link
+RPR1,https://streams.rpr1.de/rpr-simulcast-64-aac,çalışıyor,fmstream.org (RPR1),yeni_link
+RPR1,https://stream.rpr1.de/webradio/aac-64,çalışıyor,fmstream.org (RPR1),yeni_link
+RPR1,https://stream.rpr1.de/webradio/aac-128,çalışıyor,fmstream.org (RPR1),yeni_link
+RPR1,https://stream.rpr1.de/webradio/mp3-128,çalışıyor,fmstream.org (RPR1),yeni_link
+RPR1,https://streams.rpr1.de/rpr-simulcast-128-aac,çalışıyor,fmstream.org (RPR1),yeni_link
+Antenne Mainz,https://addrad.io/44556w3,çalışıyor,fmstream.org (Antenne Mainz 106.6 FM Live),yeni_link
+Radio SAW,https://stream.saw-musikwelt.de/saw/mp3-128,çalışıyor,fmstream.org (Radio SAW),yeni_link
+Radio SAW,https://stream.radiosaw.de/saw/mp3-128,çalışıyor,fmstream.org (Radio SAW),yeni_link
+R.SH,https://streams.rsh.de/rsh-live/aac-64,çalışıyor,fmstream.org (RSH Radio Schleswig-Holstein),yeni_link
+R.SH,https://streams.rsh.de/rsh-live/mp3-128,çalışıyor,fmstream.org (RSH Radio Schleswig-Holstein),yeni_link
+delta radio,https://streams.deltaradio.de/delta-live/aac-64,çalışıyor,fmstream.org (Delta Radio),yeni_link
+delta radio,https://streams.deltaradio.de/delta-live/mp3-128,çalışıyor,fmstream.org (Delta Radio),yeni_link
+delta radio,https://streams.deltaradio.de/delta-live/aac-48,çalışıyor,fmstream.org (Delta Radio),yeni_link
+delta radio,https://streams.deltaradio.de/delta-live/mp3-192,çalışıyor,fmstream.org (Delta Radio),yeni_link
+Radio Paloma,https://pool.radiopaloma.de/RADIOPALOMA_fallback.aac,çalışıyor,fmstream.org (Radio Paloma),yeni_link
+Radio Paloma,https://pool.radiopaloma.de/RADIOPALOMA_fallback.mp3,çalışıyor,fmstream.org (Radio Paloma),yeni_link
+Radio Paloma,https://pool.radiopaloma.de/RADIOPALOMA.aac,çalışıyor,fmstream.org (Radio Paloma),yeni_link
+Radio Teddy,https://streamtdy.ir-media-tec.com/live/mp3-128,çalışıyor,fmstream.org (Radio Teddy),yeni_link
+Schlager Radio,https://addrad.io/4454r8d,çalışıyor,fmstream.org (Schlager Radio),yeni_link
+Star*Sat Radio,https://addrad.io/4454t72,çalışıyor,fmstream.org (Starsat Radio),yeni_link
+Bayern 3,https://dispatcher.rndfnk.com/br/br3/live/mp3/low?aggregator=tunein,sadece Almanya (geo-loop: yurtdışında ARD Sounds Geoloop),"TuneIn OPML API (s14991, Bayern 3)",yeni_link
+Cosmo,https://wdr-cosmo-live.icecastssl.wdr.de/wdr/cosmo/live/mp3/56/stream.mp3?aggregator=tunein,sadece Almanya (geo-loop: yurtdışında ARD Sounds Geoloop),"TuneIn OPML API (s37375, COSMO)",yeni_link
+Antenne Mainz,https://stream.antenne-mainz.de/antennemainz-live/mp3-192?ref=radio-browser,çalışıyor,GitHub kod araması (junguler m3u-radio-music),yeni_link
+Antenne Bayern,https://s4-webradio.antenne.de/antenne,çalışıyor,GitHub kod araması (junguler m3u-radio-music),yeni_link
+Absolut relax,https://edge67.live-sm.absolutradio.de/absolut-relax,çalışıyor,GitHub kod araması (junguler m3u-radio-music),yeni_link
+NDR 2,https://www.ndr.de/resources/metadaten/audio/aac/ndr2.m3u,çalışıyor,GitHub kod araması (junguler m3u-radio-music),yeni_link
+Radio Dresden,https://edge71.radio.radiodresden.de/radiodresden-live?aggregator=redirect,çalışıyor,GitHub kod araması (junguler m3u-radio-music),yeni_link
+Radio Dresden,https://edge59.radio.radiodresden.de/radiodresden-live?aggregator=redirect,çalışıyor,GitHub kod araması (junguler m3u-radio-music),yeni_link
+NDR 1 Niedersachsen,https://www.ndr.de/resources/metadaten/audio/aac/ndr1niedersachsen.m3u,çalışıyor,GitHub kod araması (junguler m3u-radio-music),yeni_link
+NDR Schlager,https://www.ndr.de/resources/metadaten/audio/aac/ndrschlager.m3u,çalışıyor,GitHub kod araması (junguler m3u-radio-music),yeni_link
+Absolut Radio,https://edge71.live-sm.absolutradio.de/absolut-germany/stream/mp3?aggregator,çalışıyor,GitHub kod araması (junguler m3u-radio-music),yeni_link
+ServusTV Deutschland,https://stv-live.akamaized.net/hls/live/2031020/lingeoSTVDEwebBU/master.m3u8,sadece Almanya (geo 403),GitHub kod araması (PrinzMichiDE iptv-kodi),yeni_link

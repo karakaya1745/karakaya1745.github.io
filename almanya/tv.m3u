@@ -121,10 +121,6 @@ https://tagesschau.akamaized.net/hls/live/2020117/tagesschau/tagesschau_3/master
 #EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (14)
 https://tagesschau.akamaized.net/hls/live/2020117/tagesschau/tagesschau_3/master-720p-3328.m3u8
 #EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (15)
-https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/int/master1080p5000.m3u8
-#EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (16)
-https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/int/master360p1200.m3u8
-#EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (17)
 https://tagesschau.akamaized.net/dash/live/2020098/tagesschau/tagesschau_3/tagesschau_3.mpd
 #EXTINF:-1 tvg-id="tv-kika" tvg-name="KIKA" group-title="public",KIKA (1)
 https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8
@@ -233,8 +229,6 @@ https://mcdn.br.de/br/fs/bfs_sued/hls/de/master720p3200.m3u8
 #EXTINF:-1 tvg-id="tv-bayerisches-fernsehen-sued" tvg-name="Bayerisches Fernsehen Süd" group-title="regional",Bayerisches Fernsehen Süd (5)
 https://mcdn.br.de/br/fs/bfs_sued/hls/int/master.m3u8
 #EXTINF:-1 tvg-id="tv-bayerisches-fernsehen-sued" tvg-name="Bayerisches Fernsehen Süd" group-title="regional",Bayerisches Fernsehen Süd (6)
-https://mcdn.br.de/bfs_sued/de/master.m3u8
-#EXTINF:-1 tvg-id="tv-bayerisches-fernsehen-sued" tvg-name="Bayerisches Fernsehen Süd" group-title="regional",Bayerisches Fernsehen Süd (7)
 https://bfrsueddash.akamaized.net/dash/live/2016970/bfs_sued_de/dvbt2/manifest.mpd
 #EXTINF:-1 tvg-id="tv-hr-fernsehen" tvg-name="HR Fernsehen" group-title="regional",HR Fernsehen (1)
 https://hrhls.akamaized.net/hls/live/2024525/hrhls/index.m3u8
@@ -676,6 +670,8 @@ https://sdn-global-live-streaming-packager-cache.3qsdn.com/126101/126101_264_liv
 https://mts1.iptv-playoutcenter.de/mts/mts-web/mts/mtsw3/chunks.m3u8
 #EXTINF:-1 tvg-id="tv-servustv-deutschland" tvg-name="ServusTV Deutschland" group-title="other",ServusTV Deutschland (1)
 https://stv-live.akamaized.net/hls/live/2031012/lingeoSTVDEwebPri/master_3392.m3u8
+#EXTINF:-1 tvg-id="tv-servustv-deutschland" tvg-name="ServusTV Deutschland" group-title="other",ServusTV Deutschland (2)
+https://stv-live.akamaized.net/hls/live/2031020/lingeoSTVDEwebBU/master.m3u8
 #EXTINF:-1 tvg-id="tv-kanal-avrupa" tvg-name="Kanal Avrupa" group-title="international",Kanal Avrupa (1)
 https://api-tv27.yayin.com.tr/kanalavrupa/index.m3u8
 #EXTINF:-1 tvg-id="tv-cira-tv" tvg-name="Çira TV" group-title="international",Çira TV (1)
@@ -958,12 +954,6 @@ https://hse24trend.akamaized.net/hls/live/2006597-b/hse24trend/master_576_1p25.m
 https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/master_576_2p25.m3u8
 #EXTINF:-1 tvg-id="tv-juwelo" tvg-name="Juwelo" group-title="shopping",Juwelo (1)
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3u8
-#EXTINF:-1 tvg-id="tv-juwelo" tvg-name="Juwelo" group-title="shopping",Juwelo (2)
-https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/2646acd5413662e9_12812347_2610120941_3_3.m3u8
-#EXTINF:-1 tvg-id="tv-juwelo" tvg-name="Juwelo" group-title="shopping",Juwelo (3)
-https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/2646acd5413662e9_12812347_2610120941_2_2.m3u8
-#EXTINF:-1 tvg-id="tv-juwelo" tvg-name="Juwelo" group-title="shopping",Juwelo (4)
-https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/2646acd5413662e9_12812347_2610120941_1_1.m3u8
 #EXTINF:-1 tvg-id="tv-shop-lc-deutschland" tvg-name="Shop LC Deutschland" group-title="shopping",Shop LC Deutschland (1)
 https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel(LCGERMANYWEB)/master.m3u8
 #EXTINF:-1 tvg-id="tv-shop-lc-deutschland" tvg-name="Shop LC Deutschland" group-title="shopping",Shop LC Deutschland (2)
