@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-25T10:06:45.610Z",
+  "generatedAt": "2026-10-28T11:30:58.622Z",
   "dryRun": true,
   "skipProbe": false,
-  "targetCount": 1016,
+  "targetCount": 1009,
   "enriched": [
     {
       "key": "bloomberght",
@@ -29,49 +29,6 @@
           "live": true,
           "reason": "hls-manifest",
           "status": 206
-        }
-      ]
-    },
-    {
-      "key": "cartoonnetwork",
-      "added": 2,
-      "urls": [
-        "https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8",
-        "https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/live/87H/chunks.m3u8"
-      ],
-      "total": 3,
-      "probeResults": [
-        {
-          "url": "https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 206
-        },
-        {
-          "url": "https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/live/87H/chunks.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 206
-        },
-        {
-          "url": "http://ch.canlitvlive.io/cartoonnetwork/live.m3u8",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
-          "live": false,
-          "reason": "timeout"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
-          "live": false,
-          "reason": "timeout"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
-          "live": false,
-          "reason": "timeout"
         }
       ]
     },
@@ -113,12 +70,19 @@
     },
     {
       "key": "estv",
-      "added": 1,
+      "added": 2,
       "urls": [
+        "https://a-cdn.klowdtv.com/live2/estv_720p/playlist.m3u8",
         "https://cloudfront44.lexanetwork.com:1344/relay01/HDE032.sdp/playlist.m3u8"
       ],
-      "total": 3,
+      "total": 4,
       "probeResults": [
+        {
+          "url": "https://a-cdn.klowdtv.com/live2/estv_720p/playlist.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        },
         {
           "url": "https://cloudfront44.lexanetwork.com:1344/relay01/HDE032.sdp/playlist.m3u8",
           "live": true,
@@ -187,18 +151,19 @@
     },
     {
       "key": "lifetv",
-      "added": 2,
+      "added": 3,
       "urls": [
+        "http://88.212.7.14/live/lifetv/index.m3u8",
         "http://lifetv.bitflip.ee/live/stream1_1/index.m3u8",
         "https://lifetv.livebox.co.in/lifetvhls/lifetv.m3u8"
       ],
-      "total": 5,
+      "total": 6,
       "probeResults": [
         {
-          "url": "http://88.212.15.17/live/lifetv/index.m3u8",
-          "live": false,
-          "reason": "http-404",
-          "status": 404
+          "url": "http://88.212.7.14/live/lifetv/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
         },
         {
           "url": "http://lifetv.bitflip.ee/live/stream1_1/index.m3u8",
@@ -211,6 +176,34 @@
           "live": true,
           "reason": "hls-manifest",
           "status": 206
+        }
+      ]
+    },
+    {
+      "key": "now",
+      "added": 1,
+      "urls": [
+        "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8"
+      ],
+      "total": 10,
+      "probeResults": [
+        {
+          "url": "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 200
+        },
+        {
+          "url": "https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=6QNlEu4Mnsjp_Vvp0v1zlw&e=1750665018",
+          "live": false,
+          "reason": "http-403",
+          "status": 403
+        },
+        {
+          "url": "https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=6QNlEu4Mnsjp_Vvp0v1zlw&e=1750665018",
+          "live": false,
+          "reason": "http-403",
+          "status": 403
         }
       ]
     },
@@ -268,37 +261,6 @@
       ]
     },
     {
-      "key": "tv1",
-      "added": 1,
-      "urls": [
-        "https://live.tv1.rw/index.m3u8"
-      ],
-      "total": 3,
-      "probeResults": [
-        {
-          "url": "https://live.tv1.rw/index.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 206
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=196659&extension=ts&play_token=9d3LgPUiM1",
-          "live": false,
-          "reason": "timeout"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=196659&extension=ts&play_token=9d3LgPUiM1",
-          "live": false,
-          "reason": "timeout"
-        },
-        {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=196659&extension=ts&play_token=9d3LgPUiM1",
-          "live": false,
-          "reason": "timeout"
-        }
-      ]
-    },
-    {
       "key": "tv3",
       "added": 2,
       "urls": [
@@ -350,12 +312,34 @@
       ]
     },
     {
+      "key": "dreamtv",
+      "added": 1,
+      "urls": [
+        "https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8"
+      ],
+      "total": 3,
+      "probeResults": [
+        {
+          "url": "https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        },
+        {
+          "url": "https://cdn4.skygo.mn/live/disk1/Dreambox/DASH-FTA/Dreambox.mpd",
+          "live": false,
+          "reason": "not-stream",
+          "status": 206
+        }
+      ]
+    },
+    {
       "key": "adatv",
       "added": 1,
       "urls": [
         "https://live-evg10.tv360.bitel.com.pe/bitel/alasdeaguilaSRT/playlist.m3u8"
       ],
-      "total": 3,
+      "total": 5,
       "probeResults": [
         {
           "url": "https://sc-kuzeykibrissmarttv.ercdn.net/adatv/bant1/playlist.m3u8",
@@ -375,48 +359,11 @@
           "status": 206
         }
       ]
-    },
-    {
-      "key": "arastv",
-      "added": 1,
-      "urls": [
-        "http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8"
-      ],
-      "total": 3,
-      "probeResults": [
-        {
-          "url": "http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 200
-        }
-      ]
-    },
-    {
-      "key": "kentturk",
-      "added": 1,
-      "urls": [
-        "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/chunks.m3u8"
-      ],
-      "total": 2,
-      "probeResults": [
-        {
-          "url": "http://yerelmedya.tv:1935/38kenttv/bant1/chunklist.m3u8",
-          "live": false,
-          "reason": "network-error"
-        },
-        {
-          "url": "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/chunks.m3u8",
-          "live": true,
-          "reason": "hls-manifest",
-          "status": 206
-        }
-      ]
     }
   ],
   "skippedFull": [],
-  "totalNewUrls": 19,
-  "enrichedCount": 16,
-  "streamMapRevision": 205,
+  "totalNewUrls": 18,
+  "enrichedCount": 14,
+  "streamMapRevision": 209,
   "mapChanged": true
 }

@@ -1,11 +1,10 @@
 {
-  "generatedAt": "2026-10-25T10:14:30.475Z",
+  "generatedAt": "2026-10-28T11:37:53.220Z",
   "dryRun": true,
-  "pending": 25,
+  "pending": 26,
   "skippedExists": [
     "TRT Spor 2",
     "TRT Genç",
-    "Cartoon Network",
     "Kon TV",
     "Kanal B",
     "Gonca TV",
@@ -34,6 +33,51 @@
           "live": true,
           "reason": "hls-manifest",
           "status": 200
+        }
+      ]
+    },
+    {
+      "name": "Cartoon Network",
+      "key": "cartoonnetwork",
+      "urls": [
+        "https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8",
+        "https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/live/87H/chunks.m3u8",
+        "http://212.5.144.156:8080/cartoon/index.m3u8"
+      ],
+      "m3uCandidates": 17,
+      "probeResults": [
+        {
+          "url": "https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        },
+        {
+          "url": "https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/live/87H/chunks.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        },
+        {
+          "url": "http://212.5.144.156:8080/cartoon/index.m3u8",
+          "live": true,
+          "reason": "hls-manifest",
+          "status": 206
+        },
+        {
+          "url": "http://ch.canlitvlive.io/cartoonnetwork/live.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "https://tv.arectv31.sbs/live/cartoonnetwork.m3u8",
+          "live": false,
+          "reason": "network-error"
+        },
+        {
+          "url": "https://tv.arectv34.sbs/live/cartoonnetwork.m3u8",
+          "live": false,
+          "reason": "network-error"
         }
       ]
     },
@@ -385,11 +429,12 @@
     }
   ],
   "warnings": [],
-  "addedCount": 3,
+  "addedCount": 4,
   "addedNames": [
     "Space Toon",
+    "Cartoon Network",
     "FM TV",
     "Süper TV"
   ],
-  "streamMapRevision": 205
+  "streamMapRevision": 209
 }

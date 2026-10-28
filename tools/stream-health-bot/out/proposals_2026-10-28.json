@@ -1,0 +1,941 @@
+{
+  "generatedAt": "2026-10-28T10:56:53.501Z",
+  "mode": "proposal-only",
+  "applied": false,
+  "catalogTouched": false,
+  "summary": {
+    "add_url": 14,
+    "add_channel": 1,
+    "remove_url": 41
+  },
+  "runs": [
+    {
+      "label": "health",
+      "ok": true,
+      "code": 0,
+      "timedOut": false,
+      "skipped": false
+    },
+    {
+      "label": "enrich",
+      "ok": true,
+      "code": 0,
+      "timedOut": false,
+      "skipped": false
+    },
+    {
+      "label": "discover",
+      "ok": true,
+      "code": 0,
+      "timedOut": false,
+      "skipped": false
+    }
+  ],
+  "sources": {
+    "health": "2026-10-28T10:56:53.544Z",
+    "enrich": "2026-10-28T11:30:58.622Z",
+    "discover": "2026-10-28T11:37:53.220Z"
+  },
+  "adds": [
+    {
+      "action": "add_url",
+      "channelName": "NOW",
+      "channelKey": "now",
+      "url": "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "NOW",
+      "channelKey": "now",
+      "url": "http://92.114.85.87:8015/play/a00a/index.m3u8",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "Life TV",
+      "channelKey": "lifetv",
+      "url": "http://88.212.7.14/live/lifetv/index.m3u8",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "Kon TV",
+      "channelKey": "kontv",
+      "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197191&extension=ts&play_token=PM2eb119cV",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "Kon TV",
+      "channelKey": "kontv",
+      "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197191&extension=ts&play_token=PM2eb119cV",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "Kon TV",
+      "channelKey": "kontv",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197191&extension=ts&play_token=PM2eb119cV",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "Kon TV",
+      "channelKey": "kontv",
+      "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197191&extension=ts&play_token=PM2eb119cV",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "Kon TV",
+      "channelKey": "kontv",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197191&extension=ts&play_token=PM2eb119cV",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "Kon TV",
+      "channelKey": "kontv",
+      "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197191&extension=ts&play_token=PM2eb119cV",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "ES TV",
+      "channelKey": "estv",
+      "url": "https://a-cdn.klowdtv.com/live2/estv_720p/playlist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "TV 3",
+      "channelKey": "tv3",
+      "url": "http://flussonic.linkintel.ru/tv-3/index.m3u8",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "TV 3",
+      "channelKey": "tv3",
+      "url": "http://stream.mcquack.net/136/index.m3u8",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_channel",
+      "channelName": "Cartoon Network",
+      "channelKey": "cartoonnetwork",
+      "url": "https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8",
+      "source": "discover-missing-channels",
+      "reason": "TKGS/eksik liste dry-run: yeni kanal"
+    },
+    {
+      "action": "add_url",
+      "channelName": "Cartoon Network",
+      "channelKey": "cartoonnetwork",
+      "url": "https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/live/87H/chunks.m3u8",
+      "source": "discover-missing-channels",
+      "reason": "Yeni kanal icin ek URL (dry-run)"
+    },
+    {
+      "action": "add_url",
+      "channelName": "Cartoon Network",
+      "channelKey": "cartoonnetwork",
+      "url": "http://212.5.144.156:8080/cartoon/index.m3u8",
+      "source": "discover-missing-channels",
+      "reason": "Yeni kanal icin ek URL (dry-run)"
+    }
+  ],
+  "removes": [
+    {
+      "action": "remove_url",
+      "channelName": "TYT Türk",
+      "channelKey": "tytturk",
+      "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/244eb57d-660d-4896-8abc-06e119f6f701.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "CNN Turk",
+      "channelKey": "cnnturk",
+      "url": "https://trn03.tulix.tv/gt-cnnturk-tv/index.m3u8?token=canlitvtr",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Cem TV",
+      "channelKey": "cemtv",
+      "url": "https://tv.cemtv.net:19360/cemtv/cemtv.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor",
+      "channelKey": "trtspor",
+      "url": "https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor",
+      "channelKey": "trtspor",
+      "url": "https://tv-trtspor1.medya.trt.com.tr/master_1440.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor",
+      "channelKey": "trtspor",
+      "url": "https://tv-trtspor1.medya.trt.com.tr/master.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor",
+      "channelKey": "trtspor",
+      "url": "https://tv-trtspor1.medya.trt.com.tr/master_1080.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor",
+      "channelKey": "trtspor",
+      "url": "https://tv-trtspor-esdai.medya.trt.com.tr/master_1080p.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor",
+      "channelKey": "trtspor",
+      "url": "https://tv-trtspor1.medya.trt.com.tr/master_360.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "A Spor",
+      "channelKey": "aspor",
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor Yildiz",
+      "channelKey": "trtsporyildiz",
+      "url": "https://tv-trtspor2.medya.trt.com.tr/master_720.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor Yildiz",
+      "channelKey": "trtsporyildiz",
+      "url": "https://tv-trtspor2.medya.trt.com.tr/master_1440p.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor Yildiz",
+      "channelKey": "trtsporyildiz",
+      "url": "https://tv-trtspor2.medya.trt.com.tr/master.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor Yildiz",
+      "channelKey": "trtsporyildiz",
+      "url": "https://tv-trtspor2-esdai.medya.trt.com.tr/master.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "FB TV",
+      "channelKey": "fbtv",
+      "url": "https://fbtv.fenerbahce.org/fenerbahcetv.stream/chunklist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "FB TV",
+      "channelKey": "fbtv",
+      "url": "https://fbtv.fenerbahce.org/fenerbahcetv.stream_720p/playlist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "FB TV",
+      "channelKey": "fbtv",
+      "url": "https://fbtv.fenerbahce.org/fenerbahcetv.stream/playlist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "FB TV",
+      "channelKey": "fbtv",
+      "url": "https://fbtv.fenerbahce.org/fenerbahcetv.stream_720p/chunklist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "FB TV",
+      "channelKey": "fbtv",
+      "url": "https://fbtv.fenerbahce.org/fenerbahcetv.stream_1080p/chunklist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Yaban TV",
+      "channelKey": "yabantv",
+      "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/e112125c-9be4-4b93-8e60-5850d865bff1.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Yaban TV",
+      "channelKey": "yabantv",
+      "url": "https://yayin1.canlitv.fun/canlitv/yabantv.stream/playlist.m3u8?hash=a6c3ccc58b9f43520fe87f8517cc3667",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "GONCA TV",
+      "channelKey": "goncatv",
+      "url": "https://edge1.socialsmart.tv/goncatv/bant1/playlist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "GONCA TV",
+      "channelKey": "goncatv",
+      "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/1413062b-8a59-4602-8a8c-8c40c3e2c428.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Urfanatik TV",
+      "channelKey": "urfanatiktv",
+      "url": "https://edge1.socialsmart.tv/urfanatiktv/bant1/chunks.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Bir TV",
+      "channelKey": "birtv",
+      "url": "https://edge1.socialsmart.tv/birtv/bant1/playlist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Bir TV",
+      "channelKey": "birtv",
+      "url": "https://edge1.socialsmart.tv/birtv/bant1/chunks.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Bir TV",
+      "channelKey": "birtv",
+      "url": "https://edge.socialsmart.tv/birtv/bant1/chunks.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Edessa TV",
+      "channelKey": "edessatv",
+      "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/579db75f-f409-43d8-af30-fd1f1b3ac5df.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "A Para",
+      "channelKey": "apara",
+      "url": "https://trkvz-live.ercdn.net/aparahd/aparahd.m3u8?st=tl3ck93nNUp_DG40IDeH8A&e=1792442116",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Fortuna TV",
+      "channelKey": "fortunatv",
+      "url": "https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kocaeli TV",
+      "channelKey": "kocaelitv",
+      "url": "https://edge1.socialsmart.tv/kocaelitv/bant1/chunks.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kocaeli TV",
+      "channelKey": "kocaelitv",
+      "url": "https://edge1.socialsmart.tv/kocaelitv/bant1/playlist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kıbrıs TV",
+      "channelKey": "kibristv",
+      "url": "https://edge1.socialsmart.tv/kibristv/bant1/playlist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kıbrıs TV",
+      "channelKey": "kibristv",
+      "url": "https://edge.socialsmart.tv/kibristv/bant1/playlist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kıbrıs TV",
+      "channelKey": "kibristv",
+      "url": "https://edge.socialsmart.tv/kibristv/bant1/chunks.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kıbrıs TV",
+      "channelKey": "kibristv",
+      "url": "https://edge1.socialsmart.tv/kibristv/bant1/chunks.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kıbrıs Genç TV",
+      "channelKey": "kibrisgenctv",
+      "url": "https://yayin1.canlitv.fun/canlitv/genctv.stream/playlist.m3u8?hash=a6c3ccc58b9f43520fe87f8517cc3667",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kıbrıs Genç TV",
+      "channelKey": "kibrisgenctv",
+      "url": "https://edge1.socialsmart.tv/kibrisgenctv/bant1/playlist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kıbrıs Genç TV",
+      "channelKey": "kibrisgenctv",
+      "url": "https://edge.socialsmart.tv/kibrisgenctv/bant1/playlist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kıbrıs Genç TV",
+      "channelKey": "kibrisgenctv",
+      "url": "https://edge.socialsmart.tv/kibrisgenctv/bant1/chunks.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kıbrıs Genç TV",
+      "channelKey": "kibrisgenctv",
+      "url": "https://edge1.socialsmart.tv/kibrisgenctv/bant1/chunks.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    }
+  ],
+  "proposals": [
+    {
+      "action": "add_url",
+      "channelName": "NOW",
+      "channelKey": "now",
+      "url": "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "NOW",
+      "channelKey": "now",
+      "url": "http://92.114.85.87:8015/play/a00a/index.m3u8",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "Life TV",
+      "channelKey": "lifetv",
+      "url": "http://88.212.7.14/live/lifetv/index.m3u8",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "Kon TV",
+      "channelKey": "kontv",
+      "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=197191&extension=ts&play_token=PM2eb119cV",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "Kon TV",
+      "channelKey": "kontv",
+      "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=197191&extension=ts&play_token=PM2eb119cV",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "Kon TV",
+      "channelKey": "kontv",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197191&extension=ts&play_token=PM2eb119cV",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "Kon TV",
+      "channelKey": "kontv",
+      "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:8E&stream=197191&extension=ts&play_token=PM2eb119cV",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "Kon TV",
+      "channelKey": "kontv",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:2E&stream=197191&extension=ts&play_token=PM2eb119cV",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "Kon TV",
+      "channelKey": "kontv",
+      "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CC:FD&stream=197191&extension=ts&play_token=PM2eb119cV",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "ES TV",
+      "channelKey": "estv",
+      "url": "https://a-cdn.klowdtv.com/live2/estv_720p/playlist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "TV 3",
+      "channelKey": "tv3",
+      "url": "http://flussonic.linkintel.ru/tv-3/index.m3u8",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_url",
+      "channelName": "TV 3",
+      "channelKey": "tv3",
+      "url": "http://stream.mcquack.net/136/index.m3u8",
+      "source": "stream-health-bot",
+      "reason": "M3U/health dry-run: yeni canli URL"
+    },
+    {
+      "action": "add_channel",
+      "channelName": "Cartoon Network",
+      "channelKey": "cartoonnetwork",
+      "url": "https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8",
+      "source": "discover-missing-channels",
+      "reason": "TKGS/eksik liste dry-run: yeni kanal"
+    },
+    {
+      "action": "add_url",
+      "channelName": "Cartoon Network",
+      "channelKey": "cartoonnetwork",
+      "url": "https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/live/87H/chunks.m3u8",
+      "source": "discover-missing-channels",
+      "reason": "Yeni kanal icin ek URL (dry-run)"
+    },
+    {
+      "action": "add_url",
+      "channelName": "Cartoon Network",
+      "channelKey": "cartoonnetwork",
+      "url": "http://212.5.144.156:8080/cartoon/index.m3u8",
+      "source": "discover-missing-channels",
+      "reason": "Yeni kanal icin ek URL (dry-run)"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TYT Türk",
+      "channelKey": "tytturk",
+      "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/244eb57d-660d-4896-8abc-06e119f6f701.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "CNN Turk",
+      "channelKey": "cnnturk",
+      "url": "https://trn03.tulix.tv/gt-cnnturk-tv/index.m3u8?token=canlitvtr",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Cem TV",
+      "channelKey": "cemtv",
+      "url": "https://tv.cemtv.net:19360/cemtv/cemtv.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor",
+      "channelKey": "trtspor",
+      "url": "https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor",
+      "channelKey": "trtspor",
+      "url": "https://tv-trtspor1.medya.trt.com.tr/master_1440.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor",
+      "channelKey": "trtspor",
+      "url": "https://tv-trtspor1.medya.trt.com.tr/master.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor",
+      "channelKey": "trtspor",
+      "url": "https://tv-trtspor1.medya.trt.com.tr/master_1080.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor",
+      "channelKey": "trtspor",
+      "url": "https://tv-trtspor-esdai.medya.trt.com.tr/master_1080p.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor",
+      "channelKey": "trtspor",
+      "url": "https://tv-trtspor1.medya.trt.com.tr/master_360.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "A Spor",
+      "channelKey": "aspor",
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor Yildiz",
+      "channelKey": "trtsporyildiz",
+      "url": "https://tv-trtspor2.medya.trt.com.tr/master_720.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor Yildiz",
+      "channelKey": "trtsporyildiz",
+      "url": "https://tv-trtspor2.medya.trt.com.tr/master_1440p.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor Yildiz",
+      "channelKey": "trtsporyildiz",
+      "url": "https://tv-trtspor2.medya.trt.com.tr/master.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "TRT Spor Yildiz",
+      "channelKey": "trtsporyildiz",
+      "url": "https://tv-trtspor2-esdai.medya.trt.com.tr/master.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "FB TV",
+      "channelKey": "fbtv",
+      "url": "https://fbtv.fenerbahce.org/fenerbahcetv.stream/chunklist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "FB TV",
+      "channelKey": "fbtv",
+      "url": "https://fbtv.fenerbahce.org/fenerbahcetv.stream_720p/playlist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "FB TV",
+      "channelKey": "fbtv",
+      "url": "https://fbtv.fenerbahce.org/fenerbahcetv.stream/playlist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "FB TV",
+      "channelKey": "fbtv",
+      "url": "https://fbtv.fenerbahce.org/fenerbahcetv.stream_720p/chunklist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "FB TV",
+      "channelKey": "fbtv",
+      "url": "https://fbtv.fenerbahce.org/fenerbahcetv.stream_1080p/chunklist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Yaban TV",
+      "channelKey": "yabantv",
+      "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/e112125c-9be4-4b93-8e60-5850d865bff1.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Yaban TV",
+      "channelKey": "yabantv",
+      "url": "https://yayin1.canlitv.fun/canlitv/yabantv.stream/playlist.m3u8?hash=a6c3ccc58b9f43520fe87f8517cc3667",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "GONCA TV",
+      "channelKey": "goncatv",
+      "url": "https://edge1.socialsmart.tv/goncatv/bant1/playlist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "GONCA TV",
+      "channelKey": "goncatv",
+      "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/1413062b-8a59-4602-8a8c-8c40c3e2c428.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Urfanatik TV",
+      "channelKey": "urfanatiktv",
+      "url": "https://edge1.socialsmart.tv/urfanatiktv/bant1/chunks.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Bir TV",
+      "channelKey": "birtv",
+      "url": "https://edge1.socialsmart.tv/birtv/bant1/playlist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Bir TV",
+      "channelKey": "birtv",
+      "url": "https://edge1.socialsmart.tv/birtv/bant1/chunks.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Bir TV",
+      "channelKey": "birtv",
+      "url": "https://edge.socialsmart.tv/birtv/bant1/chunks.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Edessa TV",
+      "channelKey": "edessatv",
+      "url": "http://v2.iptvspor.de:8080/live/3yVozxPg/bMf6Qxwe/579db75f-f409-43d8-af30-fd1f1b3ac5df.ts",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "A Para",
+      "channelKey": "apara",
+      "url": "https://trkvz-live.ercdn.net/aparahd/aparahd.m3u8?st=tl3ck93nNUp_DG40IDeH8A&e=1792442116",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Fortuna TV",
+      "channelKey": "fortunatv",
+      "url": "https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kocaeli TV",
+      "channelKey": "kocaelitv",
+      "url": "https://edge1.socialsmart.tv/kocaelitv/bant1/chunks.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kocaeli TV",
+      "channelKey": "kocaelitv",
+      "url": "https://edge1.socialsmart.tv/kocaelitv/bant1/playlist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kıbrıs TV",
+      "channelKey": "kibristv",
+      "url": "https://edge1.socialsmart.tv/kibristv/bant1/playlist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kıbrıs TV",
+      "channelKey": "kibristv",
+      "url": "https://edge.socialsmart.tv/kibristv/bant1/playlist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kıbrıs TV",
+      "channelKey": "kibristv",
+      "url": "https://edge.socialsmart.tv/kibristv/bant1/chunks.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kıbrıs TV",
+      "channelKey": "kibristv",
+      "url": "https://edge1.socialsmart.tv/kibristv/bant1/chunks.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kıbrıs Genç TV",
+      "channelKey": "kibrisgenctv",
+      "url": "https://yayin1.canlitv.fun/canlitv/genctv.stream/playlist.m3u8?hash=a6c3ccc58b9f43520fe87f8517cc3667",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kıbrıs Genç TV",
+      "channelKey": "kibrisgenctv",
+      "url": "https://edge1.socialsmart.tv/kibrisgenctv/bant1/playlist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kıbrıs Genç TV",
+      "channelKey": "kibrisgenctv",
+      "url": "https://edge.socialsmart.tv/kibrisgenctv/bant1/playlist.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kıbrıs Genç TV",
+      "channelKey": "kibrisgenctv",
+      "url": "https://edge.socialsmart.tv/kibrisgenctv/bant1/chunks.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    },
+    {
+      "action": "remove_url",
+      "channelName": "Kıbrıs Genç TV",
+      "channelKey": "kibrisgenctv",
+      "url": "https://edge1.socialsmart.tv/kibrisgenctv/bant1/chunks.m3u8",
+      "source": "stream-health-bot",
+      "reason": "2-strike olu link (fail streak >= 2), dry-run"
+    }
+  ]
+}
