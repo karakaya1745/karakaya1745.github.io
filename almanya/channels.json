@@ -1,6 +1,6 @@
 {
-  "_revision": 14,
-  "updatedAt": "2026-10-27T06:00:11.191Z",
+  "_revision": 15,
+  "updatedAt": "2026-10-28T07:09:19.058Z",
   "app": "ZapIt TV",
   "channels": [
     {
@@ -1722,6 +1722,11 @@
           "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream04/streamPlaylist.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream01/streamPlaylist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -2151,6 +2156,16 @@
           "url": "https://folxapp.b-cdn.net/1080p/index.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://folxapp.b-cdn.net/720p/index.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://folxapp.b-cdn.net/480p/index.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -2165,6 +2180,21 @@
           "url": "https://oneapp.b-cdn.net/1080p/index.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://oneapp.b-cdn.net/720p/index.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://oneapp.b-cdn.net/480p/index.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://oneapp.b-cdn.net/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -2177,6 +2207,21 @@
       "streams": [
         {
           "url": "https://zweiapp.b-cdn.net/1080p/index.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://zweiapp.b-cdn.net/720p/index.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://zweiapp.b-cdn.net/480p/index.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://zweiapp.b-cdn.net/master.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -5886,6 +5931,11 @@
           "url": "https://dispatcher.rndfnk.com/swr/dasding/live/aac/96/stream.aac?aggregator=tunein",
           "geo_de_only": false,
           "format": "aac"
+        },
+        {
+          "url": "https://liveradio.swr.de/d245tgd/dasding/",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -6479,6 +6529,11 @@
           "url": "https://stream.bigfm.de/deutschland/mp3-128/tunein",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://audiotainment-sw.streamabc.net/atsw-bigfm-aac-128-8938364",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -6569,6 +6624,11 @@
         },
         {
           "url": "https://frontend.streamonkey.net/fho-schwarzwaldradiolive",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://edge62.streamonkey.net/fho-schwarzwaldradiolive/stream/mp3?aggregator=smk-m3u-mp3",
           "geo_de_only": false,
           "format": "audio"
         }
@@ -6753,6 +6813,11 @@
         },
         {
           "url": "https://stream.rockantenne.de/rockantenne/stream/aacp?aw_0_1st.playerid=tunein.com",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://mp3channels.webradio.antenne.de/rockantenne",
           "geo_de_only": false,
           "format": "audio"
         }
@@ -7571,6 +7636,11 @@
           "url": "https://frontend.streamonkey.net/fho-hitradioohrlive?aggregator=tunein",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://edge05.streamonkey.net/fho-hitradioohrlive/stream/aacp?aggregator=smk-m3u-aac",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -7750,6 +7820,11 @@
           "url": "https://stream.lokalradio.nrw/444zbw7",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://frontend.streamonkey.net/wf-radioduisburg/stream/mp3",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -7800,6 +7875,11 @@
         },
         {
           "url": "https://edge59.streamonkey.net/energy-berlin/stream/mp3",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://edge03.streamonkey.net/energy-berlin?aggregator=shorty",
           "geo_de_only": false,
           "format": "audio"
         }
@@ -8241,6 +8321,11 @@
           "url": "https://addrad.io/444z657",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://stream.lokalradio.nrw/444z66t",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -8505,6 +8590,11 @@
           "url": "https://edge59.radio.radiodresden.de/radiodresden-live?aggregator=redirect",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://web.radio.radiodresden.de/radiodresden-live/stream/mp3",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -8547,6 +8637,11 @@
         },
         {
           "url": "https://stream.radiosaw.de/saw/mp3-128",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://stream.radiosaw.de/saw/mp3-192/",
           "geo_de_only": false,
           "format": "audio"
         }
@@ -8794,11 +8889,6 @@
           "format": "audio"
         },
         {
-          "url": "https://stream.erf.de/erfplus.m3u",
-          "geo_de_only": false,
-          "format": "audio"
-        },
-        {
           "url": "https://addrad.io/44599hq",
           "geo_de_only": false,
           "format": "audio"
@@ -8966,6 +9056,11 @@
           "url": "https://edge67.live-sm.absolutradio.de/absolut-relax",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://absolut-relax.live-sm.absolutradio.de/absolut-relax/stream/aacp",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -9027,6 +9122,11 @@
         },
         {
           "url": "https://addrad.io/4459jw3",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://www.byte.fm/live/mp3-128/",
           "geo_de_only": false,
           "format": "audio"
         }
@@ -9110,6 +9210,11 @@
         },
         {
           "url": "https://audiostreams.deluxemusic.tv/lounge/mp3-128/tunein/",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://audiostreams.deluxemusic.tv/lounge/aac-64/website",
           "geo_de_only": false,
           "format": "audio"
         }
@@ -9421,6 +9526,11 @@
         },
         {
           "url": "https://radio.toggo.de/live/mp3-128/tunein/",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://radio.toggo.de/live/mp3-192/radio.toggo.de/",
           "geo_de_only": false,
           "format": "audio"
         }

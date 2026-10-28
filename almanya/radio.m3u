@@ -612,6 +612,8 @@ https://swr-radio.ard-mcdn.de/swr/radio/dasding/hls/192/seglist.m3u8
 https://swr-radio.ard-mcdn.de/swr/radio/dasding/hls/master.m3u8
 #EXTINF:-1 tvg-id="radio-swr-dasding" tvg-name="DASDING" group-title="public",DASDING (13)
 https://dispatcher.rndfnk.com/swr/dasding/live/aac/96/stream.aac?aggregator=tunein
+#EXTINF:-1 tvg-id="radio-swr-dasding" tvg-name="DASDING" group-title="public",DASDING (14)
+https://liveradio.swr.de/d245tgd/dasding/
 #EXTINF:-1 tvg-id="radio-swr-kultur" tvg-name="SWR Kultur" group-title="public",SWR Kultur (1)
 https://dispatcher.rndfnk.com/swr/swr2/live/mp3/256/stream.mp3
 #EXTINF:-1 tvg-id="radio-swr-kultur" tvg-name="SWR Kultur" group-title="public",SWR Kultur (2)
@@ -788,6 +790,8 @@ https://stream.bigfm.de/deutschland/aac-128/tunein
 https://stream.bigfm.de/deutschland/aac-64/tunein
 #EXTINF:-1 tvg-id="radio-bigfm" tvg-name="bigFM" group-title="regional",bigFM (8)
 https://stream.bigfm.de/deutschland/mp3-128/tunein
+#EXTINF:-1 tvg-id="radio-bigfm" tvg-name="bigFM" group-title="regional",bigFM (9)
+https://audiotainment-sw.streamabc.net/atsw-bigfm-aac-128-8938364
 #EXTINF:-1 tvg-id="radio-radio-regenbogen" tvg-name="Radio Regenbogen" group-title="regional",Radio Regenbogen (1)
 https://streams.regenbogen.de/rr-mannheim-128-mp3
 #EXTINF:-1 tvg-id="radio-radio-regenbogen" tvg-name="Radio Regenbogen" group-title="regional",Radio Regenbogen (2)
@@ -814,6 +818,8 @@ https://edge70.streamonkey.net/fho-schwarzwaldradiolive/stream/mp3?aggregator=sm
 https://frontend.streamonkey.net/fho-schwarzwaldradiolive/mp3-stream.m3u
 #EXTINF:-1 tvg-id="radio-schwarzwaldradio" tvg-name="Schwarzwaldradio" group-title="regional",Schwarzwaldradio (7)
 https://frontend.streamonkey.net/fho-schwarzwaldradiolive
+#EXTINF:-1 tvg-id="radio-schwarzwaldradio" tvg-name="Schwarzwaldradio" group-title="regional",Schwarzwaldradio (8)
+https://edge62.streamonkey.net/fho-schwarzwaldradiolive/stream/mp3?aggregator=smk-m3u-mp3
 #EXTINF:-1 tvg-id="radio-querfunk-karlsruhe" tvg-name="Querfunk Karlsruhe" group-title="regional",Querfunk Karlsruhe (1)
 https://stream.querfunk.de/qfhi
 #EXTINF:-1 tvg-id="radio-querfunk-karlsruhe" tvg-name="Querfunk Karlsruhe" group-title="regional",Querfunk Karlsruhe (2)
@@ -866,6 +872,8 @@ https://s5-webradio.antenne.de/rockantenne
 https://mp3channels.webradio.de/rockantenne
 #EXTINF:-1 tvg-id="radio-rock-antenne" tvg-name="Rock Antenne" group-title="regional",Rock Antenne (6)
 https://stream.rockantenne.de/rockantenne/stream/aacp?aw_0_1st.playerid=tunein.com
+#EXTINF:-1 tvg-id="radio-rock-antenne" tvg-name="Rock Antenne" group-title="regional",Rock Antenne (7)
+https://mp3channels.webradio.antenne.de/rockantenne
 #EXTINF:-1 tvg-id="radio-egofm" tvg-name="egoFM" group-title="regional",egoFM (1)
 https://cast.egofm.de/egofm.mp3
 #EXTINF:-1 tvg-id="radio-egofm" tvg-name="egoFM" group-title="regional",egoFM (2)
@@ -1088,6 +1096,8 @@ https://frontend.streamonkey.net/fho-hitradioohrlive/aac-stream.m3u
 https://edge59.streamonkey.net/fho-hitradioohrlive/stream/aacp?aggregator=smk-m3u-aac
 #EXTINF:-1 tvg-id="radio-hitradio-ohr" tvg-name="Hitradio Ohr" group-title="regional",Hitradio Ohr (5)
 https://frontend.streamonkey.net/fho-hitradioohrlive?aggregator=tunein
+#EXTINF:-1 tvg-id="radio-hitradio-ohr" tvg-name="Hitradio Ohr" group-title="regional",Hitradio Ohr (6)
+https://edge05.streamonkey.net/fho-hitradioohrlive/stream/aacp?aggregator=smk-m3u-aac
 #EXTINF:-1 tvg-id="radio-oldie-antenne" tvg-name="Oldie Antenne" group-title="regional",Oldie Antenne (1)
 https://s1-webradio.oldie-antenne.de/oldie-antenne?aw_0_1st.playerid=OldieAntenneWebPlayer
 #EXTINF:-1 tvg-id="radio-oldie-antenne" tvg-name="Oldie Antenne" group-title="regional",Oldie Antenne (2)
@@ -1138,6 +1148,8 @@ https://edge03.streamonkey.net/wf-radioduisburg
 https://stream.lokalradio.nrw/444zbtg
 #EXTINF:-1 tvg-id="radio-radio-duisburg" tvg-name="Radio Duisburg" group-title="regional",Radio Duisburg (5)
 https://stream.lokalradio.nrw/444zbw7
+#EXTINF:-1 tvg-id="radio-radio-duisburg" tvg-name="Radio Duisburg" group-title="regional",Radio Duisburg (6)
+https://frontend.streamonkey.net/wf-radioduisburg/stream/mp3
 #EXTINF:-1 tvg-id="radio-campusradio-koeln-koelncampus" tvg-name="Campusradio Köln (Kölncampus)" group-title="regional",Campusradio Köln (Kölncampus) (1)
 https://live.koelncampus.com/live
 #EXTINF:-1 tvg-id="radio-campusradio-universitaet-duisburg-essen-campusfm" tvg-name="Campusradio Universität Duisburg-Essen (CampusFM)" group-title="regional",Campusradio Universität Duisburg-Essen (CampusFM) (1)
@@ -1148,6 +1160,8 @@ https://edge85.streamonkey.net/energy-nuernberg?aggregator=shorty
 https://stream.ffn.de/energybremen/mp3-192/livestream.mp3
 #EXTINF:-1 tvg-id="radio-energy" tvg-name="ENERGY" group-title="regional",ENERGY (3)
 https://edge59.streamonkey.net/energy-berlin/stream/mp3
+#EXTINF:-1 tvg-id="radio-energy" tvg-name="ENERGY" group-title="regional",ENERGY (4)
+https://edge03.streamonkey.net/energy-berlin?aggregator=shorty
 #EXTINF:-1 tvg-id="radio-antenne-unna" tvg-name="Antenne Unna" group-title="regional",Antenne Unna (1)
 https://antenneunna--di--nacs-ais-lgc--07--cdn.cast.addradio.de/antenneunna/live/mp3/high
 #EXTINF:-1 tvg-id="radio-antenne-unna" tvg-name="Antenne Unna" group-title="regional",Antenne Unna (2)
@@ -1284,6 +1298,8 @@ https://addrad.io/444z65m
 https://addrad.io/444z66t
 #EXTINF:-1 tvg-id="radio-radio-neandertal" tvg-name="Radio Neandertal" group-title="regional",Radio Neandertal (9)
 https://addrad.io/444z657
+#EXTINF:-1 tvg-id="radio-radio-neandertal" tvg-name="Radio Neandertal" group-title="regional",Radio Neandertal (10)
+https://stream.lokalradio.nrw/444z66t
 #EXTINF:-1 tvg-id="radio-radio-waf" tvg-name="Radio WAF" group-title="regional",Radio WAF (1)
 https://radiowaf--di--nacs-ais-lgc--05--cdn.cast.addradio.de/radiowaf/live/mp3/high
 #EXTINF:-1 tvg-id="radio-radio-waf" tvg-name="Radio WAF" group-title="regional",Radio WAF (2)
@@ -1368,6 +1384,8 @@ https://streams.bcs-systems.de/slp/live/dresden/mp3/web
 https://edge71.radio.radiodresden.de/radiodresden-live?aggregator=redirect
 #EXTINF:-1 tvg-id="radio-radio-dresden" tvg-name="Radio Dresden" group-title="regional",Radio Dresden (10)
 https://edge59.radio.radiodresden.de/radiodresden-live?aggregator=redirect
+#EXTINF:-1 tvg-id="radio-radio-dresden" tvg-name="Radio Dresden" group-title="regional",Radio Dresden (11)
+https://web.radio.radiodresden.de/radiodresden-live/stream/mp3
 #EXTINF:-1 tvg-id="radio-radio-saw" tvg-name="Radio SAW" group-title="regional",Radio SAW (1)
 https://stream.radiosaw.de/saw/mp3-128/radiode/stream.mp3
 #EXTINF:-1 tvg-id="radio-radio-saw" tvg-name="Radio SAW" group-title="regional",Radio SAW (2)
@@ -1382,6 +1400,8 @@ https://stream.radiosaw.de/saw/aac-48/radiode/stream.mp3
 https://stream.saw-musikwelt.de/saw/mp3-128
 #EXTINF:-1 tvg-id="radio-radio-saw" tvg-name="Radio SAW" group-title="regional",Radio SAW (7)
 https://stream.radiosaw.de/saw/mp3-128
+#EXTINF:-1 tvg-id="radio-radio-saw" tvg-name="Radio SAW" group-title="regional",Radio SAW (8)
+https://stream.radiosaw.de/saw/mp3-192/
 #EXTINF:-1 tvg-id="radio-radio-brocken" tvg-name="Radio Brocken" group-title="regional",Radio Brocken (1)
 https://stream.radiobrocken.de/live-hal-lei/mp3-256/
 #EXTINF:-1 tvg-id="radio-radio-brocken" tvg-name="Radio Brocken" group-title="regional",Radio Brocken (2)
@@ -1455,8 +1475,6 @@ https://stream.erfplus.de/erf-1a64/aac-64?ar-distributor=ffa5
 #EXTINF:-1 tvg-id="radio-erf-plus" tvg-name="ERF Plus" group-title="religious",ERF Plus (4)
 https://erf1a64-live.cast.addradio.de/erf1a64/live/aac/low?ar-distributor=f0d1
 #EXTINF:-1 tvg-id="radio-erf-plus" tvg-name="ERF Plus" group-title="religious",ERF Plus (5)
-https://stream.erf.de/erfplus.m3u
-#EXTINF:-1 tvg-id="radio-erf-plus" tvg-name="ERF Plus" group-title="religious",ERF Plus (6)
 https://addrad.io/44599hq
 #EXTINF:-1 tvg-id="radio-klassik-radio" tvg-name="Klassik Radio" group-title="music",Klassik Radio (1)
 https://live.streams.klassikradio.de/klassikradio-deutschland/stream/mp3
@@ -1502,6 +1520,8 @@ https://absolut-relax.live-sm.absolutradio.de/absolut-relax/stream/mp3
 https://edge19.live-sm.absolutradio.de/absolut-relax/stream/aacp
 #EXTINF:-1 tvg-id="radio-absolut-relax" tvg-name="Absolut relax" group-title="music",Absolut relax (4)
 https://edge67.live-sm.absolutradio.de/absolut-relax
+#EXTINF:-1 tvg-id="radio-absolut-relax" tvg-name="Absolut relax" group-title="music",Absolut relax (5)
+https://absolut-relax.live-sm.absolutradio.de/absolut-relax/stream/aacp
 #EXTINF:-1 tvg-id="radio-antenne-schlager" tvg-name="Antenne Schlager" group-title="music",Antenne Schlager (1)
 https://stream.antenne-schlager.de/schlager-live/mp3-192/hoerer/
 #EXTINF:-1 tvg-id="radio-antenne-schlager" tvg-name="Antenne Schlager" group-title="music",Antenne Schlager (2)
@@ -1520,6 +1540,8 @@ https://uplink.byte.fm/bytefm-mainhq/mp3-192/
 https://uplink.byte.fm/bytefm-main/mp3-128/
 #EXTINF:-1 tvg-id="radio-bytefm" tvg-name="ByteFM" group-title="music",ByteFM (5)
 https://addrad.io/4459jw3
+#EXTINF:-1 tvg-id="radio-bytefm" tvg-name="ByteFM" group-title="music",ByteFM (6)
+https://www.byte.fm/live/mp3-128/
 #EXTINF:-1 tvg-id="radio-deluxe-easy" tvg-name="DELUXE EASY" group-title="music",DELUXE EASY (1)
 https://audiostreams.deluxemusic.tv/easy/mp3-192
 #EXTINF:-1 tvg-id="radio-deluxe-easy" tvg-name="DELUXE EASY" group-title="music",DELUXE EASY (2)
@@ -1546,6 +1568,8 @@ https://regiocast.streamabc.net/regc-deluxelounge1592295-aacplus-64-5676935
 https://audiostreams.deluxemusic.tv/lounge/aac-64/tunein/
 #EXTINF:-1 tvg-id="radio-deluxe-lounge-radio" tvg-name="DELUXE LOUNGE RADIO" group-title="music",DELUXE LOUNGE RADIO (6)
 https://audiostreams.deluxemusic.tv/lounge/mp3-128/tunein/
+#EXTINF:-1 tvg-id="radio-deluxe-lounge-radio" tvg-name="DELUXE LOUNGE RADIO" group-title="music",DELUXE LOUNGE RADIO (7)
+https://audiostreams.deluxemusic.tv/lounge/aac-64/website
 #EXTINF:-1 tvg-id="radio-deluxe-music-radio" tvg-name="DELUXE MUSIC RADIO" group-title="music",DELUXE MUSIC RADIO (1)
 https://audiostreams.deluxemusic.tv/music/mp3-192
 #EXTINF:-1 tvg-id="radio-deluxe-music-radio" tvg-name="DELUXE MUSIC RADIO" group-title="music",DELUXE MUSIC RADIO (2)
@@ -1638,3 +1662,5 @@ https://radio.toggo.de/live/aac-64/tunein/
 https://radio.toggo.de/live/mp3-192/tunein/
 #EXTINF:-1 tvg-id="radio-toggo-radio" tvg-name="Toggo Radio" group-title="music",Toggo Radio (4)
 https://radio.toggo.de/live/mp3-128/tunein/
+#EXTINF:-1 tvg-id="radio-toggo-radio" tvg-name="Toggo Radio" group-title="music",Toggo Radio (5)
+https://radio.toggo.de/live/mp3-192/radio.toggo.de/

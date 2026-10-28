@@ -1,0 +1,28 @@
+kanal,link,durum,kaynak,tür
+SR Fernsehen,https://sr-live.ard-mcdn.de/sr/live/hls/int/master1080p5000.m3u8,"ölü 404 (3/3 deneme, 1. gün) – akamaized srfs 5 link + de varyantları (geo) çalışıyor",katalog yeniden test,olu
+SR Fernsehen,https://sr-live.ard-mcdn.de/sr/live/hls/int/master720p3200.m3u8,"ölü 404 (3/3 deneme, 1. gün)",katalog yeniden test,olu
+SR Fernsehen,https://sr-live.ard-mcdn.de/sr/live/hls/int/master540p1800.m3u8,ölü/kararsız 404-403-404 (1. gün),katalog yeniden test,olu
+ERF Plus,https://stream.erf.de/erfplus.m3u,"ölü – bot-kontrol HTML sayfası dönüyor (3/3; 1. gün, 10-22'de de aynı) – kaldırılmalı, 5 diğer ERF Plus linki çalışıyor",katalog yeniden test,olu
+DW Español,https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream01/streamPlaylist.m3u8,"çalışıyor (200, canlı segment)",radio-browser API: DW Español (LD),yeni_yedek
+DASDING,https://liveradio.swr.de/d245tgd/dasding/,"çalışıyor (200, ses akışı)",radio-browser API: DASDING,yeni_yedek
+bigFM,https://audiotainment-sw.streamabc.net/atsw-bigfm-aac-128-8938364,"çalışıyor (200, ses akışı)",radio-browser API: BigFM AAC,yeni_yedek
+Schwarzwaldradio,https://edge62.streamonkey.net/fho-schwarzwaldradiolive/stream/mp3?aggregator=smk-m3u-mp3,"çalışıyor (200, ses akışı)",radio-browser API: Schwarzwaldradio,yeni_yedek
+Rock Antenne,https://mp3channels.webradio.antenne.de/rockantenne,"çalışıyor (200, ses akışı)",radio-browser API: Rock Antenne,yeni_yedek
+Hitradio Ohr,https://edge05.streamonkey.net/fho-hitradioohrlive/stream/aacp?aggregator=smk-m3u-aac,"çalışıyor (200, ses akışı)",radio-browser API: Hitradio Ohr,yeni_yedek
+Radio Duisburg,https://frontend.streamonkey.net/wf-radioduisburg/stream/mp3,"çalışıyor (200, ses akışı)",radio-browser API: Radio Duisburg,yeni_yedek
+ENERGY,https://edge03.streamonkey.net/energy-berlin?aggregator=shorty,"çalışıyor (200, ses akışı)",radio-browser API: Radio Energy ( nrj ),yeni_yedek
+Radio Neandertal,https://stream.lokalradio.nrw/444z66t,"çalışıyor (200, ses akışı)",radio-browser API: Radio Neandertal,yeni_yedek
+Radio Dresden,https://web.radio.radiodresden.de/radiodresden-live/stream/mp3,"çalışıyor (200, ses akışı)",radio-browser API: Radio Dresden,yeni_yedek
+Radio SAW,https://stream.radiosaw.de/saw/mp3-192/,"çalışıyor (200, ses akışı)",radio-browser API: Radio SAW mp3 192,yeni_yedek
+Absolut relax,https://absolut-relax.live-sm.absolutradio.de/absolut-relax/stream/aacp,"çalışıyor (200, ses akışı)",radio-browser API: Absolut Relax,yeni_yedek
+ByteFM,https://www.byte.fm/live/mp3-128/,"çalışıyor (200, ses akışı)",radio-browser API: ByteFM,yeni_yedek
+Toggo Radio,https://radio.toggo.de/live/mp3-192/radio.toggo.de/,"çalışıyor (200, ses akışı)",radio-browser API: Toggo Radio,yeni_yedek
+DELUXE LOUNGE RADIO,https://audiostreams.deluxemusic.tv/lounge/aac-64/website,"çalışıyor (200, ses akışı; cache-buster parametresi temizlendi)",radio-browser API: DELUXE LOUNGE RADIO,yeni_yedek
+Folx Music Television,https://folxapp.b-cdn.net/720p/index.m3u8,"çalışıyor (200, canlı segment)",Resmi app CDN (b-cdn) varyant taraması – kodinerds/iptv-org folxplay ölü linklerinden yola çıkılarak,yeni_yedek
+One Music Television,https://oneapp.b-cdn.net/720p/index.m3u8,"çalışıyor (200, canlı segment)",Resmi app CDN (b-cdn) varyant taraması – kodinerds/iptv-org folxplay ölü linklerinden yola çıkılarak,yeni_yedek
+Zwei Music Television,https://zweiapp.b-cdn.net/720p/index.m3u8,"çalışıyor (200, canlı segment)",Resmi app CDN (b-cdn) varyant taraması – kodinerds/iptv-org folxplay ölü linklerinden yola çıkılarak,yeni_yedek
+One Music Television,https://oneapp.b-cdn.net/480p/index.m3u8,"çalışıyor (200, canlı segment)",Resmi app CDN (b-cdn) varyant taraması – kodinerds/iptv-org folxplay ölü linklerinden yola çıkılarak,yeni_yedek
+Zwei Music Television,https://zweiapp.b-cdn.net/480p/index.m3u8,"çalışıyor (200, canlı segment)",Resmi app CDN (b-cdn) varyant taraması – kodinerds/iptv-org folxplay ölü linklerinden yola çıkılarak,yeni_yedek
+Folx Music Television,https://folxapp.b-cdn.net/480p/index.m3u8,"çalışıyor (200, canlı segment)",Resmi app CDN (b-cdn) varyant taraması – kodinerds/iptv-org folxplay ölü linklerinden yola çıkılarak,yeni_yedek
+One Music Television,https://oneapp.b-cdn.net/master.m3u8,"çalışıyor (200, canlı segment)",Resmi app CDN (b-cdn) varyant taraması – kodinerds/iptv-org folxplay ölü linklerinden yola çıkılarak,yeni_yedek
+Zwei Music Television,https://zweiapp.b-cdn.net/master.m3u8,"çalışıyor (200, canlı segment)",Resmi app CDN (b-cdn) varyant taraması – kodinerds/iptv-org folxplay ölü linklerinden yola çıkılarak,yeni_yedek

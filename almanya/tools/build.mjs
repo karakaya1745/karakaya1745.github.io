@@ -24,6 +24,7 @@
  *        almanya/sources/onay-2026-10-25.csv (25 Ekim yedekleri, 404 int, ServusTV)
  *        almanya/sources/onay-2026-10-26.csv (26 Ekim yedekleri, tema yedek temizliği)
  *        almanya/sources/onay-2026-10-27.csv (27 Ekim yedekleri, 404 int ve Juwelo oturum listeleri)
+ *        almanya/sources/onay-2026-10-28.csv (28 Ekim yedekleri; ERF Plus bot sayfası)
  * Ölü (failed) ve denenmemiş (untested) linkler yayınlanmaz.
  * geo-blocked (403) ve "sadece Almanya" linkler kalır; geo_de_only ile işaretlenir.
  * Katalogda olan URL yeniden eklenmez. Yeni link uydurulmaz.
@@ -43,6 +44,7 @@ import { applyOctober24Batch } from "./apply-2026-10-24.mjs";
 import { applyOctober25 } from "./apply-2026-10-25.mjs";
 import { applyOctober26 } from "./apply-2026-10-26.mjs";
 import { applyOctober27 } from "./apply-2026-10-27.mjs";
+import { applyOctober28 } from "./apply-2026-10-28.mjs";
 
 const DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SOURCES = path.join(DIR, "sources");
@@ -827,6 +829,7 @@ function loadCatalog() {
   const onay25 = applyOctober25(channels);
   const onay26 = applyOctober26(channels);
   const onay27 = applyOctober27(channels);
+  const onay28 = applyOctober28(channels);
   const grouped = orderCatalog(channels);
   const previous = readJsonIfExists(path.join(DIR, "channels.json"));
   assignIds(grouped, previous?.channels);
@@ -855,6 +858,7 @@ function loadCatalog() {
     onay25,
     onay26,
     onay27,
+    onay28,
   };
 }
 
@@ -1050,6 +1054,12 @@ function main() {
     `[almanya] onay-2026-10-27: +${onay27.addedChannels || 0} kanal, ` +
       `+${onay27.addedLinks || 0} link, -${onay27.removedLinks || 0} link, ` +
       `geo ${onay27.geoLinks || 0}, yinelenen ${onay27.skippedDupes || 0}`,
+  );
+  const onay28 = catalog.onay28 || {};
+  console.log(
+    `[almanya] onay-2026-10-28: +${onay28.addedChannels || 0} kanal, ` +
+      `+${onay28.addedLinks || 0} link, -${onay28.removedLinks || 0} link, ` +
+      `SR durdu ${onay28.skippedSr || 0}, yinelenen ${onay28.skippedDupes || 0}`,
   );
   console.log(`[almanya] sha256=${hash}`);
   if (catalog.dropped.length) {
