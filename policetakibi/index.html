@@ -1,508 +1,160 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="tr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Poliçe Takip — Sigorta acenteleri için poliçe takip yazılımı</title>
-  <meta name="description" content="Poliçe Takip: 14 gün ücretsiz Pro deneme. Windows, Android ve iOS. Destek: destek@policetakibi.com.tr">
-  <meta name="theme-color" content="#0B3D47">
+  <title>Poliçe Takip — Acente portföy, yenileme ve borç takibi</title>
+  <meta name="description" content="Poliçe Takip: sigorta acenteleri için portföy, yenileme ve borç takibi. Android, iOS ve Windows. Tek hesap — Pro tüm platformlarda.">
+  <meta name="theme-color" content="#0F4C5C">
   <link rel="canonical" href="https://policetakibi.com.tr/">
-  <!-- Google Search Console verification (URL-prefix property):
-       When GSC gives you a meta tag, paste it on the next line, e.g.:
-       <meta name="google-site-verification" content="TOKEN_FROM_GSC">
-       Prefer HTML-file method? Put googleXXXXXXXX.html in website/ root and redeploy.
-       Do not invent a token — copy only what Search Console shows. -->
   <meta property="og:title" content="Poliçe Takip">
-  <meta property="og:description" content="14 gün ücretsiz Pro deneme. Acenteler için poliçe takibi — Windows, Android ve iOS.">
+  <meta property="og:description" content="Acente portföy, yenileme ve borç takibi — Android, iOS, Windows. Tek hesap, Pro her yerde.">
   <meta property="og:url" content="https://policetakibi.com.tr/">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="tr_TR">
   <link rel="icon" href="assets/logo_icon.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600;7..72,700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=hero8">
 </head>
-<body class="has-splash">
-  <div id="splash" class="splash" role="presentation" aria-hidden="true">
-    <img src="assets/logo_icon.png" width="168" height="168" alt="" decoding="async">
-  </div>
-
+<body>
   <a class="skip-link" href="#icerik">İçeriğe geç</a>
 
-  <header class="site-nav">
+  <header class="site-header">
     <div class="wrap">
-      <a class="nav-brand" href="#ust">
-        <img src="assets/logo_icon.png" width="40" height="40" alt="">
+      <a class="nav-brand" href="index.html">
+        <img src="assets/logo_icon.png" width="36" height="36" alt="">
         Poliçe Takip
       </a>
-      <nav aria-label="Ana menü">
-        <ul class="nav-links">
-          <li><a href="#baslangic">Başlangıç</a></li>
-          <li><a href="#urun">Ürün</a></li>
-          <li><a href="#ozellikler">Özellikler</a></li>
-          <li><a href="#yenilikler">Yenilikler</a></li>
-          <li><a href="#platformlar">İndir</a></li>
-          <li><a href="#destek">Destek</a></li>
-          <li><a href="privacy.html">Gizlilik</a></li>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="ana-menu" aria-label="Menüyü aç">
+        <span></span>
+      </button>
+      <nav class="site-nav" id="ana-menu" aria-label="Ana menü">
+        <ul>
+          <li><a href="index.html" aria-current="page">Ana sayfa</a></li>
+          <li><a href="ozellikler.html">Özellikler</a></li>
+          <li><a href="uygulama-gorselleri.html">Uygulama Görselleri</a></li>
+          <li><a href="fiyatlandirma.html">Fiyatlandırma</a></li>
+          <li><a href="indir.html">İndir</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+          <li><a class="nav-cta" href="indir.html">Uygulamayı indir</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main id="icerik">
-    <section class="hero" id="ust">
-      <div class="hero-photo" data-parallax aria-hidden="true">
-        <img src="assets/hero-car.jpg" alt="" width="1400" height="900" decoding="async">
-      </div>
-      <div class="hero-atmosphere" aria-hidden="true"></div>
-      <div class="wrap hero-inner">
+    <section class="hero">
+      <div class="hero-inner wrap">
         <div class="hero-copy">
-          <p class="hero-brand">
-            <img class="hero-logo" src="assets/logo_icon.png" width="200" height="200" alt="Poliçe Takip">
-          </p>
-          <h1>Acente poliçe operasyonunuz için düzenli takip</h1>
+          <img class="hero-brand-mark" src="assets/logo.png" width="200" height="200" alt="Poliçe Takip">
+          <h1>Acente portföyünüz tek bakışta</h1>
           <p class="hero-lead">
-            Trafik, kasko, konut ve DASK vadelerini Windows, Android ve iOS’ta yönetin.
-            <strong>14 günlük ücretsiz denemede Pro özelliklerini</strong> kullanın;
-            Pro satın alma mağaza üzerinden yapılır.
+            Yenileme, borç ve müşteri takibini Android, iOS ve Windows’ta yönetin.
+            Tek hesap — bir platformda Pro alın, hepsinde kullanın.
           </p>
           <div class="cta-row">
-            <a class="btn btn-primary"
-               href="https://apps.microsoft.com/detail/9NHC53TGMKF1"
-               rel="noopener noreferrer"
-               target="_blank">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 3h8.5v8.5H3V3zm9.5 0H21v8.5h-8.5V3zM3 12.5H11.5V21H3v-8.5zm9.5 0H21V21h-8.5v-8.5z"/></svg>
-              Windows’ta başla
-            </a>
-            <a class="btn btn-secondary" href="#baslangic">
-              Nasıl çalışır?
-            </a>
+            <a class="btn btn-primary" href="indir.html">Uygulamayı indir</a>
+            <a class="btn btn-ghost" href="https://wa.me/905447202837?text=Merhaba%2C%20ruhsat%20foto%C4%9Fraf%C4%B1m%C4%B1%20g%C3%B6ndermek%20istiyorum.%20Poli%C3%A7e%20teklifi%20alabilir%20miyim%3F" target="_blank" rel="noopener noreferrer">Ruhsat gönder · Teklif al</a>
           </div>
         </div>
-        <div class="hero-device" aria-hidden="true">
-          <img src="assets/phone-mock.svg" width="280" height="560" alt="" decoding="async">
-        </div>
+        <img
+          class="hero-shot"
+          src="assets/hero-main.png?v=hero8"
+          width="1918"
+          height="1033"
+          alt="Poliçe Takip uygulama ekranı"
+          decoding="async"
+          fetchpriority="high"
+        >
       </div>
     </section>
 
-    <section class="section section-funnel" id="baslangic">
+    <section class="section">
       <div class="wrap">
-        <div class="section-head reveal">
-          <p class="eyebrow">Başlangıç</p>
-          <h2>Önce PC, sonra mobil</h2>
-          <p>
-            Pro yetkisi Microsoft Store (Windows) üzerinden alınır. Aynı hesapla
-            Android’de de Pro’ya erişirsiniz.
-          </p>
+        <div class="section-head">
+          <p class="eyebrow">Neden Poliçe Takip?</p>
+          <h2>Portföy, yenileme ve borç — sade operasyon</h2>
+          <p>Acente işinin günlük ritmine göre tasarlandı. Ağır CRM değil; hızlı takip.</p>
         </div>
-        <ol class="funnel-steps">
-          <li class="reveal">
-            <span class="funnel-num" aria-hidden="true">1</span>
-            <div>
-              <h3>Windows’a kurun</h3>
-              <p>
-                Microsoft Store’dan Poliçe Takip’i indirin. Kurulum sonrası
-                <strong>14 günlük ücretsiz deneme</strong> ile Pro özelliklerini
-                kullanabilirsiniz.
-              </p>
-            </div>
-          </li>
-          <li class="reveal">
-            <span class="funnel-num" aria-hidden="true">2</span>
-            <div>
-              <h3>Hesap oluşturun</h3>
-              <p>
-                Uygulama içinde e-posta ile hesap açın veya giriş yapın. Pro
-                denemesi ve satın alma bu hesaba bağlanır.
-              </p>
-            </div>
-          </li>
-          <li class="reveal">
-            <span class="funnel-num" aria-hidden="true">3</span>
-            <div>
-              <h3>Pro’yu Windows’ta alın</h3>
-              <p>
-                Deneme bitince Pro’yu Microsoft Store üzerinden satın alın.
-                Ödeme Windows mağazası faturalandırması ile işlenir.
-              </p>
-            </div>
-          </li>
-          <li class="reveal">
-            <span class="funnel-num" aria-hidden="true">4</span>
-            <div>
-              <h3>Android’de aynı hesap</h3>
-              <p>
-                Google Play’den (veya APK ile) Android sürümünü kurun; aynı
-                hesapla giriş yapın. Pro yetkisi hesaptan gelir — Android’de
-                ayrıca Pro satın almanız gerekmez.
-              </p>
-            </div>
-          </li>
-        </ol>
-      </div>
-    </section>
-
-    <section class="section section-motifs" id="kapsam">
-      <div class="wrap">
-        <div class="section-head reveal">
-          <p class="eyebrow">Sigorta dünyası</p>
-          <h2>Trafik’ten konuta, sahadan ofise</h2>
-          <p>
-            Acentenin günlük dünyasını yansıtır: araç, konut ve mobil erişim
-            tek takip akışında.
-          </p>
-        </div>
-        <div class="motif-grid">
-          <figure class="motif reveal">
-            <div class="motif-media">
-              <img src="assets/motif-car.jpg" alt="Yolda giden otomobil — trafik ve kasko poliçeleri" width="1000" height="667" loading="lazy" decoding="async">
-            </div>
-            <figcaption>
-              <h3>Trafik &amp; kasko</h3>
-              <p>Plaka, vade ve yenilemeleri araç poliçeleriyle birlikte izleyin.</p>
-            </figcaption>
-          </figure>
-          <figure class="motif reveal">
-            <div class="motif-media">
-              <img src="assets/motif-home.jpg" alt="Modern konut — konut ve DASK poliçeleri" width="1200" height="800" loading="lazy" decoding="async">
-            </div>
-            <figcaption>
-              <h3>Konut &amp; DASK</h3>
-              <p>Ev ve zorunlu deprem sigortası vadelerini kaçırmadan planlayın.</p>
-            </figcaption>
-          </figure>
-          <figure class="motif reveal">
-            <div class="motif-media">
-              <img src="assets/motif-phone.jpg" alt="Mobil telefonda uygulama — saha erişimi" width="1200" height="800" loading="lazy" decoding="async">
-            </div>
-            <figcaption>
-              <h3>Mobil uygulama</h3>
-              <p>Sahada Android ile vade ve borçlara anında bakın.</p>
-            </figcaption>
-          </figure>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="urun">
-      <div class="wrap">
-        <div class="section-head reveal">
-          <p class="eyebrow">Ürün</p>
-          <h2>Ne sunar?</h2>
-          <p>
-            Poliçe Takip, sigorta acentelerinin günlük poliçe ve yenileme işini
-            tek uygulamada toplar. Müşteri, araç, vade ve borç bilgisi cihazınızda
-            tutulur; yaklaşan işler ve PDF arşivi aynı akışta erişilir.
-          </p>
-        </div>
-        <div class="product-points reveal">
-          <p>
-            Yıl bazlı arşiv, özet raporlar ve takvim görünümü ile operasyonu
-            takip edersiniz. Poliçe içeriği local-first tutulur; hesap, Pro
-            yetkisi ve cihazlar arası erişim için kullanılır.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-muted" id="ozellikler">
-      <div class="wrap">
-        <div class="section-head reveal">
-          <p class="eyebrow">Özellikler</p>
-          <h2>Operasyonel yetenekler</h2>
-          <p>Her blok tek bir işe odaklanır. Deneme süresinde Pro yeteneklerini deneyebilirsiniz.</p>
-        </div>
-        <div class="feature-list">
-          <article class="feature-item reveal">
-            <h3>Poliçe ve müşteri</h3>
-            <p>Poliçe kayıtlarını müşteri ve araç bilgisiyle birlikte düzenli tutun.</p>
+        <div class="value-grid">
+          <article class="value-card">
+            <h3>Portföy takibi</h3>
+            <p>Poliçe, müşteri ve araç kayıtlarını düzenli tutun; ofiste ve sahada erişin.</p>
           </article>
-          <article class="feature-item reveal">
-            <h3>Vade ve takvim</h3>
-            <p>Yaklaşan yenilemeleri listeler; takvim üzerinden günü planlarsınız.</p>
+          <article class="value-card">
+            <h3>Yenileme planı</h3>
+            <p>Yaklaşan vadeleri görün, günün aramalarını planlayın, kaçırmayın.</p>
           </article>
-          <article class="feature-item reveal">
-            <h3>Borç takibi</h3>
-            <p>Borçlu kayıtları ayrı görünümde; tahsilat takibi için hızlı erişim.</p>
-          </article>
-          <article class="feature-item reveal">
-            <h3>İleri tarihli kayıt</h3>
-            <p>Henüz başlamamış veya planlanan poliçeleri önceden kaydedin.</p>
-          </article>
-          <article class="feature-item reveal">
-            <h3>PDF arşiv</h3>
-            <p>Poliçe PDF’lerini yerel arşive ekleyin; ihtiyaç anında bulun.</p>
-          </article>
-          <article class="feature-item reveal">
-            <h3>Rapor ve yıl kapanışı</h3>
-            <p>Özet raporlarla durumu görün; yılı arşivleyerek düzeni koruyun.</p>
+          <article class="value-card">
+            <h3>Borç izleme</h3>
+            <p>Borçlu kayıtları ayrı görünümde; hatırlatma ve tahsilat için hızlı erişim.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section section-yenilikler" id="yenilikler">
+    <section class="section section-muted">
       <div class="wrap">
-        <div class="section-head reveal">
-          <p class="eyebrow">Yenilikler</p>
-          <h2>Son dönemde neler eklendi?</h2>
-          <p>
-            Windows (Microsoft Store) ve Android sürümlerinde acente işini
-            hızlandıran güncellemeler. Kısa özet aşağıda.
-          </p>
-          <p class="update-meta">Son güncelleme: Temmuz 2026</p>
+        <div class="section-head">
+          <p class="eyebrow">Ekran görüntüleri</p>
+          <h2>PC ve mobil uygulama görselleri</h2>
+          <p>Tüm gerçek ekran görüntüleri ayrı sayfada — önce Windows, sonra Android / iOS.</p>
         </div>
-        <div class="feature-list">
-          <article class="feature-item reveal">
-            <h3>WhatsApp &amp; SMS hatırlatma</h3>
-            <p>
-              Yenileme ve borç hatırlatmalarını WhatsApp ile gönderin.
-              SMS hatırlatma Android’de kullanılabilir.
-            </p>
-          </article>
-          <article class="feature-item reveal">
-            <h3>Yenileme durumu</h3>
-            <p>
-              Yenileme sürecini adım adım izleyin; <strong>Bugün aranacaklar</strong>
-              listesiyle günün aramalarını tek bakışta planlayın.
-            </p>
-          </article>
-          <article class="feature-item reveal">
-            <h3>Müşteri telefonları</h3>
-            <p>
-              Müşteri rehberinden numara ekleyin; müşteri detayında telefona
-              hızlı erişin.
-            </p>
-          </article>
-          <article class="feature-item reveal">
-            <h3>MTV borç takibi</h3>
-            <p>MTV borçlarını takip edin ve mesajla hatırlatın.</p>
-          </article>
-          <article class="feature-item reveal">
-            <h3>Rapor ve arşiv</h3>
-            <p>
-              Excel/CSV dışa aktarım, araç özeti ve yıl sonu PDF arşivi.
-              Raporlarda ay veya yıl seçerek döneme göre bakın.
-            </p>
-          </article>
-          <article class="feature-item reveal">
-            <h3>Şablon editörü</h3>
-            <p>Mesaj şablonlarını ofisinizin diline göre düzenleyin.</p>
-          </article>
-          <article class="feature-item reveal">
-            <h3>Çapraz satış</h3>
-            <p>Uygun çapraz satış fırsatlarını listede görün.</p>
-          </article>
-          <article class="feature-item reveal">
-            <h3>Ofis ve ekip</h3>
-            <p>
-              Ofis daveti ile aynı hesaba birden fazla kullanıcıyı bağlayın.
-            </p>
-          </article>
-          <article class="feature-item reveal">
-            <h3>Güvenlik</h3>
-            <p>
-              İki adımlı doğrulama (2FA) ve cihaz oturum yönetimi ile hesabınızı
-              koruyun.
-            </p>
-          </article>
-          <article class="feature-item reveal">
-            <h3>Senkron</h3>
-            <p>
-              Windows PC ile Android telefon arasında daha akıcı senkron.
-            </p>
-          </article>
-          <article class="feature-item reveal">
-            <h3>Hasar notu</h3>
-            <p>Poliçe kaydına kısa hasar notu ekleyin.</p>
-          </article>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="uygulama-gorselleri.html">Uygulama Görselleri</a>
+          <a class="btn btn-secondary" href="indir.html">Uygulamayı indir</a>
         </div>
       </div>
     </section>
 
-    <section class="section" id="platformlar">
+    <section class="section">
       <div class="wrap">
-        <div class="section-head reveal">
-          <p class="eyebrow">İndirme</p>
-          <h2>Windows, Android ve iOS</h2>
+        <div class="section-head">
+          <p class="eyebrow">3 platform</p>
+          <h2>Android · iOS · Windows</h2>
+          <p>Google Play, App Store ve Microsoft Store’dan indirin. Aynı hesapla giriş yapın.</p>
+        </div>
+        <div class="sync-banner">
+          <p class="eyebrow">Senkron</p>
+          <h3>Birinden Pro alın — üçünde de Pro</h3>
           <p>
-            Microsoft Store, Google Play ve App Store’dan indirin.
-            Aynı hesapla Pro yetkisi cihazlar arasında tanınır.
+            Play, App Store veya Microsoft Store’dan hangisinde Pro satın alırsanız alın:
+            aynı e-posta hesabıyla Android, iOS ve Windows’ta Pro yetkisi tanınır.
           </p>
         </div>
-        <div class="platform-grid">
-          <div class="platform platform-primary reveal">
-            <p class="platform-order">1 · Windows</p>
-            <div class="platform-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path fill="currentColor" d="M3 3h8.5v8.5H3V3zm9.5 0H21v8.5h-8.5V3zM3 12.5H11.5V21H3v-8.5zm9.5 0H21V21h-8.5v-8.5z"/></svg>
-            </div>
-            <h3>Microsoft Store (Windows)</h3>
-            <p>
-              Masaüstü sürümü: ofis operasyonu, 14 günlük Pro denemesi ve Pro
-              satın alma burada yapılır.
-            </p>
-            <a class="btn btn-solid"
-               href="https://apps.microsoft.com/detail/9NHC53TGMKF1"
-               rel="noopener noreferrer"
-               target="_blank">Microsoft Store</a>
-          </div>
-          <div class="platform reveal">
-            <p class="platform-order">2 · Android</p>
-            <div class="platform-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path fill="currentColor" d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 1.337 3.446-1.99c.65-.376.65-1.318 0-1.694l-3.446-1.99-2.302 1.337 1.303 1.001-1.303 1zM5.864 3.51l8.104 4.693-1.77 1.027L5.864 3.51zm0 16.98l6.334-5.72 1.77 1.027L5.864 20.49z"/></svg>
-            </div>
-            <h3>Google Play (Android)</h3>
-            <p>
-              Saha erişimi için Android sürümü. Aynı hesapla Pro yetkisi
-              burada da geçerli olur.
-            </p>
-            <a class="btn btn-solid"
-               href="https://play.google.com/store/apps/details?id=com.sigortatakip.sigorta_takip"
-               rel="noopener noreferrer"
-               target="_blank">Google Play</a>
-          </div>
-          <div class="platform reveal">
-            <p class="platform-order">3 · iOS</p>
-            <div class="platform-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path fill="currentColor" d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
-            </div>
-            <h3>App Store (iPhone)</h3>
-            <p>
-              iPhone sürümü App Store’da yayında. Aynı hesapla giriş yapın;
-              Pro yetkisi hesaptan gelir.
-            </p>
-            <a class="btn btn-solid"
-               href="https://apps.apple.com/tr/app/id6819279753?l=tr"
-               rel="noopener noreferrer"
-               target="_blank">App Store</a>
-          </div>
+        <div class="cta-row" style="margin-top:1.5rem">
+          <a class="btn btn-primary" href="indir.html">Mağazalara git</a>
+          <a class="btn btn-secondary" href="fiyatlandirma.html">Pro paketleri</a>
         </div>
       </div>
     </section>
 
-    <section class="section section-sync" id="hesap">
+    <section class="section section-muted">
       <div class="wrap">
-        <div class="section-head reveal">
-          <p class="eyebrow">Hesap ve Pro</p>
-          <h2>Tek hesap, Windows’tan gelen Pro</h2>
-          <p>
-            Hesabınız Pro denemesini ve satın almayı cihazlar arasında tanır.
-            Poliçe verisi cihazınızda local-first tutulur.
-          </p>
+        <div class="section-head">
+          <p class="eyebrow">Hızlı başlangıç</p>
+          <h2>İndirin, hesap açın, takip edin</h2>
+          <p>14 günlük ücretsiz denemede Pro özelliklerini deneyebilirsiniz.</p>
         </div>
-        <div class="sync-panel reveal">
-          <div class="sync-status">
-            <p class="sync-badge">Önemli</p>
-            <h3>Tek hesap, tüm platformlar</h3>
-            <p>
-              Pro yetkisi hesabınıza bağlanır. Windows, Android veya iOS’ta
-              aynı e-posta ile giriş yaptığınızda Pro tanınır; satın alma
-              ilgili mağaza (Microsoft Store / Play / App Store) üzerinden yapılır.
-            </p>
-          </div>
-          <div class="sync-today">
-            <h3>Kısaca</h3>
-            <ul>
-              <li>14 gün ücretsiz deneme — Pro özellikleri açık.</li>
-              <li>Hesap oluşturma / giriş uygulama içinden yapılır.</li>
-              <li>Pro ödemesi Microsoft Store / Play / App Store ile işlenir.</li>
-              <li>Aynı hesap = Windows, Android ve iOS’ta aynı Pro.</li>
-              <li>Poliçe ve PDF içeriği cihazınızda saklanır.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-muted" id="hakkimizda">
-      <div class="wrap">
-        <div class="section-head reveal">
-          <p class="eyebrow">Hakkımızda</p>
-          <h2>Acenteler için geliştirildi</h2>
-        </div>
-        <div class="about-block reveal">
-          <p>
-            <strong>Poliçe Takip</strong>, sigorta acentelerinin günlük poliçe
-            ve yenileme takibini sadeleştirmek amacıyla geliştirilmiştir.
-            Geliştirici: <strong>Mücahid Karakaya</strong>. Ürün, sahadaki acente
-            iş akışına odaklanır; ağır CRM yerine hızlı, anlaşılır ve yerel bir
-            takip aracı sunmayı hedefler.
-          </p>
-          <p>
-            Destek ve ürün soruları için
-            <a href="mailto:destek@policetakibi.com.tr">destek@policetakibi.com.tr</a>
-            adresine yazabilirsiniz.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="guvenlik">
-      <div class="wrap">
-        <div class="section-head reveal">
-          <p class="eyebrow">Bilgi ve güvenlik</p>
-          <h2>Veri, gizlilik ve KVKK</h2>
-          <p>Kısa özet; ayrıntılar gizlilik politikasında.</p>
-        </div>
-        <div class="security-list">
-          <article class="reveal">
-            <h3>Yerel öncelik</h3>
-            <p>
-              Poliçe ve müşteri kayıtları tipik olarak cihazınızdaki SQLite
-              veritabanında; PDF’ler yerel arşivde saklanır. Geliştirici
-              sunucusuna poliçe içeriği yüklenmez.
-            </p>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>1 · Uygulamayı kurun</h3>
+            <p>Tercih ettiğiniz mağazadan Windows, Android veya iPhone sürümünü indirin.</p>
           </article>
-          <article class="reveal">
-            <h3>Hesap</h3>
-            <p>
-              Giriş için e-posta hesabı kullanılır. Hesap kimliği ve Pro yetkisi
-              güvenli API üzerinden doğrulanır; poliçe içeriğiniz bu amaçla
-              buluta taşınmaz.
-            </p>
+          <article class="feature-card">
+            <h3>2 · Hesap oluşturun</h3>
+            <p>E-posta ile kayıt olun. Pro ve senkron bu hesaba bağlanır.</p>
           </article>
-          <article class="reveal">
-            <h3>Mağaza, deneme ve Pro</h3>
-            <p>
-              Dağıtım Microsoft Store, Google Play ve App Store üzerinden yapılır.
-              14 günlük ücretsiz denemede Pro özellikleri açıktır; Pro satın
-              alma ilgili mağaza faturalandırması ile işlenir.
-            </p>
+          <article class="feature-card">
+            <h3>3 · Portföyünüzü ekleyin</h3>
+            <p>Poliçe, vade ve borç kayıtlarını girin; yenilemeleri planlayın.</p>
           </article>
-          <article class="reveal">
-            <h3>Politika</h3>
-            <p>
-              KVKK ve mağaza bilgilendirmesi için
-              <a href="privacy.html">gizlilik politikası</a> sayfasına bakın.
-            </p>
+          <article class="feature-card">
+            <h3>4 · İsterseniz Pro alın</h3>
+            <p>Üç mağazadan birinde satın alın — aynı hesapla diğer cihazlarda da Pro açılır.</p>
           </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-support" id="destek">
-      <div class="wrap">
-        <div class="section-head reveal">
-          <p class="eyebrow">Destek</p>
-          <h2>Yardıma mı ihtiyacınız var?</h2>
-          <p>
-            Kurulum, deneme, Pro veya hesap sorularınız için resmi destek
-            adresimize yazın.
-          </p>
-        </div>
-        <div class="support-block reveal">
-          <a class="support-email" href="mailto:destek@policetakibi.com.tr">
-            destek@policetakibi.com.tr
-          </a>
-          <p>
-            Yanıt süresi iş günlerinde değerlendirilir. Lütfen kullandığınız
-            platformu (Windows / Android / iOS) ve kısa sorunu belirtin.
-          </p>
-          <a class="btn btn-solid"
-             href="mailto:destek@policetakibi.com.tr?subject=Poli%C3%A7e%20Takip%20destek">
-            Destek e-postası gönder
-          </a>
         </div>
       </div>
     </section>
@@ -512,85 +164,25 @@
     <div class="wrap">
       <div class="footer-grid">
         <div class="footer-brand">
-          <img src="assets/logo_icon.png" width="56" height="56" alt="">
+          <img src="assets/logo_icon.png" width="44" height="44" alt="">
           <div>
             Poliçe Takip
             <span>policetakibi.com.tr · Mücahid Karakaya</span>
           </div>
         </div>
         <ul class="footer-links">
-          <li><a href="mailto:destek@policetakibi.com.tr">Destek</a></li>
-          <li><a href="#baslangic">Başlangıç</a></li>
-          <li><a href="#yenilikler">Yenilikler</a></li>
-          <li><a href="privacy.html">Gizlilik</a></li>
-          <li><a href="https://apps.microsoft.com/detail/9NHC53TGMKF1" rel="noopener noreferrer" target="_blank">Microsoft Store</a></li>
-          <li><a href="https://play.google.com/store/apps/details?id=com.sigortatakip.sigorta_takip" rel="noopener noreferrer" target="_blank">Google Play</a></li>
-          <li><a href="https://apps.apple.com/tr/app/id6819279753?l=tr" rel="noopener noreferrer" target="_blank">App Store</a></li>
+          <li><a href="ozellikler.html">Özellikler</a></li>
+          <li><a href="uygulama-gorselleri.html">Uygulama Görselleri</a></li>
+          <li><a href="fiyatlandirma.html">Fiyatlandırma</a></li>
+          <li><a href="indir.html">İndir</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+          <li><a href="gizlilik.html">Gizlilik</a></li>
         </ul>
       </div>
       <p class="footer-copy">© 2026 Mücahid Karakaya · Poliçe Takip. Tüm hakları saklıdır.</p>
     </div>
   </footer>
 
-  <a class="wa-fab"
-     href="https://wa.me/905447202837?text=Merhaba%2C%20ruhsat%20foto%C4%9Fraf%C4%B1m%C4%B1%20g%C3%B6ndermek%20istiyorum.%20Poli%C3%A7e%20teklifi%20alabilir%20miyim%3F"
-     target="_blank"
-     rel="noopener noreferrer"
-     aria-label="WhatsApp ile teklif al / Ruhsat gönder">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
-    <span class="wa-fab-label">WhatsApp ile teklif al</span>
-  </a>
-
-  <script>
-    (function () {
-      var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-      var splash = document.getElementById("splash");
-      var holdMs = reduce ? 400 : 2000;
-      var fadeMs = reduce ? 0 : 550;
-
-      function dismissSplash() {
-        if (!splash) {
-          document.body.classList.remove("has-splash");
-          return;
-        }
-        splash.classList.add("is-done");
-        document.body.classList.remove("has-splash");
-        window.setTimeout(function () {
-          if (splash && splash.parentNode) splash.parentNode.removeChild(splash);
-        }, fadeMs + 40);
-      }
-
-      window.setTimeout(dismissSplash, holdMs);
-
-      var reveals = document.querySelectorAll(".reveal");
-      if (!reduce && "IntersectionObserver" in window) {
-        var io = new IntersectionObserver(function (entries) {
-          entries.forEach(function (e) {
-            if (e.isIntersecting) {
-              e.target.classList.add("is-visible");
-              io.unobserve(e.target);
-            }
-          });
-        }, { threshold: 0.12, rootMargin: "0px 0px -8% 0px" });
-        reveals.forEach(function (el) { io.observe(el); });
-      } else {
-        reveals.forEach(function (el) { el.classList.add("is-visible"); });
-      }
-
-      var photo = document.querySelector("[data-parallax]");
-      if (photo && !reduce) {
-        var ticking = false;
-        window.addEventListener("scroll", function () {
-          if (ticking) return;
-          ticking = true;
-          requestAnimationFrame(function () {
-            var y = window.scrollY * 0.22;
-            photo.style.transform = "translate3d(0," + y + "px,0) scale(1.08)";
-            ticking = false;
-          });
-        }, { passive: true });
-      }
-    })();
-  </script>
+  <script src="js/main.js" defer></script>
 </body>
 </html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gizlilik Politikası — Poliçe Takip</title>
+  <meta name="description" content="Poliçe Takip gizlilik politikası: yerel veri saklama, KVKK bilgilendirmesi, Pro deneme, Microsoft Store / Google Play / App Store dağıtımı.">
+  <meta name="theme-color" content="#0F4C5C">
+  <link rel="canonical" href="https://policetakibi.com.tr/gizlilik.html">
+  <link rel="icon" href="assets/logo_icon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#icerik">İçeriğe geç</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="nav-brand" href="index.html">
+        <img src="assets/logo_icon.png" width="36" height="36" alt="">
+        Poliçe Takip
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="ana-menu" aria-label="Menüyü aç">
+        <span></span>
+      </button>
+      <nav class="site-nav" id="ana-menu" aria-label="Ana menü">
+        <ul>
+          <li><a href="index.html">Ana sayfa</a></li>
+          <li><a href="ozellikler.html">Özellikler</a></li>
+          <li><a href="uygulama-gorselleri.html">Uygulama Görselleri</a></li>
+          <li><a href="fiyatlandirma.html">Fiyatlandırma</a></li>
+          <li><a href="indir.html">İndir</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+          <li><a class="nav-cta" href="indir.html">Uygulamayı indir</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <header class="page-hero">
+    <div class="wrap">
+      <p class="eyebrow">Yasal bilgilendirme</p>
+      <h1>Gizlilik Politikası</h1>
+      <p class="lead">Poliçe Takip’in Windows, Android ve iOS sürümlerinde verilerin nasıl işlendiğine ilişkin özet bilgilendirme.</p>
+    </div>
+  </header>
+
+  <main id="icerik" class="legal">
+    <div class="wrap prose">
+      <p>
+        Bu gizlilik politikası, <strong>Poliçe Takip</strong> uygulamasının
+        Microsoft Store (Windows), Google Play (Android) ve App Store (iOS)
+        sürümleri için geçerlidir. Uygulama, sigorta acenteleri ve benzeri
+        kullanıcılar için poliçe, müşteri ve yenileme takibini cihaz üzerinde —
+        yerel ve çevrimdışı öncelikli — sağlar. Temel kullanımda poliçe içeriği
+        geliştirici sunucusuna gönderilmez.
+      </p>
+
+      <h2>1) Geliştirici ve iletişim</h2>
+      <p>
+        Geliştirici: <strong>Mücahid Karakaya</strong><br>
+        Microsoft Store paket kimliği: <code>MCAHDKARAKAYA.POLETAKP</code><br>
+        Android paket adı: <code>com.sigortatakip.sigorta_takip</code><br>
+        App Store: <a href="https://apps.apple.com/tr/app/id6819279753?l=tr" rel="noopener noreferrer" target="_blank">id6819279753</a>
+      </p>
+      <p>
+        Web: <a href="https://policetakibi.com.tr">https://policetakibi.com.tr</a><br>
+        Destek e-posta: <a href="mailto:destek@policetakibi.com.tr">destek@policetakibi.com.tr</a>
+      </p>
+
+      <h2>2) Toplanan ve saklanan veriler</h2>
+      <p>Uygulama, sizin girdiğiniz iş verilerini cihazınızda tutar. Bunlar örneğin şunları içerebilir:</p>
+      <ul>
+        <li><strong>Poliçe ve müşteri kayıtları:</strong> müşteri adları, plaka bilgileri, tutarlar, vade ve yenileme tarihleri, notlar ve benzeri poliçe alanları.</li>
+        <li><strong>Yerel veritabanı:</strong> kayıtlar SQLite ile cihazınızda saklanır.</li>
+        <li><strong>PDF arşivi:</strong> eklediğiniz poliçe PDF’leri genelde Belgeler / Documents altında (ör. <code>PoliceTakip</code> klasörü) yerel olarak arşivlenir.</li>
+        <li><strong>Yıl arşivi ve tercihler:</strong> yıl bazlı arşivleme ve uygulama ayarları cihazınızda tutulur.</li>
+        <li><strong>Hesap:</strong> Uygulama kullanımı için e-posta ve şifre ile hesap oluşturma / giriş gerekir. Hesap kimlik bilgileri <code>api.policetakibi.com.tr</code> üzerinde tutulur.</li>
+        <li><strong>Pro durumu:</strong> Microsoft Store, Google Play veya App Store üzerinden alınan Pro yetkisi, aynı hesapla diğer cihazlarda tanınabilmesi için hesapla ilişkilendirilir.</li>
+      </ul>
+      <p>
+        Poliçe, müşteri ve PDF içerikleri varsayılan olarak cihazınızda kalır (local-first,
+        hesap başına şifreli yerel veritabanı). Cihazlar arası poliçe senkronu
+        kapsamı değişirse bu politika güncellenir.
+      </p>
+
+      <h2>3) Hesap ve API</h2>
+      <p>
+        Kimlik doğrulama ve Pro yetki paylaşımı
+        <code>https://api.policetakibi.com.tr</code> üzerinden yapılır.
+        Bu uç nokta yalnızca hesap, oturum ve yetki bilgilerini işler;
+        mağaza ödemeleri Microsoft Store, Google Play veya App Store üzerinden
+        yürür. Aynı hesapla giriş yapıldığında Pro yetkisi platformlar arasında
+        tanınabilir.
+      </p>
+
+      <h2>4) Verilerin kullanımı</h2>
+      <ul>
+        <li>Veriler yalnızca uygulama özelliklerini çalıştırmak (listeleme, arama, arşiv, takip, PDF erişimi, rapor) amacıyla kullanılır.</li>
+        <li>Kişisel veya ticari verileriniz satılmaz, kiralanmaz veya reklam / pazarlama amacıyla üçüncü taraflara verilmez.</li>
+        <li>Veriler, siz dışa aktarma, paylaşma veya yedekleme yapmadıkça cihazınızda kalır.</li>
+        <li>Yasal yükümlülük halinde ilgili mevzuata (KVKK dahil) uygun işlem yapılabilir.</li>
+      </ul>
+
+      <h2>5) Mağaza dağıtımı, deneme ve Pro satın alma</h2>
+      <ul>
+        <li><strong>Dağıtım:</strong> Uygulama Microsoft Store (Windows), Google Play (Android) ve App Store (iOS) üzerinden dağıtılır ve güncellenir.</li>
+        <li><strong>14 günlük ücretsiz deneme:</strong> Kurulum sonrası sınırlı süreli Pro denemesi sunulur; deneme süresince Pro özellikleri kullanılabilir.</li>
+        <li><strong>Pro satın alma:</strong> Pro lisansı ilgili mağaza (Microsoft Store / Google Play / App Store) üzerinden alınır. Ödeme mağaza faturalandırması üzerinden yürür. Kart veya ödeme bilgilerinize geliştirici doğrudan erişemez.</li>
+        <li><strong>Çapraz platform:</strong> Aynı hesapla giriş yapıldığında bir platformda alınan (veya deneme ile açılan) Pro yetkisi diğer cihazlarda tanınabilir.</li>
+        <li>Satın alma / lisans durumu doğrulama için mağaza altyapısı ve hesap API’si ile ilişkilendirilebilir; bu, poliçe içeriğinizin buluta yüklenmesi anlamına gelmez.</li>
+      </ul>
+
+      <h2>6) Üçüncü taraf hizmetler</h2>
+      <ul>
+        <li><strong>Microsoft Store / Google Play / App Store:</strong> dağıtım, güncelleme ve (varsa) faturalandırma.</li>
+        <li>Mevcut tasarımda zorunlu üçüncü taraf analitik veya reklam SDK’sı hedeflenmemektedir. Değişiklik olursa bu sayfa güncellenir.</li>
+      </ul>
+
+      <h2>7) İzinler ve dosya erişimi</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Özellik</th>
+            <th>Amaç</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Yerel depolama / Belgeler klasörü</td>
+            <td>SQLite veritabanı ve yerel PDF arşivi.</td>
+          </tr>
+          <tr>
+            <td>Dosya seçici / dışa aktarma</td>
+            <td>PDF ekleme, yedekleme veya dışa aktarma — yalnızca sizin başlattığınız işlemlerde.</td>
+          </tr>
+          <tr>
+            <td>Bildirimler (platforma göre)</td>
+            <td>Hatırlatma özellikleri etkinse yerel bildirimler; poliçe verisi geliştirici sunucusuna gönderilmez.</td>
+          </tr>
+          <tr>
+            <td>Ağ</td>
+            <td>Hesap girişi, Pro yetki doğrulama, mağaza güncelleme / lisans veya platform iletişimi. Poliçe içeriğiniz bu amaçlarla geliştirici sunucusuna yüklenmez.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>8) Veri güvenliği</h2>
+      <ul>
+        <li>Verilerinizin büyük bölümü cihazınızın yerel depolamasında tutulur.</li>
+        <li>Güvenlik; cihaz kilidi, işletim sistemi güncellemeleri ve sizin yedek / paylaşım tercihlerinizle desteklenir.</li>
+        <li>Uygulamayı kaldırdığınızda uygulama verileri kısmen silinebilir; Belgeler altındaki PDF arşivi siz silene kadar kalabilir.</li>
+      </ul>
+
+      <h2>9) Kullanıcı hakları ve silme</h2>
+      <ul>
+        <li>Uygulama içindeki kayıtları düzenleyebilir veya silebilirsiniz.</li>
+        <li>PDF arşivi ve dışa aktarım dosyalarını cihazınızdan kaldırabilirsiniz.</li>
+        <li>Hesap ve Pro yetkisi ile ilgili talepler için destek e-postasına yazabilirsiniz; cihazdaki poliçe / arşiv verisini silmek genelde uygulama ve dosya silme ile karşılanır.</li>
+        <li>KVKK kapsamındaki haklarınız (bilgi alma, silme talebi vb.) için <a href="mailto:destek@policetakibi.com.tr">destek@policetakibi.com.tr</a> adresine yazabilirsiniz.</li>
+      </ul>
+
+      <h2>10) Çocukların gizliliği</h2>
+      <p>
+        Uygulama doğrudan çocuklara yönelik değildir. 13 yaş altındaki
+        kullanıcıların ebeveyn veya gözetmen denetimi olmadan kullanmaması
+        önerilir.
+      </p>
+
+      <h2>11) Politika güncellemeleri</h2>
+      <p>
+        Bu gizlilik politikası zaman zaman güncellenebilir. Önemli değişiklikler
+        bu sayfada yayımlanır ve “Son güncelleme” tarihi yenilenir.
+      </p>
+
+      <h2>12) Son güncelleme</h2>
+      <p>Ekim 2026</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo_icon.png" width="44" height="44" alt="">
+          <div>
+            Poliçe Takip
+            <span>policetakibi.com.tr · Mücahid Karakaya</span>
+          </div>
+        </div>
+        <ul class="footer-links">
+          <li><a href="index.html">Ana sayfa</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+          <li><a href="gizlilik.html">Gizlilik</a></li>
+        </ul>
+      </div>
+      <p class="footer-copy">© 2026 Mücahid Karakaya · Poliçe Takip. Tüm hakları saklıdır.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
