@@ -534,6 +534,8 @@ https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8
 #EXTINF:-1 tvg-id="tv-dw-espa-ol" tvg-name="DW Español" group-title="news",DW Español (3)
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream04/streamPlaylist.m3u8
+#EXTINF:-1 tvg-id="tv-dw-espa-ol" tvg-name="DW Español" group-title="news",DW Español (4)
+https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream01/streamPlaylist.m3u8
 #EXTINF:-1 tvg-id="tv-parlamentsfernsehen-1-bundestag" tvg-name="Parlamentsfernsehen 1 (Bundestag)" group-title="news",Parlamentsfernsehen 1 (Bundestag) (1)
 https://cldf-hlsgw.r53.cdn.tv1.eu/1000153copo/hk1.m3u8
 #EXTINF:-1 tvg-id="tv-parlamentsfernsehen-2-bundestag" tvg-name="Parlamentsfernsehen 2 (Bundestag)" group-title="news",Parlamentsfernsehen 2 (Bundestag) (1)
@@ -630,10 +632,26 @@ https://vmtv.iptv-playoutcenter.de/vmtv/vmtv1/playlist.m3u8
 https://muc.iptv-playoutcenter.de/volksmusik/volksmusik.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-folx-music-television" tvg-name="Folx Music Television" group-title="music",Folx Music Television (1)
 https://folxapp.b-cdn.net/1080p/index.m3u8
+#EXTINF:-1 tvg-id="tv-folx-music-television" tvg-name="Folx Music Television" group-title="music",Folx Music Television (2)
+https://folxapp.b-cdn.net/720p/index.m3u8
+#EXTINF:-1 tvg-id="tv-folx-music-television" tvg-name="Folx Music Television" group-title="music",Folx Music Television (3)
+https://folxapp.b-cdn.net/480p/index.m3u8
 #EXTINF:-1 tvg-id="tv-one-music-television" tvg-name="One Music Television" group-title="music",One Music Television (1)
 https://oneapp.b-cdn.net/1080p/index.m3u8
+#EXTINF:-1 tvg-id="tv-one-music-television" tvg-name="One Music Television" group-title="music",One Music Television (2)
+https://oneapp.b-cdn.net/720p/index.m3u8
+#EXTINF:-1 tvg-id="tv-one-music-television" tvg-name="One Music Television" group-title="music",One Music Television (3)
+https://oneapp.b-cdn.net/480p/index.m3u8
+#EXTINF:-1 tvg-id="tv-one-music-television" tvg-name="One Music Television" group-title="music",One Music Television (4)
+https://oneapp.b-cdn.net/master.m3u8
 #EXTINF:-1 tvg-id="tv-zwei-music-television" tvg-name="Zwei Music Television" group-title="music",Zwei Music Television (1)
 https://zweiapp.b-cdn.net/1080p/index.m3u8
+#EXTINF:-1 tvg-id="tv-zwei-music-television" tvg-name="Zwei Music Television" group-title="music",Zwei Music Television (2)
+https://zweiapp.b-cdn.net/720p/index.m3u8
+#EXTINF:-1 tvg-id="tv-zwei-music-television" tvg-name="Zwei Music Television" group-title="music",Zwei Music Television (3)
+https://zweiapp.b-cdn.net/480p/index.m3u8
+#EXTINF:-1 tvg-id="tv-zwei-music-television" tvg-name="Zwei Music Television" group-title="music",Zwei Music Television (4)
+https://zweiapp.b-cdn.net/master.m3u8
 #EXTINF:-1 tvg-id="tv-n24-doku" tvg-name="N24 Doku" group-title="documentary",N24 Doku (1)
 https://broadcast.n24-doku.personalstream.tv/ses/hls/live/2107300/n24-doku-live/master.m3u8
 #EXTINF:-1 tvg-id="tv-n24-doku" tvg-name="N24 Doku" group-title="documentary",N24 Doku (2)
