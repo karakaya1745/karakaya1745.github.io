@@ -1,0 +1,92 @@
+kanal,link,durum,kaynak,tür
+ByteFM,https://bytefm.cast.addradio.de/bytefm/main/mid/stream.mp3,"çalışıyor (200, ses akışı)",Sourcegraph (addradio),yeni_yedek
+BR Klassik,https://dispatcher.rndfnk.com/br/brklassik/live/mp3/low,"çalışıyor (200, ses akışı)",Sourcegraph (rndfnk),yeni_yedek
+HR 3,https://dispatcher.rndfnk.com/hr/hr3/nordhessen/high,"çalışıyor (200, ses akışı)",Sourcegraph (rndfnk),yeni_yedek
+HR 4,https://dispatcher.rndfnk.com/hr/hr4/mittelhessen/high,"çalışıyor (200, ses akışı)",Sourcegraph (rndfnk),yeni_yedek
+HR 4,https://dispatcher.rndfnk.com/hr/hr4/suedhessen/high,"çalışıyor (200, ses akışı)",Sourcegraph (rndfnk),yeni_yedek
+HR Fernsehen,https://hr-live.ard-mcdn.de/hr/live/dash/de/manifest.mpd,"çalışıyor (200, DASH manifest)",Sourcegraph (ard-mcdn),yeni_yedek
+NDR 1 Niedersachsen,https://icecast.ndr.de/ndr/ndr1niedersachsen/osnabrueck/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",Sourcegraph + radio-browser,yeni_yedek
+NDR 1 Radio MV,https://icecast.ndr.de/ndr/ndr1radiomv/rostock/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",Sourcegraph + radio-browser,yeni_yedek
+NDR 1 Welle Nord,https://icecast.ndr.de/ndr/ndr1wellenord/luebeck/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",Sourcegraph (icecast.ndr.de),yeni_yedek
+NDR 2,https://icecast.ndr.de/ndr/ndr2/hamburg/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",Sourcegraph + radio-browser,yeni_yedek
+NDR Info Niedersachsen,https://icecast.ndr.de/ndr/ndrinfo/hamburg/mp3/128/stream.mp3,"çalışıyor (200, ses akışı)",Sourcegraph (icecast.ndr.de),yeni_yedek
+Oldie Antenne,https://stream.oldie-antenne.de/oldie-antenne/stream/mp3,"çalışıyor (200, ses akışı)",Sourcegraph,yeni_yedek
+Radio Teddy,https://streamtdy.ir-media-tec.com/live/mp3-128/radiode_web/,"çalışıyor (200, ses akışı)",Sourcegraph (ir-media-tec),yeni_yedek
+Radio MK,https://stream.lokalradio.nrw/44542h2,"çalışıyor (200, ses akışı)",radio-browser API,yeni_yedek
+harmony.fm,https://mp3.harmonyfm.de/harmonyfm/livestream.aac,"çalışıyor (200, ses akışı)",radio-browser API,yeni_yedek
+Das Erste,https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master_960p_1600.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+Tagesschau 24,https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master360p1200.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+Tagesschau 24,https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master_960p_1600.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+KIKA,https://kika-live.ard-mcdn.de/kika/live/hls/de/master_960p_1600.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+KIKA,https://kika-live.ard-mcdn.de/kika/live/dash/de/manifest.mpd,"çalışıyor (200, DASH manifest)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+ARD Alpha,https://mcdn.br.de/br/fs/ard_alpha/hls/de/master540p1800.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+ARD Alpha,https://mcdn.br.de/br/fs/ard_alpha/hls/int/master360p1200.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+ARD Alpha,https://mcdn.br.de/br/fs/ard_alpha/hls/int/master720p3200.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+ARD Alpha,https://mcdn.br.de/br/fs/ard_alpha/hls/int/master1080p5000.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+Bayerisches Fernsehen Nord,https://mcdn.br.de/br/fs/bfs_nord/hls/de/master540p1800.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+Bayerisches Fernsehen Nord,https://mcdn.br.de/br/fs/bfs_nord/hls/de/master_960p_1600.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+Bayerisches Fernsehen Süd,https://mcdn.br.de/br/fs/bfs_sued/hls/de/master540p1800.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+Bayerisches Fernsehen Süd,https://mcdn.br.de/br/fs/bfs_sued/hls/de/master_960p_1600.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+Bayerisches Fernsehen Süd,https://mcdn.br.de/br/fs/bfs_sued/hls/int/master360p1200.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+Bayerisches Fernsehen Süd,https://mcdn.br.de/br/fs/bfs_sued/hls/int/master720p3200.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+Bayerisches Fernsehen Süd,https://mcdn.br.de/br/fs/bfs_sued/hls/int/master1080p5000.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+HR Fernsehen,https://hr-live.ard-mcdn.de/hr/live/hls/de/master_960p_1600.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Fernsehen Köln,https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master_960p_1600.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Aachen,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master360p1200.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Aachen,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master540p1800.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Aachen,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master720p3200.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Aachen,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master1080p5000.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Aachen,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master_960p_1600.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Bielefeld,https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master360p1200.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Bielefeld,https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master540p1800.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Bielefeld,https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master720p3200.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Bielefeld,https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master1080p5000.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Bielefeld,https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master_960p_1600.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Bonn,https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master360p1200.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Bonn,https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master540p1800.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Bonn,https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master720p3200.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Bonn,https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master1080p5000.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Bonn,https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master_960p_1600.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Dortmund,https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master360p1200.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Dortmund,https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master540p1800.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Dortmund,https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master720p3200.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Dortmund,https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master1080p5000.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Dortmund,https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master_960p_1600.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Duisburg,https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master360p1200.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Duisburg,https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master540p1800.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Duisburg,https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master720p3200.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Duisburg,https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master1080p5000.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Duisburg,https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master_960p_1600.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Düsseldorf,https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master360p1200.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Düsseldorf,https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master540p1800.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Düsseldorf,https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master720p3200.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Düsseldorf,https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master1080p5000.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Düsseldorf,https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master_960p_1600.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Essen,https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master360p1200.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Essen,https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master540p1800.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Essen,https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master720p3200.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Essen,https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master1080p5000.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Essen,https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master_960p_1600.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Münster,https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master360p1200.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Münster,https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master540p1800.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Münster,https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master720p3200.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Münster,https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master1080p5000.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Münster,https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master_960p_1600.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Siegen,https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master360p1200.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Siegen,https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master540p1800.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Siegen,https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master720p3200.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Siegen,https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master1080p5000.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Siegen,https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master_960p_1600.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Wuppertal,https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master360p1200.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Wuppertal,https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master540p1800.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Wuppertal,https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master720p3200.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Wuppertal,https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master1080p5000.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+WDR Studio Wuppertal,https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master_960p_1600.m3u8,"çalışıyor (200, canlı segment)",resmi ARD CDN (ard-mcdn/mcdn.br.de) varyant taraması,yeni_yedek
+Deluxe Rap,https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/2646ace1f474593f_33669365_2610131208_1.m3u8,"ölü (404, 2. gün)",katalog rev 15,olu_mevcut
+ERF Jess,https://stream.erf.de/erfpop.m3u,"şüpheli (HTML bot sayfası, 2. gün)",katalog rev 15,olu_mevcut
+Finest TV,https://media.finest.tv/hls/live.m3u8,"ölü (000 zaman aşımı, 1. gün; 7/24 değil)",katalog rev 15,olu_mevcut
+SR Fernsehen,https://sr-live.ard-mcdn.de/sr/live/hls/int/master.m3u8,"sadece Almanya (403, 2. gün)",katalog rev 15,geo_403
+SR Fernsehen,https://sr-live.ard-mcdn.de/sr/live/hls/int/master1080p5000.m3u8,"sadece Almanya (403, 2. gün)",katalog rev 15,geo_403
+SR Fernsehen,https://sr-live.ard-mcdn.de/sr/live/hls/int/master720p3200.m3u8,"sadece Almanya (403, 2. gün)",katalog rev 15,geo_403
+SR Fernsehen,https://sr-live.ard-mcdn.de/sr/live/hls/int/master540p1800.m3u8,"sadece Almanya (403, 2. gün)",katalog rev 15,geo_403
+SR Fernsehen,https://sr-live.ard-mcdn.de/sr/live/hls/int/master360p1200.m3u8,"sadece Almanya (403, 2. gün)",katalog rev 15,geo_403

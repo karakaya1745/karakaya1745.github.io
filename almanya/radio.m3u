@@ -54,6 +54,8 @@ https://br-radio.ard-mcdn.de/br/radio/brklassik/hls/192/seglist.m3u8
 https://br-radio.ard-mcdn.de/br/radio/brklassik/hls/master.m3u8
 #EXTINF:-1 tvg-id="radio-br-klassik" tvg-name="BR Klassik" group-title="public",BR Klassik (5)
 https://dispatcher.rndfnk.com/br/brklassik/live/mp3/mid?aggregator=ard-at
+#EXTINF:-1 tvg-id="radio-br-klassik" tvg-name="BR Klassik" group-title="public",BR Klassik (6)
+https://dispatcher.rndfnk.com/br/brklassik/live/mp3/low
 #EXTINF:-1 tvg-id="radio-br-schlager" tvg-name="BR Schlager" group-title="public",BR Schlager (1)
 https://dispatcher.rndfnk.com/br/brschlager/live/mp3/mid
 #EXTINF:-1 tvg-id="radio-br-schlager" tvg-name="BR Schlager" group-title="public",BR Schlager (2)
@@ -140,6 +142,8 @@ https://dispatcher.rndfnk.com/hr/hr3/rheinmain/high
 https://hr-radio.ard-mcdn.de/hr/radio/hr3rm/hls/master.m3u8
 #EXTINF:-1 tvg-id="radio-hr-3" tvg-name="HR 3" group-title="public",HR 3 (6)
 https://hr-radio.ard-mcdn.de/hr/radio/hr3rm/hls/192/seglist.m3u8
+#EXTINF:-1 tvg-id="radio-hr-3" tvg-name="HR 3" group-title="public",HR 3 (7)
+https://dispatcher.rndfnk.com/hr/hr3/nordhessen/high
 #EXTINF:-1 tvg-id="radio-hr-4" tvg-name="HR 4" group-title="public",HR 4 (1)
 https://dispatcher.rndfnk.com/hr/hr4/live/mp3/high
 #EXTINF:-1 tvg-id="radio-hr-4" tvg-name="HR 4" group-title="public",HR 4 (2)
@@ -152,6 +156,10 @@ https://hr-radio.ard-mcdn.de/hr/radio/hr4rm/hls/master.m3u8
 https://dispatcher.rndfnk.com/hr/hr4/live/mp3/128/stream.mp3
 #EXTINF:-1 tvg-id="radio-hr-4" tvg-name="HR 4" group-title="public",HR 4 (6)
 https://hr-radio.ard-mcdn.de/hr/radio/hr4rm/hls/192/seglist.m3u8
+#EXTINF:-1 tvg-id="radio-hr-4" tvg-name="HR 4" group-title="public",HR 4 (7)
+https://dispatcher.rndfnk.com/hr/hr4/mittelhessen/high
+#EXTINF:-1 tvg-id="radio-hr-4" tvg-name="HR 4" group-title="public",HR 4 (8)
+https://dispatcher.rndfnk.com/hr/hr4/suedhessen/high
 #EXTINF:-1 tvg-id="radio-hr-info" tvg-name="HR Info" group-title="public",HR Info (1)
 https://dispatcher.rndfnk.com/hr/hrinfo/live/mp3/high
 #EXTINF:-1 tvg-id="radio-hr-info" tvg-name="HR Info" group-title="public",HR Info (2)
@@ -274,18 +282,24 @@ https://ndr-audio.akamaized.net/hls/live/2110916/NDR1NDSH/96/seglist.m3u8
 https://ndr-audio.akamaized.net/hls/live/2110916/NDR1NDSH/master.m3u8
 #EXTINF:-1 tvg-id="radio-ndr-1-niedersachsen-hannover" tvg-name="NDR 1 Niedersachsen" group-title="public",NDR 1 Niedersachsen (6)
 https://www.ndr.de/resources/metadaten/audio/aac/ndr1niedersachsen.m3u
+#EXTINF:-1 tvg-id="radio-ndr-1-niedersachsen-hannover" tvg-name="NDR 1 Niedersachsen" group-title="public",NDR 1 Niedersachsen (7)
+https://icecast.ndr.de/ndr/ndr1niedersachsen/osnabrueck/mp3/128/stream.mp3
 #EXTINF:-1 tvg-id="radio-ndr-1-radio-mv-schwerin" tvg-name="NDR 1 Radio MV" group-title="public",NDR 1 Radio MV (1)
 https://icecast.ndr.de/ndr/ndr1radiomv/schwerin/mp3/128/stream.mp3
 #EXTINF:-1 tvg-id="radio-ndr-1-radio-mv-schwerin" tvg-name="NDR 1 Radio MV" group-title="public",NDR 1 Radio MV (2)
 https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1mvsn/hls/master.m3u8
 #EXTINF:-1 tvg-id="radio-ndr-1-radio-mv-schwerin" tvg-name="NDR 1 Radio MV" group-title="public",NDR 1 Radio MV (3)
 https://ndr-audio.akamaized.net/hls/live/2110922/NDR1MVSN/192/seglist.m3u8
+#EXTINF:-1 tvg-id="radio-ndr-1-radio-mv-schwerin" tvg-name="NDR 1 Radio MV" group-title="public",NDR 1 Radio MV (4)
+https://icecast.ndr.de/ndr/ndr1radiomv/rostock/mp3/128/stream.mp3
 #EXTINF:-1 tvg-id="radio-ndr-1-welle-nord-kiel" tvg-name="NDR 1 Welle Nord" group-title="public",NDR 1 Welle Nord (1)
 https://icecast.ndr.de/ndr/ndr1wellenord/kiel/mp3/128/stream.mp3
 #EXTINF:-1 tvg-id="radio-ndr-1-welle-nord-kiel" tvg-name="NDR 1 Welle Nord" group-title="public",NDR 1 Welle Nord (2)
 https://ndr-radio.ard-mcdn.de/ndr/radio/ndr1wnki/hls/master.m3u8
 #EXTINF:-1 tvg-id="radio-ndr-1-welle-nord-kiel" tvg-name="NDR 1 Welle Nord" group-title="public",NDR 1 Welle Nord (3)
 https://ndr-audio.akamaized.net/hls/live/2110911/NDR1WNOKI/192/seglist.m3u8
+#EXTINF:-1 tvg-id="radio-ndr-1-welle-nord-kiel" tvg-name="NDR 1 Welle Nord" group-title="public",NDR 1 Welle Nord (4)
+https://icecast.ndr.de/ndr/ndr1wellenord/luebeck/mp3/128/stream.mp3
 #EXTINF:-1 tvg-id="radio-ndr-90-3" tvg-name="NDR 90.3" group-title="public",NDR 90.3 (1)
 https://icecast.ndr.de/ndr/ndr903/hamburg/mp3/128/stream.mp3
 #EXTINF:-1 tvg-id="radio-ndr-90-3" tvg-name="NDR 90.3" group-title="public",NDR 90.3 (2)
@@ -310,6 +324,8 @@ https://www.ndr.de/resources/metadaten/audio/m3u/ndr2.m3u
 https://ndr-audio.akamaized.net/hls/live/2110930/NDR2NDS/192/seglist.m3u8
 #EXTINF:-1 tvg-id="radio-ndr-2" tvg-name="NDR 2" group-title="public",NDR 2 (7)
 https://www.ndr.de/resources/metadaten/audio/aac/ndr2.m3u
+#EXTINF:-1 tvg-id="radio-ndr-2" tvg-name="NDR 2" group-title="public",NDR 2 (8)
+https://icecast.ndr.de/ndr/ndr2/hamburg/mp3/128/stream.mp3
 #EXTINF:-1 tvg-id="radio-n-joy" tvg-name="N-Joy" group-title="public",N-Joy (1)
 https://icecast.ndr.de/ndr/njoy/live/mp3/128/stream.mp3
 #EXTINF:-1 tvg-id="radio-n-joy" tvg-name="N-Joy" group-title="public",N-Joy (2)
@@ -346,6 +362,8 @@ https://www.ndr.de/resources/metadaten/audio/m3u/ndrinfo.m3u
 https://dispatcher.rndfnk.com/ndr/ndrinfo/niedersachsen/mp3/128/stream.mp3
 #EXTINF:-1 tvg-id="radio-ndr-info-niedersachsen" tvg-name="NDR Info Niedersachsen" group-title="public",NDR Info Niedersachsen (6)
 https://ndr-audio.akamaized.net/hls/live/2110933/NDRINFO/192/seglist.m3u8
+#EXTINF:-1 tvg-id="radio-ndr-info-niedersachsen" tvg-name="NDR Info Niedersachsen" group-title="public",NDR Info Niedersachsen (7)
+https://icecast.ndr.de/ndr/ndrinfo/hamburg/mp3/128/stream.mp3
 #EXTINF:-1 tvg-id="radio-ndr-info-spezial" tvg-name="NDR Info Spezial" group-title="public",NDR Info Spezial (1)
 https://icecast.ndr.de/ndr/ndrinfospezial/live/mp3/128/stream.mp3
 #EXTINF:-1 tvg-id="radio-ndr-info-spezial" tvg-name="NDR Info Spezial" group-title="public",NDR Info Spezial (2)
@@ -1014,6 +1032,8 @@ https://streams.harmonyfm.de/harmonyfm/mp3/hqlivestream.m3u
 https://mp3.harmonyfm.de/harmonyfm/hqlivestream.aac
 #EXTINF:-1 tvg-id="radio-harmony-fm" tvg-name="harmony.fm" group-title="regional",harmony.fm (4)
 https://streams.harmonyfm.de/harmonyfm/mp3/hqlivestream.mp3
+#EXTINF:-1 tvg-id="radio-harmony-fm" tvg-name="harmony.fm" group-title="regional",harmony.fm (5)
+https://mp3.harmonyfm.de/harmonyfm/livestream.aac
 #EXTINF:-1 tvg-id="radio-radio-bob" tvg-name="Radio Bob" group-title="regional",Radio Bob (1)
 https://streams.radiobob.de/bob-national/mp3-192/mediaplayer
 #EXTINF:-1 tvg-id="radio-radio-bob" tvg-name="Radio Bob" group-title="regional",Radio Bob (2)
@@ -1110,6 +1130,8 @@ https://stream.antenne.de/oldie-antenne/stream/aacp
 https://stream.oldie-antenne.de/oldie-antenne
 #EXTINF:-1 tvg-id="radio-oldie-antenne" tvg-name="Oldie Antenne" group-title="regional",Oldie Antenne (6)
 https://stream.antenne.de/oldie-antenne
+#EXTINF:-1 tvg-id="radio-oldie-antenne" tvg-name="Oldie Antenne" group-title="regional",Oldie Antenne (7)
+https://stream.oldie-antenne.de/oldie-antenne/stream/mp3
 #EXTINF:-1 tvg-id="radio-100-5-das-hitradio" tvg-name="100'5 DAS HITRADIO" group-title="regional",100'5 DAS HITRADIO (1)
 https://stream.dashitradio.de/dashitradio/mp3-128/stream.mp3
 #EXTINF:-1 tvg-id="radio-100-5-alemannia" tvg-name="100'5 Alemannia" group-title="regional",100'5 Alemannia (1)
@@ -1280,6 +1302,8 @@ https://addrad.io/44542gc
 https://addrad.io/4454294
 #EXTINF:-1 tvg-id="radio-radio-mk" tvg-name="Radio MK" group-title="regional",Radio MK (10)
 https://addrad.io/445428q
+#EXTINF:-1 tvg-id="radio-radio-mk" tvg-name="Radio MK" group-title="regional",Radio MK (11)
+https://stream.lokalradio.nrw/44542h2
 #EXTINF:-1 tvg-id="radio-radio-neandertal" tvg-name="Radio Neandertal" group-title="regional",Radio Neandertal (1)
 https://neandertal-live.cast.addradio.de/neandertal/live/mp3/high
 #EXTINF:-1 tvg-id="radio-radio-neandertal" tvg-name="Radio Neandertal" group-title="regional",Radio Neandertal (2)
@@ -1464,8 +1488,6 @@ https://erf1068--di--nacs-ice-01--02--cdn.cast.addradio.de/erf1068/live/mp3/high
 https://stream.erfjess.de/erf-1068/mp3-128?ar-distributor=ffa5
 #EXTINF:-1 tvg-id="radio-erf-jess" tvg-name="ERF Jess" group-title="religious",ERF Jess (4)
 https://stream.erfjess.de/erf-1068/aac-64?ar-distributor=ffa5
-#EXTINF:-1 tvg-id="radio-erf-jess" tvg-name="ERF Jess" group-title="religious",ERF Jess (5)
-https://stream.erf.de/erfpop.m3u
 #EXTINF:-1 tvg-id="radio-erf-plus" tvg-name="ERF Plus" group-title="religious",ERF Plus (1)
 https://stream.erfplus.de/erf-1a64/mp3-128?ar-distributor=ffa5
 #EXTINF:-1 tvg-id="radio-erf-plus" tvg-name="ERF Plus" group-title="religious",ERF Plus (2)
@@ -1542,6 +1564,8 @@ https://uplink.byte.fm/bytefm-main/mp3-128/
 https://addrad.io/4459jw3
 #EXTINF:-1 tvg-id="radio-bytefm" tvg-name="ByteFM" group-title="music",ByteFM (6)
 https://www.byte.fm/live/mp3-128/
+#EXTINF:-1 tvg-id="radio-bytefm" tvg-name="ByteFM" group-title="music",ByteFM (7)
+https://bytefm.cast.addradio.de/bytefm/main/mid/stream.mp3
 #EXTINF:-1 tvg-id="radio-deluxe-easy" tvg-name="DELUXE EASY" group-title="music",DELUXE EASY (1)
 https://audiostreams.deluxemusic.tv/easy/mp3-192
 #EXTINF:-1 tvg-id="radio-deluxe-easy" tvg-name="DELUXE EASY" group-title="music",DELUXE EASY (2)
@@ -1630,6 +1654,8 @@ https://streamtdy.ir-media-tec.com/live/aac-64/tunein_web_aac
 https://streamtdy.ir-media-tec.com/live/mp3-128/tunein_web_mp3
 #EXTINF:-1 tvg-id="radio-radio-teddy" tvg-name="Radio Teddy" group-title="music",Radio Teddy (6)
 https://streamtdy.ir-media-tec.com/live/mp3-128
+#EXTINF:-1 tvg-id="radio-radio-teddy" tvg-name="Radio Teddy" group-title="music",Radio Teddy (7)
+https://streamtdy.ir-media-tec.com/live/mp3-128/radiode_web/
 #EXTINF:-1 tvg-id="radio-schlager-radio" tvg-name="Schlager Radio" group-title="music",Schlager Radio (1)
 https://addrad.io/4454r93
 #EXTINF:-1 tvg-id="radio-schlager-radio" tvg-name="Schlager Radio" group-title="music",Schlager Radio (2)

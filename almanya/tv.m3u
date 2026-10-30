@@ -29,6 +29,8 @@ https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master540p1600.m3u8
 #EXTINF:-1 tvg-id="tv-das-erste" tvg-name="Das Erste" group-title="public",Das Erste (14)
 https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master270p700.m3u8
 #EXTINF:-1 tvg-id="tv-das-erste" tvg-name="Das Erste" group-title="public",Das Erste (15)
+https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master_960p_1600.m3u8
+#EXTINF:-1 tvg-id="tv-das-erste" tvg-name="Das Erste" group-title="public",Das Erste (16)
 https://daserste-live.ard-mcdn.de/daserste/replay/dash/de/manifest.mpd
 #EXTINF:-1 tvg-id="tv-zdf" tvg-name="ZDF" group-title="public",ZDF (1)
 https://zdf-hls-15.akamaized.net/hls/live/2016498/de/veryhigh/master.m3u8
@@ -117,10 +119,14 @@ https://ndr-audio.akamaized.net/hls/live/2110937/TS24/master.m3u8
 #EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (12)
 https://ndr-audio.akamaized.net/hls/live/2110937/TS24/192/seglist.m3u8
 #EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (13)
-https://tagesschau.akamaized.net/hls/live/2020117/tagesschau/tagesschau_3/master.m3u8
+https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master360p1200.m3u8
 #EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (14)
-https://tagesschau.akamaized.net/hls/live/2020117/tagesschau/tagesschau_3/master-720p-3328.m3u8
+https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master_960p_1600.m3u8
 #EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (15)
+https://tagesschau.akamaized.net/hls/live/2020117/tagesschau/tagesschau_3/master.m3u8
+#EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (16)
+https://tagesschau.akamaized.net/hls/live/2020117/tagesschau/tagesschau_3/master-720p-3328.m3u8
+#EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (17)
 https://tagesschau.akamaized.net/dash/live/2020098/tagesschau/tagesschau_3/tagesschau_3.mpd
 #EXTINF:-1 tvg-id="tv-kika" tvg-name="KIKA" group-title="public",KIKA (1)
 https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8
@@ -158,6 +164,10 @@ https://kika-live.ard-mcdn.de/kika/live/hls/de/master720p3200.m3u8
 https://kika-live.ard-mcdn.de/kika/live/hls/de/master540p1800.m3u8
 #EXTINF:-1 tvg-id="tv-kika" tvg-name="KIKA" group-title="public",KIKA (18)
 https://kika-live.ard-mcdn.de/kika/live/hls/de/master360p1200.m3u8
+#EXTINF:-1 tvg-id="tv-kika" tvg-name="KIKA" group-title="public",KIKA (19)
+https://kika-live.ard-mcdn.de/kika/live/hls/de/master_960p_1600.m3u8
+#EXTINF:-1 tvg-id="tv-kika" tvg-name="KIKA" group-title="public",KIKA (20)
+https://kika-live.ard-mcdn.de/kika/live/dash/de/manifest.mpd
 #EXTINF:-1 tvg-id="tv-zdf-neo" tvg-name="ZDF Neo" group-title="public",ZDF Neo (1)
 https://zdf-hls-16.akamaized.net/hls/live/2016499/de/veryhigh/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf-neo" tvg-name="ZDF Neo" group-title="public",ZDF Neo (2)
@@ -209,6 +219,14 @@ https://mcdn.br.de/br/fs/ard_alpha/hls/int/master.m3u8
 #EXTINF:-1 tvg-id="tv-ard-alpha" tvg-name="ARD Alpha" group-title="public",ARD Alpha (6)
 https://mcdn.br.de/br/fs/ard_alpha/hls/de/master_960p_1600.m3u8
 #EXTINF:-1 tvg-id="tv-ard-alpha" tvg-name="ARD Alpha" group-title="public",ARD Alpha (7)
+https://mcdn.br.de/br/fs/ard_alpha/hls/de/master540p1800.m3u8
+#EXTINF:-1 tvg-id="tv-ard-alpha" tvg-name="ARD Alpha" group-title="public",ARD Alpha (8)
+https://mcdn.br.de/br/fs/ard_alpha/hls/int/master360p1200.m3u8
+#EXTINF:-1 tvg-id="tv-ard-alpha" tvg-name="ARD Alpha" group-title="public",ARD Alpha (9)
+https://mcdn.br.de/br/fs/ard_alpha/hls/int/master720p3200.m3u8
+#EXTINF:-1 tvg-id="tv-ard-alpha" tvg-name="ARD Alpha" group-title="public",ARD Alpha (10)
+https://mcdn.br.de/br/fs/ard_alpha/hls/int/master1080p5000.m3u8
+#EXTINF:-1 tvg-id="tv-ard-alpha" tvg-name="ARD Alpha" group-title="public",ARD Alpha (11)
 https://ardalphadash.akamaized.net/dash/live/2016972/ard_alpha/dvbt2/manifest.mpd
 #EXTINF:-1 tvg-id="tv-bayerisches-fernsehen-nord" tvg-name="Bayerisches Fernsehen Nord" group-title="regional",Bayerisches Fernsehen Nord (1)
 https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8
@@ -218,6 +236,10 @@ https://mcdn.br.de/br/fs/bfs_nord/hls/de/master360p1200.m3u8
 https://mcdn.br.de/br/fs/bfs_nord/hls/de/master1080p5000.m3u8
 #EXTINF:-1 tvg-id="tv-bayerisches-fernsehen-nord" tvg-name="Bayerisches Fernsehen Nord" group-title="regional",Bayerisches Fernsehen Nord (4)
 https://mcdn.br.de/br/fs/bfs_nord/hls/de/master720p3200.m3u8
+#EXTINF:-1 tvg-id="tv-bayerisches-fernsehen-nord" tvg-name="Bayerisches Fernsehen Nord" group-title="regional",Bayerisches Fernsehen Nord (5)
+https://mcdn.br.de/br/fs/bfs_nord/hls/de/master540p1800.m3u8
+#EXTINF:-1 tvg-id="tv-bayerisches-fernsehen-nord" tvg-name="Bayerisches Fernsehen Nord" group-title="regional",Bayerisches Fernsehen Nord (6)
+https://mcdn.br.de/br/fs/bfs_nord/hls/de/master_960p_1600.m3u8
 #EXTINF:-1 tvg-id="tv-bayerisches-fernsehen-sued" tvg-name="Bayerisches Fernsehen Süd" group-title="regional",Bayerisches Fernsehen Süd (1)
 https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="tv-bayerisches-fernsehen-sued" tvg-name="Bayerisches Fernsehen Süd" group-title="regional",Bayerisches Fernsehen Süd (2)
@@ -229,6 +251,16 @@ https://mcdn.br.de/br/fs/bfs_sued/hls/de/master720p3200.m3u8
 #EXTINF:-1 tvg-id="tv-bayerisches-fernsehen-sued" tvg-name="Bayerisches Fernsehen Süd" group-title="regional",Bayerisches Fernsehen Süd (5)
 https://mcdn.br.de/br/fs/bfs_sued/hls/int/master.m3u8
 #EXTINF:-1 tvg-id="tv-bayerisches-fernsehen-sued" tvg-name="Bayerisches Fernsehen Süd" group-title="regional",Bayerisches Fernsehen Süd (6)
+https://mcdn.br.de/br/fs/bfs_sued/hls/de/master540p1800.m3u8
+#EXTINF:-1 tvg-id="tv-bayerisches-fernsehen-sued" tvg-name="Bayerisches Fernsehen Süd" group-title="regional",Bayerisches Fernsehen Süd (7)
+https://mcdn.br.de/br/fs/bfs_sued/hls/de/master_960p_1600.m3u8
+#EXTINF:-1 tvg-id="tv-bayerisches-fernsehen-sued" tvg-name="Bayerisches Fernsehen Süd" group-title="regional",Bayerisches Fernsehen Süd (8)
+https://mcdn.br.de/br/fs/bfs_sued/hls/int/master360p1200.m3u8
+#EXTINF:-1 tvg-id="tv-bayerisches-fernsehen-sued" tvg-name="Bayerisches Fernsehen Süd" group-title="regional",Bayerisches Fernsehen Süd (9)
+https://mcdn.br.de/br/fs/bfs_sued/hls/int/master720p3200.m3u8
+#EXTINF:-1 tvg-id="tv-bayerisches-fernsehen-sued" tvg-name="Bayerisches Fernsehen Süd" group-title="regional",Bayerisches Fernsehen Süd (10)
+https://mcdn.br.de/br/fs/bfs_sued/hls/int/master1080p5000.m3u8
+#EXTINF:-1 tvg-id="tv-bayerisches-fernsehen-sued" tvg-name="Bayerisches Fernsehen Süd" group-title="regional",Bayerisches Fernsehen Süd (11)
 https://bfrsueddash.akamaized.net/dash/live/2016970/bfs_sued_de/dvbt2/manifest.mpd
 #EXTINF:-1 tvg-id="tv-hr-fernsehen" tvg-name="HR Fernsehen" group-title="regional",HR Fernsehen (1)
 https://hrhls.akamaized.net/hls/live/2024525/hrhls/index.m3u8
@@ -255,6 +287,10 @@ https://hr-live.ard-mcdn.de/hr/live/hls/de/master540p1800.m3u8
 #EXTINF:-1 tvg-id="tv-hr-fernsehen" tvg-name="HR Fernsehen" group-title="regional",HR Fernsehen (12)
 https://hr-live.ard-mcdn.de/hr/live/hls/de/master360p1200.m3u8
 #EXTINF:-1 tvg-id="tv-hr-fernsehen" tvg-name="HR Fernsehen" group-title="regional",HR Fernsehen (13)
+https://hr-live.ard-mcdn.de/hr/live/dash/de/manifest.mpd
+#EXTINF:-1 tvg-id="tv-hr-fernsehen" tvg-name="HR Fernsehen" group-title="regional",HR Fernsehen (14)
+https://hr-live.ard-mcdn.de/hr/live/hls/de/master_960p_1600.m3u8
+#EXTINF:-1 tvg-id="tv-hr-fernsehen" tvg-name="HR Fernsehen" group-title="regional",HR Fernsehen (15)
 https://hrdash.akamaized.net/dash/live/2024543/hrdash/manifest.mpd
 #EXTINF:-1 tvg-id="tv-mdr-fernsehen-sachsen" tvg-name="MDR Fernsehen Sachsen" group-title="regional",MDR Fernsehen Sachsen (1)
 https://mdrtvsnhls.akamaized.net/hls/live/2016928/mdrtvsn/master.m3u8
@@ -441,6 +477,8 @@ https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master540p1800.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-fernsehen-koeln" tvg-name="WDR Fernsehen Köln" group-title="regional",WDR Fernsehen Köln (19)
 https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master360p1200.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-fernsehen-koeln" tvg-name="WDR Fernsehen Köln" group-title="regional",WDR Fernsehen Köln (20)
+https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master_960p_1600.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-fernsehen-koeln" tvg-name="WDR Fernsehen Köln" group-title="regional",WDR Fernsehen Köln (21)
 https://wdrfs247.akamaized.net/dash/live/2016702/wdrfs247_geo/dash.mpd
 #EXTINF:-1 tvg-id="tv-wdr-studio-koeln" tvg-name="WDR Studio Köln" group-title="regional",WDR Studio Köln (1)
 https://wdrlokalzeit.akamaized.net/hls/live/2023550-b/wdrlz_koeln/master.m3u8
@@ -452,60 +490,160 @@ https://wdrlokalzeit.akamaized.net/hls/live/2018019-b/wdrlz_aachen/master.m3u8
 https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-aachen" tvg-name="WDR Studio Aachen" group-title="regional",WDR Studio Aachen (3)
 https://wdrlokalzeit.akamaized.net/hls/live/2018019/wdrlz_aachen/index.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-aachen" tvg-name="WDR Studio Aachen" group-title="regional",WDR Studio Aachen (4)
+https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master360p1200.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-aachen" tvg-name="WDR Studio Aachen" group-title="regional",WDR Studio Aachen (5)
+https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master540p1800.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-aachen" tvg-name="WDR Studio Aachen" group-title="regional",WDR Studio Aachen (6)
+https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master720p3200.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-aachen" tvg-name="WDR Studio Aachen" group-title="regional",WDR Studio Aachen (7)
+https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master1080p5000.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-aachen" tvg-name="WDR Studio Aachen" group-title="regional",WDR Studio Aachen (8)
+https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master_960p_1600.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-bielefeld" tvg-name="WDR Studio Bielefeld" group-title="regional",WDR Studio Bielefeld (1)
 https://wdrlokalzeit.akamaized.net/hls/live/2018026-b/wdrlz_bielefeld/master.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-bielefeld" tvg-name="WDR Studio Bielefeld" group-title="regional",WDR Studio Bielefeld (2)
 https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-bielefeld" tvg-name="WDR Studio Bielefeld" group-title="regional",WDR Studio Bielefeld (3)
 https://wdrlokalzeit.akamaized.net/hls/live/2018026/wdrlz_bielefeld/index.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-bielefeld" tvg-name="WDR Studio Bielefeld" group-title="regional",WDR Studio Bielefeld (4)
+https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master360p1200.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-bielefeld" tvg-name="WDR Studio Bielefeld" group-title="regional",WDR Studio Bielefeld (5)
+https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master540p1800.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-bielefeld" tvg-name="WDR Studio Bielefeld" group-title="regional",WDR Studio Bielefeld (6)
+https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master720p3200.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-bielefeld" tvg-name="WDR Studio Bielefeld" group-title="regional",WDR Studio Bielefeld (7)
+https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master1080p5000.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-bielefeld" tvg-name="WDR Studio Bielefeld" group-title="regional",WDR Studio Bielefeld (8)
+https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master_960p_1600.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-bonn" tvg-name="WDR Studio Bonn" group-title="regional",WDR Studio Bonn (1)
 https://wdrlokalzeit.akamaized.net/hls/live/2018021-b/wdrlz_bonn/master.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-bonn" tvg-name="WDR Studio Bonn" group-title="regional",WDR Studio Bonn (2)
 https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-bonn" tvg-name="WDR Studio Bonn" group-title="regional",WDR Studio Bonn (3)
 https://wdrlokalzeit.akamaized.net/hls/live/2018021/wdrlz_bonn/index.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-bonn" tvg-name="WDR Studio Bonn" group-title="regional",WDR Studio Bonn (4)
+https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master360p1200.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-bonn" tvg-name="WDR Studio Bonn" group-title="regional",WDR Studio Bonn (5)
+https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master540p1800.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-bonn" tvg-name="WDR Studio Bonn" group-title="regional",WDR Studio Bonn (6)
+https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master720p3200.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-bonn" tvg-name="WDR Studio Bonn" group-title="regional",WDR Studio Bonn (7)
+https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master1080p5000.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-bonn" tvg-name="WDR Studio Bonn" group-title="regional",WDR Studio Bonn (8)
+https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master_960p_1600.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-dortmund" tvg-name="WDR Studio Dortmund" group-title="regional",WDR Studio Dortmund (1)
 https://wdrlokalzeit.akamaized.net/hls/live/2018022-b/wdrlz_dortmund/master.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-dortmund" tvg-name="WDR Studio Dortmund" group-title="regional",WDR Studio Dortmund (2)
 https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-dortmund" tvg-name="WDR Studio Dortmund" group-title="regional",WDR Studio Dortmund (3)
 https://wdrlokalzeit.akamaized.net/hls/live/2018022/wdrlz_dortmund/index.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-dortmund" tvg-name="WDR Studio Dortmund" group-title="regional",WDR Studio Dortmund (4)
+https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master360p1200.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-dortmund" tvg-name="WDR Studio Dortmund" group-title="regional",WDR Studio Dortmund (5)
+https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master540p1800.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-dortmund" tvg-name="WDR Studio Dortmund" group-title="regional",WDR Studio Dortmund (6)
+https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master720p3200.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-dortmund" tvg-name="WDR Studio Dortmund" group-title="regional",WDR Studio Dortmund (7)
+https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master1080p5000.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-dortmund" tvg-name="WDR Studio Dortmund" group-title="regional",WDR Studio Dortmund (8)
+https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master_960p_1600.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-duisburg" tvg-name="WDR Studio Duisburg" group-title="regional",WDR Studio Duisburg (1)
 https://wdrlokalzeit.akamaized.net/hls/live/2018024-b/wdrlz_duisburg/master.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-duisburg" tvg-name="WDR Studio Duisburg" group-title="regional",WDR Studio Duisburg (2)
 https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-duisburg" tvg-name="WDR Studio Duisburg" group-title="regional",WDR Studio Duisburg (3)
 https://wdrlokalzeit.akamaized.net/hls/live/2018024/wdrlz_duisburg/index.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-duisburg" tvg-name="WDR Studio Duisburg" group-title="regional",WDR Studio Duisburg (4)
+https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master360p1200.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-duisburg" tvg-name="WDR Studio Duisburg" group-title="regional",WDR Studio Duisburg (5)
+https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master540p1800.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-duisburg" tvg-name="WDR Studio Duisburg" group-title="regional",WDR Studio Duisburg (6)
+https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master720p3200.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-duisburg" tvg-name="WDR Studio Duisburg" group-title="regional",WDR Studio Duisburg (7)
+https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master1080p5000.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-duisburg" tvg-name="WDR Studio Duisburg" group-title="regional",WDR Studio Duisburg (8)
+https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master_960p_1600.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-duesseldorf" tvg-name="WDR Studio Düsseldorf" group-title="regional",WDR Studio Düsseldorf (1)
 https://wdrlokalzeit.akamaized.net/hls/live/2018023-b/wdrlz_duesseldorf/master.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-duesseldorf" tvg-name="WDR Studio Düsseldorf" group-title="regional",WDR Studio Düsseldorf (2)
 https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-duesseldorf" tvg-name="WDR Studio Düsseldorf" group-title="regional",WDR Studio Düsseldorf (3)
 https://wdrlokalzeit.akamaized.net/hls/live/2018023/wdrlz_duesseldorf/index.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-duesseldorf" tvg-name="WDR Studio Düsseldorf" group-title="regional",WDR Studio Düsseldorf (4)
+https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master360p1200.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-duesseldorf" tvg-name="WDR Studio Düsseldorf" group-title="regional",WDR Studio Düsseldorf (5)
+https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master540p1800.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-duesseldorf" tvg-name="WDR Studio Düsseldorf" group-title="regional",WDR Studio Düsseldorf (6)
+https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master720p3200.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-duesseldorf" tvg-name="WDR Studio Düsseldorf" group-title="regional",WDR Studio Düsseldorf (7)
+https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master1080p5000.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-duesseldorf" tvg-name="WDR Studio Düsseldorf" group-title="regional",WDR Studio Düsseldorf (8)
+https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master_960p_1600.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-essen" tvg-name="WDR Studio Essen" group-title="regional",WDR Studio Essen (1)
 https://wdrlokalzeit.akamaized.net/hls/live/2018027-b/wdrlz_essen/master.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-essen" tvg-name="WDR Studio Essen" group-title="regional",WDR Studio Essen (2)
 https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-essen" tvg-name="WDR Studio Essen" group-title="regional",WDR Studio Essen (3)
 https://wdrlokalzeit.akamaized.net/hls/live/2018027/wdrlz_essen/index.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-essen" tvg-name="WDR Studio Essen" group-title="regional",WDR Studio Essen (4)
+https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master360p1200.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-essen" tvg-name="WDR Studio Essen" group-title="regional",WDR Studio Essen (5)
+https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master540p1800.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-essen" tvg-name="WDR Studio Essen" group-title="regional",WDR Studio Essen (6)
+https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master720p3200.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-essen" tvg-name="WDR Studio Essen" group-title="regional",WDR Studio Essen (7)
+https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master1080p5000.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-essen" tvg-name="WDR Studio Essen" group-title="regional",WDR Studio Essen (8)
+https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master_960p_1600.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-muenster" tvg-name="WDR Studio Münster" group-title="regional",WDR Studio Münster (1)
 https://wdrlokalzeit.akamaized.net/hls/live/2018025-b/wdrlz_muensterland/master.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-muenster" tvg-name="WDR Studio Münster" group-title="regional",WDR Studio Münster (2)
 https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-muenster" tvg-name="WDR Studio Münster" group-title="regional",WDR Studio Münster (3)
 https://wdrlokalzeit.akamaized.net/hls/live/2018025/wdrlz_muensterland/index.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-muenster" tvg-name="WDR Studio Münster" group-title="regional",WDR Studio Münster (4)
+https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master360p1200.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-muenster" tvg-name="WDR Studio Münster" group-title="regional",WDR Studio Münster (5)
+https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master540p1800.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-muenster" tvg-name="WDR Studio Münster" group-title="regional",WDR Studio Münster (6)
+https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master720p3200.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-muenster" tvg-name="WDR Studio Münster" group-title="regional",WDR Studio Münster (7)
+https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master1080p5000.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-muenster" tvg-name="WDR Studio Münster" group-title="regional",WDR Studio Münster (8)
+https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master_960p_1600.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-siegen" tvg-name="WDR Studio Siegen" group-title="regional",WDR Studio Siegen (1)
 https://wdrlokalzeit.akamaized.net/hls/live/2018020-b/wdrlz_siegen/master.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-siegen" tvg-name="WDR Studio Siegen" group-title="regional",WDR Studio Siegen (2)
 https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-siegen" tvg-name="WDR Studio Siegen" group-title="regional",WDR Studio Siegen (3)
 https://wdrlokalzeit.akamaized.net/hls/live/2018020/wdrlz_siegen/index.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-siegen" tvg-name="WDR Studio Siegen" group-title="regional",WDR Studio Siegen (4)
+https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master360p1200.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-siegen" tvg-name="WDR Studio Siegen" group-title="regional",WDR Studio Siegen (5)
+https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master540p1800.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-siegen" tvg-name="WDR Studio Siegen" group-title="regional",WDR Studio Siegen (6)
+https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master720p3200.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-siegen" tvg-name="WDR Studio Siegen" group-title="regional",WDR Studio Siegen (7)
+https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master1080p5000.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-siegen" tvg-name="WDR Studio Siegen" group-title="regional",WDR Studio Siegen (8)
+https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master_960p_1600.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-wuppertal" tvg-name="WDR Studio Wuppertal" group-title="regional",WDR Studio Wuppertal (1)
 https://wdrlokalzeit.akamaized.net/hls/live/2018028-b/wdrlz_wuppertal/master.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-wuppertal" tvg-name="WDR Studio Wuppertal" group-title="regional",WDR Studio Wuppertal (2)
 https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="tv-wdr-studio-wuppertal" tvg-name="WDR Studio Wuppertal" group-title="regional",WDR Studio Wuppertal (3)
 https://wdrlokalzeit.akamaized.net/hls/live/2018028/wdrlz_wuppertal/index.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-wuppertal" tvg-name="WDR Studio Wuppertal" group-title="regional",WDR Studio Wuppertal (4)
+https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master360p1200.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-wuppertal" tvg-name="WDR Studio Wuppertal" group-title="regional",WDR Studio Wuppertal (5)
+https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master540p1800.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-wuppertal" tvg-name="WDR Studio Wuppertal" group-title="regional",WDR Studio Wuppertal (6)
+https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master720p3200.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-wuppertal" tvg-name="WDR Studio Wuppertal" group-title="regional",WDR Studio Wuppertal (7)
+https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master1080p5000.m3u8
+#EXTINF:-1 tvg-id="tv-wdr-studio-wuppertal" tvg-name="WDR Studio Wuppertal" group-title="regional",WDR Studio Wuppertal (8)
+https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master_960p_1600.m3u8
 #EXTINF:-1 tvg-id="tv-deutsche-welle" tvg-name="Deutsche Welle" group-title="news",Deutsche Welle (1)
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-id="tv-deutsche-welle" tvg-name="Deutsche Welle" group-title="news",Deutsche Welle (2)
@@ -612,8 +750,6 @@ https://bild-und-ton.stream/sophiatv-en/smil:sophia-tv-en.smil/playlist.m3u8
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8
 #EXTINF:-1 tvg-id="tv-deluxe-rap" tvg-name="Deluxe Rap" group-title="music",Deluxe Rap (1)
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8
-#EXTINF:-1 tvg-id="tv-deluxe-rap" tvg-name="Deluxe Rap" group-title="music",Deluxe Rap (2)
-https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/2646ace1f474593f_33669365_2610131208_1.m3u8
 #EXTINF:-1 tvg-id="tv-melodie-tv" tvg-name="Melodie TV" group-title="music",Melodie TV (1)
 https://live20.bozztv.com/akamaissh101/ssh101/melodietvlive/chunks.m3u8
 #EXTINF:-1 tvg-id="tv-melodie-tv" tvg-name="Melodie TV" group-title="music",Melodie TV (2)
