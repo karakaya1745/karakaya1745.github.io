@@ -1,5 +1,5 @@
 {
-  "_revision": 209,
+  "_revision": 210,
   "duyuru": [
     "https://karakaya1745.github.io/guncelleme_duyuru.m3u8"
   ],
@@ -1694,7 +1694,8 @@
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=196678&extension=ts&play_token=p5hwUyOLoj",
     "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D6&stream=196710&extension=ts&play_token=Vinm127vDi",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=196678&extension=ts&play_token=p5hwUyOLoj",
-    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=196710&extension=ts&play_token=Vinm127vDi"
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=196710&extension=ts&play_token=Vinm127vDi",
+    "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8"
   ],
   "nrkjazz": [
     "https://nrk-live-radio-world.akamaized.net/jazz/muxed.m3u8?adap=audio&aco=aac"
