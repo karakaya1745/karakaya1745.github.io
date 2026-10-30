@@ -1,5 +1,5 @@
 {
-  "_revision": 211,
+  "_revision": 212,
   "duyuru": [
     "https://karakaya1745.github.io/guncelleme_duyuru.m3u8"
   ],
@@ -1421,6 +1421,12 @@
   ],
   "kozanfm": [
     "https://sslyayin.netyayin.net/kozanfm/stream"
+  ],
+  "kozatv": [
+    "https://trn03.tulix.tv/gt-kozatv/index.m3u8?token=0631e8753bcdf25bb2a5015db22ec082",
+    "http://176.65.153.35:6003/play/a019/index.m3u8",
+    "http://176.65.153.40:6004/play/a01i/index.m3u8",
+    "http://176.65.153.35:6004/play/a019/index.m3u8"
   ],
   "kpop": [
     "https://playerservices.streamtheworld.com/api/livestream-redirect/KPOP128AAC.aac?/;stream.mp3",
