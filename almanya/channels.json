@@ -1,6 +1,6 @@
 {
-  "_revision": 16,
-  "updatedAt": "2026-10-30T08:19:26.225Z",
+  "_revision": 17,
+  "updatedAt": "2026-10-31T06:07:59.449Z",
   "app": "ZapIt TV",
   "channels": [
     {
@@ -359,6 +359,11 @@
           "url": "https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master_960p_1600.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://tagesschau-live.ard-mcdn.de/tagesschau/live/dash/de/manifest.mpd",
+          "geo_de_only": false,
+          "format": "dash"
         },
         {
           "url": "https://tagesschau.akamaized.net/hls/live/2020117/tagesschau/tagesschau_3/master.m3u8",
@@ -2293,6 +2298,11 @@
           "url": "https://cdn-de-fra.b-cdn.net/hcorg_Lmro4tmzOp1/s/jsl_AQfP7b5HoTM/master.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd/playlist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -2696,20 +2706,6 @@
         {
           "url": "https://rictv.iptv-playoutcenter.de/rictv/rictv-web/chunks.m3u8",
           "geo_de_only": true,
-          "format": "hls"
-        }
-      ]
-    },
-    {
-      "id": "tv-finest-tv",
-      "name": "Finest TV",
-      "type": "tv",
-      "category": "other",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://media.finest.tv/hls/live.m3u8",
-          "geo_de_only": false,
           "format": "hls"
         }
       ]
@@ -4257,6 +4253,11 @@
           "url": "https://br-radio.ard-mcdn.de/br/radio/b1obb/hls/master.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://dispatcher.rndfnk.com/br/br1/mainfranken/mp3/low",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -5460,6 +5461,11 @@
         },
         {
           "url": "https://icecast.ndr.de/ndr/ndrinfo/hamburg/mp3/128/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://icecast.ndr.de/ndr/ndrinfo/mecklenburgvorpommern/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
         }
@@ -9529,6 +9535,11 @@
           "url": "https://bytefm.cast.addradio.de/bytefm/main/mid/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://bytefm.cast.addradio.de/bytefm/main/low/stream",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -9817,6 +9828,11 @@
           "url": "https://streamtdy.ir-media-tec.com/live/mp3-128/radiode_web/",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://streamtdy.ir-media-tec.com/live/mp3-128/radioplayer_web/teddy-live-mp3-mq",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -9846,6 +9862,11 @@
           "url": "https://addrad.io/4454r8d",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://rnrw.cast.addradio.de/rnrw-0185/deinschlager/low/stream.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
         }
       ]
     },

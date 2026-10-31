@@ -1,0 +1,11 @@
+kanal,link,durum,kaynak,tür
+Tagesschau 24,https://tagesschau-live.ard-mcdn.de/tagesschau/live/dash/de/manifest.mpd,200 DASH MPD OK,Resmi ARD CDN varyantı,yeni_yedek
+Bayern 1,https://dispatcher.rndfnk.com/br/br1/mainfranken/mp3/low,200 audio/mpeg OK (Mainfranken bölgesel),Sourcegraph (rndfnk),yeni_yedek
+NDR Info Niedersachsen,https://icecast.ndr.de/ndr/ndrinfo/mecklenburgvorpommern/mp3/128/stream.mp3,200 audio/mpeg OK (MV bölgesel pencere),Sourcegraph,yeni_yedek
+Radio Teddy,https://streamtdy.ir-media-tec.com/live/mp3-128/radioplayer_web/teddy-live-mp3-mq,200 audio/mpeg OK,Sourcegraph,yeni_yedek
+Schlager Radio,https://rnrw.cast.addradio.de/rnrw-0185/deinschlager/low/stream.mp3,200 audio/mpeg OK (low varyantı),Sourcegraph,yeni_yedek
+ByteFM,https://bytefm.cast.addradio.de/bytefm/main/low/stream,200 audio/aac OK (low varyantı),radio-browser API,yeni_yedek
+Hope TV Deutsch,https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd/playlist.m3u8,"200 #EXTM3U 1080p OK, kare yakalandı: Hope TV logosu",Resmi hosting varyant taraması (video-stream-hosting easycast8),yeni_yedek
+Finest TV,https://media.finest.tv/hls/live.m3u8,"ÖLÜ 2. gün: timeout/000, finest.tv alan adı da erişilemez",katalog,ölü_sil_öner
+Oberlausitz TV,https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd4/playlist.m3u8?ref=,ÖLÜ 1. gün: 404 (tekrar testte de 404),katalog,ölü_izle
+NRWision,https://fms.nrwision.de/live/ngrp:livestreamHD.stream/playlist.m3u8,ÖLÜ 1. gün: 000 (tekrar testte de); diğer 7 link çalışıyor,katalog,ölü_izle

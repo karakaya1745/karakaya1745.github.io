@@ -23,7 +23,7 @@ Uygulama önce `metadata.json` indirir. `revision` veya `channels.json` sha256 d
 | --- | --- |
 | `sources/tv.csv`, `sources/tv.m3u` | Ham TV ölçümü. CSV'de ölü (`failed`) satırlar da durur. |
 | `sources/radio.csv`, `sources/radio.m3u` | Ham radyo ölçümü. CSV'de denenmemiş düz `http` satırları da durur. |
-| `sources/onay-2026-10-15.csv` … `onay-2026-10-30.csv` | Onaylanan ekler ve silinecek veya sona alınan linkler. |
+| `sources/onay-2026-10-15.csv` … `onay-2026-10-31.csv` | Onaylanan ekler ve silinecek veya sona alınan linkler. |
 | `sources/catalog-retest-2026-10-18.json` | 18 Ekim yeniden testi (ölü, statik, şüpheli). |
 | `tv.m3u`, `radio.m3u` | Yayımlanan, temizlenmiş listeler. Ölü ve denenmemiş link yoktur. |
 | `channels.json` | Uygulamanın indirdiği katalog. |
@@ -113,6 +113,8 @@ Radyo CSV'sinde aynı istasyon adının altında kardeş yayınlar da `(1)`, `(2
 `sources/onay-2026-10-28.csv` 28 Ekim onayıdır. Yirmi üç çalışan yedek mevcut kanallara eklenir: on dört radyo, mevcut TV kanalı DW Español ve Folx, One, Zwei Music Television'ın b-cdn kalite varyantları. Yeni kanal açılmaz. ERF Plus'ın bot sayfası dönen `stream.erf.de/erfplus.m3u` adresi silinir; diğer beş link kalır. SR Fernsehen'in üç `hls/int` master'ı bir gün daha durur. `shopping` sonda kalır.
 
 `sources/onay-2026-10-30.csv` 30 Ekim onayıdır. Seksen üç çalışan yedek mevcut kanallara eklenir. Yeni kanal açılmaz. Deluxe Rap'in oturum alt listesi ve ERF Jess'in bot sayfası `erfpop.m3u` silinir. `erfjess.mp3` ilk sırada kalır. Finest TV ve SR Fernsehen'in int linkleri durur. `shopping` sonda kalır.
+
+`sources/onay-2026-10-31.csv` 31 Ekim onayıdır. Yedi çalışan yedek mevcut kanallara eklenir. Yeni kanal açılmaz. Finest TV'nin tek linki iki gündür ölü olduğu için kanal çıkar. Oberlausitz TV ve NRWision'un birinci gün ölü linkleri durur. `shopping` sonda kalır.
 
 ## Sıra
 

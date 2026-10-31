@@ -123,10 +123,12 @@ https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master360p1200.m3u8
 #EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (14)
 https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master_960p_1600.m3u8
 #EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (15)
-https://tagesschau.akamaized.net/hls/live/2020117/tagesschau/tagesschau_3/master.m3u8
+https://tagesschau-live.ard-mcdn.de/tagesschau/live/dash/de/manifest.mpd
 #EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (16)
-https://tagesschau.akamaized.net/hls/live/2020117/tagesschau/tagesschau_3/master-720p-3328.m3u8
+https://tagesschau.akamaized.net/hls/live/2020117/tagesschau/tagesschau_3/master.m3u8
 #EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (17)
+https://tagesschau.akamaized.net/hls/live/2020117/tagesschau/tagesschau_3/master-720p-3328.m3u8
+#EXTINF:-1 tvg-id="tv-tagesschau-24" tvg-name="Tagesschau 24" group-title="public",Tagesschau 24 (18)
 https://tagesschau.akamaized.net/dash/live/2020098/tagesschau/tagesschau_3/tagesschau_3.mpd
 #EXTINF:-1 tvg-id="tv-kika" tvg-name="KIKA" group-title="public",KIKA (1)
 https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8
@@ -730,6 +732,8 @@ https://1775071782.rsc.cdn77.org/1775071782/tracks-v1a1/mono.m3u8
 https://jstre.am/live/jsl:AQfP7b5HoTM.m3u8
 #EXTINF:-1 tvg-id="tv-hope-tv-deutsch" tvg-name="Hope TV Deutsch" group-title="religious",Hope TV Deutsch (2)
 https://cdn-de-fra.b-cdn.net/hcorg_Lmro4tmzOp1/s/jsl_AQfP7b5HoTM/master.m3u8
+#EXTINF:-1 tvg-id="tv-hope-tv-deutsch" tvg-name="Hope TV Deutsch" group-title="religious",Hope TV Deutsch (3)
+https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-die-neue-zeit-tv" tvg-name="Die Neue Zeit TV" group-title="religious",Die Neue Zeit TV (1)
 https://bild-und-ton.stream/die-neue-zeit-tv-live/smil:dnz-de.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-die-neue-zeit-tv" tvg-name="Die Neue Zeit TV" group-title="religious",Die Neue Zeit TV (2)
@@ -816,8 +820,6 @@ https://muc2.iptv-playoutcenter.de/volksmusik/volksmusik-sat1/playlist.m3u8
 https://rictv.iptv-playoutcenter.de/rictv/rictv-web/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-ric" tvg-name="RiC" group-title="other",RiC (2)
 https://rictv.iptv-playoutcenter.de/rictv/rictv-web/chunks.m3u8
-#EXTINF:-1 tvg-id="tv-finest-tv" tvg-name="Finest TV" group-title="other",Finest TV (1)
-https://media.finest.tv/hls/live.m3u8
 #EXTINF:-1 tvg-id="tv-qs24-tv" tvg-name="QS24.TV" group-title="other",QS24.TV (1)
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/126101/126101_264_live.m3u8
 #EXTINF:-1 tvg-id="tv-more-than-sports-tv" tvg-name="More Than Sports TV" group-title="other",More Than Sports TV (1)
