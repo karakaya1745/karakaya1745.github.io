@@ -8,6 +8,8 @@ https://br-radio.ard-mcdn.de/br/radio/b1obb/hls/96/seglist.m3u8
 https://br-radio.ard-mcdn.de/br/radio/b1obb/hls/192/seglist.m3u8
 #EXTINF:-1 tvg-id="radio-bayern-1-oberbayern" tvg-name="Bayern 1" group-title="public",Bayern 1 (4)
 https://br-radio.ard-mcdn.de/br/radio/b1obb/hls/master.m3u8
+#EXTINF:-1 tvg-id="radio-bayern-1-oberbayern" tvg-name="Bayern 1" group-title="public",Bayern 1 (5)
+https://dispatcher.rndfnk.com/br/br1/mainfranken/mp3/low
 #EXTINF:-1 tvg-id="radio-bayern-2" tvg-name="Bayern 2" group-title="public",Bayern 2 (1)
 https://dispatcher.rndfnk.com/br/br2/live/mp3/mid
 #EXTINF:-1 tvg-id="radio-bayern-2" tvg-name="Bayern 2" group-title="public",Bayern 2 (2)
@@ -364,6 +366,8 @@ https://dispatcher.rndfnk.com/ndr/ndrinfo/niedersachsen/mp3/128/stream.mp3
 https://ndr-audio.akamaized.net/hls/live/2110933/NDRINFO/192/seglist.m3u8
 #EXTINF:-1 tvg-id="radio-ndr-info-niedersachsen" tvg-name="NDR Info Niedersachsen" group-title="public",NDR Info Niedersachsen (7)
 https://icecast.ndr.de/ndr/ndrinfo/hamburg/mp3/128/stream.mp3
+#EXTINF:-1 tvg-id="radio-ndr-info-niedersachsen" tvg-name="NDR Info Niedersachsen" group-title="public",NDR Info Niedersachsen (8)
+https://icecast.ndr.de/ndr/ndrinfo/mecklenburgvorpommern/mp3/128/stream.mp3
 #EXTINF:-1 tvg-id="radio-ndr-info-spezial" tvg-name="NDR Info Spezial" group-title="public",NDR Info Spezial (1)
 https://icecast.ndr.de/ndr/ndrinfospezial/live/mp3/128/stream.mp3
 #EXTINF:-1 tvg-id="radio-ndr-info-spezial" tvg-name="NDR Info Spezial" group-title="public",NDR Info Spezial (2)
@@ -1566,6 +1570,8 @@ https://addrad.io/4459jw3
 https://www.byte.fm/live/mp3-128/
 #EXTINF:-1 tvg-id="radio-bytefm" tvg-name="ByteFM" group-title="music",ByteFM (7)
 https://bytefm.cast.addradio.de/bytefm/main/mid/stream.mp3
+#EXTINF:-1 tvg-id="radio-bytefm" tvg-name="ByteFM" group-title="music",ByteFM (8)
+https://bytefm.cast.addradio.de/bytefm/main/low/stream
 #EXTINF:-1 tvg-id="radio-deluxe-easy" tvg-name="DELUXE EASY" group-title="music",DELUXE EASY (1)
 https://audiostreams.deluxemusic.tv/easy/mp3-192
 #EXTINF:-1 tvg-id="radio-deluxe-easy" tvg-name="DELUXE EASY" group-title="music",DELUXE EASY (2)
@@ -1656,6 +1662,8 @@ https://streamtdy.ir-media-tec.com/live/mp3-128/tunein_web_mp3
 https://streamtdy.ir-media-tec.com/live/mp3-128
 #EXTINF:-1 tvg-id="radio-radio-teddy" tvg-name="Radio Teddy" group-title="music",Radio Teddy (7)
 https://streamtdy.ir-media-tec.com/live/mp3-128/radiode_web/
+#EXTINF:-1 tvg-id="radio-radio-teddy" tvg-name="Radio Teddy" group-title="music",Radio Teddy (8)
+https://streamtdy.ir-media-tec.com/live/mp3-128/radioplayer_web/teddy-live-mp3-mq
 #EXTINF:-1 tvg-id="radio-schlager-radio" tvg-name="Schlager Radio" group-title="music",Schlager Radio (1)
 https://addrad.io/4454r93
 #EXTINF:-1 tvg-id="radio-schlager-radio" tvg-name="Schlager Radio" group-title="music",Schlager Radio (2)
@@ -1664,6 +1672,8 @@ https://rnrw.cast.addradio.de/rnrw-0185/deinschlager/high/stream.mp3
 https://addrad.io/4454r7z
 #EXTINF:-1 tvg-id="radio-schlager-radio" tvg-name="Schlager Radio" group-title="music",Schlager Radio (4)
 https://addrad.io/4454r8d
+#EXTINF:-1 tvg-id="radio-schlager-radio" tvg-name="Schlager Radio" group-title="music",Schlager Radio (5)
+https://rnrw.cast.addradio.de/rnrw-0185/deinschlager/low/stream.mp3
 #EXTINF:-1 tvg-id="radio-schlagerparadies" tvg-name="Schlagerparadies" group-title="music",Schlagerparadies (1)
 https://webstream.schlagerparadies.de/schlager30842
 #EXTINF:-1 tvg-id="radio-schlagerparadies" tvg-name="Schlagerparadies" group-title="music",Schlagerparadies (2)
