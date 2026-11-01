@@ -87,7 +87,7 @@
     "name": "Show Max",
     "url": "https://www.showmax.com.tr/",
     "category": "Ulusal",
-    "streamUrl": "http://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax.m3u8"
+    "streamUrl": "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax_1080p.m3u8"
   },
   {
     "name": "TV100",
@@ -189,7 +189,7 @@
     "name": "Lider Haber",
     "url": "https://www.liderhaber.com.tr/lider-haber-tv-canli-yayin",
     "category": "Haber",
-    "streamUrl": "http://nrttn172.kesintisizyayin.com:29010/lidertv/lidertv/sec-f5-v1-a1.m3u8"
+    "streamUrl": "https://radyotelekomtv.com/player/m3u8/12e31d9bb13fb21e4adcd3b67cfe7826/12e31d9bb13fb21e4adcd3b67cfe7826.m3u8"
   },
   {
     "name": "Ulke TV",
@@ -339,7 +339,7 @@
     "name": "TJK TV",
     "url": "http://tjktv.ercdn.net/tjktv.m3u8",
     "category": "Spor",
-    "streamUrl": "http://tjktv.ercdn.net/tjktv.m3u8"
+    "streamUrl": "https://tjktv-live.tjk.org/tjktv_1080p.m3u8"
   },
   {
     "name": "TRT Spor Yildiz",
@@ -435,13 +435,13 @@
     "name": "Minika Cocuk",
     "url": "https://www.minika.com.tr/canli-izle",
     "category": "Cocuk",
-    "streamUrl": "http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8"
+    "streamUrl": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8"
   },
   {
     "name": "Minika GO",
     "url": "https://www.minikago.com.tr/canli-izle",
     "category": "Cocuk",
-    "streamUrl": "http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_720p.m3u8?tv=1"
+    "streamUrl": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8"
   },
   {
     "name": "Zarok TV",
@@ -585,7 +585,7 @@
     "name": "Semerkand TV",
     "url": "https://www.semerkandtv.com.tr/canli-yayin",
     "category": "Dini",
-    "streamUrl": "http://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8"
+    "streamUrl": "https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8"
   },
   {
     "name": "VAV TV",
@@ -753,7 +753,7 @@
     "name": "Kon TV",
     "url": "https://www.kontv.com.tr/",
     "category": "Ulusal",
-    "streamUrl": "http://me.mdmfista.com/play/live.php?mac=00:1A:79:F5:CE:CF&stream=197191&extension=ts&play_token=PM2eb119cV"
+    "streamUrl": "https://canli.kontv.com.tr/live/kontv.m3u8"
   },
   {
     "name": "Köy TV",
@@ -813,7 +813,7 @@
     "name": "Gurbet24 TV",
     "url": "https://vavo.sayezec.workers.dev/ID=55116964941a7acb8360",
     "category": "Ulusal",
-    "streamUrl": "http://cdn-gurbet24.yayin.com.tr/gurbet24/gurbet24/playlist.m3u8"
+    "streamUrl": "https://cdn1-gurbet24.yayin.com.tr/gurbet24/gurbet24/playlist.m3u8"
   },
   {
     "name": "Cay TV",
@@ -1119,7 +1119,7 @@
     "name": "Meltem TV",
     "url": "https://www.meltemtv.com.tr/canli-yayin",
     "category": "Yasam",
-    "streamUrl": "http://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8"
+    "streamUrl": "https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8"
   },
   {
     "name": "Fortuna TV",
@@ -6649,7 +6649,7 @@
     "name": "Cine1",
     "url": "",
     "category": "Ulusal",
-    "streamUrl": "http://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8"
+    "streamUrl": "https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3.m3u8"
   },
   {
     "name": "KRT",
