@@ -824,6 +824,8 @@ https://rictv.iptv-playoutcenter.de/rictv/rictv-web/chunks.m3u8
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/126101/126101_264_live.m3u8
 #EXTINF:-1 tvg-id="tv-more-than-sports-tv" tvg-name="More Than Sports TV" group-title="other",More Than Sports TV (1)
 https://mts1.iptv-playoutcenter.de/mts/mts-web/mts/mtsw3/chunks.m3u8
+#EXTINF:-1 tvg-id="tv-more-than-sports-tv" tvg-name="More Than Sports TV" group-title="other",More Than Sports TV (2)
+https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-servustv-deutschland" tvg-name="ServusTV Deutschland" group-title="other",ServusTV Deutschland (1)
 https://stv-live.akamaized.net/hls/live/2031012/lingeoSTVDEwebPri/master_3392.m3u8
 #EXTINF:-1 tvg-id="tv-servustv-deutschland" tvg-name="ServusTV Deutschland" group-title="other",ServusTV Deutschland (2)

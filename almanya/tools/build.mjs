@@ -27,6 +27,7 @@
  *        almanya/sources/onay-2026-10-28.csv (28 Ekim yedekleri; ERF Plus bot sayfası)
  *        almanya/sources/onay-2026-10-30.csv (30 Ekim yedekleri; Deluxe Rap oturumu, ERF Jess bot)
  *        almanya/sources/onay-2026-10-31.csv (31 Ekim yedekleri; Finest TV çıkar)
+ *        almanya/sources/onay-2026-11-01.csv (1 Kasım yedekleri; izle ve iyileşti satırları durur)
  * Ölü (failed) ve denenmemiş (untested) linkler yayınlanmaz.
  * geo-blocked (403) ve "sadece Almanya" linkler kalır; geo_de_only ile işaretlenir.
  * Katalogda olan URL yeniden eklenmez. Yeni link uydurulmaz.
@@ -49,6 +50,7 @@ import { applyOctober27 } from "./apply-2026-10-27.mjs";
 import { applyOctober28 } from "./apply-2026-10-28.mjs";
 import { applyOctober30 } from "./apply-2026-10-30.mjs";
 import { applyOctober31 } from "./apply-2026-10-31.mjs";
+import { applyNovember1 } from "./apply-2026-11-01.mjs";
 
 const DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SOURCES = path.join(DIR, "sources");
@@ -836,6 +838,7 @@ function loadCatalog() {
   const onay28 = applyOctober28(channels);
   const onay30 = applyOctober30(channels);
   const onay31 = applyOctober31(channels);
+  const onay1101 = applyNovember1(channels);
   const grouped = orderCatalog(channels);
   const previous = readJsonIfExists(path.join(DIR, "channels.json"));
   assignIds(grouped, previous?.channels);
@@ -867,6 +870,7 @@ function loadCatalog() {
     onay28,
     onay30,
     onay31,
+    onay1101,
   };
 }
 
@@ -1086,6 +1090,12 @@ function main() {
   if (onay31.removedChannelNames?.length) {
     console.log(`[almanya] çıkarılan kanal: ${onay31.removedChannelNames.join(", ")}`);
   }
+  const onay1101 = catalog.onay1101 || {};
+  console.log(
+    `[almanya] onay-2026-11-01: +${onay1101.addedChannels || 0} kanal, ` +
+      `+${onay1101.addedLinks || 0} link, -${onay1101.removedLinks || 0} link, ` +
+      `izle/iyileşti ${onay1101.skippedWatch || 0}, yinelenen ${onay1101.skippedDupes || 0}`,
+  );
   console.log(`[almanya] sha256=${hash}`);
   if (catalog.dropped.length) {
     console.log(`[almanya] canlı linki kalmadığı için çıkarılanlar: ${catalog.dropped.join(", ")}`);

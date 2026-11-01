@@ -1,6 +1,6 @@
 {
-  "_revision": 17,
-  "updatedAt": "2026-10-31T06:07:59.449Z",
+  "_revision": 18,
+  "updatedAt": "2026-11-01T08:25:47.166Z",
   "app": "ZapIt TV",
   "channels": [
     {
@@ -2735,6 +2735,11 @@
           "url": "https://mts1.iptv-playoutcenter.de/mts/mts-web/mts/mtsw3/chunks.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -5025,6 +5030,11 @@
           "url": "https://mdr-284350-0.sslcast.mdr.de/mdr/284350/0/mp3/high/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        },
+        {
+          "url": "https://radio-hls.mdr.de/hls/live/2112906/mdr-284350-0-hls/index.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -7948,6 +7958,11 @@
         },
         {
           "url": "https://radio21.streamabc.net/radio21-bremen-mp3-192-7011720",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://streams.radio21.de/hannover/mp3-192/konsoleplayer",
           "geo_de_only": false,
           "format": "audio"
         }

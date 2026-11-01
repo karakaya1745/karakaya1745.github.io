@@ -234,6 +234,8 @@ https://mdr-radio-hls.akamaized.net/hls/live/2112904/mdr-284320-0-hls/192/seglis
 https://mdr-284350-0.sslcast.mdr.de/mdr/284350/0/mp3/max/stream.mp3
 #EXTINF:-1 tvg-id="radio-mdr-klassik" tvg-name="MDR Klassik" group-title="public",MDR Klassik (2)
 https://mdr-284350-0.sslcast.mdr.de/mdr/284350/0/mp3/high/stream.mp3
+#EXTINF:-1 tvg-id="radio-mdr-klassik" tvg-name="MDR Klassik" group-title="public",MDR Klassik (3)
+https://radio-hls.mdr.de/hls/live/2112906/mdr-284350-0-hls/index.m3u8
 #EXTINF:-1 tvg-id="radio-mdr-kultur" tvg-name="MDR Kultur" group-title="public",MDR Kultur (1)
 https://mdr-284310-0.sslcast.mdr.de/mdr/284310/0/mp3/high/stream.mp3
 #EXTINF:-1 tvg-id="radio-mdr-kultur" tvg-name="MDR Kultur" group-title="public",MDR Kultur (2)
@@ -1098,6 +1100,8 @@ https://streams.radio21.de/nrw/mp3-192/web
 https://radio21.streamabc.net/radio21-hannover-mp3-192-3735655
 #EXTINF:-1 tvg-id="radio-radio-21" tvg-name="Radio 21" group-title="regional",Radio 21 (4)
 https://radio21.streamabc.net/radio21-bremen-mp3-192-7011720
+#EXTINF:-1 tvg-id="radio-radio-21" tvg-name="Radio 21" group-title="regional",Radio 21 (5)
+https://streams.radio21.de/hannover/mp3-192/konsoleplayer
 #EXTINF:-1 tvg-id="radio-rbb-radio-3" tvg-name="Radio 38" group-title="regional",Radio 38 (1)
 https://stream.radio38.de/
 #EXTINF:-1 tvg-id="radio-rbb-radio-3" tvg-name="Radio 38" group-title="regional",Radio 38 (2)

@@ -1,0 +1,7 @@
+kanal,link,durum,kaynak,tür
+More Than Sports TV,https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8,200 #EXTM3U OK (master; katalogda sadece chunks varyantı var),iptv-org de.m3u + kodinerds clean_tv,yeni_yedek
+MDR Klassik,https://radio-hls.mdr.de/hls/live/2112906/mdr-284350-0-hls/index.m3u8,200 #EXTM3U OK (resmi MDR HLS; katalogda sadece mp3 sslcast var),radio-browser API,yeni_yedek
+Radio 21,https://streams.radio21.de/hannover/mp3-192/konsoleplayer,"200 audio/mpeg OK (Hannover, doğrudan resmi sunucu)",radio-browser API,yeni_yedek
+Antenne Niederrhein,https://antennenr--di--nacs-ais-lgc--0c--cdn.cast.addradio.de/antennenr/live/mp3/high,"yavaş: ilk testte 15sn timeout, yönlendirme ile 200 audio/mpeg; diğer 5 link OK",katalog,izle
+Oberlausitz TV,https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd4/playlist.m3u8?ref=,geri geldi: 200 #EXTM3U,katalog,iyileşti
+NRWision,https://fms.nrwision.de/live/ngrp:livestreamHD.stream/playlist.m3u8,geri geldi: 200 #EXTM3U,katalog,iyileşti
