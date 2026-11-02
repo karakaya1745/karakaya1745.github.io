@@ -576,6 +576,12 @@
     "streamUrl": "https://yayin.santraltr.com/hls/damar.m3u8"
   },
   {
+    "name": "Karadeniz Slow TV",
+    "url": "https://www.canlitvtr.app/radyo/karadenizslowtv",
+    "category": "Muzik",
+    "streamUrl": "https://yayin.slowkaradeniztv.com:3390/hybrid/play.m3u8"
+  },
+  {
     "name": "Lalegul TV",
     "url": "https://www.lalegultv.com.tr/canli-yayin",
     "category": "Dini",
@@ -882,6 +888,12 @@
     "streamUrl": "https://edge.taksimbilisim.com/kanal33/bant1/playlist.m3u8"
   },
   {
+    "name": "Kanal 53",
+    "url": "https://www.canlitvtr.app/radyo/kanal53",
+    "category": "Ulusal",
+    "streamUrl": "https://kanal53.ozelip.com:3448/hybrid/play.m3u8"
+  },
+  {
     "name": "Kanal 58",
     "url": "https://edge1.socialsmart.tv/kanal58/bant1/playlist.m3u8",
     "category": "Ulusal",
@@ -921,7 +933,7 @@
     "name": "TV 52",
     "url": "https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8",
     "category": "Ulusal",
-    "streamUrl": "https://edge2.taksimbilisim.com/tv52/bant1/chunks.m3u8"
+    "streamUrl": "https://broadcasttr.com:446/tv52/bant1/playlist.m3u8"
   },
   {
     "name": "Urfanatik TV",
