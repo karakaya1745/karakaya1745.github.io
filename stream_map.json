@@ -1,5 +1,5 @@
 {
-  "_revision": 213,
+  "_revision": 214,
   "duyuru": [
     "https://karakaya1745.github.io/guncelleme_duyuru.m3u8"
   ],
@@ -1199,6 +1199,9 @@
     "https://live.euromediacenter.com/kanal34/tracks-v1a1/playlist.m3u8",
     "https://live.euromediacenter.com/kanal34/index.m3u8"
   ],
+  "kanal53": [
+    "https://kanal53.ozelip.com:3448/hybrid/play.m3u8"
+  ],
   "kanal58": [
     "https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/chunks.m3u8",
     "https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8"
@@ -1274,6 +1277,9 @@
   ],
   "karadenizradyo": [
     "https://playerservices.streamtheworld.com/api/livestream-redirect/KARADENIZ128AAC.aac?/;stream.mp3"
+  ],
+  "karadenizslowtv": [
+    "https://yayin.slowkaradeniztv.com:3390/hybrid/play.m3u8"
   ],
   "kardelentv": [
     "https://edge2.taksimbilisim.com/kardelentv/bant1/chunks.m3u8",
@@ -3329,6 +3335,7 @@
     "https://ip252.ozelip.com:1936/protv5/protv5/playlist.m3u8"
   ],
   "tv52": [
+    "https://broadcasttr.com:446/tv52/bant1/playlist.m3u8",
     "https://edge2.taksimbilisim.com/tv52/bant1/chunks.m3u8",
     "https://edge.taksimbilisim.com/tv52/bant1/chunks.m3u8",
     "https://edge.taksimbilisim.com/tv52/bant1/playlist.m3u8",
