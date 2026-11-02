@@ -1043,6 +1043,7 @@
     "https://radyo.yayin.com.tr:2727/;"
   ],
   "ikratv": [
+    "https://rtmp.ikratv.com/live/kanal1/master.m3u8",
     "https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8",
     "https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/chunks.m3u8",
     "https://rtmp.ikratv.com/live/kanal1/v3/index.m3u8"
@@ -3643,7 +3644,8 @@
   ],
   "kudustv": [
     "https://yayin3.haber100.com/kudustvapp/kudustv/playlist.m3u8",
-    "https://yayin3.haber100.com/kudustvapp/kudustv/chunklist.m3u8"
+    "https://yayin3.haber100.com/kudustvapp/kudustv/chunklist.m3u8",
+    "https://yayin1.haber100.com/kudustvapp/kudustv/playlist.m3u8"
   ],
   "krt": [
     "https://raw.githubusercontent.com/umitm0d/-mittube/refs/heads/main/Umittube/Krt.m3u8"
