@@ -651,7 +651,7 @@
     "name": "Ikra TV",
     "url": "https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8",
     "category": "Dini",
-    "streamUrl": "https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8"
+    "streamUrl": "https://rtmp.ikratv.com/live/kanal1/master.m3u8"
   },
   {
     "name": "Mekke TV Canli",
