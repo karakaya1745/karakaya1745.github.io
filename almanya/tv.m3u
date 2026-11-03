@@ -826,6 +826,10 @@ https://sdn-global-live-streaming-packager-cache.3qsdn.com/126101/126101_264_liv
 https://mts1.iptv-playoutcenter.de/mts/mts-web/mts/mtsw3/chunks.m3u8
 #EXTINF:-1 tvg-id="tv-more-than-sports-tv" tvg-name="More Than Sports TV" group-title="other",More Than Sports TV (2)
 https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-more-than-sports-tv" tvg-name="More Than Sports TV" group-title="other",More Than Sports TV (3)
+https://mts1.iptv-playoutcenter.de/mts/mts-web/mts/mtsw1/chunks.m3u8
+#EXTINF:-1 tvg-id="tv-more-than-sports-tv" tvg-name="More Than Sports TV" group-title="other",More Than Sports TV (4)
+https://mts1.iptv-playoutcenter.de/mts/mts-web/mts/mtsw2/chunks.m3u8
 #EXTINF:-1 tvg-id="tv-servustv-deutschland" tvg-name="ServusTV Deutschland" group-title="other",ServusTV Deutschland (1)
 https://stv-live.akamaized.net/hls/live/2031012/lingeoSTVDEwebPri/master_3392.m3u8
 #EXTINF:-1 tvg-id="tv-servustv-deutschland" tvg-name="ServusTV Deutschland" group-title="other",ServusTV Deutschland (2)
@@ -1064,6 +1068,8 @@ https://hls1.wtnet.de/noa4/apple/wifi6500.m3u8
 https://hls1.wtnet.de/noa4/apple/wifi.m3u8
 #EXTINF:-1 tvg-id="tv-ok-flensburg" tvg-name="OK Flensburg" group-title="yerel",OK Flensburg (1)
 https://live-cdn.oksh.de/play/hls/flensburgtv/index.m3u8
+#EXTINF:-1 tvg-id="tv-ok-flensburg" tvg-name="OK Flensburg" group-title="yerel",OK Flensburg (2)
+https://live.oksh.de/play/hls/flensburgtv/index.m3u8
 #EXTINF:-1 tvg-id="tv-ok-kiel" tvg-name="OK Kiel" group-title="yerel",OK Kiel (1)
 https://live-cdn.oksh.de/play/hls/kieltv/index.m3u8
 #EXTINF:-1 tvg-id="tv-ok-kiel" tvg-name="OK Kiel" group-title="yerel",OK Kiel (2)
@@ -1130,3 +1136,7 @@ https://telegold.iptv-playoutcenter.de/telegold/telegold-sat1/playlist.m3u8
 https://elephant.t62a.com/hls/8103/index.m3u8
 #EXTINF:-1 tvg-id="tv-meietv" tvg-name="MeieTV" group-title="shopping",MeieTV (1)
 https://stream.meietv.de/live/meietv.m3u8
+#EXTINF:-1 tvg-id="tv-qvc-style" tvg-name="QVC Style" group-title="shopping",QVC Style (1)
+https://qvcde-live.akamaized.net/hls/live/2097104/qby/master.m3u8
+#EXTINF:-1 tvg-id="tv-qvc-zwei" tvg-name="QVC Zwei" group-title="shopping",QVC Zwei (1)
+https://qvcde-live.akamaized.net/hls/live/2097104/qps/master.m3u8

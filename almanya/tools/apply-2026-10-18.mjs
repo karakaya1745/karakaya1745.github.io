@@ -294,6 +294,8 @@ const TV_SHOPPING = pinList("TV shopping", [
   "Telegold",
   "KaufBei TV",
   "MeieTV",
+  "QVC Style",
+  "QVC Zwei",
 ]);
 
 const TV_DOCUMENTARY = pinList("TV documentary", [
@@ -625,6 +627,7 @@ const RADIO_THEMED = new Set([
   "Radio Teddy",
   "Toggo Radio",
   "Star*Sat Radio",
+  "Mango Radio",
 ]);
 
 function radioBucket(name) {
