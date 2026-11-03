@@ -1,0 +1,14 @@
+kanal,link,durum,kaynak,tür
+More Than Sports TV,https://mts1.iptv-playoutcenter.de/mts/mts-web/mts/mtsw3/chunks.m3u8,gün2: 200 #EXTM3U x3 (dün 404) — düzeldi,katalog,izle
+More Than Sports TV,https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8,gün2: 200 #EXTM3U x3 (dün dalgalı) — düzeldi,katalog,izle
+OK Kiel,https://live-cdn.oksh.de/play/hls/kieltv/index.m3u8,gün2: 200 #EXTM3U x3 (dün 404) — düzeldi,katalog,izle
+OK Kiel,https://live.oksh.de/play/hls/kieltv/index.m3u8,gün2: 200 #EXTM3U x3 (dün ölü) — düzeldi,katalog,izle
+OK Flensburg,https://live-cdn.oksh.de/play/hls/flensburgtv/index.m3u8,gün2: 200 #EXTM3U x3 (dün 404; sil önerisi KALDIRILDI) — düzeldi,katalog,izle
+Oberlausitz TV,https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd4/playlist.m3u8?ref=,spot: 200 #EXTM3U x3 OK,katalog,izle
+NRWision,https://fms.nrwision.de/live/ngrp:livestreamHD.stream/playlist.m3u8,spot: 200 #EXTM3U x3 OK,katalog,izle
+OK Flensburg,https://live.oksh.de/play/hls/flensburgtv/index.m3u8,200 #EXTM3U OK (katalogda yalnız live-cdn; live.oksh kardeş host),resmi oksh.de / kardeş path,yedek
+More Than Sports TV,https://mts1.iptv-playoutcenter.de/mts/mts-web/mts/mtsw1/chunks.m3u8,"200 #EXTM3U OK (1080p varyant; playlist master zaten katalogda, absolute yedek)",iptv-playoutcenter kardeş path,yedek
+More Than Sports TV,https://mts1.iptv-playoutcenter.de/mts/mts-web/mts/mtsw2/chunks.m3u8,200 #EXTM3U OK (720p varyant; absolute yedek),iptv-playoutcenter kardeş path,yedek
+QVC Style,https://qvcde-live.akamaized.net/hls/live/2097104/qby/master.m3u8,200 #EXTM3U OK (alışveriş; katalogda yalnız QVC Deutschland),iptv-org de.m3u / resmi qvcde-live,yeni_kanal
+QVC Zwei,https://qvcde-live.akamaized.net/hls/live/2097104/qps/master.m3u8,200 #EXTM3U OK (alışveriş kardeş kanal),iptv-org de.m3u / resmi qvcde-live,yeni_kanal
+Mango Radio,https://mangoradio.stream.laut.fm/mangoradio,"200 audio/mpeg OK (yüksek tıklama; katalogda yok; ana istasyon, tema değil)",radio-browser API,yeni_kanal

@@ -1632,6 +1632,8 @@ https://stream.jam.fm/jamfm-bl/mp3-192/tunein/
 https://stream.jam.fm/jamfm-bl/aac-64/tunein/
 #EXTINF:-1 tvg-id="radio-jam-fm-black-label" tvg-name="JAM FM Black Label" group-title="music",JAM FM Black Label (8)
 https://stream.jam.fm/jamfm-bl/mp3-128/tunein/
+#EXTINF:-1 tvg-id="radio-mango-radio" tvg-name="Mango Radio" group-title="music",Mango Radio (1)
+https://mangoradio.stream.laut.fm/mangoradio
 #EXTINF:-1 tvg-id="radio-radio-b2" tvg-name="radio B2" group-title="music",radio B2 (1)
 https://stream.schlagerradio.de/b2-schlagerradio-national/mp3-192/
 #EXTINF:-1 tvg-id="radio-radio-b2" tvg-name="radio B2" group-title="music",radio B2 (2)

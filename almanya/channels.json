@@ -1,6 +1,6 @@
 {
-  "_revision": 18,
-  "updatedAt": "2026-11-01T08:25:47.166Z",
+  "_revision": 19,
+  "updatedAt": "2026-11-03T05:29:26.062Z",
   "app": "ZapIt TV",
   "channels": [
     {
@@ -2740,6 +2740,16 @@
           "url": "https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://mts1.iptv-playoutcenter.de/mts/mts-web/mts/mtsw1/chunks.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://mts1.iptv-playoutcenter.de/mts/mts-web/mts/mtsw2/chunks.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3947,6 +3957,11 @@
           "url": "https://live-cdn.oksh.de/play/hls/flensburgtv/index.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://live.oksh.de/play/hls/flensburgtv/index.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -4227,6 +4242,34 @@
       "streams": [
         {
           "url": "https://stream.meietv.de/live/meietv.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "tv-qvc-style",
+      "name": "QVC Style",
+      "type": "tv",
+      "category": "shopping",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://qvcde-live.akamaized.net/hls/live/2097104/qby/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "tv-qvc-zwei",
+      "name": "QVC Zwei",
+      "type": "tv",
+      "category": "shopping",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://qvcde-live.akamaized.net/hls/live/2097104/qps/master.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -9729,6 +9772,20 @@
         },
         {
           "url": "https://stream.jam.fm/jamfm-bl/mp3-128/tunein/",
+          "geo_de_only": false,
+          "format": "audio"
+        }
+      ]
+    },
+    {
+      "id": "radio-mango-radio",
+      "name": "Mango Radio",
+      "type": "radio",
+      "category": "music",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://mangoradio.stream.laut.fm/mangoradio",
           "geo_de_only": false,
           "format": "audio"
         }
