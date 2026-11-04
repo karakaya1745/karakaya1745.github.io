@@ -718,6 +718,8 @@ https://d1pz8zear993v8.cloudfront.net/hlsme/stream_2.m3u8
 https://streamcdnf34-a19bf41486254a3485a864c8b0c14fe1.msvdn.net/live/S28743697/LpD0q2aoyujI/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-k-tv" tvg-name="K-TV" group-title="religious",K-TV (6)
 https://streamcdnm1-a19bf41486254a3485a864c8b0c14fe1.msvdn.net/live/S28743697/LpD0q2aoyujI/chunklist_b3392000.m3u8
+#EXTINF:-1 tvg-id="tv-k-tv" tvg-name="K-TV" group-title="religious",K-TV (7)
+https://a19bf41486254a3485a864c8b0c14fe1.msvdn.net/live/S28743697/LpD0q2aoyujI/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-ewtn-auf-deutsch" tvg-name="EWTN auf Deutsch" group-title="religious",EWTN auf Deutsch (1)
 https://cdn3.wowza.com/1/ZUkxSDBrZHlMbjVn/ZkhNRFNZ/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-ewtn-auf-deutsch" tvg-name="EWTN auf Deutsch" group-title="religious",EWTN auf Deutsch (2)
@@ -950,6 +952,8 @@ https://h056.video-stream-hosting.de/easycast7-live/_definst_/mp4:livestreamhd20
 https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd8/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-noa4-hamburg" tvg-name="noa4 Hamburg" group-title="yerel",noa4 Hamburg (1)
 https://hls1.wtnet.de/noa4hh/apple/wifi6500.m3u8
+#EXTINF:-1 tvg-id="tv-tide-tv" tvg-name="Tide TV" group-title="yerel",Tide TV (1)
+https://h058.video-stream-hosting.de/tide-live/_definst_/smil:livestream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-ok-kassel" tvg-name="OK Kassel" group-title="yerel",OK Kassel (1)
 https://s.ok54.de/mok-ks/kassel/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-ok-rhein-main" tvg-name="OK Rhein-Main" group-title="yerel",OK Rhein-Main (1)
@@ -1006,6 +1010,8 @@ https://saarland2.iptv-playoutcenter.de/saarland2/saarland2.stream_2/playlist.m3
 https://5acade5fc0c29.streamlock.net/kabeljournal/live2020.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-l-tv" tvg-name="L TV" group-title="yerel",L TV (1)
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/130321/130321_264_live.m3u8
+#EXTINF:-1 tvg-id="tv-l-tv" tvg-name="L TV" group-title="yerel",L TV (2)
+https://sdn-global-live-streaming-packager-cache-aka.3qsdn.com/130321/130321_264_live.m3u8
 #EXTINF:-1 tvg-id="tv-mytvplus" tvg-name="MyTVplus" group-title="yerel",MyTVplus (1)
 https://h056.video-stream-hosting.de/easycast10-live/_definst_/mp4:livestreamhd82/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-oberlausitz-tv" tvg-name="Oberlausitz TV" group-title="yerel",Oberlausitz TV (1)
@@ -1118,6 +1124,8 @@ https://hse24trend.akamaized.net/hls/live/2006597-b/hse24trend/master_576_1p25.m
 https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/master_576_2p25.m3u8
 #EXTINF:-1 tvg-id="tv-juwelo" tvg-name="Juwelo" group-title="shopping",Juwelo (1)
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3u8
+#EXTINF:-1 tvg-id="tv-juwelo" tvg-name="Juwelo" group-title="shopping",Juwelo (2)
+https://sdn-global-live-streaming-packager-cache-aka.3qsdn.com/7441/7441_264_live.m3u8
 #EXTINF:-1 tvg-id="tv-shop-lc-deutschland" tvg-name="Shop LC Deutschland" group-title="shopping",Shop LC Deutschland (1)
 https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel(LCGERMANYWEB)/master.m3u8
 #EXTINF:-1 tvg-id="tv-shop-lc-deutschland" tvg-name="Shop LC Deutschland" group-title="shopping",Shop LC Deutschland (2)
@@ -1140,3 +1148,5 @@ https://stream.meietv.de/live/meietv.m3u8
 https://qvcde-live.akamaized.net/hls/live/2097104/qby/master.m3u8
 #EXTINF:-1 tvg-id="tv-qvc-zwei" tvg-name="QVC Zwei" group-title="shopping",QVC Zwei (1)
 https://qvcde-live.akamaized.net/hls/live/2097104/qps/master.m3u8
+#EXTINF:-1 tvg-id="tv-1-2-3-tv" tvg-name="1-2-3.tv" group-title="shopping",1-2-3.tv (1)
+https://sdn-global-live-streaming-packager-cache-aka.3qsdn.com/110589/110589_264_live.m3u8

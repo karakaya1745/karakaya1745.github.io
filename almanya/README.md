@@ -23,7 +23,7 @@ Uygulama önce `metadata.json` indirir. `revision` veya `channels.json` sha256 d
 | --- | --- |
 | `sources/tv.csv`, `sources/tv.m3u` | Ham TV ölçümü. CSV'de ölü (`failed`) satırlar da durur. |
 | `sources/radio.csv`, `sources/radio.m3u` | Ham radyo ölçümü. CSV'de denenmemiş düz `http` satırları da durur. |
-| `sources/onay-2026-10-15.csv` … `onay-2026-11-03.csv` | Onaylanan ekler ve silinecek veya sona alınan linkler. |
+| `sources/onay-2026-10-15.csv` … `onay-2026-11-04.csv` | Onaylanan ekler ve silinecek veya sona alınan linkler. |
 | `sources/catalog-retest-2026-10-18.json` | 18 Ekim yeniden testi (ölü, statik, şüpheli). |
 | `tv.m3u`, `radio.m3u` | Yayımlanan, temizlenmiş listeler. Ölü ve denenmemiş link yoktur. |
 | `channels.json` | Uygulamanın indirdiği katalog. |
@@ -119,6 +119,8 @@ Radyo CSV'sinde aynı istasyon adının altında kardeş yayınlar da `(1)`, `(2
 `sources/onay-2026-11-01.csv` 1 Kasım onayıdır. Üç çalışan yedek mevcut kanallara eklenir: More Than Sports TV master playlist, MDR Klassik resmi HLS ve Radio 21 Hannover. Yeni kanal açılmaz. Antenne Niederrhein izle satırı ile Oberlausitz TV ve NRWision iyileşti satırlarına dokunulmaz. `shopping` sonda kalır.
 
 `sources/onay-2026-11-03.csv` 3 Kasım onayıdır. OK Flensburg'a `live.oksh.de` yedeği, More Than Sports TV'ye 1080p ve 720p chunks yedekleri eklenir. Yeni kanallar QVC Style ve QVC Zwei `shopping` bloğunun sonundadır. Mango Radio kendi radyo istasyonudur. `izle` satırlarına dokunulmaz.
+
+`sources/onay-2026-11-04.csv` 4 Kasım onayıdır. Juwelo, K-TV ve L TV'ye birer aka veya resmi yedek eklenir. 1-2-3.tv `shopping` bloğunun sonundadır. Tide TV Hamburg `yerel` kanalıdır. MeieTV watch satırına dokunulmaz.
 
 ## Sıra
 

@@ -1,0 +1,7 @@
+kanal,link,durum,kaynak,tür
+Juwelo,https://sdn-global-live-streaming-packager-cache-aka.3qsdn.com/7441/7441_264_live.m3u8,200 #EXTM3U OK (non-aka 3qsdn kardeş CDN),onay 2026-11-04,backup
+K-TV,https://a19bf41486254a3485a864c8b0c14fe1.msvdn.net/live/S28743697/LpD0q2aoyujI/playlist.m3u8,200 #EXTM3U OK (bibeltv.de resmi bare msvdn),onay 2026-11-04,backup
+L TV,https://sdn-global-live-streaming-packager-cache-aka.3qsdn.com/130321/130321_264_live.m3u8,200 #EXTM3U OK (aka yedek),onay 2026-11-04,backup
+1-2-3.tv,https://sdn-global-live-streaming-packager-cache-aka.3qsdn.com/110589/110589_264_live.m3u8,200 #EXTM3U OK (alışveriş),onay 2026-11-04,new_channel
+Tide TV,https://h058.video-stream-hosting.de/tide-live/_definst_/smil:livestream.smil/playlist.m3u8,200 #EXTM3U OK (Hamburg Bürgerkanal),onay 2026-11-04,new_channel
+MeieTV,https://stream.meietv.de/live/meietv.m3u8,watch,katalog,watch

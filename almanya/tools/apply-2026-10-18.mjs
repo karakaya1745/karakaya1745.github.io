@@ -296,6 +296,7 @@ const TV_SHOPPING = pinList("TV shopping", [
   "MeieTV",
   "QVC Style",
   "QVC Zwei",
+  "1-2-3.tv",
 ]);
 
 const TV_DOCUMENTARY = pinList("TV documentary", [
@@ -367,7 +368,7 @@ const TV_YEREL = yerelMap([
   // Seenluft24: Lausitz gölleri, Brandenburg kabul edildi.
   ["Brandenburg", ["Lausitzwelle", "Seenluft24", "teltOwkanal"]],
   ["Bremen", []],
-  ["Hamburg", ["noa4 Hamburg"]],
+  ["Hamburg", ["noa4 Hamburg", "Tide TV"]],
   ["Hessen", ["OK Kassel", "OK Rhein-Main"]],
   [
     "Niedersachsen",
