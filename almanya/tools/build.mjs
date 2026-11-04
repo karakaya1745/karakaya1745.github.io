@@ -29,6 +29,7 @@
  *        almanya/sources/onay-2026-10-31.csv (31 Ekim yedekleri; Finest TV çıkar)
  *        almanya/sources/onay-2026-11-01.csv (1 Kasım yedekleri; izle ve iyileşti satırları durur)
  *        almanya/sources/onay-2026-11-03.csv (3 Kasım yedekleri ve üç yeni kanal; izle satırları durur)
+ *        almanya/sources/onay-2026-11-04.csv (4 Kasım yedekleri, 1-2-3.tv ve Tide TV; MeieTV watch durur)
  * Ölü (failed) ve denenmemiş (untested) linkler yayınlanmaz.
  * geo-blocked (403) ve "sadece Almanya" linkler kalır; geo_de_only ile işaretlenir.
  * Katalogda olan URL yeniden eklenmez. Yeni link uydurulmaz.
@@ -53,6 +54,7 @@ import { applyOctober30 } from "./apply-2026-10-30.mjs";
 import { applyOctober31 } from "./apply-2026-10-31.mjs";
 import { applyNovember1 } from "./apply-2026-11-01.mjs";
 import { applyNovember3 } from "./apply-2026-11-03.mjs";
+import { applyNovember4 } from "./apply-2026-11-04.mjs";
 
 const DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SOURCES = path.join(DIR, "sources");
@@ -842,6 +844,7 @@ function loadCatalog() {
   const onay31 = applyOctober31(channels);
   const onay1101 = applyNovember1(channels);
   const onay1103 = applyNovember3(channels);
+  const onay1104 = applyNovember4(channels);
   const grouped = orderCatalog(channels);
   const previous = readJsonIfExists(path.join(DIR, "channels.json"));
   assignIds(grouped, previous?.channels);
@@ -875,6 +878,7 @@ function loadCatalog() {
     onay31,
     onay1101,
     onay1103,
+    onay1104,
   };
 }
 
@@ -1108,6 +1112,15 @@ function main() {
   );
   if (onay1103.addedChannelNames?.length) {
     console.log(`[almanya] eklenen kanallar: ${onay1103.addedChannelNames.join(", ")}`);
+  }
+  const onay1104 = catalog.onay1104 || {};
+  console.log(
+    `[almanya] onay-2026-11-04: +${onay1104.addedChannels || 0} kanal, ` +
+      `+${onay1104.addedLinks || 0} link, watch ${onay1104.skippedWatch || 0}, ` +
+      `yinelenen ${onay1104.skippedDupes || 0}`,
+  );
+  if (onay1104.addedChannelNames?.length) {
+    console.log(`[almanya] eklenen kanallar: ${onay1104.addedChannelNames.join(", ")}`);
   }
   console.log(`[almanya] sha256=${hash}`);
   if (catalog.dropped.length) {
