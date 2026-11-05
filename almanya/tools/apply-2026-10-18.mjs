@@ -255,6 +255,8 @@ const TV_NEWS = pinList("TV news", [
   "DW Español",
   "Parlamentsfernsehen 1 (Bundestag)",
   "Parlamentsfernsehen 2 (Bundestag)",
+  "Parlamentsfernsehen 3 (Bundestag)",
+  "Parlamentsfernsehen 4 (Bundestag)",
   "Welt",
 ]);
 
@@ -274,6 +276,7 @@ const TV_RELIGIOUS = pinList("TV religious", [
 const TV_MUSIC = pinList("TV music", [
   "Deluxe Music",
   "Deluxe Rap",
+  "Deluxe Dance",
   "Melodie TV",
   "DMF",
   "MC TV (MC EU)",
@@ -282,6 +285,7 @@ const TV_MUSIC = pinList("TV music", [
   "Folx Music Television",
   "One Music Television",
   "Zwei Music Television",
+  "Finest TV",
 ]);
 
 const TV_SHOPPING = pinList("TV shopping", [
@@ -297,6 +301,7 @@ const TV_SHOPPING = pinList("TV shopping", [
   "QVC Style",
   "QVC Zwei",
   "1-2-3.tv",
+  "iSTUFF",
 ]);
 
 const TV_DOCUMENTARY = pinList("TV documentary", [
@@ -308,9 +313,10 @@ const TV_DOCUMENTARY = pinList("TV documentary", [
 const TV_OTHER = pinList("TV other", [
   "DF1",
   "Aristo TV",
+  "Anixe +",
+  "Anixe HD Serie",
   "Lilo TV",
   "RiC",
-  "Finest TV",
   "QS24.TV",
   "More Than Sports TV",
   "ServusTV Deutschland",
@@ -608,6 +614,8 @@ const RADIO_REGIONAL = radioRegional([
 
 const RADIO_RELIGIOUS = pinList("radyo religious", ["domradio.de", "ERF Jess", "ERF Plus"]);
 
+const RADIO_NEWS = pinList("radyo news", ["NIUS Radio"]);
+
 const RADIO_THEMED = new Set([
   "Klassik Radio",
   "Klassik Radio Movie",
@@ -635,6 +643,7 @@ function radioBucket(name) {
   const hits = [
     RADIO_PUBLIC.has(name),
     RADIO_REGIONAL.has(name),
+    RADIO_NEWS.has(name),
     RADIO_RELIGIOUS.has(name),
     RADIO_THEMED.has(name),
   ].filter(Boolean).length;
@@ -643,6 +652,7 @@ function radioBucket(name) {
 
 for (const name of RADIO_PUBLIC.keys()) radioBucket(name);
 for (const name of RADIO_REGIONAL.keys()) radioBucket(name);
+for (const name of RADIO_NEWS.keys()) radioBucket(name);
 for (const name of RADIO_RELIGIOUS.keys()) radioBucket(name);
 for (const name of RADIO_THEMED) radioBucket(name);
 
@@ -676,6 +686,9 @@ function radioSortKey(name) {
       b: place.index,
       c: name,
     };
+  }
+  if (RADIO_NEWS.has(name)) {
+    return { category: "news", a: RADIO_NEWS.get(name), b: 0, c: name };
   }
   if (RADIO_RELIGIOUS.has(name)) {
     return { category: "religious", a: RADIO_RELIGIOUS.get(name), b: 0, c: name };

@@ -1478,6 +1478,8 @@ https://streams.deltaradio.de/delta-live/aac-48
 https://streams.deltaradio.de/delta-live/mp3-192
 #EXTINF:-1 tvg-id="radio-campusradio-ilmenau" tvg-name="Campusradio Ilmenau" group-title="regional",Campusradio Ilmenau (1)
 https://stream.radio-hsf.de/hsf.mp3
+#EXTINF:-1 tvg-id="radio-nius-radio" tvg-name="NIUS Radio" group-title="news",NIUS Radio (1)
+https://radio.nius.de/live
 #EXTINF:-1 tvg-id="radio-domradio-de" tvg-name="domradio.de" group-title="religious",domradio.de (1)
 https://dom.audiostream.io/domradio/1000/mp3/128/domradio-rp.mp3
 #EXTINF:-1 tvg-id="radio-domradio-de" tvg-name="domradio.de" group-title="religious",domradio.de (2)

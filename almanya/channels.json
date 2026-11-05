@@ -1,6 +1,6 @@
 {
-  "_revision": 20,
-  "updatedAt": "2026-11-04T06:01:13.684Z",
+  "_revision": 21,
+  "updatedAt": "2026-11-05T07:02:48.976Z",
   "app": "ZapIt TV",
   "channels": [
     {
@@ -2109,6 +2109,34 @@
       ]
     },
     {
+      "id": "tv-parlamentsfernsehen-3-bundestag",
+      "name": "Parlamentsfernsehen 3 (Bundestag)",
+      "type": "tv",
+      "category": "news",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://cldf-hlsgw.r53.cdn.tv1.eu/1000153copo/hk3.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "tv-parlamentsfernsehen-4-bundestag",
+      "name": "Parlamentsfernsehen 4 (Bundestag)",
+      "type": "tv",
+      "category": "news",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://cldf-hlsgw.r53.cdn.tv1.eu/1000153copo/hk4.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
       "id": "tv-welt",
       "name": "Welt",
       "type": "tv",
@@ -2398,6 +2426,11 @@
           "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache-aka.3qsdn.com/13456/13456_264_live.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -2410,6 +2443,30 @@
       "streams": [
         {
           "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache-aka.3qsdn.com/65183/65183_264_live.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "tv-deluxe-dance",
+      "name": "Deluxe Dance",
+      "type": "tv",
+      "category": "music",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache-aka.3qsdn.com/64733/64733_264_live.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -2583,6 +2640,20 @@
       ]
     },
     {
+      "id": "tv-finest-tv",
+      "name": "Finest TV",
+      "type": "tv",
+      "category": "music",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://media.finest.tv/hls/live.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
       "id": "tv-n24-doku",
       "name": "N24 Doku",
       "type": "tv",
@@ -2668,6 +2739,34 @@
       ]
     },
     {
+      "id": "tv-anixe-plus",
+      "name": "Anixe +",
+      "type": "tv",
+      "category": "other",
+      "geo_de_only": true,
+      "streams": [
+        {
+          "url": "https://ma.anixa.tv/clips/stream/anixesd/index.m3u8",
+          "geo_de_only": true,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "tv-anixe-hd-serie",
+      "name": "Anixe HD Serie",
+      "type": "tv",
+      "category": "other",
+      "geo_de_only": true,
+      "streams": [
+        {
+          "url": "https://ma.anixa.tv/clips/stream/anixehd/index.m3u8",
+          "geo_de_only": true,
+          "format": "hls"
+        }
+      ]
+    },
+    {
       "id": "tv-lilo-tv",
       "name": "Lilo TV",
       "type": "tv",
@@ -2724,6 +2823,11 @@
       "streams": [
         {
           "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/126101/126101_264_live.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://sdn-global-live-streaming-packager-cache-aka.3qsdn.com/126101/126101_264_live.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -4313,6 +4417,20 @@
       "streams": [
         {
           "url": "https://sdn-global-live-streaming-packager-cache-aka.3qsdn.com/110589/110589_264_live.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "tv-istuff",
+      "name": "iSTUFF",
+      "type": "tv",
+      "category": "shopping",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://relay2.cdn.fem-net.de/hls/loop/istuff_live/istuff_live-720p.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -9297,6 +9415,20 @@
           "url": "https://stream.radio-hsf.de/hsf.mp3",
           "geo_de_only": false,
           "format": "mp3"
+        }
+      ]
+    },
+    {
+      "id": "radio-nius-radio",
+      "name": "NIUS Radio",
+      "type": "radio",
+      "category": "news",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://radio.nius.de/live",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
