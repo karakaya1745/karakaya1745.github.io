@@ -23,7 +23,7 @@ Uygulama önce `metadata.json` indirir. `revision` veya `channels.json` sha256 d
 | --- | --- |
 | `sources/tv.csv`, `sources/tv.m3u` | Ham TV ölçümü. CSV'de ölü (`failed`) satırlar da durur. |
 | `sources/radio.csv`, `sources/radio.m3u` | Ham radyo ölçümü. CSV'de denenmemiş düz `http` satırları da durur. |
-| `sources/onay-2026-10-15.csv` … `onay-2026-11-04.csv` | Onaylanan ekler ve silinecek veya sona alınan linkler. |
+| `sources/onay-2026-10-15.csv` … `onay-2026-11-05.csv` | Onaylanan ekler ve silinecek veya sona alınan linkler. |
 | `sources/catalog-retest-2026-10-18.json` | 18 Ekim yeniden testi (ölü, statik, şüpheli). |
 | `tv.m3u`, `radio.m3u` | Yayımlanan, temizlenmiş listeler. Ölü ve denenmemiş link yoktur. |
 | `channels.json` | Uygulamanın indirdiği katalog. |
@@ -121,6 +121,8 @@ Radyo CSV'sinde aynı istasyon adının altında kardeş yayınlar da `(1)`, `(2
 `sources/onay-2026-11-03.csv` 3 Kasım onayıdır. OK Flensburg'a `live.oksh.de` yedeği, More Than Sports TV'ye 1080p ve 720p chunks yedekleri eklenir. Yeni kanallar QVC Style ve QVC Zwei `shopping` bloğunun sonundadır. Mango Radio kendi radyo istasyonudur. `izle` satırlarına dokunulmaz.
 
 `sources/onay-2026-11-04.csv` 4 Kasım onayıdır. Juwelo, K-TV ve L TV'ye birer aka veya resmi yedek eklenir. 1-2-3.tv `shopping` bloğunun sonundadır. Tide TV Hamburg `yerel` kanalıdır. MeieTV watch satırına dokunulmaz.
+
+`sources/onay-2026-11-05.csv` 5 Kasım onayıdır. Deluxe Music, Deluxe Rap ve QS24.TV'ye aka yedek eklenir. Yeni kanallar: Parlamentsfernsehen 3 ve 4 (`news`), Deluxe Dance ve Finest TV (`music`), iSTUFF (`shopping` sonu), Anixe + ve Anixe HD Serie (`other`, `geo_de_only`), NIUS Radio (`news`). MeieTV watch ve K-TV flaky satırlarına dokunulmaz.
 
 ## Sıra
 

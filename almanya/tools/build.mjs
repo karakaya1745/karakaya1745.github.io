@@ -30,6 +30,7 @@
  *        almanya/sources/onay-2026-11-01.csv (1 Kasım yedekleri; izle ve iyileşti satırları durur)
  *        almanya/sources/onay-2026-11-03.csv (3 Kasım yedekleri ve üç yeni kanal; izle satırları durur)
  *        almanya/sources/onay-2026-11-04.csv (4 Kasım yedekleri, 1-2-3.tv ve Tide TV; MeieTV watch durur)
+ *        almanya/sources/onay-2026-11-05.csv (5 Kasım yedekleri ve sekiz yeni kanal; MeieTV ve K-TV flaky durur)
  * Ölü (failed) ve denenmemiş (untested) linkler yayınlanmaz.
  * geo-blocked (403) ve "sadece Almanya" linkler kalır; geo_de_only ile işaretlenir.
  * Katalogda olan URL yeniden eklenmez. Yeni link uydurulmaz.
@@ -55,6 +56,7 @@ import { applyOctober31 } from "./apply-2026-10-31.mjs";
 import { applyNovember1 } from "./apply-2026-11-01.mjs";
 import { applyNovember3 } from "./apply-2026-11-03.mjs";
 import { applyNovember4 } from "./apply-2026-11-04.mjs";
+import { applyNovember5 } from "./apply-2026-11-05.mjs";
 
 const DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SOURCES = path.join(DIR, "sources");
@@ -845,6 +847,7 @@ function loadCatalog() {
   const onay1101 = applyNovember1(channels);
   const onay1103 = applyNovember3(channels);
   const onay1104 = applyNovember4(channels);
+  const onay1105 = applyNovember5(channels);
   const grouped = orderCatalog(channels);
   const previous = readJsonIfExists(path.join(DIR, "channels.json"));
   assignIds(grouped, previous?.channels);
@@ -879,6 +882,7 @@ function loadCatalog() {
     onay1101,
     onay1103,
     onay1104,
+    onay1105,
   };
 }
 
@@ -1121,6 +1125,15 @@ function main() {
   );
   if (onay1104.addedChannelNames?.length) {
     console.log(`[almanya] eklenen kanallar: ${onay1104.addedChannelNames.join(", ")}`);
+  }
+  const onay1105 = catalog.onay1105 || {};
+  console.log(
+    `[almanya] onay-2026-11-05: +${onay1105.addedChannels || 0} kanal, ` +
+      `+${onay1105.addedLinks || 0} link, watch/flaky ${onay1105.skippedWatch || 0}, ` +
+      `yinelenen ${onay1105.skippedDupes || 0}`,
+  );
+  if (onay1105.addedChannelNames?.length) {
+    console.log(`[almanya] eklenen kanallar: ${onay1105.addedChannelNames.join(", ")}`);
   }
   console.log(`[almanya] sha256=${hash}`);
   if (catalog.dropped.length) {
