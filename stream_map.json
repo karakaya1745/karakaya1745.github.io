@@ -1,5 +1,5 @@
 {
-  "_revision": 215,
+  "_revision": 216,
   "duyuru": [
     "https://karakaya1745.github.io/guncelleme_duyuru.m3u8"
   ],
@@ -1710,8 +1710,8 @@
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=196678&extension=ts&play_token=p5hwUyOLoj",
     "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:F5:CE:C8&stream=196710&extension=ts&play_token=Vinm127vDi",
     "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8",
-    "https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?ce=3&app=65fa8997-2b2f-4529-85ea-84318628a608&st=uf9FABHAWV1FKI-uD71f2w&e=1793786946",
-    "https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=uf9FABHAWV1FKI-uD71f2w&e=1793786946"
+    "https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?ce=3&app=65fa8997-2b2f-4529-85ea-84318628a608&st=81ym-2BgOCtWBkZ36nsNUg&e=1793873860",
+    "https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=81ym-2BgOCtWBkZ36nsNUg&e=1793873860"
   ],
   "nrkjazz": [
     "https://nrk-live-radio-world.akamaized.net/jazz/muxed.m3u8?adap=audio&aco=aac"
@@ -3335,6 +3335,7 @@
     "https://live.artidijitalmedya.com/artidijital_tv41/tv41/chunks.m3u8"
   ],
   "tv5": [
+    "https://radyotelekomtv.com/player/m3u8/d38a38af9446339ff2540c460955f115/d38a38af9446339ff2540c460955f115.m3u8",
     "https://ip252.ozelip.com:1936/protv5/protv5/playlist.m3u8"
   ],
   "tv52": [
