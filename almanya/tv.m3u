@@ -740,6 +740,8 @@ https://jstre.am/live/jsl:AQfP7b5HoTM.m3u8
 https://cdn-de-fra.b-cdn.net/hcorg_Lmro4tmzOp1/s/jsl_AQfP7b5HoTM/master.m3u8
 #EXTINF:-1 tvg-id="tv-hope-tv-deutsch" tvg-name="Hope TV Deutsch" group-title="religious",Hope TV Deutsch (3)
 https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-hope-tv-deutsch" tvg-name="Hope TV Deutsch" group-title="religious",Hope TV Deutsch (4)
+https://h056.video-stream-hosting.de/easycast8-live/_definst_/livestreamhd/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-die-neue-zeit-tv" tvg-name="Die Neue Zeit TV" group-title="religious",Die Neue Zeit TV (1)
 https://bild-und-ton.stream/die-neue-zeit-tv-live/smil:dnz-de.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-die-neue-zeit-tv" tvg-name="Die Neue Zeit TV" group-title="religious",Die Neue Zeit TV (2)
@@ -864,8 +866,12 @@ https://hlspackager.akamaized.net/live/DB/CIRA_TV/HLS/CIRA_TV.m3u8
 https://stream04.welocal.stream/stream/fhd-badentv_231351/ngrp:stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-filstalwelle" tvg-name="Filstalwelle" group-title="yerel",Filstalwelle (1)
 https://h055.video-stream-hosting.de/filstalwelle-live/_definst_/mp4:livestream/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-filstalwelle" tvg-name="Filstalwelle" group-title="yerel",Filstalwelle (2)
+https://h055.video-stream-hosting.de/filstalwelle-live/_definst_/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-metropol-region-tv-rhein-neckar" tvg-name="Metropol Region TV Rhein-Neckar" group-title="yerel",Metropol Region TV Rhein-Neckar (1)
 https://h057.video-stream-hosting.de/metropolregiontv-live/_definst_/mp4:livestream/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-metropol-region-tv-rhein-neckar" tvg-name="Metropol Region TV Rhein-Neckar" group-title="yerel",Metropol Region TV Rhein-Neckar (2)
+https://h057.video-stream-hosting.de/metropolregiontv-live/_definst_/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-regio-tv-satellit" tvg-name="Regio TV Satellit" group-title="yerel",Regio TV Satellit (1)
 https://regiotv-b.iptv-playoutcenter.de/regiotv-b/regiotv-b.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-regio-tv-satellit" tvg-name="Regio TV Satellit" group-title="yerel",Regio TV Satellit (2)
@@ -966,9 +972,15 @@ https://alex-stream.rosebud-media.de/bounce/alexlivetv50.smil/manifest.mpd
 https://alex-stream.rosebud-media.de/bounce/alexlivetv50.smil/chunklist_b2128000_slGER.m3u8
 #EXTINF:-1 tvg-id="tv-lausitzwelle" tvg-name="Lausitzwelle" group-title="yerel",Lausitzwelle (1)
 https://h056.video-stream-hosting.de/easycast11-live/_definst_/mp4:livestreamhd2/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-lausitzwelle" tvg-name="Lausitzwelle" group-title="yerel",Lausitzwelle (2)
+https://h056.video-stream-hosting.de/easycast11-live/_definst_/livestreamhd2/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-seenluft24" tvg-name="Seenluft24" group-title="yerel",Seenluft24 (1)
 https://h056.video-stream-hosting.de/easycast7-live/_definst_/mp4:livestreamhd20/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-seenluft24" tvg-name="Seenluft24" group-title="yerel",Seenluft24 (2)
+https://h056.video-stream-hosting.de/easycast7-live/_definst_/livestreamhd20/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-teltowkanal" tvg-name="teltOwkanal" group-title="yerel",teltOwkanal (1)
+https://h056.video-stream-hosting.de/easycast8-live/_definst_/livestreamhd8/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-teltowkanal" tvg-name="teltOwkanal" group-title="yerel",teltOwkanal (2)
 https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd8/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-noa4-hamburg" tvg-name="noa4 Hamburg" group-title="yerel",noa4 Hamburg (1)
 https://hls1.wtnet.de/noa4hh/apple/wifi6500.m3u8
@@ -980,6 +992,8 @@ https://s.ok54.de/mok-ks/kassel/playlist.m3u8
 https://s.ok54.de/mok-rm/mok-rm/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-ems-tv" tvg-name="Ems TV" group-title="yerel",Ems TV (1)
 https://h058.video-stream-hosting.de/ev1tv-live/_definst_/mp4:stream1.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-ems-tv" tvg-name="Ems TV" group-title="yerel",Ems TV (2)
+https://h058.video-stream-hosting.de/ev1tv-live/_definst_/stream1.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-oldenburg-eins" tvg-name="oldenburg eins" group-title="yerel",oldenburg eins (1)
 https://cdn.oeins.de/index.m3u8
 #EXTINF:-1 tvg-id="tv-radio-21-tv" tvg-name="Radio 21 TV" group-title="yerel",Radio 21 TV (1)
@@ -1034,6 +1048,8 @@ https://sdn-global-live-streaming-packager-cache.3qsdn.com/130321/130321_264_liv
 https://sdn-global-live-streaming-packager-cache-aka.3qsdn.com/130321/130321_264_live.m3u8
 #EXTINF:-1 tvg-id="tv-mytvplus" tvg-name="MyTVplus" group-title="yerel",MyTVplus (1)
 https://h056.video-stream-hosting.de/easycast10-live/_definst_/mp4:livestreamhd82/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-mytvplus" tvg-name="MyTVplus" group-title="yerel",MyTVplus (2)
+https://h056.video-stream-hosting.de/easycast10-live/_definst_/livestreamhd82/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-oberlausitz-tv" tvg-name="Oberlausitz TV" group-title="yerel",Oberlausitz TV (1)
 https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd4/playlist.m3u8?ref=
 #EXTINF:-1 tvg-id="tv-otva" tvg-name="OTVA" group-title="yerel",OTVA (1)
@@ -1052,42 +1068,68 @@ https://dresden.iptv-playoutcenter.de/dresden/dresdenfernsehen.stream_1/playlist
 https://leipzig.iptv-playoutcenter.de/leipzig/leipzigfernsehen.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-blk-regional-tv" tvg-name="BLK Regional TV" group-title="yerel",BLK Regional TV (1)
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:BLKonline_high/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-blk-regional-tv" tvg-name="BLK Regional TV" group-title="yerel",BLK Regional TV (2)
+https://h056.video-stream-hosting.de/medienasa-live/_definst_/BLKonline_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-kulturmd" tvg-name="KulturMD" group-title="yerel",KulturMD (1)
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:kulturmd_high/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-kulturmd" tvg-name="KulturMD" group-title="yerel",KulturMD (2)
+https://h056.video-stream-hosting.de/medienasa-live/_definst_/kulturmd_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-mdf-1" tvg-name="MDF.1" group-title="yerel",MDF.1 (1)
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mdf1_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-mdf-1" tvg-name="MDF.1" group-title="yerel",MDF.1 (2)
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:mdf1_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-ok-dessau" tvg-name="OK Dessau" group-title="yerel",OK Dessau (1)
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:ok-dessau_high/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-ok-dessau" tvg-name="OK Dessau" group-title="yerel",OK Dessau (2)
+https://h056.video-stream-hosting.de/medienasa-live/_definst_/ok-dessau_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-ok-magdeburg" tvg-name="OK Magdeburg" group-title="yerel",OK Magdeburg (1)
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:ok-magdeburg_high/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-ok-magdeburg" tvg-name="OK Magdeburg" group-title="yerel",OK Magdeburg (2)
+https://h056.video-stream-hosting.de/medienasa-live/_definst_/ok-magdeburg_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-ok-merseburg-querfurt" tvg-name="OK Merseburg-Querfurt" group-title="yerel",OK Merseburg-Querfurt (1)
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:ok-merseburg_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-ok-merseburg-querfurt" tvg-name="OK Merseburg-Querfurt" group-title="yerel",OK Merseburg-Querfurt (2)
 https://h056.video-stream-hosting.de/medienasa-live/ok-merseburg_high/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-ok-merseburg-querfurt" tvg-name="OK Merseburg-Querfurt" group-title="yerel",OK Merseburg-Querfurt (3)
+https://h056.video-stream-hosting.de/medienasa-live/_definst_/ok-merseburg_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-ok-salzwedel" tvg-name="OK Salzwedel" group-title="yerel",OK Salzwedel (1)
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:ok-salzwedel_high/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-ok-salzwedel" tvg-name="OK Salzwedel" group-title="yerel",OK Salzwedel (2)
+https://h056.video-stream-hosting.de/medienasa-live/_definst_/ok-salzwedel_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-ok-stendal" tvg-name="OK Stendal" group-title="yerel",OK Stendal (1)
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:ok-stendal_high/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-ok-stendal" tvg-name="OK Stendal" group-title="yerel",OK Stendal (2)
+https://h056.video-stream-hosting.de/medienasa-live/_definst_/ok-stendal_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-ok-wernigerode" tvg-name="OK Wernigerode" group-title="yerel",OK Wernigerode (1)
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:ok-wernigerode_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-ok-wernigerode" tvg-name="OK Wernigerode" group-title="yerel",OK Wernigerode (2)
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/ok-wernigerode_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-punktum-fernsehen" tvg-name="PUNKTum Fernsehen" group-title="yerel",PUNKTum Fernsehen (1)
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:punktum_high/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-punktum-fernsehen" tvg-name="PUNKTum Fernsehen" group-title="yerel",PUNKTum Fernsehen (2)
+https://h056.video-stream-hosting.de/medienasa-live/_definst_/punktum_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-ran1" tvg-name="RAN1" group-title="yerel",RAN1 (1)
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:ran1_high/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-ran1" tvg-name="RAN1" group-title="yerel",RAN1 (2)
+https://h056.video-stream-hosting.de/medienasa-live/_definst_/ran1_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-rbw" tvg-name="RBW" group-title="yerel",RBW (1)
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:rbw_high/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-rbw" tvg-name="RBW" group-title="yerel",RBW (2)
+https://h056.video-stream-hosting.de/medienasa-live/_definst_/rbw_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-rfh-harz" tvg-name="RFH Harz" group-title="yerel",RFH Harz (1)
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:RFH_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-rfh-harz" tvg-name="RFH Harz" group-title="yerel",RFH Harz (2)
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:RFH_high/index.m3u8
+#EXTINF:-1 tvg-id="tv-rfh-harz" tvg-name="RFH Harz" group-title="yerel",RFH Harz (3)
+https://h056.video-stream-hosting.de/medienasa-live/_definst_/RFH_high/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-rfh-harz" tvg-name="RFH Harz" group-title="yerel",RFH Harz (4)
+https://h056.video-stream-hosting.de/medienasa-live/_definst_/RFH_high/index.m3u8
 #EXTINF:-1 tvg-id="tv-wtv-ok-wettin" tvg-name="WTV (OK Wettin)" group-title="yerel",WTV (OK Wettin) (1)
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:ok-wettin_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-wtv-ok-wettin" tvg-name="WTV (OK Wettin)" group-title="yerel",WTV (OK Wettin) (2)
 https://wtvlive.b-cdn.net/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-wtv-ok-wettin" tvg-name="WTV (OK Wettin)" group-title="yerel",WTV (OK Wettin) (3)
+https://h056.video-stream-hosting.de/medienasa-live/_definst_/ok-wettin_high/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-noa4-norderstedt" tvg-name="noa4 Norderstedt" group-title="yerel",noa4 Norderstedt (1)
 https://hls1.wtnet.de/noa4/apple/wifi6500.m3u8
 #EXTINF:-1 tvg-id="tv-noa4-norderstedt" tvg-name="noa4 Norderstedt" group-title="yerel",noa4 Norderstedt (2)
@@ -1102,6 +1144,8 @@ https://live-cdn.oksh.de/play/hls/kieltv/index.m3u8
 https://live.oksh.de/play/hls/kieltv/index.m3u8
 #EXTINF:-1 tvg-id="tv-sylt1" tvg-name="Sylt1" group-title="yerel",Sylt1 (1)
 https://h056.video-stream-hosting.de/easycast9-live/_definst_/mp4:livestream999/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-sylt1" tvg-name="Sylt1" group-title="yerel",Sylt1 (2)
+https://h056.video-stream-hosting.de/easycast9-live/_definst_/livestream999/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-altenburg-tv" tvg-name="Altenburg TV" group-title="yerel",Altenburg TV (1)
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/132661/132661_264_live.m3u8
 #EXTINF:-1 tvg-id="tv-labor14-gera" tvg-name="labor14 Gera" group-title="yerel",labor14 Gera (1)
