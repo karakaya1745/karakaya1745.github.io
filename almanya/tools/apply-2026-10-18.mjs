@@ -614,7 +614,7 @@ const RADIO_REGIONAL = radioRegional([
 
 const RADIO_RELIGIOUS = pinList("radyo religious", ["domradio.de", "ERF Jess", "ERF Plus"]);
 
-const RADIO_NEWS = pinList("radyo news", ["NIUS Radio"]);
+const RADIO_NEWS = pinList("radyo news", ["NIUS Radio", "KONTRAFUNK"]);
 
 const RADIO_THEMED = new Set([
   "Klassik Radio",
