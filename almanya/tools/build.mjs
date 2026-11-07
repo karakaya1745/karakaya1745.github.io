@@ -32,6 +32,7 @@
  *        almanya/sources/onay-2026-11-04.csv (4 Kasım yedekleri, 1-2-3.tv ve Tide TV; MeieTV watch durur)
  *        almanya/sources/onay-2026-11-05.csv (5 Kasım yedekleri ve sekiz yeni kanal; MeieTV ve K-TV flaky durur)
  *        almanya/sources/onay-2026-11-06.csv (6 Kasım yedekleri; MeieTV ve K-TV watch durur)
+ *        almanya/sources/onay-2026-11-07.csv (7 Kasım playoutcenter silme, üç welocal, KONTRAFUNK)
  * Ölü (failed) ve denenmemiş (untested) linkler yayınlanmaz.
  * geo-blocked (403) ve "sadece Almanya" linkler kalır; geo_de_only ile işaretlenir.
  * Katalogda olan URL yeniden eklenmez. Yeni link uydurulmaz.
@@ -59,6 +60,7 @@ import { applyNovember3 } from "./apply-2026-11-03.mjs";
 import { applyNovember4 } from "./apply-2026-11-04.mjs";
 import { applyNovember5 } from "./apply-2026-11-05.mjs";
 import { applyNovember6 } from "./apply-2026-11-06.mjs";
+import { applyNovember7 } from "./apply-2026-11-07.mjs";
 
 const DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SOURCES = path.join(DIR, "sources");
@@ -851,6 +853,7 @@ function loadCatalog() {
   const onay1104 = applyNovember4(channels);
   const onay1105 = applyNovember5(channels);
   const onay1106 = applyNovember6(channels);
+  const onay1107 = applyNovember7(channels);
   const grouped = orderCatalog(channels);
   const previous = readJsonIfExists(path.join(DIR, "channels.json"));
   assignIds(grouped, previous?.channels);
@@ -887,6 +890,7 @@ function loadCatalog() {
     onay1104,
     onay1105,
     onay1106,
+    onay1107,
   };
 }
 
@@ -1145,6 +1149,14 @@ function main() {
       `+${onay1106.addedLinks || 0} link, watch ${onay1106.skippedWatch || 0}, ` +
       `yinelenen ${onay1106.skippedDupes || 0}`,
   );
+  const onay1107 = catalog.onay1107 || {};
+  console.log(
+    `[almanya] onay-2026-11-07: +${onay1107.addedChannels || 0} kanal, ` +
+      `+${onay1107.addedLinks || 0} link, -${onay1107.removedLinks || 0} link`,
+  );
+  if (onay1107.addedChannelNames?.length) {
+    console.log(`[almanya] eklenen kanallar: ${onay1107.addedChannelNames.join(", ")}`);
+  }
   console.log(`[almanya] sha256=${hash}`);
   if (catalog.dropped.length) {
     console.log(`[almanya] canlı linki kalmadığı için çıkarılanlar: ${catalog.dropped.join(", ")}`);

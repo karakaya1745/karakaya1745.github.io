@@ -1,0 +1,13 @@
+kind,channel,url,status,source,notes
+delete,München TV,https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist.m3u8,404 3/3,7 Kasım onayı,tek link; kanal silinmez
+delete,Oberpfalz TV,https://oberpfalztv.iptv-playoutcenter.de/oberpfalztv/oberpfalztv.stream_1/playlist.m3u8,404 3/3,7 Kasım onayı,tek link; kanal silinmez
+delete,TVA Ostbayern,https://tvaktuellr.iptv-playoutcenter.de/tvaktuellr/tvaktuellr.stream_1/playlist.m3u8,404 3/3,7 Kasım onayı,tek link; kanal silinmez
+delete,Augsburg TV,https://augsburgtv.iptv-playoutcenter.de/augsburgtv/augsburgtv.stream_1/playlist.m3u8,404 3/3,7 Kasım onayı,welocal linkler kalır
+delete,Franken Fernsehen,https://frankentv.iptv-playoutcenter.de/frankentv/frankentv.stream_1/chunks.m3u8,404 3/3,7 Kasım onayı,welocal link kalır
+delete,Franken Fernsehen,https://frankentv.iptv-playoutcenter.de/frankentv/frankentv.stream_1/playlist.m3u8,404 3/3,7 Kasım onayı,welocal link kalır
+delete,TV Mainfranken,https://tvtouringw.iptv-playoutcenter.de/tvtouringw/tvtouringw.stream_1/playlist.m3u8,404 3/3,7 Kasım onayı,welocal linkler kalır
+delete,TV Oberfranken,https://tvoberfranken.iptv-playoutcenter.de/tvoberfranken/tvoberfranken.stream_1/playlist.m3u8,404 3/3,7 Kasım onayı,welocal link kalır
+backup,München TV,https://stream02.welocal.stream/stream/fhd-muenchentv_646215/ngrp:stream_all/playlist.m3u8,206 #EXTM3U 1080p,muenchen.tv/livestream-app,resmi yedek
+backup,Oberpfalz TV,https://stream04.welocal.stream/stream/fhd-otv_496277/ngrp:stream_all/playlist.m3u8,206 #EXTM3U 1080p,otv.de/livestream,resmi yedek
+backup,TVA Ostbayern,https://stream02.welocal.stream/stream/fhd-tvaktuell_385673/ngrp:stream_all/playlist.m3u8,206 #EXTM3U,technl/Hanssettings enigma2,resmi yedek
+new_channel,KONTRAFUNK,https://stream.kontrafunk.radio/listen/kontrafunk/radio.mp3,206 audio/mpeg,kodinerds,İsviçre merkezli Almanca ana istasyon

@@ -888,14 +888,8 @@ https://stream02.welocal.stream/stream/fhd-augsburgtv_104951/ngrp:stream_all/chu
 https://stream02.welocal.stream/stream/fhd-augsburgtv_104951/ngrp:stream_all/chunklist_b946000.m3u8
 #EXTINF:-1 tvg-id="tv-augsburg-tv" tvg-name="Augsburg TV" group-title="yerel",Augsburg TV (4)
 https://stream02.welocal.stream/stream/fhd-augsburgtv_104951/ngrp:stream_all/chunklist_b446000.m3u8
-#EXTINF:-1 tvg-id="tv-augsburg-tv" tvg-name="Augsburg TV" group-title="yerel",Augsburg TV (5)
-https://augsburgtv.iptv-playoutcenter.de/augsburgtv/augsburgtv.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-franken-fernsehen" tvg-name="Franken Fernsehen" group-title="yerel",Franken Fernsehen (1)
 https://stream03.welocal.stream/stream/fhd-frankenfernsehen_199261/ngrp:stream_all/playlist.m3u8
-#EXTINF:-1 tvg-id="tv-franken-fernsehen" tvg-name="Franken Fernsehen" group-title="yerel",Franken Fernsehen (2)
-https://frankentv.iptv-playoutcenter.de/frankentv/frankentv.stream_1/chunks.m3u8
-#EXTINF:-1 tvg-id="tv-franken-fernsehen" tvg-name="Franken Fernsehen" group-title="yerel",Franken Fernsehen (3)
-https://frankentv.iptv-playoutcenter.de/frankentv/frankentv.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-franken-plus" tvg-name="Franken Plus" group-title="yerel",Franken Plus (1)
 https://stream01.welocal.stream/stream/fhd-frankenplus_119/ngrp:stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-franken-plus" tvg-name="Franken Plus" group-title="yerel",Franken Plus (2)
@@ -905,7 +899,7 @@ https://stream01.welocal.stream/stream/fhd-frankenplus_119/ngrp:stream_all/chunk
 #EXTINF:-1 tvg-id="tv-franken-plus" tvg-name="Franken Plus" group-title="yerel",Franken Plus (4)
 https://stream01.welocal.stream/stream/fhd-frankenplus_119/ngrp:stream_all/chunklist_b446000.m3u8
 #EXTINF:-1 tvg-id="tv-muenchen-tv" tvg-name="München TV" group-title="yerel",München TV (1)
-https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist.m3u8
+https://stream02.welocal.stream/stream/fhd-muenchentv_646215/ngrp:stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-niederbayern-tv-deggendorf-straubing" tvg-name="Niederbayern TV Deggendorf-Straubing" group-title="yerel",Niederbayern TV Deggendorf-Straubing (1)
 https://stream03.welocal.stream/stream/fhd-nbydeggendorf_99148/ngrp:stream_all/index.m3u8
 #EXTINF:-1 tvg-id="tv-niederbayern-tv-deggendorf-straubing" tvg-name="Niederbayern TV Deggendorf-Straubing" group-title="yerel",Niederbayern TV Deggendorf-Straubing (2)
@@ -939,7 +933,7 @@ https://stream03.welocal.stream/stream/fhd-nbypassau_49171/ngrp:stream_all/chunk
 #EXTINF:-1 tvg-id="tv-niederbayern-tv-satellit" tvg-name="Niederbayern TV Satellit" group-title="yerel",Niederbayern TV Satellit (9)
 https://stream03.welocal.stream/stream/sat-nby/ngrp:sat-nby.stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-oberpfalz-tv" tvg-name="Oberpfalz TV" group-title="yerel",Oberpfalz TV (1)
-https://oberpfalztv.iptv-playoutcenter.de/oberpfalztv/oberpfalztv.stream_1/playlist.m3u8
+https://stream04.welocal.stream/stream/fhd-otv_496277/ngrp:stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-rfo-regional-fernsehen-oberbayern" tvg-name="RFO Regional Fernsehen Oberbayern" group-title="yerel",RFO Regional Fernsehen Oberbayern (1)
 https://stream01.welocal.stream/stream/fhd-rfo_66876/ngrp:stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-rfo-regional-fernsehen-oberbayern" tvg-name="RFO Regional Fernsehen Oberbayern" group-title="yerel",RFO Regional Fernsehen Oberbayern (2)
@@ -956,14 +950,10 @@ https://stream01.welocal.stream/stream/fhd-tvingolstadt_44349/ngrp:stream_all/ch
 https://stream01.welocal.stream/stream/fhd-tvmainfranken_255661/ngrp:stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-tv-mainfranken" tvg-name="TV Mainfranken" group-title="yerel",TV Mainfranken (2)
 https://stream01.welocal.stream/stream/fhd-tvmainfranken_255661/ngrp:stream_all/chunklist_b946000.m3u8
-#EXTINF:-1 tvg-id="tv-tv-mainfranken" tvg-name="TV Mainfranken" group-title="yerel",TV Mainfranken (3)
-https://tvtouringw.iptv-playoutcenter.de/tvtouringw/tvtouringw.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-tv-oberfranken" tvg-name="TV Oberfranken" group-title="yerel",TV Oberfranken (1)
 https://stream02.welocal.stream/stream/fhd-tvo_480355/ngrp:stream_all/playlist.m3u8
-#EXTINF:-1 tvg-id="tv-tv-oberfranken" tvg-name="TV Oberfranken" group-title="yerel",TV Oberfranken (2)
-https://tvoberfranken.iptv-playoutcenter.de/tvoberfranken/tvoberfranken.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-tva-ostbayern" tvg-name="TVA Ostbayern" group-title="yerel",TVA Ostbayern (1)
-https://tvaktuellr.iptv-playoutcenter.de/tvaktuellr/tvaktuellr.stream_1/playlist.m3u8
+https://stream02.welocal.stream/stream/fhd-tvaktuell_385673/ngrp:stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-alex-berlin" tvg-name="ALEX Berlin" group-title="yerel",ALEX Berlin (1)
 https://alex-stream.rosebud-media.de/bounce/alexlivetv50.smil/index.m3u8
 #EXTINF:-1 tvg-id="tv-alex-berlin" tvg-name="ALEX Berlin" group-title="yerel",ALEX Berlin (2)

@@ -1,6 +1,6 @@
 {
-  "_revision": 22,
-  "updatedAt": "2026-11-06T07:18:51.622Z",
+  "_revision": 23,
+  "updatedAt": "2026-11-07T07:24:14.293Z",
   "app": "ZapIt TV",
   "channels": [
     {
@@ -3030,11 +3030,6 @@
           "url": "https://stream02.welocal.stream/stream/fhd-augsburgtv_104951/ngrp:stream_all/chunklist_b446000.m3u8",
           "geo_de_only": false,
           "format": "hls"
-        },
-        {
-          "url": "https://augsburgtv.iptv-playoutcenter.de/augsburgtv/augsburgtv.stream_1/playlist.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
         }
       ]
     },
@@ -3048,16 +3043,6 @@
         {
           "url": "https://stream03.welocal.stream/stream/fhd-frankenfernsehen_199261/ngrp:stream_all/playlist.m3u8",
           "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://frankentv.iptv-playoutcenter.de/frankentv/frankentv.stream_1/chunks.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
-        },
-        {
-          "url": "https://frankentv.iptv-playoutcenter.de/frankentv/frankentv.stream_1/playlist.m3u8",
-          "geo_de_only": true,
           "format": "hls"
         }
       ]
@@ -3096,11 +3081,11 @@
       "name": "München TV",
       "type": "tv",
       "category": "yerel",
-      "geo_de_only": true,
+      "geo_de_only": false,
       "streams": [
         {
-          "url": "https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist.m3u8",
-          "geo_de_only": true,
+          "url": "https://stream02.welocal.stream/stream/fhd-muenchentv_646215/ngrp:stream_all/playlist.m3u8",
+          "geo_de_only": false,
           "format": "hls"
         }
       ]
@@ -3226,11 +3211,11 @@
       "name": "Oberpfalz TV",
       "type": "tv",
       "category": "yerel",
-      "geo_de_only": true,
+      "geo_de_only": false,
       "streams": [
         {
-          "url": "https://oberpfalztv.iptv-playoutcenter.de/oberpfalztv/oberpfalztv.stream_1/playlist.m3u8",
-          "geo_de_only": true,
+          "url": "https://stream04.welocal.stream/stream/fhd-otv_496277/ngrp:stream_all/playlist.m3u8",
+          "geo_de_only": false,
           "format": "hls"
         }
       ]
@@ -3299,11 +3284,6 @@
           "url": "https://stream01.welocal.stream/stream/fhd-tvmainfranken_255661/ngrp:stream_all/chunklist_b946000.m3u8",
           "geo_de_only": false,
           "format": "hls"
-        },
-        {
-          "url": "https://tvtouringw.iptv-playoutcenter.de/tvtouringw/tvtouringw.stream_1/playlist.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
         }
       ]
     },
@@ -3318,11 +3298,6 @@
           "url": "https://stream02.welocal.stream/stream/fhd-tvo_480355/ngrp:stream_all/playlist.m3u8",
           "geo_de_only": false,
           "format": "hls"
-        },
-        {
-          "url": "https://tvoberfranken.iptv-playoutcenter.de/tvoberfranken/tvoberfranken.stream_1/playlist.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
         }
       ]
     },
@@ -3331,11 +3306,11 @@
       "name": "TVA Ostbayern",
       "type": "tv",
       "category": "yerel",
-      "geo_de_only": true,
+      "geo_de_only": false,
       "streams": [
         {
-          "url": "https://tvaktuellr.iptv-playoutcenter.de/tvaktuellr/tvaktuellr.stream_1/playlist.m3u8",
-          "geo_de_only": true,
+          "url": "https://stream02.welocal.stream/stream/fhd-tvaktuell_385673/ngrp:stream_all/playlist.m3u8",
+          "geo_de_only": false,
           "format": "hls"
         }
       ]
@@ -9539,6 +9514,20 @@
           "url": "https://radio.nius.de/live",
           "geo_de_only": false,
           "format": "audio"
+        }
+      ]
+    },
+    {
+      "id": "radio-kontrafunk",
+      "name": "KONTRAFUNK",
+      "type": "radio",
+      "category": "news",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://stream.kontrafunk.radio/listen/kontrafunk/radio.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
         }
       ]
     },
