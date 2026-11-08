@@ -23,7 +23,7 @@ Uygulama önce `metadata.json` indirir. `revision` veya `channels.json` sha256 d
 | --- | --- |
 | `sources/tv.csv`, `sources/tv.m3u` | Ham TV ölçümü. CSV'de ölü (`failed`) satırlar da durur. |
 | `sources/radio.csv`, `sources/radio.m3u` | Ham radyo ölçümü. CSV'de denenmemiş düz `http` satırları da durur. |
-| `sources/onay-2026-10-15.csv` … `onay-2026-11-07.csv` | Onaylanan ekler ve silinecek veya sona alınan linkler. |
+| `sources/onay-2026-10-15.csv` … `onay-2026-11-08.csv` | Onaylanan ekler ve silinecek veya sona alınan linkler. |
 | `sources/catalog-retest-2026-10-18.json` | 18 Ekim yeniden testi (ölü, statik, şüpheli). |
 | `tv.m3u`, `radio.m3u` | Yayımlanan, temizlenmiş listeler. Ölü ve denenmemiş link yoktur. |
 | `channels.json` | Uygulamanın indirdiği katalog. |
@@ -127,6 +127,8 @@ Radyo CSV'sinde aynı istasyon adının altında kardeş yayınlar da `(1)`, `(2
 `sources/onay-2026-11-06.csv` 6 Kasım onayıdır. Yirmi iki mp4'süz kardeş yedek mevcut yerel ve Hope TV kanallarına eklenir. Eski primary ilk sırada kalır. teltOwkanal'ın mevcut linki `geo_de_only` olduğu için çalışan kardeş yedek onun önündedir. Yeni kanal yok. MeieTV watch ve K-TV flaky satırlarına dokunulmaz. `shopping` sonda kalır.
 
 `sources/onay-2026-11-07.csv` 7 Kasım onayıdır. Yedi kanaldaki sekiz `iptv-playoutcenter.de` adresi silinir. München TV, Oberpfalz TV ve TVA Ostbayern welocal yayınla kalır. Augsburg TV, Franken Fernsehen, TV Mainfranken ve TV Oberfranken'in welocal linkleri durur. KONTRAFUNK `news` radyosudur. MeieTV ve K-TV flaky linkine dokunulmaz.
+
+`sources/onay-2026-11-08.csv` 8 Kasım onayıdır. ARD'nin 404 veren kalite varyantları silinir, resmi masterdaki yeni adlar eklenir. ZDF dach yedekleri, ZDF `de/de` ve 3sat'ın alternatif yolu, kanalda başka yayın varken silinir. OK54 Trier adaptif master eklenir. CSV Finest TV ve Radio 21 TV için `olu_link_sil` dese de bu iki kanal ve streamleri korunur. WDR Studio Köln, Anixe +, MeieTV ve K-TV aynen kalır. Yeni kanal yok. `shopping` sonda, son ad iSTUFF.
 
 ## Sıra
 

@@ -1,0 +1,173 @@
+kanal,link,durum,kaynak,tur
+Das Erste,https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master540p1800.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+Das Erste,https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master_960p_1600.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+ZDF,https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/veryhigh/master.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+ZDF,https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/high/master.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+ZDF,https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/med/master.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+ZDF,https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/low/master.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+ZDF,https://zdf-hls-01.akamaized.net/hls/live/2016498/de/de/master.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+3sat,https://zdf-hls-15.akamaized.net/hls/live/2016527/3sat/master.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+Phoenix,https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/veryhigh/master.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+Phoenix,https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/high/master.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+Phoenix,https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/med/master.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+Phoenix,https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/low/master.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+Tagesschau 24,https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master540p1800.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+Tagesschau 24,https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master540p1600.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+Tagesschau 24,https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master_960p_1600.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+Tagesschau 24,https://tagesschau-live.ard-mcdn.de/tagesschau/live/dash/de/manifest.mpd,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+KIKA,https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master-360p-1328.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+KIKA,https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master-720p-3628.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+KIKA,https://kika-live.ard-mcdn.de/kika/live/hls/de/master540p1800.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+KIKA,https://kika-live.ard-mcdn.de/kika/live/hls/de/master540p1600.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+KIKA,https://kika-live.ard-mcdn.de/kika/live/hls/de/master_960p_1600.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+ZDF Neo,https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/veryhigh/master.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+ZDF Neo,https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/high/master.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+ZDF Neo,https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/med/master.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+ZDF Neo,https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/low/master.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+ZDF Info,https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/veryhigh/master.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+ZDF Info,https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/high/master.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+ZDF Info,https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/med/master.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+ZDF Info,https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/low/master.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+ARD Alpha,https://mcdn.br.de/br/fs/ard_alpha/hls/de/master_960p_1600.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+ARD Alpha,https://mcdn.br.de/br/fs/ard_alpha/hls/de/master540p1800.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+ARD Alpha,https://mcdn.br.de/br/fs/ard_alpha/hls/de/master540p1600.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+Bayerisches Fernsehen Nord,https://mcdn.br.de/br/fs/bfs_nord/hls/de/master540p1800.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+Bayerisches Fernsehen Nord,https://mcdn.br.de/br/fs/bfs_nord/hls/de/master540p1600.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+Bayerisches Fernsehen Nord,https://mcdn.br.de/br/fs/bfs_nord/hls/de/master_960p_1600.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+Bayerisches Fernsehen Süd,https://mcdn.br.de/br/fs/bfs_sued/hls/de/master540p1800.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+Bayerisches Fernsehen Süd,https://mcdn.br.de/br/fs/bfs_sued/hls/de/master540p1600.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+Bayerisches Fernsehen Süd,https://mcdn.br.de/br/fs/bfs_sued/hls/de/master_960p_1600.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+HR Fernsehen,https://hr-live.ard-mcdn.de/hr/live/hls/de/master540p1800.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+HR Fernsehen,https://hr-live.ard-mcdn.de/hr/live/hls/de/master540p1600.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+HR Fernsehen,https://hr-live.ard-mcdn.de/hr/live/hls/de/master_960p_1600.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+MDR Fernsehen Sachsen,https://mdr-live.ard-mcdn.de/mdr/live/hls/de/master540p1800.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+MDR Fernsehen Sachsen,https://mdr-live.ard-mcdn.de/mdr/live/hls/de/master540p1600.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+NDR Fernsehen Hamburg,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master-360p-1200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+NDR Fernsehen Hamburg,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master_360.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+NDR Fernsehen Hamburg,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master-1080p-5000.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+NDR Fernsehen Hamburg,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master_1080.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+NDR Fernsehen Hamburg,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master-720p-3200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+NDR Fernsehen Hamburg,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master_720.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+NDR Fernsehen Mecklenburg-Vorpommern,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master-360p-1200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+NDR Fernsehen Mecklenburg-Vorpommern,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master_360.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+NDR Fernsehen Mecklenburg-Vorpommern,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master-1080p-5000.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+NDR Fernsehen Mecklenburg-Vorpommern,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master_1080.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+NDR Fernsehen Mecklenburg-Vorpommern,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master-720p-3200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+NDR Fernsehen Mecklenburg-Vorpommern,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master_720.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+NDR Fernsehen Niedersachsen,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master-360p-1200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+NDR Fernsehen Niedersachsen,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master_360.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+NDR Fernsehen Niedersachsen,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master-1080p-5000.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+NDR Fernsehen Niedersachsen,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master_1080.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+NDR Fernsehen Niedersachsen,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master-720p-3200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+NDR Fernsehen Schleswig-Holstein,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master-360p-1200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+NDR Fernsehen Schleswig-Holstein,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master_360.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+NDR Fernsehen Schleswig-Holstein,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master-1080p-5000.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+NDR Fernsehen Schleswig-Holstein,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master_1080.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+NDR Fernsehen Schleswig-Holstein,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master-720p-3200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+NDR Fernsehen Schleswig-Holstein,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master_720.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+RBB Berlin,https://rbb-hls-berlin.akamaized.net/hls/live/2017824/rbb_berlin/master-360p-1328.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+RBB Berlin,https://rbb-hls-berlin.akamaized.net/hls/live/2017824/rbb_berlin/master-360p-1200.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+SR Fernsehen,https://sr-live.ard-mcdn.de/sr/live/hls/de/master540p1800.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+SR Fernsehen,https://sr-live.ard-mcdn.de/sr/live/hls/de/master540p1600.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Fernsehen Köln,https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master1080p5000.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Fernsehen Köln,https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master720p3200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Fernsehen Köln,https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master540p1800.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Fernsehen Köln,https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master-540p-1600.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Fernsehen Köln,https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master360p1200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Fernsehen Köln,https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master_960p_1600.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Köln,https://wdrlokalzeit.akamaized.net/hls/live/2023550-b/wdrlz_koeln/master.m3u8,"403 (DE IP), Lokalzeit yayın saati dışı olabilir - izle",katalog sağlık testi (Berlin IP),izle
+WDR Studio Aachen,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master360p1200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Aachen,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master-360p-1200.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Aachen,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master540p1800.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Aachen,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master-540p-1600.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Aachen,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master720p3200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Aachen,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master-720p-3200.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Aachen,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master1080p5000.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Aachen,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master-1080p-5000.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Aachen,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master_960p_1600.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Bielefeld,https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master360p1200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Bielefeld,https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master-360p-1200.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Bielefeld,https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master540p1800.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Bielefeld,https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master-540p-1600.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Bielefeld,https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master720p3200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Bielefeld,https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master-720p-3200.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Bielefeld,https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master1080p5000.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Bielefeld,https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master-1080p-5000.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Bielefeld,https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master_960p_1600.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Bonn,https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master360p1200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Bonn,https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master-360p-1200.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Bonn,https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master540p1800.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Bonn,https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master-540p-1600.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Bonn,https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master720p3200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Bonn,https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master-720p-3200.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Bonn,https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master1080p5000.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Bonn,https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master-1080p-5000.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Bonn,https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master_960p_1600.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Dortmund,https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master360p1200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Dortmund,https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master-360p-1200.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Dortmund,https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master540p1800.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Dortmund,https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master-540p-1600.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Dortmund,https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master720p3200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Dortmund,https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master-720p-3200.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Dortmund,https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master1080p5000.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Dortmund,https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master-1080p-5000.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Dortmund,https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master_960p_1600.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Duisburg,https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master360p1200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Duisburg,https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master-360p-1200.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Duisburg,https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master540p1800.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Duisburg,https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master-540p-1600.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Duisburg,https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master720p3200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Duisburg,https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master-720p-3200.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Duisburg,https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master1080p5000.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Duisburg,https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master-1080p-5000.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Duisburg,https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master_960p_1600.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Düsseldorf,https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master360p1200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Düsseldorf,https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master-360p-1200.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Düsseldorf,https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master540p1800.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Düsseldorf,https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master-540p-1600.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Düsseldorf,https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master720p3200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Düsseldorf,https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master-720p-3200.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Düsseldorf,https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master1080p5000.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Düsseldorf,https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master-1080p-5000.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Düsseldorf,https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master_960p_1600.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Essen,https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master360p1200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Essen,https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master-360p-1200.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Essen,https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master540p1800.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Essen,https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master-540p-1600.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Essen,https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master720p3200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Essen,https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master-720p-3200.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Essen,https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master1080p5000.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Essen,https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master-1080p-5000.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Essen,https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master_960p_1600.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Münster,https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master360p1200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Münster,https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master-360p-1200.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Münster,https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master540p1800.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Münster,https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master-540p-1600.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Münster,https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master720p3200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Münster,https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master-720p-3200.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Münster,https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master1080p5000.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Münster,https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master-1080p-5000.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Münster,https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master_960p_1600.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Siegen,https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master360p1200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Siegen,https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master540p1800.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Siegen,https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master-540p-1600.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Siegen,https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master720p3200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Siegen,https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master-720p-3200.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Siegen,https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master1080p5000.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Siegen,https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master-1080p-5000.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Siegen,https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master_960p_1600.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Wuppertal,https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master360p1200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Wuppertal,https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master-360p-1200.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Wuppertal,https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master540p1800.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Wuppertal,https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master-540p-1600.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Wuppertal,https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master720p3200.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Wuppertal,https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master-720p-3200.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Wuppertal,https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master1080p5000.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+WDR Studio Wuppertal,https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master-1080p-5000.m3u8,"200 + #EXTM3U, ARD yeni varyant adı",resmi master.m3u8 içinden,yedek_degistir
+WDR Studio Wuppertal,https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master_960p_1600.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+Welt,https://live2weltcms-lh.akamaihd.net/i/Live2WeltCMS_1@444563/master.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+Finest TV,https://media.finest.tv/hls/live.m3u8,tek link; 2x timeout (Not 24/7 bilinen),katalog sağlık testi (Berlin IP),olu_link_sil
+Anixe +,https://ma.anixa.tv/clips/stream/anixesd/index.m3u8,geo 403 (DE IP’den de 403) - izle,katalog sağlık testi (Berlin IP),izle
+ServusTV Deutschland,https://stv-live.akamaized.net/hls/live/2031012/lingeoSTVDEwebPri/master_3392.m3u8,"404/400 (2x tekrar, DE IP)",katalog sağlık testi (Berlin IP),olu_link_sil
+Radio 21 TV,https://live.creacast.com/radio21/smil:radio21.smil/playlist.m3u8,"tek link 404, alternatif bulunamadı",katalog sağlık testi (Berlin IP),olu_link_sil
+OK54 Trier,https://s.ok54.de/ott/webstream/playlist.m3u8,200 + #EXTM3U adaptif master (360p/720p),iptv-org de.m3u,yeni_yedek

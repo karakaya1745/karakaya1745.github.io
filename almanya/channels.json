@@ -1,6 +1,6 @@
 {
-  "_revision": 23,
-  "updatedAt": "2026-11-07T07:24:14.293Z",
+  "_revision": 24,
+  "updatedAt": "2026-11-08T07:20:04.898Z",
   "app": "ZapIt TV",
   "channels": [
     {
@@ -66,22 +66,12 @@
           "format": "hls"
         },
         {
-          "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master540p1800.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
           "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master540p1600.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
           "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master270p700.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master_960p_1600.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
@@ -120,31 +110,6 @@
           "format": "hls"
         },
         {
-          "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/veryhigh/master.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
-        },
-        {
-          "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/high/master.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
-        },
-        {
-          "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/med/master.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
-        },
-        {
-          "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/low/master.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
-        },
-        {
-          "url": "https://zdf-hls-01.akamaized.net/hls/live/2016498/de/de/master.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
-        },
-        {
           "url": "https://zdf-dash-15.akamaized.net/dash/live/2016508/de/manifest.mpd",
           "geo_de_only": true,
           "format": "dash"
@@ -175,11 +140,6 @@
         },
         {
           "url": "https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/low/master.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
-        },
-        {
-          "url": "https://zdf-hls-15.akamaized.net/hls/live/2016527/3sat/master.m3u8",
           "geo_de_only": true,
           "format": "hls"
         },
@@ -257,26 +217,6 @@
           "format": "hls"
         },
         {
-          "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/veryhigh/master.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
-        },
-        {
-          "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/high/master.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
-        },
-        {
-          "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/med/master.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
-        },
-        {
-          "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/low/master.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
-        },
-        {
           "url": "https://zdf-dash-19.akamaized.net/dash/live/2016512/de/manifest.mpd",
           "geo_de_only": true,
           "format": "dash"
@@ -331,11 +271,6 @@
           "format": "hls"
         },
         {
-          "url": "https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master540p1800.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
           "url": "https://icecast.tagesschau.de/ndr/tagesschau24/live/mp3/128/stream.mp3",
           "geo_de_only": false,
           "format": "mp3"
@@ -356,14 +291,9 @@
           "format": "hls"
         },
         {
-          "url": "https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master_960p_1600.m3u8",
+          "url": "https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master540p1600.m3u8",
           "geo_de_only": false,
           "format": "hls"
-        },
-        {
-          "url": "https://tagesschau-live.ard-mcdn.de/tagesschau/live/dash/de/manifest.mpd",
-          "geo_de_only": false,
-          "format": "dash"
         },
         {
           "url": "https://tagesschau.akamaized.net/hls/live/2020117/tagesschau/tagesschau_3/master.m3u8",
@@ -450,16 +380,6 @@
           "format": "hls"
         },
         {
-          "url": "https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master-360p-1328.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master-720p-3628.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
           "url": "https://kika-live.ard-mcdn.de/kika/live/hls/de/master1080p5000.m3u8",
           "geo_de_only": false,
           "format": "hls"
@@ -470,17 +390,7 @@
           "format": "hls"
         },
         {
-          "url": "https://kika-live.ard-mcdn.de/kika/live/hls/de/master540p1800.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
           "url": "https://kika-live.ard-mcdn.de/kika/live/hls/de/master360p1200.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://kika-live.ard-mcdn.de/kika/live/hls/de/master_960p_1600.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
@@ -488,6 +398,11 @@
           "url": "https://kika-live.ard-mcdn.de/kika/live/dash/de/manifest.mpd",
           "geo_de_only": false,
           "format": "dash"
+        },
+        {
+          "url": "https://kika-live.ard-mcdn.de/kika/live/hls/de/master540p1600.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -515,26 +430,6 @@
         },
         {
           "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/de/low/master.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
-        },
-        {
-          "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/veryhigh/master.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
-        },
-        {
-          "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/high/master.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
-        },
-        {
-          "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/med/master.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
-        },
-        {
-          "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/low/master.m3u8",
           "geo_de_only": true,
           "format": "hls"
         },
@@ -569,26 +464,6 @@
         },
         {
           "url": "https://zdf-hls-17.akamaized.net/hls/live/2016500/de/low/master.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
-        },
-        {
-          "url": "https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/veryhigh/master.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
-        },
-        {
-          "url": "https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/high/master.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
-        },
-        {
-          "url": "https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/med/master.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
-        },
-        {
-          "url": "https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/low/master.m3u8",
           "geo_de_only": true,
           "format": "hls"
         },
@@ -646,16 +521,6 @@
           "format": "hls"
         },
         {
-          "url": "https://mcdn.br.de/br/fs/ard_alpha/hls/de/master_960p_1600.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://mcdn.br.de/br/fs/ard_alpha/hls/de/master540p1800.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
           "url": "https://mcdn.br.de/br/fs/ard_alpha/hls/int/master360p1200.m3u8",
           "geo_de_only": false,
           "format": "hls"
@@ -667,6 +532,11 @@
         },
         {
           "url": "https://mcdn.br.de/br/fs/ard_alpha/hls/int/master1080p5000.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://mcdn.br.de/br/fs/ard_alpha/hls/de/master540p1600.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
@@ -705,12 +575,7 @@
           "format": "hls"
         },
         {
-          "url": "https://mcdn.br.de/br/fs/bfs_nord/hls/de/master540p1800.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://mcdn.br.de/br/fs/bfs_nord/hls/de/master_960p_1600.m3u8",
+          "url": "https://mcdn.br.de/br/fs/bfs_nord/hls/de/master540p1600.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -749,16 +614,6 @@
           "format": "hls"
         },
         {
-          "url": "https://mcdn.br.de/br/fs/bfs_sued/hls/de/master540p1800.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://mcdn.br.de/br/fs/bfs_sued/hls/de/master_960p_1600.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
           "url": "https://mcdn.br.de/br/fs/bfs_sued/hls/int/master360p1200.m3u8",
           "geo_de_only": false,
           "format": "hls"
@@ -770,6 +625,11 @@
         },
         {
           "url": "https://mcdn.br.de/br/fs/bfs_sued/hls/int/master1080p5000.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://mcdn.br.de/br/fs/bfs_sued/hls/de/master540p1600.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
@@ -838,11 +698,6 @@
           "format": "hls"
         },
         {
-          "url": "https://hr-live.ard-mcdn.de/hr/live/hls/de/master540p1800.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
           "url": "https://hr-live.ard-mcdn.de/hr/live/hls/de/master360p1200.m3u8",
           "geo_de_only": false,
           "format": "hls"
@@ -853,7 +708,7 @@
           "format": "dash"
         },
         {
-          "url": "https://hr-live.ard-mcdn.de/hr/live/hls/de/master_960p_1600.m3u8",
+          "url": "https://hr-live.ard-mcdn.de/hr/live/hls/de/master540p1600.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
@@ -869,8 +724,13 @@
       "name": "MDR Fernsehen Sachsen",
       "type": "tv",
       "category": "regional",
-      "geo_de_only": true,
+      "geo_de_only": false,
       "streams": [
+        {
+          "url": "https://mdr-live.ard-mcdn.de/mdr/live/hls/de/master540p1600.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
         {
           "url": "https://mdrtvsnhls.akamaized.net/hls/live/2016928/mdrtvsn/master.m3u8",
           "geo_de_only": true,
@@ -898,11 +758,6 @@
         },
         {
           "url": "https://mdr-live.ard-mcdn.de/mdr/live/hls/de/master720p3200.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
-        },
-        {
-          "url": "https://mdr-live.ard-mcdn.de/mdr/live/hls/de/master540p1800.m3u8",
           "geo_de_only": true,
           "format": "hls"
         },
@@ -989,21 +844,6 @@
           "format": "hls"
         },
         {
-          "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master-360p-1200.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master-1080p-5000.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master-720p-3200.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
           "url": "https://ndrint.akamaized.net/hls/live/2020766/ndr_int/index.m3u8",
           "geo_de_only": false,
           "format": "hls"
@@ -1022,6 +862,21 @@
           "url": "https://ndrint.akamaized.net/hls/live/2020766/ndr_int/master.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master_360.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master_1080.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master_720.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -1038,22 +893,22 @@
           "format": "hls"
         },
         {
-          "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master-360p-1200.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master-1080p-5000.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master-720p-3200.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
           "url": "https://mcdn-ndr.akamaized.net/ndr/hls/ndr_fs/ndr_mv/master_720.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master_360.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master_1080.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master_720.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -1072,22 +927,17 @@
           "format": "hls"
         },
         {
-          "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master-360p-1200.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master-1080p-5000.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master-720p-3200.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
           "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master_720.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master_360.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master_1080.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
@@ -1111,17 +961,17 @@
           "format": "hls"
         },
         {
-          "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master-360p-1200.m3u8",
+          "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master_360.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master-1080p-5000.m3u8",
+          "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master_1080.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master-720p-3200.m3u8",
+          "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master_720.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -1132,8 +982,13 @@
       "name": "RBB Berlin",
       "type": "tv",
       "category": "regional",
-      "geo_de_only": true,
+      "geo_de_only": false,
       "streams": [
+        {
+          "url": "https://rbb-hls-berlin.akamaized.net/hls/live/2017824/rbb_berlin/master-360p-1200.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
         {
           "url": "https://rbb-hls-berlin.akamaized.net/hls/live/2017824/rbb_berlin/master.m3u8",
           "geo_de_only": true,
@@ -1146,11 +1001,6 @@
         },
         {
           "url": "https://rbb-live.ard-mcdn.de/rbb/berlin/hls/de/master.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
-        },
-        {
-          "url": "https://rbb-hls-berlin.akamaized.net/hls/live/2017824/rbb_berlin/master-360p-1328.m3u8",
           "geo_de_only": true,
           "format": "hls"
         },
@@ -1242,6 +1092,11 @@
           "format": "hls"
         },
         {
+          "url": "https://sr-live.ard-mcdn.de/sr/live/hls/de/master540p1600.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
           "url": "https://sr-live.ard-mcdn.de/sr/live/hls/de/master.m3u8",
           "geo_de_only": true,
           "format": "hls"
@@ -1253,11 +1108,6 @@
         },
         {
           "url": "https://sr-live.ard-mcdn.de/sr/live/hls/de/master720p3200.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
-        },
-        {
-          "url": "https://sr-live.ard-mcdn.de/sr/live/hls/de/master540p1800.m3u8",
           "geo_de_only": true,
           "format": "hls"
         },
@@ -1429,27 +1279,7 @@
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master1080p5000.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master720p3200.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master540p1800.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master360p1200.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master_960p_1600.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master-540p-1600.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
@@ -1502,27 +1332,22 @@
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master360p1200.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master-360p-1200.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master540p1800.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master-540p-1600.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master720p3200.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master-720p-3200.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master1080p5000.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master_960p_1600.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master-1080p-5000.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -1551,27 +1376,22 @@
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master360p1200.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master-360p-1200.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master540p1800.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master-540p-1600.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master720p3200.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master-720p-3200.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master1080p5000.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master_960p_1600.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master-1080p-5000.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -1600,27 +1420,22 @@
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master360p1200.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master-360p-1200.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master540p1800.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master-540p-1600.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master720p3200.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master-720p-3200.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master1080p5000.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master_960p_1600.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master-1080p-5000.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -1649,27 +1464,22 @@
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master360p1200.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master-360p-1200.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master540p1800.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master-540p-1600.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master720p3200.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master-720p-3200.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master1080p5000.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master_960p_1600.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master-1080p-5000.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -1698,27 +1508,22 @@
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master360p1200.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master-360p-1200.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master540p1800.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master-540p-1600.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master720p3200.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master-720p-3200.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master1080p5000.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master_960p_1600.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master-1080p-5000.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -1747,27 +1552,22 @@
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master360p1200.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master-360p-1200.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master540p1800.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master-540p-1600.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master720p3200.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master-720p-3200.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master1080p5000.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master_960p_1600.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master-1080p-5000.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -1796,27 +1596,22 @@
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master360p1200.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master-360p-1200.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master540p1800.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master-540p-1600.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master720p3200.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master-720p-3200.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master1080p5000.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master_960p_1600.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master-1080p-5000.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -1845,27 +1640,22 @@
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master360p1200.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master-360p-1200.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master540p1800.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master-540p-1600.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master720p3200.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master-720p-3200.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master1080p5000.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master_960p_1600.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master-1080p-5000.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -1894,27 +1684,17 @@
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master360p1200.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master-540p-1600.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master540p1800.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master-720p-3200.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master720p3200.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master1080p5000.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master_960p_1600.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master-1080p-5000.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -1943,27 +1723,22 @@
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master360p1200.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master-360p-1200.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master540p1800.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master-540p-1600.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master720p3200.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master-720p-3200.m3u8",
           "geo_de_only": false,
           "format": "hls"
         },
         {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master1080p5000.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master_960p_1600.m3u8",
+          "url": "https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master-1080p-5000.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -2145,11 +1920,6 @@
       "streams": [
         {
           "url": "https://w-live2weltcms.akamaized.net/hls/live/2041019/Welt-LivePGM/index.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
-        },
-        {
-          "url": "https://live2weltcms-lh.akamaihd.net/i/Live2WeltCMS_1@444563/master.m3u8",
           "geo_de_only": true,
           "format": "hls"
         },
@@ -2874,11 +2644,6 @@
       "category": "other",
       "geo_de_only": true,
       "streams": [
-        {
-          "url": "https://stv-live.akamaized.net/hls/live/2031012/lingeoSTVDEwebPri/master_3392.m3u8",
-          "geo_de_only": true,
-          "format": "hls"
-        },
         {
           "url": "https://stv-live.akamaized.net/hls/live/2031020/lingeoSTVDEwebBU/master.m3u8",
           "geo_de_only": true,
@@ -3661,8 +3426,13 @@
       "name": "OK54 Trier",
       "type": "tv",
       "category": "yerel",
-      "geo_de_only": true,
+      "geo_de_only": false,
       "streams": [
+        {
+          "url": "https://s.ok54.de/ott/webstream/playlist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
         {
           "url": "https://s.ok54.de/ott/webstream/tv/webstream_720p/playlist.m3u8",
           "geo_de_only": true,
