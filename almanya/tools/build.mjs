@@ -1165,8 +1165,8 @@ function main() {
   console.log(
     `[almanya] onay-2026-11-08: +${onay1108.addedLinks || 0} link, ` +
       `-${onay1108.removedLinks || 0} link, korunan ${onay1108.skippedProtect || 0}, ` +
-      `izle ${onay1108.skippedIzle || 0}, yinelenen ${onay1108.skippedDupes || 0}, ` +
-      `boş atlanan ${onay1108.skippedSole || 0}`,
+      `izle ${onay1108.skippedIzle || 0}, canlı eski ${onay1108.keptLive || 0}, ` +
+      `belirsiz eski ${onay1108.keptAmbiguous || 0}, elenen yeni ${onay1108.skippedNew || 0}`,
   );
   console.log(`[almanya] sha256=${hash}`);
   if (catalog.dropped.length) {

@@ -24,6 +24,7 @@ const SAT_ALT = "https://zdf-hls-15.akamaized.net/hls/live/2016527/3sat/master.m
 const OK54 = "https://s.ok54.de/ott/webstream/playlist.m3u8";
 const KIKA_DASH = "https://kikadash.akamaized.net/dash/live/2022692/livetvkika_ww/manifest.mpd";
 const WDR_WORLD = "https://wdrfsww247.akamaized.net/dash/live/2016703/wdrfs247_weltweit/dash.mpd";
+const RETEST = path.join(SOURCES, "onay-2026-11-08-retest.json");
 
 function parseCsv(text) {
   const rows = [];
@@ -120,6 +121,13 @@ export function applyNovember8(channels) {
   const rows = parseCsv(fs.readFileSync(path.join(SOURCES, "onay-2026-11-08.csv"), "utf8"));
   if (rows.length !== 172) throw new Error(`8 Kasım satır sayısı ${rows.length}`);
 
+  const retestDoc = JSON.parse(fs.readFileSync(RETEST, "utf8"));
+  const verdictOf = new Map();
+  for (const item of retestDoc.results) {
+    if (item.role === "master") continue;
+    verdictOf.set(`${item.role}\t${item.url}`, item.verdict);
+  }
+
   const urls = new Set();
   for (const channel of channels) {
     for (const stream of channel.streams) {
@@ -143,6 +151,9 @@ export function applyNovember8(channels) {
     skippedIzle: 0,
     skippedSole: 0,
     skippedDupes: 0,
+    keptLive: 0,
+    keptAmbiguous: 0,
+    skippedNew: 0,
     removedNondach: [],
   };
 
@@ -168,7 +179,12 @@ export function applyNovember8(channels) {
     if (!/^https:\/\/\S+$/.test(url)) throw new Error(`geçersiz URL: ${url}`);
     const bad = forbiddenLeaves(url);
     if (bad.length) throw new Error(`yasak parametre: ${bad.join(",")} ${url}`);
-    if (!String(row.durum).trim().toLowerCase().startsWith("200")) throw new Error(`yedek çalışmıyor: ${row.kanal}`);
+    const verdict = verdictOf.get(`added\t${url}`);
+    if (!verdict) throw new Error(`yeniden test yok: ${url}`);
+    if (verdict !== "live") {
+      stats.skippedNew += 1;
+      continue;
+    }
     if (urls.has(url)) {
       stats.skippedDupes += 1;
       continue;
@@ -182,6 +198,16 @@ export function applyNovember8(channels) {
     const channel = byName.get(row.kanal);
     const hits = channel.streams.filter((stream) => stream.url === row.link);
     if (hits.length !== 1) throw new Error(`${row.kanal} silinecek URL ${hits.length} kez: ${row.link}`);
+    const verdict = verdictOf.get(`removed\t${row.link}`);
+    if (!verdict) throw new Error(`yeniden test yok: ${row.link}`);
+    if (verdict === "live") {
+      stats.keptLive += 1;
+      continue;
+    }
+    if (verdict !== "dead") {
+      stats.keptAmbiguous += 1;
+      continue;
+    }
     if (channel.streams.length === 1) {
       stats.skippedSole += 1;
       continue;
@@ -212,11 +238,10 @@ export function applyNovember8(channels) {
   }
   must(byName.get("Finest TV").streams.some((stream) => stream.url === FINEST), "Finest TV silindi");
   must(byName.get("Radio 21 TV").streams.some((stream) => stream.url === RADIO21), "Radio 21 TV silindi");
-  must(!urls.has(ZDF_DE) && byName.get("ZDF").streams.length > 1, "ZDF de/de kararı bozuk");
-  must(!urls.has(SAT_ALT) && byName.get("3sat").streams.length > 1, "3sat alternatif kararı bozuk");
+  must(urls.has(ZDF_DE) && byName.get("ZDF").streams.length > 1, "ZDF de/de belirsizken silindi");
+  must(urls.has(SAT_ALT) && byName.get("3sat").streams.length > 1, "3sat alternatif belirsizken silindi");
   const ok54 = byName.get("OK54 Trier");
-  must(ok54.streams[0].url === OK54 && !ok54.streams[0].geo_de_only, "OK54 master önde değil");
-  must(ok54.streams.slice(1).every((stream) => stream.geo_de_only), "OK54 eski geo linkleri durmuyor");
+  must(!ok54.streams.some((stream) => stream.url === OK54), "403 OK54 yedeği eklendi");
   const kika = byName.get("KIKA");
   must(kika.streams[1].url === KIKA_DASH && !kika.streams[1].geo_de_only, "KIKA dünya DASH yerinde değil");
   const wdr = byName.get("WDR Fernsehen Köln");
@@ -239,14 +264,17 @@ export function applyNovember8(channels) {
   if (tv !== 167 || radio !== 168 || channels.length !== 335) {
     throw new Error(`kanal sayısı tv=${tv} radyo=${radio}`);
   }
-  if (stats.addedChannels !== 0 || stats.addedLinks !== 61 || stats.removedLinks !== 107) {
+  if (stats.addedChannels !== 0 || stats.addedLinks !== 57 || stats.removedLinks !== 0) {
     throw new Error(`sayılar +${stats.addedLinks} -${stats.removedLinks} yinelenen ${stats.skippedDupes}`);
   }
   if (stats.skippedProtect !== 2 || stats.skippedIzle !== 2 || stats.skippedSole !== 0 || stats.skippedDupes !== 0) {
     throw new Error(`korunan ${stats.skippedProtect} izle ${stats.skippedIzle} boş ${stats.skippedSole}`);
   }
-  if (stats.removedNondach.join("|") !== "ZDF|3sat") throw new Error(`non-dach ${stats.removedNondach.join(",")}`);
-  if (allUrls.length !== 1412) throw new Error(`link sayısı ${allUrls.length}`);
+  if (stats.keptLive !== 84 || stats.keptAmbiguous !== 23 || stats.skippedNew !== 4) {
+    throw new Error(`canlı eski ${stats.keptLive} belirsiz eski ${stats.keptAmbiguous} elenen yeni ${stats.skippedNew}`);
+  }
+  if (stats.removedNondach.length !== 0) throw new Error(`non-dach silindi: ${stats.removedNondach.join(",")}`);
+  if (allUrls.length !== 1515) throw new Error(`link sayısı ${allUrls.length}`);
   if (allUrls.includes(FINEST) === false || allUrls.includes(RADIO21) === false) {
     throw new Error("korunan izle URL'si düştü");
   }

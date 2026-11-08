@@ -1,0 +1,1710 @@
+{
+  "summary": {
+    "note": "Direct GET from the rev 24 agent environment. live=200/206 with #EXTM3U. dead=400/404/410. ambiguous=403/timeout/other. Deletions that are live or ambiguous are not applied. Additions that are not live are not applied.",
+    "removed": {
+      "ambiguous": 23,
+      "live": 84
+    },
+    "added": {
+      "live": 57,
+      "ambiguous": 4
+    },
+    "master": {
+      "live": 9
+    }
+  },
+  "masters": [
+    {
+      "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8",
+      "status": 200,
+      "variants": [
+        "master360p1200.m3u8",
+        "master1080p5000.m3u8",
+        "master720p3200.m3u8",
+        "master540p1600.m3u8",
+        "master270p700.m3u8"
+      ]
+    },
+    {
+      "url": "https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master.m3u8",
+      "status": 200,
+      "variants": [
+        "master-360p-1328.m3u8",
+        "master-720p-3328.m3u8",
+        "master-540p-1728.m3u8",
+        "master-270p-828.m3u8"
+      ]
+    },
+    {
+      "url": "https://kika-live.ard-mcdn.de/kika/live/hls/de/master.m3u8",
+      "status": 200,
+      "variants": [
+        "master-360p-1200.m3u8",
+        "master-1080p-5000.m3u8",
+        "master-720p-3200.m3u8",
+        "master-540p-1600.m3u8"
+      ]
+    },
+    {
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master.m3u8",
+      "status": 200,
+      "variants": [
+        "master-360p-1200.m3u8",
+        "master-1080p-5000.m3u8",
+        "master-720p-3200.m3u8",
+        "master-540p-1600.m3u8",
+        "master-270p-700.m3u8"
+      ]
+    },
+    {
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master.m3u8",
+      "status": 200,
+      "variants": [
+        "master-360p-1200.m3u8",
+        "master-1080p-5000.m3u8",
+        "master-720p-3200.m3u8",
+        "master-540p-1600.m3u8",
+        "master-270p-700.m3u8"
+      ]
+    },
+    {
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master.m3u8",
+      "status": 200,
+      "variants": [
+        "master-360p-1200.m3u8",
+        "master-1080p-5000.m3u8",
+        "master-720p-3200.m3u8",
+        "master-540p-1600.m3u8",
+        "master-270p-700.m3u8"
+      ]
+    },
+    {
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master.m3u8",
+      "status": 200,
+      "variants": [
+        "master-360p-1200.m3u8",
+        "master-1080p-5000.m3u8",
+        "master-720p-3200.m3u8",
+        "master-540p-1600.m3u8",
+        "master-270p-700.m3u8"
+      ]
+    },
+    {
+      "url": "https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master.m3u8",
+      "status": 200,
+      "variants": [
+        "master-360p-1200.m3u8",
+        "master-1080p-5000.m3u8",
+        "master-720p-3200.m3u8",
+        "master-540p-1600.m3u8",
+        "master-270p-700.m3u8"
+      ]
+    },
+    {
+      "url": "https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master.m3u8",
+      "status": 200,
+      "variants": [
+        "master-360p-1200.m3u8",
+        "master-1080p-5000.m3u8",
+        "master-720p-3200.m3u8",
+        "master-540p-1600.m3u8",
+        "master-270p-700.m3u8"
+      ]
+    }
+  ],
+  "results": [
+    {
+      "role": "removed",
+      "channel": "Phoenix",
+      "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/veryhigh/master.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 776
+    },
+    {
+      "role": "removed",
+      "channel": "ZDF",
+      "url": "https://zdf-hls-01.akamaized.net/hls/live/2016498/de/de/master.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 804
+    },
+    {
+      "role": "removed",
+      "channel": "ZDF",
+      "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/low/master.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 817
+    },
+    {
+      "role": "removed",
+      "channel": "ZDF",
+      "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/med/master.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 824
+    },
+    {
+      "role": "removed",
+      "channel": "ZDF",
+      "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/high/master.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 851
+    },
+    {
+      "role": "removed",
+      "channel": "Phoenix",
+      "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/low/master.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 831
+    },
+    {
+      "role": "removed",
+      "channel": "Phoenix",
+      "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/med/master.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 863
+    },
+    {
+      "role": "removed",
+      "channel": "Phoenix",
+      "url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/high/master.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 865
+    },
+    {
+      "role": "removed",
+      "channel": "ZDF",
+      "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/veryhigh/master.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 888
+    },
+    {
+      "role": "removed",
+      "channel": "3sat",
+      "url": "https://zdf-hls-15.akamaized.net/hls/live/2016527/3sat/master.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 900
+    },
+    {
+      "role": "removed",
+      "channel": "ZDF Neo",
+      "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/veryhigh/master.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 497
+    },
+    {
+      "role": "removed",
+      "channel": "ZDF Neo",
+      "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/med/master.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 474
+    },
+    {
+      "role": "removed",
+      "channel": "ZDF Neo",
+      "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/high/master.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 478
+    },
+    {
+      "role": "removed",
+      "channel": "ZDF Neo",
+      "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/low/master.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 472
+    },
+    {
+      "role": "removed",
+      "channel": "Das Erste",
+      "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master_960p_1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 1360
+    },
+    {
+      "role": "removed",
+      "channel": "ZDF Info",
+      "url": "https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/veryhigh/master.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 503
+    },
+    {
+      "role": "removed",
+      "channel": "ZDF Info",
+      "url": "https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/high/master.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 500
+    },
+    {
+      "role": "removed",
+      "channel": "ZDF Info",
+      "url": "https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/med/master.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 484
+    },
+    {
+      "role": "removed",
+      "channel": "Tagesschau 24",
+      "url": "https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master540p1800.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 1409
+    },
+    {
+      "role": "removed",
+      "channel": "Tagesschau 24",
+      "url": "https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master_960p_1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 1405
+    },
+    {
+      "role": "removed",
+      "channel": "Tagesschau 24",
+      "url": "https://tagesschau-live.ard-mcdn.de/tagesschau/live/dash/de/manifest.mpd",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 1404
+    },
+    {
+      "role": "removed",
+      "channel": "KIKA",
+      "url": "https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master-360p-1328.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 1405
+    },
+    {
+      "role": "removed",
+      "channel": "Das Erste",
+      "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master540p1800.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 1512
+    },
+    {
+      "role": "removed",
+      "channel": "KIKA",
+      "url": "https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master-720p-3628.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 970
+    },
+    {
+      "role": "removed",
+      "channel": "ZDF Info",
+      "url": "https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/low/master.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 477
+    },
+    {
+      "role": "removed",
+      "channel": "KIKA",
+      "url": "https://kika-live.ard-mcdn.de/kika/live/hls/de/master_960p_1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 1064
+    },
+    {
+      "role": "removed",
+      "channel": "KIKA",
+      "url": "https://kika-live.ard-mcdn.de/kika/live/hls/de/master540p1800.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 1088
+    },
+    {
+      "role": "removed",
+      "channel": "MDR Fernsehen Sachsen",
+      "url": "https://mdr-live.ard-mcdn.de/mdr/live/hls/de/master540p1800.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 468
+    },
+    {
+      "role": "removed",
+      "channel": "Bayerisches Fernsehen Süd",
+      "url": "https://mcdn.br.de/br/fs/bfs_sued/hls/de/master540p1800.m3u8",
+      "status": 206,
+      "verdict": "live",
+      "detail": "206 playlist",
+      "ms": 919
+    },
+    {
+      "role": "removed",
+      "channel": "Bayerisches Fernsehen Nord",
+      "url": "https://mcdn.br.de/br/fs/bfs_nord/hls/de/master_960p_1600.m3u8",
+      "status": 206,
+      "verdict": "live",
+      "detail": "206 playlist",
+      "ms": 948
+    },
+    {
+      "role": "removed",
+      "channel": "Bayerisches Fernsehen Süd",
+      "url": "https://mcdn.br.de/br/fs/bfs_sued/hls/de/master_960p_1600.m3u8",
+      "status": 206,
+      "verdict": "live",
+      "detail": "206 playlist",
+      "ms": 920
+    },
+    {
+      "role": "removed",
+      "channel": "Bayerisches Fernsehen Nord",
+      "url": "https://mcdn.br.de/br/fs/bfs_nord/hls/de/master540p1800.m3u8",
+      "status": 206,
+      "verdict": "live",
+      "detail": "206 playlist",
+      "ms": 953
+    },
+    {
+      "role": "removed",
+      "channel": "ARD Alpha",
+      "url": "https://mcdn.br.de/br/fs/ard_alpha/hls/de/master540p1800.m3u8",
+      "status": 206,
+      "verdict": "live",
+      "detail": "206 playlist",
+      "ms": 983
+    },
+    {
+      "role": "removed",
+      "channel": "ARD Alpha",
+      "url": "https://mcdn.br.de/br/fs/ard_alpha/hls/de/master_960p_1600.m3u8",
+      "status": 206,
+      "verdict": "live",
+      "detail": "206 playlist",
+      "ms": 986
+    },
+    {
+      "role": "removed",
+      "channel": "NDR Fernsehen Hamburg",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master-1080p-5000.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 1067
+    },
+    {
+      "role": "removed",
+      "channel": "NDR Fernsehen Hamburg",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master-720p-3200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 1005
+    },
+    {
+      "role": "removed",
+      "channel": "NDR Fernsehen Hamburg",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master-360p-1200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 1074
+    },
+    {
+      "role": "removed",
+      "channel": "HR Fernsehen",
+      "url": "https://hr-live.ard-mcdn.de/hr/live/hls/de/master_960p_1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 1182
+    },
+    {
+      "role": "removed",
+      "channel": "HR Fernsehen",
+      "url": "https://hr-live.ard-mcdn.de/hr/live/hls/de/master540p1800.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 1225
+    },
+    {
+      "role": "removed",
+      "channel": "SR Fernsehen",
+      "url": "https://sr-live.ard-mcdn.de/sr/live/hls/de/master540p1800.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 457
+    },
+    {
+      "role": "removed",
+      "channel": "NDR Fernsehen Mecklenburg-Vorpommern",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master-1080p-5000.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 976
+    },
+    {
+      "role": "removed",
+      "channel": "NDR Fernsehen Mecklenburg-Vorpommern",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master-360p-1200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 1045
+    },
+    {
+      "role": "removed",
+      "channel": "RBB Berlin",
+      "url": "https://rbb-hls-berlin.akamaized.net/hls/live/2017824/rbb_berlin/master-360p-1328.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 504
+    },
+    {
+      "role": "removed",
+      "channel": "NDR Fernsehen Niedersachsen",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master-1080p-5000.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 1049
+    },
+    {
+      "role": "removed",
+      "channel": "NDR Fernsehen Niedersachsen",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master-360p-1200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 1061
+    },
+    {
+      "role": "removed",
+      "channel": "NDR Fernsehen Mecklenburg-Vorpommern",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master-720p-3200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 1086
+    },
+    {
+      "role": "removed",
+      "channel": "NDR Fernsehen Schleswig-Holstein",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master-360p-1200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 1014
+    },
+    {
+      "role": "removed",
+      "channel": "NDR Fernsehen Niedersachsen",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master-720p-3200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 1038
+    },
+    {
+      "role": "removed",
+      "channel": "NDR Fernsehen Schleswig-Holstein",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master-1080p-5000.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 1046
+    },
+    {
+      "role": "removed",
+      "channel": "NDR Fernsehen Schleswig-Holstein",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master-720p-3200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 1051
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Fernsehen Köln",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master1080p5000.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 896
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Fernsehen Köln",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master540p1800.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 895
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Fernsehen Köln",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master720p3200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 896
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Fernsehen Köln",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master_960p_1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 965
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Aachen",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master720p3200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 792
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Fernsehen Köln",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master360p1200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 993
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Aachen",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master540p1800.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 840
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Aachen",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master360p1200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 847
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Aachen",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master1080p5000.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 826
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Bielefeld",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master360p1200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 785
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Aachen",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master_960p_1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 796
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Bielefeld",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master540p1800.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 798
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Bielefeld",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master720p3200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 798
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Bielefeld",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master1080p5000.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 791
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Bielefeld",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master_960p_1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 783
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Bonn",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master360p1200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 779
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Bonn",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master540p1800.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 784
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Bonn",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master1080p5000.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 784
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Bonn",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master720p3200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 791
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Dortmund",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master1080p5000.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 792
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Dortmund",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master360p1200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 813
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Bonn",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master_960p_1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 827
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Dortmund",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master540p1800.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 815
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Dortmund",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master720p3200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 814
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Dortmund",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master_960p_1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 788
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Duisburg",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master360p1200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 777
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Duisburg",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master540p1800.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 784
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Duisburg",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master720p3200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 907
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Duisburg",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master1080p5000.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 781
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Düsseldorf",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master360p1200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 773
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Duisburg",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master_960p_1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 782
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Düsseldorf",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master540p1800.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 786
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Düsseldorf",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master1080p5000.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 772
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Düsseldorf",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master720p3200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 777
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Düsseldorf",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master_960p_1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 784
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Essen",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master360p1200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 778
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Essen",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master720p3200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 777
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Essen",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master540p1800.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 790
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Essen",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master_960p_1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 774
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Münster",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master360p1200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 775
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Essen",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master1080p5000.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 790
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Münster",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master540p1800.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 774
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Münster",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master720p3200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 789
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Münster",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master1080p5000.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 813
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Münster",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master_960p_1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 775
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Siegen",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master540p1800.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 778
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Siegen",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master360p1200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 793
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Siegen",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master720p3200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 782
+    },
+    {
+      "role": "removed",
+      "channel": "ServusTV Deutschland",
+      "url": "https://stv-live.akamaized.net/hls/live/2031012/lingeoSTVDEwebPri/master_3392.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 497
+    },
+    {
+      "role": "removed",
+      "channel": "Welt",
+      "url": "https://live2weltcms-lh.akamaihd.net/i/Live2WeltCMS_1@444563/master.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 525
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Siegen",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master_960p_1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 775
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Siegen",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master1080p5000.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 792
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Wuppertal",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master360p1200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 788
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Wuppertal",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master540p1800.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 775
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Wuppertal",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master720p3200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 771
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Wuppertal",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master1080p5000.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 783
+    },
+    {
+      "role": "removed",
+      "channel": "WDR Studio Wuppertal",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master_960p_1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 788
+    },
+    {
+      "role": "added",
+      "channel": "Tagesschau 24",
+      "url": "https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master540p1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 920
+    },
+    {
+      "role": "added",
+      "channel": "KIKA",
+      "url": "https://kika-live.ard-mcdn.de/kika/live/hls/de/master540p1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 897
+    },
+    {
+      "role": "added",
+      "channel": "ARD Alpha",
+      "url": "https://mcdn.br.de/br/fs/ard_alpha/hls/de/master540p1600.m3u8",
+      "status": 206,
+      "verdict": "live",
+      "detail": "206 playlist",
+      "ms": 764
+    },
+    {
+      "role": "added",
+      "channel": "MDR Fernsehen Sachsen",
+      "url": "https://mdr-live.ard-mcdn.de/mdr/live/hls/de/master540p1600.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 580
+    },
+    {
+      "role": "added",
+      "channel": "Bayerisches Fernsehen Nord",
+      "url": "https://mcdn.br.de/br/fs/bfs_nord/hls/de/master540p1600.m3u8",
+      "status": 206,
+      "verdict": "live",
+      "detail": "206 playlist",
+      "ms": 807
+    },
+    {
+      "role": "added",
+      "channel": "Bayerisches Fernsehen Süd",
+      "url": "https://mcdn.br.de/br/fs/bfs_sued/hls/de/master540p1600.m3u8",
+      "status": 206,
+      "verdict": "live",
+      "detail": "206 playlist",
+      "ms": 788
+    },
+    {
+      "role": "added",
+      "channel": "SR Fernsehen",
+      "url": "https://sr-live.ard-mcdn.de/sr/live/hls/de/master540p1600.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 407
+    },
+    {
+      "role": "added",
+      "channel": "RBB Berlin",
+      "url": "https://rbb-hls-berlin.akamaized.net/hls/live/2017824/rbb_berlin/master-360p-1200.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 479
+    },
+    {
+      "role": "added",
+      "channel": "NDR Fernsehen Hamburg",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master_720.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 994
+    },
+    {
+      "role": "added",
+      "channel": "NDR Fernsehen Hamburg",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master_360.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 1026
+    },
+    {
+      "role": "added",
+      "channel": "NDR Fernsehen Mecklenburg-Vorpommern",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master_360.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 983
+    },
+    {
+      "role": "added",
+      "channel": "NDR Fernsehen Mecklenburg-Vorpommern",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master_1080.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 969
+    },
+    {
+      "role": "added",
+      "channel": "NDR Fernsehen Hamburg",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master_1080.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 1014
+    },
+    {
+      "role": "added",
+      "channel": "HR Fernsehen",
+      "url": "https://hr-live.ard-mcdn.de/hr/live/hls/de/master540p1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 1064
+    },
+    {
+      "role": "added",
+      "channel": "NDR Fernsehen Mecklenburg-Vorpommern",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master_720.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 943
+    },
+    {
+      "role": "added",
+      "channel": "NDR Fernsehen Niedersachsen",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master_360.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 951
+    },
+    {
+      "role": "added",
+      "channel": "NDR Fernsehen Schleswig-Holstein",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master_360.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 960
+    },
+    {
+      "role": "added",
+      "channel": "NDR Fernsehen Niedersachsen",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master_1080.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 974
+    },
+    {
+      "role": "added",
+      "channel": "NDR Fernsehen Schleswig-Holstein",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master_1080.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 930
+    },
+    {
+      "role": "added",
+      "channel": "NDR Fernsehen Schleswig-Holstein",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master_720.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 977
+    },
+    {
+      "role": "added",
+      "channel": "WDR Fernsehen Köln",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master-540p-1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 805
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Aachen",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master-360p-1200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 807
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Aachen",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master-540p-1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 821
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Aachen",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master-720p-3200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 784
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Bielefeld",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master-540p-1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 775
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Bielefeld",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master-360p-1200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 781
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Bielefeld",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master-720p-3200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 780
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Aachen",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master-1080p-5000.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 789
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Bielefeld",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master-1080p-5000.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 786
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Bonn",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master-360p-1200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 782
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Bonn",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master-540p-1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 768
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Bonn",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master-720p-3200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 782
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Bonn",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master-1080p-5000.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 780
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Dortmund",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master-360p-1200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 772
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Dortmund",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master-540p-1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 786
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Dortmund",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master-720p-3200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 787
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Dortmund",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master-1080p-5000.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 776
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Duisburg",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master-360p-1200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 781
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Duisburg",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master-540p-1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 774
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Duisburg",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master-720p-3200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 780
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Duisburg",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master-1080p-5000.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 783
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Düsseldorf",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master-1080p-5000.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 771
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Düsseldorf",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master-540p-1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 785
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Düsseldorf",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master-360p-1200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 790
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Düsseldorf",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master-720p-3200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 785
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Essen",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master-360p-1200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 782
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Essen",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master-720p-3200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 788
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Essen",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master-540p-1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 812
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Essen",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master-1080p-5000.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 786
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Münster",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master-360p-1200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 788
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Münster",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master-540p-1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 791
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Münster",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master-720p-3200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 782
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Münster",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master-1080p-5000.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 786
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Siegen",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master-540p-1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 787
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Siegen",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master-720p-3200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 783
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Siegen",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master-1080p-5000.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 782
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Wuppertal",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master-540p-1600.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 779
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Wuppertal",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master-1080p-5000.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 780
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Wuppertal",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master-360p-1200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 795
+    },
+    {
+      "role": "added",
+      "channel": "WDR Studio Wuppertal",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master-720p-3200.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 788
+    },
+    {
+      "role": "added",
+      "channel": "OK54 Trier",
+      "url": "https://s.ok54.de/ott/webstream/playlist.m3u8",
+      "status": 403,
+      "verdict": "ambiguous",
+      "detail": "403",
+      "ms": 864
+    },
+    {
+      "role": "master",
+      "channel": "MASTER",
+      "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8",
+      "status": 206,
+      "verdict": "live",
+      "detail": "206 playlist",
+      "ms": 1045
+    },
+    {
+      "role": "master",
+      "channel": "MASTER",
+      "url": "https://kika-live.ard-mcdn.de/kika/live/hls/de/master.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 892
+    },
+    {
+      "role": "master",
+      "channel": "MASTER",
+      "url": "https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 951
+    },
+    {
+      "role": "master",
+      "channel": "MASTER",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 974
+    },
+    {
+      "role": "master",
+      "channel": "MASTER",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 971
+    },
+    {
+      "role": "master",
+      "channel": "MASTER",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 804
+    },
+    {
+      "role": "master",
+      "channel": "MASTER",
+      "url": "https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 815
+    },
+    {
+      "role": "master",
+      "channel": "MASTER",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 959
+    },
+    {
+      "role": "master",
+      "channel": "MASTER",
+      "url": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master.m3u8",
+      "status": 200,
+      "verdict": "live",
+      "detail": "200 playlist",
+      "ms": 981
+    }
+  ]
+}
