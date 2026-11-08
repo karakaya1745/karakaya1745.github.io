@@ -33,6 +33,7 @@
  *        almanya/sources/onay-2026-11-05.csv (5 Kasım yedekleri ve sekiz yeni kanal; MeieTV ve K-TV flaky durur)
  *        almanya/sources/onay-2026-11-06.csv (6 Kasım yedekleri; MeieTV ve K-TV watch durur)
  *        almanya/sources/onay-2026-11-07.csv (7 Kasım playoutcenter silme, üç welocal, KONTRAFUNK)
+ *        almanya/sources/onay-2026-11-08.csv (8 Kasım ARD varyantları; Finest TV ve Radio 21 TV korunur)
  * Ölü (failed) ve denenmemiş (untested) linkler yayınlanmaz.
  * geo-blocked (403) ve "sadece Almanya" linkler kalır; geo_de_only ile işaretlenir.
  * Katalogda olan URL yeniden eklenmez. Yeni link uydurulmaz.
@@ -61,6 +62,7 @@ import { applyNovember4 } from "./apply-2026-11-04.mjs";
 import { applyNovember5 } from "./apply-2026-11-05.mjs";
 import { applyNovember6 } from "./apply-2026-11-06.mjs";
 import { applyNovember7 } from "./apply-2026-11-07.mjs";
+import { applyNovember8 } from "./apply-2026-11-08.mjs";
 
 const DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SOURCES = path.join(DIR, "sources");
@@ -854,6 +856,7 @@ function loadCatalog() {
   const onay1105 = applyNovember5(channels);
   const onay1106 = applyNovember6(channels);
   const onay1107 = applyNovember7(channels);
+  const onay1108 = applyNovember8(channels);
   const grouped = orderCatalog(channels);
   const previous = readJsonIfExists(path.join(DIR, "channels.json"));
   assignIds(grouped, previous?.channels);
@@ -891,6 +894,7 @@ function loadCatalog() {
     onay1105,
     onay1106,
     onay1107,
+    onay1108,
   };
 }
 
@@ -1157,6 +1161,13 @@ function main() {
   if (onay1107.addedChannelNames?.length) {
     console.log(`[almanya] eklenen kanallar: ${onay1107.addedChannelNames.join(", ")}`);
   }
+  const onay1108 = catalog.onay1108 || {};
+  console.log(
+    `[almanya] onay-2026-11-08: +${onay1108.addedLinks || 0} link, ` +
+      `-${onay1108.removedLinks || 0} link, korunan ${onay1108.skippedProtect || 0}, ` +
+      `izle ${onay1108.skippedIzle || 0}, canlı eski ${onay1108.keptLive || 0}, ` +
+      `belirsiz eski ${onay1108.keptAmbiguous || 0}, elenen yeni ${onay1108.skippedNew || 0}`,
+  );
   console.log(`[almanya] sha256=${hash}`);
   if (catalog.dropped.length) {
     console.log(`[almanya] canlı linki kalmadığı için çıkarılanlar: ${catalog.dropped.join(", ")}`);

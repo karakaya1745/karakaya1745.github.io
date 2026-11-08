@@ -1,0 +1,178 @@
+role,channel,verdict,status,detail,url
+removed,Phoenix,ambiguous,403,403,https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/veryhigh/master.m3u8
+removed,ZDF,ambiguous,403,403,https://zdf-hls-01.akamaized.net/hls/live/2016498/de/de/master.m3u8
+removed,ZDF,ambiguous,403,403,https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/low/master.m3u8
+removed,ZDF,ambiguous,403,403,https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/med/master.m3u8
+removed,ZDF,ambiguous,403,403,https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/high/master.m3u8
+removed,Phoenix,ambiguous,403,403,https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/low/master.m3u8
+removed,Phoenix,ambiguous,403,403,https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/med/master.m3u8
+removed,Phoenix,ambiguous,403,403,https://zdf-hls-19.akamaized.net/hls/live/2016502/dach/high/master.m3u8
+removed,ZDF,ambiguous,403,403,https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/veryhigh/master.m3u8
+removed,3sat,ambiguous,403,403,https://zdf-hls-15.akamaized.net/hls/live/2016527/3sat/master.m3u8
+removed,ZDF Neo,ambiguous,403,403,https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/veryhigh/master.m3u8
+removed,ZDF Neo,ambiguous,403,403,https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/med/master.m3u8
+removed,ZDF Neo,ambiguous,403,403,https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/high/master.m3u8
+removed,ZDF Neo,ambiguous,403,403,https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/low/master.m3u8
+removed,Das Erste,live,200,200 playlist,https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master_960p_1600.m3u8
+removed,ZDF Info,ambiguous,403,403,https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/veryhigh/master.m3u8
+removed,ZDF Info,ambiguous,403,403,https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/high/master.m3u8
+removed,ZDF Info,ambiguous,403,403,https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/med/master.m3u8
+removed,Tagesschau 24,live,200,200 playlist,https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master540p1800.m3u8
+removed,Tagesschau 24,live,200,200 playlist,https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master_960p_1600.m3u8
+removed,Tagesschau 24,live,200,200 playlist,https://tagesschau-live.ard-mcdn.de/tagesschau/live/dash/de/manifest.mpd
+removed,KIKA,live,200,200 playlist,https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master-360p-1328.m3u8
+removed,Das Erste,live,200,200 playlist,https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master540p1800.m3u8
+removed,KIKA,live,200,200 playlist,https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master-720p-3628.m3u8
+removed,ZDF Info,ambiguous,403,403,https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/low/master.m3u8
+removed,KIKA,live,200,200 playlist,https://kika-live.ard-mcdn.de/kika/live/hls/de/master_960p_1600.m3u8
+removed,KIKA,live,200,200 playlist,https://kika-live.ard-mcdn.de/kika/live/hls/de/master540p1800.m3u8
+removed,MDR Fernsehen Sachsen,ambiguous,403,403,https://mdr-live.ard-mcdn.de/mdr/live/hls/de/master540p1800.m3u8
+removed,Bayerisches Fernsehen Süd,live,206,206 playlist,https://mcdn.br.de/br/fs/bfs_sued/hls/de/master540p1800.m3u8
+removed,Bayerisches Fernsehen Nord,live,206,206 playlist,https://mcdn.br.de/br/fs/bfs_nord/hls/de/master_960p_1600.m3u8
+removed,Bayerisches Fernsehen Süd,live,206,206 playlist,https://mcdn.br.de/br/fs/bfs_sued/hls/de/master_960p_1600.m3u8
+removed,Bayerisches Fernsehen Nord,live,206,206 playlist,https://mcdn.br.de/br/fs/bfs_nord/hls/de/master540p1800.m3u8
+removed,ARD Alpha,live,206,206 playlist,https://mcdn.br.de/br/fs/ard_alpha/hls/de/master540p1800.m3u8
+removed,ARD Alpha,live,206,206 playlist,https://mcdn.br.de/br/fs/ard_alpha/hls/de/master_960p_1600.m3u8
+removed,NDR Fernsehen Hamburg,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master-1080p-5000.m3u8
+removed,NDR Fernsehen Hamburg,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master-720p-3200.m3u8
+removed,NDR Fernsehen Hamburg,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master-360p-1200.m3u8
+removed,HR Fernsehen,live,200,200 playlist,https://hr-live.ard-mcdn.de/hr/live/hls/de/master_960p_1600.m3u8
+removed,HR Fernsehen,live,200,200 playlist,https://hr-live.ard-mcdn.de/hr/live/hls/de/master540p1800.m3u8
+removed,SR Fernsehen,ambiguous,403,403,https://sr-live.ard-mcdn.de/sr/live/hls/de/master540p1800.m3u8
+removed,NDR Fernsehen Mecklenburg-Vorpommern,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master-1080p-5000.m3u8
+removed,NDR Fernsehen Mecklenburg-Vorpommern,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master-360p-1200.m3u8
+removed,RBB Berlin,ambiguous,403,403,https://rbb-hls-berlin.akamaized.net/hls/live/2017824/rbb_berlin/master-360p-1328.m3u8
+removed,NDR Fernsehen Niedersachsen,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master-1080p-5000.m3u8
+removed,NDR Fernsehen Niedersachsen,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master-360p-1200.m3u8
+removed,NDR Fernsehen Mecklenburg-Vorpommern,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master-720p-3200.m3u8
+removed,NDR Fernsehen Schleswig-Holstein,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master-360p-1200.m3u8
+removed,NDR Fernsehen Niedersachsen,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master-720p-3200.m3u8
+removed,NDR Fernsehen Schleswig-Holstein,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master-1080p-5000.m3u8
+removed,NDR Fernsehen Schleswig-Holstein,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master-720p-3200.m3u8
+removed,WDR Fernsehen Köln,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master1080p5000.m3u8
+removed,WDR Fernsehen Köln,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master540p1800.m3u8
+removed,WDR Fernsehen Köln,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master720p3200.m3u8
+removed,WDR Fernsehen Köln,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master_960p_1600.m3u8
+removed,WDR Studio Aachen,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master720p3200.m3u8
+removed,WDR Fernsehen Köln,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master360p1200.m3u8
+removed,WDR Studio Aachen,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master540p1800.m3u8
+removed,WDR Studio Aachen,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master360p1200.m3u8
+removed,WDR Studio Aachen,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master1080p5000.m3u8
+removed,WDR Studio Bielefeld,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master360p1200.m3u8
+removed,WDR Studio Aachen,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master_960p_1600.m3u8
+removed,WDR Studio Bielefeld,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master540p1800.m3u8
+removed,WDR Studio Bielefeld,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master720p3200.m3u8
+removed,WDR Studio Bielefeld,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master1080p5000.m3u8
+removed,WDR Studio Bielefeld,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master_960p_1600.m3u8
+removed,WDR Studio Bonn,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master360p1200.m3u8
+removed,WDR Studio Bonn,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master540p1800.m3u8
+removed,WDR Studio Bonn,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master1080p5000.m3u8
+removed,WDR Studio Bonn,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master720p3200.m3u8
+removed,WDR Studio Dortmund,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master1080p5000.m3u8
+removed,WDR Studio Dortmund,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master360p1200.m3u8
+removed,WDR Studio Bonn,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master_960p_1600.m3u8
+removed,WDR Studio Dortmund,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master540p1800.m3u8
+removed,WDR Studio Dortmund,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master720p3200.m3u8
+removed,WDR Studio Dortmund,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master_960p_1600.m3u8
+removed,WDR Studio Duisburg,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master360p1200.m3u8
+removed,WDR Studio Duisburg,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master540p1800.m3u8
+removed,WDR Studio Duisburg,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master720p3200.m3u8
+removed,WDR Studio Duisburg,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master1080p5000.m3u8
+removed,WDR Studio Düsseldorf,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master360p1200.m3u8
+removed,WDR Studio Duisburg,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master_960p_1600.m3u8
+removed,WDR Studio Düsseldorf,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master540p1800.m3u8
+removed,WDR Studio Düsseldorf,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master1080p5000.m3u8
+removed,WDR Studio Düsseldorf,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master720p3200.m3u8
+removed,WDR Studio Düsseldorf,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master_960p_1600.m3u8
+removed,WDR Studio Essen,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master360p1200.m3u8
+removed,WDR Studio Essen,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master720p3200.m3u8
+removed,WDR Studio Essen,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master540p1800.m3u8
+removed,WDR Studio Essen,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master_960p_1600.m3u8
+removed,WDR Studio Münster,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master360p1200.m3u8
+removed,WDR Studio Essen,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master1080p5000.m3u8
+removed,WDR Studio Münster,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master540p1800.m3u8
+removed,WDR Studio Münster,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master720p3200.m3u8
+removed,WDR Studio Münster,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master1080p5000.m3u8
+removed,WDR Studio Münster,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master_960p_1600.m3u8
+removed,WDR Studio Siegen,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master540p1800.m3u8
+removed,WDR Studio Siegen,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master360p1200.m3u8
+removed,WDR Studio Siegen,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master720p3200.m3u8
+removed,ServusTV Deutschland,ambiguous,403,403,https://stv-live.akamaized.net/hls/live/2031012/lingeoSTVDEwebPri/master_3392.m3u8
+removed,Welt,ambiguous,403,403,https://live2weltcms-lh.akamaihd.net/i/Live2WeltCMS_1@444563/master.m3u8
+removed,WDR Studio Siegen,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master_960p_1600.m3u8
+removed,WDR Studio Siegen,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master1080p5000.m3u8
+removed,WDR Studio Wuppertal,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master360p1200.m3u8
+removed,WDR Studio Wuppertal,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master540p1800.m3u8
+removed,WDR Studio Wuppertal,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master720p3200.m3u8
+removed,WDR Studio Wuppertal,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master1080p5000.m3u8
+removed,WDR Studio Wuppertal,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master_960p_1600.m3u8
+added,Tagesschau 24,live,200,200 playlist,https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master540p1600.m3u8
+added,KIKA,live,200,200 playlist,https://kika-live.ard-mcdn.de/kika/live/hls/de/master540p1600.m3u8
+added,ARD Alpha,live,206,206 playlist,https://mcdn.br.de/br/fs/ard_alpha/hls/de/master540p1600.m3u8
+added,MDR Fernsehen Sachsen,ambiguous,403,403,https://mdr-live.ard-mcdn.de/mdr/live/hls/de/master540p1600.m3u8
+added,Bayerisches Fernsehen Nord,live,206,206 playlist,https://mcdn.br.de/br/fs/bfs_nord/hls/de/master540p1600.m3u8
+added,Bayerisches Fernsehen Süd,live,206,206 playlist,https://mcdn.br.de/br/fs/bfs_sued/hls/de/master540p1600.m3u8
+added,SR Fernsehen,ambiguous,403,403,https://sr-live.ard-mcdn.de/sr/live/hls/de/master540p1600.m3u8
+added,RBB Berlin,ambiguous,403,403,https://rbb-hls-berlin.akamaized.net/hls/live/2017824/rbb_berlin/master-360p-1200.m3u8
+added,NDR Fernsehen Hamburg,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master_720.m3u8
+added,NDR Fernsehen Hamburg,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master_360.m3u8
+added,NDR Fernsehen Mecklenburg-Vorpommern,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master_360.m3u8
+added,NDR Fernsehen Mecklenburg-Vorpommern,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master_1080.m3u8
+added,NDR Fernsehen Hamburg,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master_1080.m3u8
+added,HR Fernsehen,live,200,200 playlist,https://hr-live.ard-mcdn.de/hr/live/hls/de/master540p1600.m3u8
+added,NDR Fernsehen Mecklenburg-Vorpommern,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master_720.m3u8
+added,NDR Fernsehen Niedersachsen,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master_360.m3u8
+added,NDR Fernsehen Schleswig-Holstein,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master_360.m3u8
+added,NDR Fernsehen Niedersachsen,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master_1080.m3u8
+added,NDR Fernsehen Schleswig-Holstein,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master_1080.m3u8
+added,NDR Fernsehen Schleswig-Holstein,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master_720.m3u8
+added,WDR Fernsehen Köln,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master-540p-1600.m3u8
+added,WDR Studio Aachen,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master-360p-1200.m3u8
+added,WDR Studio Aachen,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master-540p-1600.m3u8
+added,WDR Studio Aachen,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master-720p-3200.m3u8
+added,WDR Studio Bielefeld,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master-540p-1600.m3u8
+added,WDR Studio Bielefeld,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master-360p-1200.m3u8
+added,WDR Studio Bielefeld,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master-720p-3200.m3u8
+added,WDR Studio Aachen,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master-1080p-5000.m3u8
+added,WDR Studio Bielefeld,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/bielefeld/hls/de/master-1080p-5000.m3u8
+added,WDR Studio Bonn,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master-360p-1200.m3u8
+added,WDR Studio Bonn,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master-540p-1600.m3u8
+added,WDR Studio Bonn,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master-720p-3200.m3u8
+added,WDR Studio Bonn,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/bonn/hls/de/master-1080p-5000.m3u8
+added,WDR Studio Dortmund,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master-360p-1200.m3u8
+added,WDR Studio Dortmund,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master-540p-1600.m3u8
+added,WDR Studio Dortmund,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master-720p-3200.m3u8
+added,WDR Studio Dortmund,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/dortmund/hls/de/master-1080p-5000.m3u8
+added,WDR Studio Duisburg,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master-360p-1200.m3u8
+added,WDR Studio Duisburg,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master-540p-1600.m3u8
+added,WDR Studio Duisburg,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master-720p-3200.m3u8
+added,WDR Studio Duisburg,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/duisburg/hls/de/master-1080p-5000.m3u8
+added,WDR Studio Düsseldorf,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master-1080p-5000.m3u8
+added,WDR Studio Düsseldorf,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master-540p-1600.m3u8
+added,WDR Studio Düsseldorf,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master-360p-1200.m3u8
+added,WDR Studio Düsseldorf,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/duesseldorf/hls/de/master-720p-3200.m3u8
+added,WDR Studio Essen,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master-360p-1200.m3u8
+added,WDR Studio Essen,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master-720p-3200.m3u8
+added,WDR Studio Essen,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master-540p-1600.m3u8
+added,WDR Studio Essen,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/essen/hls/de/master-1080p-5000.m3u8
+added,WDR Studio Münster,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master-360p-1200.m3u8
+added,WDR Studio Münster,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master-540p-1600.m3u8
+added,WDR Studio Münster,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master-720p-3200.m3u8
+added,WDR Studio Münster,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/muensterland/hls/de/master-1080p-5000.m3u8
+added,WDR Studio Siegen,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master-540p-1600.m3u8
+added,WDR Studio Siegen,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master-720p-3200.m3u8
+added,WDR Studio Siegen,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/siegen/hls/de/master-1080p-5000.m3u8
+added,WDR Studio Wuppertal,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master-540p-1600.m3u8
+added,WDR Studio Wuppertal,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master-1080p-5000.m3u8
+added,WDR Studio Wuppertal,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master-360p-1200.m3u8
+added,WDR Studio Wuppertal,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/wuppertal/hls/de/master-720p-3200.m3u8
+added,OK54 Trier,ambiguous,403,403,https://s.ok54.de/ott/webstream/playlist.m3u8
+master,MASTER,live,206,206 playlist,https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
+master,MASTER,live,200,200 playlist,https://kika-live.ard-mcdn.de/kika/live/hls/de/master.m3u8
+master,MASTER,live,200,200 playlist,https://tagesschau-live.ard-mcdn.de/tagesschau/live/hls/de/master.m3u8
+master,MASTER,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master.m3u8
+master,MASTER,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master.m3u8
+master,MASTER,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/aachen/hls/de/master.m3u8
+master,MASTER,live,200,200 playlist,https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master.m3u8
+master,MASTER,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master.m3u8
+master,MASTER,live,200,200 playlist,https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master.m3u8
