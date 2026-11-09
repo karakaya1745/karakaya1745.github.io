@@ -277,7 +277,6 @@ const TV_MUSIC = pinList("TV music", [
   "Deluxe Music",
   "Deluxe Rap",
   "Deluxe Dance",
-  "Melodie TV",
   "DMF",
   "MC TV (MC EU)",
   "Stimmungsgarten TV",

@@ -23,7 +23,7 @@ Uygulama önce `metadata.json` indirir. `revision` veya `channels.json` sha256 d
 | --- | --- |
 | `sources/tv.csv`, `sources/tv.m3u` | Ham TV ölçümü. CSV'de ölü (`failed`) satırlar da durur. |
 | `sources/radio.csv`, `sources/radio.m3u` | Ham radyo ölçümü. CSV'de denenmemiş düz `http` satırları da durur. |
-| `sources/onay-2026-10-15.csv` … `onay-2026-11-08.csv` | Onaylanan ekler ve silinecek veya sona alınan linkler. |
+| `sources/onay-2026-10-15.csv` … `onay-2026-11-09.csv` | Onaylanan ekler ve silinecek veya sona alınan linkler. |
 | `sources/catalog-retest-2026-10-18.json` | 18 Ekim yeniden testi (ölü, statik, şüpheli). |
 | `tv.m3u`, `radio.m3u` | Yayımlanan, temizlenmiş listeler. Ölü ve denenmemiş link yoktur. |
 | `channels.json` | Uygulamanın indirdiği katalog. |
@@ -71,7 +71,7 @@ Kategoriler `tools/apply-2026-10-18.mjs` içinde ada göre verilir. Eski `kids`,
 | `regional` | ARD eyalet televizyonu ve WDR stüdyoları; radyoda özel istasyonlar, eyalete göre |
 | `news` | Deutsche Welle, DW Arabic, Welt, Bundestag |
 | `religious` | Bibel TV, K-TV, Hope TV, domradio |
-| `music` | Deluxe Music, Melodie TV; radyoda Klassik Radio ve temalı web radyolar |
+| `music` | Deluxe Music; radyoda Klassik Radio ve temalı web radyolar |
 | `shopping` | QVC, HSE, Juwelo |
 | `documentary` | N24 Doku, Dokusat, Welt der Wunder |
 | `other` | Anixe, DF1, Lilo TV, More Than Sports TV |
@@ -129,6 +129,8 @@ Radyo CSV'sinde aynı istasyon adının altında kardeş yayınlar da `(1)`, `(2
 `sources/onay-2026-11-07.csv` 7 Kasım onayıdır. Yedi kanaldaki sekiz `iptv-playoutcenter.de` adresi silinir. München TV, Oberpfalz TV ve TVA Ostbayern welocal yayınla kalır. Augsburg TV, Franken Fernsehen, TV Mainfranken ve TV Oberfranken'in welocal linkleri durur. KONTRAFUNK `news` radyosudur. MeieTV ve K-TV flaky linkine dokunulmaz.
 
 `sources/onay-2026-11-08.csv` 8 Kasım onayıdır. ARD varyant adayları ve ZDF/diğer 404 satırları yeniden test edildi (`onay-2026-11-08-retest.json`). Bu ortamda çalma listesi dönen veya 403/zaman aşımı veren eski adresler silinmedi. Yalnız 200/206 ve `#EXTM3U` doğrulanan yeni adresler eklendi; 403 dönen dört yeni adres eklenmedi. Finest TV, Radio 21 TV, WDR Studio Köln, Anixe +, MeieTV ve K-TV aynen kalır. Yeni kanal yok. `shopping` sonda, son ad iSTUFF.
+
+`sources/onay-2026-11-09.csv` 9 Kasım onayıdır. Melodie TV'nin üç `bozztv.com` adresi NXDOMAIN olduğu ve alternatifi olmadığı için kanal çıkar. K-TV ve diğer kanallar durur. `shopping` sonda, son ad iSTUFF.
 
 ## Sıra
 
