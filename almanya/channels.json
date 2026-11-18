@@ -1,6 +1,6 @@
 {
-  "_revision": 26,
-  "updatedAt": "2026-11-13T08:13:38.299Z",
+  "_revision": 27,
+  "updatedAt": "2026-11-18T06:54:32.772Z",
   "app": "ZapIt TV",
   "channels": [
     {
@@ -5589,6 +5589,11 @@
           "url": "https://radio-hls.mdr.de/hls/live/2112906/mdr-284350-0-hls/index.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://avw.mdr.de/streams/284350-0_mp3_high.m3u",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },

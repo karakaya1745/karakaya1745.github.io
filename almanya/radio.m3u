@@ -230,6 +230,8 @@ https://mdr-284350-0.sslcast.mdr.de/mdr/284350/0/mp3/max/stream.mp3
 https://mdr-284350-0.sslcast.mdr.de/mdr/284350/0/mp3/high/stream.mp3
 #EXTINF:-1 tvg-id="radio-mdr-klassik" tvg-name="MDR Klassik" group-title="public",MDR Klassik (3)
 https://radio-hls.mdr.de/hls/live/2112906/mdr-284350-0-hls/index.m3u8
+#EXTINF:-1 tvg-id="radio-mdr-klassik" tvg-name="MDR Klassik" group-title="public",MDR Klassik (4)
+https://avw.mdr.de/streams/284350-0_mp3_high.m3u
 #EXTINF:-1 tvg-id="radio-mdr-kultur" tvg-name="MDR Kultur" group-title="public",MDR Kultur (1)
 https://mdr-284310-0.sslcast.mdr.de/mdr/284310/0/mp3/high/stream.mp3
 #EXTINF:-1 tvg-id="radio-mdr-kultur" tvg-name="MDR Kultur" group-title="public",MDR Kultur (2)
