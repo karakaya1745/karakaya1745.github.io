@@ -271,6 +271,8 @@ const TV_RELIGIOUS = pinList("TV religious", [
   "Light Channel Deutschland",
   "Sender Neu Jerusalem",
   "Sophia TV",
+  "Sophia TV Español",
+  "Sophia TV Français",
 ]);
 
 const TV_MUSIC = pinList("TV music", [
@@ -438,7 +440,6 @@ const RADIO_PUBLIC_NETWORKS = [
     "BR 24",
     "BR Heimat",
     "BR Klassik",
-    "BR Schlager",
   ],
   ["Bremen Eins", "Bremen Zwei", "Bremen Vier", "Bremen Next"],
   [
@@ -618,7 +619,6 @@ const RADIO_NEWS = pinList("radyo news", ["NIUS Radio", "KONTRAFUNK"]);
 const RADIO_THEMED = new Set([
   "Klassik Radio",
   "Klassik Radio Movie",
-  "0nlineradio 70s",
   "Absolut relax",
   "Absolut Radio",
   "DELUXE EASY",

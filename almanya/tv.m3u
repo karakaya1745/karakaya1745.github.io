@@ -872,6 +872,10 @@ https://bild-und-ton.stream/snj-de/snj-de.smil/chunklist_w1024417188_b145000_sld
 https://bild-und-ton.stream/snj-de/snj-de.smil/chunklist_w1024417188_b365000_slde.m3u8
 #EXTINF:-1 tvg-id="tv-sophia-tv" tvg-name="Sophia TV" group-title="religious",Sophia TV (1)
 https://bild-und-ton.stream/sophiatv-en/smil:sophia-tv-en.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-sophia-tv-espa-ol" tvg-name="Sophia TV Español" group-title="religious",Sophia TV Español (1)
+https://bild-und-ton.stream/sophiatv-es/smil:sophia-tv-es.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-sophia-tv-francais" tvg-name="Sophia TV Français" group-title="religious",Sophia TV Français (1)
+https://bild-und-ton.stream/sophiatv-fr/smil:sophia-tv-fr.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-deluxe-music" tvg-name="Deluxe Music" group-title="music",Deluxe Music (1)
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8
 #EXTINF:-1 tvg-id="tv-deluxe-music" tvg-name="Deluxe Music" group-title="music",Deluxe Music (2)

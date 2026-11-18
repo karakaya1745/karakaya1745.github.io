@@ -35,6 +35,7 @@
  *        almanya/sources/onay-2026-11-07.csv (7 Kasım playoutcenter silme, üç welocal, KONTRAFUNK)
  *        almanya/sources/onay-2026-11-08.csv (8 Kasım ARD varyantları; Finest TV ve Radio 21 TV korunur)
  *        almanya/sources/onay-2026-11-09.csv (9 Kasım; Melodie TV çıkar)
+ *        almanya/sources/onay-2026-11-13.csv (13 Kasım; BR Schlager, 0nlineradio 70s, RPR1, Absolut relax, Sophia TV ES/FR)
  * Ölü (failed) ve denenmemiş (untested) linkler yayınlanmaz.
  * geo-blocked (403) ve "sadece Almanya" linkler kalır; geo_de_only ile işaretlenir.
  * Katalogda olan URL yeniden eklenmez. Yeni link uydurulmaz.
@@ -65,6 +66,7 @@ import { applyNovember6 } from "./apply-2026-11-06.mjs";
 import { applyNovember7 } from "./apply-2026-11-07.mjs";
 import { applyNovember8 } from "./apply-2026-11-08.mjs";
 import { applyNovember9 } from "./apply-2026-11-09.mjs";
+import { applyNovember13 } from "./apply-2026-11-13.mjs";
 
 const DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SOURCES = path.join(DIR, "sources");
@@ -860,6 +862,7 @@ function loadCatalog() {
   const onay1107 = applyNovember7(channels);
   const onay1108 = applyNovember8(channels);
   const onay1109 = applyNovember9(channels);
+  const onay1113 = applyNovember13(channels);
   const grouped = orderCatalog(channels);
   const previous = readJsonIfExists(path.join(DIR, "channels.json"));
   assignIds(grouped, previous?.channels);
@@ -899,6 +902,7 @@ function loadCatalog() {
     onay1107,
     onay1108,
     onay1109,
+    onay1113,
   };
 }
 
@@ -1179,6 +1183,20 @@ function main() {
   );
   if (onay1109.removedChannelNames?.length) {
     console.log(`[almanya] çıkarılan kanal: ${onay1109.removedChannelNames.join(", ")}`);
+  }
+  const onay1113 = catalog.onay1113 || {};
+  console.log(
+    `[almanya] onay-2026-11-13: +${onay1113.addedChannels || 0} kanal, ` +
+      `-${onay1113.removedChannels || 0} kanal, ` +
+      `+${onay1113.addedLinks || 0} link, ` +
+      `-${onay1113.removedLinks || 0} link, ` +
+      `yinelenen ${onay1113.skippedDupes || 0}`,
+  );
+  if (onay1113.removedChannelNames?.length) {
+    console.log(`[almanya] çıkarılan kanal: ${onay1113.removedChannelNames.join(", ")}`);
+  }
+  if (onay1113.addedChannelNames?.length) {
+    console.log(`[almanya] eklenen kanal: ${onay1113.addedChannelNames.join(", ")}`);
   }
   console.log(`[almanya] sha256=${hash}`);
   if (catalog.dropped.length) {
