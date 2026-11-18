@@ -1,6 +1,6 @@
 {
-  "_revision": 25,
-  "updatedAt": "2026-11-09T06:31:11.431Z",
+  "_revision": 27,
+  "updatedAt": "2026-11-18T06:54:32.772Z",
   "app": "ZapIt TV",
   "channels": [
     {
@@ -2706,6 +2706,34 @@
       ]
     },
     {
+      "id": "tv-sophia-tv-espa-ol",
+      "name": "Sophia TV Español",
+      "type": "tv",
+      "category": "religious",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://bild-und-ton.stream/sophiatv-es/smil:sophia-tv-es.smil/playlist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
+      "id": "tv-sophia-tv-francais",
+      "name": "Sophia TV Français",
+      "type": "tv",
+      "category": "religious",
+      "geo_de_only": false,
+      "streams": [
+        {
+          "url": "https://bild-und-ton.stream/sophiatv-fr/smil:sophia-tv-fr.smil/playlist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        }
+      ]
+    },
+    {
       "id": "tv-deluxe-music",
       "name": "Deluxe Music",
       "type": "tv",
@@ -4982,30 +5010,6 @@
       ]
     },
     {
-      "id": "radio-br-schlager",
-      "name": "BR Schlager",
-      "type": "radio",
-      "category": "public",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://dispatcher.rndfnk.com/br/brschlager/live/mp3/mid",
-          "geo_de_only": false,
-          "format": "audio"
-        },
-        {
-          "url": "https://br-radio.ard-mcdn.de/br/radio/brschlager/hls/master.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        },
-        {
-          "url": "https://br-radio.ard-mcdn.de/br/radio/brschlager/hls/192/seglist.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        }
-      ]
-    },
-    {
       "id": "radio-bremen-eins",
       "name": "Bremen Eins",
       "type": "radio",
@@ -5585,6 +5589,11 @@
           "url": "https://radio-hls.mdr.de/hls/live/2112906/mdr-284350-0-hls/index.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://avw.mdr.de/streams/284350-0_mp3_high.m3u",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -9352,7 +9361,12 @@
       "geo_de_only": false,
       "streams": [
         {
-          "url": "https://streams.rpr1.de/rpr-simulcast-128-mp3",
+          "url": "https://stream.rpr1.de/koblenz/mp3-128/radiobrowser",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://stream.rpr1.de/webradio/mp3-128/radiobrowser",
           "geo_de_only": false,
           "format": "audio"
         },
@@ -9382,11 +9396,6 @@
           "format": "audio"
         },
         {
-          "url": "https://streams.rpr1.de/rpr-simulcast-64-aac",
-          "geo_de_only": false,
-          "format": "audio"
-        },
-        {
           "url": "https://stream.rpr1.de/webradio/aac-64",
           "geo_de_only": false,
           "format": "audio"
@@ -9398,11 +9407,6 @@
         },
         {
           "url": "https://stream.rpr1.de/webradio/mp3-128",
-          "geo_de_only": false,
-          "format": "audio"
-        },
-        {
-          "url": "https://streams.rpr1.de/rpr-simulcast-128-aac",
           "geo_de_only": false,
           "format": "audio"
         }
@@ -9953,30 +9957,6 @@
       ]
     },
     {
-      "id": "radio-0nlineradio-70s",
-      "name": "0nlineradio 70s",
-      "type": "radio",
-      "category": "music",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://stream.0nlineradio.com/70s?ref=radiobrowser",
-          "geo_de_only": false,
-          "format": "audio"
-        },
-        {
-          "url": "https://0nlineradio.radioho.st/0r-70s",
-          "geo_de_only": false,
-          "format": "audio"
-        },
-        {
-          "url": "https://stream1-0nlineradio.radiohost.de/70s",
-          "geo_de_only": false,
-          "format": "audio"
-        }
-      ]
-    },
-    {
       "id": "radio-90s90s-eurodance",
       "name": "90s90s Eurodance",
       "type": "radio",
@@ -10047,12 +10027,12 @@
           "format": "audio"
         },
         {
-          "url": "https://edge67.live-sm.absolutradio.de/absolut-relax",
+          "url": "https://absolut-relax.live-sm.absolutradio.de/absolut-relax/stream/aacp",
           "geo_de_only": false,
           "format": "audio"
         },
         {
-          "url": "https://absolut-relax.live-sm.absolutradio.de/absolut-relax/stream/aacp",
+          "url": "https://absolut-relax.live-sm.absolutradio.de/absolut-relax",
           "geo_de_only": false,
           "format": "audio"
         }

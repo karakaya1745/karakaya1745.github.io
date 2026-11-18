@@ -1,0 +1,17 @@
+kanal,link,durum,kaynak,tur
+BR Schlager,https://dispatcher.rndfnk.com/br/brschlager/live/mp3/mid,ölü 404,13 Kasım onayı,olu_kanal
+BR Schlager,https://br-radio.ard-mcdn.de/br/radio/brschlager/hls/master.m3u8,ölü 404,13 Kasım onayı,olu_kanal
+BR Schlager,https://br-radio.ard-mcdn.de/br/radio/brschlager/hls/192/seglist.m3u8,ölü 404,13 Kasım onayı,olu_kanal
+0nlineradio 70s,https://stream.0nlineradio.com/70s?ref=radiobrowser,ölü 404,13 Kasım onayı,olu_kanal
+0nlineradio 70s,https://0nlineradio.radioho.st/0r-70s,ölü 404,13 Kasım onayı,olu_kanal
+0nlineradio 70s,https://stream1-0nlineradio.radiohost.de/70s,ölü 404,13 Kasım onayı,olu_kanal
+RPR1,https://streams.rpr1.de/rpr-simulcast-128-mp3,ölü 404,13 Kasım onayı,olu_link_sil
+RPR1,https://streams.rpr1.de/rpr-simulcast-64-aac,ölü 404,13 Kasım onayı,olu_link_sil
+RPR1,https://streams.rpr1.de/rpr-simulcast-128-aac,ölü 404,13 Kasım onayı,olu_link_sil
+RPR1,https://stream.rpr1.de/koblenz/mp3-128/radiobrowser,200 audio/mpeg,13 Kasım onayı,yeni_yedek
+RPR1,https://stream.rpr1.de/webradio/mp3-128/radiobrowser,200 audio/mpeg,13 Kasım onayı,yeni_yedek
+Absolut relax,https://edge67.live-sm.absolutradio.de/absolut-relax,ölü,13 Kasım onayı,olu_link_sil
+Absolut relax,https://absolut-relax.live-sm.absolutradio.de/absolut-relax,200 audio/aac,13 Kasım onayı,yeni_yedek
+Absolut relax,https://edge19.live-sm.absolutradio.de/absolut-relax/stream/aacp,200 audio/aac zaten katalogda,13 Kasım onayı,yeni_yedek
+Sophia TV Español,https://bild-und-ton.stream/sophiatv-es/smil:sophia-tv-es.smil/playlist.m3u8,200 EXTM3U,13 Kasım onayı,yeni_kanal
+Sophia TV Français,https://bild-und-ton.stream/sophiatv-fr/smil:sophia-tv-fr.smil/playlist.m3u8,200 EXTM3U,13 Kasım onayı,yeni_kanal

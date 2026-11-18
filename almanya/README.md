@@ -23,7 +23,7 @@ Uygulama önce `metadata.json` indirir. `revision` veya `channels.json` sha256 d
 | --- | --- |
 | `sources/tv.csv`, `sources/tv.m3u` | Ham TV ölçümü. CSV'de ölü (`failed`) satırlar da durur. |
 | `sources/radio.csv`, `sources/radio.m3u` | Ham radyo ölçümü. CSV'de denenmemiş düz `http` satırları da durur. |
-| `sources/onay-2026-10-15.csv` … `onay-2026-11-09.csv` | Onaylanan ekler ve silinecek veya sona alınan linkler. |
+| `sources/onay-2026-10-15.csv` … `onay-2026-11-18.csv` | Onaylanan ekler ve silinecek veya sona alınan linkler. |
 | `sources/catalog-retest-2026-10-18.json` | 18 Ekim yeniden testi (ölü, statik, şüpheli). |
 | `tv.m3u`, `radio.m3u` | Yayımlanan, temizlenmiş listeler. Ölü ve denenmemiş link yoktur. |
 | `channels.json` | Uygulamanın indirdiği katalog. |
@@ -131,6 +131,10 @@ Radyo CSV'sinde aynı istasyon adının altında kardeş yayınlar da `(1)`, `(2
 `sources/onay-2026-11-08.csv` 8 Kasım onayıdır. ARD varyant adayları ve ZDF/diğer 404 satırları yeniden test edildi (`onay-2026-11-08-retest.json`). Bu ortamda çalma listesi dönen veya 403/zaman aşımı veren eski adresler silinmedi. Yalnız 200/206 ve `#EXTM3U` doğrulanan yeni adresler eklendi; 403 dönen dört yeni adres eklenmedi. Finest TV, Radio 21 TV, WDR Studio Köln, Anixe +, MeieTV ve K-TV aynen kalır. Yeni kanal yok. `shopping` sonda, son ad iSTUFF.
 
 `sources/onay-2026-11-09.csv` 9 Kasım onayıdır. Melodie TV'nin üç `bozztv.com` adresi NXDOMAIN olduğu ve alternatifi olmadığı için kanal çıkar. K-TV ve diğer kanallar durur. `shopping` sonda, son ad iSTUFF.
+
+`sources/onay-2026-11-13.csv` 13 Kasım onayıdır. BR Schlager ve 0nlineradio 70s, üçer 404 linki olduğu ve yedek bulunmadığı için çıkar. RPR1'deki üç ölü `streams.rpr1.de` adresi iki çalışan `stream.rpr1.de` yedeğiyle değişir. Absolut relax'teki ölü `edge67` adresi çıkar; temiz `live-sm` adresi eklenir. `edge19` yedeği zaten katalogda olduğu için yinelenmez. Sophia TV Español ve Sophia TV Français, mevcut Sophia TV'nin hemen ardına `religious` grubuna eklenir. Finest TV, Radio 21 TV, MeieTV ve K-TV durur. `shopping` sonda, son ad iSTUFF.
+
+`sources/onay-2026-11-18.csv` yayın öncesi son kontroldür. Katalogdaki her link yeniden test edildi. 404 veya NXDOMAIN dönen ve kardeşi çalışan bir link çıkmadığı için silme yok. K-TV `kathtv.m3u8` ana listesi, MDR Klassik'in iki mp3 adresi ve Deluxe Dance'in iki `3qsdn` adresi 200 döndü; dururlar. Deluxe Dance için doğrulanmış farklı bir resmi yayın bulunamadı. MDR Klassik'e `avw.mdr.de` çalma listesi yedek olarak eklenir. `shopping` sonda, son ad iSTUFF.
 
 ## Sıra
 

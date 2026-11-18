@@ -58,12 +58,6 @@ https://br-radio.ard-mcdn.de/br/radio/brklassik/hls/master.m3u8
 https://dispatcher.rndfnk.com/br/brklassik/live/mp3/mid?aggregator=ard-at
 #EXTINF:-1 tvg-id="radio-br-klassik" tvg-name="BR Klassik" group-title="public",BR Klassik (6)
 https://dispatcher.rndfnk.com/br/brklassik/live/mp3/low
-#EXTINF:-1 tvg-id="radio-br-schlager" tvg-name="BR Schlager" group-title="public",BR Schlager (1)
-https://dispatcher.rndfnk.com/br/brschlager/live/mp3/mid
-#EXTINF:-1 tvg-id="radio-br-schlager" tvg-name="BR Schlager" group-title="public",BR Schlager (2)
-https://br-radio.ard-mcdn.de/br/radio/brschlager/hls/master.m3u8
-#EXTINF:-1 tvg-id="radio-br-schlager" tvg-name="BR Schlager" group-title="public",BR Schlager (3)
-https://br-radio.ard-mcdn.de/br/radio/brschlager/hls/192/seglist.m3u8
 #EXTINF:-1 tvg-id="radio-bremen-eins" tvg-name="Bremen Eins" group-title="public",Bremen Eins (1)
 https://icecast.radiobremen.de/rb/bremeneins/live/mp3/128/stream.mp3?aggregator=surfmusik-de
 #EXTINF:-1 tvg-id="radio-bremen-eins" tvg-name="Bremen Eins" group-title="public",Bremen Eins (2)
@@ -236,6 +230,8 @@ https://mdr-284350-0.sslcast.mdr.de/mdr/284350/0/mp3/max/stream.mp3
 https://mdr-284350-0.sslcast.mdr.de/mdr/284350/0/mp3/high/stream.mp3
 #EXTINF:-1 tvg-id="radio-mdr-klassik" tvg-name="MDR Klassik" group-title="public",MDR Klassik (3)
 https://radio-hls.mdr.de/hls/live/2112906/mdr-284350-0-hls/index.m3u8
+#EXTINF:-1 tvg-id="radio-mdr-klassik" tvg-name="MDR Klassik" group-title="public",MDR Klassik (4)
+https://avw.mdr.de/streams/284350-0_mp3_high.m3u
 #EXTINF:-1 tvg-id="radio-mdr-kultur" tvg-name="MDR Kultur" group-title="public",MDR Kultur (1)
 https://mdr-284310-0.sslcast.mdr.de/mdr/284310/0/mp3/high/stream.mp3
 #EXTINF:-1 tvg-id="radio-mdr-kultur" tvg-name="MDR Kultur" group-title="public",MDR Kultur (2)
@@ -1347,27 +1343,25 @@ https://addrad.io/444z9zg
 #EXTINF:-1 tvg-id="radio-radio-waf" tvg-name="Radio WAF" group-title="regional",Radio WAF (7)
 https://addrad.io/444zb3g
 #EXTINF:-1 tvg-id="radio-rpr1" tvg-name="RPR1" group-title="regional",RPR1 (1)
-https://streams.rpr1.de/rpr-simulcast-128-mp3
+https://stream.rpr1.de/koblenz/mp3-128/radiobrowser
 #EXTINF:-1 tvg-id="radio-rpr1" tvg-name="RPR1" group-title="regional",RPR1 (2)
-https://stream.rpr1.de/webradio/128-mp3/raddio
+https://stream.rpr1.de/webradio/mp3-128/radiobrowser
 #EXTINF:-1 tvg-id="radio-rpr1" tvg-name="RPR1" group-title="regional",RPR1 (3)
-https://stream.rpr1.de/webradio/mp3-128/private
+https://stream.rpr1.de/webradio/128-mp3/raddio
 #EXTINF:-1 tvg-id="radio-rpr1" tvg-name="RPR1" group-title="regional",RPR1 (4)
-https://stream.rpr1.de/webradio/aac-128/tunein
+https://stream.rpr1.de/webradio/mp3-128/private
 #EXTINF:-1 tvg-id="radio-rpr1" tvg-name="RPR1" group-title="regional",RPR1 (5)
-https://stream.rpr1.de/webradio/aac-64/tunein
+https://stream.rpr1.de/webradio/aac-128/tunein
 #EXTINF:-1 tvg-id="radio-rpr1" tvg-name="RPR1" group-title="regional",RPR1 (6)
-https://stream.rpr1.de/webradio/mp3-128/tunein
+https://stream.rpr1.de/webradio/aac-64/tunein
 #EXTINF:-1 tvg-id="radio-rpr1" tvg-name="RPR1" group-title="regional",RPR1 (7)
-https://streams.rpr1.de/rpr-simulcast-64-aac
+https://stream.rpr1.de/webradio/mp3-128/tunein
 #EXTINF:-1 tvg-id="radio-rpr1" tvg-name="RPR1" group-title="regional",RPR1 (8)
 https://stream.rpr1.de/webradio/aac-64
 #EXTINF:-1 tvg-id="radio-rpr1" tvg-name="RPR1" group-title="regional",RPR1 (9)
 https://stream.rpr1.de/webradio/aac-128
 #EXTINF:-1 tvg-id="radio-rpr1" tvg-name="RPR1" group-title="regional",RPR1 (10)
 https://stream.rpr1.de/webradio/mp3-128
-#EXTINF:-1 tvg-id="radio-rpr1" tvg-name="RPR1" group-title="regional",RPR1 (11)
-https://streams.rpr1.de/rpr-simulcast-128-aac
 #EXTINF:-1 tvg-id="radio-rockland-radio" tvg-name="Rockland Radio" group-title="regional",Rockland Radio (1)
 https://streams.rockland.de/dab/mp3-192/streams.rockland.de/
 #EXTINF:-1 tvg-id="radio-rockland-radio" tvg-name="Rockland Radio" group-title="regional",Rockland Radio (2)
@@ -1528,12 +1522,6 @@ https://stream.klassikradio.de/national/mp3-192/tunein
 https://live.streams.klassikradio.de/klassikradio-movie
 #EXTINF:-1 tvg-id="radio-klassik-radio-movie" tvg-name="Klassik Radio Movie" group-title="music",Klassik Radio Movie (2)
 https://klassikr.streamabc.net/klr-movienational-aac-128-2085172
-#EXTINF:-1 tvg-id="radio-0nlineradio-70s" tvg-name="0nlineradio 70s" group-title="music",0nlineradio 70s (1)
-https://stream.0nlineradio.com/70s?ref=radiobrowser
-#EXTINF:-1 tvg-id="radio-0nlineradio-70s" tvg-name="0nlineradio 70s" group-title="music",0nlineradio 70s (2)
-https://0nlineradio.radioho.st/0r-70s
-#EXTINF:-1 tvg-id="radio-0nlineradio-70s" tvg-name="0nlineradio 70s" group-title="music",0nlineradio 70s (3)
-https://stream1-0nlineradio.radiohost.de/70s
 #EXTINF:-1 tvg-id="radio-90s90s-eurodance" tvg-name="90s90s Eurodance" group-title="music",90s90s Eurodance (1)
 https://streams.90s90s.de/eurodance/mp3-192/streams.90s90s.de/
 #EXTINF:-1 tvg-id="radio-90s90s-eurodance" tvg-name="90s90s Eurodance" group-title="music",90s90s Eurodance (2)
@@ -1553,9 +1541,9 @@ https://absolut-relax.live-sm.absolutradio.de/absolut-relax/stream/mp3
 #EXTINF:-1 tvg-id="radio-absolut-relax" tvg-name="Absolut relax" group-title="music",Absolut relax (3)
 https://edge19.live-sm.absolutradio.de/absolut-relax/stream/aacp
 #EXTINF:-1 tvg-id="radio-absolut-relax" tvg-name="Absolut relax" group-title="music",Absolut relax (4)
-https://edge67.live-sm.absolutradio.de/absolut-relax
-#EXTINF:-1 tvg-id="radio-absolut-relax" tvg-name="Absolut relax" group-title="music",Absolut relax (5)
 https://absolut-relax.live-sm.absolutradio.de/absolut-relax/stream/aacp
+#EXTINF:-1 tvg-id="radio-absolut-relax" tvg-name="Absolut relax" group-title="music",Absolut relax (5)
+https://absolut-relax.live-sm.absolutradio.de/absolut-relax
 #EXTINF:-1 tvg-id="radio-antenne-schlager" tvg-name="Antenne Schlager" group-title="music",Antenne Schlager (1)
 https://stream.antenne-schlager.de/schlager-live/mp3-192/hoerer/
 #EXTINF:-1 tvg-id="radio-antenne-schlager" tvg-name="Antenne Schlager" group-title="music",Antenne Schlager (2)
