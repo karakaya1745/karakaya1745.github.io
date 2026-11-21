@@ -1,7 +1,13 @@
 {
-  "revision": "2",
+  "revision": 1,
+  "updatedAt": "2026-11-21T22:47:17.000Z",
   "channelCount": 663,
-  "updatedAt": "2026-11-22",
-  "sha256": "3ee8a01673ab6e3e64d39c6fc325d8751e06fde73bb241f122a82beabebcdae7",
-  "note": "India FTA HLS catalog. Upload this folder to GitHub Pages at /hindistan/. CatalogService.BASE_URL must stay in sync. Only publicly circulating free-to-air streams; no pay-TV channels."
+  "files": {
+    "channels.json": {
+      "sha256": "58aea2a11b4ddc0972524c828c5902e61a2808128ed0f596af8c845276027261"
+    },
+    "stream_map.json": {
+      "sha256": "801fd561d35e84608b72f645332eed8f7fa2006162d44bae34e28b119c123118"
+    }
+  }
 }
