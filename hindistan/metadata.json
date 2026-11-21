@@ -1,7 +1,7 @@
 {
-  "revision": "1",
-  "channelCount": 16,
+  "revision": "2",
+  "channelCount": 663,
   "updatedAt": "2026-11-22",
-  "sha256": "0aa7268d5572079d359b60fe9a4a3b0131120be95fdf007a4c921ea79789f056",
-  "note": "DRAFT catalog. Upload this folder to GitHub Pages at /hindistan/. Change CatalogService.BASE_URL in the app if that path changes. youtubeChannelId values are empty until verified."
+  "sha256": "3ee8a01673ab6e3e64d39c6fc325d8751e06fde73bb241f122a82beabebcdae7",
+  "note": "India FTA HLS catalog. Upload this folder to GitHub Pages at /hindistan/. CatalogService.BASE_URL must stay in sync. Only publicly circulating free-to-air streams; no pay-TV channels."
 }
