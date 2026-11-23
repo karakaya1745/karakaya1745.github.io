@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Takipçi'm — Gizlilik Politikası</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --text: #1a1a1a;
+      --muted: #555;
+      --bg: #fafafa;
+      --card: #fff;
+      --accent: #1565c0;
+      --border: #e0e0e0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #f0f0f0;
+        --muted: #aaa;
+        --bg: #121212;
+        --card: #1e1e1e;
+        --accent: #90caf9;
+        --border: #333;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 24px 20px 48px;
+      background: var(--card);
+      min-height: 100vh;
+    }
+    h1 { font-size: 1.75rem; margin: 0 0 0.25rem; }
+    .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+    h2 { font-size: 1.15rem; margin: 1.75rem 0 0.75rem; }
+    p { margin: 0 0 0.75rem; }
+    ul { margin: 0 0 0.75rem; padding-left: 1.25rem; }
+    li { margin-bottom: 0.35rem; }
+    a { color: var(--accent); }
+    footer {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Takipçi'm — Gizlilik Politikası</h1>
+    <p class="meta">Paket / Bundle ID: com.takipcm.app (Android ve iOS) · Son güncelleme: 23 Kasım 2026</p>
+
+    <h2>1. Giriş</h2>
+    <p>Bu Gizlilik Politikası, <strong>Takipçi'm</strong> mobil uygulamasının (com.takipcm.app) verilerinizi nasıl işlediğini açıklar. Uygulama, ev envanterinizdeki ürünlerin son kullanma tarihlerini (SKT) takip etmenize yardımcı olan bir yardımcı programdır.</p>
+    <p>Çekirdek işlevler tamamen çevrimdışı çalışır; hesap oluşturma, bulut senkronizasyonu veya sunucuya ürün verisi gönderimi yoktur. Bu metin hukuki danışmanlık yerine geçmez; yayından önce kendi iletişim bilgilerinizle güncellemeniz önerilir.</p>
+
+    <h2>2. Veri sorumlusu ve iletişim</h2>
+    <p>Veri sorumlusu: Uygulama geliştiricisi.</p>
+    <p>Gizlilik ile ilgili sorularınız için: <a href="mailto:karakaya1745@gmail.com">karakaya1745@gmail.com</a></p>
+
+    <h2>3. Toplanan ve işlenen veriler</h2>
+    <p>Uygulama, yalnızca sizin girdiğiniz veya cihazınızda oluşan verileri işler. Bunlar arasında şunlar yer alabilir:</p>
+    <ul>
+      <li>Ürün bilgileri: ad, kategori, miktar, birim, son kullanma tarihi, konum, barkod numarası, notlar</li>
+      <li>Alışveriş listesi ve tüketim/israf istatistikleri</li>
+      <li>Uygulama ayarları (bildirim gün ofsetleri, tema tercihi vb.)</li>
+      <li>Yerel bildirim planlama kayıtları (cihazda)</li>
+      <li>Premium durumu (reklamsız satın alma) — cihazda saklanır</li>
+      <li>JSON yedek dosyası — yalnızca siz dışa aktardığınızda oluşur</li>
+    </ul>
+
+    <h2>4. Verilerin saklanması</h2>
+    <p>Tüm çekirdek veriler yalnızca cihazınızdaki yerel veritabanında (SQLite) saklanır. Geliştirici tarafından işletilen bir sunucuya aktarılmaz, bulutta yedeklenmez ve hesap sistemi kullanılmaz.</p>
+    <p>Uygulamayı kaldırdığınızda cihazdaki uygulama verileri genellikle silinir. JSON yedek dosyasını kendiniz başka bir konuma kaydettiyseniz o dosya sizin sorumluluğunuzdadır.</p>
+
+    <h2>5. Kamera kullanımı</h2>
+    <p>Kamera yalnızca sizin başlattığınız işlemler için kullanılır:</p>
+    <ul>
+      <li>Barkod tarama (mobile_scanner)</li>
+      <li>SKT (son kullanma tarihi) okuma — cihaz üzerinde ML Kit ile metin tanıma (OCR); fotoğraf veya video sunucuya gönderilmez</li>
+    </ul>
+
+    <h2>6. Bildirimler</h2>
+    <p>Son kullanma tarihi hatırlatmaları tamamen yerel bildirimlerle planlanır. Push bildirim servisi, Firebase veya uzak sunucu kullanılmaz. Bildirimler yalnızca cihazınızda tetiklenir.</p>
+
+    <h2>7. İnternet, reklamlar (AdMob) ve analitik</h2>
+    <p>Çekirdek uygulama internetsiz çalışır. İnternet bağlantısı şu durumlarda gerekebilir:</p>
+    <ul>
+      <li>Google AdMob reklamlarının yüklenmesi ve gösterilmesi</li>
+      <li>Uygulama içi satın alma (remove_ads / Pro): Android'de Google Play, iOS'ta Apple App Store üzerinden</li>
+      <li>İsteğe bağlı barkoddan ürün adı sorgulama (kullanılmazsa veri gönderilmez)</li>
+    </ul>
+
+    <h2>7.1 Google Mobile Ads (AdMob)</h2>
+    <p>Uygulama Google AdMob reklamları gösterebilir: banner, geçiş (interstitial), uygulama açılışı (app open), ödüllü (rewarded) ve ileride eklenebilecek yerel (native) biçimleri. Reklamlar Google ve iş ortakları tarafından sunulur; reklam kimliği, cihaz bilgisi, IP adresi ve etkileşim verileri Google gizlilik politikası kapsamında işlenebilir.</p>
+    <ul>
+      <li><a href="https://policies.google.com/privacy" rel="noopener">Google Gizlilik Politikası</a></li>
+      <li><a href="https://policies.google.com/technologies/ads" rel="noopener">Google reklam teknolojileri</a></li>
+      <li><a href="https://support.google.com/admob/answer/9012903" rel="noopener">AdMob iş ortakları</a></li>
+    </ul>
+    <p>Reklam kişiselleştirmesini Android'de cihaz ayarlarından (Google › Reklamlar), iOS'ta Ayarlar › Gizlilik ve Güvenlik bölümünden veya Google hesap reklam ayarlarınızdan yönetebilirsiniz. iOS'ta uygulama, App Tracking Transparency (izleme) izni istemez ve reklam tanımlayıcısına (IDFA) erişmez; reklamlar bu izin olmadan sunulur. Premium (reklamsız) satın alma sonrası reklamlar kalıcı olarak kapatılır.</p>
+
+    <h2>8. Uygulama içi satın alma</h2>
+    <p>Pro sürüm (remove_ads) tek seferlik satın alınır: Android'de Google Play Billing, iOS'ta Apple App Store (StoreKit) üzerinden. Ödeme bilgileriniz uygulama tarafından toplanmaz veya saklanmaz; işlem ilgili mağaza (Google veya Apple) tarafından yürütülür. iOS'ta önceki satın alımınızı Ayarlar › "Satın alımları geri yükle" ile geri getirebilirsiniz. Satın alma durumu cihazınızda yerel olarak işaretlenir.</p>
+
+    <h2>9. JSON yedekleme</h2>
+    <p>Ayarlar bölümünden tüm verinizi JSON dosyası olarak dışa aktarabilir veya içe aktarabilirsiniz. Bu işlem tamamen sizin kontrolünüzdedir; yedek dosyasının nereye kaydedileceğine ve kimlerle paylaşılacağına siz karar verirsiniz.</p>
+
+    <h2>10. İzinler</h2>
+    <p><strong>Android</strong> izinleri ve kullanım amaçları:</p>
+    <ul>
+      <li><strong>CAMERA</strong> — barkod ve SKT taraması</li>
+      <li><strong>POST_NOTIFICATIONS</strong> — son kullanma hatırlatmaları (Android 13+)</li>
+      <li><strong>SCHEDULE_EXACT_ALARM</strong> — son kullanma hatırlatmaları için tam zamanlı planlama (Android 12+; kullanıcı ayarlardan izin verebilir)</li>
+      <li><strong>RECEIVE_BOOT_COMPLETED</strong> — cihaz yeniden başladığında bildirimleri yeniden planlama</li>
+      <li><strong>VIBRATE</strong> — bildirim titreşimi</li>
+      <li><strong>INTERNET</strong> — reklamlar ve uygulama içi satın alma</li>
+    </ul>
+    <p><strong>iOS</strong> izinleri ve kullanım amaçları:</p>
+    <ul>
+      <li><strong>Kamera</strong> — barkod ve SKT taraması (görüntüler cihazda işlenir, gönderilmez)</li>
+      <li><strong>Bildirimler</strong> — son kullanma ve ödeme hatırlatmaları (yerel bildirim)</li>
+    </ul>
+
+    <h2>11. Çocuklar</h2>
+    <p>Uygulama genel kitleye yöneliktir; bilerek 13 yaş altı çocuklardan kişisel veri toplamaz. Ebeveyn veya vasiler, çocuklarının cihaz kullanımından sorumludur.</p>
+
+    <h2>12. Verilerin silinmesi</h2>
+    <p>Uygulama içindeki ürün ve listeleri tek tek silebilir veya uygulamayı cihazdan kaldırarak yerel veritabanını silebilirsiniz. JSON yedek dosyalarını kendiniz silmelisiniz. Reklam verileri Google politikaları, satın alma verileri ilgili mağazanın (Google Play veya Apple App Store) politikaları kapsamında ayrıca yönetilir.</p>
+
+    <h2>13. Politika değişiklikleri</h2>
+    <p>Bu politika güncellenebilir. Önemli değişiklikler uygulama güncellemesi veya bu sayfadaki "Son güncelleme" tarihi ile yansıtılır. Kullanmaya devam etmeniz güncel metni kabul ettiğiniz anlamına gelir.</p>
+
+    <h2>14. Özet</h2>
+    <p>Takipçi'm: verileriniz cihazınızda kalır, hesap yok, bulut yok. Kamera yalnızca sizin isteğinizle ve cihaz üzerinde işlenir. Reklamlar Google AdMob üzerinden, satın almalar Google Play veya Apple App Store üzerinden yürür; bu konularda ilgili şirketlerin politikaları geçerlidir.</p>
+
+    <footer>
+      Takipçi'm · com.takipcm.app · Bu sayfa Google Play ve App Store gizlilik politikası bağlantısı için yayınlanır.
+    </footer>
+  </main>
+</body>
+</html>
