@@ -1,6 +1,6 @@
 {
-  "_revision": 27,
-  "updatedAt": "2026-11-18T06:54:32.772Z",
+  "_revision": 28,
+  "updatedAt": "2026-11-23T07:29:46.293Z",
   "app": "ZapIt TV",
   "channels": [
     {
@@ -2934,20 +2934,6 @@
       ]
     },
     {
-      "id": "tv-finest-tv",
-      "name": "Finest TV",
-      "type": "tv",
-      "category": "music",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://media.finest.tv/hls/live.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        }
-      ]
-    },
-    {
       "id": "tv-n24-doku",
       "name": "N24 Doku",
       "type": "tv",
@@ -4735,20 +4721,6 @@
       "streams": [
         {
           "url": "https://elephant.t62a.com/hls/8103/index.m3u8",
-          "geo_de_only": false,
-          "format": "hls"
-        }
-      ]
-    },
-    {
-      "id": "tv-meietv",
-      "name": "MeieTV",
-      "type": "tv",
-      "category": "shopping",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://stream.meietv.de/live/meietv.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -8582,11 +8554,6 @@
       "category": "regional",
       "geo_de_only": false,
       "streams": [
-        {
-          "url": "https://edge67.streamonkey.net/fho-hitradioohrlive/stream/aacp?aggregator=smk-m3u-aac",
-          "geo_de_only": false,
-          "format": "audio"
-        },
         {
           "url": "https://frontend.streamonkey.net/fho-hitradioohrlive/stream/mp3",
           "geo_de_only": false,
