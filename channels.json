@@ -117,7 +117,7 @@
     "name": "CNN Turk",
     "url": "https://www.cnnturk.com/canli-yayin",
     "category": "Haber",
-    "streamUrl": "https://trn03.tulix.tv/gt-cnnturk-tv/index.m3u8?token=canlitvtr"
+    "streamUrl": "http://85.117.61.84/cnnturk/index.m3u8"
   },
   {
     "name": "Haberturk",
@@ -159,7 +159,7 @@
     "name": "Sözcü TV",
     "url": "https://www.szctv.com.tr/canli-yayin-izle",
     "category": "Haber",
-    "streamUrl": "https://raw.githubusercontent.com/pinkisso/mored/refs/heads/main/res/ytbe/szcytbe.m3u8"
+    "streamUrl": "https://sozcutv-live.daioncdn.net/sozcutv/sozcutv.m3u8"
   },
   {
     "name": "TVNET",
@@ -201,7 +201,7 @@
     "name": "Haber61 TV",
     "url": "https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8",
     "category": "Haber",
-    "streamUrl": "https://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/playlist.m3u8"
+    "streamUrl": "https://cdn-haber61tv.yayin.com.tr/haber61tv/haber61tv/playlist.m3u8"
   },
   {
     "name": "IHA 1",
@@ -375,7 +375,7 @@
     "name": "Tay TV",
     "url": "https://www.taytv.com.tr/canli-yayin",
     "category": "Spor",
-    "streamUrl": "https://duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8"
+    "streamUrl": "https://tjktv-live.tjk.org/taytv/taytv.m3u8"
   },
   {
     "name": "beIN Sports Haber",
@@ -753,7 +753,7 @@
     "name": "Türkmeneli TV",
     "url": "https://www.turkmenelitv.com/",
     "category": "Ulusal",
-    "streamUrl": "https://135962.global.ssl.fastly.net/5ff366a512987e2c0a3dabfe/live_14378e1002eb11ef9cb025207067897a/index.fmp4.m3u8"
+    "streamUrl": "https://turkmeneli-live.b-cdn.net/hls/main2/playlist.m3u8"
   },
   {
     "name": "Kon TV",
@@ -6698,5 +6698,53 @@
     "url": "https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/chunks.m3u8",
     "category": "Ulusal",
     "streamUrl": "https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/playlist.m3u8"
+  },
+  {
+    "name": "TV 42",
+    "url": "https://canliyayin.tv42.com.tr/memfs/0c8c4bc7-550a-4239-8e3d-6f4d768391bb.m3u8",
+    "category": "Ulusal",
+    "streamUrl": "https://canliyayin.tv42.com.tr/memfs/0c8c4bc7-550a-4239-8e3d-6f4d768391bb.m3u8"
+  },
+  {
+    "name": "GRT",
+    "url": "https://live.artidijitalmedya.com/artidijital_grt/grt/chunks.m3u8",
+    "category": "Ulusal",
+    "streamUrl": "https://live.artidijitalmedya.com/artidijital_grt/grt/chunks.m3u8"
+  },
+  {
+    "name": "Karadeniz TV",
+    "url": "https://panel.5gtvhosting.com/hls/karadeniztv/karadeniztv.m3u8",
+    "category": "Ulusal",
+    "streamUrl": "https://panel.5gtvhosting.com/hls/karadeniztv/karadeniztv.m3u8"
+  },
+  {
+    "name": "Ordu BB TV",
+    "url": "https://cdn1-ordubeltv.yayin.com.tr/ordubeltv/ordubeltv/playlist.m3u8",
+    "category": "Ulusal",
+    "streamUrl": "https://cdn1-ordubeltv.yayin.com.tr/ordubeltv/ordubeltv/playlist.m3u8"
+  },
+  {
+    "name": "İzmir Time 35",
+    "url": "https://cdn-time35tv.yayin.com.tr/time35tv/time35tv/playlist.m3u8",
+    "category": "Ulusal",
+    "streamUrl": "https://cdn-time35tv.yayin.com.tr/time35tv/time35tv/playlist.m3u8"
+  },
+  {
+    "name": "Tokat TV",
+    "url": "https://cdn-tokattv.yayin.com.tr/tokattv/tokattv/chunklist.m3u8",
+    "category": "Ulusal",
+    "streamUrl": "https://cdn-tokattv.yayin.com.tr/tokattv/tokattv/chunklist.m3u8"
+  },
+  {
+    "name": "Haber Rize TV",
+    "url": "https://cdn4.yayin.com.tr/haberrize/tracks-v1a1/mono.m3u8",
+    "category": "Ulusal",
+    "streamUrl": "https://cdn4.yayin.com.tr/haberrize/tracks-v1a1/mono.m3u8"
+  },
+  {
+    "name": "KTV Konya",
+    "url": "https://cdn-ktvtv.yayin.com.tr/ktvtv/ktvtv/playlist.m3u8",
+    "category": "Ulusal",
+    "streamUrl": "https://cdn-ktvtv.yayin.com.tr/ktvtv/ktvtv/playlist.m3u8"
   }
 ]

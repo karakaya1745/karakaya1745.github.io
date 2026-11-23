@@ -1,5 +1,5 @@
 {
-  "_revision": 219,
+  "_revision": 220,
   "duyuru": [
     "https://karakaya1745.github.io/guncelleme_duyuru.m3u8"
   ],
@@ -490,12 +490,12 @@
     "https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e_1080p.m3u8"
   ],
   "cnnturk": [
+    "http://85.117.61.84/cnnturk/index.m3u8",
     "https://trn03.tulix.tv/gt-cnnturk-tv/index.m3u8?token=b3efebaa772494434d777e2a8c8efc43",
     "https://trn03.tulix.tv/gt-cnnturk-tv/index.m3u8?token=canlitvtr",
     "https://trn03.tulix.tv/gt-cnnturk-tv/index.m3u8?token=10a5253f5ee4a368d5ffae3e332099c8",
     "https://raw.githubusercontent.com/umitm0d/-mittube/refs/heads/main/Umittube/Cnn.m3u8",
-    "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6926/index.m3u8",
-    "http://85.117.61.84/cnnturk/index.m3u8"
+    "http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/6926/index.m3u8"
   ],
   "cnnturkradyo": [
     "https://moondigitaledge2.radyotvonline.net/cnnturk/playlist.m3u8"
@@ -921,6 +921,9 @@
   "greatesthitsofalltime": [
     "https://playerservices.streamtheworld.com/api/livestream-redirect/GHOAT_EN128AAC.aac?/;stream.mp3"
   ],
+  "grt": [
+    "https://live.artidijitalmedya.com/artidijital_grt/grt/chunks.m3u8"
+  ],
   "guneydogutv": [
     "https://edge.taksimbilisim.com/gtv/bant1/chunks.m3u8",
     "https://edge.taksimbilisim.com/gtv/bant1/playlist.m3u8",
@@ -946,6 +949,7 @@
     "https://gzttv-live.lg.mncdn.com/gzttv-live/gzttv/playlist.m3u8"
   ],
   "haber61tv": [
+    "https://cdn-haber61tv.yayin.com.tr/haber61tv/haber61tv/playlist.m3u8",
     "https://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/playlist.m3u8",
     "https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8"
   ],
@@ -954,6 +958,9 @@
     "https://ensonhaber-live.ercdn.net/haberglobal/haberglobal.m3u8",
     "https://tv.ensonhaber.com/haberglobal/haberglobal_720p.m3u8",
     "http://ensonhaber-live.ercdn.net/haberglobal/haberglobal_720p.m3u8"
+  ],
+  "haberrizetv": [
+    "https://cdn4.yayin.com.tr/haberrize/tracks-v1a1/mono.m3u8"
   ],
   "haberturk": [
     "https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv.m3u8",
@@ -1108,6 +1115,9 @@
   ],
   "izmirradyocagri": [
     "https://radyo.wlsrv.com:8604/stream?/;stream.mp3"
+  ],
+  "izmirtime35": [
+    "https://cdn-time35tv.yayin.com.tr/time35tv/time35tv/playlist.m3u8"
   ],
   "jestfm": [
     "https://stream.turkiyeradyolari.com:8098/stream"
@@ -1282,6 +1292,9 @@
   ],
   "karadenizslowtv": [
     "https://yayin.slowkaradeniztv.com:3390/hybrid/play.m3u8"
+  ],
+  "karadeniztv": [
+    "https://panel.5gtvhosting.com/hls/karadeniztv/karadeniztv.m3u8"
   ],
   "kardelentv": [
     "https://edge2.taksimbilisim.com/kardelentv/bant1/chunks.m3u8",
@@ -1474,6 +1487,9 @@
     "http://dygvideo.dygdigital.com/live/hls/kralpop",
     "http://dygvideo.dygdigital.com/live/hls/kralpop/playlist.m3u8",
     "http://dygvideo.dygdigital.com/live/hls/puhukralpopdai?m3u8"
+  ],
+  "ktvkonya": [
+    "https://cdn-ktvtv.yayin.com.tr/ktvtv/ktvtv/playlist.m3u8"
   ],
   "kuradyo": [
     "https://s3.radio.co/sdbea8450c/listen?/;stream.mp3"
@@ -1824,6 +1840,9 @@
   ],
   "omuradyo": [
     "https://omuradyo.ozelip.com/8042/stream?/;stream.mp3"
+  ],
+  "ordubbtv": [
+    "https://cdn1-ordubeltv.yayin.com.tr/ordubeltv/ordubeltv/playlist.m3u8"
   ],
   "ordufm": [
     "https://radyo.yayindakiler.com:8012/stream?/;stream.mp3"
@@ -2947,13 +2966,13 @@
     "https://live.kwikmotion.com/qmcslkrradiolive/slkrradio/playlist.m3u8"
   ],
   "sozcutv": [
-    "https://raw.githubusercontent.com/pinkisso/mored/refs/heads/main/res/ytbe/szcytbe.m3u8",
     "https://sozcutv-live.daioncdn.net/sozcutv/sozcutv.m3u8",
     "https://sozcutv-live.daioncdn.net/sozcutv/sozcutv_1080p.m3u8",
     "https://sozcutv-live.daioncdn.net/sozcutv/sozcutv_720p.m3u8",
     "https://trn03.tulix.tv/gt-sozcu-livetv/index.m3u8?token=b9b136447f039cce5dab614e0d25c5e7",
     "https://raw.githubusercontent.com/pinkisso/mored/refs/heads/main/res/26-3/szc0.m3u8",
-    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=540949&extension=ts&play_token=JOFxL2wUlR"
+    "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:5D:91:44&stream=540949&extension=ts&play_token=JOFxL2wUlR",
+    "https://raw.githubusercontent.com/pinkisso/mored/refs/heads/main/res/ytbe/szcytbe.m3u8"
   ],
   "sperfm": [
     "https://playerservices.streamtheworld.com/api/livestream-redirect/SUPER_FM_ITUNES.mp3"
@@ -3004,6 +3023,7 @@
     "https://yarenfmn.80.yayin.com.tr/stream"
   ],
   "taytv": [
+    "https://tjktv-live.tjk.org/taytv/taytv.m3u8",
     "https://duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8",
     "http://duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8",
     "https://live.duhnet.tv/S2/HLS_LIVE/taytvnp/playlist.m3u8",
@@ -3110,6 +3130,9 @@
   "tmbtv": [
     "https://str.yodacdn.net/tmb_tr_app/index.m3u8?token=tmb_app_token_13579",
     "https://str.yodacdn.net/tmb_tr_app/tracks-v1a1/mono.ts.m3u8?token=tmb_app_token_13579"
+  ],
+  "tokattv": [
+    "https://cdn-tokattv.yayin.com.tr/tokattv/tokattv/chunklist.m3u8"
   ],
   "tontv": [
     "https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8",
@@ -3286,10 +3309,7 @@
     "https://edge1.taksimbilisim.com/turkhaber/bant1/playlist.m3u8"
   ],
   "turkmenelitv": [
-    "https://135962.global.ssl.fastly.net/5ff366a512987e2c0a3dabfe/live_14378e1002eb11ef9cb025207067897a/index.fmp4.m3u8",
-    "https://135962.global.ssl.fastly.net/5ff366a512987e2c0a3dabfe/live_14378e1002eb11ef9cb025207067897a/playlist.m3u8",
-    "https://stream-135962.castr.net/5ff366a512987e2c0a3dabfe/live_14378e1002eb11ef9cb025207067897a/index.fmp4.m3u8",
-    "https://stream-135962.castr.net/5ff366a512987e2c0a3dabfe/live_14378e1002eb11ef9cb025207067897a/tracks-v1/index.fmp4.m3u8"
+    "https://turkmeneli-live.b-cdn.net/hls/main2/playlist.m3u8"
   ],
   "turkuradyo": [
     "https://yayin.turkhosted.com/4591/stream"
@@ -3334,6 +3354,9 @@
   "tv41": [
     "https://live.artidijitalmedya.com/artidijital_tv41/tv41/playlist.m3u8",
     "https://live.artidijitalmedya.com/artidijital_tv41/tv41/chunks.m3u8"
+  ],
+  "tv42": [
+    "https://canliyayin.tv42.com.tr/memfs/0c8c4bc7-550a-4239-8e3d-6f4d768391bb.m3u8"
   ],
   "tv5": [
     "https://radyotelekomtv.com/player/m3u8/d38a38af9446339ff2540c460955f115/d38a38af9446339ff2540c460955f115.m3u8",
