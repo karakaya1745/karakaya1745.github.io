@@ -920,8 +920,6 @@ https://zweiapp.b-cdn.net/720p/index.m3u8
 https://zweiapp.b-cdn.net/480p/index.m3u8
 #EXTINF:-1 tvg-id="tv-zwei-music-television" tvg-name="Zwei Music Television" group-title="music",Zwei Music Television (4)
 https://zweiapp.b-cdn.net/master.m3u8
-#EXTINF:-1 tvg-id="tv-finest-tv" tvg-name="Finest TV" group-title="music",Finest TV (1)
-https://media.finest.tv/hls/live.m3u8
 #EXTINF:-1 tvg-id="tv-n24-doku" tvg-name="N24 Doku" group-title="documentary",N24 Doku (1)
 https://broadcast.n24-doku.personalstream.tv/ses/hls/live/2107300/n24-doku-live/master.m3u8
 #EXTINF:-1 tvg-id="tv-n24-doku" tvg-name="N24 Doku" group-title="documentary",N24 Doku (2)
@@ -1308,8 +1306,6 @@ https://telegold.iptv-playoutcenter.de/telegold/telegold1/playlist.m3u8
 https://telegold.iptv-playoutcenter.de/telegold/telegold-sat1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-kaufbei-tv" tvg-name="KaufBei TV" group-title="shopping",KaufBei TV (1)
 https://elephant.t62a.com/hls/8103/index.m3u8
-#EXTINF:-1 tvg-id="tv-meietv" tvg-name="MeieTV" group-title="shopping",MeieTV (1)
-https://stream.meietv.de/live/meietv.m3u8
 #EXTINF:-1 tvg-id="tv-qvc-style" tvg-name="QVC Style" group-title="shopping",QVC Style (1)
 https://qvcde-live.akamaized.net/hls/live/2097104/qby/master.m3u8
 #EXTINF:-1 tvg-id="tv-qvc-zwei" tvg-name="QVC Zwei" group-title="shopping",QVC Zwei (1)

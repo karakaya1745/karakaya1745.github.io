@@ -286,7 +286,6 @@ const TV_MUSIC = pinList("TV music", [
   "Folx Music Television",
   "One Music Television",
   "Zwei Music Television",
-  "Finest TV",
 ]);
 
 const TV_SHOPPING = pinList("TV shopping", [
@@ -298,7 +297,6 @@ const TV_SHOPPING = pinList("TV shopping", [
   "Shop LC Deutschland",
   "Telegold",
   "KaufBei TV",
-  "MeieTV",
   "QVC Style",
   "QVC Zwei",
   "1-2-3.tv",

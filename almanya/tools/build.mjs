@@ -37,6 +37,7 @@
  *        almanya/sources/onay-2026-11-09.csv (9 Kasım; Melodie TV çıkar)
  *        almanya/sources/onay-2026-11-13.csv (13 Kasım; BR Schlager, 0nlineradio 70s, RPR1, Absolut relax, Sophia TV ES/FR)
  *        almanya/sources/onay-2026-11-18.csv (18 Kasım; canlı kalan linkler durur, MDR Klassik avw yedeği)
+ *        almanya/sources/onay-2026-11-23.csv (23 Kasım; Finest TV, MeieTV, Hitradio Ohr edge67)
  * Ölü (failed) ve denenmemiş (untested) linkler yayınlanmaz.
  * geo-blocked (403) ve "sadece Almanya" linkler kalır; geo_de_only ile işaretlenir.
  * Katalogda olan URL yeniden eklenmez. Yeni link uydurulmaz.
@@ -69,6 +70,7 @@ import { applyNovember8 } from "./apply-2026-11-08.mjs";
 import { applyNovember9 } from "./apply-2026-11-09.mjs";
 import { applyNovember13 } from "./apply-2026-11-13.mjs";
 import { applyNovember18 } from "./apply-2026-11-18.mjs";
+import { applyNovember23 } from "./apply-2026-11-23.mjs";
 
 const DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SOURCES = path.join(DIR, "sources");
@@ -866,6 +868,7 @@ function loadCatalog() {
   const onay1109 = applyNovember9(channels);
   const onay1113 = applyNovember13(channels);
   const onay1118 = applyNovember18(channels);
+  const onay1123 = applyNovember23(channels);
   const grouped = orderCatalog(channels);
   const previous = readJsonIfExists(path.join(DIR, "channels.json"));
   assignIds(grouped, previous?.channels);
@@ -907,6 +910,7 @@ function loadCatalog() {
     onay1109,
     onay1113,
     onay1118,
+    onay1123,
   };
 }
 
@@ -1207,6 +1211,14 @@ function main() {
     `[almanya] onay-2026-11-18: +${onay1118.addedLinks || 0} link, ` +
       `-${onay1118.removedLinks || 0} link, yinelenen ${onay1118.skippedDupes || 0}`,
   );
+  const onay1123 = catalog.onay1123 || {};
+  console.log(
+    `[almanya] onay-2026-11-23: -${onay1123.removedChannels || 0} kanal, ` +
+      `-${onay1123.removedLinks || 0} link, korunan ${onay1123.keptLinks || 0}`,
+  );
+  if (onay1123.removedChannelNames?.length) {
+    console.log(`[almanya] çıkarılan kanal: ${onay1123.removedChannelNames.join(", ")}`);
+  }
   console.log(`[almanya] sha256=${hash}`);
   if (catalog.dropped.length) {
     console.log(`[almanya] canlı linki kalmadığı için çıkarılanlar: ${catalog.dropped.join(", ")}`);
