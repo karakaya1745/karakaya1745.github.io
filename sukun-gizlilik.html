@@ -13,64 +13,78 @@ footer{margin-top:36px;font-size:.85em;color:#6b6b6b;border-top:1px solid #ddd;p
 </head>
 <body>
 <h1>Sükun – Gizlilik Politikası</h1>
-<p class="tarih">Son güncelleme: 9 Kasım 2026 · Uygulama sürümü: 2.2.0 · Uygulama paket adı: com.sukunn.app</p>
+<p class="tarih">Son güncelleme: 24 Kasım 2026 · Uygulama sürümü: 2.2.15 · Uygulama paket adı: com.sukunn.app</p>
 
 <p>Bu gizlilik politikası, Mücahid Karakaya tarafından geliştirilen <b>Sükun</b> Android uygulamasının (“Uygulama”) hangi bilgileri nasıl kullandığını açıklar. Uygulamayı kullanarak bu politikayı kabul etmiş olursunuz.</p>
 
 <h2>1. Geliştiricinin topladığı veriler</h2>
-<p>Sükun; hesap, üyelik veya giriş gerektirmez. Adınız, e-posta adresiniz, telefon numaranız gibi kişisel bilgiler istenmez ve geliştirici tarafından toplanmaz. Geliştiricinin kendi sunucusuna hiçbir veri gönderilmez. Uygulama, 2.1.0 sürümünden itibaren reklam göstermektedir; reklamlar Google AdMob tarafından sunulur ve bu kapsamdaki veri işleme aşağıdaki 2. bölümde açıklanmıştır.</p>
+<p>Sükun; hesap, üyelik veya giriş gerektirmez. Adınız, e-posta adresiniz, telefon numaranız gibi kişisel bilgiler istenmez ve geliştirici tarafından toplanmaz. Yalnızca isteğe bağlı <b>Online Hatim/Dua halkaları</b> özelliğini kullandığınızda, bu özelliğin çalışması için gereken sınırlı bilgiler geliştiricinin sunucusuna gönderilir (bkz. 2. bölüm); bunun dışında geliştiricinin sunucusuna kişisel veri gönderilmez. Uygulama, 2.1.0 sürümünden itibaren reklam göstermektedir; reklamlar Google AdMob tarafından sunulur ve bu kapsamdaki veri işleme aşağıdaki 3. bölümde açıklanmıştır.</p>
 
-<h2>2. Reklamlar (Google AdMob)</h2>
-<p>Uygulamanın ücretsiz kalabilmesi için ekranın altında bir banner reklam gösterilir. Reklamlar Google LLC'nin <b>Google AdMob</b> hizmeti tarafından sunulur. Reklamların gösterilmesi, reklam sıklığının sınırlandırılması, sahtekârlık ve kötüye kullanımın önlenmesi ve reklam performansının ölçülmesi (analiz) amacıyla Google AdMob cihazınızdan şu bilgileri toplayabilir ve işleyebilir:</p>
+<h2>2. Online Hatim/Dua halkaları</h2>
+<p>Online halka özelliğini kullandığınızda (halka oluşturma, halkaya katılma, cüz alma, “okudum” ve “âmin” işlemleri) aşağıdaki bilgiler geliştiricinin sunucusuna (<b>89.252.153.157</b>) gönderilir ve halkanın işleyişi için saklanır:</p>
 <ul>
-<li>reklam kimliği (Android Advertising ID) gibi cihaz tanımlayıcıları,</li>
-<li>IP adresi ve IP adresinden türetilen yaklaşık konum,</li>
-<li>cihaz ve uygulama bilgileri (ör. cihaz modeli, işletim sistemi sürümü, dil),</li>
-<li>reklamlarla etkileşim ve kullanım verileri (ör. reklamın gösterilmesi, reklama dokunma).</li>
+<li>uygulamanın cihazınızda rastgele oluşturduğu, adınız veya hesabınızla ilişkilendirilmeyen bir kimlik (UUID),</li>
+<li>oluşturduğunuz halkanın açıklaması, isteğe bağlı isim ve niyet metni, başlangıç/bitiş tarihi ve hedef bilgisi,</li>
+<li>cüz alma, cüz bırakma, “okudum” ve “âmin” işlemleri ile bunların zamanı.</li>
 </ul>
+<p>Halka bilgileri (açıklama, isim, niyet ve ilerleme) <b>diğer kullanıcılara görünür</b>; bu alanlara paylaşılmasını istemediğiniz kişisel bilgiler yazmayın. Oluşturduğunuz halkayı uygulama içinden silebilirsiniz; diğer silme talepleriniz için 11. bölümdeki e-posta adresine yazabilirsiniz.</p>
+<p><b>Şifreleme:</b> Halka sunucusuna gönderilen bu bilgiler şu anda şifrelenmeden (HTTP) iletilmektedir. Bağlantının şifreli (HTTPS) hâle getirilmesi planlanmaktadır.</p>
+<p>Bir davet bağlantısıyla uygulamayı yüklediğinizde, halka kodu Google Play yükleme yönlendiricisinden (Install Referrer) yalnızca cihazınızda okunur; bu bilgi herhangi bir sunucuya gönderilmez.</p>
+
+<h2>3. Reklamlar (Google AdMob)</h2>
+<p>Uygulamanın ücretsiz kalabilmesi için ekranın altında bir banner reklam gösterilir. Reklamlar Google LLC'nin <b>Google AdMob</b> hizmeti tarafından sunulur. Reklamların gösterilmesi, reklam sıklığının sınırlandırılması, sahtekârlık ve kötüye kullanımın önlenmesi ve reklam performansının ölçülmesi (analiz) amacıyla uygulamadaki Google Mobile Ads SDK, reklam, analiz ve sahtekârlığın önlenmesi amacıyla cihazınızdan şu bilgileri otomatik olarak toplar ve Google ile paylaşır:</p>
+<ul>
+<li>reklam kimliği (Android Advertising ID), uygulama grubu kimliği (app set ID) ve varsa cihazdaki oturum açılmış hesaplarla ilgili diğer tanımlayıcılar,</li>
+<li>IP adresi ve IP adresinden türetilen yaklaşık konum,</li>
+<li>uygulama ve reklam etkileşimleri (ör. uygulamanın açılması, dokunmalar, reklam ve video görüntülemeleri),</li>
+<li>uygulama ve SDK performansıyla ilgili teşhis bilgileri (ör. açılış süresi, donma oranı, enerji kullanımı) ile cihaz ve uygulama bilgileri (ör. cihaz modeli, işletim sistemi sürümü, dil).</li>
+</ul>
+<p>Google Mobile Ads SDK'nın topladığı veriler TLS ile şifrelenerek iletilir.</p>
 <p><b>Onay:</b> Avrupa Ekonomik Alanı (AEA), Birleşik Krallık ve İsviçre'deki kullanıcılardan, Google'ın Kullanıcı Mesajlaşma Platformu (UMP) aracılığıyla, uygulama açıldığında reklam ve veri kullanımı için onay istenir. Reklamlar yalnızca bu onay süreci tamamlandıktan sonra yüklenir. Seçiminizi istediğiniz zaman uygulamadaki <b>Ayarlar → İçerik kaynakları → Gizlilik seçenekleri</b> bölümünden değiştirebilirsiniz (bu seçenek, bölgenizde gerekli olduğunda görünür).</p>
 <p><b>Reklam kimliği:</b> Reklam kimliğinizi cihazınızın ayarlarından (Ayarlar → Gizlilik → Reklamlar / Google → Reklamlar) istediğiniz zaman sıfırlayabilir veya silebilir, kişiselleştirilmiş reklamları devre dışı bırakabilirsiniz.</p>
 <p>Google'ın verileri nasıl kullandığı hakkında ayrıntılı bilgi için: <a href="https://policies.google.com/technologies/ads">Google reklam teknolojileri</a> ve <a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a>.</p>
 
-<h2>3. Konum bilgisi</h2>
-<p>Namaz vakitlerini ve kıble yönünü bulunduğunuz yere göre hesaplamak için, yalnızca izin verirseniz cihazınızın konumu kullanılır. Konum cihazınızda işlenir ve saklanmaz. İl/ilçe ve vakit bilgisini almak için yaklaşık konum (enlem/boylam) aşağıda belirtilen üçüncü taraf servislere iletilebilir. Konum izni vermeden il ve ilçeyi elle seçerek de uygulamayı kullanabilirsiniz.</p>
+<h2>4. Konum bilgisi</h2>
+<p>Namaz vakitlerini ve kıble yönünü bulunduğunuz yere göre hesaplamak için, yalnızca izin verirseniz cihazınızın konumu kullanılır. Konum geliştirici tarafından saklanmaz ve geliştiricinin sunucusuna gönderilmez. Türkiye'de en yakın Diyanet ilçesi cihazınızda bulunur ve servislere yalnızca ilçe kodu gönderilir. Türkiye dışında veya yakında bir Diyanet ilçesi bulunamadığında, konumunuzun <b>tam enlem/boylam</b> bilgisi vakit hesabı için api.aladhan.com'a, yer adını bulmak için ise Android/Google konum çözümleme (geocoder) servisine iletilebilir. Konum izni vermeden il ve ilçeyi elle seçerek de uygulamayı kullanabilirsiniz.</p>
 
-<h2>4. Kullanılan üçüncü taraf servisler</h2>
+<h2>5. Kullanılan üçüncü taraf servisler</h2>
 <p>Uygulama, içerik ve vakit bilgisi almak için aşağıdaki herkese açık servislere internet üzerinden bağlanır. Bu bağlantılarda cihazınızın IP adresi, internetin doğası gereği ilgili servis tarafından görülebilir. Bu servislerin kendi gizlilik politikaları geçerlidir.</p>
 <ul>
 <li>awqatsalah.diyanet.gov.tr – Diyanet İşleri Başkanlığı resmî namaz vakitleri servisi (birincil kaynak). Bu servise uygulamaya ait bir hizmet hesabıyla bağlanılır; sizin adınıza bir hesap açılmaz ve kişisel bilgi gönderilmez, yalnızca seçtiğiniz şehrin Diyanet kodu ile o şehrin aylık vakitleri istenir.</li>
 <li>ezanvakti.emushaf.net – Diyanet namaz vakitleri (resmî servis yanıt vermezse yedek)</li>
-<li>api.aladhan.com – yedek namaz vakti hesaplama</li>
-<li>nominatim.openstreetmap.org – konumdan il/ilçe adını bulma</li>
+<li>api.aladhan.com – Türkiye dışı ve yedek namaz vakti hesaplama (konum kullanıldığında tam enlem/boylam gönderilir)</li>
+<li>nominatim.openstreetmap.org – seçtiğiniz il/ilçe adından koordinat bulma (yalnızca yer adı gönderilir, konumunuz gönderilmez)</li>
+<li>Android/Google konum çözümleme (geocoder) – konumdan yer adını bulma</li>
 <li>everyayah.com – Kur'an-ı Kerim ses kayıtları</li>
-<li>Google AdMob ve Google Kullanıcı Mesajlaşma Platformu (UMP) – reklamlar ve reklam onayı (bkz. 2. bölüm)</li>
+<li>89.252.153.157 (geliştiricinin sunucusu) ve Cloudflare R2 – Hatim ses dosyaları (yalnızca dosya istenir, kişisel bilgi gönderilmez) ve Online halka sunucusu (bkz. 2. bölüm)</li>
+<li>Google AdMob ve Google Kullanıcı Mesajlaşma Platformu (UMP) – reklamlar ve reklam onayı (bkz. 3. bölüm)</li>
 </ul>
 
-<h2>5. Cihazda saklanan bilgiler</h2>
+<h2>6. Cihazda saklanan bilgiler</h2>
 <p>Seçtiğiniz şehir, bildirim, sessiz mod, ana ekran aracı ve kilit ekranı ayarları, Hatim'de kaldığınız sayfa ve çevrimdışı kullanım için indirilen aylık vakitler yalnızca cihazınızda saklanır. Uygulamayı kaldırdığınızda bu bilgiler silinir.</p>
 
-<h2>6. İzinler</h2>
+<h2>7. İzinler</h2>
 <ul>
 <li><b>Konum:</b> bulunduğunuz yere göre vakit ve kıble için (isteğe bağlı).</li>
 <li><b>Bildirimler ve tam zamanlı alarm:</b> vakit hatırlatmaları ve “vakit çıkıyor” uyarıları için.</li>
 <li><b>Rahatsız Etmeyin erişimi:</b> yalnızca açarsanız, namaz sırasında telefonu otomatik sessize almak için.</li>
 <li><b>Cihaz açılışında çalışma:</b> telefon yeniden başlayınca hatırlatmaları yeniden kurmak için.</li>
-<li><b>İnternet:</b> vakit ve ses içeriğini almak ve reklamları göstermek için.</li>
-<li><b>Reklam kimliği (AD_ID):</b> Google AdMob'un reklam göstermesi ve ölçümü için (bkz. 2. bölüm).</li>
+<li><b>İnternet:</b> vakit ve ses içeriğini almak, Online halka özelliğini çalıştırmak ve reklamları göstermek için.</li>
+<li><b>Reklam kimliği (AD_ID):</b> Google AdMob'un reklam göstermesi ve ölçümü için (bkz. 3. bölüm).</li>
 <li><b>Duvar kağıdı ayarlama:</b> yalnızca siz isterseniz, ayet içeren kilit ekranı duvar kağıdını ayarlamak için.</li>
 </ul>
 
-<h2>7. Paylaşım</h2>
-<p>Ayet, hadis ve dua kartlarını paylaştığınızda kart görseli yalnızca sizin seçtiğiniz uygulamaya (ör. WhatsApp) sizin isteğinizle gönderilir.</p>
+<h2>8. Paylaşım</h2>
+<p>Ayet, hadis ve dua kartlarını paylaştığınızda kart görseli yalnızca sizin seçtiğiniz uygulamaya (ör. WhatsApp) sizin isteğinizle gönderilir. Online halka davet bağlantıları da yalnızca sizin seçtiğiniz uygulamayla paylaşılır.</p>
 
-<h2>8. Çocukların gizliliği</h2>
-<p>Geliştirici, 13 yaşından küçük çocuklar dahil hiçbir kullanıcıdan bilerek kişisel veri toplamaz. Reklam ortağımız Google AdMob'un veri işlemesi 2. bölümde açıklanmıştır.</p>
+<h2>9. Çocukların gizliliği</h2>
+<p>Geliştirici, 13 yaşından küçük çocuklar dahil hiçbir kullanıcıdan bilerek kişisel veri toplamaz. Reklam ortağımız Google AdMob'un veri işlemesi 3. bölümde açıklanmıştır.</p>
 
-<h2>9. Değişiklikler</h2>
+<h2>10. Değişiklikler</h2>
 <p>Bu politika güncellenebilir. Güncel sürüm her zaman bu sayfada yayımlanır.</p>
 
-<h2>10. İletişim</h2>
-<p>Sorularınız için: <a href="https://github.com/karakaya1745">github.com/karakaya1745</a></p>
+<h2>11. İletişim</h2>
+<p>Sorularınız ve veri silme talepleriniz için: <a href="mailto:karakaya1745@gmail.com">karakaya1745@gmail.com</a> · <a href="https://github.com/karakaya1745">github.com/karakaya1745</a></p>
 
 <footer>© 2026 Sükun · Mücahid Karakaya</footer>
 </body>
