@@ -33,24 +33,26 @@ https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master_960p_1600.m3u8
 #EXTINF:-1 tvg-id="tv-das-erste" tvg-name="Das Erste" group-title="public",Das Erste (16)
 https://daserste-live.ard-mcdn.de/daserste/replay/dash/de/manifest.mpd
 #EXTINF:-1 tvg-id="tv-zdf" tvg-name="ZDF" group-title="public",ZDF (1)
-https://zdf-hls-15.akamaized.net/hls/live/2016498/de/veryhigh/master.m3u8
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/zdf/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-zdf" tvg-name="ZDF" group-title="public",ZDF (2)
-https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8
+https://zdf-hls-15.akamaized.net/hls/live/2016498/de/veryhigh/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf" tvg-name="ZDF" group-title="public",ZDF (3)
-https://zdf-hls-15.akamaized.net/hls/live/2016498/de/med/master.m3u8
+https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf" tvg-name="ZDF" group-title="public",ZDF (4)
-https://zdf-hls-15.akamaized.net/hls/live/2016498/de/low/master.m3u8
+https://zdf-hls-15.akamaized.net/hls/live/2016498/de/med/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf" tvg-name="ZDF" group-title="public",ZDF (5)
-https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/veryhigh/master.m3u8
+https://zdf-hls-15.akamaized.net/hls/live/2016498/de/low/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf" tvg-name="ZDF" group-title="public",ZDF (6)
-https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/high/master.m3u8
+https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/veryhigh/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf" tvg-name="ZDF" group-title="public",ZDF (7)
-https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/med/master.m3u8
+https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/high/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf" tvg-name="ZDF" group-title="public",ZDF (8)
-https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/low/master.m3u8
+https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/med/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf" tvg-name="ZDF" group-title="public",ZDF (9)
-https://zdf-hls-01.akamaized.net/hls/live/2016498/de/de/master.m3u8
+https://zdf-hls-15.akamaized.net/hls/live/2016498/dach/low/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf" tvg-name="ZDF" group-title="public",ZDF (10)
+https://zdf-hls-01.akamaized.net/hls/live/2016498/de/de/master.m3u8
+#EXTINF:-1 tvg-id="tv-zdf" tvg-name="ZDF" group-title="public",ZDF (11)
 https://zdf-dash-15.akamaized.net/dash/live/2016508/de/manifest.mpd
 #EXTINF:-1 tvg-id="tv-3sat" tvg-name="3sat" group-title="public",3sat (1)
 https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/veryhigh/master.m3u8
@@ -175,40 +177,44 @@ https://kika-live.ard-mcdn.de/kika/live/dash/de/manifest.mpd
 #EXTINF:-1 tvg-id="tv-kika" tvg-name="KIKA" group-title="public",KIKA (21)
 https://kika-live.ard-mcdn.de/kika/live/hls/de/master540p1600.m3u8
 #EXTINF:-1 tvg-id="tv-zdf-neo" tvg-name="ZDF Neo" group-title="public",ZDF Neo (1)
-https://zdf-hls-16.akamaized.net/hls/live/2016499/de/veryhigh/master.m3u8
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/zdfneo/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-zdf-neo" tvg-name="ZDF Neo" group-title="public",ZDF Neo (2)
-https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8
+https://zdf-hls-16.akamaized.net/hls/live/2016499/de/veryhigh/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf-neo" tvg-name="ZDF Neo" group-title="public",ZDF Neo (3)
-https://zdf-hls-16.akamaized.net/hls/live/2016499/de/med/master.m3u8
+https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf-neo" tvg-name="ZDF Neo" group-title="public",ZDF Neo (4)
-https://zdf-hls-16.akamaized.net/hls/live/2016499/de/low/master.m3u8
+https://zdf-hls-16.akamaized.net/hls/live/2016499/de/med/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf-neo" tvg-name="ZDF Neo" group-title="public",ZDF Neo (5)
-https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/veryhigh/master.m3u8
+https://zdf-hls-16.akamaized.net/hls/live/2016499/de/low/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf-neo" tvg-name="ZDF Neo" group-title="public",ZDF Neo (6)
-https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/high/master.m3u8
+https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/veryhigh/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf-neo" tvg-name="ZDF Neo" group-title="public",ZDF Neo (7)
-https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/med/master.m3u8
+https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/high/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf-neo" tvg-name="ZDF Neo" group-title="public",ZDF Neo (8)
-https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/low/master.m3u8
+https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/med/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf-neo" tvg-name="ZDF Neo" group-title="public",ZDF Neo (9)
+https://zdf-hls-16.akamaized.net/hls/live/2016499/dach/low/master.m3u8
+#EXTINF:-1 tvg-id="tv-zdf-neo" tvg-name="ZDF Neo" group-title="public",ZDF Neo (10)
 https://zdf-dash-16.akamaized.net/dash/live/2016509/de/manifest.mpd
 #EXTINF:-1 tvg-id="tv-zdf-info" tvg-name="ZDF Info" group-title="public",ZDF Info (1)
-https://zdf-hls-17.akamaized.net/hls/live/2016500/de/veryhigh/master.m3u8
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/zdfinfo/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-zdf-info" tvg-name="ZDF Info" group-title="public",ZDF Info (2)
-https://zdf-hls-17.akamaized.net/hls/live/2016500/de/high/master.m3u8
+https://zdf-hls-17.akamaized.net/hls/live/2016500/de/veryhigh/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf-info" tvg-name="ZDF Info" group-title="public",ZDF Info (3)
-https://zdf-hls-17.akamaized.net/hls/live/2016500/de/med/master.m3u8
+https://zdf-hls-17.akamaized.net/hls/live/2016500/de/high/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf-info" tvg-name="ZDF Info" group-title="public",ZDF Info (4)
-https://zdf-hls-17.akamaized.net/hls/live/2016500/de/low/master.m3u8
+https://zdf-hls-17.akamaized.net/hls/live/2016500/de/med/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf-info" tvg-name="ZDF Info" group-title="public",ZDF Info (5)
-https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/veryhigh/master.m3u8
+https://zdf-hls-17.akamaized.net/hls/live/2016500/de/low/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf-info" tvg-name="ZDF Info" group-title="public",ZDF Info (6)
-https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/high/master.m3u8
+https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/veryhigh/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf-info" tvg-name="ZDF Info" group-title="public",ZDF Info (7)
-https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/med/master.m3u8
+https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/high/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf-info" tvg-name="ZDF Info" group-title="public",ZDF Info (8)
-https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/low/master.m3u8
+https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/med/master.m3u8
 #EXTINF:-1 tvg-id="tv-zdf-info" tvg-name="ZDF Info" group-title="public",ZDF Info (9)
+https://zdf-hls-17.akamaized.net/hls/live/2016500/dach/low/master.m3u8
+#EXTINF:-1 tvg-id="tv-zdf-info" tvg-name="ZDF Info" group-title="public",ZDF Info (10)
 https://zdf-dash-17.akamaized.net/dash/live/2016510/de/manifest.mpd
 #EXTINF:-1 tvg-id="tv-one" tvg-name="One" group-title="public",One (1)
 https://mcdn-one.ard.de/ardone/hls/master.m3u8
@@ -1010,6 +1016,8 @@ https://stream01.welocal.stream/stream/fhd-frankenplus_119/ngrp:stream_all/chunk
 https://stream01.welocal.stream/stream/fhd-frankenplus_119/ngrp:stream_all/chunklist_b446000.m3u8
 #EXTINF:-1 tvg-id="tv-muenchen-tv" tvg-name="München TV" group-title="yerel",München TV (1)
 https://stream02.welocal.stream/stream/fhd-muenchentv_646215/ngrp:stream_all/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-muenchen-tv" tvg-name="München TV" group-title="yerel",München TV (2)
+https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-niederbayern-tv-deggendorf-straubing" tvg-name="Niederbayern TV Deggendorf-Straubing" group-title="yerel",Niederbayern TV Deggendorf-Straubing (1)
 https://stream03.welocal.stream/stream/fhd-nbydeggendorf_99148/ngrp:stream_all/index.m3u8
 #EXTINF:-1 tvg-id="tv-niederbayern-tv-deggendorf-straubing" tvg-name="Niederbayern TV Deggendorf-Straubing" group-title="yerel",Niederbayern TV Deggendorf-Straubing (2)
@@ -1044,6 +1052,8 @@ https://stream03.welocal.stream/stream/fhd-nbypassau_49171/ngrp:stream_all/chunk
 https://stream03.welocal.stream/stream/sat-nby/ngrp:sat-nby.stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-oberpfalz-tv" tvg-name="Oberpfalz TV" group-title="yerel",Oberpfalz TV (1)
 https://stream04.welocal.stream/stream/fhd-otv_496277/ngrp:stream_all/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-oberpfalz-tv" tvg-name="Oberpfalz TV" group-title="yerel",Oberpfalz TV (2)
+https://oberpfalztv.iptv-playoutcenter.de/oberpfalztv/oberpfalztv.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-rfo-regional-fernsehen-oberbayern" tvg-name="RFO Regional Fernsehen Oberbayern" group-title="yerel",RFO Regional Fernsehen Oberbayern (1)
 https://stream01.welocal.stream/stream/fhd-rfo_66876/ngrp:stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-rfo-regional-fernsehen-oberbayern" tvg-name="RFO Regional Fernsehen Oberbayern" group-title="yerel",RFO Regional Fernsehen Oberbayern (2)
@@ -1060,10 +1070,16 @@ https://stream01.welocal.stream/stream/fhd-tvingolstadt_44349/ngrp:stream_all/ch
 https://stream01.welocal.stream/stream/fhd-tvmainfranken_255661/ngrp:stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-tv-mainfranken" tvg-name="TV Mainfranken" group-title="yerel",TV Mainfranken (2)
 https://stream01.welocal.stream/stream/fhd-tvmainfranken_255661/ngrp:stream_all/chunklist_b946000.m3u8
+#EXTINF:-1 tvg-id="tv-tv-mainfranken" tvg-name="TV Mainfranken" group-title="yerel",TV Mainfranken (3)
+https://tvtouringw.iptv-playoutcenter.de/tvtouringw/tvtouringw.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-tv-oberfranken" tvg-name="TV Oberfranken" group-title="yerel",TV Oberfranken (1)
 https://stream02.welocal.stream/stream/fhd-tvo_480355/ngrp:stream_all/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-tv-oberfranken" tvg-name="TV Oberfranken" group-title="yerel",TV Oberfranken (2)
+https://tvoberfranken.iptv-playoutcenter.de/tvoberfranken/tvoberfranken.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-tva-ostbayern" tvg-name="TVA Ostbayern" group-title="yerel",TVA Ostbayern (1)
 https://stream02.welocal.stream/stream/fhd-tvaktuell_385673/ngrp:stream_all/playlist.m3u8
+#EXTINF:-1 tvg-id="tv-tva-ostbayern" tvg-name="TVA Ostbayern" group-title="yerel",TVA Ostbayern (2)
+https://tvaktuellr.iptv-playoutcenter.de/tvaktuellr/tvaktuellr.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-alex-berlin" tvg-name="ALEX Berlin" group-title="yerel",ALEX Berlin (1)
 https://alex-stream.rosebud-media.de/bounce/alexlivetv50.smil/index.m3u8
 #EXTINF:-1 tvg-id="tv-alex-berlin" tvg-name="ALEX Berlin" group-title="yerel",ALEX Berlin (2)
@@ -1096,8 +1112,6 @@ https://h058.video-stream-hosting.de/ev1tv-live/_definst_/mp4:stream1.stream/pla
 https://h058.video-stream-hosting.de/ev1tv-live/_definst_/stream1.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-oldenburg-eins" tvg-name="oldenburg eins" group-title="yerel",oldenburg eins (1)
 https://cdn.oeins.de/index.m3u8
-#EXTINF:-1 tvg-id="tv-radio-21-tv" tvg-name="Radio 21 TV" group-title="yerel",Radio 21 TV (1)
-https://live.creacast.com/radio21/smil:radio21.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-tv38-suedost-niedersachsen" tvg-name="TV38 Südost-Niedersachsen" group-title="yerel",TV38 Südost-Niedersachsen (1)
 https://h057.video-stream-hosting.de/tv38-live/_definst_/smil:livestream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-nrwision" tvg-name="NRWision" group-title="yerel",NRWision (1)
@@ -1160,6 +1174,8 @@ https://sachsen1.iptv-playoutcenter.de/sachsen1/sachsen1.stream_1/playlist.m3u8
 https://sachsen1.iptv-playoutcenter.de/sachsen1/sachsen1.stream_1/chunks.m3u8
 #EXTINF:-1 tvg-id="tv-sachsen-eins" tvg-name="Sachsen Eins" group-title="yerel",Sachsen Eins (3)
 https://stream.sachsen-media.de/sachsen-media-sachseneins/mp3-192?ref=radio-browser
+#EXTINF:-1 tvg-id="tv-sachsen-eins" tvg-name="Sachsen Eins" group-title="yerel",Sachsen Eins (4)
+https://sachsen-media.stream29.radiohost.de/sachsen-media-sachseneins_mp3-192
 #EXTINF:-1 tvg-id="tv-sachsen-fernsehen-chemnitz" tvg-name="Sachsen Fernsehen Chemnitz" group-title="yerel",Sachsen Fernsehen Chemnitz (1)
 https://chemnitz.iptv-playoutcenter.de/chemnitz/chemnitzfernsehen.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="tv-sachsen-fernsehen-dresden" tvg-name="Sachsen Fernsehen Dresden" group-title="yerel",Sachsen Fernsehen Dresden (1)

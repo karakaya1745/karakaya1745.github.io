@@ -1,0 +1,18 @@
+kanal,link,durum,kaynak,tur
+ZDF,https://r.eu.cdn-redge.media/livehls/oeu/mt/live/zdf/live.livx/playlist.m3u8,200 playlist,24 Kasım onay,yedek
+ZDF Info,https://r.eu.cdn-redge.media/livehls/oeu/mt/live/zdfinfo/live.livx/playlist.m3u8,200 playlist,24 Kasım onay,yedek
+ZDF Neo,https://r.eu.cdn-redge.media/livehls/oeu/mt/live/zdfneo/live.livx/playlist.m3u8,200 playlist,24 Kasım onay,yedek
+München TV,https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist.m3u8,200 playlist,24 Kasım onay,yedek
+Oberpfalz TV,https://oberpfalztv.iptv-playoutcenter.de/oberpfalztv/oberpfalztv.stream_1/playlist.m3u8,200 playlist,24 Kasım onay,yedek
+TV Mainfranken,https://tvtouringw.iptv-playoutcenter.de/tvtouringw/tvtouringw.stream_1/playlist.m3u8,200 playlist,24 Kasım onay,yedek
+TV Oberfranken,https://tvoberfranken.iptv-playoutcenter.de/tvoberfranken/tvoberfranken.stream_1/playlist.m3u8,200 playlist,24 Kasım onay,yedek
+TVA Ostbayern,https://tvaktuellr.iptv-playoutcenter.de/tvaktuellr/tvaktuellr.stream_1/playlist.m3u8,200 playlist,24 Kasım onay,yedek
+HR 1,https://hlshr1.akamaized.net/hls/live/2016533/hr1/master.m3u8,200 playlist,24 Kasım onay,yedek
+HR Info,https://dispatcher.rndfnk.com/hr/hrinfo-sued/mp3/high,200 audio,24 Kasım onay,yedek
+Sachsen Eins,https://sachsen-media.stream29.radiohost.de/sachsen-media-sachseneins_mp3-192,200 audio,24 Kasım onay,yedek
+NIUS Radio,https://nius--di--nacs-ais-lgc--0a--cdn.cast.addradio.de/nius/live/mp3/high,200 audio,24 Kasım onay,yedek
+KONTRAFUNK,https://icecast.multhielemedia.de/listen/kontrafunk/radio.mp3,200 audio,24 Kasım onay,yedek
+Welt,https://welt.personalstream.tv/v1/master.m3u8,401 geo restricted,24 Kasım onay,atlandi
+Welt,https://live2weltcms-lh.akamaihd.net/i/Live2WeltCMS_1@444563/master.m3u8,403 geo,24 Kasım onay,koru
+ServusTV Deutschland,https://stv-live.akamaized.net/hls/live/2031012/lingeoSTVDEwebPri/master_3392.m3u8,403 geo,24 Kasım onay,koru
+Radio 21 TV,https://live.creacast.com/radio21/smil:radio21.smil/playlist.m3u8,403 html,24 Kasım onay,olu_kanal

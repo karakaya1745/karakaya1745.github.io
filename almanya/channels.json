@@ -1,6 +1,6 @@
 {
-  "_revision": 28,
-  "updatedAt": "2026-11-23T07:29:46.293Z",
+  "_revision": 29,
+  "updatedAt": "2026-11-24T06:09:25.471Z",
   "app": "ZapIt TV",
   "channels": [
     {
@@ -97,8 +97,13 @@
       "name": "ZDF",
       "type": "tv",
       "category": "public",
-      "geo_de_only": true,
+      "geo_de_only": false,
       "streams": [
+        {
+          "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/zdf/live.livx/playlist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
         {
           "url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/de/veryhigh/master.m3u8",
           "geo_de_only": true,
@@ -506,8 +511,13 @@
       "name": "ZDF Neo",
       "type": "tv",
       "category": "public",
-      "geo_de_only": true,
+      "geo_de_only": false,
       "streams": [
+        {
+          "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/zdfneo/live.livx/playlist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
         {
           "url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/de/veryhigh/master.m3u8",
           "geo_de_only": true,
@@ -560,8 +570,13 @@
       "name": "ZDF Info",
       "type": "tv",
       "category": "public",
-      "geo_de_only": true,
+      "geo_de_only": false,
       "streams": [
+        {
+          "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/zdfinfo/live.livx/playlist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
         {
           "url": "https://zdf-hls-17.akamaized.net/hls/live/2016500/de/veryhigh/master.m3u8",
           "geo_de_only": true,
@@ -3362,6 +3377,11 @@
           "url": "https://stream02.welocal.stream/stream/fhd-muenchentv_646215/ngrp:stream_all/playlist.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3492,6 +3512,11 @@
           "url": "https://stream04.welocal.stream/stream/fhd-otv_496277/ngrp:stream_all/playlist.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://oberpfalztv.iptv-playoutcenter.de/oberpfalztv/oberpfalztv.stream_1/playlist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3559,6 +3584,11 @@
           "url": "https://stream01.welocal.stream/stream/fhd-tvmainfranken_255661/ngrp:stream_all/chunklist_b946000.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://tvtouringw.iptv-playoutcenter.de/tvtouringw/tvtouringw.stream_1/playlist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3573,6 +3603,11 @@
           "url": "https://stream02.welocal.stream/stream/fhd-tvo_480355/ngrp:stream_all/playlist.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://tvoberfranken.iptv-playoutcenter.de/tvoberfranken/tvoberfranken.stream_1/playlist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -3585,6 +3620,11 @@
       "streams": [
         {
           "url": "https://stream02.welocal.stream/stream/fhd-tvaktuell_385673/ngrp:stream_all/playlist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://tvaktuellr.iptv-playoutcenter.de/tvaktuellr/tvaktuellr.stream_1/playlist.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -3756,20 +3796,6 @@
         {
           "url": "https://cdn.oeins.de/index.m3u8",
           "geo_de_only": false,
-          "format": "hls"
-        }
-      ]
-    },
-    {
-      "id": "tv-radio-21-tv",
-      "name": "Radio 21 TV",
-      "type": "tv",
-      "category": "yerel",
-      "geo_de_only": true,
-      "streams": [
-        {
-          "url": "https://live.creacast.com/radio21/smil:radio21.smil/playlist.m3u8",
-          "geo_de_only": true,
           "format": "hls"
         }
       ]
@@ -4077,6 +4103,11 @@
         },
         {
           "url": "https://stream.sachsen-media.de/sachsen-media-sachseneins/mp3-192?ref=radio-browser",
+          "geo_de_only": false,
+          "format": "audio"
+        },
+        {
+          "url": "https://sachsen-media.stream29.radiohost.de/sachsen-media-sachseneins_mp3-192",
           "geo_de_only": false,
           "format": "audio"
         }
@@ -5158,6 +5189,11 @@
           "url": "https://hr-radio.ard-mcdn.de/hr/radio/hr1rm/hls/192/seglist.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://hlshr1.akamaized.net/hls/live/2016533/hr1/master.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
         }
       ]
     },
@@ -5329,6 +5365,11 @@
           "url": "https://hr-radio.ard-mcdn.de/hr/radio/hrinfo/hls/192/seglist.m3u8",
           "geo_de_only": false,
           "format": "hls"
+        },
+        {
+          "url": "https://dispatcher.rndfnk.com/hr/hrinfo-sued/mp3/high",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -9746,6 +9787,11 @@
           "url": "https://radio.nius.de/live",
           "geo_de_only": false,
           "format": "audio"
+        },
+        {
+          "url": "https://nius--di--nacs-ais-lgc--0a--cdn.cast.addradio.de/nius/live/mp3/high",
+          "geo_de_only": false,
+          "format": "audio"
         }
       ]
     },
@@ -9758,6 +9804,11 @@
       "streams": [
         {
           "url": "https://stream.kontrafunk.radio/listen/kontrafunk/radio.mp3",
+          "geo_de_only": false,
+          "format": "mp3"
+        },
+        {
+          "url": "https://icecast.multhielemedia.de/listen/kontrafunk/radio.mp3",
           "geo_de_only": false,
           "format": "mp3"
         }

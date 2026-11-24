@@ -377,7 +377,7 @@ const TV_YEREL = yerelMap([
   ["Hessen", ["OK Kassel", "OK Rhein-Main"]],
   [
     "Niedersachsen",
-    ["oldenburg eins", "Ems TV", "TV38 Südost-Niedersachsen", "Radio 21 TV"],
+    ["oldenburg eins", "Ems TV", "TV38 Südost-Niedersachsen"],
   ],
   ["Nordrhein-Westfalen", ["NRWision"]],
   [

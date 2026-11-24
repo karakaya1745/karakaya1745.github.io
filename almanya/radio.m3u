@@ -112,6 +112,8 @@ https://dispatcher.rndfnk.com/hr/hr1/live/mp3/low
 https://dispatcher.rndfnk.com/hr/hr1/rheinmain/high
 #EXTINF:-1 tvg-id="radio-hr-1" tvg-name="HR 1" group-title="public",HR 1 (6)
 https://hr-radio.ard-mcdn.de/hr/radio/hr1rm/hls/192/seglist.m3u8
+#EXTINF:-1 tvg-id="radio-hr-1" tvg-name="HR 1" group-title="public",HR 1 (7)
+https://hlshr1.akamaized.net/hls/live/2016533/hr1/master.m3u8
 #EXTINF:-1 tvg-id="radio-hr-2-kultur" tvg-name="HR 2 Kultur" group-title="public",HR 2 Kultur (1)
 https://dispatcher.rndfnk.com/hr/hr2/live/mp3/high
 #EXTINF:-1 tvg-id="radio-hr-2-kultur" tvg-name="HR 2 Kultur" group-title="public",HR 2 Kultur (2)
@@ -166,6 +168,8 @@ https://hlshrinfo.akamaized.net/hls/live/2016539/hrinfo/master.m3u8
 https://hr-radio.ard-mcdn.de/hr/radio/hrinfo/hls/master.m3u8
 #EXTINF:-1 tvg-id="radio-hr-info" tvg-name="HR Info" group-title="public",HR Info (5)
 https://hr-radio.ard-mcdn.de/hr/radio/hrinfo/hls/192/seglist.m3u8
+#EXTINF:-1 tvg-id="radio-hr-info" tvg-name="HR Info" group-title="public",HR Info (6)
+https://dispatcher.rndfnk.com/hr/hrinfo-sued/mp3/high
 #EXTINF:-1 tvg-id="radio-you-fm-mp3-high" tvg-name="YOU FM (mp3/high)" group-title="public",YOU FM (mp3/high) (1)
 https://dispatcher.rndfnk.com/hr/youfm/live/mp3/high
 #EXTINF:-1 tvg-id="radio-you-fm-mp3-high" tvg-name="YOU FM (mp3/high)" group-title="public",YOU FM (mp3/high) (2)
@@ -1472,8 +1476,12 @@ https://streams.deltaradio.de/delta-live/mp3-192
 https://stream.radio-hsf.de/hsf.mp3
 #EXTINF:-1 tvg-id="radio-nius-radio" tvg-name="NIUS Radio" group-title="news",NIUS Radio (1)
 https://radio.nius.de/live
+#EXTINF:-1 tvg-id="radio-nius-radio" tvg-name="NIUS Radio" group-title="news",NIUS Radio (2)
+https://nius--di--nacs-ais-lgc--0a--cdn.cast.addradio.de/nius/live/mp3/high
 #EXTINF:-1 tvg-id="radio-kontrafunk" tvg-name="KONTRAFUNK" group-title="news",KONTRAFUNK (1)
 https://stream.kontrafunk.radio/listen/kontrafunk/radio.mp3
+#EXTINF:-1 tvg-id="radio-kontrafunk" tvg-name="KONTRAFUNK" group-title="news",KONTRAFUNK (2)
+https://icecast.multhielemedia.de/listen/kontrafunk/radio.mp3
 #EXTINF:-1 tvg-id="radio-domradio-de" tvg-name="domradio.de" group-title="religious",domradio.de (1)
 https://dom.audiostream.io/domradio/1000/mp3/128/domradio-rp.mp3
 #EXTINF:-1 tvg-id="radio-domradio-de" tvg-name="domradio.de" group-title="religious",domradio.de (2)
