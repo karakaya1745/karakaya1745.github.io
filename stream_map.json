@@ -1,5 +1,5 @@
 {
-  "_revision": 221,
+  "_revision": 222,
   "duyuru": [
     "https://karakaya1745.github.io/guncelleme_duyuru.m3u8"
   ],
@@ -3299,7 +3299,8 @@
     "https://tv-trtturk.medya.trt.com.tr/master_1080.m3u8",
     "https://tv-trtturk.medya.trt.com.tr/master_360.m3u8",
     "https://tv-trtturk.medya.trt.com.tr/master_480.m3u8",
-    "https://tulixcdn.com/dvrfl05/gin-trtturk/tracks-v1a1/mono.m3u8"
+    "https://tulixcdn.com/dvrfl05/gin-trtturk/tracks-v1a1/mono.m3u8",
+    "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/trt_turk/live.livx/playlist.m3u8"
   ],
   "trtturku": [
     "https://rd-trtturku.medya.trt.com.tr/master.m3u8"
