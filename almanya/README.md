@@ -23,7 +23,7 @@ Uygulama önce `metadata.json` indirir. `revision` veya `channels.json` sha256 d
 | --- | --- |
 | `sources/tv.csv`, `sources/tv.m3u` | Ham TV ölçümü. CSV'de ölü (`failed`) satırlar da durur. |
 | `sources/radio.csv`, `sources/radio.m3u` | Ham radyo ölçümü. CSV'de denenmemiş düz `http` satırları da durur. |
-| `sources/onay-2026-10-15.csv` … `onay-2026-11-24.csv` | Onaylanan ekler ve silinecek veya sona alınan linkler. |
+| `sources/onay-2026-10-15.csv` … `onay-2026-11-25.csv` | Onaylanan ekler ve silinecek veya sona alınan linkler. |
 | `sources/catalog-retest-2026-10-18.json` | 18 Ekim yeniden testi (ölü, statik, şüpheli). |
 | `tv.m3u`, `radio.m3u` | Yayımlanan, temizlenmiş listeler. Ölü ve denenmemiş link yoktur. |
 | `channels.json` | Uygulamanın indirdiği katalog. |
@@ -139,6 +139,8 @@ Radyo CSV'sinde aynı istasyon adının altında kardeş yayınlar da `(1)`, `(2
 `sources/onay-2026-11-23.csv` 23 Kasım taramasıdır. 111 adres ölü işaretlenmişti; her biri bir kez daha denendi. Finest TV zaman aşımında kaldığı için çıkar. MeieTV sertifikası süresi dolduğu için çıkar. Hitradio Ohr'un `edge67` adresi zaman aşımında kaldığı için çıkar; kanalın diğer beş yayını durur. Aynı denemede çalma listesi veya 403 dönen 108 adres durur. Radio 21 TV 403 döndüğü için durur. Radyo kanalı Radio 21 durur. `shopping` sonda, son ad iSTUFF.
 
 `sources/onay-2026-11-24.csv` 24 Kasım onayıdır. ZDF, ZDF Info ve ZDF Neo'ya çalışan redge yedekleri, beş yerel kanala çalışan playoutcenter yedekleri, HR 1, HR Info, Sachsen Eins, NIUS Radio ve KONTRAFUNK'a birer çalışan yedek eklenir. Welt `personalstream` adresi 401 döndüğü için eklenmez. Welt Akamai ve ServusTV `master_3392` adresleri 403 döndüğü için durur. Radio 21 TV'nin tek linki geçerli bir HLS yayını döndürmediği için kanal çıkar. Radyo kanalı Radio 21 durur. Bild kanalları eklenmez. `shopping` sonda, son ad iSTUFF.
+
+`sources/onay-2026-11-25.csv` 25 Kasım onayıdır. K-TV ana listesi, SWR4 seglist, Radio Gütersloh, delta radio ve Radio Teddy'nin üç adresi 200 yayın döndüğü için durur. Campusradio Mannheim (Radioaktiv) üç denemede de zaman aşımına uğradığı ve tek linki olduğu için çıkar. Franken Fernsehen'e çalışan playoutcenter yedeği eklenir. Yeni kanal yok. `shopping` sonda, son ad iSTUFF.
 
 ## Sıra
 

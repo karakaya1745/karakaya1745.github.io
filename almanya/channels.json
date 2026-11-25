@@ -1,6 +1,6 @@
 {
-  "_revision": 29,
-  "updatedAt": "2026-11-24T06:09:25.471Z",
+  "_revision": 30,
+  "updatedAt": "2026-11-25T07:50:39.850Z",
   "app": "ZapIt TV",
   "channels": [
     {
@@ -3332,6 +3332,11 @@
       "streams": [
         {
           "url": "https://stream03.welocal.stream/stream/fhd-frankenfernsehen_199261/ngrp:stream_all/playlist.m3u8",
+          "geo_de_only": false,
+          "format": "hls"
+        },
+        {
+          "url": "https://frankentv.iptv-playoutcenter.de/frankentv/frankentv.stream_1/playlist.m3u8",
           "geo_de_only": false,
           "format": "hls"
         }
@@ -7626,20 +7631,6 @@
         },
         {
           "url": "https://mp3.querfunk.de/qfhi",
-          "geo_de_only": false,
-          "format": "audio"
-        }
-      ]
-    },
-    {
-      "id": "radio-campusradio-mannheim-radioaktiv",
-      "name": "Campusradio Mannheim (Radioaktiv)",
-      "type": "radio",
-      "category": "regional",
-      "geo_de_only": false,
-      "streams": [
-        {
-          "url": "https://stream.radioaktiv.org/VeryHiFi",
           "geo_de_only": false,
           "format": "audio"
         }

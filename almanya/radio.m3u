@@ -850,8 +850,6 @@ https://stream.querfunk.de/qfhi
 https://stream.querfunk.de/qfhi/hls.m3u8
 #EXTINF:-1 tvg-id="radio-querfunk-karlsruhe" tvg-name="Querfunk Karlsruhe" group-title="regional",Querfunk Karlsruhe (3)
 https://mp3.querfunk.de/qfhi
-#EXTINF:-1 tvg-id="radio-campusradio-mannheim-radioaktiv" tvg-name="Campusradio Mannheim (Radioaktiv)" group-title="regional",Campusradio Mannheim (Radioaktiv) (1)
-https://stream.radioaktiv.org/VeryHiFi
 #EXTINF:-1 tvg-id="radio-sunshine-live" tvg-name="Sunshine Live" group-title="regional",Sunshine Live (1)
 https://stream.sunshine-live.de/live/mp3-192/stream.sunshine-live.de/
 #EXTINF:-1 tvg-id="radio-sunshine-live" tvg-name="Sunshine Live" group-title="regional",Sunshine Live (2)
