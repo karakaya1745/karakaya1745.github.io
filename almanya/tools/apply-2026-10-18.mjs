@@ -539,7 +539,6 @@ const RADIO_REGIONAL = radioRegional([
       "Radio 7",
       "Schwarzwaldradio",
       "Querfunk Karlsruhe",
-      "Campusradio Mannheim (Radioaktiv)",
       "Sunshine Live",
       "baden.fm",
     ],

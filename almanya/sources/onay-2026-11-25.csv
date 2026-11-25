@@ -1,0 +1,10 @@
+kanal,link,durum,kaynak,tur
+K-TV,https://d1pz8zear993v8.cloudfront.net/hlsme/kathtv.m3u8,200 playlist,25 Kasım onay,koru
+SWR4,https://swr-radio.ard-mcdn.de/swr/radio/swr4bw/hls/192/seglist.m3u8,200 playlist,25 Kasım onay,koru
+Radio Gütersloh,https://ams.stream33.radiohost.de/ams-radioguetersloh_mp3-192,200 audio,25 Kasım onay,koru
+delta radio,https://streams.deltaradio.de/delta-live/mp3-192/tunein/,302 then 200 audio,25 Kasım onay,koru
+Radio Teddy,https://streamtdy.ir-media-tec.com/live/mp3-128/radioplayer_web/play.mp3,302 then 200 audio,25 Kasım onay,koru
+Radio Teddy,https://streamtdy.ir-media-tec.com/live/aac-64/tunein_web_aac,302 then 200 audio,25 Kasım onay,koru
+Radio Teddy,https://streamtdy.ir-media-tec.com/live/mp3-128/tunein_web_mp3,302 then 200 audio,25 Kasım onay,koru
+Campusradio Mannheim (Radioaktiv),https://stream.radioaktiv.org/VeryHiFi,timeout x3,25 Kasım onay,olu_kanal
+Franken Fernsehen,https://frankentv.iptv-playoutcenter.de/frankentv/frankentv.stream_1/playlist.m3u8,200 playlist,25 Kasım onay,yedek
