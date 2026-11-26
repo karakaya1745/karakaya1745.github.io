@@ -1,5 +1,5 @@
 {
-  "_revision": 222,
+  "_revision": 223,
   "duyuru": [
     "https://karakaya1745.github.io/guncelleme_duyuru.m3u8"
   ],
@@ -1228,6 +1228,7 @@
   ],
   "kanal7": [
     "https://kanal7-live.daioncdn.net/kanal7/kanal7_1080p.m3u8",
+    "http://89.187.191.41/Kanal-7-HD-TR/video.m3u8",
     "https://yurhnwtpys.turknet.ercdn.net/cvmbjbpmdx/kanal7/kanal7_1080p.m3u8",
     "https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8",
     "https://kanal7.daioncdn.net/kanal7/kanal7.m3u8?app=f99587ad-1637-494d-8255-da35b09d17a1",
@@ -3400,6 +3401,7 @@
   ],
   "tv8": [
     "https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?app=tv8_web",
+    "http://89.187.191.41/TV8-HD-TR/video.m3u8",
     "https://tv8.daioncdn.net/tv8/tv8.m3u8?app=tv8_web",
     "https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?&sid=7uwoyq6usvp2&app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=2",
     "https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8/tv8.m3u8",
